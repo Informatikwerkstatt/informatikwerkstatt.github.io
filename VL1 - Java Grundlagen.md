@@ -4,39 +4,39 @@ permalink: /java-grundlagen/
 ---
 
 # Informatikwerkstatt - WS2018/19
-### Java Grundlagen
+__Java Grundlagen__
 
 ---
 
-## Sie sprechen Java, oder?
+# Sie sprechen Java, oder?
 
 ---
 
-## Quellcode, Compiler, Binary, App - hä was bitte?
+# Quellcode, Compiler, Binary, App - hä was bitte?
 
 ---
 
-## Hello-World
+# Hello-World
 
 ---
 
-## Hilfe ich kann nicht klicken - Commandline
+# Hilfe ich kann nicht klicken - Commandline
 
 ---
 
-## Let's try
+# Let's try
 
 ---
 
-## Programmaufbau
+# Programmaufbau
 
 ---
 
-## Schlüsselwörter
+# Schlüsselwörter
 
 ---
 
-## Datentypen
+# Datentypen
 
 ---
 
