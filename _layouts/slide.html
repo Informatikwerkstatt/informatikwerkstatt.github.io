@@ -37,66 +37,28 @@
 <body>
     <div class="reveal">
         <div class="slides">
-                <section data-markdown  data-separator="^\n---\n$" data-separator-vertical="^\n--\n$">
-                    <textarea data-template>
-                ## Demo 2
-                Slide 1.1
-
-                --
-
-                ## Demo 2
-                Slide 1.2
-
-                ---
-
-                ## Demo 2
-                Slide 2
-                    </textarea>
-            </section>
+                <section>
+                        <h1>About My Product</h1>
+                        <p>My product discussed here</p>		
+                    </section>
+        
+                    <section id="show-a-link">
+                        <h1>Show a live link</h1>
+                        <p>Slide 2 discussed here</p>
+                        <p>See <a href="http://www.htmlcheats.com">HTMLCheats.com</a><p>
+                    </section>
+        
+                    <section>
+                        <h1>Slide 3</h1>
+                        <p>How does one revisit an arbitrary slide in code?</p>
+                        <p>Visit internal slide<a href="#/show-a-link"> 2</a>
+                    </section>
         </div>
     </div>
     <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/lib/js/head.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/js/reveal.min.js"></script>
     <script>
     Reveal.initialize({
-        progress: true,
-        history: true,
-        center: true,
-        keyboard: true,
-        overview: true,
-        touch: true,
-        loop: false,
-        rtl: false,
-	    shuffle: false,
-        fragments: true,
-        fragmentInURL: false,
-        embedded: false,
-	    help: true,
-        showNotes: false,
-        autoPlayMedia: null,
-        hideAddressBar: true,
-        controls: true,
-        controlsTutorial: true,
-        controlsLayout: 'bottom-right',
-        controlsBackArrows: 'faded',
-        transition: 'fade',
-        transitionSpeed: 'default',
-        display: 'block',
-        width: "100%",
-	    height: "100%",
-	    margin: 0.1,
-	    minScale: 0.5,
-	    maxScale: 1.5,
-        dependencies: [
-            { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-            { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/markdown/markdown.min.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-            { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-            { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/highlight/highlight.min.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-            { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/search/search.min.js', async: true },
-            { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/zoom-js/zoom.min.js', async: true },
-            { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/notes/notes.min.js', async: true },
-            { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/math/math.min.js', async: true }
-        ]
     });
     </script>
 </body>
