@@ -35,20 +35,26 @@
     <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/lib/js/html5shiv.js"></script>
     <![endif]-->
-
-
-    <script>
-        var link = document.createElement( 'link' );
-        link.rel = 'stylesheet';
-        link.type = 'text/css';
-        link.href = window.location.search.match( /print-pdf/gi ) ? '{{ "/reveal.js/css/print/pdf.css" | prepend: site.baseurl }}' : '{{ "/reveal.js/css/print/paper.css" | prepend: site.baseurl }}';
-        document.getElementsByTagName( 'head' )[0].appendChild( link );
-    </script>
 </head>
 <body>
     <div class="reveal">
-        <div class="slides"  data-separator="<hr />" data-separator-vertical="<p>~~</p>" data-separator-notes="<p>Note:</p>">
-          {{ content }}
+        <div class="slides">
+        <section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$">
+            <script type="text/template">
+                ## Demo 2
+                Slide 1.1
+
+                --
+
+                ## Demo 2
+                Slide 1.2
+
+                ---
+
+                ## Demo 2
+                Slide 2
+            </script>
+        </section>
         </div>
     </div>
     <script>
