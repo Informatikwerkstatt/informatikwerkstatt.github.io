@@ -8,11 +8,11 @@ __Java Grundlagen__
 
 ---
 
-# Sie sprechen Java, oder?
+# Sie sprechen Java?
 
 ---
 
-# Quellcode, Compiler, Binary, App - hä was bitte?
+# Quellcode, Compiler, Binary, App - hä?
 
 ---
 
