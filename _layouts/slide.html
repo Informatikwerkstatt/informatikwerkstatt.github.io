@@ -38,6 +38,10 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/js/reveal.min.js"></script>
     <script>
     Reveal.initialize({
+        dependencies: [
+            { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/markdown/markdown.min.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+        ]
     });
     </script>
 </body>
