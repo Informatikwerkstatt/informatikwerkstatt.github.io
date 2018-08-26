@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+<!doctype html>
 <html lang="de">
 <head>
     <meta charset="utf-8" />
@@ -16,23 +16,11 @@
         <meta name="description" content="{{ site.description }}" />
     {% endif %}
 
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" />
-    
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/css/reveal.min.css" />
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/css/theme/white.min.css" id="theme" />
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/css/print/pdf.min.css" />
-    <link ref="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/vs.min.css" />
-    {% if site.extra_css %}
-        {% for css_file in site.extra_css %}
-            <link rel="stylesheet" href="{{ css_file }}" />
-        {% endfor %}
-    {% endif %}
-
     <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/lib/js/html5shiv.js"></script>
-    <![endif]-->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/lib/js/html5shiv.js"></script>
+	<![endif]-->
 </head>
 <body>
     <div class="reveal">
