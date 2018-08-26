@@ -30,8 +30,6 @@
         {% endfor %}
     {% endif %}
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/lib/js/head.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/js/reveal.min.js"></script>
     <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/lib/js/html5shiv.js"></script>
     <![endif]-->
@@ -57,34 +55,48 @@
             </section>
         </div>
     </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/lib/js/head.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/js/reveal.min.js"></script>
     <script>
     Reveal.initialize({
-        controls: true,
         progress: true,
         history: true,
         center: true,
-
+        keyboard: true,
+        overview: true,
+        touch: true,
+        loop: false,
+        rtl: false,
+	    shuffle: false,
+        fragments: true,
+        fragmentInURL: false,
+        embedded: false,
+	    help: true,
+        showNotes: false,
+        autoPlayMedia: null,
+        hideAddressBar: true,
+        controls: true,
+        controlsTutorial: true,
+        controlsLayout: 'bottom-right',
+        controlsBackArrows: 'faded',
+        transition: 'fade',
+        transitionSpeed: 'default',
+        display: 'block',
         width: "100%",
-		height: "100%",
-		margin: 0,
-
+	    height: "100%",
+	    margin: 0.1,
+	    minScale: 0.5,
+	    maxScale: 1.5,
         dependencies: [
             { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
             { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/markdown/markdown.min.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-        ]
-
-        /*
-        		minScale: 1,
-		maxScale: 1,
-                transition: 'fade',
-        dependencies: [
             { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
             { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/highlight/highlight.min.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
             { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/search/search.min.js', async: true },
             { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/zoom-js/zoom.min.js', async: true },
             { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/notes/notes.min.js', async: true },
             { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/math/math.min.js', async: true }
-        ]*/
+        ]
     });
     </script>
 </body>
