@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title | strip_html }}</title>
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/css/print/pdf.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/css/reveal.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href=//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/css/theme/white.min.css" crossorigin="anonymous">
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/highlight/highlight.min.js" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/lib/js/classList.js" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/lib/js/head.min.js" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/lib/js/html5shiv.js" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/highlight/highlight.min.js" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/markdown/markdown.min.js" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/math/math.min.js" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/print-pdf/print-pdf.min.js" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/search/search.min.js" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/zoom-js/zoom.min.js" crossorigin="anonymous"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/js/reveal.min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section data-separator="^\n\n" data-separator-vertical="^---" data-separator-notes="^Note:" data-charset="utf-8">
+                <textarea data-template>
+                {{ content }}
+                </textarea>
+            </section>
+        </div>    
+    </div>
+    <script>Reveal.initialize();</script>
+</body>
+</html>

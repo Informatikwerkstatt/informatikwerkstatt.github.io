@@ -2,3 +2,4 @@
 !.gitignore
 !_config.yml
 !*.md
+!_layouts/*.html
