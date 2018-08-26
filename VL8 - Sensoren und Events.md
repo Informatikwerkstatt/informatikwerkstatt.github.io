@@ -4,7 +4,7 @@ permalink: /sensoren-events/
 ---
 
 # Informatikwerkstatt - WS2018/19
-### Sensoren & Events
+__Sensoren & Events__
 
 ---
 

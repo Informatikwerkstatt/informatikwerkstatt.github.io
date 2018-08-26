@@ -4,7 +4,7 @@ permalink: /tablet-einrichtung/
 ---
 
 # Informatikwerkstatt - WS2018/19
-### Tablet Einrichtung
+__Tablet Einrichtung__
 
 ---
 

@@ -4,7 +4,7 @@ permalink: /git-github/
 ---
 
 # Informatikwerkstatt - WS2018/19
-### Git & Github
+__Git & Github__
 
 ---
 

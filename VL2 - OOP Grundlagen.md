@@ -4,7 +4,7 @@ permalink: /oop-grundlagen/
 ---
 
 # Informatikwerkstatt - WS2018/19
-### Objekt-Orientierte Programmierung Grundlagen
+__Objekt-Orientierte Programmierung Grundlagen__
 
 ---
 

@@ -4,7 +4,7 @@ permalink: /android-grundlagen/
 ---
 
 # Informatikwerkstatt - WS2018/19
-### EinfĂźhrung Java
+__Android Grundlagen__
 
 ---
 

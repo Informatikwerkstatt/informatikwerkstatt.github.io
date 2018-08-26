@@ -6,16 +6,23 @@ permalink: /organisation/
 # Informatikwerkstatt - WS2018/19
 __Organisation__
 
+---
 
 ## Informatikwerkstatt - Warum?
 
+---
 
 ## Wer sind wir?
 
+---
 
 ## Die Spielregeln
 
+---
+
 ## Ablauf & Termine
+
+---
 
 ### Vorlesung mit Übung
 
@@ -36,16 +43,26 @@ __Organisation__
 * 01. Feb - 3. Milestone
 * 08. Feb - 4. Milestone / Finale Präsentation
 
+---
+
 ## Ziele, die jeder erreichen soll
 
 * Grundlagen in der Java Programmierung
 * Grundlagen der Projektorganisation im Team
 * Zusammenarbeit im Team
 
+---
+
 ## Was kann ich alles machen?
+
+---
 
 ## Wo bekomme ich Hilfe?
 
+---
+
 ## Wo kann ich mich zusammensetzen und arbeiten?
+
+---
 
 ## Trick, Tips & Kniffe
