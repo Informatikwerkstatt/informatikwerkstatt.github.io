@@ -9,19 +9,22 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/css/print/pdf.min.css" crossorigin="anonymous">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/css/reveal.min.css" crossorigin="anonymous">
-    <link rel="stylesheet" href=//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/css/theme/white.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/css/reveal.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/css/theme/white.min.css" id="theme">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/css/print/pdf.min.css">
+    {% if site.extra_css %}
+        {% for css_file in site.extra_css %}
+            <link rel="stylesheet" href="{{ css_file }}">
+        {% endfor %}
+    {% endif %}
 
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/print-pdf/print-pdf.min.js" crossorigin="anonymous"></script>
-
+    <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/js/reveal.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/lib/js/head.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/print-pdf/print-pdf.min.js"></script>
     <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/lib/js/html5shiv.js"></script>
     <![endif]-->
-
-    <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/lib/js/head.min.js" crossorigin="anonymous"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/js/reveal.min.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="reveal">
@@ -35,7 +38,6 @@
 				progress: true,
 				history: true,
 				center: true,
-
 				transition: 'fade',
                 dependencies: [
 					{ src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
