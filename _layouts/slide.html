@@ -27,9 +27,17 @@
         <div class="slides">
             <section data-markdown>
                 <textarea data-template>
-                    ## Page title
-            
+                    # Page title
                     A paragraph with some text and a [link](http://hakim.se).
+                    
+                    ---
+                    
+                    ## Foo Slide
+                    * List
+
+                    ---
+
+                    ## Bar Slide
                 </textarea>
             </section>
         </div>
@@ -38,9 +46,18 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/js/reveal.min.js"></script>
     <script>
     Reveal.initialize({
+        transition: 'fade',
+        transitionSpeed: 'slow',
         dependencies: [
             { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
             { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/markdown/markdown.min.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+            { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/highlight/highlight.min.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+            { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/search/search.min.js', async: true },
+            { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/zoom-js/zoom.min.js', async: true },
+            { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/notes/notes.min.js', async: true },
+            { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/math/math.min.js', async: true }
+
         ]
     });
     </script>
