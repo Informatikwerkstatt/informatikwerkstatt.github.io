@@ -3,5 +3,5 @@ layout: slide
 permalink: /user-interface/
 ---
 
-# Informatikwerkstatt - WS2018/19
+# Informatikwerkstatt
 __User Interface__

@@ -3,7 +3,7 @@ layout: slide
 permalink: /git-github/
 ---
 
-# Informatikwerkstatt - WS2018/19
+# Informatikwerkstatt
 __Git & Github__
 
 ---
@@ -24,6 +24,10 @@ __Git & Github__
 
 ---
 
+## Push - Pull - Add - Commit
+
+---
+
 ## Merge Conflict
 
 ---
@@ -36,7 +40,7 @@ __Git & Github__
 
 ---
 
-## Organisation
+## Organisationen
 
 ---
 

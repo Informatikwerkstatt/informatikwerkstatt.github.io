@@ -3,7 +3,7 @@ layout: slide
 permalink: /android-grundlagen/
 ---
 
-# Informatikwerkstatt - WS2018/19
+# Informatikwerkstatt
 __Android Grundlagen__
 
 ---
@@ -38,4 +38,4 @@ __Android Grundlagen__
 
 ## @Home
 
-1. installation von [Android Studio](https://developer.android.com/studio/)
+1. Installation von [Android Studio](https://developer.android.com/studio/)

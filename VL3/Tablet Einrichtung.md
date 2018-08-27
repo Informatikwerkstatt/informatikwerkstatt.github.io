@@ -3,7 +3,7 @@ layout: slide
 permalink: /tablet-einrichtung/
 ---
 
-# Informatikwerkstatt - WS2018/19
+# Informatikwerkstatt
 __Tablet Einrichtung__
 
 ---

@@ -3,7 +3,7 @@ layout: slide
 permalink: /sensoren-events/
 ---
 
-# Informatikwerkstatt - WS2018/19
+# Informatikwerkstatt
 __Sensoren & Events__
 
 ---

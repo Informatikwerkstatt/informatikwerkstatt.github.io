@@ -30,7 +30,6 @@ __Organisation__
 | Hendrik Czolbe | Nikita Maslov | Niklas Schünemann |
 |:--------------:|:-------------:|:-----------------:|
 
-
 ---
 
 ## Die Spielregeln

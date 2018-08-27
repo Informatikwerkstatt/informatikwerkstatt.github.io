@@ -3,7 +3,7 @@ layout: slide
 permalink: /java-grundlagen/
 ---
 
-# Informatikwerkstatt - WS2018/19
+# Informatikwerkstatt
 __Java Grundlagen__
 
 ---

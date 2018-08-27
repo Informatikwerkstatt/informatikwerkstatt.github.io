@@ -3,7 +3,7 @@ layout: slide
 permalink: /addons/
 ---
 
-# Informatikwerkstatt - WS2018/19
+# Informatikwerkstatt
 __Addons__
 
 ---

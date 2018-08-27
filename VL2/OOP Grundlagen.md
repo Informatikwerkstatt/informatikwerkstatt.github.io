@@ -3,7 +3,7 @@ layout: slide
 permalink: /oop-grundlagen/
 ---
 
-# Informatikwerkstatt - WS2018/19
+# Informatikwerkstatt
 __Objekt-Orientierte Programmierung Grundlagen__
 
 ---
