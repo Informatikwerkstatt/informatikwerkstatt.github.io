@@ -40,9 +40,41 @@ Die [Kommandozeile](https://de.wikipedia.org/wiki/Kommandozeile) ist eine Anwend
 * Starten der einfachen Beispiele von Hand
 * Verstehen, wie der Compileprozess und die Ausführung des Javaprogramms funktioniert
 
+===
+
+### Befehle
+
+===
+
+### Compilieren der Sourcen
+
+Übersetzen des geschriebenen Quellcodes in _maschinen Sprache_
+
+```shell
+javac HelloWorld.java
+```
+
+===
+
+### Ausführen des Programms
+
+```shell
+java HelloWorld
+```
+
 ---
 
-# Let's try
+## Let's try
+
+1. Starte _Visual Studio Code_
+2. Erstelle leere Datei mit dem Namen ```HelloWorld.java```
+3. Kopiere oder schreibe den Beispielcode des Hello-World-Programms __exakt, wie angegegben,__ in die Datei
+4. Speichere die Datei auf dem Desktop
+5. Öffne die _Eingabeaufforderung_
+6. Schau mittels ```dir``` wo der Desktop ist
+7. Wechsel mit ```cd``` auf den Desktop
+8. Compiliere das Programm
+9. Führe das Programm aus
 
 ---
 
@@ -50,7 +82,12 @@ Die [Kommandozeile](https://de.wikipedia.org/wiki/Kommandozeile) ist eine Anwend
 
 ---
 
-# Schlüsselwörter
+# Java Keywords
+
+Java besitzt [50 Keywords](https://en.wikipedia.org/wiki/List_of_Java_keywords), die in der Sprachdefinition festgelegt sind.
+
+* Keywords definieren meist den Basis Syntax (Befehle) einer Programmiersprache
+* Sie dürfen nicht als Variablen-, Funktions-, Mehoden-, Klassennamen benutzt werden
 
 ---
 
@@ -90,7 +127,7 @@ Die [Kommandozeile](https://de.wikipedia.org/wiki/Kommandozeile) ist eine Anwend
 
 ---
 
-## Task-Manager
+## Kill it - Der Task-Manager
 
 ---
 
@@ -98,7 +135,7 @@ Die [Kommandozeile](https://de.wikipedia.org/wiki/Kommandozeile) ist eine Anwend
 
 ---
 
-## Wirf den Fehler - Exception
+## Wirf den Fehler - Throw-Exception
 
 ---
 
