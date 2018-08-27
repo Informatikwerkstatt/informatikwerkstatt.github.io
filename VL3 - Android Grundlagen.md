@@ -38,4 +38,4 @@ __Android Grundlagen__
 
 ## @Home
 
-1. 
+1. installation von [Android Studio](https://developer.android.com/studio/)

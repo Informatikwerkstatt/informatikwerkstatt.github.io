@@ -57,3 +57,6 @@ __Git & Github__
 ---
 
 ## @Home
+
+* [Git Bash](https://git-scm.com/downloads)
+* [Git Kraken](https://www.gitkraken.com/)
