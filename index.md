@@ -11,7 +11,7 @@
     * [Tablet Einrichtung](/tablet-einrichtung/)
 * [VL4 - Git & Github](/git-github/)
 * [VL5 - User Interface](/user-interface/)
-* [VL6 - Activity & Threading](/activity-threading/)
+* [VL6 - Threads - Activities - Intent](/threads-activities-intent/)
 * [VL7 - Fragmente & Persistenz](/fragment-persistenz/)
 * [VL8 - Sensoren & Events](/sensoren-events/)
 * [VL9 - Addons](/addons/)

@@ -10,6 +10,8 @@ __Sensoren & Events__
 
 ## Wo, Wie und Was - Welche Sensoren gibt es?
 
+
+
 ---
 
 ## Der Manager

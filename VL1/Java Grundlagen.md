@@ -98,11 +98,15 @@ Die [Kommandozeile](https://de.wikipedia.org/wiki/Kommandozeile) ist eine Anwend
 
 ---
 
-## Wer kennt E-V-A?
+## Wirf den Fehler - Exception
 
 ---
 
-## Algorithmen
+## Fange den Fehler - try-catch
+
+---
+
+## Let's try
 
 ---
 

@@ -34,6 +34,22 @@ __Android Grundlagen__
 
 ## Let's try
 
+--
+
+## Deployment
+
+---
+
+## Let's try
+
+---
+
+## Schreib' es hin - Der Logger
+
+---
+
+## Let's try
+
 ---
 
 ## @Home

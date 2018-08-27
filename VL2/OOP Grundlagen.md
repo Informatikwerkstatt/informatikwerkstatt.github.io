@@ -20,11 +20,23 @@ __Objekt-Orientierte Programmierung Grundlagen__
 
 ---
 
+## Instantiierung
+
+---
+
+## Let's try
+
+---
+
 ## Methoden
 
 ---
 
-## Instantiierung
+## Getter
+
+---
+
+## Setter
 
 ---
 

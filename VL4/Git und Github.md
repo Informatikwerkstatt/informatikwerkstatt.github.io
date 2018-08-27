@@ -24,11 +24,7 @@ __Git & Github__
 
 ---
 
-## Push - Pull - Add - Commit
-
----
-
-## Merge Conflict
+## Add & Commit
 
 ---
 
@@ -40,11 +36,27 @@ __Git & Github__
 
 ---
 
-## Organisationen
+## Github Account
 
 ---
 
 ## Projekt & Repository
+
+---
+
+## Push & Pull
+
+---
+
+## Merge Conflict
+
+---
+
+## Let's try
+
+---
+
+## Organisationen
 
 ---
 

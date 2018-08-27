@@ -16,6 +16,10 @@ __Tablet Einrichtung__
 
 ---
 
+## Google Account
+
+---
+
 ## Entwicklermodus
 
 ---
