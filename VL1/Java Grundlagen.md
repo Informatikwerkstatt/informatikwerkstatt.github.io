@@ -32,7 +32,7 @@ public class HelloWorld
 
 ---
 
-# Hilfe ich kann nicht klicken - Kommandozeile
+# Kommandozeile - ich kann nicht klicken!?
 
 Die [Kommandozeile](https://de.wikipedia.org/wiki/Kommandozeile) ist eine Anwendung, um mittels Befehlseingabe Programme auszuführen. Wir benutzen die Kommandozeile für
 
@@ -74,7 +74,7 @@ Die [Kommandozeile](https://de.wikipedia.org/wiki/Kommandozeile) ist eine Anwend
 
 ---
 
-## Vergleiche und Operatoren
+## Größer, Kleiner, Gleich - Vergleiche und Operatoren
 
 ---
 
