@@ -26,11 +26,11 @@
 <body>
     <div class="reveal">
         <div class="slides">
-                <section data-markdown data-separator="^---$">
-                        <textarea data-template>
-                            {{ page.content }}
-                        </textarea>
-                    </section>
+                <section data-markdown data-separator="^---$" data-separator-vertical="^===$" data-seperator-notes="^Note:">
+                    <textarea data-template>
+                        {{ page.content }}
+                    </textarea>
+                </section>
         </div>
     </div>
     <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/lib/js/head.min.js"></script>
@@ -42,6 +42,12 @@
         dependencies: [
             { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
             { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/markdown/markdown.min.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+            { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/highlight/highlight.min.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+            { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/search/search.min.js', async: true },
+            { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/zoom-js/zoom.min.js', async: true },
+            { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/notes/notes.min.js', async: true },
+            { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/math/math.min.js', async: true }
         ]
     });
     </script>
