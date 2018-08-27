@@ -23,12 +23,18 @@
     <!--[if lt IE 9]>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/lib/js/html5shiv.js"></script>
     <![endif]-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
-        var link = document.createElement( 'link' );
-        link.rel = 'stylesheet';
-        link.type = 'text/css';
-        link.href = window.location.search.match( /print-pdf/gi ) ? '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/css/print/pdf.min.css' : '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/css/print/paper.css';
-        document.getElementsByTagName( 'head' )[0].appendChild( link );
+        jQuery( 'head' ).append(
+            jQuery( '<link>' )
+            .attr( 'rel', 'stylesheet' )
+            .attr( 
+                'href', 
+                window.location.search.match( /print-pdf/gi ) 
+                ? '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/css/print/pdf.min.css' 
+                : '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/css/print/paper.css'
+            )
+        )
     </script>
 </head>
 <body>
