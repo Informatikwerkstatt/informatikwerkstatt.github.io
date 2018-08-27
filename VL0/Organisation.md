@@ -57,10 +57,10 @@ Um zu
 
 * 23. Okt - Organisation & Java Grundlagen
 * 26. Okt - OOP Grundlagen
-* 02. Nov - Android Grundlagen & Tablet Einrichtung
-* 09. Nov - Git Einführung
+* 02. Nov - Git & Github Einführung
+* 09. Nov - Android Grundlagen & Tablet Einrichtung
 * 16. Nov - User Interface
-* 23. Nov - Activity & Threading
+* 23. Nov - Threads - Activities - Intent
 * 30. Nov - Fragmente & Persistenz
 * 07. Dez - Sensoren & Events
 
