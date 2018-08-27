@@ -3,7 +3,7 @@ layout: slide
 permalink: /organisation/
 ---
 
-# Informatikwerkstatt - WS2018/19
+# Informatikwerkstatt
 __Organisation__
 
 ---
