@@ -18,9 +18,27 @@ __Java Grundlagen__
 
 # Hello-World
 
+Ein [Hello-World-Programm](https://de.wikipedia.org/wiki/Hallo-Welt-Programm) ist ein Minimalbeispiel für ein Programm in einer Programmiersprache
+
+```java
+public class HelloWorld
+{
+	public static void main( String[] p_args )
+	{
+		System.out.println( "Hello, World" );
+	}
+}
+```
+
 ---
 
-# Hilfe ich kann nicht klicken - Commandline
+# Hilfe ich kann nicht klicken - Kommandozeile
+
+Die [Kommandozeile](https://de.wikipedia.org/wiki/Kommandozeile) ist eine Anwendung, um mittels Befehlseingabe Programme auszuführen. Wir benutzen die Kommandozeile für
+
+* Compilieren der einfachen Beispiele von Hand
+* Starten der einfachen Beispiele von Hand
+* Verstehen, wie der Compileprozess und die Ausführung des Javaprogramms funktioniert
 
 ---
 
@@ -65,6 +83,14 @@ __Java Grundlagen__
 ---
 
 ## Wieder und wieder und wieder... - Schleifen
+
+---
+
+## Infinity Loop
+
+---
+
+## Task-Manager
 
 ---
 
