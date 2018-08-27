@@ -3,17 +3,17 @@
 <head>
     <meta charset="utf-8" />
     <title>
-        {% if page.title %}
-          {{ page.title }} | {{ site.title }}
-        {% else %}
-          {{ site.title }}
-        {% endif %}
+    {% if page.title %}
+    {{ page.title }} | {{ site.title }}
+    {% else %}
+    {{ site.title }}
+    {% endif %}
     </title>
 
     {% if page.description %}
-        <meta name="description" content="{{ page.description }}" />
+    <meta name="description" content="{{ page.description }}" />
     {% else %}
-        <meta name="description" content="{{ site.description }}" />
+    <meta name="description" content="{{ site.description }}" />
     {% endif %}
 
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/css/reveal.min.css" />
@@ -21,10 +21,13 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/css/print/paper.css" />
     <link rel="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/css/print/pdf.min.css" />
     <link ref="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/vs.min.css" />
+    <link ref="stylesheet" href="/layout.css" />
+    
+
     <!--[if lt IE 9]>
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/lib/js/html5shiv.js"></script>
     <![endif]-->
-    
+
     <script>
         var link = document.createElement( 'link' );
         link.rel = 'stylesheet';

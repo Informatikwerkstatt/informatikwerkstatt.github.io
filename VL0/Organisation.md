@@ -8,7 +8,7 @@ __Organisation__
 
 ---
 
-## Informatikwerkstatt - Warum?
+## Warum?
 
 Um zu
 
@@ -128,10 +128,10 @@ Lernen heisst aber selbstständig erarbeiten, beim Kopieren lernt man nicht!
     * [Stackoverflow](https://stackoverflow.com/) 
     * [Java Newsgroup](https://groups.google.com/forum/#!forum/comp.lang.java.programmer)
     * [Android Developers](https://developer.android.com/support)
-* Für auslädnische Studierende
+* Für ausländische Studierende
     * [IZC H.E.L.P.](https://www.izc.tu-clausthal.de/sprachenzentrum/deutsch/help/) 
     * [IZC Sprachtandem](https://www.izc.tu-clausthal.de/sprachenzentrum/deutsch/sprachtandem/)
-* bei den Tutoren und uns - Beachtet aber unsere Arbeit- und Wochenendzeiten, wir arbeiten nicht 24 Stunden 7 Tage die Woche
+* Tutoren und uns - Beachtet aber unsere Arbeit- und Wochenendzeiten, wir arbeiten nicht 24 Stunden 7 Tage die Woche
 
 __Lernt selbstständig und frühzeitig zu recherchieren__
 

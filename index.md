@@ -1,6 +1,6 @@
 ## Informatikwerkstatt WS 2018/2019
 
-[Repositores](https://github.com/informatikwerkstatt)
+[Repositories](https://github.com/informatikwerkstatt)
 
 ## Scripte
 
