@@ -1,4 +1,4 @@
- @import url(//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/lib/font/source-sans-pro/source-sans-pro.css);
+ @import url("//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/lib/font/source-sans-pro/source-sans-pro.css");
  section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
    color: #fff; }
  
@@ -11,7 +11,7 @@
  
  .reveal {
    font-family: "Source Sans Pro", Helvetica, sans-serif;
-   font-size: 24px;
+   font-size: 36px;
    font-weight: normal;
    color: #222; }
  
