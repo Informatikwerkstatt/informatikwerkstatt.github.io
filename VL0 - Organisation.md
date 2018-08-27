@@ -16,21 +16,20 @@ __Organisation__
 
 ### Mitarbeiter
 
-* Philipp Kraus (Vorlesung)
-    * inhaltliche Fragen / Inhalte
-    * Projektthemen
-    * technische Probleme
+| Philipp Kraus | Stefanie Schneider |
+|:-------------:|:------------------:|
+| Vorlesung     | Organisation       |
+| inhaltliche Fragen / Inhalte | Anwesenheit  |
+| Projektthemen | Krankmeldungen |
+| technische Probleme | Terminorganisation  |
 
-* Stefanie Schneider (Organisation)
-    * Anwesenheit
-    * Krankmeldungen
-    * Terminorganisation
+===
 
 ### Tutoren
 
-* Hendrik Czolbe
-* Nikita Maslov
-* Niklas Schünemann
+| Hendrik Czolbe | Nikita Maslov | Niklas Schünemann |
+|:--------------:|:-------------:|:-----------------:|
+
 
 ---
 
@@ -58,6 +57,8 @@ __Organisation__
 * 30. Nov - Fragmente & Persistenz
 * 07. Dez - Sensoren & Events
 
+===
+
 ### Projektzeitraum (ab Dez)
 
 * 04. Dez - Vorstellung der Projektideen als Kurzvortrag
@@ -65,6 +66,8 @@ __Organisation__
 * 18. Jan - 2. MIlestone
 * 01. Feb - 3. Milestone
 * 08. Feb - 4. Milestone / Finale Präsentation
+
+===
 
 ### Ablauf
 
