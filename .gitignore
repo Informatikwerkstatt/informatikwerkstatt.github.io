@@ -2,4 +2,5 @@
 !.gitignore
 !_config.yml
 !*.md
+!*.css
 !_layouts/*.html
