@@ -17,8 +17,8 @@
     {% endif %}
 
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/css/reveal.min.css" />
-    <link rel="stylesheet" href="/layout.css" id="theme" />
-    <link ref="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/androidstudio.min.css" />
+    <link rel="stylesheet" href="/assets/layout.css" id="theme" />
+    <link ref="stylesheet" href="/assets/androidstudio.min.css" />
     
     <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/lib/js/html5shiv.js"></script>
@@ -57,19 +57,11 @@
             { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
             { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/markdown/markdown.min.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
             { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-            { src: '//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js', async: true, callback: function() { 
-                jQuery( 'head' )
-                    .append( jQuery( '<script/>' ).attr( 'type', 'text/javascript' ).attr( 'src', '//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js' ) )
-                    .append( jQuery( '<script/>' ).attr( 'type', 'text/javascript' ).attr( 'src', '//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/json.min.js' ) )
-                    .append( jQuery( '<script/>' ).attr( 'type', 'text/javascript' ).attr( 'src', '//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js' ) )
-                    .append( jQuery( '<script/>' ).attr( 'type', 'text/javascript' ).attr( 'src', '//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/shell.min.js' ) )
-                    .append( jQuery( '<script/>' ).attr( 'type', 'text/javascript' ).attr( 'src', '//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/powershell.min.js' ) )
-                hljs.initHighlightingOnLoad();    
-            } },
             { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/search/search.min.js', async: true },
             { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/zoom-js/zoom.min.js', async: true },
             { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/notes/notes.min.js', async: true },
-            { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/math/math.min.js', async: true }
+            { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/math/math.min.js', async: true },
+            { src: '/assets/highlight.pack.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
         ]
     });
     </script>
