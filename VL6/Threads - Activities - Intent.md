@@ -41,5 +41,3 @@ __Threads - Activities - Intent__
 ---
 
 ## Let's try
-
-

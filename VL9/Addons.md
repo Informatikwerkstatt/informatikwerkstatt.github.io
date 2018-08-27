@@ -49,6 +49,3 @@ __Addons__
 ---
 
 ## Cloud-Service Heroku
-
-
-

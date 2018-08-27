@@ -49,7 +49,3 @@ __Fragmente & Persistenz__
 ---
 
 ## Let's try
-
----
-
-

@@ -145,7 +145,7 @@ __Lernt selbstständig und frühzeitig zu recherchieren__
 
 ---
 
-## Trick, Tips & Kniffe
+## Tipps
 
 * Don't Panic - ruhig bleiben Problemen hilft
 * Manches funktioniert nicht auf Anhieb
