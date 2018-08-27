@@ -10,6 +10,8 @@ __Java Grundlagen__
 
 # Sie sprechen Java?
 
+* Erscheinung 1995
+
 ---
 
 # Quellcode, Compiler, Binary, App - hä?

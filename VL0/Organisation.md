@@ -27,7 +27,7 @@ Um zu
 | Philipp Kraus | Stefanie Schneider |
 |:-------------:|:------------------:|
 | Vorlesung     | Organisation       |
-| inhaltliche Fragen / Inhalte | Anwesenheit  |
+| inhaltliche Fragen | Anwesenheit  |
 | Projektthemen | Krankmeldungen |
 | technische Probleme | Terminorganisation  |
 

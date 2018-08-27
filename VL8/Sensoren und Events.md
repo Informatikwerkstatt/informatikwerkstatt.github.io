@@ -1,6 +1,6 @@
 ---
 layout: slide
-permalink: /sensoren-events/
+permalink: /sensoren-resourcen/
 ---
 
 # Informatikwerkstatt
@@ -10,6 +10,9 @@ __Sensoren & Events__
 
 ## Wo, Wie und Was - Welche Sensoren gibt es?
 
+---
+
+## Darf ich? - Berechtigungen
 
 
 ---
@@ -22,4 +25,12 @@ __Sensoren & Events__
 
 ---
 
+### Wo bin ich? - GPS Sensor
 
+---
+
+## Ordnung ist das halbe Leben - Resourcen
+
+---
+
+## Alternativen

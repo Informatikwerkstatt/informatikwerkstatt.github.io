@@ -8,11 +8,11 @@ __Fragmente & Persistenz__
 
 ---
 
-## Für immer und ewig
+## Groß oder klein - Fragmente
 
 ---
 
-## Rein und Raus des Status Quo
+## Activities & Fragmente
 
 ---
 
@@ -20,7 +20,23 @@ __Fragmente & Persistenz__
 
 ---
 
-## Gemeinsame Interessen – Shared-Preferences
+## Fragmente Lifetime
+
+---
+
+## Dynamische Oberflächen
+
+---
+
+## Let's try
+
+---
+
+## Für immer und ewig - Persistenz
+
+---
+
+## Rein und Raus des Status Quo
 
 ---
 

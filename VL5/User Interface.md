@@ -35,7 +35,7 @@ __User Interface__
 
 ## Eigenschaften
 
---
+---
 
 ## Let's try
 
@@ -55,10 +55,10 @@ __User Interface__
 
 ## Layout Inflater - Pump it up
 
---
+---
 
 ## Let's try
 
---
+---
 
-@Home
+## @Home

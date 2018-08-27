@@ -13,5 +13,5 @@
 * [VL5 - User Interface](/user-interface/)
 * [VL6 - Threads - Activities - Intent](/threads-activities-intent/)
 * [VL7 - Fragmente & Persistenz](/fragment-persistenz/)
-* [VL8 - Sensoren & Events](/sensoren-events/)
+* [VL8 - Sensoren & Resourcen](/sensoren-resourcen/)
 * [VL9 - Addons](/addons/)
