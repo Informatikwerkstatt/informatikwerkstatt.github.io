@@ -58,6 +58,18 @@ Wir behandeln hier nur kurz die Berechtigungen, im Foliensatz [Sensoren & Resour
 
 ---
 
+## Fehlersuche
+
+===
+
+### Breakpoints & debugger
+
+=== 
+
+### Println - Developers Best Friend
+
+---
+
 ## @Home
 
 1. Installation von [Android Studio](https://developer.android.com/studio/)

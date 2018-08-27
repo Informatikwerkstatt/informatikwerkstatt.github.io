@@ -76,6 +76,17 @@ __Git & Github__
 
 ---
 
+## Die Handschrift - Styleguide
+
+* [Ungarische Notation](https://de.wikipedia.org/wiki/Ungarische_Notation)
+* [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+
+===
+
+### How-to write
+
+---
+
 ## @Home
 
 * [Git Bash](https://git-scm.com/downloads)
