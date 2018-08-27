@@ -10,6 +10,14 @@ __Organisation__
 
 ## Informatikwerkstatt - Warum?
 
+Um zu
+
+* __motivieren__, selbstständig zu werden
+* __probieren__, ob Ihr mit dem Informatiker-Denken klar kommt
+* __kommunizieren__, mit Euren Kommilitonen und uns
+* __experimentieren__, was Euch Spaß macht (Theorie / Praxis)
+* __bleiben__, damit Ihr Euer Studium erfolgreich in Clausthal bestreiten könnt
+
 ---
 
 ## Wer sind wir?
@@ -70,10 +78,12 @@ __Organisation__
 
 ### Ablauf
 
-* Sie sollen in jeder Veranstaltung am Rechner mitarbeiten und direkt das Gelernte ausprobieren
-* Sie können auch mit Ihrem eigenen Laptop arbeiten, müssen aber die Tools selbstständig installieren
-* Sie haben links und rechts Kommillitonen sitzen, denen Sie helfen können oder die Ihnen helfen könnnen &rarr; kommunizieren Sie mit ihnen
-* Sie dürfen sich auch während der Veranstaltung an andere Tische setzen und leise diskutieren / helfen
+Ihr sollt
+
+* in jeder Veranstaltung am Rechner mitarbeiten
+* direkt das Gelernte ausprobieren
+* links und rechts mit Euren Kommilitone sprechen
+* während der Veranstaltung leise diskutieren und Euch gegenseitig helfen
 
 ---
 
@@ -93,27 +103,27 @@ __Organisation__
 
 ## Wir bietet nur die Basis
 
-* Nutzen Sie die Gelegenheit selbstständig sich auszuprobieren
-* Wir geben Ihnen nur eine Basis, Sie müssen selbst aktiv werden und diese Basis erweitern &rarr; Wir helfen Ihnen mehr zu lernen
-* Das Script ist __nur__ eine Basis, tauschen Sie sich untereinander selbst aus
-* Im Team lernen Sie am meisten &rarr; arbeiten Sie mit unterschiedlichen Menschen hier zusammen
+* Probiert selbstständig alles aus
+* Werdet aktiv bei Problemen / Fragen &rarr; Wir helfen Euch mehr zu lernen
+* Das Script ist __nur__ eine Basis
+* Im Team lernen Ihr am meisten &rarr; arbeitet mit unterschiedlichen Menschen hier zusammen
 
-__Wir machen Ihnen die Tür auf, durch gehen und weiter gehen müssen Sie selbst__
+__Wir machen Euch die Tür auf, durchgehen und weitergehen müsst Ihr selbst__
 
 ---
 
 ## Darf ich Sachen aus dem Internet kopieren?
 
-Grundsätzlich _Ja_
-aber Sie müssen angeben, dass Sie sich etwas kopiert haben und woher. Bei Quellcodes müssen Sie auch die Lizenzbestimmungen lesen, ob sie den Code nur kopieren oder kopieren und verändern dürfen. Aber überlegen Sie sich, was Sie und wieviel Sie übernehmen, denn Sie lernen beim Kopieren nicht!
+Grundsätzlich __Ja__
+aber man muss angeben woher man sich etwas kopiert hat, sonst ist es ein [Plagieren](https://de.wikipedia.org/wiki/Plagiat) was zum Ausschluss führen kann.
 
-Geben Sie die Quellen nicht an, dann [plagieren](https://de.wikipedia.org/wiki/Plagiat) Sie, was mit Ausschluss geandet werden kann.
+Lernen heisst aber selbstständig erarbeiten, beim Kopieren lernt man nicht!
 
 ---
 
 ## Wo bekomme ich Hilfe?
 
-* Bei Ihren Kommillitonen während der Veranstaltung oder auch bei einem persönlichen Treffen
+* Kommillitonenz.B. bei einem persönlichen Treffen
 * Im Internet
     * [Stackoverflow](https://stackoverflow.com/) 
     * [Java Newsgroup](https://groups.google.com/forum/#!forum/comp.lang.java.programmer)
@@ -121,9 +131,9 @@ Geben Sie die Quellen nicht an, dann [plagieren](https://de.wikipedia.org/wiki/P
 * Für auslädnische Studierende
     * [IZC H.E.L.P.](https://www.izc.tu-clausthal.de/sprachenzentrum/deutsch/help/) 
     * [IZC Sprachtandem](https://www.izc.tu-clausthal.de/sprachenzentrum/deutsch/sprachtandem/)
-* bei den Tutoren und uns - Beachten Sie aber unsere Arbeit- und Wochenendzeiten, wir arbeiten nicht 24 Stunden 7 Tage die Woche
+* bei den Tutoren und uns - Beachtet aber unsere Arbeit- und Wochenendzeiten, wir arbeiten nicht 24 Stunden 7 Tage die Woche
 
-__Lernen Sie selbstständig zu recherchieren__
+__Lernt selbstständig und frühzeitig zu recherchieren__
 
 ---
 
@@ -137,8 +147,8 @@ __Lernen Sie selbstständig zu recherchieren__
 
 ## Trick, Tips & Kniffe
 
-* Don't Panic - bleiben Sie ruhig bei Problemen
+* Don't Panic - ruhig bleiben Problemen hilft
 * Manches funktioniert nicht auf Anhieb
-* Gehen Sie systematisch bei Problemen vor
-* Sprechen Sie mit Ihren Kommillitonen / uns bei Problem frühzeitig, meist findet sich eine Lösung
+* Probleme lösen kann man durch systematisches Vorgehen, aber das muss man lernen
+* Wenn Probleme auftreten, meldet Euch frühzeitig, dann findet sich meist eine Lösung
 
