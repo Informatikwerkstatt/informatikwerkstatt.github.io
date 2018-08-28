@@ -44,6 +44,12 @@ __Objekt-Orientierte Programmierung Grundlagen__
 
 ===
 
+### Konstruktor
+
+<!-- was ist ein Ctor, wofür wird er benötigt -->
+
+===
+
 ### Getter
 
 <!-- was ist ein getter, wozu braucht man es -->
