@@ -13,9 +13,13 @@ __Java Grundlagen__
 * erschienen 1995
 * aktuell Java 11
 
+<!-- Allgemeine Infos zu Java, eine Subfolie für Java-Standalone am Rechner (Java Runtime), eine Subfolie für Java bei Android (Achtung die Infos auf Folien vom letzten Jahr stimmen nicht mehr Dalvik VM wird bei Android nicht mehr benutzt-->
+
 ---
 
 # Quellcode, Compiler, Binary, App - hä?
+
+<!-- Übersetzungsvorgang, compilieren + Bundeling -->
 
 ---
 
@@ -46,6 +50,8 @@ Die [Kommandozeile](https://de.wikipedia.org/wiki/Kommandozeile) ist eine Anwend
 ===
 
 ### Befehle
+
+<!-- Befehle der Windows / Mac Commandline, navigieren in Verzeichnissen & Verzeichnislisting -->
 
 ===
 
@@ -83,6 +89,8 @@ java HelloWorld
 
 # Programmaufbau
 
+<!-- wie ist der allgemeine Aufbau eines Java Programs, Stichwort Klasse, Stichwork main -->
+
 ---
 
 # Java Keywords
@@ -96,57 +104,85 @@ Java besitzt [50 Keywords](https://en.wikipedia.org/wiki/List_of_Java_keywords),
 
 # Datentypen
 
+<!-- Basisdatentypen, Text, Zahl, Boxing/Unboxing des Compilers -->
+
 ---
 
 ## Variablen
+
+<!-- Deklaration von Variablen, Nutzung von Variablen, Keywort "final" -->
 
 ---
 
 ## Typenumwandlung / Casting
 
+<!-- Was bedeutet Casting, wozu wird es benötigt, was ist der Sinn davon, was sind die Nachteile davon -->
+
 ---
 
 ## Let's try
+
+<!-- Codebeispiel Main-Programm, Variablen deklarieren, Variablen setzen, Variablen mit Println ausgeben -->
 
 ---
 
 ## Ja / Nein / Vielleicht - If-Else
 
+<!-- Aufbau von If-Else, Dangling Else -->
+
 ---
 
 ## Größer, Kleiner, Gleich - Vergleiche und Operatoren
 
+<!-- Operatoren erklären, Operatoren Precedence erklären -->
+
 ---
 
 ## Let's try
+
+<!-- Codebeispiel mit Variablen und If-Else -->
 
 ---
 
 ## Wieder und wieder und wieder... - Schleifen
 
+<!-- for, while und do-while Schleifen, wann benutzt man was anhand eines einfachen zu erklärenden Beispiels -->
+
 ---
 
 ## Infinity Loop
+
+<!-- while true, was passiert intern dabei -> CPU Last 100% -->
 
 ---
 
 ## Kill it - Der Task-Manager
 
+<!-- wie killt man ein hängendes Java Programm -->
+
 ---
 
 ## Let's try
+
+<!-- Schleifen-Beispiel + Infinity Loop Beispiel -->
 
 ---
 
 ## Wirf den Fehler - Throw-Exception
 
+<!-- Was sind Exception, Beispiel am besten Division durch 0 -->
+
 ---
 
 ## Fange den Fehler - try-catch
 
+<!-- wie behandelt man Exceptions -->
+
 ---
 
 ## Let's try
+
+<!-- Division durch Null Beispiel fangen + eigenes Beispiel wo eine RuntimeException geworfen wird -->
 
 ---
 
