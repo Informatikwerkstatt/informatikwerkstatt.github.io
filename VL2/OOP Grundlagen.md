@@ -30,6 +30,12 @@ __Objekt-Orientierte Programmierung Grundlagen__
 
 <!-- was macht new, Stichwort Speicher, am besten mit Boxen, wo man was rein tun kann erklären -->
 
+===
+
+### this
+
+<!-- was ist this, mit einem Schaubild -->
+
 ---
 
 ## Let's try

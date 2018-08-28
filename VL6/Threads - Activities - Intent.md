@@ -17,12 +17,12 @@ __Threads - Activities - Intent__
 
 ## Multithreading
 
-Multithreading ist das ausführen von _mehreren parallel Funktionen_ innerhalb eines Prozesses / Programms.
-
 * CPUs können mehrere solcher Prozesse parallel bearbeiten
 * CPU-Cores übernehmen dann die Verarbeitung einzelner Threads / Funktionen
 
-__Wir machen hier nur eine ganz knappe Einführung, Multithreading ist ein sehr komplexes Thema, um bedarf viel Wissen, wie dieses technisch funktioniert__
+> Multithreading ist das Ausführen von _mehreren parallel Funktionen_ innerhalb eines Prozesses / Programms.
+
+_Wir machen hier nur eine ganz knappe Einführung, Multithreading ist ein sehr komplexes Thema, um bedarf viel Wissen, wie dieses technisch funktioniert_
 
 ===
 
@@ -37,12 +37,12 @@ __Wir machen hier nur eine ganz knappe Einführung, Multithreading ist ein sehr 
 ### Thread-Klasse - Runnable
 
 ```java
-public final class CountingThread implements Runnable
+public final class CCounting implements Runnable
 {
     private final String m_text;
     private final int m_max;
 
-    public CountingThread( final String p_text, final int p_max )
+    public CCounting( final String p_text, final int p_max )
     {
         m_max = p_max;
         m_text = p_text;
@@ -62,22 +62,20 @@ public final class CountingThread implements Runnable
 ### Thread Ausführung
 
 ```java
-public final class HelloThread
+public final class CMain
 {
 
-    private HelloThread()
+    private CMain()
     {
     }
 
     public static void main( final String[] p_args )
     {
+        final Thread l_thread1 = new Thread( new CCounting( "erster Thread", 10 ) );
+        final Thread l_thread2 = new Thread( new CCounting( "zweiter Thread", 10 ) );
 
-        final Thread l_thread1 = new Thread( new CountingThread( "erster Thread", 10 ) );
-        final Thread l_thread2 = new Thread( new CountingThread( "zweiter Thread", 10 ) );
-
-        l_thread2.start();
         l_thread1.start();
-
+        l_thread2.start();
     }
 }
 ```
@@ -86,12 +84,13 @@ public final class HelloThread
 
 ## Let's try
 
-Klassen implementieren und mehrfach mal laufen lassen &rarr; Wie erklärt ihr Euch das Verhalten des Programms?
+Klassen implementieren und mehrfach mal laufen lassen 
+
+__&rarr; Wie erklärt ihr Euch das Verhalten des Programms?__
 
 ---
 
-## Synchron - Asynchron
-
+## Race Condition
 
 
 ---
