@@ -77,9 +77,38 @@ Um zu
 * 01. Feb - 3. Milestone
 * 08. Feb - 4. Milestone / Finale Präsentation
 
+---
+
+### Projektthemen
+
+Es dürfen gerne auch eigene Vorschläge (mit Rücksprache) umgesetzt werden
+
 ===
 
-### Ablauf
+### Beginner
+
+* Zeitplaner
+* [Türme von Hanoi](https://de.wikipedia.org/wiki/T%C3%BCrme_von_Hanoi)
+* Persönlicher Wecker
+* Ideenmanager
+
+===
+
+### Fortgeschrittene
+
+* Schleichwegdatenbank
+* [Simon says](https://de.wikipedia.org/wiki/Simon_says_(Spiel)) mit Kommunikation an alle Geräte, die in der Nähe sind und die App auch gestartet haben
+
+===
+
+### Profis
+
+* Schleichwegdatenbank mit externer Datenbank, in der alle Schleichwege gesammelt und allen Nutzern zur Verfügung gestellt werden
+* Party-Map, eine App mit der man alle Parties mit Tag in Clausthal verwalten kann und die für einen Abend anhand der Tags eine passende Route mit kürzesten Wegen durch Clausthal plant, so dass man viele Parties besuchen kann und nur kurze Wege laufen muss
+
+---
+
+## Genereller Ablauf
 
 Ihr sollt
 
