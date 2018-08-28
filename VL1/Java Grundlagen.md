@@ -10,7 +10,8 @@ __Java Grundlagen__
 
 # Sie sprechen Java?
 
-* Erscheinung 1995
+* erschienen 1995
+* aktuell Java 11
 
 ---
 

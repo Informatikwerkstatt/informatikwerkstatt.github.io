@@ -22,6 +22,8 @@ Um zu
 
 ## Wer sind wir?
 
+===
+
 ### Mitarbeiter
 
 | Philipp Kraus | Stefanie Schneider |
@@ -29,7 +31,7 @@ Um zu
 | Vorlesung     | Organisation       |
 | inhaltliche Fragen | Anwesenheit  |
 | Projektthemen | Krankmeldungen |
-| technische Probleme | Terminorganisation  |
+| technische Probleme | Ausgabe Geräte  |
 
 ===
 
@@ -43,11 +45,12 @@ Um zu
 ## Die Spielregeln
 
 * Anwesenheitspflicht
-    * betreute Übung Di 17-19 Uhr 
-    * Vorlesung Fr 13-15 Uhr
+    * betreute Übung Di 17-19 Uhr (IFI PC Pool)
+    * unbetreute Übung Mi 8-10 Uhr (IFI PC Pool)
+    * Vorlesung Fr 13-15 Uhr (IFI PC Pool)
 * pünktliches Erscheinen um 17 bzw. 13 Uhr (st / sic tempore)
 * einmaliges Zuspätkommen / Fehlen in einer der beiden genannten Veranstaltung
-* bei weiterem Fehlen Vorlage eines (ärztlichen) Attestes
+* bei weiterem Fehlen Vorlage eines (ärztlichen) Attests
 
 ---
 
