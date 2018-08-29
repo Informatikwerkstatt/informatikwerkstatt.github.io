@@ -18,23 +18,23 @@
 
 ### Tastatursteuerung der Folien
 
-* <kbd>?</kbd> &rarr; Zeige Tastaturbefehle
-* <kbd>O</kbd> &rarr; Folienübersicht
-* <kbd>F</kbd> &rarr; Vollbild
+* <kbd>?</kbd>: Zeige Tastaturbefehle
+* <kbd>O</kbd>: Folienübersicht
+* <kbd>F</kbd>: Vollbild
 
 <br/>
 
-* <kbd>SPACE</kbd> &rarr; nächste Folie
-* <kbd>P</kbd> &rarr; vorhergehende Folie
-* <kbd>←</kbd> &rarr; Navigation nach links (vorhergehende Folie)
-* <kbd>→</kbd> &rarr; Navigation nach rechts (nächste Folie)
-* <kbd>↓</kbd> &rarr; Navigation nach unten (nächste Unterfolie)
-* <kbd>↑</kbd> &rarr; Navigation nach oben (Unterfolie zurück)
+* <kbd>SPACE</kbd>: nächste Folie
+* <kbd>P</kbd>: vorhergehende Folie
+* <kbd>←</kbd>: Navigation nach links (vorhergehende Folie)
+* <kbd>→</kbd>: Navigation nach rechts (nächste Folie)
+* <kbd>↓</kbd>: Navigation nach unten (nächste Unterfolie)
+* <kbd>↑</kbd>: Navigation nach oben (Unterfolie zurück)
 
 <br/>
 
-* <kbd>Home</kbd> &rarr; erste Folie
-* <kbd>End</kbd> &rarr; letzte Folie
-* <kbd>B</kbd> &rarr; Pause (Blackout)
-* <kbd>S</kbd> &rarr; Sprechernotizen
-* <kbd>alt</kbd> + Klick &rarr; Zoom
+* <kbd>Home</kbd>: erste Folie
+* <kbd>End</kbd>: letzte Folie
+* <kbd>B</kbd>: Pause (Blackout)
+* <kbd>S</kbd>: Sprechernotizen
+* <kbd>Alt</kbd> + Klick: Zoom

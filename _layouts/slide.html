@@ -1,5 +1,5 @@
-<!doctype html>
-<html lang="de">
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
 <head>
     <meta charset="utf-8" />
     <title>
@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/css/reveal.min.css" />
     <link rel="stylesheet" href="/assets/layout.css" id="theme" />
     <link ref="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/androidstudio.min.css" />
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.3.1/css/all.css"crossorigin="anonymous">
     
     <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/lib/js/html5shiv.js"></script>
@@ -55,7 +56,6 @@
         transition: 'fade',
         transitionSpeed: 'slow',
         history: true,
-        showNotes: true,
         dependencies: [
             { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
             { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/markdown/markdown.min.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
