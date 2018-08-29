@@ -11,7 +11,8 @@ __Threads - Activities - Intent__
 ## Let's Dance
 
 * Wer hat einen Tanzkurs besucht?
-* Finden wir zwei, die einmal einen Walzer o.ä. vorführen können?
+* Gibt es ein Paar, dass einmal einen Walzer o.ä. vorführen können?
+* Gibt es zwei Freiwillige, die nicht tanzen können und es mit Anleitung probieren?
 
 --- 
 
@@ -19,7 +20,7 @@ __Threads - Activities - Intent__
 
 Heutige CPUs können mehrere Aufgaben parallel verarbeiten[^1]:
 
-> Multithreading das Ausführen von _mehreren parallel Funktionen_ innerhalb eines Prozesses / Programms.
+> [Multithreading](https://de.wikipedia.org/wiki/Multithreading) das Ausführen von _mehreren parallel Funktionen_ innerhalb eines Prozesses / Programms.
 
 [^1]: Wir machen hier nur eine ganz kurze Einführung in Multithreading, wird in späteren Vorlesungen noch einmal behandelt
 
@@ -27,9 +28,10 @@ Heutige CPUs können mehrere Aufgaben parallel verarbeiten[^1]:
 
 ### Threading in Java
 
-* es gibt 2 Interfaces, um [Threads-Ausführungen](https://www.baeldung.com/java-runnable-callable) zu implementieren
-	* [Runnable](https://docs.oracle.com/javase/10/docs/api/java/lang/Runnable.html) ohne Rückgabewerte
-	* [Callable](https://docs.oracle.com/javase/10/docs/api/java/util/concurrent/Callable.html) mit Rückgabewerte
+es gibt zwei Interfaces, um [Threads-Ausführungen](https://www.baeldung.com/java-runnable-callable) zu implementieren
+	
+* [Runnable](https://docs.oracle.com/javase/10/docs/api/java/lang/Runnable.html) ohne Rückgabewerte
+* [Callable](https://docs.oracle.com/javase/10/docs/api/java/util/concurrent/Callable.html) mit Rückgabewerte
 
 ===
 
@@ -133,7 +135,6 @@ Zufälliges Löschen von Elementen aus der Liste
 ```java
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
-
 
 public class CDelete implements Runnable
 {

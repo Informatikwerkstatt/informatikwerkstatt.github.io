@@ -10,9 +10,13 @@ __Android Grundlagen__
 
 ## Android - was ist das?
 
+[Android](https://de.wikipedia.org/wiki/Android_(Betriebssystem)) ist ein  Betriebsystem ([Freie Software](https://de.wikipedia.org/wiki/Freie_Software)) für mobile Geräte, das von Google entwickelt und 2008 veröffentlicht wurde
+
 ---
 
 ## Architektur
+
+![Plattform Architektur](https://developer.android.com/guide/platform/images/android-stack_2x.png)
 
 ---
 
