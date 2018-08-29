@@ -230,9 +230,8 @@
   * IMAGES
   *********************************************/
  .reveal section img {
-   margin: 10px 0px;
-   max-height: calc(85vh);
-   max-width: calc(85vw); }
+   max-height: calc(50vh);
+   max-width: calc(50vw); }
  
  .reveal section img.plain {
    border: 0;
@@ -244,9 +243,7 @@
    transition: all .15s linear; }
  
  .reveal a:hover img {
-   background: rgba(255, 255, 255, 0.2);
-   border-color: #2a76dd;
-   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
+   border-color: #2a76dd;}
  
  /*********************************************
   * NAVIGATION CONTROLS
