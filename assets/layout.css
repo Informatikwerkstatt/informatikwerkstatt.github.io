@@ -82,8 +82,8 @@
  .reveal img,
  .reveal video,
  .reveal iframe {
-   max-width: 95%;
-   max-height: 95%; }
+  max-height: calc(55vh);
+  max-width: calc(75vw); }
  
  .reveal strong,
  .reveal b {
@@ -232,11 +232,7 @@
  
  /*********************************************
   * IMAGES
-  *********************************************/
- .reveal section img {
-   max-height: calc(60vh);
-   max-width: calc(60vw); }
- 
+  *********************************************/ 
  .reveal section img.plain {
    border: 0;
    box-shadow: none; }

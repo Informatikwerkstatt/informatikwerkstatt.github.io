@@ -50,6 +50,19 @@ __Git & Github__
 
 <!-- einmal ein komplettes Repository erstellen lassen und initial etwas committen -->
 
+--
+
+## Branches
+
+<!-- was sind Branches, wofür sind sie gut, wie werden sie erstellt -->
+
+---
+
+## @Let's try
+
+<!-- Branch lokal erstellen, zwischen Branches wechseln -->
+
+
 ---
 
 ## Was ist Github?
@@ -82,6 +95,12 @@ __Git & Github__
 
 ---
 
+## Clone
+
+<!-- wie holt man sich ein Repository -->
+
+---
+
 ## Push & Pull
 
 <!-- wie wird ein locales mit einem remote Repository synchronisiert -->
@@ -92,11 +111,15 @@ __Git & Github__
 
 <!-- einmal erzeugt jeder in seinem eigenen Account ein Repo und pusht das vorhin erstellte Repo dorthin-->
 
+## Branches
+
+<!-- Branches bei Github, lokal / remote Verbindung -->
+
 ---
 
-## Clone
+## @Let's try
 
-<!-- wie holt man sich ein Repository -->
+<!-- lokalen Branch erstellen, remote pushen, lokal pullen -->
 
 ---
 
