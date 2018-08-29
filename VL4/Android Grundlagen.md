@@ -18,6 +18,10 @@ __Android Grundlagen__
 
 ![Plattform Architektur](https://developer.android.com/guide/platform/images/android-stack_2x.png)
 
+===
+
+
+
 ---
 
 ## Android Studio
