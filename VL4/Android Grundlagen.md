@@ -64,9 +64,7 @@ Es nimmt einem viel Arbeit ab!
 
 ---
 
-## @Let's try
-
-Wir erstellen eine _Hello-World-Android-App_, somit einmal _Android Studio_ starten.
+## @Let's try - Hello-World-Android-App
 
 ![Android Studio starten](images/as0_start.png)
 
