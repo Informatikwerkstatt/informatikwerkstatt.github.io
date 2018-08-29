@@ -8,7 +8,7 @@ __User Interface__
 
 ---
 
-## Aufbau
+## Interface Aufbau
 
 <!-- https://developer.android.com/training/basics/firstapp/building-ui -->
 
