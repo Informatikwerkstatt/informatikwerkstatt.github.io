@@ -231,10 +231,8 @@
   *********************************************/
  .reveal section img {
    margin: 10px 0px;
-   height: auto;
-   max-height: 100%;
-   width: auto;
-   max-width: 100%; }
+   max-height: calc(85vh);
+   max-width: calc(85vw); }
  
  .reveal section img.plain {
    border: 0;
