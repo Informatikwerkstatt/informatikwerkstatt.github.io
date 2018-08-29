@@ -2,6 +2,7 @@
 !.gitignore
 !_config.yml
 !*.md
+!*.png
 !assets/*.css
 !assets/*.js
 !_layouts/*.html

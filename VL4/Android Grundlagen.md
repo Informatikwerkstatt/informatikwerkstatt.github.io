@@ -60,14 +60,37 @@ Es nimmt einem viel Arbeit ab!
 * Unterstützung bei Befehlseingabe (Intelli-Sense) und Layout des Codes
 * Unterstützung beim Umbenennen von Codestrukturen
 * Bundeling & Deployment - Erzeugen der fertigen Applikcation
-
----
-
-## Android - Hello World
+* Enthält das [SDK](https://de.wikipedia.org/wiki/Software_Development_Kit), mit dem wir verschiedene Apps in verschiedenen Versionen und für verschiedene Geräte entwickeln können
 
 ---
 
 ## @Let's try
+
+Wir erstellen eine _Hello-World-Android-App_, somit einmal _Android Studio_ starten.
+
+![Android Studio starten](images/as0_start.png)
+
+===
+
+### Projekt erstellen
+
+![Android Projekt erstellen](images/as1_project.png)
+
+### Android SDK Version auswählen
+
+![Android SDK Version auswählen](images/as2_sdk.png)
+
+### Main Activity auswählen
+
+![Android Main Activity auswählen](images/as3_activity.png)
+
+### Activity konfigurieren
+
+![Android Main Activity konfigurieren](images/as4_config.png)
+
+### Projekt und Quellcode
+
+![Android Projekt erstellt](images/as5_source.png)
 
 ---
 
