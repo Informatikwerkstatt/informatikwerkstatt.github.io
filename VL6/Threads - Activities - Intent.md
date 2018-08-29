@@ -18,7 +18,7 @@ __Threads - Activities - Intent__
 
 ## Multithreading
 
-Heutige CPUs können mehrere Aufgaben parallel verarbeiten<sup>1<sup>:
+Heutige CPUs können mehrere Aufgaben parallel verarbeiten<sup>1</sup>:
 
 > [Multithreading](https://de.wikipedia.org/wiki/Multithreading) das Ausführen von _mehreren parallel Funktionen_ innerhalb eines Prozesses / Programms.
 

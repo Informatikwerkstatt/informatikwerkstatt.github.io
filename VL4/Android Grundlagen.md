@@ -20,7 +20,19 @@ __Android Grundlagen__
 
 ===
 
+### Muss ich das alles verstehen?
 
+__Nein__ die vollständige Architektur behandeln wir hier nicht, wir behandeln nur den kleinen Ausschnitt der _Activity_ und _Sensoren_.
+
+===
+
+### Wie kann ich dann eine App entwickeln?
+
+* Software wird heute _schichtweise_ aufgebaut
+* jede Schicht stellt so genannte [Schnittstellen (API)](https://de.wikipedia.org/wiki/Programmierschnittstelle) bereit
+* man muss nur immer die APIs verstehen, die man für seine Anwendung benötigt
+
+&rarr; Als (angehender) Informatiker darf man faul sein und muss lernen sich auf das _Wesentliche_ zu beschränken, der Rest kommt mit der Zeit
 
 ---
 
