@@ -88,8 +88,8 @@ Es dürfen gerne auch eigene Vorschläge (mit Rücksprache) umgesetzt werden
 
 ### Beginner
 
-* Zeitplaner
-* [Türme von Hanoi](https://de.wikipedia.org/wiki/T%C3%BCrme_von_Hanoi)
+* Zeitplaner einem Kalender, in dem ich täglich Slots mit Wiederholungen festlegen kann, wo ich freie Zeiten habe. Über sie UI kann ich dann einen Solot z.b. mit 2h Stunden suchen
+* [Türme von Hanoi](https://de.wikipedia.org/wiki/T%C3%BCrme_von_Hanoi) Spiel mit entsprechender Navigationsfunktionalität um die Scheiben zu verschieben. Die Scheibenanzahl soll beim Start einstellbar sein
 * Persönlicher Wecker
 * Ideenmanager
 
@@ -97,8 +97,10 @@ Es dürfen gerne auch eigene Vorschläge (mit Rücksprache) umgesetzt werden
 
 ### Fortgeschrittene
 
-* Schleichwegdatenbank
+* Schleichwegdatenbank um alle geheimen Abkürzen in Clausthal immer auf dem Handy zu haben
 * [Simon says](https://de.wikipedia.org/wiki/Simon_says_(Spiel)) mit Kommunikation an alle Geräte, die in der Nähe sind und die App auch gestartet haben
+* Touch-Guess ich male eine Touch-Geste auf dem Display und der Partner, der sich in der Nähe befindet, muss meine Geste durch zeichnen auf seinem Display erraten. Beide Nutzer bekommen ein Gitter angezeigt und in dem Gitter die Punkte, die sie bei der Geste berühren (ähnlich zum Login)
+
 
 ===
 

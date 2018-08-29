@@ -52,7 +52,7 @@ Notes: Zwei Studierende aufforderung Protokoll zu der Veranstaltung heute zu fü
 
 <!-- einmal ein komplettes Repository erstellen lassen und initial etwas committen -->
 
---
+---
 
 ## Branches
 
@@ -105,6 +105,12 @@ Notes: Verweisen auf die zwei Protokollanten
 
 ---
 
+## @Profi - Clone Recursive
+
+<!-- Submodule kurz anreißen und dazu rekursives Clonen erläutern und einmal den Befehlssyntax zeigen -->
+
+---
+
 ## Push & Pull
 
 <!-- wie wird ein locales mit einem remote Repository synchronisiert -->
@@ -114,6 +120,8 @@ Notes: Verweisen auf die zwei Protokollanten
 ## @Let's try
 
 <!-- einmal erzeugt jeder in seinem eigenen Account ein Repo und pusht das vorhin erstellte Repo dorthin-->
+
+---
 
 ## Branches
 
