@@ -79,9 +79,9 @@ public final class CMain
 }
 ```
 
----
+===
 
-## Let's try
+### Let's try
 
 Klassen implementieren und mehrfach laufen lassen 
 
@@ -160,8 +160,6 @@ public class CDelete implements Runnable
 
 ### Main-Programm
 
-__&rarr; Was passiert und wie erklärt Ihr Euch bei den unterschiedlichen Listen das Verhalten?__
-
 ```java
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -199,6 +197,14 @@ public final class CMain
     }
 }
 ```
+
+===
+
+### Let's try
+
+Klassen implementieren und einmal mit der Zeile ```LinkedList``` und einmal mit der Zeile ```ArrayList``` laufen lassen 
+
+__&rarr; Was passiert und wie erklärt Ihr Euch bei den unterschiedlichen Listen das Verhalten?__
 
 ---
 
