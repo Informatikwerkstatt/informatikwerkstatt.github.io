@@ -38,6 +38,29 @@ __Nein__ die vollständige Architektur behandeln wir hier nicht, wir behandeln n
 
 ## Android Studio
 
+[Android Studio](https://developer.android.com/studio/) ist eine [Entwicklungsumgebung](https://de.wikipedia.org/wiki/Integrierte_Entwicklungsumgebung) zur Software-Entwicklung.
+
+> Ist ein etwas komplizierterer Editor mit vielen Funktionen, wo man meist viele bunte Knöpfe zum klicken hat
+
+===
+
+### Integrierte Entwicklungsumgebung - IDE
+
+* Basis von Android Studio ist [Intellij](https://www.jetbrains.com/idea/) der Firma [Jetbrains](https://www.jetbrains.com/)
+* Intellij ist für generelle Java Entwicklung gedacht und gibt es auch als kostenlose _Community Edition_ zum Download
+* Alternative [Eclipse](https://www.eclipse.org/)
+
+===
+
+### Wofür brauche ich das?
+
+Es nimmt einem viel Arbeit ab!
+
+* Organisation des Quellcodes und Resourcen
+* Unterstützung bei Befehlseingabe (Intelli-Sense) und Layout des Codes
+* Unterstützung beim Umbenennen von Codestrukturen
+* Bundeling & Deployment - Erzeugen der fertigen Applikcation
+
 ---
 
 ## Android - Hello World

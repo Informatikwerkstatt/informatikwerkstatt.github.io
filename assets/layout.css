@@ -230,8 +230,8 @@
   * IMAGES
   *********************************************/
  .reveal section img {
-   max-height: calc(50vh);
-   max-width: calc(50vw); }
+   max-height: calc(60vh);
+   max-width: calc(60vw); }
  
  .reveal section img.plain {
    border: 0;
