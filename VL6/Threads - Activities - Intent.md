@@ -124,6 +124,8 @@ public final class CAppend implements Runnable
 }
 ```
 
+===
+
 ### Thread 2 - Zufälliges Löschen
 
 Zufälliges Löschen von Elementen aus der Liste
@@ -157,10 +159,6 @@ public class CDelete implements Runnable
 ===
 
 ### Main-Programm
-
-Erzeugen einer Liste, dann erzeugen einer weiteren Liste für alle Threads, 10 Threads, wobei zufällig ein Thread für das Löschen und einer für das Hinzufügen von Elementen erstellt wird, Thread starten und warten bis alle fertig sind.
-
-__&rarr; Was passiert und wie erklärt Ihr Euch bei den unterschiedlichen Listen das Verhalten?__
 
 ```java
 import java.util.ArrayList;
@@ -199,6 +197,8 @@ public final class CMain
     }
 }
 ```
+
+__&rarr; Was passiert und wie erklärt Ihr Euch bei den unterschiedlichen Listen das Verhalten?__
 
 ---
 
