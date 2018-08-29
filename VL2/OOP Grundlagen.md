@@ -38,7 +38,7 @@ __Objekt-Orientierte Programmierung Grundlagen__
 
 ---
 
-## Let's try
+## @Let's try
 
 <!-- Beispiel Klasse erstellen mit ein paar Eigenschaften und aus der main Instantiieren -->
 
@@ -68,7 +68,7 @@ __Objekt-Orientierte Programmierung Grundlagen__
 
 ---
 
-## Let's try
+## @Let's try
 
 <!-- Beispiel mit Getter / Setter + eine eigene Methode, die irgendetwas mit den Eigenschaften macht -->
 
@@ -86,7 +86,7 @@ __Objekt-Orientierte Programmierung Grundlagen__
 
 ---
 
-## Let's try
+## @Let's try
 
 <!-- static mit private / public, Methoden mit public / private -->
 
@@ -110,7 +110,7 @@ __Objekt-Orientierte Programmierung Grundlagen__
 
 ---
 
-## Let's try
+## @Let's try
 
 <!-- ein Beispiel mit Interface und 2 abgeleiteten Klassen vom Interface und dann noch einer dritten Klasse, die von einer Klasse abgeleitet wurde -->
 

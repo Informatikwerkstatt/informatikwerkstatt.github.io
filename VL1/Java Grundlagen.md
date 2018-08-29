@@ -8,7 +8,7 @@ __Java Grundlagen__
 
 ---
 
-# Sie sprechen Java?
+## Sie sprechen Java?
 
 * erschienen 1995
 * aktuell Java 11
@@ -17,13 +17,13 @@ __Java Grundlagen__
 
 ---
 
-# Quellcode, Compiler, Binary, App - hä?
+## Quellcode, Compiler, Binary, App - hä?
 
 <!-- Übersetzungsvorgang, compilieren + Bundeling -->
 
 ---
 
-# Hello-World
+## Hello-World
 
 Ein [Hello-World-Programm](https://de.wikipedia.org/wiki/Hallo-Welt-Programm) ist ein Minimalbeispiel für ein Programm in einer Programmiersprache
 
@@ -39,7 +39,7 @@ public class HelloWorld
 
 ---
 
-# Kommandozeile - ich kann nicht klicken!?
+## Kommandozeile - ich kann nicht klicken!?
 
 Die [Kommandozeile](https://de.wikipedia.org/wiki/Kommandozeile) ist eine Anwendung, um mittels Befehlseingabe Programme auszuführen. Wir benutzen die Kommandozeile für
 
@@ -73,7 +73,7 @@ java HelloWorld
 
 ---
 
-## Let's try
+## @Let's try
 
 1. Starte _Visual Studio Code_
 2. Erstelle leere Datei mit dem Namen ```HelloWorld.java```
@@ -87,13 +87,13 @@ java HelloWorld
 
 ---
 
-# Programmaufbau
+## Programmaufbau
 
 <!-- wie ist der allgemeine Aufbau eines Java Programs, Stichwort Klasse, Stichwork main -->
 
 ---
 
-# Java Keywords
+## Java Keywords
 
 Java besitzt [50 Keywords](https://en.wikipedia.org/wiki/List_of_Java_keywords), die in der Sprachdefinition festgelegt sind.
 
@@ -102,7 +102,7 @@ Java besitzt [50 Keywords](https://en.wikipedia.org/wiki/List_of_Java_keywords),
 
 ---
 
-# Datentypen
+## Datentypen
 
 <!-- Basisdatentypen, Text, Zahl, Boxing/Unboxing des Compilers -->
 
@@ -126,7 +126,7 @@ Java besitzt [50 Keywords](https://en.wikipedia.org/wiki/List_of_Java_keywords),
 
 ---
 
-## Let's try
+## @Let's try
 
 <!-- Codebeispiel Main-Programm, Variablen deklarieren, Variablen setzen, Variablen mit Println ausgeben -->
 
@@ -150,7 +150,7 @@ Java besitzt [50 Keywords](https://en.wikipedia.org/wiki/List_of_Java_keywords),
 
 ---
 
-## Let's try
+## @Let's try
 
 <!-- Codebeispiel mit Variablen und If-Else -->
 
@@ -190,7 +190,7 @@ Java besitzt [50 Keywords](https://en.wikipedia.org/wiki/List_of_Java_keywords),
 
 ---
 
-## Let's try
+## @Let's try
 
 <!-- Schleifen-Beispiel + Infinity Loop Beispiel -->
 
@@ -219,7 +219,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 
 ---
 
-## Let's try
+## @Let's try
 
 <!-- Division durch Null Beispiel fangen + eigenes Beispiel wo eine RuntimeException geworfen wird -->
 

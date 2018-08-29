@@ -46,7 +46,7 @@ __Git & Github__
 
 ---
 
-## Let's try
+## @Let's try
 
 <!-- einmal ein komplettes Repository erstellen lassen und initial etwas committen -->
 
@@ -88,7 +88,7 @@ __Git & Github__
 
 ---
 
-## Let's try
+## @Let's try
 
 <!-- einmal erzeugt jeder in seinem eigenen Account ein Repo und pusht das vorhin erstellte Repo dorthin-->
 
@@ -106,7 +106,7 @@ __Git & Github__
 
 ---
 
-## Let's try
+## @Let's try
 
 <!-- wir stellen ein Repository in der Infowerkstatt zur Verfügung, in dem Repo ist eine Textdatei mit Namen, jeder clont es sich und trägt seinen Namen ein und pusht es wieder und behebt ggf den Merge Conflict -->
 
@@ -124,7 +124,7 @@ __Git & Github__
 
 ---
 
-## Let's try
+## @Let's try
 
 <!- jeder erstellt in unserem Testrepo einen Issue und wenn alle Issue da sind, dann bündeln wir diese zu Milestones -->
 
