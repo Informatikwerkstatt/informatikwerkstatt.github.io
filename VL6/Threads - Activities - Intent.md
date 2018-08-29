@@ -84,7 +84,7 @@ public final class CMain
 
 ## Let's try
 
-Klassen implementieren und mehrfach mal laufen lassen 
+Klassen implementieren und mehrfach laufen lassen 
 
 __&rarr; Wie erklärt ihr Euch das Verhalten des Programms?__
 

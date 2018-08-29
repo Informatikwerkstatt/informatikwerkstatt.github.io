@@ -112,6 +112,12 @@ Java besitzt [50 Keywords](https://en.wikipedia.org/wiki/List_of_Java_keywords),
 
 <!-- Deklaration von Variablen, Nutzung von Variablen, Keywort "final" -->
 
+===
+
+### Zuweisung
+
+<!-- Zuweisungen von Variablen, Beachtung von final -->
+
 ---
 
 ## Typenumwandlung / Casting
@@ -129,6 +135,12 @@ Java besitzt [50 Keywords](https://en.wikipedia.org/wiki/List_of_Java_keywords),
 ## Ja / Nein / Vielleicht - If-Else
 
 <!-- Aufbau von If-Else, Dangling Else -->
+
+===
+
+### Ternärer Operator
+
+<!-- was ist das, wann nutzt man if, wann den ternären Operator -->
 
 ---
 
