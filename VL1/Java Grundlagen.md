@@ -156,9 +156,25 @@ Java besitzt [50 Keywords](https://en.wikipedia.org/wiki/List_of_Java_keywords),
 
 ---
 
+## Arrays
+
+<!-- was sind Arrays, wozu sind sie gut, was gibt es für Beschränkungen -->
+
+### Collections
+
+<!-- was ist es, kurz fassen und auf Listen & Sets beschränken -->
+
+---
+
 ## Wieder und wieder und wieder... - Schleifen
 
 <!-- for, while und do-while Schleifen, wann benutzt man was anhand eines einfachen zu erklärenden Beispiels -->
+
+===
+
+### For-Each
+
+<!-- was ist for-each, wann ist es sinnvoll >
 
 ---
 
