@@ -160,6 +160,8 @@ public class CDelete implements Runnable
 
 ### Main-Programm
 
+__&rarr; Was passiert und wie erklärt Ihr Euch bei den unterschiedlichen Listen das Verhalten?__
+
 ```java
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -197,8 +199,6 @@ public final class CMain
     }
 }
 ```
-
-__&rarr; Was passiert und wie erklärt Ihr Euch bei den unterschiedlichen Listen das Verhalten?__
 
 ---
 

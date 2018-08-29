@@ -10,7 +10,7 @@
  
  .reveal {
    font-family: Helvetica, sans-serif;
-   font-size: 36px;
+   font-size: 28px;
    font-weight: normal;
    color: #222; }
  
@@ -147,7 +147,7 @@
    width: 90%;
    margin: 20px auto;
    text-align: left;
-   font-size: 0.55em;
+   font-size: 75%;
    font-family: monospace;
    line-height: 1.2em;
    word-wrap: break-word;
