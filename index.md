@@ -26,10 +26,10 @@
 
 * ```Space```: nächste Folie
 * ```P```: vorhergehende Folie
-* &larr;: Navigation nach links (vorhergehende Folie)
-* &rarr;: Navigation nach rechts (nächste Folie)
-* &darr;: Navigation nach unten (nächste Unterfolie)
-* &uarr;: Navigation nach oben (Unterfolie zurück)
+* <code>&larr;</code>: Navigation nach links (vorhergehende Folie)
+* <code>&rarr;</code>: Navigation nach rechts (nächste Folie)
+* <code>&darr;</code>: Navigation nach unten (nächste Unterfolie)
+* <code>&uarr;</code>: Navigation nach oben (Unterfolie zurück)
 
 <br/>
 
