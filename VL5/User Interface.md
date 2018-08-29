@@ -28,37 +28,23 @@ Eine [ViewGroup](https://developer.android.com/reference/android/view/ViewGroup)
 
 ---
 
-## Sprich mit mir - Eingaben
+## Sprich mit mir - Darstellungselemente
 
 <!-- https://developer.android.com/training/keyboard-input/style 
 -->
 
----
+===
+
+### Edittext
 
 
-## Die Verbindung - Adapter
+===
 
-<!-- 
-https://developer.android.com/reference/android/widget/Adapter
-https://www.edureka.co/blog/what-are-adapters-in-android/
-https://code.tutsplus.com/tutorials/android-from-scratch-understanding-adapters-and-adapter-views--cms-26646
--->
+### Textview
 
----
+===
 
-## Struktur verleihen - Gestaltung
-
----
-
-## @Let's try
-
----
-
-## Layout-Eigenschaften
-
----
-
-## @Let's try
+### Button
 
 ---
 
@@ -90,6 +76,32 @@ Das [Grid View Layout](https://developer.android.com/guide/topics/ui/layout/grid
 
 ---
 
+## Die Verbindung - Adapter
+
+<!-- 
+https://developer.android.com/reference/android/widget/Adapter
+https://www.edureka.co/blog/what-are-adapters-in-android/
+https://code.tutsplus.com/tutorials/android-from-scratch-understanding-adapters-and-adapter-views--cms-26646
+-->
+
+---
+
+## Struktur verleihen - Gestaltung
+
+---
+
+## @Let's try
+
+---
+
+## Layout-Eigenschaften
+
+---
+
+## @Let's try
+
+---
+
 ## Layout Inflater - Pump it up
 
 <!-- https://developer.android.com/reference/android/view/LayoutInflater -->
@@ -100,4 +112,7 @@ Das [Grid View Layout](https://developer.android.com/guide/topics/ui/layout/grid
 
 ---
 
-## @Home
+## @Profis
+
+* [App Widget](https://developer.android.com/guide/topics/appwidgets/)
+* [App Bar](https://developer.android.com/training/appbar/)
