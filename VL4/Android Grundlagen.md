@@ -76,17 +76,25 @@ Wir erstellen eine _Hello-World-Android-App_, somit einmal _Android Studio_ star
 
 ![Android Projekt erstellen](images/as1_project.png)
 
+===
+
 ### Android SDK Version auswählen
 
 ![Android SDK Version auswählen](images/as2_sdk.png)
+
+===
 
 ### Main Activity auswählen
 
 ![Android Main Activity auswählen](images/as3_activity.png)
 
+===
+
 ### Activity konfigurieren
 
 ![Android Main Activity konfigurieren](images/as4_config.png)
+
+===
 
 ### Projekt und Quellcode
 
