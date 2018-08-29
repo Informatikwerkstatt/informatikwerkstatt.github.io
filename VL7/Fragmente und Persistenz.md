@@ -44,6 +44,12 @@ __Fragmente & Persistenz__
 
 ---
 
+## @Profi
+
+<!-- eigene Serialisation -->
+
+---
+
 ## Wie heißt Du, JSON?
 
 ---

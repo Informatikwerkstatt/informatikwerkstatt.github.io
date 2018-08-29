@@ -194,6 +194,17 @@ Java besitzt [50 Keywords](https://en.wikipedia.org/wiki/List_of_Java_keywords),
 
 <!-- Schleifen-Beispiel + Infinity Loop Beispiel -->
 
+
+---
+
+### @Profis - Lambda-Expression & Streaming-API
+
+<!-- 
+https://blog.codecentric.de/2013/10/java-8-erste-schritte-mit-lambdas-und-streams/
+https://www.baeldung.com/java-8-streams
+https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
+-->
+
 ---
 
 ## Wirf den Fehler - Throw-Exception

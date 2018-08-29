@@ -226,3 +226,9 @@ __&rarr; Was passiert und wie erklärt Ihr Euch bei den unterschiedlichen Listen
 ---
 
 ## Let's try
+
+---
+
+### @Profis
+
+<!-- https://developer.android.com/training/best-background -->
