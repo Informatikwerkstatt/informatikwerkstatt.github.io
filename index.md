@@ -22,16 +22,12 @@
 * ```O```: Folienübersicht
 * ```F```: Vollbild
 
-<br/>
-
 * ```Space```: nächste Folie
 * ```P```: vorhergehende Folie
 * <code>&larr;</code>: Navigation nach links (vorhergehende Folie)
 * <code>&rarr;</code>: Navigation nach rechts (nächste Folie)
 * <code>&darr;</code>: Navigation nach unten (nächste Unterfolie)
 * <code>&uarr;</code>: Navigation nach oben (Unterfolie zurück)
-
-<br/>
 
 * ```Home```: erste Folie
 * ```End```: letzte Folie
