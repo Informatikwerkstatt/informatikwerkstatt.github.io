@@ -163,7 +163,7 @@ Notes: Fragen, wie beide Protokolle gemergt werden sollen
 
 ## @Let's try
 
-<!- jeder erstellt in unserem Testrepo einen Issue und wenn alle Issue da sind, dann bündeln wir diese zu Milestones -->
+<!-- jeder erstellt in unserem Testrepo einen Issue und wenn alle Issue da sind, dann bündeln wir diese zu Milestones -->
 
 ---
 
