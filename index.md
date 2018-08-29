@@ -18,23 +18,23 @@
 
 ### Tastatursteuerung der Folien
 
-* <kbd>?</kbd>: Zeige Tastaturbefehle
-* <kbd>O</kbd>: Folienübersicht
-* <kbd>F</kbd>: Vollbild
+* ```?```: Zeige Tastaturbefehle
+* ```O```: Folienübersicht
+* ```F```: Vollbild
 
 <br/>
 
-* <kbd>SPACE</kbd>: nächste Folie
-* <kbd>P</kbd>: vorhergehende Folie
-* <kbd>←</kbd>: Navigation nach links (vorhergehende Folie)
-* <kbd>→</kbd>: Navigation nach rechts (nächste Folie)
-* <kbd>↓</kbd>: Navigation nach unten (nächste Unterfolie)
-* <kbd>↑</kbd>: Navigation nach oben (Unterfolie zurück)
+* ```Space```: nächste Folie
+* ```P```: vorhergehende Folie
+* &larr;: Navigation nach links (vorhergehende Folie)
+* &rarr;: Navigation nach rechts (nächste Folie)
+* &darr;: Navigation nach unten (nächste Unterfolie)
+* &uarr;: Navigation nach oben (Unterfolie zurück)
 
 <br/>
 
-* <kbd>Home</kbd>: erste Folie
-* <kbd>End</kbd>: letzte Folie
-* <kbd>B</kbd>: Pause (Blackout)
-* <kbd>S</kbd>: Sprechernotizen
-* <kbd>Alt</kbd> + Klick: Zoom
+* ```Home```: erste Folie
+* ```End```: letzte Folie
+* ```B```: Pause (Blackout)
+* ```S```: Sprechernotizen
+* ```Alt + Klick```: Zoom
