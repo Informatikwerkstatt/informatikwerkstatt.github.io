@@ -93,9 +93,9 @@ __&rarr; Wie erklärt ihr Euch das Verhalten des Programms?__
 
 ## Race Condition
 
-ist eine Struktur, bei der die _zeitliche Ausführung_ von Befehlen das Verhalten bestimmt und diese Ausführungen sich _gegenseitig beeinflussen_.
+> ist ein Verhalten, bei der die _zeitliche Ausführung_ von Befehlen das Verhalten bestimmt und Ausführungsreihenfolge sich _gegenseitig beeinflusst_.
 
-Race Condition führen somit zu einem _undefinierten Verhalten_, Abstürzen unf ggf. Datenverlust und sollten somit vermieden werden, aber es ist schwer sie zu erkennen und zu debuggen
+Race Conditions führen somit zu einem _undefinierten Verhalten_ wie Abstürze oder auch Datenverlust. Sie sollten somit vermieden werden, aber es ist schwer sie zu erkennen
 
 ===
 

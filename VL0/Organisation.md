@@ -74,7 +74,7 @@ Um zu
 
 * 04. Dez - Vorstellung der Projektideen als Kurzvortrag
 * 21. Dez - 1. Milestone
-* 18. Jan - 2. MIlestone
+* 18. Jan - 2. Milestone
 * 01. Feb - 3. Milestone
 * 08. Feb - 4. Milestone / Finale Präsentation
 
