@@ -59,8 +59,8 @@ Um zu
 ### Vorlesung mit Übung (bis Dez)
 
 * 23. Okt - Organisation
-* 24. Okt - Java Grundlagen
-* 26. Okt - OOP Grundlagen
+* 26. Okt - Java Grundlagen
+* 30. Okt - OOP Grundlagen
 * 02. Nov - Git & Github Einführung
 * 09. Nov - Android Grundlagen & Tablet Einrichtung
 * 16. Nov - User Interface
