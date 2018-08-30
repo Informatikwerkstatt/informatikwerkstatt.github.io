@@ -58,25 +58,29 @@ Um zu
 
 ### Vorlesung mit Übung (bis Dez)
 
-* 23. Okt - Organisation
-* 26. Okt - Java Grundlagen
-* 30. Okt - OOP Grundlagen
-* 02. Nov - Git & Github Einführung
-* 09. Nov - Android Grundlagen & Tablet Einrichtung
-* 16. Nov - User Interface
-* 23. Nov - Threads - Activities - Intent
-* 30. Nov - Fragmente & Persistenz
-* 07. Dez - Sensoren & Events
+| Datum   | Thema    |
+|:--------|:---------|
+| 23. Okt | Organisation|
+| 26. Okt | Java Grundlagen|
+| 30. Okt | OOP Grundlagen|
+| 02. Nov | Git & Github Einführung|
+| 09. Nov | Android Grundlagen & Tablet Einrichtung|
+| 16. Nov | User Interface|
+| 23. Nov | Threads - Activities - Intent|
+| 30. Nov | Fragmente & Persistenz|
+| 07. Dez | Sensoren & Events|
 
 ===
 
 ### Projektzeitraum (ab Dez)
 
-* 04. Dez - Vorstellung der Projektideen als Kurzvortrag
-* 21. Dez - 1. Milestone
-* 18. Jan - 2. Milestone
-* 01. Feb - 3. Milestone
-* 08. Feb - 4. Milestone / Finale Präsentation
+| Datum   | Thema    |
+|:--------|:---------|
+| 04. Dez | Vorstellung der Projektideen als Kurzvortrag|
+| 21. Dez | 1. Milestone|
+| 18. Jan | 2. Milestone|
+| 01. Feb | 3. Milestone|
+| 08. Feb | 4. Milestone / Finale Präsentation|
 
 ---
 
