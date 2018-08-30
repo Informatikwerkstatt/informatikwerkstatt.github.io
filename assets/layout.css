@@ -81,8 +81,7 @@
  
  /* Ensure certain elements are never larger than the slide itself */
  .reveal img,
- .reveal video,
- .reveal iframe {
+ .reveal video {
   max-height: calc(55vh);
   max-width: calc(65vw); }
  
