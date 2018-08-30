@@ -86,9 +86,9 @@
 
  .reveal video,
  .reveal iframe {
-  max-height: calc(75vh);
-  min-height: calc(50vh);
-  min-width: calc(80vh); }
+  max-height: calc(55vh);
+  min-height: calc(45vh);
+  min-width: calc(75vh); }
  
  .reveal strong,
  .reveal b {
