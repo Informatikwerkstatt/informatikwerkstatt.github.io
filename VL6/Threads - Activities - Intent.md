@@ -6,14 +6,6 @@ permalink: /threads-activities-intent/
 # Informatikwerkstatt
 __Threads - Activities - Intent__
 
----
-
-## Let's Dance
-
-* Wer hat einen Tanzkurs besucht?
-* Gibt es ein Paar, dass einmal einen Walzer o.ä. vorführen können?
-* Gibt es zwei Freiwillige, die nicht tanzen können und es mit Anleitung probieren?
-
 --- 
 
 ## Multithreading
@@ -23,6 +15,8 @@ Heutige CPUs können mehrere Aufgaben parallel verarbeiten<sup>1</sup>:
 > [Multithreading](https://de.wikipedia.org/wiki/Multithreading) das Ausführen von _mehreren parallel Funktionen_ innerhalb eines Prozesses / Programms.
 
 <small>1: Wir machen hier nur eine ganz kurze Einführung in Multithreading, wird in späteren Vorlesungen noch einmal behandelt</small>
+
+Notes: Studis fragen, ob 2 einen Tanzkurs besucht haben und z.B. einen Walzer vorführen können, Stichwort Synchronisation aufeinander erläutern
 
 ===
 
