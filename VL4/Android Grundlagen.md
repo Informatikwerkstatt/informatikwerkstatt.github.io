@@ -104,8 +104,7 @@ Software-Entwicklung besteht aus viel Text schreiben, so dass es hilfreich ist, 
 Mit Hilfe des [Build-Prozess](https://de.wikipedia.org/wiki/Erstellungsprozess) wird aus allen Elementen (Quellcode, Resourcen) ein fertiges Paket erstellt, dass dann als App benutzt werden kann.
 
 ![Android Studio Run](images/as_run.png#floatright)
-
-> Der Prozess wird mit dem _grünen Button_ in der rechten oberen Fensterecke gestartet
+Der Prozess wird mit dem _grünen Button_ in der rechten oberen Fensterecke gestartet
 
 ===
 
