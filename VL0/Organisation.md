@@ -102,7 +102,7 @@ Es dürfen gerne auch eigene Vorschläge (mit Rücksprache) umgesetzt werden
 ### Fortgeschrittene
 
 * Schleichwegdatenbank um alle geheimen Abkürzen in Clausthal immer auf dem Handy zu haben
-* [Simon says](https://de.wikipedia.org/wiki/Simon_says_(Spiel)) mit Kommunikation an alle Geräte, die in der Nähe sind und die App auch gestartet haben
+* [Simon says](https://de.wikipedia.org/wiki/Simon_says_(Spiel) mit Kommunikation an alle Geräte, die in der Nähe sind und die App auch gestartet haben
 * Touch-Guess ich male eine Touch-Geste auf dem Display und der Partner, der sich in der Nähe befindet, muss meine Geste durch zeichnen auf seinem Display erraten. Beide Nutzer bekommen ein Gitter angezeigt und in dem Gitter die Punkte, die sie bei der Geste berühren (ähnlich zum Login)
 
 
