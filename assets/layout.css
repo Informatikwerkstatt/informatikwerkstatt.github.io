@@ -80,11 +80,14 @@
    line-height: 1.3; }
  
  /* Ensure certain elements are never larger than the slide itself */
- .reveal img,
- .reveal video,
- .reveal iframe {
+ .reveal img {
   max-height: calc(55vh);
   max-width: calc(65vw); }
+
+ .reveal video,
+ .reveal iframe {
+  max-height: calc(85vh);
+  max-width: calc(85vw); }
  
  .reveal strong,
  .reveal b {
