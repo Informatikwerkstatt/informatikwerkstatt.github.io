@@ -66,7 +66,7 @@ Es nimmt einem viel Arbeit ab!
 
 ## @Let's try
 
-<iframe class="video" src="https://player.vimeo.com/video/287431166" />
+<iframe class="video" src="https://player.vimeo.com/video/287431166" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
 
 ---
 
