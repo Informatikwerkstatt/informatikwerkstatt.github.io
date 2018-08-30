@@ -64,39 +64,9 @@ Es nimmt einem viel Arbeit ab!
 
 ---
 
-## @Let's try - Hello-World-Android-App
+## @Let's try
 
-![Android Studio starten](images/as0_start.png)
-
-===
-
-### Projekt erstellen
-
-![Android Projekt erstellen](images/as1_project.png)
-
-===
-
-### Android SDK Version auswählen
-
-![Android SDK Version auswählen](images/as2_sdk.png)
-
-===
-
-### Main Activity auswählen
-
-![Android Main Activity auswählen](images/as3_activity.png)
-
-===
-
-### Activity konfigurieren
-
-![Android Main Activity konfigurieren](images/as4_config.png)
-
-===
-
-### Projekt und Quellcode
-
-![Android Projekt erstellt](images/as5_source.png)
+<iframe src="https://player.vimeo.com/video/287431166" width="700" height="40
 
 ---
 
