@@ -48,7 +48,7 @@ Um zu
     * betreute Übung Di 17-19 Uhr (IFI PC Pool)
     * unbetreute Übung Mi 8-10 Uhr (IFI PC Pool)
     * Vorlesung Fr 13-15 Uhr (IFI PC Pool)
-* pünktliches Erscheinen um 17 bzw. 13 Uhr (st / sic tempore)
+* pünktliches Erscheinen um 17 bzw. 13 Uhr (st / sine tempore)
 * einmaliges Zuspätkommen / Fehlen in einer der beiden genannten Veranstaltung
 * bei weiterem Fehlen Vorlage eines (ärztlichen) Attests
 
@@ -92,7 +92,7 @@ Es dürfen gerne auch eigene Vorschläge (mit Rücksprache) umgesetzt werden
 
 ### Beginner
 
-* Zeitplaner einem Kalender, in dem ich täglich Slots mit Wiederholungen festlegen kann, wo ich freie Zeiten habe. Über sie UI kann ich dann einen Solot z.b. mit 2h Stunden suchen
+* Zeitplaner einem Kalender, in dem ich täglich Slots mit Wiederholungen festlegen kann, wo ich freie Zeiten habe. Über sie UI kann ich dann einen Slot z.b. mit 2h Stunden suchen
 * [Türme von Hanoi](https://de.wikipedia.org/wiki/T%C3%BCrme_von_Hanoi) Spiel mit entsprechender Navigationsfunktionalität um die Scheiben zu verschieben. Die Scheibenanzahl soll beim Start einstellbar sein
 * Persönlicher Wecker
 * Ideenmanager
