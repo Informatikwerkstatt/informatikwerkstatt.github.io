@@ -80,11 +80,42 @@ Wir behandeln hier nur kurz die Berechtigungen, im Foliensatz [Sensoren & Resour
 
 ---
 
-## Intelli-Sense & Shortcuts
+## Tastatur Dein Freund - IntelliSense & Shortcuts
+
+Software-Entwicklung besteht aus viel Text schreiben, so dass es hilfreich ist, vieles per Tastatur zu steuern:
+
+* [Shortcuts](https://de.wikipedia.org/wiki/Tastenkombination) sind Tastenkombinationen für bestimmte Funktionen
+* [IntelliSense](https://de.wikipedia.org/wiki/IntelliSense) ist eine Möglichkeit Befehle zu vervollständigen
+
+&rarr; Software-Entwickler haben die wichtigsten Sachen im Kopf und beim Rest wissen sie, wo es steht / zu finden ist
+
+===
+
+### IntelliSense
+
+===
+
+### Shortcuts
 
 ---
 
-## Deployment
+## Build-Prozess
+
+Mit Hilfe des [Build-Prozess](https://de.wikipedia.org/wiki/Erstellungsprozess) wird aus allen Elementen (Quellcode, Resourcen) ein fertiges Paket erstellt, dass dann als App benutzt werden kann.
+
+![Android Studio Run](images/as_run.png#floatright)
+
+> Der Prozess wird mit dem _grünen Button_ in der rechten oberen Fensterecke gestartet
+
+===
+
+### @Profis
+
+* [Continuous Integration](https://de.wikipedia.org/wiki/Kontinuierliche_Integration)
+* [Circle CI](https://circleci.com/)
+* [Travis CI](https://travis-ci.org/)
+
+
 
 ---
 

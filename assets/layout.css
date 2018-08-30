@@ -83,6 +83,15 @@
  .reveal img {
   max-height: calc(55vh);
   max-width: calc(65vw); }
+  .reveal img[src$='#floatright'] {
+    float: right;
+    margin-left: 0.25em;
+  }  
+
+  .reveal img[src$='#floatleft'] {
+    float: left;
+    margin-right: 0.25em;
+  }  
 
  .reveal video,
  .reveal iframe {
