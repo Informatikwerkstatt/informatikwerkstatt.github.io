@@ -81,7 +81,7 @@
  
  /* Ensure certain elements are never larger than the slide itself */
  .reveal img {
-  max-height: calc(45vh);
+  max-height: calc(40vh);
   max-width: calc(65vw); }
 
   .reveal img[src$='#floatright'] {
