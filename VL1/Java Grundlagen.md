@@ -89,7 +89,7 @@ java HelloWorld
 
 ## Programmaufbau
 
-<!-- wie ist der allgemeine Aufbau eines Java Programs, Stichwort Klasse, Stichwork main -->
+<!-- wie ist der allgemeine Aufbau eines Java Programs, Stichwort Klasse, Stichwork main, insbesondere Parameter erklären -->
 
 ---
 
@@ -122,7 +122,7 @@ Java besitzt [50 Keywords](https://en.wikipedia.org/wiki/List_of_Java_keywords),
 
 ## Typenumwandlung / Casting
 
-<!-- Was bedeutet Casting, wozu wird es benötigt, was ist der Sinn davon, was sind die Nachteile davon -->
+<!-- Was bedeutet Casting, wozu wird es benötigt, was ist der Sinn davon, was sind die Nachteile davon, insbesondere parsen von String als numerischer Wert -->
 
 ---
 
@@ -222,6 +222,20 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 ## @Let's try
 
 <!-- Division durch Null Beispiel fangen + eigenes Beispiel wo eine RuntimeException geworfen wird -->
+
+---
+
+## @Übungsaufgabe
+
+Schreiben Sie ein Programm, dass einen String und eine Zahl als Kommandozeilen-Argumente einliest und den String dann so oft auf der Kommandozeile ausgibt, wie als Zahl gesetzt ist.
+
+Beachten Sie dabei folgendes
+
+* Bei einem leeren String sollte eine Fehlermeldung ausgegeben werden, dass der String leer ist
+* Wenn die Zahl $\leq 0$ ist, dann soll eine passende Fehlermeldung ausgegeben werden
+* Wenn die Argumentanzahl nicht stimmt soll auch eine passende Meldung ausgegeben werden
+* Wenn bei der Umwandlung des Textes in eine Zahl ein Fehler auftritt, dann soll auch eine verständliche Fehlermeldung ausgegeben werden
+
 
 ---
 
