@@ -114,6 +114,8 @@ __Objekt-Orientierte Programmierung Grundlagen__
 
 <!-- ein Beispiel mit Interface und 2 abgeleiteten Klassen vom Interface und dann noch einer dritten Klasse, die von einer Klasse abgeleitet wurde -->
 
+---
+
 ## @Übungsaufgabe
 
 > Schreiben Sie ein Programm, mit dem man Brüche berechnen kann. 
