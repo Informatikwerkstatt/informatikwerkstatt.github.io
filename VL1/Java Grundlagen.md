@@ -227,9 +227,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 
 ## @Übungsaufgabe
 
-Schreiben Sie ein Programm, dass einen String und eine Zahl als Kommandozeilen-Argumente einliest und den String dann so oft auf der Kommandozeile ausgibt, wie als Zahl gesetzt ist.
-
-Beachten Sie dabei folgendes
+> Schreiben Sie ein Programm, dass einen String und eine Zahl von der Kommandozeile einliest und den String so oft auf der Kommandozeile ausgibt, wie als Zahl gesetzt ist.
 
 * Bei einem leeren String sollte eine Fehlermeldung ausgegeben werden, dass der String leer ist
 * Wenn die Zahl $\leq 0$ ist, dann soll eine passende Fehlermeldung ausgegeben werden
