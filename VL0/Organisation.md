@@ -129,7 +129,7 @@ Ihr sollt
 ## Ziele, die jeder erreichen soll
 
 * Umgang mit Programmierwerkzeugen
-    * Grundlagen in der Java Programmierung
+    * Grundlagen in der Java / Android Programmierung
     * Umgang mit einer Entwicklungsumgebung
 * Grundlagen der Projektorganisation
     * Zusammenarbeit im Team
@@ -148,6 +148,36 @@ Ihr sollt
 * Im Team lernen Ihr am meisten &rarr; arbeitet mit unterschiedlichen Menschen hier zusammen
 
 __Wir machen Euch die Tür auf, durchgehen und weitergehen müsst Ihr selbst__
+
+---
+
+## Hilfe, ich bin überfordert!
+
+> Ich habe doch gerade erst angefangen zu studieren!? Was wollt ihr von mir, das kann doch nicht wahr sein!? Ich hab doch andere Vorlesungen und wie soll ich das alles schaffen!?
+
+===
+
+### Training 1
+
+<iframe class="video" src="https://www.youtube.com/embed/3PycZtfns_U" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
+
+===
+
+### Training 2
+
+<iframe class="video" src="https://www.youtube.com/embed/__qOY9hcm64" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
+
+===
+
+### Training 3
+
+<iframe class="video" src="https://www.youtube.com/embed/R37pbIySnjg" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
+
+===
+
+### Result
+
+<iframe class="video" src="https://www.youtube.com/embed/Bg21M2zwG9Q" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
 
 ---
 
