@@ -32,7 +32,7 @@ Um zu
 * Projektthemen
 * technische Probleme
 
---
+<br/>
 
 #### Werdegang
 
@@ -47,7 +47,7 @@ Um zu
 
 ### Stefanie Schneider, Bsc.
 
-![Stefanie Schneider](images/people/stefanie_schneider.jpg#floatright)
+![Stefanie Schneider](images/stefanie.jpg#floatright)
 
 * Termin- / Votragsorganisation
 * Anwesenheitsliste / Krankmeldungen
