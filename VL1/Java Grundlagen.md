@@ -160,6 +160,14 @@ Java besitzt [50 Keywords](https://en.wikipedia.org/wiki/List_of_Java_keywords),
 
 <!-- was sind Arrays, wozu sind sie gut, was gibt es für Beschränkungen -->
 
+===
+
+### Array Initialisierung
+
+<!-- verschiedene Arten für die Initialisierung von Arrays -->
+
+===
+
 ### Collections
 
 <!-- was ist es, kurz fassen und auf Listen & Sets beschränken -->
