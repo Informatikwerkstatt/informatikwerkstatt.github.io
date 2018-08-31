@@ -24,21 +24,48 @@ Um zu
 
 ===
 
-### Mitarbeiter
+### Dipl.-Inf. Philipp Kraus
 
-| Philipp Kraus | Stefanie Schneider |
-|:-------------:|:------------------:|
-| Vorlesung     | Organisation       |
-| inhaltliche Fragen | Anwesenheit  |
-| Projektthemen | Krankmeldungen |
-| technische Probleme | Ausgabe Geräte  |
+![Philipp Kraus](https://naim.tech/images/philipp.png#floatright#floatright)
+
+* Vorlesung / inhaltliche Frage
+* Projektthemen
+* technische Probleme
+
+#### Werdegang
+
+* Abitur 2000
+* Studium Computervisualistik, Universität Koblenz-Landau
+* Ausbildung Fachinformatiker - Anwendungsentwicklung
+* Studium theoretische Informatik, TU-Clausthal
+	* Machine Learning 
+	* Parallel Computing
+	* Nebenfach Mathematik
+* Promotion 2013 im Lehrstuhl Wirtschaftsinformatik bei Prof. Müller
+	* Multi-Agenten Systeme / künstliche Intelligenz
+	* Dissertationsprojekt [LightJason](http://lightjason.org)
+* Forschungsprojekte
+	* [Social-Cars](https://www.socialcars.org/)
+	* [Daimon](https://www.daimonproject.com/)
+* seit ca 17 Jahren Software-Entwickler (Freelancer)
+
+===
+
+### Stefanie Schneider, Bsc.
+
+![Stefanie Schneider](http://meclab.in.tu-clausthal.de/images/people/stefanie_schneider.jpg#floatright)
+
+* Termin- / Votragsorganisation
+* Anwesenheitsliste / Krankmeldungen
+* Ausgabe Android Tablets
 
 ===
 
 ### Tutoren
 
-| Hendrik Czolbe | Nikita Maslov | Niklas Schünemann |
-|:--------------:|:-------------:|:-----------------:|
+* Hendrik Czolbe
+* Nikita Maslov, Bsc.
+* Niklas Schünemann
 
 ---
 
@@ -140,14 +167,43 @@ Ihr sollt
 
 ---
 
+## Darf ich Sachen aus dem Internet kopieren?
+
+Grundsätzlich __Ja__
+aber man muss angeben woher man sich etwas kopiert hat, sonst ist es ein [Plagieren](https://de.wikipedia.org/wiki/Plagiat) was zum Ausschluss führen kann.
+
+Lernen heisst aber selbstständig erarbeiten, beim Kopieren lernt man nicht!
+
+---
+
+## Wo bekomme ich Hilfe?
+
+* Kommillitonenz.B. bei einem persönlichen Treffen
+* Im Internet
+    * [Stackoverflow](https://stackoverflow.com/) 
+    * [Java Newsgroup](https://groups.google.com/forum/#!forum/comp.lang.java.programmer)
+    * [Android Developers](https://developer.android.com/support)
+* Für ausländische Studierende
+    * [IZC H.E.L.P.](https://www.izc.tu-clausthal.de/sprachenzentrum/deutsch/help/) 
+    * [IZC Sprachtandem](https://www.izc.tu-clausthal.de/sprachenzentrum/deutsch/sprachtandem/)
+* Tutoren und uns - Beachtet aber unsere Arbeit- und Wochenendzeiten, wir arbeiten nicht 24 Stunden 7 Tage die Woche
+
+---
+
+## Wo kann ich mich zusammensetzen und arbeiten?
+
+* [Lebendige Lernorte](https://www.lernorte.tu-clausthal.de/)
+* [Schreibwerkstatt](https://www.schreibwerkstatt.tu-clausthal.de/)
+* Gelbes Hörsaalgebäude
+
+---
+
 ## Wir bietet nur die Basis
 
 * Probiert selbstständig alles aus
 * Werdet aktiv bei Problemen / Fragen &rarr; Wir helfen Euch mehr zu lernen
 * Das Script ist __nur__ eine Basis
 * Im Team lernen Ihr am meisten &rarr; arbeitet mit unterschiedlichen Menschen hier zusammen
-
-__Wir machen Euch die Tür auf, durchgehen und weitergehen müsst Ihr selbst__
 
 ---
 
@@ -175,49 +231,6 @@ __Wir machen Euch die Tür auf, durchgehen und weitergehen müsst Ihr selbst__
 
 ===
 
-### Result
+### Resultat
 
 <iframe class="video" src="https://www.youtube.com/embed/Bg21M2zwG9Q" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
-
----
-
-## Darf ich Sachen aus dem Internet kopieren?
-
-Grundsätzlich __Ja__
-aber man muss angeben woher man sich etwas kopiert hat, sonst ist es ein [Plagieren](https://de.wikipedia.org/wiki/Plagiat) was zum Ausschluss führen kann.
-
-Lernen heisst aber selbstständig erarbeiten, beim Kopieren lernt man nicht!
-
----
-
-## Wo bekomme ich Hilfe?
-
-* Kommillitonenz.B. bei einem persönlichen Treffen
-* Im Internet
-    * [Stackoverflow](https://stackoverflow.com/) 
-    * [Java Newsgroup](https://groups.google.com/forum/#!forum/comp.lang.java.programmer)
-    * [Android Developers](https://developer.android.com/support)
-* Für ausländische Studierende
-    * [IZC H.E.L.P.](https://www.izc.tu-clausthal.de/sprachenzentrum/deutsch/help/) 
-    * [IZC Sprachtandem](https://www.izc.tu-clausthal.de/sprachenzentrum/deutsch/sprachtandem/)
-* Tutoren und uns - Beachtet aber unsere Arbeit- und Wochenendzeiten, wir arbeiten nicht 24 Stunden 7 Tage die Woche
-
-__Lernt selbstständig und frühzeitig zu recherchieren__
-
----
-
-## Wo kann ich mich zusammensetzen und arbeiten?
-
-* [Lebendige Lernorte](https://www.lernorte.tu-clausthal.de/)
-* [Schreibwerkstatt](https://www.schreibwerkstatt.tu-clausthal.de/)
-* Gelbes Hörsaalgebäude
-
----
-
-## Tipps
-
-* Don't Panic - ruhig bleiben Problemen hilft
-* Manches funktioniert nicht auf Anhieb
-* Probleme lösen kann man durch systematisches Vorgehen, aber das muss man lernen
-* Wenn Probleme auftreten, meldet Euch frühzeitig, dann findet sich meist eine Lösung
-
