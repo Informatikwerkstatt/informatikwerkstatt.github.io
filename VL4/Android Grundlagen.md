@@ -130,7 +130,7 @@ Der Prozess wird mit dem _grünen Button_ in der rechten oberen Fensterecke gest
 
 ### Log erzeugen
 
-Für Lognachrichten gibt es einen _Level_ ( ```e()``` ) und einen _Tag_ (```"berechnung"```):
+Für Lognachrichten gibt es einen _Level_ und einen _Tag_
 
 ```java
 Log.e( "berechnung", "hier ist eine Division durch null aufgetreten" );
