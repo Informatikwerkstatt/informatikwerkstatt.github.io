@@ -124,6 +124,35 @@ Der Prozess wird mit dem _grünen Button_ in der rechten oberen Fensterecke gest
 
 ## Schreib' es hin - Der Logger
 
+> Ein [Logger](https://developer.android.com/reference/android/util/Log) ist ein ```System.out.println``` mit etwas mehr Funktionalität um Ausgaben besser strukturieren zu können unf ggf. in eine Datei o.ä. schreiben zu können
+
+===
+
+### Log erzeugen
+
+Für Lognachrichten gibt es einen _Level_ ( ```e()``` ) und einen _Tag_ (```"berechnung"```):
+
+```java
+Log.e( "berechnung", "hier ist eine Division durch null aufgetreten" );
+```
+
+===
+
+### Log Levels
+
+nach Schwere sortiert:
+
+* Verbose &rarr; ```Log.v( "tag", "text" )```
+* Debug &rarr; ```Log.d( "tag", "text" )```
+* Info &rarr; ```Log.i( "tag", "text" )```
+* Warn &rarr; ```Log.w( "tag", "text" )```
+* Error &rarr; ```Log.e( "tag", "text" )```
+
+
+===
+
+### Anzeige
+
 ---
 
 ## @Let's try
