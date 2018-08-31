@@ -3,6 +3,7 @@
 !_config.yml
 !*.md
 !*.png
+!*.jpg
 !assets/*.css
 !assets/*.js
 !_layouts/*.html

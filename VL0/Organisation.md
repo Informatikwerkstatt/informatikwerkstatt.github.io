@@ -26,34 +26,28 @@ Um zu
 
 ### Dipl.-Inf. Philipp Kraus
 
-![Philipp Kraus](https://naim.tech/images/philipp.png#floatright#floatright)
+![Philipp Kraus](images/philipp.png#floatright#floatright)
 
 * Vorlesung / inhaltliche Frage
 * Projektthemen
 * technische Probleme
+
+--
 
 #### Werdegang
 
 * Abitur 2000
 * Studium Computervisualistik, Universität Koblenz-Landau
 * Ausbildung Fachinformatiker - Anwendungsentwicklung
-* Studium theoretische Informatik, TU-Clausthal
-	* Machine Learning 
-	* Parallel Computing
-	* Nebenfach Mathematik
-* Promotion 2013 im Lehrstuhl Wirtschaftsinformatik bei Prof. Müller
-	* Multi-Agenten Systeme / künstliche Intelligenz
-	* Dissertationsprojekt [LightJason](http://lightjason.org)
-* Forschungsprojekte
-	* [Social-Cars](https://www.socialcars.org/)
-	* [Daimon](https://www.daimonproject.com/)
+* Studium theoretische Informatik, TU-Clausthal im Bereich Machine Learning, Parallel Computing, Nebenfach Mathematik
+* Promotion 2013 im Lehrstuhl Wirtschaftsinformatik (Prof. Müller), Multi-Agenten Systeme / künstliche Intelligenz
 * seit ca 17 Jahren Software-Entwickler (Freelancer)
 
 ===
 
 ### Stefanie Schneider, Bsc.
 
-![Stefanie Schneider](http://meclab.in.tu-clausthal.de/images/people/stefanie_schneider.jpg#floatright)
+![Stefanie Schneider](images/people/stefanie_schneider.jpg#floatright)
 
 * Termin- / Votragsorganisation
 * Anwesenheitsliste / Krankmeldungen
