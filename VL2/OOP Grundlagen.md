@@ -122,6 +122,11 @@ __Objekt-Orientierte Programmierung Grundlagen__
 
 * Brüche sollen als Klassen mit Interfaces konstruiert werden 
 * Berechnungsfunktionen als Methoden
-* Die Eingabe erfolgt über die Kommandozeile in der Form ```java Bruch 1 / 2 + 3 / 4```
+* Die Eingabe erfolgt über die Kommandozeile in der Form 
+  
+   ```shell
+   java Bruch 1 / 2 + 3 / 4
+   ```
+   
 * Alle 4 Operationen (Addition, Subtraktion, Multiplikation, Division) müssen implementiert werden. 
 * __Freiwillig:__ Implementation eines Algorithmus zum Kürzen des berechneten Bruchs, also aus $\frac{2}{4} \Rightarrow \frac{1}{2}$ und aus $\frac{2}{1} \Rightarrow 2$
