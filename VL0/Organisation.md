@@ -115,7 +115,7 @@ Es dürfen gerne auch eigene Vorschläge (mit Rücksprache) umgesetzt werden
 
 * [Türme von Hanoi](https://de.wikipedia.org/wiki/T%C3%BCrme_von_Hanoi) mit frei wählbarer Scheibenanzahl und Nutzung des Gyrosensors um die Scheiben zu verschieben<br/>
     ![Türme von Hanoi](https://upload.wikimedia.org/wikipedia/commons/0/07/Tower_of_Hanoi.jpeg#quarter)
-* Kugellabyrinth, um eine Kugel durch ein beim Start zufällig generiertes Labyrinth mittels Gyrosensoren zu steuer<br/>
+* [Kugellabyrinth](#/5/1), um eine Kugel durch ein beim Start zufällig generiertes Labyrinth mittels Gyrosensoren zu steuer<br/>
     ![Kugellabyrinth](https://upload.wikimedia.org/wikipedia/commons/4/47/PuzzleOfDexterity.jpg#quarter)
 * [Touch-Gess](#), erraten von Mustern. Geräte koppeln sich per NFC zusammen, ein Spieler zeichnet in einem 25x25 Gitterfeld ein Muster, alle anderen Spieler sehen nur die Punkte, des Musters und müssen nun das Muster erraten. Der Spieler der am schnellsten das Muster errät, gewinnt
 
@@ -123,15 +123,15 @@ Es dürfen gerne auch eigene Vorschläge (mit Rücksprache) umgesetzt werden
 
 ### Fortgeschrittene
 
-* [Schleichwegdatenbank](#) um alle geheimen Abkürzen in Clausthal immer auf dem Handy zu haben
-* [Party-Route](#) um alle Parties in Clausthal zu verwalten und zwischen den einzelnen Locations immer einen kürzesten Weg zu berechnen (die Aufnahme von Point-of-Interest wie z.B. etwas zu Essen auf dem Weg zu finden, wäre auch hilfreich)
+* [Schleichwegdatenbank](#/5/2) um alle geheimen Abkürzen in Clausthal immer auf dem Handy zu haben
+* [Party-Route](#/5/2) um alle Parties in Clausthal zu verwalten und zwischen den einzelnen Locations immer einen kürzesten Weg zu berechnen (die Aufnahme von Point-of-Interest wie z.B. etwas zu Essen auf dem Weg zu finden, wäre auch hilfreich)
 
 ===
 
 ### Profis
 
 * [Scotland Yard](https://de.wikipedia.org/wiki/Scotland_Yard_(Spiel), zu Beginn wird ein Spieler als Mr. X bestimmt und alle paar Minuten wird dessen GPS Position bei den anderen Spielern in einer Map dargestellt. Wenn ein Spieler näher als ein paar Meter an Mr. X heran kommt, wird dieser als gefangen markiert und ein neuer Mr. X wird bestimmt
-* [Who-I-Am](#), auf einer Karte werden alle Positionen der Spieler angezeigt. In jeder Runde kann ich einen Spieler fragen, wer er ist oder wo er ist, der angesprochene Spieler kann entscheiden, ob die Antwort wahrheitsgemäß oder falsch gegeben wird. Bei einer falschen Antwort wird per Zufall eine Position oder Name eines anderen Spielers gewählt. Das Ziel ist es, dass man alle Spieler richtig anhand des Namens und der Position zuordnet
+* [Who-I-Am](#5/3), auf einer Karte werden alle Positionen der Spieler angezeigt. In jeder Runde kann ich einen Spieler fragen, wer er ist oder wo er ist, der angesprochene Spieler kann entscheiden, ob die Antwort wahrheitsgemäß oder falsch gegeben wird. Bei einer falschen Antwort wird per Zufall eine Position oder Name eines anderen Spielers gewählt. Das Ziel ist es, dass man alle Spieler richtig anhand des Namens und der Position zuordnet
 
 ---
 
