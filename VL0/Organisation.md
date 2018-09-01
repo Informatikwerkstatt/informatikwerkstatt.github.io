@@ -139,8 +139,8 @@ Es dürfen gerne auch eigene Vorschläge (mit Rücksprache) umgesetzt werden
 
 Ihr sollt
 
-* in jeder Veranstaltung am Rechner mitarbeiten
-* direkt das Gelernte ausprobieren
+* in der Vorlesung am Rechner mitarbeiten
+* in den Übungen das Gelernte ausprobieren und erweitern
 * links und rechts mit Euren Kommilitone sprechen
 * während der Veranstaltung leise diskutieren und Euch gegenseitig helfen
 
@@ -149,11 +149,11 @@ Ihr sollt
 ## Ziele, die jeder erreichen soll
 
 * Umgang mit Programmierwerkzeugen
-    * Grundlagen in der Java / Android Programmierung
+    * Grundlagen in der Java & Android
     * Umgang mit einer Entwicklungsumgebung
 * Grundlagen der Projektorganisation
     * Zusammenarbeit im Team
-    * Organisation von Milestones und Arbeitspaketen
+    * Organisation von Arbeitspaketen
     * Zeitmanagement   
 * Recherchemethodiken
 * Präsentationstechnik
@@ -163,7 +163,7 @@ Ihr sollt
 ## Darf ich Sachen aus dem Internet kopieren?
 
 Grundsätzlich __Ja__
-aber man muss angeben woher man sich etwas kopiert hat, sonst ist es ein [Plagieren](https://de.wikipedia.org/wiki/Plagiat) was zum Ausschluss führen kann.
+aber man muss angeben woher man sich etwas kopiert hat, sonst ist es ein [Plagiat](https://de.wikipedia.org/wiki/Plagiat) was zum Ausschluss führen kann.
 
 > Lernen heisst aber selbstständig erarbeiten, beim Kopieren lernt man nicht!
 
@@ -171,7 +171,7 @@ aber man muss angeben woher man sich etwas kopiert hat, sonst ist es ein [Plagie
 
 ## Wo bekomme ich Hilfe?
 
-* Kommillitonenz.B. bei einem persönlichen Treffen
+* Kommillitonen, bei persönlichen Treffen
 * Im Internet
     * [Stackoverflow](https://stackoverflow.com/) 
     * [Java Newsgroup](https://groups.google.com/forum/#!forum/comp.lang.java.programmer)
@@ -179,11 +179,11 @@ aber man muss angeben woher man sich etwas kopiert hat, sonst ist es ein [Plagie
 * Für ausländische Studierende
     * [IZC H.E.L.P.](https://www.izc.tu-clausthal.de/sprachenzentrum/deutsch/help/) 
     * [IZC Sprachtandem](https://www.izc.tu-clausthal.de/sprachenzentrum/deutsch/sprachtandem/)
-* Tutoren und uns - Beachtet aber unsere Arbeit- und Wochenendzeiten, wir arbeiten nicht 24 Stunden 7 Tage die Woche
+* Tutoren & Mitarbeiter - Beachtet aber unsere Arbeit- und Wochenendzeiten, wir arbeiten nicht 24 Stunden 7 Tage die Woche
 
 ---
 
-## Wo kann ich mich zusammensetzen und arbeiten?
+## Wo kann ich mich zusammensetzen?
 
 * [Lebendige Lernorte](https://www.lernorte.tu-clausthal.de/)
 * [Schreibwerkstatt](https://www.schreibwerkstatt.tu-clausthal.de/)
@@ -193,10 +193,10 @@ aber man muss angeben woher man sich etwas kopiert hat, sonst ist es ein [Plagie
 
 ## Wir bietet nur die Basis
 
-* Das Script ist __nur__ eine Basis
+* Das Script ist __nur__ eine Grundlage
 * Probiert selbstständig alles aus
-* Werdet aktiv bei Problemen / Fragen &rarr; Wir helfen Euch mehr zu lernen
-* Im Team lernt Ihr am meisten &rarr; arbeitet mit unterschiedlichen Menschen hier zusammen
+* Werdet aktiv bei Problemen / Fragen &rarr; Wir helfen Euch zu lernen
+* Im Team lernt Ihr am meisten &rarr; arbeitet mit unterschiedlichen Menschen zusammen
 
 ---
 
