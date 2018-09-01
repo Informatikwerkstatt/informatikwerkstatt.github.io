@@ -14,6 +14,7 @@ __Sensoren & Events__
 https://developer.android.com/guide/input/
 https://developer.android.com/training/camera/
 https://developer.android.com/guide/topics/sensors/
+https://developer.android.com/guide/topics/connectivity/nfc/
 -->
 
 ---

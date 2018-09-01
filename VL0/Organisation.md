@@ -111,28 +111,27 @@ Es dürfen gerne auch eigene Vorschläge (mit Rücksprache) umgesetzt werden
 
 ===
 
-### Beginner
+### Beginner - 2D / 3D Spiel
 
-* Zeitplaner einem Kalender, in dem ich täglich Slots mit Wiederholungen festlegen kann, wo ich freie Zeiten habe. Über sie UI kann ich dann einen Slot z.b. mit 2h Stunden suchen
-* [Türme von Hanoi](https://de.wikipedia.org/wiki/T%C3%BCrme_von_Hanoi) Spiel mit entsprechender Navigationsfunktionalität um die Scheiben zu verschieben. Die Scheibenanzahl soll beim Start einstellbar sein
-* Persönlicher Wecker
-* Ideenmanager
+* [Türme von Hanoi](https://de.wikipedia.org/wiki/T%C3%BCrme_von_Hanoi) mit frei wählbarer Scheibenanzahl und Nutzung des Gyrosensors um die Scheiben zu verschieben
+    ![Türme von Hanoi](https://upload.wikimedia.org/wikipedia/commons/0/07/Tower_of_Hanoi.jpeg)
+* Kugellabyrinth, um eine Kugel durch ein beim Start zufällig generiertes Labyrinth mittels Gyrosensoren zu steuern
+    ![Kugellabyrinth](https://upload.wikimedia.org/wikipedia/commons/4/47/PuzzleOfDexterity.jpg)
+* Touch-Gess, erraten von Mustern. Geräte koppeln sich per NFC zusammen und ein Spieler zeichnet in einem 25x25 Gitterfeld ein Muster, alle anderen Spieler bekommen in ihrem Geräte nur die Punkte anzeigt, die in dem Muster verwendet wurden und müssen nun durch Probieren erraten, wie das ursprüungliche Muster ausgesehen hat. Dazu werden Punkte vergeben, der Spieler der es am schnellsten errät gewinnt die Runde
 
 ===
 
 ### Fortgeschrittene
 
 * Schleichwegdatenbank um alle geheimen Abkürzen in Clausthal immer auf dem Handy zu haben
-* [Simon says](https://de.wikipedia.org/wiki/Simon_says_(Spiel) mit Kommunikation an alle Geräte, die in der Nähe sind und die App auch gestartet haben
-* Touch-Guess ich male eine Touch-Geste auf dem Display und der Partner, der sich in der Nähe befindet, muss meine Geste durch zeichnen auf seinem Display erraten. Beide Nutzer bekommen ein Gitter angezeigt und in dem Gitter die Punkte, die sie bei der Geste berühren (ähnlich zum Login)
-
+* Party-Route um alle Parties in Clausthal zu verwalten und zwischen den einzelnen Locations immer einen kürzesten Weg zu berechnen (die Aufnahme von Point-of-Interest wie z.B. etwas zu Essen auf dem Weg zu finden, wäre auch hilfreich)
 
 ===
 
 ### Profis
 
-* Schleichwegdatenbank mit externer Datenbank, in der alle Schleichwege gesammelt und allen Nutzern zur Verfügung gestellt werden
-* Party-Map, eine App mit der man alle Parties mit Tag in Clausthal verwalten kann und die für einen Abend anhand der Tags eine passende Route mit kürzesten Wegen durch Clausthal plant, so dass man viele Parties besuchen kann und nur kurze Wege laufen muss
+* [Scotland Yard](https://de.wikipedia.org/wiki/Scotland_Yard_(Spiel)), zu Beginn wird ein Spieler als Mr. X bestimmt und alle paar Minuten wird dessen GPS Position bei den anderen Spielern in einer Map dargestellt. Wenn ein Spieler näher als ein paar Meter an Mr. X heran kommt, wird dieser als gefangen markiert und ein neuer Mr. X wird bestimmt
+* Who-I-Am, auf einer Karte werden alle Positionen der Spieler angezeigt. In jeder Runde kann ich einen Spieler fragen, wer er ist oder wo er ist, der angesprochene Spieler kann entscheiden, ob die Antwort wahrheitsgemäß oder falsch gegeben wird. Bei einer falschen Antwort wird per Zufall eine Position oder Name eines anderen Spielers gewählt. Das Ziel ist es, dass man alle Spieler richtig anhand des Namens und der Position zuordnet
 
 ---
 
@@ -166,7 +165,7 @@ Ihr sollt
 Grundsätzlich __Ja__
 aber man muss angeben woher man sich etwas kopiert hat, sonst ist es ein [Plagieren](https://de.wikipedia.org/wiki/Plagiat) was zum Ausschluss führen kann.
 
-Lernen heisst aber selbstständig erarbeiten, beim Kopieren lernt man nicht!
+> Lernen heisst aber selbstständig erarbeiten, beim Kopieren lernt man nicht!
 
 ---
 
@@ -194,10 +193,10 @@ Lernen heisst aber selbstständig erarbeiten, beim Kopieren lernt man nicht!
 
 ## Wir bietet nur die Basis
 
+* Das Script ist __nur__ eine Basis
 * Probiert selbstständig alles aus
 * Werdet aktiv bei Problemen / Fragen &rarr; Wir helfen Euch mehr zu lernen
-* Das Script ist __nur__ eine Basis
-* Im Team lernen Ihr am meisten &rarr; arbeitet mit unterschiedlichen Menschen hier zusammen
+* Im Team lernt Ihr am meisten &rarr; arbeitet mit unterschiedlichen Menschen hier zusammen
 
 ---
 
