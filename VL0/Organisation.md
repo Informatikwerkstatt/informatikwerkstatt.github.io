@@ -202,23 +202,23 @@ aber man muss angeben woher man sich etwas kopiert hat, sonst ist es ein [Plagia
 
 ## Hilfe, ich bin überfordert!
 
-> Ich habe doch gerade erst angefangen zu studieren!? Was wollt ihr von mir, das kann doch nicht wahr sein!? Ich hab doch noch andere Vorlesungen und wie soll ich das alles schaffen!?
+> Ich habe doch gerade erst angefangen zu studieren!? Was wollt ihr von mir, das kann doch nicht wahr sein!? Ich hab' doch noch andere Vorlesungen und wie soll ich das alles schaffen!?
 
 ===
 
-### Training 1
+### Training
 
 <iframe class="video" src="https://www.youtube.com/embed/3PycZtfns_U" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
 
 ===
 
-### Training 2
+### Training
 
 <iframe class="video" src="https://www.youtube.com/embed/__qOY9hcm64" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
 
 ===
 
-### Training 3
+### Training
 
 <iframe class="video" src="https://www.youtube.com/embed/R37pbIySnjg" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
 
