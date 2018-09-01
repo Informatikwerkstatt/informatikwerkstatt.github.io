@@ -109,6 +109,11 @@
     max-height: 75%;
   }  
 
+  .reveal img[src$='#tenpercent'] {
+    max-width: 10%;
+    max-height: 10%;
+  } 
+
  .reveal video,
  .reveal iframe {
   max-height: calc(50vh);
