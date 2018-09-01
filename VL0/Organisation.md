@@ -114,10 +114,10 @@ Es dürfen gerne auch eigene Vorschläge (mit Rücksprache) umgesetzt werden
 ### Beginner - 2D / 3D Spiel
 
 * [Türme von Hanoi](https://de.wikipedia.org/wiki/T%C3%BCrme_von_Hanoi) mit frei wählbarer Scheibenanzahl und Nutzung des Gyrosensors um die Scheiben zu verschieben
-    ![Türme von Hanoi](https://upload.wikimedia.org/wikipedia/commons/0/07/Tower_of_Hanoi.jpeg#tenpercent)
+    ![Türme von Hanoi](https://upload.wikimedia.org/wikipedia/commons/0/07/Tower_of_Hanoi.jpeg#quarter)
 * Kugellabyrinth, um eine Kugel durch ein beim Start zufällig generiertes Labyrinth mittels Gyrosensoren zu steuern
-    ![Kugellabyrinth](https://upload.wikimedia.org/wikipedia/commons/4/47/PuzzleOfDexterity.jpg#tenpercent)
-* Touch-Gess, erraten von Mustern. Geräte koppeln sich per NFC zusammen und ein Spieler zeichnet in einem 25x25 Gitterfeld ein Muster, alle anderen Spieler bekommen in ihrem Geräte nur die Punkte anzeigt, die in dem Muster verwendet wurden und müssen nun durch Probieren erraten, wie das ursprüungliche Muster ausgesehen hat. Dazu werden Punkte vergeben, der Spieler der es am schnellsten errät gewinnt die Runde
+    ![Kugellabyrinth](https://upload.wikimedia.org/wikipedia/commons/4/47/PuzzleOfDexterity.jpg#quarter)
+* Touch-Gess, erraten von Mustern. Geräte koppeln sich per NFC zusammen, ein Spieler zeichnet in einem 25x25 Gitterfeld ein Muster, alle anderen Spieler sehen nur die Punkte, des Musters und müssen nun das Muster erraten. Der Spieler der am schnellsten das Muster errät, gewinnt
 
 ===
 
