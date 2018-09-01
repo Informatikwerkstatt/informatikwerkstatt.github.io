@@ -165,7 +165,7 @@ Ihr sollt
 Grundsätzlich __Ja__
 aber man muss angeben woher man sich etwas kopiert hat, sonst ist es ein [Plagiat](https://de.wikipedia.org/wiki/Plagiat) was zum Ausschluss führen kann.
 
-> Lernen heisst aber selbstständig erarbeiten, beim Kopieren lernt man nicht!
+> Lernen heißt aber selbstständig erarbeiten, beim Kopieren lernt man nicht!
 
 ---
 
@@ -191,7 +191,7 @@ aber man muss angeben woher man sich etwas kopiert hat, sonst ist es ein [Plagia
 
 ---
 
-## Wir bietet nur die Basis
+## Wir bieten nur die Basis
 
 * Das Script ist __nur__ eine Grundlage
 * Probiert selbstständig alles aus
