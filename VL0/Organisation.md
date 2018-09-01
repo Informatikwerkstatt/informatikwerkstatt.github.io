@@ -202,7 +202,7 @@ aber man muss angeben woher man sich etwas kopiert hat, sonst ist es ein [Plagia
 
 ## Hilfe, ich bin überfordert!
 
-> Ich habe doch gerade erst angefangen zu studieren!? Was wollt ihr von mir, das kann doch nicht wahr sein!? Ich hab doch andere Vorlesungen und wie soll ich das alles schaffen!?
+> Ich habe doch gerade erst angefangen zu studieren!? Was wollt ihr von mir, das kann doch nicht wahr sein!? Ich hab doch noch andere Vorlesungen und wie soll ich das alles schaffen!?
 
 ===
 
