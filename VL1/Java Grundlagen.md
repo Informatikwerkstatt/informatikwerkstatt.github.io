@@ -117,7 +117,6 @@ Werkzeug unter Windows: *Eingabeaufforderung*
 ```shell
 javac HelloWorld.java
 ```
-<iframe class="video" src="https://player.vimeo.com/video/287916699" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
 
 - Damit die Datei `javac.exe` gefunden wird, müssen die Umgebungsvariablen `%JAVA_HOME%` und `%PATH%` entsprehend gesetzt sein. [Details siehe z.B. hier](https://docs.oracle.com/javase/10/install/installation-jdk-and-jre-microsoft-windows-platforms.htm).
 
@@ -128,6 +127,7 @@ javac HelloWorld.java
 ```shell
 java HelloWorld
 ```
+<iframe class="video" src="https://player.vimeo.com/video/287916699" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
 
 ---
 
@@ -309,11 +309,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY1NzIxMTQ0LDEwODg5NjQ4NjksLTExNz
-A4MjE0MzQsLTEwODc1OTE5NzMsMTYzNzYxNDY5OSwxMjMxNTMy
-ODk3LC05MDY0Nzg5NTAsLTE5NTI0MjUzNCwtMTczNTQ0MDg0My
-w3MDg3NzUxNDIsNTQwNTUzOTM4LDM3MjM2NzMzMywxMDQ0NDA5
-MTQ4LDIyNTUxMTUwMiwtMTgyMzc4ODY4OSwtMTExNjE2Mzk3OC
-wxMDU5OTc5NzkzLC0xMjIwMDM4NDk1LC0xNTc2MTEzNzU5LC0x
-NzAwMDU3NzI0XX0=
+eyJoaXN0b3J5IjpbLTQ1ODcyNjQwOCwyNjU3MjExNDQsMTA4OD
+k2NDg2OSwtMTE3MDgyMTQzNCwtMTA4NzU5MTk3MywxNjM3NjE0
+Njk5LDEyMzE1MzI4OTcsLTkwNjQ3ODk1MCwtMTk1MjQyNTM0LC
+0xNzM1NDQwODQzLDcwODc3NTE0Miw1NDA1NTM5MzgsMzcyMzY3
+MzMzLDEwNDQ0MDkxNDgsMjI1NTExNTAyLC0xODIzNzg4Njg5LC
+0xMTE2MTYzOTc4LDEwNTk5Nzk3OTMsLTEyMjAwMzg0OTUsLTE1
+NzYxMTM3NTldfQ==
 -->
