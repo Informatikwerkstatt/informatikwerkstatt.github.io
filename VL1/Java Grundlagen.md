@@ -34,7 +34,9 @@ __Java Grundlagen__
  - Java Virtual Machine (JVM): `java`
 	 - Laufzeitumgebung für Java
 	 - Portabilität durch eine JVM pro Plattform (Betriebssystem)
+
 ===
+
 ### Java auf Android-Endgeräten
 <!-- eine Subfolie für Java bei Android (Achtung die Infos auf Folien vom letzten Jahr stimmen nicht mehr Dalvik VM wird bei Android nicht mehr benutzt
 JPM: Ich würde das eher am Anfang der Android-Intro machen. Hier eher die allgemeine Abbildung, die den Cross-Platform Charakter von Java illustriert, s.u. -->
@@ -284,8 +286,8 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MDAxMDU5NCwtMTg4NzYwNzc5OSwxNT
-YxOTk0NzE0LDQ3MzY1OTYwMSwtMTYzMTc2OTg3OSw3ODU3NzIz
-MjAsMzg4NjM0NzM4LC0xMzc3NTg0MTY1LDkyMjk2MDc3MCwxOT
-Q3MTAxOTE0XX0=
+eyJoaXN0b3J5IjpbMTM1MzAyNzYxNCwtNDcwMDEwNTk0LC0xOD
+g3NjA3Nzk5LDE1NjE5OTQ3MTQsNDczNjU5NjAxLC0xNjMxNzY5
+ODc5LDc4NTc3MjMyMCwzODg2MzQ3MzgsLTEzNzc1ODQxNjUsOT
+IyOTYwNzcwLDE5NDcxMDE5MTRdfQ==
 -->
