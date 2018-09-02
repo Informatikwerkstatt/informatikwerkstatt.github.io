@@ -40,10 +40,10 @@ public class HelloWorld
 --> 
 ![](http://winf.in.tu-clausthal.de/jpm/infws/img/java-process.png)<!-- todo: agree on destination  in github --> 
  
- - Java Compiler: `javac` 
+ - Java Compiler:  Befehl`javac` 
 	 - Dienstprogramm, Teil der Java Software
 	 - Übersetzt Java Programm in binäres bytecode-Format (Endung `.class`)
- - Java Virtual Machine (JVM): `java`
+ - Java Virtual Machine (JVM): Befehl`java`
 	 - Laufzeitumgebung für Java
 	 - Portabilität durch eine JVM pro Plattform (Betriebssystem)
 
@@ -83,9 +83,10 @@ Die [Kommandozeile](https://de.wikipedia.org/wiki/Kommandozeile) ist eine Anwend
 
 ===
 
-### Befehle
+### Befehle der Windos Commandline
 
 <!-- Befehle der Windows Commandline, navigieren in Verzeichnissen & Verzeichnislisting -->
+Fens
 
 ===
 
@@ -285,10 +286,10 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcyMDY0NzAsMTA1OTk3OTc5MywtMTIyMD
-AzODQ5NSwtMTU3NjExMzc1OSwtMTcwMDA1NzcyNCwtMjY3OTQ2
-NTAxLC03MjU2Mzc2MDMsLTQ3MDAxMDU5NCwtMTg4NzYwNzc5OS
-wxNTYxOTk0NzE0LDQ3MzY1OTYwMSwtMTYzMTc2OTg3OSw3ODU3
-NzIzMjAsMzg4NjM0NzM4LC0xMzc3NTg0MTY1LDkyMjk2MDc3MC
-wxOTQ3MTAxOTE0XX0=
+eyJoaXN0b3J5IjpbLTEyNjQzNzAxOTQsMTA1OTk3OTc5MywtMT
+IyMDAzODQ5NSwtMTU3NjExMzc1OSwtMTcwMDA1NzcyNCwtMjY3
+OTQ2NTAxLC03MjU2Mzc2MDMsLTQ3MDAxMDU5NCwtMTg4NzYwNz
+c5OSwxNTYxOTk0NzE0LDQ3MzY1OTYwMSwtMTYzMTc2OTg3OSw3
+ODU3NzIzMjAsMzg4NjM0NzM4LC0xMzc3NTg0MTY1LDkyMjk2MD
+c3MCwxOTQ3MTAxOTE0XX0=
 -->
