@@ -71,7 +71,7 @@ Um zu
     * Vorlesung Fr 13-15 Uhr (Anwesenheitspflicht)
 * pünktliches Erscheinen um 17 bzw. 13 Uhr (st / sine tempore)
 * einmaliges Zuspätkommen / Fehlen in einer der beiden genannten Veranstaltung
-* bei weiterem Fehlen Vorlage eines (ärztlichen) Attests
+* bei weiterem Fehlen Vorlage eines ärztlichen Attests
 
 ---
 
@@ -227,3 +227,6 @@ aber man muss angeben woher man sich etwas kopiert hat, sonst ist es ein [Plagia
 ### Resultat
 
 <iframe class="video" src="https://www.youtube.com/embed/Bg21M2zwG9Q" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEzNjEyOTk1MTFdfQ==
+-->
