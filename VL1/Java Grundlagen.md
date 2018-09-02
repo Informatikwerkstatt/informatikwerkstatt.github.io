@@ -48,6 +48,7 @@ JPM: Ich würde das eher am Anfang der Android-Intro machen. Hier eher die allge
 ## Ein paar Begriffe: Quellcode,Binary, App <!-- Übersetzungsvorgang, compilieren + Bundling -->
  - Quellcode: (Menschenlesbare) Darstellung eines Programms
 	 - schreibt man mit einem Texteditor (z.B. MS Editor, Visual Studio Code)
+	 - ->Textdatei: Kann nur Text enthalten; einzelne Zeichen sind 
 	 - 
 
 
@@ -279,7 +280,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NjMxNTU5Niw3ODU3NzIzMjAsMzg4Nj
-M0NzM4LC0xMzc3NTg0MTY1LDkyMjk2MDc3MCwxOTQ3MTAxOTE0
-XX0=
+eyJoaXN0b3J5IjpbLTExOTk5MDgyOTgsNzg1NzcyMzIwLDM4OD
+YzNDczOCwtMTM3NzU4NDE2NSw5MjI5NjA3NzAsMTk0NzEwMTkx
+NF19
 -->
