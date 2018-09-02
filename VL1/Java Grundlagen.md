@@ -91,7 +91,7 @@ Wir benutzen die Kommandozeile zum
 - Starten mit
 	- Linksclick auf Windows-Symbol
 	- In Windows-Suche `cmd`eingeben
-	- 
+	- Linksclick auf angezeigtes `cmd`-Symbol
 
 ===
 
@@ -291,10 +291,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjM3ODg2ODksLTExMTYxNjM5NzgsMT
-A1OTk3OTc5MywtMTIyMDAzODQ5NSwtMTU3NjExMzc1OSwtMTcw
-MDA1NzcyNCwtMjY3OTQ2NTAxLC03MjU2Mzc2MDMsLTQ3MDAxMD
-U5NCwtMTg4NzYwNzc5OSwxNTYxOTk0NzE0LDQ3MzY1OTYwMSwt
-MTYzMTc2OTg3OSw3ODU3NzIzMjAsMzg4NjM0NzM4LC0xMzc3NT
-g0MTY1LDkyMjk2MDc3MCwxOTQ3MTAxOTE0XX0=
+eyJoaXN0b3J5IjpbMTkzNjgwOTAwMywtMTgyMzc4ODY4OSwtMT
+ExNjE2Mzk3OCwxMDU5OTc5NzkzLC0xMjIwMDM4NDk1LC0xNTc2
+MTEzNzU5LC0xNzAwMDU3NzI0LC0yNjc5NDY1MDEsLTcyNTYzNz
+YwMywtNDcwMDEwNTk0LC0xODg3NjA3Nzk5LDE1NjE5OTQ3MTQs
+NDczNjU5NjAxLC0xNjMxNzY5ODc5LDc4NTc3MjMyMCwzODg2Mz
+Q3MzgsLTEzNzc1ODQxNjUsOTIyOTYwNzcwLDE5NDcxMDE5MTRd
+fQ==
 -->
