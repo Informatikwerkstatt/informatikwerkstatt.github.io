@@ -98,8 +98,8 @@ Werkzeug unter Windows: *Eingabeaufforderung*
 <!-- Befehle der Windows Commandline, navigieren in Verzeichnissen & Verzeichnislisting -->
 - `help` listet alle Befehle auf
 - `dir` listet alle Verzeichnisse und Dateien des aktuellen Verzeichnisses
-- cd [Laufwerk][Pfad], cd \ wechselt ins Wurzelverzeichnis
-- Um genauere Infos zu einem Befehl zu bekommen, den Befehl mit der Option \? starten. Also z.B. `cd \?`
+- `cd [Laufwerk:][Pfad]`wechselt das Verzeichnis, cd \ wechselt ins Wurzelverzeichnis
+- Um genauere Infos zu einem Befehl zu bekommen, den Befehl mit der Option `/?` starten. Also z.B. `cd \?`
 
 
 ren
@@ -303,11 +303,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc5NzY0OTU5LDU0MDU1MzkzOCwzNzIzNj
-czMzMsMTA0NDQwOTE0OCwyMjU1MTE1MDIsLTE4MjM3ODg2ODks
-LTExMTYxNjM5NzgsMTA1OTk3OTc5MywtMTIyMDAzODQ5NSwtMT
-U3NjExMzc1OSwtMTcwMDA1NzcyNCwtMjY3OTQ2NTAxLC03MjU2
-Mzc2MDMsLTQ3MDAxMDU5NCwtMTg4NzYwNzc5OSwxNTYxOTk0Nz
-E0LDQ3MzY1OTYwMSwtMTYzMTc2OTg3OSw3ODU3NzIzMjAsMzg4
-NjM0NzM4XX0=
+eyJoaXN0b3J5IjpbLTg3MDg0NzQzOSw1NDA1NTM5MzgsMzcyMz
+Y3MzMzLDEwNDQ0MDkxNDgsMjI1NTExNTAyLC0xODIzNzg4Njg5
+LC0xMTE2MTYzOTc4LDEwNTk5Nzk3OTMsLTEyMjAwMzg0OTUsLT
+E1NzYxMTM3NTksLTE3MDAwNTc3MjQsLTI2Nzk0NjUwMSwtNzI1
+NjM3NjAzLC00NzAwMTA1OTQsLTE4ODc2MDc3OTksMTU2MTk5ND
+cxNCw0NzM2NTk2MDEsLTE2MzE3Njk4NzksNzg1NzcyMzIwLDM4
+ODYzNDczOF19
 -->
