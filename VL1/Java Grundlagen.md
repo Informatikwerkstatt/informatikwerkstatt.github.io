@@ -107,6 +107,7 @@ Werkzeug unter Windows: *Eingabeaufforderung*
 - Um genauere Infos zu einem Befehl zu bekommen, den Befehl mit der Option `/?` starten! 
 	- z.B.`cd /?` liefert Infos zum Befehl `cd`
 - `ren [Laufwerk:][Pfad]Dateiname1 Dateiname2` benennt Datei mit Namen `Dateiname1` in `Dateiname2` um
+- `del Dateiname` löscht die Datei mit Namen `Dateiname`, wenn diese Datei existiert
 
  ===
 ### Compilieren der Sourcen
@@ -307,11 +308,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNzYxNDY5OSwxMjMxNTMyODk3LC05MD
-Y0Nzg5NTAsLTE5NTI0MjUzNCwtMTczNTQ0MDg0Myw3MDg3NzUx
-NDIsNTQwNTUzOTM4LDM3MjM2NzMzMywxMDQ0NDA5MTQ4LDIyNT
-UxMTUwMiwtMTgyMzc4ODY4OSwtMTExNjE2Mzk3OCwxMDU5OTc5
-NzkzLC0xMjIwMDM4NDk1LC0xNTc2MTEzNzU5LC0xNzAwMDU3Nz
-I0LC0yNjc5NDY1MDEsLTcyNTYzNzYwMywtNDcwMDEwNTk0LC0x
-ODg3NjA3Nzk5XX0=
+eyJoaXN0b3J5IjpbLTEwODc1OTE5NzMsMTYzNzYxNDY5OSwxMj
+MxNTMyODk3LC05MDY0Nzg5NTAsLTE5NTI0MjUzNCwtMTczNTQ0
+MDg0Myw3MDg3NzUxNDIsNTQwNTUzOTM4LDM3MjM2NzMzMywxMD
+Q0NDA5MTQ4LDIyNTUxMTUwMiwtMTgyMzc4ODY4OSwtMTExNjE2
+Mzk3OCwxMDU5OTc5NzkzLC0xMjIwMDM4NDk1LC0xNTc2MTEzNz
+U5LC0xNzAwMDU3NzI0LC0yNjc5NDY1MDEsLTcyNTYzNzYwMywt
+NDcwMDEwNTk0XX0=
 -->
