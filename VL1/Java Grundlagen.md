@@ -74,20 +74,18 @@ JPM: Ich würde das eher am Anfang der Android-Intro machen. Hier eher die allge
 	 - einzelne Zeichen als Bitfolgen gespeichert, standardisierte Kodierung (z.B. UTF-8)
 	 - Textdateien können nur textuelle Information enthalten
  - **Binärcode**: Ausführbares Programm als Bytefolge gespeichert, z.B. `.class` Datei
-	 - BInärdateien s
-	 -Wird von Dienstprogrammen (z.B. Java Compiler `javac`) verarbeitet / interpretiert
-	
+	 - Binärdateien sind nicht für den Menschen lesbar
+	 -werden von Programmen (z.B. Java Compiler `javac`) verarbeitet / interpretiert
  - **App**: Ein Programm, das vom Nutzer aufgerufen und verwendet werden kann (z.B. Google Maps)
 
 ===
 
 ## Kommandozeile - ich kann nicht klicken!?
 
-Die [Kommandozeile](https://de.wikipedia.org/wiki/Kommandozeile) ist eine Anwendung, um mittels Befehlseingabe Programme auszuführen. Wir benutzen die Kommandozeile für
-
-* Compilieren der einfachen Beispiele von Hand
-* Starten der einfachen Beispiele von Hand
-* Verstehen, wie der Compileprozess und die Ausführung des Javaprogramms funktioniert
+Die [Kommandozeile](https://de.wikipedia.org/wiki/Kommandozeile) ist eine Anwendung, um mittels Befehlseingabe Programme auszuführen. Wir benutzen die Kommandozeile zum
+- Manuellen  Compilieren einfacher Programmbeispiele
+- Starten der einfachen Beispiele von Hand
+- Verstehen des, wie der Compileprozess und die Ausführung des Javaprogramms funktioniert
 
 ===
 
@@ -293,9 +291,9 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzODE1MzQ0OCwtMTU3NjExMzc1OSwtMT
-cwMDA1NzcyNCwtMjY3OTQ2NTAxLC03MjU2Mzc2MDMsLTQ3MDAx
-MDU5NCwtMTg4NzYwNzc5OSwxNTYxOTk0NzE0LDQ3MzY1OTYwMS
-wtMTYzMTc2OTg3OSw3ODU3NzIzMjAsMzg4NjM0NzM4LC0xMzc3
-NTg0MTY1LDkyMjk2MDc3MCwxOTQ3MTAxOTE0XX0=
+eyJoaXN0b3J5IjpbLTE3MjQ0Nzc5OTgsLTE1NzYxMTM3NTksLT
+E3MDAwNTc3MjQsLTI2Nzk0NjUwMSwtNzI1NjM3NjAzLC00NzAw
+MTA1OTQsLTE4ODc2MDc3OTksMTU2MTk5NDcxNCw0NzM2NTk2MD
+EsLTE2MzE3Njk4NzksNzg1NzcyMzIwLDM4ODYzNDczOCwtMTM3
+NzU4NDE2NSw5MjI5NjA3NzAsMTk0NzEwMTkxNF19
 -->
