@@ -40,8 +40,9 @@ __Java Grundlagen__
 <!-- eine Subfolie für Java bei Android (Achtung die Infos auf Folien vom letzten Jahr stimmen nicht mehr Dalvik VM wird bei Android nicht mehr benutzt
 JPM: ICh würde das eher am Anfang der Android-Intro machen. Hier eher die allgemeine Abbildung, die zeigt, dass -->
 
- - Android: Betriebssystem für mobile Endger
-
+ - Android: Betriebssystem für mobile Endgeräte
+ - Eigene JVM für Android
+ 
 ## Quellcode, Compiler, Binary, App - hä?
 <!-- Übersetzungsvorgang, compilieren + Bundling -->
 
@@ -275,6 +276,6 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTc4ODQxOCw5MjI5NjA3NzAsMTk0Nz
-EwMTkxNF19
+eyJoaXN0b3J5IjpbLTEzNzc1ODQxNjUsOTIyOTYwNzcwLDE5ND
+cxMDE5MTRdfQ==
 -->
