@@ -20,9 +20,10 @@ __Java Grundlagen__
 
 ---
 
-## Hello-World
+## Hello-World: Mein erstes Java-Programm
 
-Ein [Hello-World-Programm](https://de.wikipedia.org/wiki/Hallo-Welt-Programm) ist ein Minimalbeispiel für ein Programm in einer Programmiersprache
+- Ein [Hello-World-Programm](https://de.wikipedia.org/wiki/Hallo-Welt-Programm) ist ein Minimalbeispiel für ein Programm in einer Programmiersprache
+- Das folgende Java-Programm gibt die Zeichenkette "Hello World" auf der Konsole aus.
 
 ```java
 public class HelloWorld
@@ -289,8 +290,8 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNTYzNzYwMywtNDcwMDEwNTk0LC0xOD
-g3NjA3Nzk5LDE1NjE5OTQ3MTQsNDczNjU5NjAxLC0xNjMxNzY5
-ODc5LDc4NTc3MjMyMCwzODg2MzQ3MzgsLTEzNzc1ODQxNjUsOT
-IyOTYwNzcwLDE5NDcxMDE5MTRdfQ==
+eyJoaXN0b3J5IjpbMTY3MTkyNzQ2MiwtNzI1NjM3NjAzLC00Nz
+AwMTA1OTQsLTE4ODc2MDc3OTksMTU2MTk5NDcxNCw0NzM2NTk2
+MDEsLTE2MzE3Njk4NzksNzg1NzcyMzIwLDM4ODYzNDczOCwtMT
+M3NzU4NDE2NSw5MjI5NjA3NzAsMTk0NzEwMTkxNF19
 -->
