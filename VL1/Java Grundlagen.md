@@ -74,7 +74,9 @@ JPM: Ich würde das eher am Anfang der Android-Intro machen. Hier eher die allge
 	 - einzelne Zeichen als Bitfolgen gespeichert, standardisierte Kodierung (z.B. UTF-8)
 	 - Textdateien können nur textuelle Information enthalten
  - **Binärcode**: Ausführbares Programm als Bytefolge gespeichert, z.B. `.class` Datei
-	 -Binärdateien  werden  von unterschiedlichen Programmen bearbeitet (z.B. Java Compiler `javac`)
+	 - BInärdateien s
+	 -Wird von Dienstprogrammen (z.B. Java Compiler `javac`) verarbeitet / interpretiert
+	
  - **App**: Ein Programm, das vom Nutzer aufgerufen und verwendet werden kann (z.B. Google Maps)
 
 ===
@@ -291,7 +293,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MDMyMzY4MSwtMTU3NjExMzc1OSwtMT
+eyJoaXN0b3J5IjpbMTUzODE1MzQ0OCwtMTU3NjExMzc1OSwtMT
 cwMDA1NzcyNCwtMjY3OTQ2NTAxLC03MjU2Mzc2MDMsLTQ3MDAx
 MDU5NCwtMTg4NzYwNzc5OSwxNTYxOTk0NzE0LDQ3MzY1OTYwMS
 wtMTYzMTc2OTg3OSw3ODU3NzIzMjAsMzg4NjM0NzM4LC0xMzc3
