@@ -12,7 +12,7 @@ __Java Grundlagen__
 
 * objektorientierte Programmiersprache
 * erschienen 1995
-* Plattformunabh#ä
+* Plattformunabhängig: Java Programme laufen auf verschiedenen Betriebssystemen  (Windows, Mac, Unix, Android)
 * aktuelle Version: Java 11
 
 <!-- Allgemeine Infos zu Java -->
@@ -260,5 +260,5 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNTU1MDk1OF19
+eyJoaXN0b3J5IjpbLTUyNjE0OTI1Nl19
 -->
