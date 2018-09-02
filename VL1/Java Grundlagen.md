@@ -96,7 +96,7 @@ Werkzeug unter Windows: *Eingabeaufforderung*
 
 ===
 ### Befehle der Eingabeaufforderung
-<!-- Befehle der Windows Commandline, navigieren in Verzeichnissen & Verzeichnislisting -->
+<!-- Ausgewählte Befehle der Windows Commandline, navigieren in Verzeichnissen & Verzeichnislisting -->
  - `help` listet alle Befehle auf
  - `dir` listet Ichalt des aktuellen Verzeichnisses
  - `cd [Laufwerk:][Pfad]`Wechseln des aktuellen Laufwerks / Verzeichnisses
@@ -106,7 +106,7 @@ Werkzeug unter Windows: *Eingabeaufforderung*
 	- `cd ..` wechselt in das übergeordnete Verzeichnis
 - Um genauere Infos zu einem Befehl zu bekommen, den Befehl mit der Option `/?` starten! 
 	- z.B.`cd /?` liefert Infos zum Befehl `cd`
-- `ren [Laufwerk:][Pfad]Dateiname1 Dateiname2` benennt Datei mit Namen Dateiname1 in Dateiname2 um
+- `ren [Laufwerk:][Pfad]Dateiname1 Dateiname2` benennt Datei mit Namen `Dateiname1` in `Dateiname2` um
 
  ===
 ### Compilieren der Sourcen
@@ -306,11 +306,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE3ODIwMzMzLC0xNzM1NDQwODQzLDcwOD
-c3NTE0Miw1NDA1NTM5MzgsMzcyMzY3MzMzLDEwNDQ0MDkxNDgs
-MjI1NTExNTAyLC0xODIzNzg4Njg5LC0xMTE2MTYzOTc4LDEwNT
-k5Nzk3OTMsLTEyMjAwMzg0OTUsLTE1NzYxMTM3NTksLTE3MDAw
-NTc3MjQsLTI2Nzk0NjUwMSwtNzI1NjM3NjAzLC00NzAwMTA1OT
-QsLTE4ODc2MDc3OTksMTU2MTk5NDcxNCw0NzM2NTk2MDEsLTE2
-MzE3Njk4NzldfQ==
+eyJoaXN0b3J5IjpbLTE5NTI0MjUzNCwtMTczNTQ0MDg0Myw3MD
+g3NzUxNDIsNTQwNTUzOTM4LDM3MjM2NzMzMywxMDQ0NDA5MTQ4
+LDIyNTUxMTUwMiwtMTgyMzc4ODY4OSwtMTExNjE2Mzk3OCwxMD
+U5OTc5NzkzLC0xMjIwMDM4NDk1LC0xNTc2MTEzNzU5LC0xNzAw
+MDU3NzI0LC0yNjc5NDY1MDEsLTcyNTYzNzYwMywtNDcwMDEwNT
+k0LC0xODg3NjA3Nzk5LDE1NjE5OTQ3MTQsNDczNjU5NjAxLC0x
+NjMxNzY5ODc5XX0=
 -->
