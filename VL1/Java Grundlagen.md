@@ -19,14 +19,15 @@ __Java Grundlagen__
 
 ===
 ### Java Standalone
-<!-- eine Subfolie für Java-Standalone am Rechner (Java Runtime)
---> 
-![](http://winf.in.tu-clausthal.de/jpm/infws/img/java-process.png) 
- 1. List Datei erstellen mit Texteditor -> Endung `.java`
- 2. Datei übersetzen 
+<!-- eine Subfolie für Java-Standalone am Rechner (Java Runtime) 
+ - List Datei erstellen mit Texteditor -> Endung `.java`
+ - Datei übersetzen 
 	 Maschinenlesbare Repräsentation (bytecode)
 	 Verwendung eines Compilers (Programm `javac`) 
- 3. Übersetzte Datei ausführen (Programm `java`)
+ - Übersetzte Datei ausführen (Programm `java`) --> 
+![](http://winf.in.tu-clausthal.de/jpm/infws/img/java-process.png)<!-- todo: agree on destination  in github --> 
+ 
+ - Java compiler is a programm that translates a Java programm (written using a text edi 
 
 ===
 ### Java auf Android-Endgeräten
@@ -265,6 +266,6 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MTc1MDE1Niw5MjI5NjA3NzAsMTk0Nz
+eyJoaXN0b3J5IjpbLTQ3ODEwNzk3OCw5MjI5NjA3NzAsMTk0Nz
 EwMTkxNF19
 -->
