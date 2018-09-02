@@ -127,6 +127,8 @@ javac HelloWorld.java
 ```shell
 java HelloWorld
 ```
+Und hier das ganze im Video:
+
 <iframe class="video" src="https://player.vimeo.com/video/287916699" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
 
 ---
@@ -309,7 +311,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1ODcyNjQwOCwyNjU3MjExNDQsMTA4OD
+eyJoaXN0b3J5IjpbMTE2NDEyMzM2MSwyNjU3MjExNDQsMTA4OD
 k2NDg2OSwtMTE3MDgyMTQzNCwtMTA4NzU5MTk3MywxNjM3NjE0
 Njk5LDEyMzE1MzI4OTcsLTkwNjQ3ODk1MCwtMTk1MjQyNTM0LC
 0xNzM1NDQwODQzLDcwODc3NTE0Miw1NDA1NTM5MzgsMzcyMzY3
