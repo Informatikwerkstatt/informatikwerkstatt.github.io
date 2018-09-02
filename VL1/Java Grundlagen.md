@@ -97,6 +97,8 @@ Werkzeug unter Windows: *Eingabeaufforderung*
 ### Befehle
 <!-- Befehle der Windows Commandline, navigieren in Verzeichnissen & Verzeichnislisting -->
  
+ ===
+ 
 ### Compilieren der Sourcen
 
 Übersetzen des geschriebenen Quellcodes in _maschinen Sprache_
@@ -293,11 +295,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcyMzY3MzMzLDEwNDQ0MDkxNDgsMjI1NT
-ExNTAyLC0xODIzNzg4Njg5LC0xMTE2MTYzOTc4LDEwNTk5Nzk3
-OTMsLTEyMjAwMzg0OTUsLTE1NzYxMTM3NTksLTE3MDAwNTc3Mj
-QsLTI2Nzk0NjUwMSwtNzI1NjM3NjAzLC00NzAwMTA1OTQsLTE4
-ODc2MDc3OTksMTU2MTk5NDcxNCw0NzM2NTk2MDEsLTE2MzE3Nj
-k4NzksNzg1NzcyMzIwLDM4ODYzNDczOCwtMTM3NzU4NDE2NSw5
-MjI5NjA3NzBdfQ==
+eyJoaXN0b3J5IjpbMTc4MDY0NDUyNiwzNzIzNjczMzMsMTA0ND
+QwOTE0OCwyMjU1MTE1MDIsLTE4MjM3ODg2ODksLTExMTYxNjM5
+NzgsMTA1OTk3OTc5MywtMTIyMDAzODQ5NSwtMTU3NjExMzc1OS
+wtMTcwMDA1NzcyNCwtMjY3OTQ2NTAxLC03MjU2Mzc2MDMsLTQ3
+MDAxMDU5NCwtMTg4NzYwNzc5OSwxNTYxOTk0NzE0LDQ3MzY1OT
+YwMSwtMTYzMTc2OTg3OSw3ODU3NzIzMjAsMzg4NjM0NzM4LC0x
+Mzc3NTg0MTY1XX0=
 -->
