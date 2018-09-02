@@ -96,19 +96,19 @@ Werkzeug unter Windows: *Eingabeaufforderung*
 ===
 ### Befehle der Eingabeaufforderung
 <!-- Befehle der Windows Commandline, navigieren in Verzeichnissen & Verzeichnislisting -->
-- `help` listet alle Befehle auf
-- `dir` listet alle Verzeichnisse und Dateien des aktuellen Verzeichnisses
-- `cd [Laufwerk:][Pfad]`wechseln des aktuellen Laufwerks / Verzeichnisses
+ - `help` listet alle Befehle auf
+ - `dir` listet alle Verzeichnisse und Dateien des aktuellen Verzeichnisses
+ - `cd [Laufwerk:][Pfad]`wechseln des aktuellen Laufwerks / Verzeichnisses
 	- `cd \` wechselt ins Wurzelverzeichnis
 	- `cd ..` wechselt in das übergeordnete Verzeichnis
-- Um genauere Infos zu einem Befehl zu bekommen, den Befehl mit der Option `/?` starten. 
+ - Um genauere Infos zu einem Befehl zu bekommen, den Befehl mit der Option `/?` starten. 
 	- `cd /?` liefert Infos zum Befehl `cd`
-- `ren [Laufwerk:][Pfad]Dateiname1 Dateiname2`benennt Datei mit Namen `Dateiname1` in `Dateiname2` um
+ - `ren [Laufwerk:][Pfad]Dateiname1 Dateiname2`benennt Datei mit Namen `Dateiname1` in `Dateiname2` um
 
  ===
 ### Compilieren der Sourcen
 
-Übersetzen des geschriebenen Quellcodes in _maschinen Sprache_
+- Übersetzen des geschriebenen Java-Quellcodes in _Maschinensprache_ (meinstens Binärcode).
 
 ```shell
 javac HelloWorld.java
@@ -302,7 +302,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzODEyODA5Myw3MDg3NzUxNDIsNTQwNT
+eyJoaXN0b3J5IjpbLTQ1NTgzNTg2OCw3MDg3NzUxNDIsNTQwNT
 UzOTM4LDM3MjM2NzMzMywxMDQ0NDA5MTQ4LDIyNTUxMTUwMiwt
 MTgyMzc4ODY4OSwtMTExNjE2Mzk3OCwxMDU5OTc5NzkzLC0xMj
 IwMDM4NDk1LC0xNTc2MTEzNzU5LC0xNzAwMDU3NzI0LC0yNjc5
