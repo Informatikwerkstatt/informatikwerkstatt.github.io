@@ -71,8 +71,7 @@ JPM: Ich würde das eher am Anfang der Android-Intro machen. Hier eher die allge
 	 - Binärdateien sind nicht für den Menschen lesbar
 	 - werden von Programmen (z.B. Java Compiler `javac`) verarbeitet / interpretiert
  - **App**: Ein Programm, das vom Nutzer aufgerufen und verwendet werden kann (z.B. Google Maps)
-
-===
+---
 
 ## Kommandozeile - ich kann nicht klicken!?
 
@@ -293,11 +292,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjQ5MTc1NDcsMTA0NDQwOTE0OCwyMj
-U1MTE1MDIsLTE4MjM3ODg2ODksLTExMTYxNjM5NzgsMTA1OTk3
-OTc5MywtMTIyMDAzODQ5NSwtMTU3NjExMzc1OSwtMTcwMDA1Nz
-cyNCwtMjY3OTQ2NTAxLC03MjU2Mzc2MDMsLTQ3MDAxMDU5NCwt
-MTg4NzYwNzc5OSwxNTYxOTk0NzE0LDQ3MzY1OTYwMSwtMTYzMT
-c2OTg3OSw3ODU3NzIzMjAsMzg4NjM0NzM4LC0xMzc3NTg0MTY1
-LDkyMjk2MDc3MF19
+eyJoaXN0b3J5IjpbMTEzMzcxNzAxMSwxMDQ0NDA5MTQ4LDIyNT
+UxMTUwMiwtMTgyMzc4ODY4OSwtMTExNjE2Mzk3OCwxMDU5OTc5
+NzkzLC0xMjIwMDM4NDk1LC0xNTc2MTEzNzU5LC0xNzAwMDU3Nz
+I0LC0yNjc5NDY1MDEsLTcyNTYzNzYwMywtNDcwMDEwNTk0LC0x
+ODg3NjA3Nzk5LDE1NjE5OTQ3MTQsNDczNjU5NjAxLC0xNjMxNz
+Y5ODc5LDc4NTc3MjMyMCwzODg2MzQ3MzgsLTEzNzc1ODQxNjUs
+OTIyOTYwNzcwXX0=
 -->
