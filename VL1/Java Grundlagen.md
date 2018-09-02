@@ -34,7 +34,7 @@ public class HelloWorld
 	}
 }
 ```
----
+===
 
 
 ### Java Standalone am Rechner
@@ -290,9 +290,9 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjYwMTg1ODEsLTI2Nzk0NjUwMSwtNz
-I1NjM3NjAzLC00NzAwMTA1OTQsLTE4ODc2MDc3OTksMTU2MTk5
-NDcxNCw0NzM2NTk2MDEsLTE2MzE3Njk4NzksNzg1NzcyMzIwLD
-M4ODYzNDczOCwtMTM3NzU4NDE2NSw5MjI5NjA3NzAsMTk0NzEw
-MTkxNF19
+eyJoaXN0b3J5IjpbLTg3NjY0OTQ3NywtMjY3OTQ2NTAxLC03Mj
+U2Mzc2MDMsLTQ3MDAxMDU5NCwtMTg4NzYwNzc5OSwxNTYxOTk0
+NzE0LDQ3MzY1OTYwMSwtMTYzMTc2OTg3OSw3ODU3NzIzMjAsMz
+g4NjM0NzM4LC0xMzc3NTg0MTY1LDkyMjk2MDc3MCwxOTQ3MTAx
+OTE0XX0=
 -->
