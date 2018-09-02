@@ -85,8 +85,9 @@ Windows Tool: *Eingabeaufforderung*
 
 ### Kommandozeilentool unter Windows: Eingabeaufforderung
  1. Linksclick auf Windows-Symbol
- 2. In Windows-Suche `cmd`eingeben
+ 2. In Windows-Suche `cmd` eingeben
  3. Linksclick auf angezeigtes `cmd`-Symbol
+ 
 ![](http://winf.in.tu-clausthal.de/jpm/infws/img/1_cmd.png)
 
 ===
@@ -289,7 +290,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYxNTIwNjM4LDIyNTUxMTUwMiwtMTgyMz
+eyJoaXN0b3J5IjpbNTEzNDEzOTQ4LDIyNTUxMTUwMiwtMTgyMz
 c4ODY4OSwtMTExNjE2Mzk3OCwxMDU5OTc5NzkzLC0xMjIwMDM4
 NDk1LC0xNTc2MTEzNzU5LC0xNzAwMDU3NzI0LC0yNjc5NDY1MD
 EsLTcyNTYzNzYwMywtNDcwMDEwNTk0LC0xODg3NjA3Nzk5LDE1
