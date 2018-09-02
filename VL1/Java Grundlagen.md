@@ -103,9 +103,7 @@ Werkzeug unter Windows: *Eingabeaufforderung*
 	- `cd ..` wechselt in das übergeordnete Verzeichnis
 - Um genauere Infos zu einem Befehl zu bekommen, den Befehl mit der Option `/?` starten. 
 	- `cd /?` liefert Infos zum Befehl `cd`
-
-
-ren
+- REN [Laufwerk:][Pfad]Dateiname1 Dateiname2
 
 del  
  ===
@@ -306,7 +304,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDAyNDUwNjUsNTQwNTUzOTM4LDM3Mj
+eyJoaXN0b3J5IjpbLTE2MTM0NjQ3MjcsNTQwNTUzOTM4LDM3Mj
 M2NzMzMywxMDQ0NDA5MTQ4LDIyNTUxMTUwMiwtMTgyMzc4ODY4
 OSwtMTExNjE2Mzk3OCwxMDU5OTc5NzkzLC0xMjIwMDM4NDk1LC
 0xNTc2MTEzNzU5LC0xNzAwMDU3NzI0LC0yNjc5NDY1MDEsLTcy
