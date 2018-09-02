@@ -20,7 +20,8 @@ __Java Grundlagen__
 ===
 ### Java Standalone
 <!-- eine Subfolie für Java-Standalone am Rechner (Java Runtime)--> 
-* Um Java-Programme auszuführen, braucht man
+* Graphisch: Datei erstellen mit Texteditor -> .java
+* Datei übersetzen
 
 ===
 ### Java auf Android-Endgeräten
@@ -259,5 +260,5 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNTY1ODM4MywxOTQ3MTAxOTE0XX0=
+eyJoaXN0b3J5IjpbNzM2NzcwODkyLDE5NDcxMDE5MTRdfQ==
 -->
