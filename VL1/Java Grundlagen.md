@@ -74,7 +74,7 @@ JPM: Ich würde das eher am Anfang der Android-Intro machen. Hier eher die allge
 
 ---
 
-## Kommandozeile - tippen statt clicke
+## Kommandozeile - tippen statt clicken!
 
 Die [Kommandozeile](https://de.wikipedia.org/wiki/Kommandozeile) ist eine Anwendung, um mittels Tastatureingabe Befehle/Programme auszuführen. 
 Wir nutzen sie zum
@@ -104,6 +104,7 @@ Werkzeug unter Windows: *Eingabeaufforderung*
 - Um genauere Infos zu einem Befehl zu bekommen, den Befehl mit der Option `/?` starten. 
 	- `cd /?` liefert Infos zum Befehl `cd`
 - `ren [Laufwerk:][Pfad]Dateiname1 Dateiname2`benennt Datei mit Namen `Dateiname1` in `Dateiname2` um
+- 
  ===
  
 ### Compilieren der Sourcen
@@ -302,7 +303,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTY4NTY1NzgsNzA4Nzc1MTQyLDU0MD
+eyJoaXN0b3J5IjpbLTEzMzQ0NzE2MzYsNzA4Nzc1MTQyLDU0MD
 U1MzkzOCwzNzIzNjczMzMsMTA0NDQwOTE0OCwyMjU1MTE1MDIs
 LTE4MjM3ODg2ODksLTExMTYxNjM5NzgsMTA1OTk3OTc5MywtMT
 IyMDAzODQ5NSwtMTU3NjExMzc1OSwtMTcwMDA1NzcyNCwtMjY3
