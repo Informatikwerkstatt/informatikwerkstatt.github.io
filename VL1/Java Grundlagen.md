@@ -43,8 +43,7 @@ JPM: ICh würde das eher am Anfang der Android-Intro machen. Hier eher die allge
  - Android: Betriebssystem für mobile Endgeräte
  - Eigene JVM für Android
  - Siehe Kapitel 4!
-  
- 
+  ![](http://winf.in.tu-clausthal.de/jpm/infws/img/java-cross-pf.png)
  
 ## Quellcode, Compiler, Binary, App - hä?
 <!-- Übersetzungsvorgang, compilieren + Bundling -->
@@ -64,9 +63,7 @@ public class HelloWorld
 	}
 }
 ```
-
----![](http://winf.in.tu-clausthal.de/jpm/infws/img/java-cross-pf.png)
-
+---
 ## Kommandozeile - ich kann nicht klicken!?
 
 Die [Kommandozeile](https://de.wikipedia.org/wiki/Kommandozeile) ist eine Anwendung, um mittels Befehlseingabe Programme auszuführen. Wir benutzen die Kommandozeile für
@@ -279,7 +276,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDU5MTIzNTQsNzg1NzcyMzIwLDM4OD
-YzNDczOCwtMTM3NzU4NDE2NSw5MjI5NjA3NzAsMTk0NzEwMTkx
-NF19
+eyJoaXN0b3J5IjpbMTk5NDc4ODM4MCw3ODU3NzIzMjAsMzg4Nj
+M0NzM4LC0xMzc3NTg0MTY1LDkyMjk2MDc3MCwxOTQ3MTAxOTE0
+XX0=
 -->
