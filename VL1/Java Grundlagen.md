@@ -48,7 +48,9 @@ JPM: Ich würde das eher am Anfang der Android-Intro machen. Hier eher die allge
 ---
 
 ===
-## Ein paar Begriffe: Quellcode,Binary, App <!-- Übersetzungsvorgang, compilieren + Bundling -->
+## Ein paar Begriffe: Quellcode,Binary, App
+ <!-- Übersetzungsvorgang, compilieren + Bundling 
+ @Phil: Gehört Bundling nicht eher ins Android Kapitel?-->
  - Quellcode: Textbasierte Darstellung eines Programms
 	 - z.B. `.java` Datei, erstellt mit Texteditor (z.B. Visual Studio Code)
 	 - einzelne Zeichen als Bitfolgen gespeichert, standardisierte Kodierung (z.B. UTF-8)
@@ -284,7 +286,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NjEyOTM2MSwxNTYxOTk0NzE0LDQ3Mz
-Y1OTYwMSwtMTYzMTc2OTg3OSw3ODU3NzIzMjAsMzg4NjM0NzM4
-LC0xMzc3NTg0MTY1LDkyMjk2MDc3MCwxOTQ3MTAxOTE0XX0=
+eyJoaXN0b3J5IjpbLTE4ODc2MDc3OTksMTU2MTk5NDcxNCw0Nz
+M2NTk2MDEsLTE2MzE3Njk4NzksNzg1NzcyMzIwLDM4ODYzNDcz
+OCwtMTM3NzU4NDE2NSw5MjI5NjA3NzAsMTk0NzEwMTkxNF19
 -->
