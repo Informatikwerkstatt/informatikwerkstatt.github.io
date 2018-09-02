@@ -83,10 +83,10 @@ Die [Kommandozeile](https://de.wikipedia.org/wiki/Kommandozeile) ist eine Anwend
 
 ===
 
-### Befehle der Windos Commandline
+### Befehle der Windows Kommandozeile
 
 <!-- Befehle der Windows Commandline, navigieren in Verzeichnissen & Verzeichnislisting -->
-Fens
+Kommandozeile verfügbar mit der Windows Eingabeaufforderung
 
 ===
 
@@ -286,7 +286,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjQzNzAxOTQsMTA1OTk3OTc5MywtMT
+eyJoaXN0b3J5IjpbLTExMTYxNjM5NzgsMTA1OTk3OTc5MywtMT
 IyMDAzODQ5NSwtMTU3NjExMzc1OSwtMTcwMDA1NzcyNCwtMjY3
 OTQ2NTAxLC03MjU2Mzc2MDMsLTQ3MDAxMDU5NCwtMTg4NzYwNz
 c5OSwxNTYxOTk0NzE0LDQ3MzY1OTYwMSwtMTYzMTc2OTg3OSw3
