@@ -94,9 +94,16 @@ Werkzeug unter Windows: *Eingabeaufforderung*
 ![](http://winf.in.tu-clausthal.de/jpm/infws/img/1_cmd.png)
 
 ===
-### Befehle
+### Befehle der Eingabeaufforderung
 <!-- Befehle der Windows Commandline, navigieren in Verzeichnissen & Verzeichnislisting -->
- 
+
+dircd  
+
+
+
+ren
+
+del  
  ===
  
 ### Compilieren der Sourcen
@@ -295,11 +302,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MDY0NDUyNiwzNzIzNjczMzMsMTA0ND
-QwOTE0OCwyMjU1MTE1MDIsLTE4MjM3ODg2ODksLTExMTYxNjM5
-NzgsMTA1OTk3OTc5MywtMTIyMDAzODQ5NSwtMTU3NjExMzc1OS
-wtMTcwMDA1NzcyNCwtMjY3OTQ2NTAxLC03MjU2Mzc2MDMsLTQ3
-MDAxMDU5NCwtMTg4NzYwNzc5OSwxNTYxOTk0NzE0LDQ3MzY1OT
-YwMSwtMTYzMTc2OTg3OSw3ODU3NzIzMjAsMzg4NjM0NzM4LC0x
-Mzc3NTg0MTY1XX0=
+eyJoaXN0b3J5IjpbNTQwNTUzOTM4LDM3MjM2NzMzMywxMDQ0ND
+A5MTQ4LDIyNTUxMTUwMiwtMTgyMzc4ODY4OSwtMTExNjE2Mzk3
+OCwxMDU5OTc5NzkzLC0xMjIwMDM4NDk1LC0xNTc2MTEzNzU5LC
+0xNzAwMDU3NzI0LC0yNjc5NDY1MDEsLTcyNTYzNzYwMywtNDcw
+MDEwNTk0LC0xODg3NjA3Nzk5LDE1NjE5OTQ3MTQsNDczNjU5Nj
+AxLC0xNjMxNzY5ODc5LDc4NTc3MjMyMCwzODg2MzQ3MzgsLTEz
+Nzc1ODQxNjVdfQ==
 -->
