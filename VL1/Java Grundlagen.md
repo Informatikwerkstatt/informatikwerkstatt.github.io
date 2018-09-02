@@ -74,7 +74,7 @@ JPM: Ich würde das eher am Anfang der Android-Intro machen. Hier eher die allge
 
 ---
 
-## Kommandozeile - ich kann nicht klicken!?
+## Kommandozeile - tippen statt clicke
 
 Die [Kommandozeile](https://de.wikipedia.org/wiki/Kommandozeile) ist eine Anwendung, um mittels Tastatureingabe Befehle/Programme auszuführen. 
 Wir nutzen sie zum
@@ -302,11 +302,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA4Nzc1MTQyLDU0MDU1MzkzOCwzNzIzNj
-czMzMsMTA0NDQwOTE0OCwyMjU1MTE1MDIsLTE4MjM3ODg2ODks
-LTExMTYxNjM5NzgsMTA1OTk3OTc5MywtMTIyMDAzODQ5NSwtMT
-U3NjExMzc1OSwtMTcwMDA1NzcyNCwtMjY3OTQ2NTAxLC03MjU2
-Mzc2MDMsLTQ3MDAxMDU5NCwtMTg4NzYwNzc5OSwxNTYxOTk0Nz
-E0LDQ3MzY1OTYwMSwtMTYzMTc2OTg3OSw3ODU3NzIzMjAsMzg4
-NjM0NzM4XX0=
+eyJoaXN0b3J5IjpbLTExMTY4NTY1NzgsNzA4Nzc1MTQyLDU0MD
+U1MzkzOCwzNzIzNjczMzMsMTA0NDQwOTE0OCwyMjU1MTE1MDIs
+LTE4MjM3ODg2ODksLTExMTYxNjM5NzgsMTA1OTk3OTc5MywtMT
+IyMDAzODQ5NSwtMTU3NjExMzc1OSwtMTcwMDA1NzcyNCwtMjY3
+OTQ2NTAxLC03MjU2Mzc2MDMsLTQ3MDAxMDU5NCwtMTg4NzYwNz
+c5OSwxNTYxOTk0NzE0LDQ3MzY1OTYwMSwtMTYzMTc2OTg3OSw3
+ODU3NzIzMjBdfQ==
 -->
