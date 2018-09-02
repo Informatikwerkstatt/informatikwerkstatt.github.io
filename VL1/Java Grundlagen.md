@@ -19,8 +19,9 @@ __Java Grundlagen__
 
 ===
 ### Java Standalone
-<!-- eine Subfolie für Java-Standalone am Rechner (Java Runtime)--> 
-[Darstellen mit Bild]: 
+<!-- eine Subfolie für Java-Standalone am Rechner (Java Runtime)
+--> 
+![](http://winf.in.tu-clausthal.de/jpm/infws/img/java-process.png) 
  1. List Datei erstellen mit Texteditor -> Endung `.java`
  2. Datei übersetzen 
 	 Maschinenlesbare Repräsentation (bytecode)
@@ -264,5 +265,6 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIyOTYwNzcwLDE5NDcxMDE5MTRdfQ==
+eyJoaXN0b3J5IjpbMTU3MTc1MDE1Niw5MjI5NjA3NzAsMTk0Nz
+EwMTkxNF19
 -->
