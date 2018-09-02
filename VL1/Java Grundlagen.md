@@ -18,7 +18,24 @@ __Java Grundlagen__
 * aktuelle Version: Java 11
 <!-- Allgemeine Infos zu Java -->
 
+---
+
+## Hello-World
+
+Ein [Hello-World-Programm](https://de.wikipedia.org/wiki/Hallo-Welt-Programm) ist ein Minimalbeispiel für ein Programm in einer Programmiersprache
+
+```java
+public class HelloWorld
+{
+	public static void main( String[] p_args )
+	{
+		System.out.println( "Hello, World" );
+	}
+}
+```
+---
 ===
+
 ### Java Standalone am Rechner
 <!-- eine Subfolie für Java-Standalone am Rechner (Java Runtime) 
  - List Datei erstellen mit Texteditor -> Endung `.java`
@@ -51,29 +68,15 @@ JPM: Ich würde das eher am Anfang der Android-Intro machen. Hier eher die allge
 ## Ein paar Begriffe: Quellcode,Binary, App
  <!-- Übersetzungsvorgang, compilieren + Bundling 
  @Phil: Gehört Bundling nicht eher ins Android Kapitel?-->
- - Quellcode: Textbasierte Darstellung eines Programms
+ - **Quellcode**: Textbasierte Darstellung eines Programms
 	 - z.B. `.java` Datei, erstellt mit Texteditor (z.B. Visual Studio Code)
 	 - einzelne Zeichen als Bitfolgen gespeichert, standardisierte Kodierung (z.B. UTF-8)
- - Binärcode: Beliebige Inhalte (z.B. auch Bilder, Videos)
+ - **Binärcode**: Beliebige Inhalte (z.B. auch Bilder, Videos)
 	 - z.B. `.class` Datei, ausführbares Programm als Bytefolge gespeichert
 	 - von unterschiedlichen Programmen bearbeitet (z.B. Java Compiler `javac`)
- - App: Ein Programm, das vom Nutzer aufgerufen und verwendet werden kann
----
+ - **App**: Ein Programm, das vom Nutzer aufgerufen und verwendet werden kann (z.B. Google Maps)
 
-## Hello-World
 
-Ein [Hello-World-Programm](https://de.wikipedia.org/wiki/Hallo-Welt-Programm) ist ein Minimalbeispiel für ein Programm in einer Programmiersprache
-
-```java
-public class HelloWorld
-{
-	public static void main( String[] p_args )
-	{
-		System.out.println( "Hello, World" );
-	}
-}
-```
----
 ## Kommandozeile - ich kann nicht klicken!?
 
 Die [Kommandozeile](https://de.wikipedia.org/wiki/Kommandozeile) ist eine Anwendung, um mittels Befehlseingabe Programme auszuführen. Wir benutzen die Kommandozeile für
@@ -286,7 +289,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MzAyNzYxNCwtNDcwMDEwNTk0LC0xOD
+eyJoaXN0b3J5IjpbLTcyNTYzNzYwMywtNDcwMDEwNTk0LC0xOD
 g3NjA3Nzk5LDE1NjE5OTQ3MTQsNDczNjU5NjAxLC0xNjMxNzY5
 ODc5LDc4NTc3MjMyMCwzODg2MzQ3MzgsLTEzNzc1ODQxNjUsOT
 IyOTYwNzcwLDE5NDcxMDE5MTRdfQ==
