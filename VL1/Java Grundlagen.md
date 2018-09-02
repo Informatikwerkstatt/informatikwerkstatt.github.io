@@ -50,12 +50,12 @@ JPM: Ich würde das eher am Anfang der Android-Intro machen. Hier eher die allge
 ===
 ## Ein paar Begriffe: Quellcode,Binary, App <!-- Übersetzungsvorgang, compilieren + Bundling -->
  - Quellcode: Textbasierte Darstellung eines Programms
-	 - z.B. `.java` Datei, erstellt mit Texteditor (z.B. MS Editor, Visual Studio Code)
-	 - einzelne Zeichen als Bitfolgen gespeichert, standardisierte Kodierung (z.B: UTF-8)
+	 - z.B. `.java` Datei, erstellt mit Texteditor (z.B. Visual Studio Code)
+	 - einzelne Zeichen als Bitfolgen gespeichert, standardisierte Kodierung (z.B. UTF-8)
  - Binärcode: Beliebige Inhalte (z.B. auch Bilder, Videos)
-	 - z.B. `.class` Datei, ausführbares Programm
-	 - als Bytefolgen gespeichert
+	 - z.B. `.class` Datei, ausführbares Programm als Bytefolge gespeichert
 	 - von unterschiedlichen Programmen bearbeitet (z.B. Java Compiler `javac`)
+ - App: Ein Programm, das vom Nutzer aufgerufen und verwendet werden kann
 ---
 
 ## Hello-World
@@ -284,7 +284,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MjQzNDQwMiwxNTYxOTk0NzE0LDQ3Mz
+eyJoaXN0b3J5IjpbMTk5NjEyOTM2MSwxNTYxOTk0NzE0LDQ3Mz
 Y1OTYwMSwtMTYzMTc2OTg3OSw3ODU3NzIzMjAsMzg4NjM0NzM4
 LC0xMzc3NTg0MTY1LDkyMjk2MDc3MCwxOTQ3MTAxOTE0XX0=
 -->
