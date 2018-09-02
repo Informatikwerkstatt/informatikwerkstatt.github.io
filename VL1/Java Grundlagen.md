@@ -81,7 +81,8 @@ Wir nutzen sie zum
 - manuellen  Compilieren einfacher Programmbeispiele
 - Starten einfacher Beispiele
 - Verstehen des Prozesses des Compilierens und der Ausführung von Javaprogrammen
-Windows Tool: *Eingabeaufforderung*
+
+Werkzeug unter Windows: *Eingabeaufforderung*
 
 ===
 
@@ -292,11 +293,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI4MzM0MjQyLDIyNTUxMTUwMiwtMTgyMz
-c4ODY4OSwtMTExNjE2Mzk3OCwxMDU5OTc5NzkzLC0xMjIwMDM4
-NDk1LC0xNTc2MTEzNzU5LC0xNzAwMDU3NzI0LC0yNjc5NDY1MD
-EsLTcyNTYzNzYwMywtNDcwMDEwNTk0LC0xODg3NjA3Nzk5LDE1
-NjE5OTQ3MTQsNDczNjU5NjAxLC0xNjMxNzY5ODc5LDc4NTc3Mj
-MyMCwzODg2MzQ3MzgsLTEzNzc1ODQxNjUsOTIyOTYwNzcwLDE5
-NDcxMDE5MTRdfQ==
+eyJoaXN0b3J5IjpbLTE1MTQxOTE3MzAsMjI1NTExNTAyLC0xOD
+IzNzg4Njg5LC0xMTE2MTYzOTc4LDEwNTk5Nzk3OTMsLTEyMjAw
+Mzg0OTUsLTE1NzYxMTM3NTksLTE3MDAwNTc3MjQsLTI2Nzk0Nj
+UwMSwtNzI1NjM3NjAzLC00NzAwMTA1OTQsLTE4ODc2MDc3OTks
+MTU2MTk5NDcxNCw0NzM2NTk2MDEsLTE2MzE3Njk4NzksNzg1Nz
+cyMzIwLDM4ODYzNDczOCwtMTM3NzU4NDE2NSw5MjI5NjA3NzAs
+MTk0NzEwMTkxNF19
 -->
