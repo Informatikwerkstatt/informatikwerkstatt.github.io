@@ -14,7 +14,7 @@ __Java Grundlagen__
 * Seit 1995
 * Plattformunabhängig
 	* Java Programme laufen auf verschiedenen Betriebssystemen  (Windows, Mac, Unix, Android)
-* Java Software enthalten in Oracle's Standard Edition Java Development Kit[Java SE JDK](https://www.oracle.com/technetwork/java/javase/overview/index.html)
+* Java Software enthalten in Oracle's Standard Edition Java Development Kit [(Java SE JDK)](https://www.oracle.com/technetwork/java/javase/overview/index.html)
 * Aktuelle Version: [Java 11](http://jdk.java.net/11/)
 
 ===
@@ -293,11 +293,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NDQwOTE0OCwyMjU1MTE1MDIsLTE4Mj
-M3ODg2ODksLTExMTYxNjM5NzgsMTA1OTk3OTc5MywtMTIyMDAz
-ODQ5NSwtMTU3NjExMzc1OSwtMTcwMDA1NzcyNCwtMjY3OTQ2NT
-AxLC03MjU2Mzc2MDMsLTQ3MDAxMDU5NCwtMTg4NzYwNzc5OSwx
-NTYxOTk0NzE0LDQ3MzY1OTYwMSwtMTYzMTc2OTg3OSw3ODU3Nz
-IzMjAsMzg4NjM0NzM4LC0xMzc3NTg0MTY1LDkyMjk2MDc3MCwx
-OTQ3MTAxOTE0XX0=
+eyJoaXN0b3J5IjpbLTEyNjQ5MTc1NDcsMTA0NDQwOTE0OCwyMj
+U1MTE1MDIsLTE4MjM3ODg2ODksLTExMTYxNjM5NzgsMTA1OTk3
+OTc5MywtMTIyMDAzODQ5NSwtMTU3NjExMzc1OSwtMTcwMDA1Nz
+cyNCwtMjY3OTQ2NTAxLC03MjU2Mzc2MDMsLTQ3MDAxMDU5NCwt
+MTg4NzYwNzc5OSwxNTYxOTk0NzE0LDQ3MzY1OTYwMSwtMTYzMT
+c2OTg3OSw3ODU3NzIzMjAsMzg4NjM0NzM4LC0xMzc3NTg0MTY1
+LDkyMjk2MDc3MF19
 -->
