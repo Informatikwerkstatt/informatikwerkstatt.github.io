@@ -116,7 +116,7 @@ Werkzeug unter Windows: *Eingabeaufforderung*
 ```shell
 javac HelloWorld.java
 ```
-- Anmerkung: Damit die Datei javac.exe gefunden wird, müssen die Umgebungsvariablen %JAVA_HOME% und %PATH% entsprehend gesetzt sein.
+- Anmerkung: Damit die Datei javac.exe gefunden wird, müssen die Umgebungsvariablen %JAVA_HOME% und %PATH% entsprehend gesetzt sein. [Siehe z.B. hier](https://docs.oracle.com/javase/10/install/installation-jdk-and-jre-microsoft-windows-platforms.htm).
 
 ===
 
@@ -306,11 +306,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNjQ3ODk1MCwtMTk1MjQyNTM0LC0xNz
-M1NDQwODQzLDcwODc3NTE0Miw1NDA1NTM5MzgsMzcyMzY3MzMz
-LDEwNDQ0MDkxNDgsMjI1NTExNTAyLC0xODIzNzg4Njg5LC0xMT
-E2MTYzOTc4LDEwNTk5Nzk3OTMsLTEyMjAwMzg0OTUsLTE1NzYx
-MTM3NTksLTE3MDAwNTc3MjQsLTI2Nzk0NjUwMSwtNzI1NjM3Nj
-AzLC00NzAwMTA1OTQsLTE4ODc2MDc3OTksMTU2MTk5NDcxNCw0
-NzM2NTk2MDFdfQ==
+eyJoaXN0b3J5IjpbMTIzMTUzMjg5NywtOTA2NDc4OTUwLC0xOT
+UyNDI1MzQsLTE3MzU0NDA4NDMsNzA4Nzc1MTQyLDU0MDU1Mzkz
+OCwzNzIzNjczMzMsMTA0NDQwOTE0OCwyMjU1MTE1MDIsLTE4Mj
+M3ODg2ODksLTExMTYxNjM5NzgsMTA1OTk3OTc5MywtMTIyMDAz
+ODQ5NSwtMTU3NjExMzc1OSwtMTcwMDA1NzcyNCwtMjY3OTQ2NT
+AxLC03MjU2Mzc2MDMsLTQ3MDAxMDU5NCwtMTg4NzYwNzc5OSwx
+NTYxOTk0NzE0XX0=
 -->
