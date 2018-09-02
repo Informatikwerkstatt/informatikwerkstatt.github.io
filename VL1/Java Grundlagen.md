@@ -40,10 +40,10 @@ public class HelloWorld
 --> 
 ![](http://winf.in.tu-clausthal.de/jpm/infws/img/java-process.png)<!-- todo: agree on destination  in github --> 
  
- - Java Compiler:  Befehl`javac` 
+ - Java Compiler:  Befehl `javac` 
 	 - Dienstprogramm, Teil der Java Software
 	 - Übersetzt Java Programm in binäres bytecode-Format (Endung `.class`)
- - Java Virtual Machine (JVM): Befehl`java`
+ - Java Virtual Machine (JVM): Befehl `java`
 	 - Laufzeitumgebung für Java
 	 - Portabilität durch eine JVM pro Plattform (Betriebssystem)
 
@@ -302,11 +302,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MzcyOTQzMiw1NDA1NTM5MzgsMzcyMz
-Y3MzMzLDEwNDQ0MDkxNDgsMjI1NTExNTAyLC0xODIzNzg4Njg5
-LC0xMTE2MTYzOTc4LDEwNTk5Nzk3OTMsLTEyMjAwMzg0OTUsLT
-E1NzYxMTM3NTksLTE3MDAwNTc3MjQsLTI2Nzk0NjUwMSwtNzI1
-NjM3NjAzLC00NzAwMTA1OTQsLTE4ODc2MDc3OTksMTU2MTk5ND
-cxNCw0NzM2NTk2MDEsLTE2MzE3Njk4NzksNzg1NzcyMzIwLDM4
-ODYzNDczOF19
+eyJoaXN0b3J5IjpbNzA4Nzc1MTQyLDU0MDU1MzkzOCwzNzIzNj
+czMzMsMTA0NDQwOTE0OCwyMjU1MTE1MDIsLTE4MjM3ODg2ODks
+LTExMTYxNjM5NzgsMTA1OTk3OTc5MywtMTIyMDAzODQ5NSwtMT
+U3NjExMzc1OSwtMTcwMDA1NzcyNCwtMjY3OTQ2NTAxLC03MjU2
+Mzc2MDMsLTQ3MDAxMDU5NCwtMTg4NzYwNzc5OSwxNTYxOTk0Nz
+E0LDQ3MzY1OTYwMSwtMTYzMTc2OTg3OSw3ODU3NzIzMjAsMzg4
+NjM0NzM4XX0=
 -->
