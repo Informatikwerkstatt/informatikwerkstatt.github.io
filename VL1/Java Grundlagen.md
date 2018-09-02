@@ -34,8 +34,6 @@ __Java Grundlagen__
  - Java Virtual Machine (JVM): `java`
 	 - Laufzeitumgebung für Java
 	 - Portabilität durch eine JVM pro Plattform (Betriebssystem)
-
-
 ===
 ### Java auf Android-Endgeräten
 <!-- eine Subfolie für Java bei Android (Achtung die Infos auf Folien vom letzten Jahr stimmen nicht mehr Dalvik VM wird bei Android nicht mehr benutzt
@@ -45,9 +43,9 @@ JPM: Ich würde das eher am Anfang der Android-Intro machen. Hier eher die allge
  - Eigene JVM für Android
  - Siehe Kapitel 4!
   ![](http://winf.in.tu-clausthal.de/jpm/infws/img/java-cross-pf.png)
+
 ---
 
-===
 ## Ein paar Begriffe: Quellcode,Binary, App
  <!-- Übersetzungsvorgang, compilieren + Bundling 
  @Phil: Gehört Bundling nicht eher ins Android Kapitel?-->
@@ -286,7 +284,8 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODc2MDc3OTksMTU2MTk5NDcxNCw0Nz
-M2NTk2MDEsLTE2MzE3Njk4NzksNzg1NzcyMzIwLDM4ODYzNDcz
-OCwtMTM3NzU4NDE2NSw5MjI5NjA3NzAsMTk0NzEwMTkxNF19
+eyJoaXN0b3J5IjpbLTQ3MDAxMDU5NCwtMTg4NzYwNzc5OSwxNT
+YxOTk0NzE0LDQ3MzY1OTYwMSwtMTYzMTc2OTg3OSw3ODU3NzIz
+MjAsMzg4NjM0NzM4LC0xMzc3NTg0MTY1LDkyMjk2MDc3MCwxOT
+Q3MTAxOTE0XX0=
 -->
