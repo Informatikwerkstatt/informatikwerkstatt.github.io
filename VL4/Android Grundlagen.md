@@ -32,7 +32,7 @@ __Nein__ die vollständige Architektur behandeln wir hier nicht, wir behandeln n
 * jede Schicht stellt so genannte [Schnittstellen (API)](https://de.wikipedia.org/wiki/Programmierschnittstelle) bereit
 * man muss nur immer die APIs verstehen, die man für seine Anwendung benötigt
 
-&rarr; Als (angehender) Informatiker darf man faul sein und muss lernen sich auf das _Wesentliche_ zu beschränken, der Rest kommt mit der Zeit
+&rarr; Als (angehender) Informatiker darf man faul sein und muss lernen, sich auf das _Wesentliche_ zu beschränken. Der Rest kommt mit der Zeit
 
 ---
 
@@ -176,3 +176,6 @@ nach Schwere sortiert:
 ## @Home
 
 1. Installation von [Android Studio](https://developer.android.com/studio/)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTAzNDQ1NDI3NV19
+-->
