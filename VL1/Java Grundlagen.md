@@ -69,13 +69,15 @@ JPM: Ich würde das eher am Anfang der Android-Intro machen. Hier eher die allge
 	 - Textdateien können nur textuelle Information enthalten
  - **Binärcode**: Ausführbares Programm als Bytefolge gespeichert, z.B. `.class` Datei
 	 - Binärdateien sind nicht für den Menschen lesbar
-	 -werden von Programmen (z.B. Java Compiler `javac`) verarbeitet / interpretiert
+	 - werden von Programmen (z.B. Java Compiler `javac`) verarbeitet / interpretiert
  - **App**: Ein Programm, das vom Nutzer aufgerufen und verwendet werden kann (z.B. Google Maps)
+
 ===
+
 ## Kommandozeile - ich kann nicht klicken!?
 
 Die [Kommandozeile](https://de.wikipedia.org/wiki/Kommandozeile) ist eine Anwendung, um mittels Tastatureingabe Befehle/Programme auszuführen. 
-Wir benutzen die Kommandozeile zum
+Wir nutzen sie zum
 - manuellen  Compilieren einfacher Programmbeispiele
 - Starten einfacher Beispiele
 - Verstehen des Prozesses des Compilierens und der Ausführung von Javaprogrammen
@@ -290,11 +292,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NTExODU2NSwyMjU1MTE1MDIsLTE4Mj
-M3ODg2ODksLTExMTYxNjM5NzgsMTA1OTk3OTc5MywtMTIyMDAz
-ODQ5NSwtMTU3NjExMzc1OSwtMTcwMDA1NzcyNCwtMjY3OTQ2NT
-AxLC03MjU2Mzc2MDMsLTQ3MDAxMDU5NCwtMTg4NzYwNzc5OSwx
-NTYxOTk0NzE0LDQ3MzY1OTYwMSwtMTYzMTc2OTg3OSw3ODU3Nz
-IzMjAsMzg4NjM0NzM4LC0xMzc3NTg0MTY1LDkyMjk2MDc3MCwx
-OTQ3MTAxOTE0XX0=
+eyJoaXN0b3J5IjpbODI4MzM0MjQyLDIyNTUxMTUwMiwtMTgyMz
+c4ODY4OSwtMTExNjE2Mzk3OCwxMDU5OTc5NzkzLC0xMjIwMDM4
+NDk1LC0xNTc2MTEzNzU5LC0xNzAwMDU3NzI0LC0yNjc5NDY1MD
+EsLTcyNTYzNzYwMywtNDcwMDEwNTk0LC0xODg3NjA3Nzk5LDE1
+NjE5OTQ3MTQsNDczNjU5NjAxLC0xNjMxNzY5ODc5LDc4NTc3Mj
+MyMCwzODg2MzQ3MzgsLTEzNzc1ODQxNjUsOTIyOTYwNzcwLDE5
+NDcxMDE5MTRdfQ==
 -->
