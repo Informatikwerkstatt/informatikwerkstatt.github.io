@@ -84,13 +84,10 @@ Wir benutzen die Kommandozeile zum
 
 ===
 
-### Kommandozeile unter Windows
-Kommandozeilen-Tool in Windows: Eingabeaufforderung 
-Starten mit 
+### Kommandozeilentool unter Windows: Eingabeaufforderung
  1. Linksclick auf Windows-Symbol
  2. In Windows-Suche `cmd`eingeben
  3. Linksclick auf angezeigtes `cmd`-Symbol
-
 ![](http://winf.in.tu-clausthal.de/jpm/infws/img/1_cmd.png)
 
 ===
@@ -293,11 +290,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzc2NjE0NTMsLTE4MjM3ODg2ODksLT
-ExMTYxNjM5NzgsMTA1OTk3OTc5MywtMTIyMDAzODQ5NSwtMTU3
-NjExMzc1OSwtMTcwMDA1NzcyNCwtMjY3OTQ2NTAxLC03MjU2Mz
-c2MDMsLTQ3MDAxMDU5NCwtMTg4NzYwNzc5OSwxNTYxOTk0NzE0
-LDQ3MzY1OTYwMSwtMTYzMTc2OTg3OSw3ODU3NzIzMjAsMzg4Nj
-M0NzM4LC0xMzc3NTg0MTY1LDkyMjk2MDc3MCwxOTQ3MTAxOTE0
-XX0=
+eyJoaXN0b3J5IjpbMjI1NTExNTAyLC0xODIzNzg4Njg5LC0xMT
+E2MTYzOTc4LDEwNTk5Nzk3OTMsLTEyMjAwMzg0OTUsLTE1NzYx
+MTM3NTksLTE3MDAwNTc3MjQsLTI2Nzk0NjUwMSwtNzI1NjM3Nj
+AzLC00NzAwMTA1OTQsLTE4ODc2MDc3OTksMTU2MTk5NDcxNCw0
+NzM2NTk2MDEsLTE2MzE3Njk4NzksNzg1NzcyMzIwLDM4ODYzND
+czOCwtMTM3NzU4NDE2NSw5MjI5NjA3NzAsMTk0NzEwMTkxNF19
+
 -->
