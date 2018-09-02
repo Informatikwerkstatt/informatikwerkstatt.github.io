@@ -47,9 +47,10 @@ JPM: Ich würde das eher am Anfang der Android-Intro machen. Hier eher die allge
  
 ## Ein paar Begriffe: Quellcode,Binary, App <!-- Übersetzungsvorgang, compilieren + Bundling -->
  - Quellcode: Textbasierte Darstellung eines Programms
+	 - z.B. `.java` Datei
 	 - schreibt man mit einem Texteditor (z.B. MS Editor, Visual Studio Code)
 	 - Wird in Textdatei gespeichert: Kann nur Text enthalten; einzelne Zeichen werden nach einer standardisierten Kodierung (z.B. ASCII, UTF-8, ...) als Bitfolgen  gespeichert
- * Binärcode: Beliebige Inhalte (z.B. , als Bytefolgen gespeichert, werden von Programmen gelesen
+ * Binärcode: Beliebige Inhalte (z.B. auch Bilder, Videos), als Bytefolgen gespeichert, werden von unterschiedlichen Programmen bearbeitet (z.B. 
 	 - 
 
 
@@ -281,7 +282,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDAxNzQ3NzIsNzg1NzcyMzIwLDM4OD
+eyJoaXN0b3J5IjpbLTE3OTAyMjQ2MDEsNzg1NzcyMzIwLDM4OD
 YzNDczOCwtMTM3NzU4NDE2NSw5MjI5NjA3NzAsMTk0NzEwMTkx
 NF19
 -->
