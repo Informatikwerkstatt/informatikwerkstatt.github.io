@@ -75,6 +75,7 @@ JPM: Ich würde das eher am Anfang der Android-Intro machen. Hier eher die allge
 	 - z.B. `.class` Datei, ausführbares Programm als Bytefolge gespeichert
 	 - von unterschiedlichen Programmen bearbeitet (z.B. Java Compiler `javac`)
  - **App**: Ein Programm, das vom Nutzer aufgerufen und verwendet werden kann (z.B. Google Maps)
+
 ---
 
 ## Kommandozeile - ich kann nicht klicken!?
@@ -89,7 +90,7 @@ Die [Kommandozeile](https://de.wikipedia.org/wiki/Kommandozeile) ist eine Anwend
 
 ### Befehle
 
-<!-- Befehle der Windows / Mac Commandline, navigieren in Verzeichnissen & Verzeichnislisting -->
+<!-- Befehle der Windows Commandline, navigieren in Verzeichnissen & Verzeichnislisting -->
 
 ===
 
@@ -289,9 +290,9 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NDI0OTQ4OSwtMTcwMDA1NzcyNCwtMj
-Y3OTQ2NTAxLC03MjU2Mzc2MDMsLTQ3MDAxMDU5NCwtMTg4NzYw
-Nzc5OSwxNTYxOTk0NzE0LDQ3MzY1OTYwMSwtMTYzMTc2OTg3OS
-w3ODU3NzIzMjAsMzg4NjM0NzM4LC0xMzc3NTg0MTY1LDkyMjk2
-MDc3MCwxOTQ3MTAxOTE0XX0=
+eyJoaXN0b3J5IjpbLTEzODgyOTEzOTMsLTE3MDAwNTc3MjQsLT
+I2Nzk0NjUwMSwtNzI1NjM3NjAzLC00NzAwMTA1OTQsLTE4ODc2
+MDc3OTksMTU2MTk5NDcxNCw0NzM2NTk2MDEsLTE2MzE3Njk4Nz
+ksNzg1NzcyMzIwLDM4ODYzNDczOCwtMTM3NzU4NDE2NSw5MjI5
+NjA3NzAsMTk0NzEwMTkxNF19
 -->
