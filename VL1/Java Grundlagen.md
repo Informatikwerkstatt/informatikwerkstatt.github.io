@@ -72,9 +72,8 @@ JPM: Ich würde das eher am Anfang der Android-Intro machen. Hier eher die allge
  - **Quellcode**: Textbasierte Darstellung eines Programms
 	 - z.B. `.java` Datei, erstellt mit Texteditor (z.B. Visual Studio Code)
 	 - einzelne Zeichen als Bitfolgen gespeichert, standardisierte Kodierung (z.B. UTF-8)
- - **Binärcode**: Beliebige Inhalte (z.B. auch Bilder, Videos)
-	 - z.B. `.class` Datei, ausführbares Programm als Bytefolge gespeichert
-	 - von unterschiedlichen Programmen bearbeitet (z.B. Java Compiler `javac`)
+ - **Binärcode**: Ausführbares Programm als Bytefolge gespeichertz.B. `.class` Datei
+	 -Binärdateien werden  von unterschiedlichen Programmen bearbeitet (z.B. Java Compiler `javac`)
  - **App**: Ein Programm, das vom Nutzer aufgerufen und verwendet werden kann (z.B. Google Maps)
 
 ===
@@ -291,9 +290,9 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzYxMTM3NTksLTE3MDAwNTc3MjQsLT
-I2Nzk0NjUwMSwtNzI1NjM3NjAzLC00NzAwMTA1OTQsLTE4ODc2
-MDc3OTksMTU2MTk5NDcxNCw0NzM2NTk2MDEsLTE2MzE3Njk4Nz
-ksNzg1NzcyMzIwLDM4ODYzNDczOCwtMTM3NzU4NDE2NSw5MjI5
-NjA3NzAsMTk0NzEwMTkxNF19
+eyJoaXN0b3J5IjpbLTIwNjY0MjYzMjUsLTE1NzYxMTM3NTksLT
+E3MDAwNTc3MjQsLTI2Nzk0NjUwMSwtNzI1NjM3NjAzLC00NzAw
+MTA1OTQsLTE4ODc2MDc3OTksMTU2MTk5NDcxNCw0NzM2NTk2MD
+EsLTE2MzE3Njk4NzksNzg1NzcyMzIwLDM4ODYzNDczOCwtMTM3
+NzU4NDE2NSw5MjI5NjA3NzAsMTk0NzEwMTkxNF19
 -->
