@@ -15,6 +15,11 @@ __Java Grundlagen__
 * aktuelle Version: Java 11
 
 <!-- Allgemeine Infos zu Java, eine Subfolie für Java-Standalone am Rechner (Java Runtime), eine Subfolie für Java bei Android (Achtung die Infos auf Folien vom letzten Jahr stimmen nicht mehr Dalvik VM wird bei Android nicht mehr benutzt-->
+===
+
+### Befehle
+
+<!-- Befehle der Windows / Mac Commandline, navigieren in Verzeichnissen & Verzeichnislisting -->
 
 ---
 
@@ -252,5 +257,5 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NzQ0MTY4N119
+eyJoaXN0b3J5IjpbMTM5NzEzMzMzMF19
 -->
