@@ -27,14 +27,12 @@ __Java Grundlagen__
  - Übersetzte Datei ausführen (Programm `java`) --> 
 ![](http://winf.in.tu-clausthal.de/jpm/infws/img/java-process.png)<!-- todo: agree on destination  in github --> 
  
- - Java Compiler `javac` 
+ - Java Compiler: `javac` 
 	 - Dienstprogramm. 
 	 - Übersetzt Java Programm in bytecode-Format (Endung `.class`)
- - Java Virtual Machine (JVM) java
+ - Java Virtual Machine (JVM): `java`
 	 - Laufzeitumgebung für Java
 	 - Portabilität durch eine JVM pro Plattform (Betriebssystem)
-	 - Ausführung durch Programm java MainProg.class
-	 - 
 
 ===
 ### Java auf Android-Endgeräten
@@ -273,6 +271,6 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3Mzk4NDQ4OSw5MjI5NjA3NzAsMTk0Nz
+eyJoaXN0b3J5IjpbMTQwNjQ4NDQzNCw5MjI5NjA3NzAsMTk0Nz
 EwMTkxNF19
 -->
