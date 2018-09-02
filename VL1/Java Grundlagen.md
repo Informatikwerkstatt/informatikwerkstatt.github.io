@@ -18,7 +18,7 @@ __Java Grundlagen__
 <!-- Allgemeine Infos zu Java -->
 
 ===
-### Java Standalone
+### Java Standalone am Rechner
 <!-- eine Subfolie für Java-Standalone am Rechner (Java Runtime) 
  - List Datei erstellen mit Texteditor -> Endung `.java`
  - Datei übersetzen 
@@ -28,7 +28,7 @@ __Java Grundlagen__
 ![](http://winf.in.tu-clausthal.de/jpm/infws/img/java-process.png)<!-- todo: agree on destination  in github --> 
  
  - Java Compiler `javac`: Dienstprogramm. Übersetzt Java programm in  portables Format (bytecode)
- - Java Virt
+ - Java Virtual Machine (JVM): 
 
 ===
 ### Java auf Android-Endgeräten
@@ -267,6 +267,6 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTcxMDI2MDQsOTIyOTYwNzcwLDE5ND
+eyJoaXN0b3J5IjpbLTE3MTQyMjg3NzYsOTIyOTYwNzcwLDE5ND
 cxMDE5MTRdfQ==
 -->
