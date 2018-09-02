@@ -18,7 +18,7 @@ __Java Grundlagen__
 * aktuelle Version: Java 11
 <!-- Allgemeine Infos zu Java -->
 
----
+===
 
 ## Hello-World: Mein erstes Java-Programm
 
@@ -290,8 +290,9 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2Nzk0NjUwMSwtNzI1NjM3NjAzLC00Nz
-AwMTA1OTQsLTE4ODc2MDc3OTksMTU2MTk5NDcxNCw0NzM2NTk2
-MDEsLTE2MzE3Njk4NzksNzg1NzcyMzIwLDM4ODYzNDczOCwtMT
-M3NzU4NDE2NSw5MjI5NjA3NzAsMTk0NzEwMTkxNF19
+eyJoaXN0b3J5IjpbLTE3NjYwMTg1ODEsLTI2Nzk0NjUwMSwtNz
+I1NjM3NjAzLC00NzAwMTA1OTQsLTE4ODc2MDc3OTksMTU2MTk5
+NDcxNCw0NzM2NTk2MDEsLTE2MzE3Njk4NzksNzg1NzcyMzIwLD
+M4ODYzNDczOCwtMTM3NzU4NDE2NSw5MjI5NjA3NzAsMTk0NzEw
+MTkxNF19
 -->
