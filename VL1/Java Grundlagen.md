@@ -60,7 +60,7 @@ JPM: Ich würde das eher am Anfang der Android-Intro machen. Hier eher die allge
 
 ---
 
-## Quellcode, Binaries, Apps ...??
+## Quellcode, Binärcode, Apps ...??
  <!-- Übersetzungsvorgang, compilieren + Bundling 
  @Phil: Gehört Bundling nicht eher ins Android Kapitel?-->
 
@@ -100,6 +100,7 @@ Werkzeug unter Windows: *Eingabeaufforderung*
  - `help` listet alle Befehle auf
  - `dir` listet alle Verzeichnisse und Dateien des aktuellen Verzeichnisses
  - `cd [Laufwerk:][Pfad]`wechseln des aktuellen Laufwerks / Verzeichnisses
+	 - cd C:\
 	- `cd \` wechselt ins Wurzelverzeichnis
 	- `cd ..` wechselt in das übergeordnete Verzeichnis
  - Um genauere Infos zu einem Befehl zu bekommen, den Befehl mit der Option `/?` starten. 
@@ -304,7 +305,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODg2NTUyMzQsNzA4Nzc1MTQyLDU0MD
+eyJoaXN0b3J5IjpbLTE1Mjg1NTg2MzQsNzA4Nzc1MTQyLDU0MD
 U1MzkzOCwzNzIzNjczMzMsMTA0NDQwOTE0OCwyMjU1MTE1MDIs
 LTE4MjM3ODg2ODksLTExMTYxNjM5NzgsMTA1OTk3OTc5MywtMT
 IyMDAzODQ5NSwtMTU3NjExMzc1OSwtMTcwMDA1NzcyNCwtMjY3
