@@ -29,9 +29,10 @@ __Java Grundlagen__
  
  - Java Compiler `javac` 
 	 - Dienstprogramm. 
-	 - Übersetzt Java Programm in  portables bytecode-Format (bytecode)
+	 - Übersetzt Java Programm in  portables bytecode-Format
  - Java Virtual Machine (JVM)
 	 - Laufzeitumgebung für Java
+	 - Eine JVM pro Plattform (Betriebssystem)
 	 - 
 
 ===
@@ -271,6 +272,6 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNTYzOTc0LDkyMjk2MDc3MCwxOTQ3MT
+eyJoaXN0b3J5IjpbOTM5OTg5NTcxLDkyMjk2MDc3MCwxOTQ3MT
 AxOTE0XX0=
 -->
