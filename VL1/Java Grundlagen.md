@@ -16,6 +16,7 @@ __Java Grundlagen__
 	* Java Programme laufen auf verschiedenen Betriebssystemen  (Windows, Mac, Unix, Android)
 * Java Software enthalten in Oracle's Standard Edition Java Development Kit [(Java SE JDK)](https://www.oracle.com/technetwork/java/javase/overview/index.html)
 * Aktuelle Version: [Java 11](http://jdk.java.net/11/)
+* Die Java Software ist auf den Pool-Rechnern installiert
 
 ===
 
@@ -108,7 +109,8 @@ Werkzeug unter Windows: *Eingabeaufforderung*
  ===
 ### Compilieren der Sourcen
 
-- Übersetzen des geschriebenen Java-Quellcodes in _Maschinensprache_ (meinstens Binärcode).
+- Übersetzen des geschriebenen Java-Quellcodes in _Maschinensprache_ (meistens Binärcode)
+- Eingabe in Java: 
 
 ```shell
 javac HelloWorld.java
@@ -302,11 +304,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NTgzNTg2OCw3MDg3NzUxNDIsNTQwNT
-UzOTM4LDM3MjM2NzMzMywxMDQ0NDA5MTQ4LDIyNTUxMTUwMiwt
-MTgyMzc4ODY4OSwtMTExNjE2Mzk3OCwxMDU5OTc5NzkzLC0xMj
-IwMDM4NDk1LC0xNTc2MTEzNzU5LC0xNzAwMDU3NzI0LC0yNjc5
-NDY1MDEsLTcyNTYzNzYwMywtNDcwMDEwNTk0LC0xODg3NjA3Nz
-k5LDE1NjE5OTQ3MTQsNDczNjU5NjAxLC0xNjMxNzY5ODc5LDc4
-NTc3MjMyMF19
+eyJoaXN0b3J5IjpbLTE2ODg2NTUyMzQsNzA4Nzc1MTQyLDU0MD
+U1MzkzOCwzNzIzNjczMzMsMTA0NDQwOTE0OCwyMjU1MTE1MDIs
+LTE4MjM3ODg2ODksLTExMTYxNjM5NzgsMTA1OTk3OTc5MywtMT
+IyMDAzODQ5NSwtMTU3NjExMzc1OSwtMTcwMDA1NzcyNCwtMjY3
+OTQ2NTAxLC03MjU2Mzc2MDMsLTQ3MDAxMDU5NCwtMTg4NzYwNz
+c5OSwxNTYxOTk0NzE0LDQ3MzY1OTYwMSwtMTYzMTc2OTg3OSw3
+ODU3NzIzMjBdfQ==
 -->
