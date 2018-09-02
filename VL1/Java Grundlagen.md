@@ -34,6 +34,8 @@ public class HelloWorld
 	}
 }
 ```
+@todo: Video - erstellen und speichern der Java Datei mit Visual Studio Code 
+
 ===
 
 ### Java Standalone am Rechner
@@ -311,11 +313,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NDEyMzM2MSwyNjU3MjExNDQsMTA4OD
-k2NDg2OSwtMTE3MDgyMTQzNCwtMTA4NzU5MTk3MywxNjM3NjE0
-Njk5LDEyMzE1MzI4OTcsLTkwNjQ3ODk1MCwtMTk1MjQyNTM0LC
-0xNzM1NDQwODQzLDcwODc3NTE0Miw1NDA1NTM5MzgsMzcyMzY3
-MzMzLDEwNDQ0MDkxNDgsMjI1NTExNTAyLC0xODIzNzg4Njg5LC
-0xMTE2MTYzOTc4LDEwNTk5Nzk3OTMsLTEyMjAwMzg0OTUsLTE1
-NzYxMTM3NTldfQ==
+eyJoaXN0b3J5IjpbLTc4MzMzOTAxNiwxMTY0MTIzMzYxLDI2NT
+cyMTE0NCwxMDg4OTY0ODY5LC0xMTcwODIxNDM0LC0xMDg3NTkx
+OTczLDE2Mzc2MTQ2OTksMTIzMTUzMjg5NywtOTA2NDc4OTUwLC
+0xOTUyNDI1MzQsLTE3MzU0NDA4NDMsNzA4Nzc1MTQyLDU0MDU1
+MzkzOCwzNzIzNjczMzMsMTA0NDQwOTE0OCwyMjU1MTE1MDIsLT
+E4MjM3ODg2ODksLTExMTYxNjM5NzgsMTA1OTk3OTc5MywtMTIy
+MDAzODQ5NV19
 -->
