@@ -43,7 +43,8 @@ JPM: ICh würde das eher am Anfang der Android-Intro machen. Hier eher die allge
  - Android: Betriebssystem für mobile Endgeräte
  - Eigene JVM für Android
  - Siehe Kapitel 4!
- ![](http://winf.in.tu-clausthal.de/jpm/infws/img/java-cross-pf.png)
+ ![](http://winf.in.tu-clausthal.de/jpm/infws/img/java-cross-pf.png) 
+ 
  
 ## Quellcode, Compiler, Binary, App - hä?
 <!-- Übersetzungsvorgang, compilieren + Bundling -->
@@ -278,6 +279,6 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg4NjM0NzM4LC0xMzc3NTg0MTY1LDkyMj
-k2MDc3MCwxOTQ3MTAxOTE0XX0=
+eyJoaXN0b3J5IjpbNzg1NzcyMzIwLDM4ODYzNDczOCwtMTM3Nz
+U4NDE2NSw5MjI5NjA3NzAsMTk0NzEwMTkxNF19
 -->
