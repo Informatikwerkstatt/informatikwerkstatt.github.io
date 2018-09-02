@@ -23,8 +23,10 @@ __Java Grundlagen__
 [Darstellen mit BIld]: 
 
  1. List Datei erstellen mit Texteditor -> Endung .java
- 2. Datei übersetzen in maschinenlesbare Repräsentation (bytecode)
-  * Verwendung eines Compilers (javac) 
+ 2. Datei übersetzen 
+	 Maschinenlesbare Repräsentation (bytecode)
+	 Verwendung eines Compilers (javac) 
+ 3. Übersetzte Datei ausführen
 
 ===
 ### Java auf Android-Endgeräten
@@ -263,5 +265,5 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDAwMzAxMTAsMTk0NzEwMTkxNF19
+eyJoaXN0b3J5IjpbLTIwMzU3NDM3ODEsMTk0NzEwMTkxNF19
 -->
