@@ -76,9 +76,10 @@ JPM: Ich würde das eher am Anfang der Android-Intro machen. Hier eher die allge
 
 ## Kommandozeile - ich kann nicht klicken!?
 
-Die [Kommandozeile](https://de.wikipedia.org/wiki/Kommandozeile) ist eine Anwendung, um mittels Befehlseingabe Programme auszuführen. Wir benutzen die Kommandozeile zum
-- Manuellen  Compilieren einfacher Programmbeispiele
-- Starten der einfachen Beispiele von Hand
+Die [Kommandozeile](https://de.wikipedia.org/wiki/Kommandozeile) ist eine Anwendung, um mittels Tastatureingabe Befehle/Programme auszuführen. 
+Wir benutzen die Kommandozeile zum
+- manuellen  Compilieren einfacher Programmbeispiele
+- Starten einfacher Beispiele
 - Verstehen des Prozesses des Compilierens und der Ausführung von Javaprogrammen
 
 ===
@@ -286,10 +287,10 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTYxNjM5NzgsMTA1OTk3OTc5MywtMT
-IyMDAzODQ5NSwtMTU3NjExMzc1OSwtMTcwMDA1NzcyNCwtMjY3
-OTQ2NTAxLC03MjU2Mzc2MDMsLTQ3MDAxMDU5NCwtMTg4NzYwNz
-c5OSwxNTYxOTk0NzE0LDQ3MzY1OTYwMSwtMTYzMTc2OTg3OSw3
-ODU3NzIzMjAsMzg4NjM0NzM4LC0xMzc3NTg0MTY1LDkyMjk2MD
-c3MCwxOTQ3MTAxOTE0XX0=
+eyJoaXN0b3J5IjpbOTQyMjQzMjIyLC0xMTE2MTYzOTc4LDEwNT
+k5Nzk3OTMsLTEyMjAwMzg0OTUsLTE1NzYxMTM3NTksLTE3MDAw
+NTc3MjQsLTI2Nzk0NjUwMSwtNzI1NjM3NjAzLC00NzAwMTA1OT
+QsLTE4ODc2MDc3OTksMTU2MTk5NDcxNCw0NzM2NTk2MDEsLTE2
+MzE3Njk4NzksNzg1NzcyMzIwLDM4ODYzNDczOCwtMTM3NzU4ND
+E2NSw5MjI5NjA3NzAsMTk0NzEwMTkxNF19
 -->
