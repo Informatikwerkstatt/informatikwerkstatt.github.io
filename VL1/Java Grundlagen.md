@@ -51,7 +51,9 @@ JPM: Ich würde das eher am Anfang der Android-Intro machen. Hier eher die allge
 	 - erstellt mit Texteditor (z.B. MS Editor, Visual Studio Code)
 	 - einzelne Zeichen werden nach einer standardisierten Kodierung (z.B. ASCII, UTF-8, ...) als Bitfolgen in Textdatei  gespeichert
  - Binärcode: Beliebige Inhalte (z.B. auch Bilder, Videos)
- - Bytefolgen gespeichert, werden von unterschiedlichen Programmen bearbeitet (z.B. 
+	 - z.B. `.class` Datei, ausführbares Programm
+	 - als Bytefolgen gespeichert
+	 - von unterschiedlichen Programmen bearbeitet (z.B. 
 
 
 
@@ -283,7 +285,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTQ0MTUzNTAsNzg1NzcyMzIwLDM4OD
-YzNDczOCwtMTM3NzU4NDE2NSw5MjI5NjA3NzAsMTk0NzEwMTkx
-NF19
+eyJoaXN0b3J5IjpbNDkwMDUzMjI3LDc4NTc3MjMyMCwzODg2Mz
+Q3MzgsLTEzNzc1ODQxNjUsOTIyOTYwNzcwLDE5NDcxMDE5MTRd
+fQ==
 -->
