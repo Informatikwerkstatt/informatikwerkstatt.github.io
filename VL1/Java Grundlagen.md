@@ -10,6 +10,7 @@ __Java Grundlagen__
 
 ## Sie sprechen Java?
 
+* objektorientierte Programmiersprache
 * erschienen 1995
 * aktuell Java 11
 
@@ -250,3 +251,6 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 1. Installation [Java Development Kit](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTE4MTcwMjkwNl19
+-->
