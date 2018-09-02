@@ -84,16 +84,20 @@ Wir benutzen die Kommandozeile zum
 
 ===
 
-### Befehle der Windows Kommandozeile
+### Windows Eingabeaufforderung
 
 <!-- Befehle der Windows Commandline, navigieren in Verzeichnissen & Verzeichnislisting -->
-- Kommandozeilen-Tool in Windows: Eingabeaufforderung
-- Starten mit
-	- Linksclick auf Windows-Symbol
-	- In Windows-Suche `cmd`eingeben
-	- Linksclick auf angezeigtes `cmd`-Symbol
+ 1. Kommandozeilen-Tool in Windows: Eingabeaufforderung
+ 2. Starten mit
+ 3. 3.
 
+ Linksclick auf Windows-Symbol
+    	- In Windows-Suche `cmd`eingeben
+    	- Linksclick auf angezeigtes `cmd`-Symbol
+
+![](http://winf.in.tu-clausthal.de/jpm/infws/img/1_cmd.png)
 ===
+### Befehle
 
 ### Compilieren der Sourcen
 
@@ -291,7 +295,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNjgwOTAwMywtMTgyMzc4ODY4OSwtMT
+eyJoaXN0b3J5IjpbLTYyMTM3MzU1NiwtMTgyMzc4ODY4OSwtMT
 ExNjE2Mzk3OCwxMDU5OTc5NzkzLC0xMjIwMDM4NDk1LC0xNTc2
 MTEzNzU5LC0xNzAwMDU3NzI0LC0yNjc5NDY1MDEsLTcyNTYzNz
 YwMywtNDcwMDEwNTk0LC0xODg3NjA3Nzk5LDE1NjE5OTQ3MTQs
