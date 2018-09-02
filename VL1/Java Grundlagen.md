@@ -85,7 +85,7 @@ JPM: Ich würde das eher am Anfang der Android-Intro machen. Hier eher die allge
 Die [Kommandozeile](https://de.wikipedia.org/wiki/Kommandozeile) ist eine Anwendung, um mittels Befehlseingabe Programme auszuführen. Wir benutzen die Kommandozeile zum
 - Manuellen  Compilieren einfacher Programmbeispiele
 - Starten der einfachen Beispiele von Hand
-- Verstehen des, wie der Compileprozess und die Ausführung des Javaprogramms funktioniert
+- Verstehen des Prozesses des Compilierens und der Ausführung von Javaprogrammen
 
 ===
 
@@ -291,7 +291,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjQ0Nzc5OTgsLTE1NzYxMTM3NTksLT
+eyJoaXN0b3J5IjpbLTEyMjAwMzg0OTUsLTE1NzYxMTM3NTksLT
 E3MDAwNTc3MjQsLTI2Nzk0NjUwMSwtNzI1NjM3NjAzLC00NzAw
 MTA1OTQsLTE4ODc2MDc3OTksMTU2MTk5NDcxNCw0NzM2NTk2MD
 EsLTE2MzE3Njk4NzksNzg1NzcyMzIwLDM4ODYzNDczOCwtMTM3
