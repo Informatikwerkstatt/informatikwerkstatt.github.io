@@ -104,7 +104,7 @@ Werkzeug unter Windows: *Eingabeaufforderung*
 	 - `cd Development` wechselt in Unterverzeichnis `Development` des aktuellen Verzeichnisses, falls dieses existiert 
 	- `cd \` wechselt ins Wurzelverzeichnis
 	- `cd ..` wechselt in das übergeordnete Verzeichnis
-- Um genauere Infos zu einem Befehl zu bekommen, den Befehl mit der Option `/?` starten! 
+- Befehl mit der Option `/?` starten, um genauere Infos zu bekommen! 
 	- z.B.`cd /?` liefert Infos zum Befehl `cd`
 - `ren [Laufwerk:][Pfad]Dateiname1 Dateiname2` benennt Datei mit Namen `Dateiname1` in `Dateiname2` um
 - `del Dateiname` löscht die Datei mit Namen `Dateiname`, wenn diese Datei existiert
@@ -308,11 +308,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxODc1MjAwOCwtMTA4NzU5MTk3MywxNj
-M3NjE0Njk5LDEyMzE1MzI4OTcsLTkwNjQ3ODk1MCwtMTk1MjQy
-NTM0LC0xNzM1NDQwODQzLDcwODc3NTE0Miw1NDA1NTM5MzgsMz
-cyMzY3MzMzLDEwNDQ0MDkxNDgsMjI1NTExNTAyLC0xODIzNzg4
-Njg5LC0xMTE2MTYzOTc4LDEwNTk5Nzk3OTMsLTEyMjAwMzg0OT
-UsLTE1NzYxMTM3NTksLTE3MDAwNTc3MjQsLTI2Nzk0NjUwMSwt
-NzI1NjM3NjAzXX0=
+eyJoaXN0b3J5IjpbLTExNzA4MjE0MzQsLTEwODc1OTE5NzMsMT
+YzNzYxNDY5OSwxMjMxNTMyODk3LC05MDY0Nzg5NTAsLTE5NTI0
+MjUzNCwtMTczNTQ0MDg0Myw3MDg3NzUxNDIsNTQwNTUzOTM4LD
+M3MjM2NzMzMywxMDQ0NDA5MTQ4LDIyNTUxMTUwMiwtMTgyMzc4
+ODY4OSwtMTExNjE2Mzk3OCwxMDU5OTc5NzkzLC0xMjIwMDM4ND
+k1LC0xNTc2MTEzNzU5LC0xNzAwMDU3NzI0LC0yNjc5NDY1MDEs
+LTcyNTYzNzYwM119
 -->
