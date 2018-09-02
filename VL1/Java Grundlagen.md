@@ -59,7 +59,7 @@ JPM: Ich würde das eher am Anfang der Android-Intro machen. Hier eher die allge
 
 ---
 
-## Ein paar Begriffe: Quellcode,Binary, App
+## Quellcode, Binaries, Apps ...??
  <!-- Übersetzungsvorgang, compilieren + Bundling 
  @Phil: Gehört Bundling nicht eher ins Android Kapitel?-->
 
@@ -290,11 +290,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEzNDEzOTQ4LDIyNTUxMTUwMiwtMTgyMz
-c4ODY4OSwtMTExNjE2Mzk3OCwxMDU5OTc5NzkzLC0xMjIwMDM4
-NDk1LC0xNTc2MTEzNzU5LC0xNzAwMDU3NzI0LC0yNjc5NDY1MD
-EsLTcyNTYzNzYwMywtNDcwMDEwNTk0LC0xODg3NjA3Nzk5LDE1
-NjE5OTQ3MTQsNDczNjU5NjAxLC0xNjMxNzY5ODc5LDc4NTc3Mj
-MyMCwzODg2MzQ3MzgsLTEzNzc1ODQxNjUsOTIyOTYwNzcwLDE5
-NDcxMDE5MTRdfQ==
+eyJoaXN0b3J5IjpbLTQ3NTExODU2NSwyMjU1MTE1MDIsLTE4Mj
+M3ODg2ODksLTExMTYxNjM5NzgsMTA1OTk3OTc5MywtMTIyMDAz
+ODQ5NSwtMTU3NjExMzc1OSwtMTcwMDA1NzcyNCwtMjY3OTQ2NT
+AxLC03MjU2Mzc2MDMsLTQ3MDAxMDU5NCwtMTg4NzYwNzc5OSwx
+NTYxOTk0NzE0LDQ3MzY1OTYwMSwtMTYzMTc2OTg3OSw3ODU3Nz
+IzMjAsMzg4NjM0NzM4LC0xMzc3NTg0MTY1LDkyMjk2MDc3MCwx
+OTQ3MTAxOTE0XX0=
 -->
