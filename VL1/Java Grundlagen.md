@@ -98,7 +98,7 @@ Werkzeug unter Windows: *Eingabeaufforderung*
 <!-- Befehle der Windows Commandline, navigieren in Verzeichnissen & Verzeichnislisting -->
 - `help` listet alle Befehle auf
 - `dir` listet alle Verzeichnisse und Dateien des aktuellen Verzeichnisses
-- 
+- cd [Laufwerk][Pfad], cd \ wechselt ins Wurzelverzeichnis
 
 
 
@@ -303,7 +303,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NzA4MjIyNyw1NDA1NTM5MzgsMzcyMz
+eyJoaXN0b3J5IjpbMjA4NDA0MzU4OSw1NDA1NTM5MzgsMzcyMz
 Y3MzMzLDEwNDQ0MDkxNDgsMjI1NTExNTAyLC0xODIzNzg4Njg5
 LC0xMTE2MTYzOTc4LDEwNTk5Nzk3OTMsLTEyMjAwMzg0OTUsLT
 E1NzYxMTM3NTksLTE3MDAwNTc3MjQsLTI2Nzk0NjUwMSwtNzI1
