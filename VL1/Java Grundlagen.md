@@ -10,9 +10,9 @@ __Java Grundlagen__
 
 ## Sie sprechen Java?
 
-* objektorientierte Programmiersprache
-* erschienen 1995
-* Plattformunabhängigkeit
+* Objektorientierte Programmiersprache
+* Seit 1995
+* Plattformunabhängig
 	* Java Programme laufen auf verschiedenen Betriebssystemen  (Windows, Mac, Unix, Android)
 * Java Software enthalten im Java Developer Kit (JDK)
 * aktuelle Version: Java 11
@@ -291,9 +291,10 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjAwMzg0OTUsLTE1NzYxMTM3NTksLT
-E3MDAwNTc3MjQsLTI2Nzk0NjUwMSwtNzI1NjM3NjAzLC00NzAw
-MTA1OTQsLTE4ODc2MDc3OTksMTU2MTk5NDcxNCw0NzM2NTk2MD
-EsLTE2MzE3Njk4NzksNzg1NzcyMzIwLDM4ODYzNDczOCwtMTM3
-NzU4NDE2NSw5MjI5NjA3NzAsMTk0NzEwMTkxNF19
+eyJoaXN0b3J5IjpbLTIwMzc3MDU1MjcsLTEyMjAwMzg0OTUsLT
+E1NzYxMTM3NTksLTE3MDAwNTc3MjQsLTI2Nzk0NjUwMSwtNzI1
+NjM3NjAzLC00NzAwMTA1OTQsLTE4ODc2MDc3OTksMTU2MTk5ND
+cxNCw0NzM2NTk2MDEsLTE2MzE3Njk4NzksNzg1NzcyMzIwLDM4
+ODYzNDczOCwtMTM3NzU4NDE2NSw5MjI5NjA3NzAsMTk0NzEwMT
+kxNF19
 -->
