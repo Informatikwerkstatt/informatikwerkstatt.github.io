@@ -174,7 +174,11 @@ public class HelloWorld
 
 ### Methoden
 - Strukturieren den Code einer Klasse
-- Methode
+- Methode beschrieben durch
+	- Rückgabewert (`void` = keine Rückgabe)
+	- Name (`main`)
+	- Parameter (optional)
+	Rumpf mit Anweisungen
 ---
 
 ## Java Keywords
@@ -335,7 +339,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyOTMwNzUwNSwtNjE1MDA1NDY1LDE2NT
+eyJoaXN0b3J5IjpbMTUzNjgwMzcxOCwtNjE1MDA1NDY1LDE2NT
 U2NjAzNDksLTc4MzMzOTAxNiwxMTY0MTIzMzYxLDI2NTcyMTE0
 NCwxMDg4OTY0ODY5LC0xMTcwODIxNDM0LC0xMDg3NTkxOTczLD
 E2Mzc2MTQ2OTksMTIzMTUzMjg5NywtOTA2NDc4OTUwLC0xOTUy
