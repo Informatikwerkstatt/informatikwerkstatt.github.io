@@ -242,8 +242,11 @@ public class HelloWorld
 ```
 - Mit dem Zuweisungsoperator `=` kann einer Variable ein Wert zugewiesen werden
 - Wichtig: Initiale Wertzuweisung vor Verwendung einer Variable! 
-- Modifikator final gibt an, dass die Variable nach der Initialisierung nicht mehr verändert werden darf
-- Mithilfe von final lassen sich in Java Konstanten definieren
+- Modifikator `final` gibt an, dass die Variable nach der Initialisierung nicht mehr verändert werden darf
+- `final` wird häufig verwendet, um Konstanten zu definieren
+===
+
+### Verwendung von Variablen bei Methodenaufrufen
 ---
 
 ## Typenumwandlung / Casting
@@ -377,11 +380,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MDIxNTI2NCw5MTM2NzUzNzYsNTkzNz
-U4NDUwLDEzMDYxNjg1NzMsLTE5MzYyMDgwMDMsMTA3NzMwMTM3
-NywxNDAxMDEwMzEyLC02MTUwMDU0NjUsMTY1NTY2MDM0OSwtNz
-gzMzM5MDE2LDExNjQxMjMzNjEsMjY1NzIxMTQ0LDEwODg5NjQ4
-NjksLTExNzA4MjE0MzQsLTEwODc1OTE5NzMsMTYzNzYxNDY5OS
-wxMjMxNTMyODk3LC05MDY0Nzg5NTAsLTE5NTI0MjUzNCwtMTcz
-NTQ0MDg0M119
+eyJoaXN0b3J5IjpbLTQ1OTQzNjA1LDkxMzY3NTM3Niw1OTM3NT
+g0NTAsMTMwNjE2ODU3MywtMTkzNjIwODAwMywxMDc3MzAxMzc3
+LDE0MDEwMTAzMTIsLTYxNTAwNTQ2NSwxNjU1NjYwMzQ5LC03OD
+MzMzkwMTYsMTE2NDEyMzM2MSwyNjU3MjExNDQsMTA4ODk2NDg2
+OSwtMTE3MDgyMTQzNCwtMTA4NzU5MTk3MywxNjM3NjE0Njk5LD
+EyMzE1MzI4OTcsLTkwNjQ3ODk1MCwtMTk1MjQyNTM0LC0xNzM1
+NDQwODQzXX0=
 -->
