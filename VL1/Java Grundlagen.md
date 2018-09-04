@@ -500,6 +500,7 @@ Detailliertere Infos zum Java Collections Framework findest Du [hier](https://do
 ---
 ## @Let's try 
 ---
+
 Schreibe zunächst ein kleines Programm, in dem Du 
 - einen `Array` Deiner Wahl deklarierst
 - ihn initialisierst
@@ -589,11 +590,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4OTY2MTU5NiwtOTc0MjYwNzQzLC0xOT
-I4Njc0NjUwLC0xMTU5MTM5MzAxLDE0ODgzMTg2MzksMTIwMDQ5
-NzkyNCwxNjI2MjY1NTY0LC0xNzQzNDE1ODMxLC0yNzkxMjg2OT
-gsMTU5MTY3MzkzOSwtNTk3ODc1MzM2LC0xNDU3MDUxNzA5LDU1
-MDM0MTUzNSw2NDQwNDk1MDcsMTc5OTM4NDYxNCwxMDA2MzQ1Mz
-M4LDYyNTA5ODc3OSw5MzM5MjUxNDAsLTEwNTI3MTQ0MjYsLTEz
-MDc2ODYxMDVdfQ==
+eyJoaXN0b3J5IjpbMTYwODA3MDMwLC05NzQyNjA3NDMsLTE5Mj
+g2NzQ2NTAsLTExNTkxMzkzMDEsMTQ4ODMxODYzOSwxMjAwNDk3
+OTI0LDE2MjYyNjU1NjQsLTE3NDM0MTU4MzEsLTI3OTEyODY5OC
+wxNTkxNjczOTM5LC01OTc4NzUzMzYsLTE0NTcwNTE3MDksNTUw
+MzQxNTM1LDY0NDA0OTUwNywxNzk5Mzg0NjE0LDEwMDYzNDUzMz
+gsNjI1MDk4Nzc5LDkzMzkyNTE0MCwtMTA1MjcxNDQyNiwtMTMw
+NzY4NjEwNV19
 -->
