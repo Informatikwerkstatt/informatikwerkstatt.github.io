@@ -253,8 +253,9 @@ public class HelloWorld
 		System.out.println( message );
 	}
 ```	
-- Die Variable `message` kann nach ihrer Instanziierung als Argument (Parameter) zum Aufruf der Methode  `println`  (des Objekts `System.out`, siehe VL2) verwendet werden
+- Die Variable `message` kann nach ihrer Instanziierung als Argument (Parameter) zum Aufruf der Methode  `println()`  (des Objekts `System.out`, siehe VL2) verwendet werden
 - Die Variable wird somit übergeben und kann in der Methode weiterverarbeitet werden 
+- Übrigens: Per Eingabeparameter p_args der main() Methode
  
 ---
 
@@ -389,7 +390,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNzMwNzg4Nyw5MTM2NzUzNzYsNTkzNz
+eyJoaXN0b3J5IjpbLTc0MjM1OTA3MSw5MTM2NzUzNzYsNTkzNz
 U4NDUwLDEzMDYxNjg1NzMsLTE5MzYyMDgwMDMsMTA3NzMwMTM3
 NywxNDAxMDEwMzEyLC02MTUwMDU0NjUsMTY1NTY2MDM0OSwtNz
 gzMzM5MDE2LDExNjQxMjMzNjEsMjY1NzIxMTQ0LDEwODg5NjQ4
