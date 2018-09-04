@@ -161,9 +161,9 @@ public class HelloWorld
 }
 ```
 - Quelldatei enthält Klassen
-- Klasse hat Eigenschaften (Attribute) und Verhalten (Methoden)
-- Die `HelloWorld` Klasse hat keine Attribute und eine Methode ```main``` 
-- In der Folge betraxchten wir die wesentlichen Elemente 
+- Das Verhalten einer Klasse wird durch Methoden beschrieben
+- Die `HelloWorld` Klasse hat eine Methode ```main``` 
+- In der Folge betrachten wir die wesentlichen Elemente 
 - Klasse: 
 	- Zentrale Einheit der objektorientierten Programmierung (s. VL2). 
 	- Programmcode ist in Klassen organisiert
@@ -329,11 +329,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjIxNjQ2MDEsMTY1NTY2MDM0OSwtNz
-gzMzM5MDE2LDExNjQxMjMzNjEsMjY1NzIxMTQ0LDEwODg5NjQ4
-NjksLTExNzA4MjE0MzQsLTEwODc1OTE5NzMsMTYzNzYxNDY5OS
-wxMjMxNTMyODk3LC05MDY0Nzg5NTAsLTE5NTI0MjUzNCwtMTcz
-NTQ0MDg0Myw3MDg3NzUxNDIsNTQwNTUzOTM4LDM3MjM2NzMzMy
-wxMDQ0NDA5MTQ4LDIyNTUxMTUwMiwtMTgyMzc4ODY4OSwtMTEx
-NjE2Mzk3OF19
+eyJoaXN0b3J5IjpbMTA3OTc0MDkxMSwxNjU1NjYwMzQ5LC03OD
+MzMzkwMTYsMTE2NDEyMzM2MSwyNjU3MjExNDQsMTA4ODk2NDg2
+OSwtMTE3MDgyMTQzNCwtMTA4NzU5MTk3MywxNjM3NjE0Njk5LD
+EyMzE1MzI4OTcsLTkwNjQ3ODk1MCwtMTk1MjQyNTM0LC0xNzM1
+NDQwODQzLDcwODc3NTE0Miw1NDA1NTM5MzgsMzcyMzY3MzMzLD
+EwNDQ0MDkxNDgsMjI1NTExNTAyLC0xODIzNzg4Njg5LC0xMTE2
+MTYzOTc4XX0=
 -->
