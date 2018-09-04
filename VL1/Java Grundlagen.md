@@ -260,7 +260,9 @@ public class HelloWorld
 
 ### main() Methoden
  
- - Java-Programme, die eine main() Methode haben
+ - Findet die JVM bei der Ausführung mit java HelloWorld eine solche Methode, dann wird sie ausgeführt
+ -  - Java-Programme, die eine main() Methode haben, sind ausführbar.
+
 ---
 
 ## Typenumwandlung / Casting
@@ -394,7 +396,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2ODQ1OTM3MSw5MTM2NzUzNzYsNTkzNz
+eyJoaXN0b3J5IjpbLTk4MzMwNzczMiw5MTM2NzUzNzYsNTkzNz
 U4NDUwLDEzMDYxNjg1NzMsLTE5MzYyMDgwMDMsMTA3NzMwMTM3
 NywxNDAxMDEwMzEyLC02MTUwMDU0NjUsMTY1NTY2MDM0OSwtNz
 gzMzM5MDE2LDExNjQxMjMzNjEsMjY1NzIxMTQ0LDEwODg5NjQ4
