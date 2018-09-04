@@ -388,7 +388,7 @@ else
 - Beispiel:
 ```java
  (a > 0) ? System.out.println(a + " ist positiv") 
-         : System.out.println(a + " ist nichtpositiv");
+	 : System.out.println(a + " ist nichtpositiv");
 ```
 - oder etwas eleganter
 ```java
@@ -537,11 +537,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE5OTk5ODQ5LC0xNzQzNDE1ODMxLC0yNz
-kxMjg2OTgsMTU5MTY3MzkzOSwtNTk3ODc1MzM2LC0xNDU3MDUx
-NzA5LDU1MDM0MTUzNSw2NDQwNDk1MDcsMTc5OTM4NDYxNCwxMD
-A2MzQ1MzM4LDYyNTA5ODc3OSw5MzM5MjUxNDAsLTEwNTI3MTQ0
-MjYsLTEzMDc2ODYxMDUsODcxMDEwMTYxLC0xNDk0NjQ3NDA0LC
-0xMjM5Mzg2Mjg0LC0yMDQzNjQ5Mjk3LC03Mjc3Mjc3NzgsMTI0
-Njc5NDMzNF19
+eyJoaXN0b3J5IjpbMTY3MTQ2NTE1MywtMTc0MzQxNTgzMSwtMj
+c5MTI4Njk4LDE1OTE2NzM5MzksLTU5Nzg3NTMzNiwtMTQ1NzA1
+MTcwOSw1NTAzNDE1MzUsNjQ0MDQ5NTA3LDE3OTkzODQ2MTQsMT
+AwNjM0NTMzOCw2MjUwOTg3NzksOTMzOTI1MTQwLC0xMDUyNzE0
+NDI2LC0xMzA3Njg2MTA1LDg3MTAxMDE2MSwtMTQ5NDY0NzQwNC
+wtMTIzOTM4NjI4NCwtMjA0MzY0OTI5NywtNzI3NzI3Nzc4LDEy
+NDY3OTQzMzRdfQ==
 -->
