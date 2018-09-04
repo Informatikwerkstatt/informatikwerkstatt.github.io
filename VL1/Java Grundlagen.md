@@ -349,7 +349,7 @@ int  i=1;
 int  j=1;
 System.out.println(i==j); // Ergebnis: true}
 ```
-- bei String u
+- bei String und anderen Objekten: Test auf Gleichheit mit Methode equals
 
 
 ## Ja / Nein / Vielleicht - If-Else
@@ -466,11 +466,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA3NDQwNjE0LDYyNTA5ODc3OSw5MzM5Mj
-UxNDAsLTEwNTI3MTQ0MjYsLTEzMDc2ODYxMDUsODcxMDEwMTYx
-LC0xNDk0NjQ3NDA0LC0xMjM5Mzg2Mjg0LC0yMDQzNjQ5Mjk3LC
-03Mjc3Mjc3NzgsMTI0Njc5NDMzNCwtMTI4OTU3NTc3Niw5MTM2
-NzUzNzYsNTkzNzU4NDUwLDEzMDYxNjg1NzMsLTE5MzYyMDgwMD
-MsMTA3NzMwMTM3NywxNDAxMDEwMzEyLC02MTUwMDU0NjUsMTY1
-NTY2MDM0OV19
+eyJoaXN0b3J5IjpbMTAwNjM0NTMzOCw2MjUwOTg3NzksOTMzOT
+I1MTQwLC0xMDUyNzE0NDI2LC0xMzA3Njg2MTA1LDg3MTAxMDE2
+MSwtMTQ5NDY0NzQwNCwtMTIzOTM4NjI4NCwtMjA0MzY0OTI5Ny
+wtNzI3NzI3Nzc4LDEyNDY3OTQzMzQsLTEyODk1NzU3NzYsOTEz
+Njc1Mzc2LDU5Mzc1ODQ1MCwxMzA2MTY4NTczLC0xOTM2MjA4MD
+AzLDEwNzczMDEzNzcsMTQwMTAxMDMxMiwtNjE1MDA1NDY1LDE2
+NTU2NjAzNDldfQ==
 -->
