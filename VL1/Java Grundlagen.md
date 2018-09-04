@@ -349,7 +349,7 @@ int  i=1;
 int  j=1;
 System.out.println(i==j); // Ergebnis: true}
 ```
-- bei String und anderen Objekten: Test auf Gleichheit mit Methode `equals()`
+- bei String und anderen Objekten: Test mit Methode `equals()`
 ``` java
 String  s1=new  String("maus"); // neues String-Objekt wird erzeugt (s. VL2)
 String  s2=new  String("maus");
@@ -381,7 +381,7 @@ else
 ### Ternärer Operator
 <!-- ternärer Operator funktioniert nur für 2 Alternativen; kompakter; if-else empfinden viele als besser lesbar -->
 - Wenn nur zwischen zwei Ausgabewerten unterschieden werden soll, so gibt es für die If-Else-Anweisung eine Kurzform
--  Der ternäre Operator `?:`hat die Form
+-  Der ternäre Operator `?:` hat die Form
 ```
 (<boolescher Ausdruck>) `?` AusgabewertTrue `:` AusgabewertFalse;
 ```
@@ -585,7 +585,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NjQ4MTgxNywtMTE1OTEzOTMwMSwxND
+eyJoaXN0b3J5IjpbMTQzMjg5MjU5OSwtMTE1OTEzOTMwMSwxND
 g4MzE4NjM5LDEyMDA0OTc5MjQsMTYyNjI2NTU2NCwtMTc0MzQx
 NTgzMSwtMjc5MTI4Njk4LDE1OTE2NzM5MzksLTU5Nzg3NTMzNi
 wtMTQ1NzA1MTcwOSw1NTAzNDE1MzUsNjQ0MDQ5NTA3LDE3OTkz
