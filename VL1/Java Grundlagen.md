@@ -423,7 +423,7 @@ else {
 }
 ```
 <!-- Anweisung 1: 5<6, also wird a=b ausgeführt (if-Zweig)
-       Anweisung 2: a <= b, deshalb zunächst else-Zweig, dann wg a<c der if-ZWeig 
+       Anweisung 2: a <= b, deshalb zunächst else-Zweig, dann wg a<c der if-Zweig -->
 
 ---
 
@@ -522,7 +522,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzOTE0NzQwNiwtMTQ1NzA1MTcwOSw1NT
+eyJoaXN0b3J5IjpbLTU5Nzg3NTMzNiwtMTQ1NzA1MTcwOSw1NT
 AzNDE1MzUsNjQ0MDQ5NTA3LDE3OTkzODQ2MTQsMTAwNjM0NTMz
 OCw2MjUwOTg3NzksOTMzOTI1MTQwLC0xMDUyNzE0NDI2LC0xMz
 A3Njg2MTA1LDg3MTAxMDE2MSwtMTQ5NDY0NzQwNCwtMTIzOTM4
