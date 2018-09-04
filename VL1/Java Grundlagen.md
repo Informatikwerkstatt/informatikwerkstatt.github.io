@@ -392,6 +392,9 @@ else
          : System.out.println(a + " ist nichtpositiv");
 ```
 - oder etwas eleganter
+```java
+ System.out.println(
+```
 ---
 ---
 
@@ -496,7 +499,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDY1ODQ4ODUsMTc5OTM4NDYxNCwxMD
+eyJoaXN0b3J5IjpbLTE1ODgxMjQwMzMsMTc5OTM4NDYxNCwxMD
 A2MzQ1MzM4LDYyNTA5ODc3OSw5MzM5MjUxNDAsLTEwNTI3MTQ0
 MjYsLTEzMDc2ODYxMDUsODcxMDEwMTYxLC0xNDk0NjQ3NDA0LC
 0xMjM5Mzg2Mjg0LC0yMDQzNjQ5Mjk3LC03Mjc3Mjc3NzgsMTI0
