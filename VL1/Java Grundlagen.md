@@ -332,6 +332,12 @@ myInt= (int)pi;
 - Vergleichs-Operatoren (z.B. >, !=, >=) werden verwendet, um Bedingungen für Verzweigungen eines Programms auszudrücken  [Hier](https://de.wikibooks.org/wiki/Java_Standard:_Operatoren#Operatoren_f%C3%BCr_Vergleiche) clicken für Übersicht
 - Für Operatoren in Java gelten die üblichen mathematischen Präzedenzregeln (z.B. "Punktrechnung geht vor Strichrechnung"
 - Im Zweifelsfall: Klammern setzen
+``` java
+int i = 2;
+int j = 2 * i;
+int k = 4 * ( i + j) / 2;
+System.out.println("k = " + k)
+``
 	
 
 ## Ja / Nein / Vielleicht - If-Else
@@ -448,7 +454,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0Mzg1MTU5Niw5MzM5MjUxNDAsLTEwNT
+eyJoaXN0b3J5IjpbMTQyODg1OTczNyw5MzM5MjUxNDAsLTEwNT
 I3MTQ0MjYsLTEzMDc2ODYxMDUsODcxMDEwMTYxLC0xNDk0NjQ3
 NDA0LC0xMjM5Mzg2Mjg0LC0yMDQzNjQ5Mjk3LC03Mjc3Mjc3Nz
 gsMTI0Njc5NDMzNCwtMTI4OTU3NTc3Niw5MTM2NzUzNzYsNTkz
