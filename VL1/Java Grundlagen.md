@@ -288,11 +288,10 @@ mynumber = Integer.toString(counterI).
 ### @Let's try
 
 <!-- Codebeispiel Main-Programm, Variablen deklarieren, Variablen setzen, Variablen mit Println ausgeben -->
-1. Schreiben Sie eine Klasse Example.java mit einer main()-Methode
-2.  Kopieren Sie das obigen Code-Fragment in den Rumpf der main()-Methode 
-3. Übersetzen Sie das Programm und führen es aus! Was beobachten Sie?
-
-4. Fügen Sie nun folgende Zeile am Ende des main()-Programms ein?
+1. Schreibe eine Klasse Example.java mit einer `main()`-Methode
+2.  Kopieree das obigen Code-Fragment in den Rumpf der `main()`-Methode 
+3. Übersetze das Programm und führen es aus! Was beobachten Sie?
+4. Fügen Sie nun folgende Zeile am Ende des `main()`-Programms ein?
 ``` java
 /*
  hier versuche ich, eine double-Variable auf 
@@ -302,7 +301,7 @@ counterI = counterD;
 ```
 5. Übersetzen Sie das Programm! Was beobachten Sie?
 6.  Ermitteln Sie jeweils durch Nachdenken oder probieren: Auf welche Typen können byte / int / double gecastet werden?
-7. Versuchen Sie, die Variable counterD auf die String-Variable myNumber zu casten! 
+7. Versuchen Sie, die Variable `counterD` auf die String-Variable `myNumber` zu casten! 
 
 ===
 ### Implizites vs. explizites Casting
@@ -441,11 +440,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNTYzNDcxNiwtMTA1MjcxNDQyNiwtMT
-MwNzY4NjEwNSw4NzEwMTAxNjEsLTE0OTQ2NDc0MDQsLTEyMzkz
-ODYyODQsLTIwNDM2NDkyOTcsLTcyNzcyNzc3OCwxMjQ2Nzk0Mz
-M0LC0xMjg5NTc1Nzc2LDkxMzY3NTM3Niw1OTM3NTg0NTAsMTMw
-NjE2ODU3MywtMTkzNjIwODAwMywxMDc3MzAxMzc3LDE0MDEwMT
-AzMTIsLTYxNTAwNTQ2NSwxNjU1NjYwMzQ5LC03ODMzMzkwMTYs
-MTE2NDEyMzM2MV19
+eyJoaXN0b3J5IjpbLTE3NjYzMjg4NzgsLTEwNTI3MTQ0MjYsLT
+EzMDc2ODYxMDUsODcxMDEwMTYxLC0xNDk0NjQ3NDA0LC0xMjM5
+Mzg2Mjg0LC0yMDQzNjQ5Mjk3LC03Mjc3Mjc3NzgsMTI0Njc5ND
+MzNCwtMTI4OTU3NTc3Niw5MTM2NzUzNzYsNTkzNzU4NDUwLDEz
+MDYxNjg1NzMsLTE5MzYyMDgwMDMsMTA3NzMwMTM3NywxNDAxMD
+EwMzEyLC02MTUwMDU0NjUsMTY1NTY2MDM0OSwtNzgzMzM5MDE2
+LDExNjQxMjMzNjFdfQ==
 -->
