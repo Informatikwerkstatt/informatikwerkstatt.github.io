@@ -446,6 +446,7 @@ int[] highscores = {1000, 850, 600};
 ``` java
 int[] highscores = new int[10];
 ```
+- Nach `new`-Anweisung sind die Elemente des Arrays mit dem Initialwert des Elementtyps initialisiert (Zahlen: `0`, `boolean: false`)
 ===
 
 ### Collections
@@ -532,7 +533,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUxODQ4MTc3LC0yNzkxMjg2OTgsMTU5MT
+eyJoaXN0b3J5IjpbODg4ODY3MjQxLC0yNzkxMjg2OTgsMTU5MT
 Y3MzkzOSwtNTk3ODc1MzM2LC0xNDU3MDUxNzA5LDU1MDM0MTUz
 NSw2NDQwNDk1MDcsMTc5OTM4NDYxNCwxMDA2MzQ1MzM4LDYyNT
 A5ODc3OSw5MzM5MjUxNDAsLTEwNTI3MTQ0MjYsLTEzMDc2ODYx
