@@ -305,7 +305,12 @@ counterI = counterD;
 7. Versuchen Sie, die Variable counterD auf die String-Variable myNumber zu casten! 
 
 ===
-# Zusammenfassung Cas
+### Zusammenfassung Casting
+- Die Typenumwandlung ist oft nötig
+- Dabei können Probleme zur Übersetzungszeit und u.U. auch zur Ausführungszeit (runtime) eines Programmes auftreten. 
+- 
+ 
+
 ---
 
 ## Ja / Nein / Vielleicht - If-Else
@@ -427,7 +432,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYzODMzNTcyLC0xNDk0NjQ3NDA0LC0xMj
+eyJoaXN0b3J5IjpbOTc5ODkyMjE3LC0xNDk0NjQ3NDA0LC0xMj
 M5Mzg2Mjg0LC0yMDQzNjQ5Mjk3LC03Mjc3Mjc3NzgsMTI0Njc5
 NDMzNCwtMTI4OTU3NTc3Niw5MTM2NzUzNzYsNTkzNzU4NDUwLD
 EzMDYxNjg1NzMsLTE5MzYyMDgwMDMsMTA3NzMwMTM3NywxNDAx
