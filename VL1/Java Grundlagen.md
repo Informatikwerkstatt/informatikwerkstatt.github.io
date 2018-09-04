@@ -396,15 +396,16 @@ else
  System.out.println(a + " ist " + ((a > 0) ? "positiv" : "nichtpositiv"));
 ```
 ---
-
-
 ## @Let's try
 
  1. Erstellen Sie eine Klasse `Example1` (Datei `Example1.java`) mit einer
     main() Methode.
  2.  Probieren Sie die obigen Beispiele für `if-else` und den ternären Operator aus!
 
-
+---
+## @Home
+Betrachte die beiden folgenden IF-ELSE Anweisungen
+Überlege, welcher Teil der Anweisungen jeweils ausgeführt wird und warum.
 
 ---
 
@@ -503,11 +504,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0Mjg3OTQwLC0xNDU3MDUxNzA5LDU1MD
-M0MTUzNSw2NDQwNDk1MDcsMTc5OTM4NDYxNCwxMDA2MzQ1MzM4
-LDYyNTA5ODc3OSw5MzM5MjUxNDAsLTEwNTI3MTQ0MjYsLTEzMD
-c2ODYxMDUsODcxMDEwMTYxLC0xNDk0NjQ3NDA0LC0xMjM5Mzg2
-Mjg0LC0yMDQzNjQ5Mjk3LC03Mjc3Mjc3NzgsMTI0Njc5NDMzNC
-wtMTI4OTU3NTc3Niw5MTM2NzUzNzYsNTkzNzU4NDUwLDEzMDYx
-Njg1NzNdfQ==
+eyJoaXN0b3J5IjpbLTIxNTY5NTQ5MiwtMTQ1NzA1MTcwOSw1NT
+AzNDE1MzUsNjQ0MDQ5NTA3LDE3OTkzODQ2MTQsMTAwNjM0NTMz
+OCw2MjUwOTg3NzksOTMzOTI1MTQwLC0xMDUyNzE0NDI2LC0xMz
+A3Njg2MTA1LDg3MTAxMDE2MSwtMTQ5NDY0NzQwNCwtMTIzOTM4
+NjI4NCwtMjA0MzY0OTI5NywtNzI3NzI3Nzc4LDEyNDY3OTQzMz
+QsLTEyODk1NzU3NzYsOTEzNjc1Mzc2LDU5Mzc1ODQ1MCwxMzA2
+MTY4NTczXX0=
 -->
