@@ -268,10 +268,10 @@ public class HelloWorld
  - Das Argument `String[] p_args` der `main()` Methode kann genutzt werden, um bei dem Aufruf des Programms über die Kommandozeile Parameter an es zu übergeben.
 
 ---
-## Typenumwandlung
-
+## Typumwandlung
 <!-- Was bedeutet Casting, wozu wird es benötigt, was ist der Sinn davon, was sind die Nachteile davon, insbesondere parsen von String als numerischer Wert -->
 - Typumwandlung (engl. *Casting*) ist die Umwandlung eines Datentyps in einen anderen Datentyp.
+
 ``` java
 byte counterB = 1;
 int counterI = 1;
@@ -289,14 +289,15 @@ System.out.println("counterD = ", counterD);
 //int auf String casten erfordert extra Methodenaufruf
 mynumber = Integer.toString(counterI).
 ```
+
 ===
 ### @Let's try
 
 <!-- Codebeispiel Main-Programm, Variablen deklarieren, Variablen setzen, Variablen mit Println ausgeben -->
 1. Schreibe eine Klasse Example.java mit einer `main()`-Methode
-2.  Kopieree das obigen Code-Fragment in den Rumpf der `main()`-Methode 
-3. Übersetze das Programm und führe es aus! Was beobachtest Du?
-4. Füge nun folgende Zeile am Ende des `main()`-Programms ein?
+2. Kopiere das obigen Code-Fragment in den Rumpf der `main()`-Methode 
+4. Übersetze das Programm und führe es aus! Was beobachtest Du?
+5. Füge nun folgende Zeile am Ende des `main()`-Programms ein?
 ``` java
 /*
  hier versuche ich, eine double-Variable auf 
@@ -304,9 +305,9 @@ mynumber = Integer.toString(counterI).
  */
 counterI = counterD;
 ```
-5. Übersetze das Programm! Was beobachtest Du?
-6.  Ermittele jeweils durch Nachdenken oder probieren: Auf welche Typen können byte / int / double gecastet werden?
-7. Versuche, die Variable `counterD` auf die String-Variable `myNumber` zu casten! 
+6. Übersetze das Programm! Was beobachtest Du?
+7.  Ermittele jeweils durch Nachdenken oder probieren: Auf welche Typen können byte / int / double gecastet werden?
+8. Versuche, die Variable `counterD` auf die String-Variable `myNumber` zu casten! 
 
 ===
 ### Implizites vs. explizites Casting
@@ -585,11 +586,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMjg5MjU5OSwtMTE1OTEzOTMwMSwxND
-g4MzE4NjM5LDEyMDA0OTc5MjQsMTYyNjI2NTU2NCwtMTc0MzQx
-NTgzMSwtMjc5MTI4Njk4LDE1OTE2NzM5MzksLTU5Nzg3NTMzNi
-wtMTQ1NzA1MTcwOSw1NTAzNDE1MzUsNjQ0MDQ5NTA3LDE3OTkz
-ODQ2MTQsMTAwNjM0NTMzOCw2MjUwOTg3NzksOTMzOTI1MTQwLC
-0xMDUyNzE0NDI2LC0xMzA3Njg2MTA1LDg3MTAxMDE2MSwtMTQ5
-NDY0NzQwNF19
+eyJoaXN0b3J5IjpbLTE3OTE3NzgzOTAsLTExNTkxMzkzMDEsMT
+Q4ODMxODYzOSwxMjAwNDk3OTI0LDE2MjYyNjU1NjQsLTE3NDM0
+MTU4MzEsLTI3OTEyODY5OCwxNTkxNjczOTM5LC01OTc4NzUzMz
+YsLTE0NTcwNTE3MDksNTUwMzQxNTM1LDY0NDA0OTUwNywxNzk5
+Mzg0NjE0LDEwMDYzNDUzMzgsNjI1MDk4Nzc5LDkzMzkyNTE0MC
+wtMTA1MjcxNDQyNiwtMTMwNzY4NjEwNSw4NzEwMTAxNjEsLTE0
+OTQ2NDc0MDRdfQ==
 -->
