@@ -474,7 +474,12 @@ int = highscores[3]; //Zugriff auf viertes Element --> Fehler
 ``` 
 ===
 ### Collections
-- https://docs.oracle.com/javase/tutorial/collections/index.html
+- Java Bibliothek, die häufig verwendete Datenstrukturen und Methoden zur temporären Zwischenspeicherung und Verkettung von Objekten zur Verfügung stellen
+- Haupttypen
+	- Listen
+	- Mengen (Sets)
+	- 
+Detailliertere Infos findest Du [hier](https://docs.oracle.com/javase/tutorial/collections/index.html)
 <!-- was ist es, kurz fassen und auf Listen & Sets beschränken -->
 
 ---
@@ -557,11 +562,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTk1MjU3NzUsMTIwMDQ5NzkyNCwxNj
-I2MjY1NTY0LC0xNzQzNDE1ODMxLC0yNzkxMjg2OTgsMTU5MTY3
-MzkzOSwtNTk3ODc1MzM2LC0xNDU3MDUxNzA5LDU1MDM0MTUzNS
-w2NDQwNDk1MDcsMTc5OTM4NDYxNCwxMDA2MzQ1MzM4LDYyNTA5
-ODc3OSw5MzM5MjUxNDAsLTEwNTI3MTQ0MjYsLTEzMDc2ODYxMD
-UsODcxMDEwMTYxLC0xNDk0NjQ3NDA0LC0xMjM5Mzg2Mjg0LC0y
-MDQzNjQ5Mjk3XX0=
+eyJoaXN0b3J5IjpbNTg4MDcxMDQyLDEyMDA0OTc5MjQsMTYyNj
+I2NTU2NCwtMTc0MzQxNTgzMSwtMjc5MTI4Njk4LDE1OTE2NzM5
+MzksLTU5Nzg3NTMzNiwtMTQ1NzA1MTcwOSw1NTAzNDE1MzUsNj
+Q0MDQ5NTA3LDE3OTkzODQ2MTQsMTAwNjM0NTMzOCw2MjUwOTg3
+NzksOTMzOTI1MTQwLC0xMDUyNzE0NDI2LC0xMzA3Njg2MTA1LD
+g3MTAxMDE2MSwtMTQ5NDY0NzQwNCwtMTIzOTM4NjI4NCwtMjA0
+MzY0OTI5N119
 -->
