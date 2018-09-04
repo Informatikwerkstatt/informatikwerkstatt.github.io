@@ -378,7 +378,6 @@ else
 <!-- @Phil: brauchen wir  switch-case -->
 
 ===
-
 ### Ternärer Operator
 <!-- ternärer Operator funktioniert nur für 2 Alternativen; kompakter; if-else empfinden viele als besser lesbar -->
 - Wenn nur zwischen zwei Ausgabewerten unterschieden werden soll, so gibt es für die If-Else-Anweisung eine Kurzform
@@ -430,7 +429,11 @@ else {
 ## Arrays
 <!-- was sind Arrays, wozu sind sie gut, was gibt es für Beschränkungen -->
 - Arrays sind Sammlungen (Listen) ähnlicher Objekte
-- Im HelloWorld-Beispiel haben wir bereits e
+- Im HelloWorld-Beispiel: Argument 
+
+    String[] p_args
+
+```
 ===
 
 ### Array Initialisierung
@@ -521,12 +524,13 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 1. Installation [Java Development Kit](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MTg5ODk1LC01OTc4NzUzMzYsLTE0NT
-cwNTE3MDksNTUwMzQxNTM1LDY0NDA0OTUwNywxNzk5Mzg0NjE0
-LDEwMDYzNDUzMzgsNjI1MDk4Nzc5LDkzMzkyNTE0MCwtMTA1Mj
-cxNDQyNiwtMTMwNzY4NjEwNSw4NzEwMTAxNjEsLTE0OTQ2NDc0
-MDQsLTEyMzkzODYyODQsLTIwNDM2NDkyOTcsLTcyNzcyNzc3OC
-wxMjQ2Nzk0MzM0LC0xMjg5NTc1Nzc2LDkxMzY3NTM3Niw1OTM3
-NTg0NTBdfQ==
+eyJoaXN0b3J5IjpbMTM0NTA3ODc5MiwtNTk3ODc1MzM2LC0xND
+U3MDUxNzA5LDU1MDM0MTUzNSw2NDQwNDk1MDcsMTc5OTM4NDYx
+NCwxMDA2MzQ1MzM4LDYyNTA5ODc3OSw5MzM5MjUxNDAsLTEwNT
+I3MTQ0MjYsLTEzMDc2ODYxMDUsODcxMDEwMTYxLC0xNDk0NjQ3
+NDA0LC0xMjM5Mzg2Mjg0LC0yMDQzNjQ5Mjk3LC03Mjc3Mjc3Nz
+gsMTI0Njc5NDMzNCwtMTI4OTU3NTc3Niw5MTM2NzUzNzYsNTkz
+NzU4NDUwXX0=
 -->
