@@ -370,9 +370,9 @@ if (a <=0) System.out.println(a + ist "nichtpositiv");
 - IF-ELSE-Anweisung hat Form `if (bedingung) block1 else block2`
 ``` java
 if (a>0) 
-  System.out.println(a + " ist positiv");
+	  System.out.println(a + " ist positiv");
 else 
-  System.out.println(a + ist "nichtpositiv");
+	  System.out.println(a + ist "nichtpositiv");
 ```
 - Blöcke mit mehr als einer Anweisung in geschweifte Klammern eingefasst
 <!-- @Phil: brauchen wir  switch-case -->
@@ -537,11 +537,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDYzNTc2NzMsLTE3NDM0MTU4MzEsLT
-I3OTEyODY5OCwxNTkxNjczOTM5LC01OTc4NzUzMzYsLTE0NTcw
-NTE3MDksNTUwMzQxNTM1LDY0NDA0OTUwNywxNzk5Mzg0NjE0LD
-EwMDYzNDUzMzgsNjI1MDk4Nzc5LDkzMzkyNTE0MCwtMTA1Mjcx
-NDQyNiwtMTMwNzY4NjEwNSw4NzEwMTAxNjEsLTE0OTQ2NDc0MD
-QsLTEyMzkzODYyODQsLTIwNDM2NDkyOTcsLTcyNzcyNzc3OCwx
-MjQ2Nzk0MzM0XX0=
+eyJoaXN0b3J5IjpbLTUyNDc5MDIwMSwtMTc0MzQxNTgzMSwtMj
+c5MTI4Njk4LDE1OTE2NzM5MzksLTU5Nzg3NTMzNiwtMTQ1NzA1
+MTcwOSw1NTAzNDE1MzUsNjQ0MDQ5NTA3LDE3OTkzODQ2MTQsMT
+AwNjM0NTMzOCw2MjUwOTg3NzksOTMzOTI1MTQwLC0xMDUyNzE0
+NDI2LC0xMzA3Njg2MTA1LDg3MTAxMDE2MSwtMTQ5NDY0NzQwNC
+wtMTIzOTM4NjI4NCwtMjA0MzY0OTI5NywtNzI3NzI3Nzc4LDEy
+NDY3OTQzMzRdfQ==
 -->
