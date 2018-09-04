@@ -350,6 +350,10 @@ int  j=1;
 System.out.println(i==j); // Ergebnis: true}
 ```
 - bei String und anderen Objekten: Test auf Gleichheit mit Methode equals
+String  s1=new  String("maus"); // mit new () wird ein neues String-Objekt erzeugt (s. VL2)
+String  s2=new  String("maus");
+System.out.println(s1==s2);
+System.out.println(s1.equals(s2));
 
 
 ## Ja / Nein / Vielleicht - If-Else
@@ -466,11 +470,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNjM0NTMzOCw2MjUwOTg3NzksOTMzOT
-I1MTQwLC0xMDUyNzE0NDI2LC0xMzA3Njg2MTA1LDg3MTAxMDE2
-MSwtMTQ5NDY0NzQwNCwtMTIzOTM4NjI4NCwtMjA0MzY0OTI5Ny
-wtNzI3NzI3Nzc4LDEyNDY3OTQzMzQsLTEyODk1NzU3NzYsOTEz
-Njc1Mzc2LDU5Mzc1ODQ1MCwxMzA2MTY4NTczLC0xOTM2MjA4MD
-AzLDEwNzczMDEzNzcsMTQwMTAxMDMxMiwtNjE1MDA1NDY1LDE2
-NTU2NjAzNDldfQ==
+eyJoaXN0b3J5IjpbMTk4ODYwNzk2OSwxMDA2MzQ1MzM4LDYyNT
+A5ODc3OSw5MzM5MjUxNDAsLTEwNTI3MTQ0MjYsLTEzMDc2ODYx
+MDUsODcxMDEwMTYxLC0xNDk0NjQ3NDA0LC0xMjM5Mzg2Mjg0LC
+0yMDQzNjQ5Mjk3LC03Mjc3Mjc3NzgsMTI0Njc5NDMzNCwtMTI4
+OTU3NTc3Niw5MTM2NzUzNzYsNTkzNzU4NDUwLDEzMDYxNjg1Nz
+MsLTE5MzYyMDgwMDMsMTA3NzMwMTM3NywxNDAxMDEwMzEyLC02
+MTUwMDU0NjVdfQ==
 -->
