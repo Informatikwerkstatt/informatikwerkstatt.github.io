@@ -374,7 +374,7 @@ if (a>0)
 else 
 	  System.out.println(a + ist "nichtpositiv");
 ```
-- Blöcke mit mehr als einer Anweisung in geschweifte Klammern eingefasst
+- Blöcke mit mehreren Anweisungen in geschweifte Klammern einfassen!
 <!-- @Phil: brauchen wir  switch-case -->
 
 ===
@@ -537,7 +537,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4Mjc0Mzc1LC0xNzQzNDE1ODMxLC0yNz
+eyJoaXN0b3J5IjpbNTE5OTk5ODQ5LC0xNzQzNDE1ODMxLC0yNz
 kxMjg2OTgsMTU5MTY3MzkzOSwtNTk3ODc1MzM2LC0xNDU3MDUx
 NzA5LDU1MDM0MTUzNSw2NDQwNDk1MDcsMTc5OTM4NDYxNCwxMD
 A2MzQ1MzM4LDYyNTA5ODc3OSw5MzM5MjUxNDAsLTEwNTI3MTQ0
