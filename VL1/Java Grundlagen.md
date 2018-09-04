@@ -271,6 +271,7 @@ public class HelloWorld
 byte counterB = 1;
 int counterI = 1;
 double counterD = 1.0;
+String myNumber = "";
 
 /*
   hier wird eine int-Variable auf 
@@ -278,7 +279,9 @@ double counterD = 1.0;
  */
 
 counterD = counterI;
-System.out.println("counterI = ", counterI
+System.out.println("counterD = ", counterD);
+
+//int auf S
 ```
 ---
 ## @Let's try
@@ -421,11 +424,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ3OTkyODA4LC0yMDQzNjQ5Mjk3LC03Mj
-c3Mjc3NzgsMTI0Njc5NDMzNCwtMTI4OTU3NTc3Niw5MTM2NzUz
-NzYsNTkzNzU4NDUwLDEzMDYxNjg1NzMsLTE5MzYyMDgwMDMsMT
-A3NzMwMTM3NywxNDAxMDEwMzEyLC02MTUwMDU0NjUsMTY1NTY2
-MDM0OSwtNzgzMzM5MDE2LDExNjQxMjMzNjEsMjY1NzIxMTQ0LD
-EwODg5NjQ4NjksLTExNzA4MjE0MzQsLTEwODc1OTE5NzMsMTYz
-NzYxNDY5OV19
+eyJoaXN0b3J5IjpbLTEwOTYzMjUxODAsLTIwNDM2NDkyOTcsLT
+cyNzcyNzc3OCwxMjQ2Nzk0MzM0LC0xMjg5NTc1Nzc2LDkxMzY3
+NTM3Niw1OTM3NTg0NTAsMTMwNjE2ODU3MywtMTkzNjIwODAwMy
+wxMDc3MzAxMzc3LDE0MDEwMTAzMTIsLTYxNTAwNTQ2NSwxNjU1
+NjYwMzQ5LC03ODMzMzkwMTYsMTE2NDEyMzM2MSwyNjU3MjExND
+QsMTA4ODk2NDg2OSwtMTE3MDgyMTQzNCwtMTA4NzU5MTk3Mywx
+NjM3NjE0Njk5XX0=
 -->
