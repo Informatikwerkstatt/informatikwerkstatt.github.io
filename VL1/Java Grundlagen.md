@@ -362,8 +362,10 @@ System.out.println(s1.equals(s2)); // true
 ## Bedingte Anweisungen - If-Else
 - IF-Anweisung hat Form `if (bedingung) { anweisung }`
 	- Wenn Bedingung erfüllt ist , wird Anweisung ausgeführt; sonst übersprungen.
-- IF-ELSE-Anweisung hat Form if (bedingung) {anweisung1} else {anweisung2}
+- IF-ELSE-Anweisung hat Form `if (bedingung) {anweisung1} else {anweisung2}`
 ``` java
+int a=2;
+if (
 
 ```
 
@@ -477,7 +479,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNTYyMjcxMSwxMDA2MzQ1MzM4LDYyNT
+eyJoaXN0b3J5IjpbMTU2OTIxODcxMCwxMDA2MzQ1MzM4LDYyNT
 A5ODc3OSw5MzM5MjUxNDAsLTEwNTI3MTQ0MjYsLTEzMDc2ODYx
 MDUsODcxMDEwMTYxLC0xNDk0NjQ3NDA0LC0xMjM5Mzg2Mjg0LC
 0yMDQzNjQ5Mjk3LC03Mjc3Mjc3NzgsMTI0Njc5NDMzNCwtMTI4
