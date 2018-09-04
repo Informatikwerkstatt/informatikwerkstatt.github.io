@@ -375,16 +375,19 @@ else
   System.out.println(a + ist "nichtpositiv");
 ```
 - Blöcke mit mehr als einer Anweisung werden von geschweiften Klammern eingefasst
+<!-- @Phil: brauchen wir  switch-case -->
 
 ===
 
 ### Ternärer Operator
 <!-- was ist das, wann nutzt man if, wann den ternären Operator -->
-- Wenn nur zwischen zwei Ausgabewerten unterschieden werden soll, so gibt es für die If-Else-Anweisung eine Kurzform: Den ternären Operator `?`
+- Wenn nur zwischen zwei Ausgabewerten unterschieden werden soll, so gibt es für die If-Else-Anweisung eine Kurzform: Den ternären Operator `?:`
 - Er hat die Form
 ```
-
+(<boolescher Ausdruck>) `?` AusgabewertTrue `:` AusgabewertFalse;
 ```
+- Beispiel:
+- (a > 0) ?
 
 ---
 ---
@@ -490,11 +493,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ2ODExMzc0LDE3OTkzODQ2MTQsMTAwNj
-M0NTMzOCw2MjUwOTg3NzksOTMzOTI1MTQwLC0xMDUyNzE0NDI2
-LC0xMzA3Njg2MTA1LDg3MTAxMDE2MSwtMTQ5NDY0NzQwNCwtMT
-IzOTM4NjI4NCwtMjA0MzY0OTI5NywtNzI3NzI3Nzc4LDEyNDY3
-OTQzMzQsLTEyODk1NzU3NzYsOTEzNjc1Mzc2LDU5Mzc1ODQ1MC
-wxMzA2MTY4NTczLC0xOTM2MjA4MDAzLDEwNzczMDEzNzcsMTQw
-MTAxMDMxMl19
+eyJoaXN0b3J5IjpbLTY3Nzk2NDc2OSwxNzk5Mzg0NjE0LDEwMD
+YzNDUzMzgsNjI1MDk4Nzc5LDkzMzkyNTE0MCwtMTA1MjcxNDQy
+NiwtMTMwNzY4NjEwNSw4NzEwMTAxNjEsLTE0OTQ2NDc0MDQsLT
+EyMzkzODYyODQsLTIwNDM2NDkyOTcsLTcyNzcyNzc3OCwxMjQ2
+Nzk0MzM0LC0xMjg5NTc1Nzc2LDkxMzY3NTM3Niw1OTM3NTg0NT
+AsMTMwNjE2ODU3MywtMTkzNjIwODAwMywxMDc3MzAxMzc3LDE0
+MDEwMTAzMTJdfQ==
 -->
