@@ -185,12 +185,13 @@ public class HelloWorld
 
 ---
 
-## Java Keywords
+## Java SChlüsselwörter
 
-Java besitzt [50 Keywords](https://en.wikipedia.org/wiki/List_of_Java_keywords), die in der Sprachdefinition festgelegt sind.
+Java besitzt [50 reservierte Schlüsselwörter](https://en.wikipedia.org/wiki/List_of_Java_keywords), die in der Sprachdefinition festgelegt sind.
 
-* Keywords definieren die grundlegenden Befehle einer Programmiersprache
+* Sie definieren den GrundwoKeywords definieren die grundlegenden Befehle einer Programmiersprache
 * Sie dürfen nicht als Variablen-, Funktions-, Mehoden-, Klassennamen benutzt werden
+* Im HelloWorld-Programm haben wir bereits einige Key
 
 ---
 
@@ -343,11 +344,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NzUzNzk1NSwxNDAxMDEwMzEyLC02MT
-UwMDU0NjUsMTY1NTY2MDM0OSwtNzgzMzM5MDE2LDExNjQxMjMz
-NjEsMjY1NzIxMTQ0LDEwODg5NjQ4NjksLTExNzA4MjE0MzQsLT
-EwODc1OTE5NzMsMTYzNzYxNDY5OSwxMjMxNTMyODk3LC05MDY0
-Nzg5NTAsLTE5NTI0MjUzNCwtMTczNTQ0MDg0Myw3MDg3NzUxND
-IsNTQwNTUzOTM4LDM3MjM2NzMzMywxMDQ0NDA5MTQ4LDIyNTUx
-MTUwMl19
+eyJoaXN0b3J5IjpbLTExNzI4NjgyOTYsMTQwMTAxMDMxMiwtNj
+E1MDA1NDY1LDE2NTU2NjAzNDksLTc4MzMzOTAxNiwxMTY0MTIz
+MzYxLDI2NTcyMTE0NCwxMDg4OTY0ODY5LC0xMTcwODIxNDM0LC
+0xMDg3NTkxOTczLDE2Mzc2MTQ2OTksMTIzMTUzMjg5NywtOTA2
+NDc4OTUwLC0xOTUyNDI1MzQsLTE3MzU0NDA4NDMsNzA4Nzc1MT
+QyLDU0MDU1MzkzOCwzNzIzNjczMzMsMTA0NDQwOTE0OCwyMjU1
+MTE1MDJdfQ==
 -->
