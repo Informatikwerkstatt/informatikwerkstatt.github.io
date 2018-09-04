@@ -232,12 +232,10 @@ public class HelloWorld
 	}
 }
 ```
-- Variable muss vor Verwendung deklariert werden
-- Initialisierung (Wertzuweisung) vor Verwendung!
+
 ===
 
 ### Zuweisung
-
 <!-- Zuweisungen von Variablen, Beachtung von final -->
 
 ---
@@ -373,11 +371,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNjE2ODU3MywtMTkzNjIwODAwMywxMD
-c3MzAxMzc3LDE0MDEwMTAzMTIsLTYxNTAwNTQ2NSwxNjU1NjYw
-MzQ5LC03ODMzMzkwMTYsMTE2NDEyMzM2MSwyNjU3MjExNDQsMT
-A4ODk2NDg2OSwtMTE3MDgyMTQzNCwtMTA4NzU5MTk3MywxNjM3
-NjE0Njk5LDEyMzE1MzI4OTcsLTkwNjQ3ODk1MCwtMTk1MjQyNT
-M0LC0xNzM1NDQwODQzLDcwODc3NTE0Miw1NDA1NTM5MzgsMzcy
-MzY3MzMzXX0=
+eyJoaXN0b3J5IjpbLTEzOTcyMDQzMTYsMTMwNjE2ODU3MywtMT
+kzNjIwODAwMywxMDc3MzAxMzc3LDE0MDEwMTAzMTIsLTYxNTAw
+NTQ2NSwxNjU1NjYwMzQ5LC03ODMzMzkwMTYsMTE2NDEyMzM2MS
+wyNjU3MjExNDQsMTA4ODk2NDg2OSwtMTE3MDgyMTQzNCwtMTA4
+NzU5MTk3MywxNjM3NjE0Njk5LDEyMzE1MzI4OTcsLTkwNjQ3OD
+k1MCwtMTk1MjQyNTM0LC0xNzM1NDQwODQzLDcwODc3NTE0Miw1
+NDA1NTM5MzhdfQ==
 -->
