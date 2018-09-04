@@ -190,15 +190,15 @@ public class HelloWorld
 Java besitzt [50 reservierte Schlüsselwörter](https://en.wikipedia.org/wiki/List_of_Java_keywords), die in der Sprachdefinition festgelegt sind.
 
 * Sie definieren den Grundwortschatz der Programmiersprache, grundlegende Befehle
-* Sie dürfen nicht als Variablen-, Funktions-, Mehoden-, Klassennamen benutzt werden
 * Im HelloWorld-Programm haben wir bereits einige davon kennen gelernt: `public`, `class`, `static`, `void`
+* Schlüsselwörter dürfen nicht als Variablen-, Funktions-, Mehoden-, Klassennamen benutzt werden
 
 ---
 
 ## Datentypen
 <!-- Basisdatentypen, Text, Zahl, Boxing/Unboxing des Compilers -->
 - Alle Daten, die in Java-Programmen verarbeitet werden, haben einen wohldefinierten Datentyp
-- Java enthält vordefinierte Basisdatentypen
+- Java enthält vordefinierte Basisdatentypen; jeder Datentyp hat einen Namn
 
 ---
 
@@ -345,7 +345,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2OTIzNTMzNywxMDc3MzAxMzc3LDE0MD
+eyJoaXN0b3J5IjpbMTE4NjUyMjA5NSwxMDc3MzAxMzc3LDE0MD
 EwMTAzMTIsLTYxNTAwNTQ2NSwxNjU1NjYwMzQ5LC03ODMzMzkw
 MTYsMTE2NDEyMzM2MSwyNjU3MjExNDQsMTA4ODk2NDg2OSwtMT
 E3MDgyMTQzNCwtMTA4NzU5MTk3MywxNjM3NjE0Njk5LDEyMzE1
