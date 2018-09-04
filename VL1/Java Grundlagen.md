@@ -270,7 +270,6 @@ public class HelloWorld
 ---
 ## Typumwandlung
 <!-- Was bedeutet Casting, wozu wird es benötigt, was ist der Sinn davon, was sind die Nachteile davon, insbesondere parsen von String als numerischer Wert -->
-
  - Typumwandlung (engl. *Casting*) ist die Umwandlung eines Datentyps in einen anderen Datentyp.
 ``` java
 byte counterB = 1;
@@ -381,17 +380,17 @@ else
 ===
 ### Ternärer Operator
 <!-- ternärer Operator funktioniert nur für 2 Alternativen; kompakter; if-else empfinden viele als besser lesbar -->
-- Wenn nur zwischen zwei Ausgabewerten unterschieden werden soll, so gibt es für die If-Else-Anweisung eine Kurzform
--  Der ternäre Operator `?:` hat die Form
+ - Wenn nur zwischen zwei Ausgabewerten unterschieden werden soll, so gibt es für die IF-ELSE-Anweisung eine Kurzform
+ -  Der ternäre Operator `?:` hat die Form
 ```
 (<boolescher Ausdruck>) `?` AusgabewertTrue `:` AusgabewertFalse;
 ```
-- Beispiel:
+ - Beispiel:
 ```java
  (a > 0) ? System.out.println(a + " ist positiv") 
 	 : System.out.println(a + " ist nichtpositiv");
 ```
-- oder etwas eleganter
+ - Oder etwas eleganter
 ```java
  System.out.println(a + " ist " + ((a > 0) ? "positiv" : "nichtpositiv"));
 ```
@@ -586,11 +585,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEwOTgxNTYsLTExNTkxMzkzMDEsMTQ4OD
-MxODYzOSwxMjAwNDk3OTI0LDE2MjYyNjU1NjQsLTE3NDM0MTU4
-MzEsLTI3OTEyODY5OCwxNTkxNjczOTM5LC01OTc4NzUzMzYsLT
-E0NTcwNTE3MDksNTUwMzQxNTM1LDY0NDA0OTUwNywxNzk5Mzg0
-NjE0LDEwMDYzNDUzMzgsNjI1MDk4Nzc5LDkzMzkyNTE0MCwtMT
-A1MjcxNDQyNiwtMTMwNzY4NjEwNSw4NzEwMTAxNjEsLTE0OTQ2
-NDc0MDRdfQ==
+eyJoaXN0b3J5IjpbMTE1MjkxNjU2LC0xMTU5MTM5MzAxLDE0OD
+gzMTg2MzksMTIwMDQ5NzkyNCwxNjI2MjY1NTY0LC0xNzQzNDE1
+ODMxLC0yNzkxMjg2OTgsMTU5MTY3MzkzOSwtNTk3ODc1MzM2LC
+0xNDU3MDUxNzA5LDU1MDM0MTUzNSw2NDQwNDk1MDcsMTc5OTM4
+NDYxNCwxMDA2MzQ1MzM4LDYyNTA5ODc3OSw5MzM5MjUxNDAsLT
+EwNTI3MTQ0MjYsLTEzMDc2ODYxMDUsODcxMDEwMTYxLC0xNDk0
+NjQ3NDA0XX0=
 -->
