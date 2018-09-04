@@ -216,12 +216,13 @@ Java besitzt [50 reservierte Schlüsselwörter](https://en.wikipedia.org/wiki/Li
  
 - Benannter Bereich im Speicher, dem in einem Programm ein Wert zugewiesen werden kann 
 - Mithilfe der Datentypen können wir dem Java-Compiler genau beschreiben, welches erlaubte Werte einer Variable sind 
-- Wir erweitern unser Hallo World-Programm:
+- Wir erweitern unser Hallo-World-Programm:
 ``` java
 public class HelloWorld
 {
 	// Variablendeklaration mit Initialisierung
 	private final String message = "Hello World";
+	
 	public static void main( String[] p_args )
 	{
 	// Variable wird Methode als Parameter übergeben
@@ -416,11 +417,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNjE5NTUzMywtMjA0MzY0OTI5NywtNz
-I3NzI3Nzc4LDEyNDY3OTQzMzQsLTEyODk1NzU3NzYsOTEzNjc1
-Mzc2LDU5Mzc1ODQ1MCwxMzA2MTY4NTczLC0xOTM2MjA4MDAzLD
-EwNzczMDEzNzcsMTQwMTAxMDMxMiwtNjE1MDA1NDY1LDE2NTU2
-NjAzNDksLTc4MzMzOTAxNiwxMTY0MTIzMzYxLDI2NTcyMTE0NC
-wxMDg4OTY0ODY5LC0xMTcwODIxNDM0LC0xMDg3NTkxOTczLDE2
-Mzc2MTQ2OTldfQ==
+eyJoaXN0b3J5IjpbNDk4OTMxODg4LC0yMDQzNjQ5Mjk3LC03Mj
+c3Mjc3NzgsMTI0Njc5NDMzNCwtMTI4OTU3NTc3Niw5MTM2NzUz
+NzYsNTkzNzU4NDUwLDEzMDYxNjg1NzMsLTE5MzYyMDgwMDMsMT
+A3NzMwMTM3NywxNDAxMDEwMzEyLC02MTUwMDU0NjUsMTY1NTY2
+MDM0OSwtNzgzMzM5MDE2LDExNjQxMjMzNjEsMjY1NzIxMTQ0LD
+EwODg5NjQ4NjksLTExNzA4MjE0MzQsLTEwODc1OTE5NzMsMTYz
+NzYxNDY5OV19
 -->
