@@ -360,8 +360,8 @@ System.out.println(s1.equals(s2)); // true
 
 ---
 ## Bedingte Anweisungen - If-Else
-
-<!-- Aufbau von If-Else, Dangling Else -->
+- IF-Anweisung hat Form if (*bedingung*) anweisung
+- 
 
 ===
 
@@ -473,7 +473,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MjcxMDkwNiwxMDA2MzQ1MzM4LDYyNT
+eyJoaXN0b3J5IjpbMTgxNzg0ODgyNiwxMDA2MzQ1MzM4LDYyNT
 A5ODc3OSw5MzM5MjUxNDAsLTEwNTI3MTQ0MjYsLTEzMDc2ODYx
 MDUsODcxMDEwMTYxLC0xNDk0NjQ3NDA0LC0xMjM5Mzg2Mjg0LC
 0yMDQzNjQ5Mjk3LC03Mjc3Mjc3NzgsMTI0Njc5NDMzNCwtMTI4
