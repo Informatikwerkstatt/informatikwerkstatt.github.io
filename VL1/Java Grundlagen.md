@@ -156,7 +156,7 @@ public class HelloWorld
 {
 	public static void main( String[] p_args )
 	{
-		// print output 
+		// Ausgabe 
 		System.out.println( "Hello, World" );
 	}
 }
@@ -177,7 +177,7 @@ public class HelloWorld
 ### Methoden
 - Strukturieren den Code einer Klasse
 - Methode beschrieben durch
-	- Rückgabewert (`void` = keine Rückgabe)
+	- Rückgabewert (`void` = Methode gibt keinen Wert zurück)
 	- Name (`main`)
 	- Eingabeparameter (optional), beschrieben durch 
 		- Typ, z.B. `String[]` bezeichnet Liste (Array)  von Zeichenketten
@@ -231,7 +231,7 @@ public class HelloWorld
 	}
 }
 ```
-
+- Variable muss vor Zuweisun
 ===
 
 ### Zuweisung
@@ -371,7 +371,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MDQwMjMyOSwtMTkzNjIwODAwMywxMD
+eyJoaXN0b3J5IjpbMjEwMDgyODgyOSwtMTkzNjIwODAwMywxMD
 c3MzAxMzc3LDE0MDEwMTAzMTIsLTYxNTAwNTQ2NSwxNjU1NjYw
 MzQ5LC03ODMzMzkwMTYsMTE2NDEyMzM2MSwyNjU3MjExNDQsMT
 A4ODk2NDg2OSwtMTE3MDgyMTQzNCwtMTA4NzU5MTk3MywxNjM3
