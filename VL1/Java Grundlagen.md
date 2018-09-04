@@ -432,10 +432,11 @@ else {
 - HelloWorld-Beispiel: Argument `String[] p_args`ist  Array von String-Objekten
 - Anderes Beispiel: Liste von Highscore-Werten eines Spiels
 - Elemente über eine Index-Variable (Werte von `0` bis `Länge-1`) addressierbar
+- Arrays können verschachtelt sein 
 ![](http://winf.in.tu-clausthal.de/jpm/infws/img/1_array.png)
 
 ===
-### Array Initialisierung
+### Array anlegen / initialisierung
 
 <!-- verschiedene Arten für die Initialisierung von Arrays -->
 
@@ -525,11 +526,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MTc5MDc1LDE1OTE2NzM5MzksLTU5Nz
-g3NTMzNiwtMTQ1NzA1MTcwOSw1NTAzNDE1MzUsNjQ0MDQ5NTA3
-LDE3OTkzODQ2MTQsMTAwNjM0NTMzOCw2MjUwOTg3NzksOTMzOT
-I1MTQwLC0xMDUyNzE0NDI2LC0xMzA3Njg2MTA1LDg3MTAxMDE2
-MSwtMTQ5NDY0NzQwNCwtMTIzOTM4NjI4NCwtMjA0MzY0OTI5Ny
-wtNzI3NzI3Nzc4LDEyNDY3OTQzMzQsLTEyODk1NzU3NzYsOTEz
-Njc1Mzc2XX0=
+eyJoaXN0b3J5IjpbMTYxNzkzNjQ2OCwxNTkxNjczOTM5LC01OT
+c4NzUzMzYsLTE0NTcwNTE3MDksNTUwMzQxNTM1LDY0NDA0OTUw
+NywxNzk5Mzg0NjE0LDEwMDYzNDUzMzgsNjI1MDk4Nzc5LDkzMz
+kyNTE0MCwtMTA1MjcxNDQyNiwtMTMwNzY4NjEwNSw4NzEwMTAx
+NjEsLTE0OTQ2NDc0MDQsLTEyMzkzODYyODQsLTIwNDM2NDkyOT
+csLTcyNzcyNzc3OCwxMjQ2Nzk0MzM0LC0xMjg5NTc1Nzc2LDkx
+MzY3NTM3Nl19
 -->
