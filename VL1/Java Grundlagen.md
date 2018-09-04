@@ -480,7 +480,7 @@ int = highscores[3]; //Zugriff auf viertes Element --> Fehler
 <!-- Packages haben wir noch nicht eingeführt ... -->
 <!-- was ist es, kurz fassen und auf Listen & Sets beschränken -->
 ``` java
-import java.util.ArrayList;
+import java.util.ArrayList; //importiere die Klasse
 // ...
 String  s1  =  "Phil";
 String  s2  =  "Steffi";
@@ -585,11 +585,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEzNjA4MzE5LC0xMTU5MTM5MzAxLDE0OD
-gzMTg2MzksMTIwMDQ5NzkyNCwxNjI2MjY1NTY0LC0xNzQzNDE1
-ODMxLC0yNzkxMjg2OTgsMTU5MTY3MzkzOSwtNTk3ODc1MzM2LC
-0xNDU3MDUxNzA5LDU1MDM0MTUzNSw2NDQwNDk1MDcsMTc5OTM4
-NDYxNCwxMDA2MzQ1MzM4LDYyNTA5ODc3OSw5MzM5MjUxNDAsLT
-EwNTI3MTQ0MjYsLTEzMDc2ODYxMDUsODcxMDEwMTYxLC0xNDk0
-NjQ3NDA0XX0=
+eyJoaXN0b3J5IjpbLTE1MzE4MjEwNDAsLTExNTkxMzkzMDEsMT
+Q4ODMxODYzOSwxMjAwNDk3OTI0LDE2MjYyNjU1NjQsLTE3NDM0
+MTU4MzEsLTI3OTEyODY5OCwxNTkxNjczOTM5LC01OTc4NzUzMz
+YsLTE0NTcwNTE3MDksNTUwMzQxNTM1LDY0NDA0OTUwNywxNzk5
+Mzg0NjE0LDEwMDYzNDUzMzgsNjI1MDk4Nzc5LDkzMzkyNTE0MC
+wtMTA1MjcxNDQyNiwtMTMwNzY4NjEwNSw4NzEwMTAxNjEsLTE0
+OTQ2NDc0MDRdfQ==
 -->
