@@ -462,13 +462,16 @@ tabelleNamen[7][8] = "Steffi";
 int[] highscores = {1000, 850, 600};
 int first = highscores[0]; //first hat nun Wert `1000`
 ```
-- Arrayelemente durchiterieren mit for-Schleife (s.u.)
+- Arrayelemente durch-iterieren mit `for`-Schleife (s.u.)
 ``` java
 for (int i=0; i<highscores.length; i++)
 	System.out.println(highscores[i]); 
 ```
-- Häufiger Fehler: Ungültiger Wert für Index --> Führt z
- 
+- Häufiger Fehler: Ungültiger Wert für Index --> Führt zu Laufzeitfehler
+``` java
+int[] highscores = {1000, 850, 600};
+int = highscores[3]; //Zugriff auf viertes Element --> Fehler
+``` 
 ### Collections
 - Sammlung von Interfaces
 <!-- was ist es, kurz fassen und auf Listen & Sets beschränken -->
@@ -553,7 +556,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2OTkwNjkzNSwxMjAwNDk3OTI0LDE2Mj
+eyJoaXN0b3J5IjpbMTI0OTk0MTk5MywxMjAwNDk3OTI0LDE2Mj
 YyNjU1NjQsLTE3NDM0MTU4MzEsLTI3OTEyODY5OCwxNTkxNjcz
 OTM5LC01OTc4NzUzMzYsLTE0NTcwNTE3MDksNTUwMzQxNTM1LD
 Y0NDA0OTUwNywxNzk5Mzg0NjE0LDEwMDYzNDUzMzgsNjI1MDk4
