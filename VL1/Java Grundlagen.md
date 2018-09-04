@@ -215,6 +215,7 @@ Java besitzt [50 reservierte Schlüsselwörter](https://en.wikipedia.org/wiki/Li
 
 ## Variablen
 <!-- Deklaration von Variablen, Nutzung von Variablen, Keywort "final" -->
+- Mithilfe der Datentypen können wir dem Java-Compiler genau beschreiben, welc 
 
 ===
 
@@ -355,11 +356,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzYyMDgwMDMsMTA3NzMwMTM3NywxND
-AxMDEwMzEyLC02MTUwMDU0NjUsMTY1NTY2MDM0OSwtNzgzMzM5
-MDE2LDExNjQxMjMzNjEsMjY1NzIxMTQ0LDEwODg5NjQ4NjksLT
-ExNzA4MjE0MzQsLTEwODc1OTE5NzMsMTYzNzYxNDY5OSwxMjMx
-NTMyODk3LC05MDY0Nzg5NTAsLTE5NTI0MjUzNCwtMTczNTQ0MD
-g0Myw3MDg3NzUxNDIsNTQwNTUzOTM4LDM3MjM2NzMzMywxMDQ0
-NDA5MTQ4XX0=
+eyJoaXN0b3J5IjpbMTYzNDEyMTgzMiwtMTkzNjIwODAwMywxMD
+c3MzAxMzc3LDE0MDEwMTAzMTIsLTYxNTAwNTQ2NSwxNjU1NjYw
+MzQ5LC03ODMzMzkwMTYsMTE2NDEyMzM2MSwyNjU3MjExNDQsMT
+A4ODk2NDg2OSwtMTE3MDgyMTQzNCwtMTA4NzU5MTk3MywxNjM3
+NjE0Njk5LDEyMzE1MzI4OTcsLTkwNjQ3ODk1MCwtMTk1MjQyNT
+M0LC0xNzM1NDQwODQzLDcwODc3NTE0Miw1NDA1NTM5MzgsMzcy
+MzY3MzMzXX0=
 -->
