@@ -204,9 +204,9 @@ Java besitzt [50 reservierte Schlüsselwörter](https://en.wikipedia.org/wiki/Li
 |Datentyp|Wertebereich|
 |--|--|
 | boolean|`true` und `false`, 1 Bit Länge |
+| byte | Ganze Zahlen von -128 bis 127 |
 | int| Ganze Zahl, 32 bit Länge | 
 | double| Fliesskommazahl mit doppelter Genauigkeit | 
-| byte | Ganze Zahlen von -128 bis 127 |
 | char | Einzelne Zeichen, 16-bit Länge. z.B. `'a'` |
 | String| Zeichenkette, max. $2^{31}-1$ Zeichen. z.B. `"Hello World!"` |
 
@@ -329,7 +329,7 @@ myInt= (int)pi;
 - In Java kann man eine größe Anzahl von arithmetischen und Vergleichs-Operatoren nutzen
 - Einen haben wir schon kennen gelernt - den Zuweisungsoperator `A=B`, der A den Wert in B zuweist. 
 - Mit arithmetischen Operatoren (z.B. +, -, *, /) kann man rechnen. [Hier](https://de.wikibooks.org/wiki/Java_Standard:_Operatoren#Arithmetische_Operatoren) clicken für Übersicht
-- Vergleichs-Operatoren werden verwendet, um Bedingungen 
+- Vergleichs-Operatoren werden verwendet, um Bedingungen für Verzweigungen eines Programms auszudrücken
 
 ## Ja / Nein / Vielleicht - If-Else
 
@@ -445,7 +445,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTYyNTQyNjgsOTMzOTI1MTQwLC0xMD
+eyJoaXN0b3J5IjpbLTEyMTEwNzQxMjEsOTMzOTI1MTQwLC0xMD
 UyNzE0NDI2LC0xMzA3Njg2MTA1LDg3MTAxMDE2MSwtMTQ5NDY0
 NzQwNCwtMTIzOTM4NjI4NCwtMjA0MzY0OTI5NywtNzI3NzI3Nz
 c4LDEyNDY3OTQzMzQsLTEyODk1NzU3NzYsOTEzNjc1Mzc2LDU5
