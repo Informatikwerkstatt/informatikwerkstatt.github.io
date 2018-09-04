@@ -261,8 +261,8 @@ public class HelloWorld
 ### main() Methode
  
  -  Programme wie unser `HelloWorld` Beispiel , die eine main() Methode haben, sind also ausführbar.
- -  Die Aususführung mit java HelloWorld eine solche Methode, dann wird sie ausgeführt
- - Das Argument String[] p_args der main Methode kann genutzt werden, um bei dem Aufruf des Programms über die Kommandozeile Parameter an es zu übergeben.
+ -  Die Ausführung eines solchen Programms erfolgt durch Aufruf / Abarbeitung der `main()`-Methode
+ - Das Argument `String[] p_args` der main Methode kann genutzt werden, um bei dem Aufruf des Programms über die Kommandozeile Parameter an es zu übergeben.
 ---
 
 ## Typenumwandlung
@@ -397,11 +397,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE4MTg5MzU5LC0xMjg5NTc1Nzc2LDkxMz
-Y3NTM3Niw1OTM3NTg0NTAsMTMwNjE2ODU3MywtMTkzNjIwODAw
-MywxMDc3MzAxMzc3LDE0MDEwMTAzMTIsLTYxNTAwNTQ2NSwxNj
-U1NjYwMzQ5LC03ODMzMzkwMTYsMTE2NDEyMzM2MSwyNjU3MjEx
-NDQsMTA4ODk2NDg2OSwtMTE3MDgyMTQzNCwtMTA4NzU5MTk3My
-wxNjM3NjE0Njk5LDEyMzE1MzI4OTcsLTkwNjQ3ODk1MCwtMTk1
-MjQyNTM0XX0=
+eyJoaXN0b3J5IjpbLTgwNTQ2NzM1OCwtMTI4OTU3NTc3Niw5MT
+M2NzUzNzYsNTkzNzU4NDUwLDEzMDYxNjg1NzMsLTE5MzYyMDgw
+MDMsMTA3NzMwMTM3NywxNDAxMDEwMzEyLC02MTUwMDU0NjUsMT
+Y1NTY2MDM0OSwtNzgzMzM5MDE2LDExNjQxMjMzNjEsMjY1NzIx
+MTQ0LDEwODg5NjQ4NjksLTExNzA4MjE0MzQsLTEwODc1OTE5Nz
+MsMTYzNzYxNDY5OSwxMjMxNTMyODk3LC05MDY0Nzg5NTAsLTE5
+NTI0MjUzNF19
 -->
