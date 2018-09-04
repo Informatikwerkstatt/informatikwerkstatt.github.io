@@ -254,6 +254,8 @@ public class HelloWorld
 	}
 ```	
 - Die Variable `message` kann nach ihrer Instanziierung als Argument (Parameter) zum Aufruf der Methode  `println`  (des Objekts `System.out`, siehe VL2) verwendet werden
+- Die Variable wird somit übergeben und kann in der Methode weiterverarbeitet werden 
+- Auch die main Methode hat einen 
 ---
 
 ## Typenumwandlung / Casting
@@ -387,11 +389,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNDIwNTE5Nyw5MTM2NzUzNzYsNTkzNz
-U4NDUwLDEzMDYxNjg1NzMsLTE5MzYyMDgwMDMsMTA3NzMwMTM3
-NywxNDAxMDEwMzEyLC02MTUwMDU0NjUsMTY1NTY2MDM0OSwtNz
-gzMzM5MDE2LDExNjQxMjMzNjEsMjY1NzIxMTQ0LDEwODg5NjQ4
-NjksLTExNzA4MjE0MzQsLTEwODc1OTE5NzMsMTYzNzYxNDY5OS
-wxMjMxNTMyODk3LC05MDY0Nzg5NTAsLTE5NTI0MjUzNCwtMTcz
-NTQ0MDg0M119
+eyJoaXN0b3J5IjpbNTE0MzgxMDQsOTEzNjc1Mzc2LDU5Mzc1OD
+Q1MCwxMzA2MTY4NTczLC0xOTM2MjA4MDAzLDEwNzczMDEzNzcs
+MTQwMTAxMDMxMiwtNjE1MDA1NDY1LDE2NTU2NjAzNDksLTc4Mz
+MzOTAxNiwxMTY0MTIzMzYxLDI2NTcyMTE0NCwxMDg4OTY0ODY5
+LC0xMTcwODIxNDM0LC0xMDg3NTkxOTczLDE2Mzc2MTQ2OTksMT
+IzMTUzMjg5NywtOTA2NDc4OTUwLC0xOTUyNDI1MzQsLTE3MzU0
+NDA4NDNdfQ==
 -->
