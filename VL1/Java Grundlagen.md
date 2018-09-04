@@ -274,10 +274,11 @@ double counterD = 1.0;
 String myNumber = "";
 
 /*
-  hier wird eine int-Variable auf 
-  eine double-Variable gecastet
+  wir casten jetzt eine byte-Variable auf eine 
+  int-Variable und dann die int-Variable auf 
+  eine double-Variable. Geht das?
  */
-
+counterI = counterB;
 counterD = counterI;
 System.out.println("counterD = ", counterD);
 
@@ -425,11 +426,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTQ2NDc0MDQsLTEyMzkzODYyODQsLT
-IwNDM2NDkyOTcsLTcyNzcyNzc3OCwxMjQ2Nzk0MzM0LC0xMjg5
-NTc1Nzc2LDkxMzY3NTM3Niw1OTM3NTg0NTAsMTMwNjE2ODU3My
-wtMTkzNjIwODAwMywxMDc3MzAxMzc3LDE0MDEwMTAzMTIsLTYx
-NTAwNTQ2NSwxNjU1NjYwMzQ5LC03ODMzMzkwMTYsMTE2NDEyMz
-M2MSwyNjU3MjExNDQsMTA4ODk2NDg2OSwtMTE3MDgyMTQzNCwt
-MTA4NzU5MTk3M119
+eyJoaXN0b3J5IjpbLTgwNzA3NDc4OSwtMTQ5NDY0NzQwNCwtMT
+IzOTM4NjI4NCwtMjA0MzY0OTI5NywtNzI3NzI3Nzc4LDEyNDY3
+OTQzMzQsLTEyODk1NzU3NzYsOTEzNjc1Mzc2LDU5Mzc1ODQ1MC
+wxMzA2MTY4NTczLC0xOTM2MjA4MDAzLDEwNzczMDEzNzcsMTQw
+MTAxMDMxMiwtNjE1MDA1NDY1LDE2NTU2NjAzNDksLTc4MzMzOT
+AxNiwxMTY0MTIzMzYxLDI2NTcyMTE0NCwxMDg4OTY0ODY5LC0x
+MTcwODIxNDM0XX0=
 -->
