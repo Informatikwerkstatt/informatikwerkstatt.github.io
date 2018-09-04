@@ -408,8 +408,7 @@ Betrachte die beiden folgenden IF-ELSE Anweisungen
 
  1. Überlege, welcher Teil der Anweisungen jeweils ausgeführt wird und
     warum. 
-2. Schreibe für jede Anweisung ein Java-Programm; gib jeweils
-    die Werte der Variablen aus.
+2. Schreibe für jede Anweisung ein Java-Programm; wähle
 ```java
 // Anweisung 1
 int a=5, b=6;
@@ -424,7 +423,7 @@ else {
 }
 ```
 <!-- Anweisung 1: 5<6, also wird a=b ausgeführt (if-Zweig)
-       Anweisung 2:  
+       Anweisung 2: a <= b, deshalb zunächst else-Zweig, dann wg a<c der if-ZWeig 
 
 ---
 
@@ -523,11 +522,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzOTkzNjk3MSwtMTQ1NzA1MTcwOSw1NT
-AzNDE1MzUsNjQ0MDQ5NTA3LDE3OTkzODQ2MTQsMTAwNjM0NTMz
-OCw2MjUwOTg3NzksOTMzOTI1MTQwLC0xMDUyNzE0NDI2LC0xMz
-A3Njg2MTA1LDg3MTAxMDE2MSwtMTQ5NDY0NzQwNCwtMTIzOTM4
-NjI4NCwtMjA0MzY0OTI5NywtNzI3NzI3Nzc4LDEyNDY3OTQzMz
-QsLTEyODk1NzU3NzYsOTEzNjc1Mzc2LDU5Mzc1ODQ1MCwxMzA2
-MTY4NTczXX0=
+eyJoaXN0b3J5IjpbLTIwOTYwMzczODcsLTE0NTcwNTE3MDksNT
+UwMzQxNTM1LDY0NDA0OTUwNywxNzk5Mzg0NjE0LDEwMDYzNDUz
+MzgsNjI1MDk4Nzc5LDkzMzkyNTE0MCwtMTA1MjcxNDQyNiwtMT
+MwNzY4NjEwNSw4NzEwMTAxNjEsLTE0OTQ2NDc0MDQsLTEyMzkz
+ODYyODQsLTIwNDM2NDkyOTcsLTcyNzcyNzc3OCwxMjQ2Nzk0Mz
+M0LC0xMjg5NTc1Nzc2LDkxMzY3NTM3Niw1OTM3NTg0NTAsMTMw
+NjE2ODU3M119
 -->
