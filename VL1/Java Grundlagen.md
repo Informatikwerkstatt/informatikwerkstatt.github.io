@@ -204,9 +204,9 @@ Java besitzt [50 reservierte Schlüsselwörter](https://en.wikipedia.org/wiki/Li
 
 |Datentyp|Wertebereich|
 |--|--|
-| int| vorzeichenbehaftete Ganzzahl, 32 bit Länge | 
-| double|  | 
-| boolean| Werte true und false |
+| int| Ganze Zahl, 32 bit Länge | 
+| double| Fliesskommazahl mit doppelter Genauigkeit | 
+| boolean|`true` und `false` |
 | byte|  |
 | String|  |
 
@@ -356,7 +356,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MjM1MTI3LDEwNzczMDEzNzcsMTQwMT
+eyJoaXN0b3J5IjpbMzM1MzMzNjE2LDEwNzczMDEzNzcsMTQwMT
 AxMDMxMiwtNjE1MDA1NDY1LDE2NTU2NjAzNDksLTc4MzMzOTAx
 NiwxMTY0MTIzMzYxLDI2NTcyMTE0NCwxMDg4OTY0ODY5LC0xMT
 cwODIxNDM0LC0xMDg3NTkxOTczLDE2Mzc2MTQ2OTksMTIzMTUz
