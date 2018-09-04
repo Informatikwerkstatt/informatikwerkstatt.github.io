@@ -309,8 +309,8 @@ counterI = counterD;
 - Die Typenumwandlung ist oft nötig
 - Dabei können Probleme zur Übersetzungszeit und u.U. auch zur Ausführungszeit (runtime) eines Programmes auftreten. 
 - *Erweiternde Umwandlung* (z.B. von `int` auf `double`) wird vom Compiler automatisch durchgeführt
-- Einschränkende Umwandlu
-- 
+- *Einschränkende Umwandlung* (z.B. von `double` auf `int`) muss explizit vom Programmierer gemacht *(und geprüft!)* werden:
+``` jav
  
 
 ---
@@ -434,11 +434,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNjk2NTE4LC0xNDk0NjQ3NDA0LC0xMj
-M5Mzg2Mjg0LC0yMDQzNjQ5Mjk3LC03Mjc3Mjc3NzgsMTI0Njc5
-NDMzNCwtMTI4OTU3NTc3Niw5MTM2NzUzNzYsNTkzNzU4NDUwLD
-EzMDYxNjg1NzMsLTE5MzYyMDgwMDMsMTA3NzMwMTM3NywxNDAx
-MDEwMzEyLC02MTUwMDU0NjUsMTY1NTY2MDM0OSwtNzgzMzM5MD
-E2LDExNjQxMjMzNjEsMjY1NzIxMTQ0LDEwODg5NjQ4NjksLTEx
-NzA4MjE0MzRdfQ==
+eyJoaXN0b3J5IjpbLTM2MTExNDI3NywtMTQ5NDY0NzQwNCwtMT
+IzOTM4NjI4NCwtMjA0MzY0OTI5NywtNzI3NzI3Nzc4LDEyNDY3
+OTQzMzQsLTEyODk1NzU3NzYsOTEzNjc1Mzc2LDU5Mzc1ODQ1MC
+wxMzA2MTY4NTczLC0xOTM2MjA4MDAzLDEwNzczMDEzNzcsMTQw
+MTAxMDMxMiwtNjE1MDA1NDY1LDE2NTU2NjAzNDksLTc4MzMzOT
+AxNiwxMTY0MTIzMzYxLDI2NTcyMTE0NCwxMDg4OTY0ODY5LC0x
+MTcwODIxNDM0XX0=
 -->
