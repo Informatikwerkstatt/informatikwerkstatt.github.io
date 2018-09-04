@@ -474,8 +474,8 @@ int = highscores[3]; //Zugriff auf viertes Element --> Fehler
 ``` 
 ===
 ### Collections
-- Java Bibliothek, stellt häufig verwendete Datenstrukturen und Methoden zur temporären Zwischenspeicherung und Verkettung von Objekten zur Verfügung stellen
-- Haupttypen u.a. Listen und Mengen
+- Java Bibliothek, stellt häufig verwendete Datenstrukturen und Methoden zur Speicherung und Verkettung von Objekten zur Verfügung
+- Haupttypen Listen, Mengen, Maps, Queues
 - Beispiel Liste: Klasse `java.util.ArrayList` = dynamischer Array (keine feste Länge)
 <!-- Packages haben wir noch nicht eingeführt ... -->
 <!-- was ist es, kurz fassen und auf Listen & Sets beschränken -->
@@ -493,7 +493,7 @@ betreuer.add(s2);
 for (int  i  =0; i <  betreuer.size(); i++) 
    System.out.println((String)betreuer.get(i));
 ``` 
-Detailliertere Infos zu dem Java Collections Framework findest Du [hier](https://docs.oracle.com/javase/tutorial/collections/index.html)
+Detailliertere Infos zum Java Collections Framework findest Du [hier](https://docs.oracle.com/javase/tutorial/collections/index.html)
 
 ---
 ## @Let's try
@@ -585,11 +585,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyOTIzMjc1MCwtMTE1OTEzOTMwMSwxND
-g4MzE4NjM5LDEyMDA0OTc5MjQsMTYyNjI2NTU2NCwtMTc0MzQx
-NTgzMSwtMjc5MTI4Njk4LDE1OTE2NzM5MzksLTU5Nzg3NTMzNi
-wtMTQ1NzA1MTcwOSw1NTAzNDE1MzUsNjQ0MDQ5NTA3LDE3OTkz
-ODQ2MTQsMTAwNjM0NTMzOCw2MjUwOTg3NzksOTMzOTI1MTQwLC
-0xMDUyNzE0NDI2LC0xMzA3Njg2MTA1LDg3MTAxMDE2MSwtMTQ5
-NDY0NzQwNF19
+eyJoaXN0b3J5IjpbLTEwNjYwNjU5LC0xMTU5MTM5MzAxLDE0OD
+gzMTg2MzksMTIwMDQ5NzkyNCwxNjI2MjY1NTY0LC0xNzQzNDE1
+ODMxLC0yNzkxMjg2OTgsMTU5MTY3MzkzOSwtNTk3ODc1MzM2LC
+0xNDU3MDUxNzA5LDU1MDM0MTUzNSw2NDQwNDk1MDcsMTc5OTM4
+NDYxNCwxMDA2MzQ1MzM4LDYyNTA5ODc3OSw5MzM5MjUxNDAsLT
+EwNTI3MTQ0MjYsLTEzMDc2ODYxMDUsODcxMDEwMTYxLC0xNDk0
+NjQ3NDA0XX0=
 -->
