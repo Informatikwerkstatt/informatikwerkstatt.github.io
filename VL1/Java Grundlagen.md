@@ -151,7 +151,8 @@ Und hier das ganze im Video:
 
 ## Aufbau eines Java-Programms
 <!-- wie ist der allgemeine Aufbau eines Java Programs, Stichwort Klasse, Stichwork main, insbesondere Parameter erklären -->
-
+- Quelldatei: enthält eine oder mehrere Klassendefinitionen (i.d.R. eine)
+- Klasse: Kleinste  
 ---
 
 ## Java Keywords
@@ -312,11 +313,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NTY2MDM0OSwtNzgzMzM5MDE2LDExNj
-QxMjMzNjEsMjY1NzIxMTQ0LDEwODg5NjQ4NjksLTExNzA4MjE0
-MzQsLTEwODc1OTE5NzMsMTYzNzYxNDY5OSwxMjMxNTMyODk3LC
-05MDY0Nzg5NTAsLTE5NTI0MjUzNCwtMTczNTQ0MDg0Myw3MDg3
-NzUxNDIsNTQwNTUzOTM4LDM3MjM2NzMzMywxMDQ0NDA5MTQ4LD
-IyNTUxMTUwMiwtMTgyMzc4ODY4OSwtMTExNjE2Mzk3OCwxMDU5
-OTc5NzkzXX0=
+eyJoaXN0b3J5IjpbMTc2MDM0MjY2OSwxNjU1NjYwMzQ5LC03OD
+MzMzkwMTYsMTE2NDEyMzM2MSwyNjU3MjExNDQsMTA4ODk2NDg2
+OSwtMTE3MDgyMTQzNCwtMTA4NzU5MTk3MywxNjM3NjE0Njk5LD
+EyMzE1MzI4OTcsLTkwNjQ3ODk1MCwtMTk1MjQyNTM0LC0xNzM1
+NDQwODQzLDcwODc3NTE0Miw1NDA1NTM5MzgsMzcyMzY3MzMzLD
+EwNDQ0MDkxNDgsMjI1NTExNTAyLC0xODIzNzg4Njg5LC0xMTE2
+MTYzOTc4XX0=
 -->
