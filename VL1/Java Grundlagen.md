@@ -189,9 +189,8 @@ public class HelloWorld
 
 Java besitzt [50 reservierte Schlüsselwörter](https://en.wikipedia.org/wiki/List_of_Java_keywords), die in der Sprachdefinition festgelegt sind.
 
-* Sie definieren den GrundwoKeywords definieren die grundlegenden Befehle einer Programmiersprache
-* Sie dürfen nicht als Variablen-, Funktions-, Mehoden-, Klassennamen benutzt werden
-* Im HelloWorld-Programm haben wir bereits einige Key
+* Sie definieren den Grundwortschatz der Programmiersprache, grundlegende Befehle* Sie dürfen nicht als Variablen-, Funktions-, Mehoden-, Klassennamen benutzt werden
+* Im HelloWorld-Programm haben wir bereits einige davon kennen gelernt: `public` , class , static , void
 
 ---
 
@@ -344,7 +343,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzI4NjgyOTYsMTQwMTAxMDMxMiwtNj
+eyJoaXN0b3J5IjpbLTE3OTg0NDc3ODYsMTQwMTAxMDMxMiwtNj
 E1MDA1NDY1LDE2NTU2NjAzNDksLTc4MzMzOTAxNiwxMTY0MTIz
 MzYxLDI2NTcyMTE0NCwxMDg4OTY0ODY5LC0xMTcwODIxNDM0LC
 0xMDg3NTkxOTczLDE2Mzc2MTQ2OTksMTIzMTUzMjg5NywtOTA2
