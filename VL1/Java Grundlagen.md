@@ -327,11 +327,11 @@ myInt= (int)pi;
 ## Größer, Kleiner, Gleich - Vergleiche und Operatoren
 <!-- Operatoren erklären, Operatoren Precedence erklären -->
 - In Java kann man eine größe Anzahl von [Standard-Operatoren](https://de.wikibooks.org/wiki/Java_Standard:_Operatoren) nutzen
-- Einen kennen wir schon - den Zuweisungsoperator `A=B`, der A den Wert in B zuweist. 
-- Mit arithmetischen Operatoren (z.B. +, -, *, /) kann man rechnen. Übersicht [hier](https://de.wikibooks.org/wiki/Java_Standard:_Operatoren#Arithmetische_Operatoren)
+- Einen kennen wir schon: Operator `A=B` weist A den Wert in B zu 
+- Mit arithmetischen Operatoren (z.B. +, -) kann man rechnen. Übersicht [hier](https://de.wikibooks.org/wiki/Java_Standard:_Operatoren#Arithmetische_Operatoren)
 - Vergleichs-Operatoren (z.B. >, !=, >=) drücken Bedingungen für Verzweigungen eines Programms aus.  Übersicht [hier](https://de.wikibooks.org/wiki/Java_Standard:_Operatoren#Operatoren_f%C3%BCr_Vergleiche)
-- Für Operatoren in Java gelten die üblichen mathematischen Präzedenzregeln (z.B. "Punktrechnung geht vor Strichrechnung"). Übersicht [hier](https://de.wikibooks.org/wiki/Java_Standard:_Operatoren)
-- Im Zweifelsfall: Klammern setzen
+- Für Operatoren in Java gelten die üblichen mathematischen Präzedenzregeln (z.B. "Punktrechnung vor Strichrechnung"). Übersicht [hier](https://de.wikibooks.org/wiki/Java_Standard:_Operatoren)
+- Im Zweifelsfall: Klammern setzen!
 ``` java
 int i = 2;
 int j = 2 * i;
@@ -472,11 +472,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzg0NzM4MTIsMTAwNjM0NTMzOCw2Mj
-UwOTg3NzksOTMzOTI1MTQwLC0xMDUyNzE0NDI2LC0xMzA3Njg2
-MTA1LDg3MTAxMDE2MSwtMTQ5NDY0NzQwNCwtMTIzOTM4NjI4NC
-wtMjA0MzY0OTI5NywtNzI3NzI3Nzc4LDEyNDY3OTQzMzQsLTEy
-ODk1NzU3NzYsOTEzNjc1Mzc2LDU5Mzc1ODQ1MCwxMzA2MTY4NT
-czLC0xOTM2MjA4MDAzLDEwNzczMDEzNzcsMTQwMTAxMDMxMiwt
-NjE1MDA1NDY1XX0=
+eyJoaXN0b3J5IjpbLTY5NDUyMTc1OSwxMDA2MzQ1MzM4LDYyNT
+A5ODc3OSw5MzM5MjUxNDAsLTEwNTI3MTQ0MjYsLTEzMDc2ODYx
+MDUsODcxMDEwMTYxLC0xNDk0NjQ3NDA0LC0xMjM5Mzg2Mjg0LC
+0yMDQzNjQ5Mjk3LC03Mjc3Mjc3NzgsMTI0Njc5NDMzNCwtMTI4
+OTU3NTc3Niw5MTM2NzUzNzYsNTkzNzU4NDUwLDEzMDYxNjg1Nz
+MsLTE5MzYyMDgwMDMsMTA3NzMwMTM3NywxNDAxMDEwMzEyLC02
+MTUwMDU0NjVdfQ==
 -->
