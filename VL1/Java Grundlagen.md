@@ -182,13 +182,14 @@ public class HelloWorld
 		- Name `p_args` 
 	- Rumpf mit Anweisungen, in `{ ... }`eingefasst
 - Methoden und Klassen können außerdem sog. Modifier haben (z.B. `public`, oder `public static` (siehe VL2)
+
 ---
 
 ## Java Keywords
 
 Java besitzt [50 Keywords](https://en.wikipedia.org/wiki/List_of_Java_keywords), die in der Sprachdefinition festgelegt sind.
 
-* Keywords definieren meist den Basis Syntax (Befehle) einer Programmiersprache
+* Keywords definieren die grundlegenden Befehle einer Programmiersprache
 * Sie dürfen nicht als Variablen-, Funktions-, Mehoden-, Klassennamen benutzt werden
 
 ---
@@ -342,11 +343,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzExNjAwMDg2LDE0MDEwMTAzMTIsLTYxNT
-AwNTQ2NSwxNjU1NjYwMzQ5LC03ODMzMzkwMTYsMTE2NDEyMzM2
-MSwyNjU3MjExNDQsMTA4ODk2NDg2OSwtMTE3MDgyMTQzNCwtMT
-A4NzU5MTk3MywxNjM3NjE0Njk5LDEyMzE1MzI4OTcsLTkwNjQ3
-ODk1MCwtMTk1MjQyNTM0LC0xNzM1NDQwODQzLDcwODc3NTE0Mi
-w1NDA1NTM5MzgsMzcyMzY3MzMzLDEwNDQ0MDkxNDgsMjI1NTEx
-NTAyXX0=
+eyJoaXN0b3J5IjpbMTc2NzUzNzk1NSwxNDAxMDEwMzEyLC02MT
+UwMDU0NjUsMTY1NTY2MDM0OSwtNzgzMzM5MDE2LDExNjQxMjMz
+NjEsMjY1NzIxMTQ0LDEwODg5NjQ4NjksLTExNzA4MjE0MzQsLT
+EwODc1OTE5NzMsMTYzNzYxNDY5OSwxMjMxNTMyODk3LC05MDY0
+Nzg5NTAsLTE5NTI0MjUzNCwtMTczNTQ0MDg0Myw3MDg3NzUxND
+IsNTQwNTUzOTM4LDM3MjM2NzMzMywxMDQ0NDA5MTQ4LDIyNTUx
+MTUwMl19
 -->
