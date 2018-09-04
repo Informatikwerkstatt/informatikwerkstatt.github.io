@@ -205,6 +205,7 @@ Java besitzt [50 reservierte Schlüsselwörter](https://en.wikipedia.org/wiki/Li
 |--|--|
 | int| Ganze Zahl, 32 bit Länge | 
 | double| Fliesskommazahl mit doppelter Genauigkeit | 
+| byte | Ganze Zahlen von -127 bis 128 |
 | boolean|`true` und `false` |
 | char | Einzelne Zeichen, 16-bit Länge. z.B. `'a'` |
 | String| Zeichenkette, max. $2^{31}-1$ Zeichen. z.B. `"Hello World!"` |
@@ -230,7 +231,6 @@ public class HelloWorld
 ```
 
 ===
-
 ### Zuweisung
 <!-- Zuweisungen von Variablen, Beachtung von final -->
 - Variable muss vor Verwendung deklariert werden
@@ -241,8 +241,8 @@ public class HelloWorld
 - Wichtig: Initiale Wertzuweisung vor Verwendung einer Variable! 
 - Modifikator `final` gibt an, dass die Variable nach der Initialisierung nicht mehr verändert werden darf
 - `final` wird häufig verwendet, um Konstanten zu definieren
-===
 
+===
 ### Verwendung von Variablen bei Methodenaufrufen
 ``` java
 	public static void main( String[] p_args )
@@ -394,11 +394,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc3NzQ5OTA0LC0xMjg5NTc1Nzc2LDkxMz
-Y3NTM3Niw1OTM3NTg0NTAsMTMwNjE2ODU3MywtMTkzNjIwODAw
-MywxMDc3MzAxMzc3LDE0MDEwMTAzMTIsLTYxNTAwNTQ2NSwxNj
-U1NjYwMzQ5LC03ODMzMzkwMTYsMTE2NDEyMzM2MSwyNjU3MjEx
-NDQsMTA4ODk2NDg2OSwtMTE3MDgyMTQzNCwtMTA4NzU5MTk3My
-wxNjM3NjE0Njk5LDEyMzE1MzI4OTcsLTkwNjQ3ODk1MCwtMTk1
-MjQyNTM0XX0=
+eyJoaXN0b3J5IjpbMTI0Njc5NDMzNCwtMTI4OTU3NTc3Niw5MT
+M2NzUzNzYsNTkzNzU4NDUwLDEzMDYxNjg1NzMsLTE5MzYyMDgw
+MDMsMTA3NzMwMTM3NywxNDAxMDEwMzEyLC02MTUwMDU0NjUsMT
+Y1NTY2MDM0OSwtNzgzMzM5MDE2LDExNjQxMjMzNjEsMjY1NzIx
+MTQ0LDEwODg5NjQ4NjksLTExNzA4MjE0MzQsLTEwODc1OTE5Nz
+MsMTYzNzYxNDY5OSwxMjMxNTMyODk3LC05MDY0Nzg5NTAsLTE5
+NTI0MjUzNF19
 -->
