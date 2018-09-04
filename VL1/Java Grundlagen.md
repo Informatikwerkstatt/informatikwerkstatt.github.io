@@ -265,9 +265,11 @@ public class HelloWorld
  - Das Argument String[] p_args der main Methode kann genutzt werden, um bei dem Aufruf des Programms Parameter an es zu übergeben.
 ===
 
-### @Let's try
+### @Home
+Erweitern Sie das Hello World Programm so, dass Si
 
-<!-- Codebeispiel Main-Programm, Variablen deklarieren, Variablen setzen, Variablen mit Println ausgeben -->
+
+
 ---
 
 ## Typenumwandlung / Casting
@@ -401,11 +403,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMyNzg0MzIsOTEzNjc1Mzc2LDU5Mzc1OD
-Q1MCwxMzA2MTY4NTczLC0xOTM2MjA4MDAzLDEwNzczMDEzNzcs
-MTQwMTAxMDMxMiwtNjE1MDA1NDY1LDE2NTU2NjAzNDksLTc4Mz
-MzOTAxNiwxMTY0MTIzMzYxLDI2NTcyMTE0NCwxMDg4OTY0ODY5
-LC0xMTcwODIxNDM0LC0xMDg3NTkxOTczLDE2Mzc2MTQ2OTksMT
-IzMTUzMjg5NywtOTA2NDc4OTUwLC0xOTUyNDI1MzQsLTE3MzU0
-NDA4NDNdfQ==
+eyJoaXN0b3J5IjpbODE0NTAwMTM5LDkxMzY3NTM3Niw1OTM3NT
+g0NTAsMTMwNjE2ODU3MywtMTkzNjIwODAwMywxMDc3MzAxMzc3
+LDE0MDEwMTAzMTIsLTYxNTAwNTQ2NSwxNjU1NjYwMzQ5LC03OD
+MzMzkwMTYsMTE2NDEyMzM2MSwyNjU3MjExNDQsMTA4ODk2NDg2
+OSwtMTE3MDgyMTQzNCwtMTA4NzU5MTk3MywxNjM3NjE0Njk5LD
+EyMzE1MzI4OTcsLTkwNjQ3ODk1MCwtMTk1MjQyNTM0LC0xNzM1
+NDQwODQzXX0=
 -->
