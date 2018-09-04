@@ -356,7 +356,7 @@ String  s2=new  String("maus");
 System.out.println(s1==s2); // false!
 System.out.println(s1.equals(s2)); // true
 ```
-- Bei s1.equals(s2) muss s1 initialisiert sein --> prüfen mit 
+- Bei `s1.equals(s2)` muss `s1` initialisiert sein --> prüfen mit `s1 != nul`l
 
 ## Ja / Nein / Vielleicht - If-Else
 
@@ -472,11 +472,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMjYzNTAzOCwxMDA2MzQ1MzM4LDYyNT
-A5ODc3OSw5MzM5MjUxNDAsLTEwNTI3MTQ0MjYsLTEzMDc2ODYx
-MDUsODcxMDEwMTYxLC0xNDk0NjQ3NDA0LC0xMjM5Mzg2Mjg0LC
-0yMDQzNjQ5Mjk3LC03Mjc3Mjc3NzgsMTI0Njc5NDMzNCwtMTI4
-OTU3NTc3Niw5MTM2NzUzNzYsNTkzNzU4NDUwLDEzMDYxNjg1Nz
-MsLTE5MzYyMDgwMDMsMTA3NzMwMTM3NywxNDAxMDEwMzEyLC02
-MTUwMDU0NjVdfQ==
+eyJoaXN0b3J5IjpbOTY0NzQ1MzksMTAwNjM0NTMzOCw2MjUwOT
+g3NzksOTMzOTI1MTQwLC0xMDUyNzE0NDI2LC0xMzA3Njg2MTA1
+LDg3MTAxMDE2MSwtMTQ5NDY0NzQwNCwtMTIzOTM4NjI4NCwtMj
+A0MzY0OTI5NywtNzI3NzI3Nzc4LDEyNDY3OTQzMzQsLTEyODk1
+NzU3NzYsOTEzNjc1Mzc2LDU5Mzc1ODQ1MCwxMzA2MTY4NTczLC
+0xOTM2MjA4MDAzLDEwNzczMDEzNzcsMTQwMTAxMDMxMiwtNjE1
+MDA1NDY1XX0=
 -->
