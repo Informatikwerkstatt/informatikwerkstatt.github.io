@@ -330,7 +330,7 @@ myInt= (int)pi;
 - Einen kennen wir schon: Operator `A=B` weist A den Wert in B zu 
 - Mit arithmetischen Operatoren (z.B. +, -) kann man rechnen. Übersicht [hier](https://de.wikibooks.org/wiki/Java_Standard:_Operatoren#Arithmetische_Operatoren)
 - Vergleichs-Operatoren (z.B. >, !=, >=) drücken Bedingungen für Verzweigungen eines Programms aus.  Übersicht [hier](https://de.wikibooks.org/wiki/Java_Standard:_Operatoren#Operatoren_f%C3%BCr_Vergleiche)
-- Für Operatoren in Java gelten die üblichen mathematischen Präzedenzregeln (z.B. "Punktrechnung vor Strichrechnung"). Übersicht [hier](https://de.wikibooks.org/wiki/Java_Standard:_Operatoren)
+- Übliche mathematische Präzedenzregeln für Operatoren (z.B. "Punktrechnung vor Strichrechnung"). Übersicht [hier](https://de.wikibooks.org/wiki/Java_Standard:_Operatoren)
 - Im Zweifelsfall: Klammern setzen!
 ``` java
 int i = 2;
@@ -585,11 +585,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjYwNjU5LC0xMTU5MTM5MzAxLDE0OD
-gzMTg2MzksMTIwMDQ5NzkyNCwxNjI2MjY1NTY0LC0xNzQzNDE1
-ODMxLC0yNzkxMjg2OTgsMTU5MTY3MzkzOSwtNTk3ODc1MzM2LC
-0xNDU3MDUxNzA5LDU1MDM0MTUzNSw2NDQwNDk1MDcsMTc5OTM4
-NDYxNCwxMDA2MzQ1MzM4LDYyNTA5ODc3OSw5MzM5MjUxNDAsLT
-EwNTI3MTQ0MjYsLTEzMDc2ODYxMDUsODcxMDEwMTYxLC0xNDk0
-NjQ3NDA0XX0=
+eyJoaXN0b3J5IjpbLTE0MzE0NzE5NjUsLTExNTkxMzkzMDEsMT
+Q4ODMxODYzOSwxMjAwNDk3OTI0LDE2MjYyNjU1NjQsLTE3NDM0
+MTU4MzEsLTI3OTEyODY5OCwxNTkxNjczOTM5LC01OTc4NzUzMz
+YsLTE0NTcwNTE3MDksNTUwMzQxNTM1LDY0NDA0OTUwNywxNzk5
+Mzg0NjE0LDEwMDYzNDUzMzgsNjI1MDk4Nzc5LDkzMzkyNTE0MC
+wtMTA1MjcxNDQyNiwtMTMwNzY4NjEwNSw4NzEwMTAxNjEsLTE0
+OTQ2NDc0MDRdfQ==
 -->
