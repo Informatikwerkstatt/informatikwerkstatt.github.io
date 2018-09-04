@@ -499,10 +499,12 @@ Detailliertere Infos zum Java Collections Framework findest Du [hier](https://do
 
 ---
 ## @Let's try
+ 
  - Schreibe zunächst ein kleines Programm, in dem Du 
-1. einen Array Deiner Wahl deklarierst
-2. ihn initialisierst
-3. seine Werte ausliest und ausgibst 
+ 1. einen Array Deiner Wahl deklarierst
+ 2. ihn initialisierst
+ 3. seine Werte ausliest und ausgibst 
+ 
  -  **@Cracks:** Schreibe ein weiteres Programm, in dem Du 
  1. eine ArrayList Deiner Wahl deklarierst
  2. sie mit Werten füllst
@@ -587,11 +589,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NzYwNTI5NywtOTc0MjYwNzQzLC0xOT
-I4Njc0NjUwLC0xMTU5MTM5MzAxLDE0ODgzMTg2MzksMTIwMDQ5
-NzkyNCwxNjI2MjY1NTY0LC0xNzQzNDE1ODMxLC0yNzkxMjg2OT
-gsMTU5MTY3MzkzOSwtNTk3ODc1MzM2LC0xNDU3MDUxNzA5LDU1
-MDM0MTUzNSw2NDQwNDk1MDcsMTc5OTM4NDYxNCwxMDA2MzQ1Mz
-M4LDYyNTA5ODc3OSw5MzM5MjUxNDAsLTEwNTI3MTQ0MjYsLTEz
-MDc2ODYxMDVdfQ==
+eyJoaXN0b3J5IjpbLTE2MjkzNTQ3NTksLTk3NDI2MDc0MywtMT
+kyODY3NDY1MCwtMTE1OTEzOTMwMSwxNDg4MzE4NjM5LDEyMDA0
+OTc5MjQsMTYyNjI2NTU2NCwtMTc0MzQxNTgzMSwtMjc5MTI4Nj
+k4LDE1OTE2NzM5MzksLTU5Nzg3NTMzNiwtMTQ1NzA1MTcwOSw1
+NTAzNDE1MzUsNjQ0MDQ5NTA3LDE3OTkzODQ2MTQsMTAwNjM0NT
+MzOCw2MjUwOTg3NzksOTMzOTI1MTQwLC0xMDUyNzE0NDI2LC0x
+MzA3Njg2MTA1XX0=
 -->
