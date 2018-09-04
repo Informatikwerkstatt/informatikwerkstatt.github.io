@@ -319,10 +319,8 @@ myInt= (int)pi;
 <!-- kein Compile-Fehler, aber nur ganzzahliger Anteil!-->
 
 ---
-
-
 ## Größer, Kleiner, Gleich - Vergleiche und Operatoren
-
+- Java unterst
 <!-- Operatoren erklären, Operatoren Precedence erklären -->
 
 
@@ -440,11 +438,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MjYyNzU5MCwtMTA1MjcxNDQyNiwtMT
-MwNzY4NjEwNSw4NzEwMTAxNjEsLTE0OTQ2NDc0MDQsLTEyMzkz
-ODYyODQsLTIwNDM2NDkyOTcsLTcyNzcyNzc3OCwxMjQ2Nzk0Mz
-M0LC0xMjg5NTc1Nzc2LDkxMzY3NTM3Niw1OTM3NTg0NTAsMTMw
-NjE2ODU3MywtMTkzNjIwODAwMywxMDc3MzAxMzc3LDE0MDEwMT
-AzMTIsLTYxNTAwNTQ2NSwxNjU1NjYwMzQ5LC03ODMzMzkwMTYs
-MTE2NDEyMzM2MV19
+eyJoaXN0b3J5IjpbOTMzOTI1MTQwLC0xMDUyNzE0NDI2LC0xMz
+A3Njg2MTA1LDg3MTAxMDE2MSwtMTQ5NDY0NzQwNCwtMTIzOTM4
+NjI4NCwtMjA0MzY0OTI5NywtNzI3NzI3Nzc4LDEyNDY3OTQzMz
+QsLTEyODk1NzU3NzYsOTEzNjc1Mzc2LDU5Mzc1ODQ1MCwxMzA2
+MTY4NTczLC0xOTM2MjA4MDAzLDEwNzczMDEzNzcsMTQwMTAxMD
+MxMiwtNjE1MDA1NDY1LDE2NTU2NjAzNDksLTc4MzMzOTAxNiwx
+MTY0MTIzMzYxXX0=
 -->
