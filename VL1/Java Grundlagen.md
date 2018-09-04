@@ -178,8 +178,8 @@ public class HelloWorld
 	- Rückgabewert (`void` = keine Rückgabe)
 	- Name (`main`)
 	- Eingabeparameter (optional) 
-		- beschrieben durch Typ und Name
-		- `String[] p_args`
+		- beschrieben durch Typ (`String[] p_args`  und Name
+		- `String[] p_args` 
 		- 
 	Rumpf mit Anweisungen
 ---
@@ -342,11 +342,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMTAxMDMxMiwtNjE1MDA1NDY1LDE2NT
-U2NjAzNDksLTc4MzMzOTAxNiwxMTY0MTIzMzYxLDI2NTcyMTE0
-NCwxMDg4OTY0ODY5LC0xMTcwODIxNDM0LC0xMDg3NTkxOTczLD
-E2Mzc2MTQ2OTksMTIzMTUzMjg5NywtOTA2NDc4OTUwLC0xOTUy
-NDI1MzQsLTE3MzU0NDA4NDMsNzA4Nzc1MTQyLDU0MDU1MzkzOC
-wzNzIzNjczMzMsMTA0NDQwOTE0OCwyMjU1MTE1MDIsLTE4MjM3
-ODg2ODldfQ==
+eyJoaXN0b3J5IjpbMTgwMjM1Nzk5MywxNDAxMDEwMzEyLC02MT
+UwMDU0NjUsMTY1NTY2MDM0OSwtNzgzMzM5MDE2LDExNjQxMjMz
+NjEsMjY1NzIxMTQ0LDEwODg5NjQ4NjksLTExNzA4MjE0MzQsLT
+EwODc1OTE5NzMsMTYzNzYxNDY5OSwxMjMxNTMyODk3LC05MDY0
+Nzg5NTAsLTE5NTI0MjUzNCwtMTczNTQ0MDg0Myw3MDg3NzUxND
+IsNTQwNTUzOTM4LDM3MjM2NzMzMywxMDQ0NDA5MTQ4LDIyNTUx
+MTUwMl19
 -->
