@@ -290,7 +290,7 @@ mynumber = Integer.toString(counterI).
 <!-- Codebeispiel Main-Programm, Variablen deklarieren, Variablen setzen, Variablen mit Println ausgeben -->
 1. Schreiben Sie eine Klasse Example.java mit einer main()-Methode
 2.  Kopieren Sie das obigen Code-Fragment in den Rumpf der main()-Methode 
-3. Führen Sie das Programm aus! Was beobachten Sie?
+3. Übersetzen Sie das Programm und führen es aus! Was beobachten Sie?
 
 4. Fügen Sie nun folgende Zeile am Ende des main()-Programms ein?
 ``` java
@@ -300,8 +300,8 @@ mynumber = Integer.toString(counterI).
  */
 counterI = counterD;
 ```
-5. Was beobachten Sie?
-6.  Auf welche Typen können byte / int / double gecastet werden?
+5. Übersetzen Sie das Programm! Was beobachten Sie?
+6.  Ermitteln SIe durch Nachdenken: Auf welche Typen können byte / int / double gecastet werden?
 7. Versuchen Sie, die Variable counterD auf die String-Variable myNumber zu casten! 
 
 ---
@@ -425,11 +425,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzkzODYyODQsLTIwNDM2NDkyOTcsLT
-cyNzcyNzc3OCwxMjQ2Nzk0MzM0LC0xMjg5NTc1Nzc2LDkxMzY3
-NTM3Niw1OTM3NTg0NTAsMTMwNjE2ODU3MywtMTkzNjIwODAwMy
-wxMDc3MzAxMzc3LDE0MDEwMTAzMTIsLTYxNTAwNTQ2NSwxNjU1
-NjYwMzQ5LC03ODMzMzkwMTYsMTE2NDEyMzM2MSwyNjU3MjExND
-QsMTA4ODk2NDg2OSwtMTE3MDgyMTQzNCwtMTA4NzU5MTk3Mywx
-NjM3NjE0Njk5XX0=
+eyJoaXN0b3J5IjpbLTE0OTQ2NDc0MDQsLTEyMzkzODYyODQsLT
+IwNDM2NDkyOTcsLTcyNzcyNzc3OCwxMjQ2Nzk0MzM0LC0xMjg5
+NTc1Nzc2LDkxMzY3NTM3Niw1OTM3NTg0NTAsMTMwNjE2ODU3My
+wtMTkzNjIwODAwMywxMDc3MzAxMzc3LDE0MDEwMTAzMTIsLTYx
+NTAwNTQ2NSwxNjU1NjYwMzQ5LC03ODMzMzkwMTYsMTE2NDEyMz
+M2MSwyNjU3MjExNDQsMTA4ODk2NDg2OSwtMTE3MDgyMTQzNCwt
+MTA4NzU5MTk3M119
 -->
