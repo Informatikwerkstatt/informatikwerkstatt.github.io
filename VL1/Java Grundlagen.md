@@ -255,14 +255,13 @@ public class HelloWorld
 - Der Wert der Variable wird so übergeben und kann in der Methode weiterverarbeitet werden 
 
 === 
-
 ### main() Methode
  
  -  Programme wie unser `HelloWorld` Beispiel , die eine main() Methode haben, sind *ausführbar*.
  -  Die Ausführung eines solchen Programms erfolgt durch Aufruf / Abarbeitung der `main()`-Methode
  - Das Argument `String[] p_args` der `main()` Methode kann genutzt werden, um bei dem Aufruf des Programms über die Kommandozeile Parameter an es zu übergeben.
----
 
+---
 ## Typenumwandlung
 
 <!-- Was bedeutet Casting, wozu wird es benötigt, was ist der Sinn davon, was sind die Nachteile davon, insbesondere parsen von String als numerischer Wert -->
@@ -285,8 +284,8 @@ System.out.println("counterD = ", counterD);
 //int auf String casten erfordert extra Methodenaufruf
 mynumber = Integer.toString(counterI).
 ```
----
-## @Let's try
+===
+### @Let's try
 
 <!-- Codebeispiel Main-Programm, Variablen deklarieren, Variablen setzen, Variablen mit Println ausgeben -->
 1. Schreiben Sie eine Klasse Example.java mit einer main()-Methode
@@ -305,6 +304,8 @@ counterI = counterD;
 6.  Ermitteln SIe durch Nachdenken: Auf welche Typen können byte / int / double gecastet werden?
 7. Versuchen Sie, die Variable counterD auf die String-Variable myNumber zu casten! 
 
+===
+# Zusammenfassung Cas
 ---
 
 ## Ja / Nein / Vielleicht - If-Else
@@ -426,11 +427,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjAyNDI4MjcsLTE0OTQ2NDc0MDQsLT
-EyMzkzODYyODQsLTIwNDM2NDkyOTcsLTcyNzcyNzc3OCwxMjQ2
-Nzk0MzM0LC0xMjg5NTc1Nzc2LDkxMzY3NTM3Niw1OTM3NTg0NT
-AsMTMwNjE2ODU3MywtMTkzNjIwODAwMywxMDc3MzAxMzc3LDE0
-MDEwMTAzMTIsLTYxNTAwNTQ2NSwxNjU1NjYwMzQ5LC03ODMzMz
-kwMTYsMTE2NDEyMzM2MSwyNjU3MjExNDQsMTA4ODk2NDg2OSwt
-MTE3MDgyMTQzNF19
+eyJoaXN0b3J5IjpbNzYzODMzNTcyLC0xNDk0NjQ3NDA0LC0xMj
+M5Mzg2Mjg0LC0yMDQzNjQ5Mjk3LC03Mjc3Mjc3NzgsMTI0Njc5
+NDMzNCwtMTI4OTU3NTc3Niw5MTM2NzUzNzYsNTkzNzU4NDUwLD
+EzMDYxNjg1NzMsLTE5MzYyMDgwMDMsMTA3NzMwMTM3NywxNDAx
+MDEwMzEyLC02MTUwMDU0NjUsMTY1NTY2MDM0OSwtNzgzMzM5MD
+E2LDExNjQxMjMzNjEsMjY1NzIxMTQ0LDEwODg5NjQ4NjksLTEx
+NzA4MjE0MzRdfQ==
 -->
