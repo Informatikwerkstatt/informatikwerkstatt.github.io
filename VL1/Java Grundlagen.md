@@ -356,9 +356,10 @@ String  s2=new  String("maus");
 System.out.println(s1==s2); // false!
 System.out.println(s1.equals(s2)); // true
 ```
-- Bei `s1.equals(s2)` muss `s1` initialisiert sein --> prüfen mit `s1 != nul`l
+- Bei `s1.equals(s2)` muss `s1` initialisiert sein --> prüfen mit `s1 != null`
 
-## Ja / Nein / Vielleicht - If-Else
+---
+## Bedingte Anweisungen - If-Else
 
 <!-- Aufbau von If-Else, Dangling Else -->
 
@@ -472,7 +473,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NDUyMTc1OSwxMDA2MzQ1MzM4LDYyNT
+eyJoaXN0b3J5IjpbLTg4MjcxMDkwNiwxMDA2MzQ1MzM4LDYyNT
 A5ODc3OSw5MzM5MjUxNDAsLTEwNTI3MTQ0MjYsLTEzMDc2ODYx
 MDUsODcxMDEwMTYxLC0xNDk0NjQ3NDA0LC0xMjM5Mzg2Mjg0LC
 0yMDQzNjQ5Mjk3LC03Mjc3Mjc3NzgsMTI0Njc5NDMzNCwtMTI4
