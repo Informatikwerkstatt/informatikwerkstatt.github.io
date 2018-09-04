@@ -411,7 +411,12 @@ Betrachte die beiden folgenden IF-ELSE Anweisungen
 2. Schreibe für jede Anweisung ein Java-Programm; gib jeweils
     die Werte der Variablen aus.
 ```java
- System.out.println(a + " ist " + ((a > 0) ? "positiv" : "nichtpositiv"));
+// Anweisung 1
+int a=5, b=6;
+if (a<b) { a=b; }
+else { b=a; }
+
+// Anweisu
 ```
 ---
 
@@ -510,7 +515,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0ODk3MDc4MywtMTQ1NzA1MTcwOSw1NT
+eyJoaXN0b3J5IjpbLTM1NTcyNjU3OCwtMTQ1NzA1MTcwOSw1NT
 AzNDE1MzUsNjQ0MDQ5NTA3LDE3OTkzODQ2MTQsMTAwNjM0NTMz
 OCw2MjUwOTg3NzksOTMzOTI1MTQwLC0xMDUyNzE0NDI2LC0xMz
 A3Njg2MTA1LDg3MTAxMDE2MSwtMTQ5NDY0NzQwNCwtMTIzOTM4
