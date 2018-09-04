@@ -285,6 +285,8 @@ counterD = counterI;
 - Schreiben Sie eine Klasse Example.java mit einer main()-Methode
 - Deklarieren Sie in der main()-Methode Variable counterB, counterI, counterD wie oben.
 - Versuchen Sie ein Casting der einzelnen Variablen auf die jeweils anderen!
+- Was passiert?
+- Auf welche Typen können byte / int / double gecastet werden 
 
 ---
 
@@ -407,11 +409,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA0NDM0MTAsLTIwNDM2NDkyOTcsLTcyNz
-cyNzc3OCwxMjQ2Nzk0MzM0LC0xMjg5NTc1Nzc2LDkxMzY3NTM3
-Niw1OTM3NTg0NTAsMTMwNjE2ODU3MywtMTkzNjIwODAwMywxMD
-c3MzAxMzc3LDE0MDEwMTAzMTIsLTYxNTAwNTQ2NSwxNjU1NjYw
-MzQ5LC03ODMzMzkwMTYsMTE2NDEyMzM2MSwyNjU3MjExNDQsMT
-A4ODk2NDg2OSwtMTE3MDgyMTQzNCwtMTA4NzU5MTk3MywxNjM3
-NjE0Njk5XX0=
+eyJoaXN0b3J5IjpbLTE5OTA4OTYzNTgsLTIwNDM2NDkyOTcsLT
+cyNzcyNzc3OCwxMjQ2Nzk0MzM0LC0xMjg5NTc1Nzc2LDkxMzY3
+NTM3Niw1OTM3NTg0NTAsMTMwNjE2ODU3MywtMTkzNjIwODAwMy
+wxMDc3MzAxMzc3LDE0MDEwMTAzMTIsLTYxNTAwNTQ2NSwxNjU1
+NjYwMzQ5LC03ODMzMzkwMTYsMTE2NDEyMzM2MSwyNjU3MjExND
+QsMTA4ODk2NDg2OSwtMTE3MDgyMTQzNCwtMTA4NzU5MTk3Mywx
+NjM3NjE0Njk5XX0=
 -->
