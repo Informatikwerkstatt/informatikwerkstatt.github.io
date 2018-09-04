@@ -194,9 +194,7 @@ Java besitzt [50 reservierte Schlüsselwörter](https://en.wikipedia.org/wiki/Li
 * Sie definieren den Grundwortschatz der Programmiersprache, grundlegende Befehle
 * Im HelloWorld-Programm haben wir bereits einige davon kennen gelernt: `public`, `class`, `static`, `void`
 * Schlüsselwörter dürfen nicht als Variablen-, Funktions-, Methoden-, Klassennamen benutzt werden
-
 ---
-
 ## Datentypen
 <!-- Basisdatentypen, Text, Zahl, Boxing/Unboxing des Compilers -->
 - Alle Daten, die in Java-Programmen verarbeitet werden, müssen wohldefinierten Datentyp haben
@@ -212,7 +210,6 @@ Java besitzt [50 reservierte Schlüsselwörter](https://en.wikipedia.org/wiki/Li
 | String| Zeichenkette, max. $2^{31}-1$ Zeichen. z.B. `"Hello World!"` |
 
 ---
-
 ## Variablen
 <!-- Deklaration von Variablen, Nutzung von Variablen, Keywort "final" -->
  
@@ -397,11 +394,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNTQ2NzM1OCwtMTI4OTU3NTc3Niw5MT
-M2NzUzNzYsNTkzNzU4NDUwLDEzMDYxNjg1NzMsLTE5MzYyMDgw
-MDMsMTA3NzMwMTM3NywxNDAxMDEwMzEyLC02MTUwMDU0NjUsMT
-Y1NTY2MDM0OSwtNzgzMzM5MDE2LDExNjQxMjMzNjEsMjY1NzIx
-MTQ0LDEwODg5NjQ4NjksLTExNzA4MjE0MzQsLTEwODc1OTE5Nz
-MsMTYzNzYxNDY5OSwxMjMxNTMyODk3LC05MDY0Nzg5NTAsLTE5
-NTI0MjUzNF19
+eyJoaXN0b3J5IjpbNTc3NzQ5OTA0LC0xMjg5NTc1Nzc2LDkxMz
+Y3NTM3Niw1OTM3NTg0NTAsMTMwNjE2ODU3MywtMTkzNjIwODAw
+MywxMDc3MzAxMzc3LDE0MDEwMTAzMTIsLTYxNTAwNTQ2NSwxNj
+U1NjYwMzQ5LC03ODMzMzkwMTYsMTE2NDEyMzM2MSwyNjU3MjEx
+NDQsMTA4ODk2NDg2OSwtMTE3MDgyMTQzNCwtMTA4NzU5MTk3My
+wxNjM3NjE0Njk5LDEyMzE1MzI4OTcsLTkwNjQ3ODk1MCwtMTk1
+MjQyNTM0XX0=
 -->
