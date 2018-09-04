@@ -476,24 +476,33 @@ int = highscores[3]; //Zugriff auf viertes Element --> Fehler
 ### Collections
 - Java Bibliothek, die häufig verwendete Datenstrukturen und Methoden zur temporären Zwischenspeicherung und Verkettung von Objekten zur Verfügung stellen
 - Haupttypen u.a. Listen und Mengen
-- Beispiel Liste: Klasse `java.util.Vector` = dynamischer Array (keine feste Länge)
+- Beispiel Liste: Klasse `java.util.ArrayList` = dynamischer Array (keine feste Länge)
 <!-- Packages haben wir noch nicht eingeführt ... -->
 <!-- was ist es, kurz fassen und auf Listen & Sets beschränken -->
 ``` java
-import java.util.Vector; // mache Klasse im Programm verfügbar 
+import java.util.ArrayList;
 ...
-String s1 = "Phil";
-String s2 = "Steffi";
+String  s1  =  "Phil";
+String  s2  =  "Steffi";
+String  s3  =  "Joerg";
 // erzeuge neuen Vector
-Vector betreuer = new Vector();
-// füge Elemente dazu
+ArrayList<String> betreuer = new  ArrayList<>();
+// füge Elemente hinzu
 betreuer.add(s1);
 betreuer.add(s2);
+betreuer.add(s3);
 // gib Elemente aus
-String item = new String();
-for (int i =0; i < betreuer.size(); i++) {
-            item = (String)betreuer.elementAt(i));
-            System.out.println(item);
+String  item  =  new  String();
+for (int  i  =0; i <  betreuer.size(); i++) {
+
+item = (String)betreuer.get(i);
+
+System.out.println(item);
+
+}
+
+}
+
 }
 ``` 
 Detailliertere Infos zu dem Java Collections Framework findest Du [hier](https://docs.oracle.com/javase/tutorial/collections/index.html)
@@ -588,11 +597,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTkxMzkzMDEsMTQ4ODMxODYzOSwxMj
-AwNDk3OTI0LDE2MjYyNjU1NjQsLTE3NDM0MTU4MzEsLTI3OTEy
-ODY5OCwxNTkxNjczOTM5LC01OTc4NzUzMzYsLTE0NTcwNTE3MD
-ksNTUwMzQxNTM1LDY0NDA0OTUwNywxNzk5Mzg0NjE0LDEwMDYz
-NDUzMzgsNjI1MDk4Nzc5LDkzMzkyNTE0MCwtMTA1MjcxNDQyNi
-wtMTMwNzY4NjEwNSw4NzEwMTAxNjEsLTE0OTQ2NDc0MDQsLTEy
-MzkzODYyODRdfQ==
+eyJoaXN0b3J5IjpbMjA1MTc3NzIxNCwtMTE1OTEzOTMwMSwxND
+g4MzE4NjM5LDEyMDA0OTc5MjQsMTYyNjI2NTU2NCwtMTc0MzQx
+NTgzMSwtMjc5MTI4Njk4LDE1OTE2NzM5MzksLTU5Nzg3NTMzNi
+wtMTQ1NzA1MTcwOSw1NTAzNDE1MzUsNjQ0MDQ5NTA3LDE3OTkz
+ODQ2MTQsMTAwNjM0NTMzOCw2MjUwOTg3NzksOTMzOTI1MTQwLC
+0xMDUyNzE0NDI2LC0xMzA3Njg2MTA1LDg3MTAxMDE2MSwtMTQ5
+NDY0NzQwNF19
 -->
