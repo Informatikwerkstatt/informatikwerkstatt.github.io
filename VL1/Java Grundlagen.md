@@ -460,8 +460,13 @@ tabelleNamen[7][8] = "Steffi";
 - Adressieren des gesuchten Feldes mit Indexvariable
 ``` java
 int[] highscores = {1000, 850, 600};
-int first = highscores[0]; //first now stores value 1000
+int first = highscores[0]; //first hat nun Wert `1000`
 ```
+- Arrayelemente durchiterieren mit for-Schleife (s.u.)
+``` java
+int first = highscores[0]; //first hat nun Wert `1000`
+```
+ 
 ### Collections
 - Sammlung von Interfaces
 <!-- was ist es, kurz fassen und auf Listen & Sets beschränken -->
@@ -546,11 +551,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYxNDM1Mzk4LDEyMDA0OTc5MjQsMTYyNj
-I2NTU2NCwtMTc0MzQxNTgzMSwtMjc5MTI4Njk4LDE1OTE2NzM5
-MzksLTU5Nzg3NTMzNiwtMTQ1NzA1MTcwOSw1NTAzNDE1MzUsNj
-Q0MDQ5NTA3LDE3OTkzODQ2MTQsMTAwNjM0NTMzOCw2MjUwOTg3
-NzksOTMzOTI1MTQwLC0xMDUyNzE0NDI2LC0xMzA3Njg2MTA1LD
-g3MTAxMDE2MSwtMTQ5NDY0NzQwNCwtMTIzOTM4NjI4NCwtMjA0
-MzY0OTI5N119
+eyJoaXN0b3J5IjpbMzQ2NzE4OTQsMTIwMDQ5NzkyNCwxNjI2Mj
+Y1NTY0LC0xNzQzNDE1ODMxLC0yNzkxMjg2OTgsMTU5MTY3Mzkz
+OSwtNTk3ODc1MzM2LC0xNDU3MDUxNzA5LDU1MDM0MTUzNSw2ND
+QwNDk1MDcsMTc5OTM4NDYxNCwxMDA2MzQ1MzM4LDYyNTA5ODc3
+OSw5MzM5MjUxNDAsLTEwNTI3MTQ0MjYsLTEzMDc2ODYxMDUsOD
+cxMDEwMTYxLC0xNDk0NjQ3NDA0LC0xMjM5Mzg2Mjg0LC0yMDQz
+NjQ5Mjk3XX0=
 -->
