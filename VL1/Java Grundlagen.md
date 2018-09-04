@@ -241,8 +241,8 @@ public class HelloWorld
 ```  java
 	private final String message = "Hello World";
 ```
-- Initiale Wertzuweisung 
--  vor Verwendung!
+- Mit dem Zuweisungsoperator `=` kann einer Variable ein Wert zugewiesen werden
+- Initiale Wertzuweisung vor Verwendung! (
 ---
 
 ## Typenumwandlung / Casting
@@ -376,11 +376,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2ODAwMjA2Nyw1OTM3NTg0NTAsMTMwNj
-E2ODU3MywtMTkzNjIwODAwMywxMDc3MzAxMzc3LDE0MDEwMTAz
-MTIsLTYxNTAwNTQ2NSwxNjU1NjYwMzQ5LC03ODMzMzkwMTYsMT
-E2NDEyMzM2MSwyNjU3MjExNDQsMTA4ODk2NDg2OSwtMTE3MDgy
-MTQzNCwtMTA4NzU5MTk3MywxNjM3NjE0Njk5LDEyMzE1MzI4OT
-csLTkwNjQ3ODk1MCwtMTk1MjQyNTM0LC0xNzM1NDQwODQzLDcw
-ODc3NTE0Ml19
+eyJoaXN0b3J5IjpbOTEzNjc1Mzc2LDU5Mzc1ODQ1MCwxMzA2MT
+Y4NTczLC0xOTM2MjA4MDAzLDEwNzczMDEzNzcsMTQwMTAxMDMx
+MiwtNjE1MDA1NDY1LDE2NTU2NjAzNDksLTc4MzMzOTAxNiwxMT
+Y0MTIzMzYxLDI2NTcyMTE0NCwxMDg4OTY0ODY5LC0xMTcwODIx
+NDM0LC0xMDg3NTkxOTczLDE2Mzc2MTQ2OTksMTIzMTUzMjg5Ny
+wtOTA2NDc4OTUwLC0xOTUyNDI1MzQsLTE3MzU0NDA4NDMsNzA4
+Nzc1MTQyXX0=
 -->
