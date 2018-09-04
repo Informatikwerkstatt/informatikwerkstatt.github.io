@@ -407,6 +407,7 @@ Betrachte die beiden folgenden IF-ELSE Anweisungen
  1. Überlege, welcher Teil der Anweisungen jeweils ausgeführt wird und
     warum. 
  2. Schreibe für jede Anweisung ein Java-Programm; wähle geeignete Ausgaben, um die Ausführung nachvollziehen zu können.
+
 ```java
 // Anweisung 1				
 int a = 5, b = 6;				
@@ -539,7 +540,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NDAzNTI1MSwxMjAwNDk3OTI0LDE2Mj
+eyJoaXN0b3J5IjpbMTk0MDA1NDg0MywxMjAwNDk3OTI0LDE2Mj
 YyNjU1NjQsLTE3NDM0MTU4MzEsLTI3OTEyODY5OCwxNTkxNjcz
 OTM5LC01OTc4NzUzMzYsLTE0NTcwNTE3MDksNTUwMzQxNTM1LD
 Y0NDA0OTUwNywxNzk5Mzg0NjE0LDEwMDYzNDUzMzgsNjI1MDk4
