@@ -399,8 +399,7 @@ else
 ---
 
 ## @Let's try
-
-<!-- Codebeispiel mit Variablen und If-Else -->
+Betrachte
 
 ---
 
@@ -499,11 +498,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTcwNTE3MDksNTUwMzQxNTM1LDY0ND
-A0OTUwNywxNzk5Mzg0NjE0LDEwMDYzNDUzMzgsNjI1MDk4Nzc5
-LDkzMzkyNTE0MCwtMTA1MjcxNDQyNiwtMTMwNzY4NjEwNSw4Nz
-EwMTAxNjEsLTE0OTQ2NDc0MDQsLTEyMzkzODYyODQsLTIwNDM2
-NDkyOTcsLTcyNzcyNzc3OCwxMjQ2Nzk0MzM0LC0xMjg5NTc1Nz
-c2LDkxMzY3NTM3Niw1OTM3NTg0NTAsMTMwNjE2ODU3MywtMTkz
-NjIwODAwM119
+eyJoaXN0b3J5IjpbNDM3OTQwMjgyLC0xNDU3MDUxNzA5LDU1MD
+M0MTUzNSw2NDQwNDk1MDcsMTc5OTM4NDYxNCwxMDA2MzQ1MzM4
+LDYyNTA5ODc3OSw5MzM5MjUxNDAsLTEwNTI3MTQ0MjYsLTEzMD
+c2ODYxMDUsODcxMDEwMTYxLC0xNDk0NjQ3NDA0LC0xMjM5Mzg2
+Mjg0LC0yMDQzNjQ5Mjk3LC03Mjc3Mjc3NzgsMTI0Njc5NDMzNC
+wtMTI4OTU3NTc3Niw5MTM2NzUzNzYsNTkzNzU4NDUwLDEzMDYx
+Njg1NzNdfQ==
 -->
