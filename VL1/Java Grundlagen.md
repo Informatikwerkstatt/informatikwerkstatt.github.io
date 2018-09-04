@@ -438,6 +438,10 @@ else {
 ===
 ### Array anlegen / initialisieren
 <!-- verschiedene Arten für die Initialisierung von Arrays -->
+Eindimensionaler Array, direkt (bei Deklaration) initialisiert
+``` java
+
+```
 
 ===
 
@@ -525,7 +529,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMzk0MzU3OSwxNTkxNjczOTM5LC01OT
+eyJoaXN0b3J5IjpbMTgwMDU4MDY3NiwxNTkxNjczOTM5LC01OT
 c4NzUzMzYsLTE0NTcwNTE3MDksNTUwMzQxNTM1LDY0NDA0OTUw
 NywxNzk5Mzg0NjE0LDEwMDYzNDUzMzgsNjI1MDk4Nzc5LDkzMz
 kyNTE0MCwtMTA1MjcxNDQyNiwtMTMwNzY4NjEwNSw4NzEwMTAx
