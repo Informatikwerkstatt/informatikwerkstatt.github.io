@@ -500,7 +500,17 @@ Detailliertere Infos zum Java Collections Framework findest Du [hier](https://do
 ---
 ## @Let's try 
 ---
+Schreibe zunächst ein kleines Programm, in dem Du 
+- einen `Array` Deiner Wahl deklarierst
+- ihn initialisierst
+- seine Werte ausliest und ausgibst 
+ 
+**@Cracks:** Schreibe ein weiteres Programm, in dem Du 
+- eine `ArrayList` Deiner Wahl deklarierst
+- sie mit Werten füllst
+- und danach die Werte ausliest und ausgibst 
 
+---
 ## Wieder und wieder und wieder... - Schleifen
 
 <!-- for, while und do-while Schleifen, wann benutzt man was anhand eines einfachen zu erklärenden Beispiels -->
@@ -579,7 +589,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMDg4MTgzMSwtOTc0MjYwNzQzLC0xOT
+eyJoaXN0b3J5IjpbLTQ4OTY2MTU5NiwtOTc0MjYwNzQzLC0xOT
 I4Njc0NjUwLC0xMTU5MTM5MzAxLDE0ODgzMTg2MzksMTIwMDQ5
 NzkyNCwxNjI2MjY1NTY0LC0xNzQzNDE1ODMxLC0yNzkxMjg2OT
 gsMTU5MTY3MzkzOSwtNTk3ODc1MzM2LC0xNDU3MDUxNzA5LDU1
