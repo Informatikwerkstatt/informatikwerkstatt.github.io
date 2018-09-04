@@ -275,7 +275,8 @@ double counterD = 1.0;
  eine double-Variable gecastet
  */
 counterD = counterI;
-
+System.out.println("counterD = ", counterD);
+System.out.println("counterI = ", counterD);
 ```
 ---
 
@@ -409,11 +410,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTA4OTYzNTgsLTIwNDM2NDkyOTcsLT
-cyNzcyNzc3OCwxMjQ2Nzk0MzM0LC0xMjg5NTc1Nzc2LDkxMzY3
-NTM3Niw1OTM3NTg0NTAsMTMwNjE2ODU3MywtMTkzNjIwODAwMy
-wxMDc3MzAxMzc3LDE0MDEwMTAzMTIsLTYxNTAwNTQ2NSwxNjU1
-NjYwMzQ5LC03ODMzMzkwMTYsMTE2NDEyMzM2MSwyNjU3MjExND
-QsMTA4ODk2NDg2OSwtMTE3MDgyMTQzNCwtMTA4NzU5MTk3Mywx
-NjM3NjE0Njk5XX0=
+eyJoaXN0b3J5IjpbLTM5NTA5NTk1NywtMjA0MzY0OTI5NywtNz
+I3NzI3Nzc4LDEyNDY3OTQzMzQsLTEyODk1NzU3NzYsOTEzNjc1
+Mzc2LDU5Mzc1ODQ1MCwxMzA2MTY4NTczLC0xOTM2MjA4MDAzLD
+EwNzczMDEzNzcsMTQwMTAxMDMxMiwtNjE1MDA1NDY1LDE2NTU2
+NjAzNDksLTc4MzMzOTAxNiwxMTY0MTIzMzYxLDI2NTcyMTE0NC
+wxMDg4OTY0ODY5LC0xMTcwODIxNDM0LC0xMDg3NTkxOTczLDE2
+Mzc2MTQ2OTldfQ==
 -->
