@@ -481,29 +481,17 @@ int = highscores[3]; //Zugriff auf viertes Element --> Fehler
 <!-- was ist es, kurz fassen und auf Listen & Sets beschränken -->
 ``` java
 import java.util.ArrayList;
-...
+// ...
 String  s1  =  "Phil";
 String  s2  =  "Steffi";
-String  s3  =  "Joerg";
 // erzeuge neuen Vector
 ArrayList<String> betreuer = new  ArrayList<>();
 // füge Elemente hinzu
 betreuer.add(s1);
 betreuer.add(s2);
-betreuer.add(s3);
 // gib Elemente aus
-String  item  =  new  String();
-for (int  i  =0; i <  betreuer.size(); i++) {
-
-item = (String)betreuer.get(i);
-
-System.out.println(item);
-
-}
-
-}
-
-}
+for (int  i  =0; i <  betreuer.size(); i++) 
+   System.out.println((String)betreuer.get(i));
 ``` 
 Detailliertere Infos zu dem Java Collections Framework findest Du [hier](https://docs.oracle.com/javase/tutorial/collections/index.html)
 
@@ -597,11 +585,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MTc3NzIxNCwtMTE1OTEzOTMwMSwxND
-g4MzE4NjM5LDEyMDA0OTc5MjQsMTYyNjI2NTU2NCwtMTc0MzQx
-NTgzMSwtMjc5MTI4Njk4LDE1OTE2NzM5MzksLTU5Nzg3NTMzNi
-wtMTQ1NzA1MTcwOSw1NTAzNDE1MzUsNjQ0MDQ5NTA3LDE3OTkz
-ODQ2MTQsMTAwNjM0NTMzOCw2MjUwOTg3NzksOTMzOTI1MTQwLC
-0xMDUyNzE0NDI2LC0xMzA3Njg2MTA1LDg3MTAxMDE2MSwtMTQ5
-NDY0NzQwNF19
+eyJoaXN0b3J5IjpbOTEzNjA4MzE5LC0xMTU5MTM5MzAxLDE0OD
+gzMTg2MzksMTIwMDQ5NzkyNCwxNjI2MjY1NTY0LC0xNzQzNDE1
+ODMxLC0yNzkxMjg2OTgsMTU5MTY3MzkzOSwtNTk3ODc1MzM2LC
+0xNDU3MDUxNzA5LDU1MDM0MTUzNSw2NDQwNDk1MDcsMTc5OTM4
+NDYxNCwxMDA2MzQ1MzM4LDYyNTA5ODc3OSw5MzM5MjUxNDAsLT
+EwNTI3MTQ0MjYsLTEzMDc2ODYxMDUsODcxMDEwMTYxLC0xNDk0
+NjQ3NDA0XX0=
 -->
