@@ -308,15 +308,16 @@ counterI = counterD;
 ### Zusammenfassung Casting
 - Die Typenumwandlung ist oft nötig
 - Dabei können Probleme zur Übersetzungszeit und u.U. auch zur Ausführungszeit (runtime) eines Programmes auftreten. 
-- *Erweiternde Umwandlung* (z.B. von `int` auf `double`) wird vom Compiler automatisch durchgeführt
+- *Erweiternde Umwandlung* (z.B. von `int` auf `double`) wird vom Compiler automatisch durchgeführt (implizites Casting)
 - *Einschränkende Umwandlung* (z.B. von `double` auf `int`) muss explizit vom Programmierer gemacht *(und geprüft!)* werden. Beispiel:
 ``` java
-int counterI;
+int myInt;
 double  pi  =  3.14159;
 //explizites casting
-counterI = (int)pi;
+myInt= (int)pi;
 ```
-
+### Let's try
+Führen Sie den o.g. Code aus und lassen die Werte von myInt und 
  
 
 ---
@@ -440,11 +441,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzExMDExMDksODcxMDEwMTYxLC0xND
-k0NjQ3NDA0LC0xMjM5Mzg2Mjg0LC0yMDQzNjQ5Mjk3LC03Mjc3
-Mjc3NzgsMTI0Njc5NDMzNCwtMTI4OTU3NTc3Niw5MTM2NzUzNz
-YsNTkzNzU4NDUwLDEzMDYxNjg1NzMsLTE5MzYyMDgwMDMsMTA3
-NzMwMTM3NywxNDAxMDEwMzEyLC02MTUwMDU0NjUsMTY1NTY2MD
-M0OSwtNzgzMzM5MDE2LDExNjQxMjMzNjEsMjY1NzIxMTQ0LDEw
-ODg5NjQ4NjldfQ==
+eyJoaXN0b3J5IjpbLTk5NjY0MDUwNiw4NzEwMTAxNjEsLTE0OT
+Q2NDc0MDQsLTEyMzkzODYyODQsLTIwNDM2NDkyOTcsLTcyNzcy
+Nzc3OCwxMjQ2Nzk0MzM0LC0xMjg5NTc1Nzc2LDkxMzY3NTM3Ni
+w1OTM3NTg0NTAsMTMwNjE2ODU3MywtMTkzNjIwODAwMywxMDc3
+MzAxMzc3LDE0MDEwMTAzMTIsLTYxNTAwNTQ2NSwxNjU1NjYwMz
+Q5LC03ODMzMzkwMTYsMTE2NDEyMzM2MSwyNjU3MjExNDQsMTA4
+ODk2NDg2OV19
 -->
