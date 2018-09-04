@@ -247,6 +247,13 @@ public class HelloWorld
 ===
 
 ### Verwendung von Variablen bei Methodenaufrufen
+``` java
+	public static void main( String[] p_args )
+	{
+		System.out.println( message );
+	}
+```	
+- Die Variable message kann nach Instanziierung als Argument (Parameter) zum Aufruf der Methode  
 ---
 
 ## Typenumwandlung / Casting
@@ -380,11 +387,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1OTQzNjA1LDkxMzY3NTM3Niw1OTM3NT
-g0NTAsMTMwNjE2ODU3MywtMTkzNjIwODAwMywxMDc3MzAxMzc3
-LDE0MDEwMTAzMTIsLTYxNTAwNTQ2NSwxNjU1NjYwMzQ5LC03OD
-MzMzkwMTYsMTE2NDEyMzM2MSwyNjU3MjExNDQsMTA4ODk2NDg2
-OSwtMTE3MDgyMTQzNCwtMTA4NzU5MTk3MywxNjM3NjE0Njk5LD
-EyMzE1MzI4OTcsLTkwNjQ3ODk1MCwtMTk1MjQyNTM0LC0xNzM1
-NDQwODQzXX0=
+eyJoaXN0b3J5IjpbLTEzNTAwMzUzNjEsOTEzNjc1Mzc2LDU5Mz
+c1ODQ1MCwxMzA2MTY4NTczLC0xOTM2MjA4MDAzLDEwNzczMDEz
+NzcsMTQwMTAxMDMxMiwtNjE1MDA1NDY1LDE2NTU2NjAzNDksLT
+c4MzMzOTAxNiwxMTY0MTIzMzYxLDI2NTcyMTE0NCwxMDg4OTY0
+ODY5LC0xMTcwODIxNDM0LC0xMDg3NTkxOTczLDE2Mzc2MTQ2OT
+ksMTIzMTUzMjg5NywtOTA2NDc4OTUwLC0xOTUyNDI1MzQsLTE3
+MzU0NDA4NDNdfQ==
 -->
