@@ -150,12 +150,10 @@ Und hier das ganze im Video:
 
 ## Aufbau eines Java-Programms
 <!-- wie ist der allgemeine Aufbau eines Java Programs, Stichwort Klasse, Stichwork main, insbesondere Parameter erklären -->
-- Betrachten wir eine leicht veränderte Version unseres  HelloWorld-Programms:
+- Betrachten wir noch einmal unser HelloWorld-Programms
 ```java
 public class HelloWorld
 {
-	private String message = "Hello, World";
-	
 	public static void main( String[] p_args )
 	{
 		System.out.println( "Hello, World" );
@@ -347,11 +345,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NzMwMTM3NywxNDAxMDEwMzEyLC02MT
-UwMDU0NjUsMTY1NTY2MDM0OSwtNzgzMzM5MDE2LDExNjQxMjMz
-NjEsMjY1NzIxMTQ0LDEwODg5NjQ4NjksLTExNzA4MjE0MzQsLT
-EwODc1OTE5NzMsMTYzNzYxNDY5OSwxMjMxNTMyODk3LC05MDY0
-Nzg5NTAsLTE5NTI0MjUzNCwtMTczNTQ0MDg0Myw3MDg3NzUxND
-IsNTQwNTUzOTM4LDM3MjM2NzMzMywxMDQ0NDA5MTQ4LDIyNTUx
-MTUwMl19
+eyJoaXN0b3J5IjpbLTM2OTIzNTMzNywxMDc3MzAxMzc3LDE0MD
+EwMTAzMTIsLTYxNTAwNTQ2NSwxNjU1NjYwMzQ5LC03ODMzMzkw
+MTYsMTE2NDEyMzM2MSwyNjU3MjExNDQsMTA4ODk2NDg2OSwtMT
+E3MDgyMTQzNCwtMTA4NzU5MTk3MywxNjM3NjE0Njk5LDEyMzE1
+MzI4OTcsLTkwNjQ3ODk1MCwtMTk1MjQyNTM0LC0xNzM1NDQwOD
+QzLDcwODc3NTE0Miw1NDA1NTM5MzgsMzcyMzY3MzMzLDEwNDQ0
+MDkxNDhdfQ==
 -->
