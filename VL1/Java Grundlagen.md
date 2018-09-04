@@ -305,7 +305,7 @@ counterI = counterD;
 7. Versuchen Sie, die Variable counterD auf die String-Variable myNumber zu casten! 
 
 ===
-### Zusammenfassung Casting
+### Implizites vs. explizites Casting
 - Die Typenumwandlung ist oft notwendig, erfordert aber Sorgfalt!
 - Dabei können Probleme zur Übersetzungszeit und u.U. auch zur Ausführungszeit (runtime) eines Programmes auftreten. 
 - *Erweiternde Umwandlung* (z.B. von `int` auf `double`) wird vom Compiler automatisch durchgeführt (implizites Casting)
@@ -316,8 +316,8 @@ double  pi  =  3.14159;
 //explizites casting
 myInt= (int)pi;
 ```
-- Führen Sie den o.g. Code aus und lassen die Werte von `myInt` und `pi` ausgeben!
- 
+- Führen Sie den o.g. Code aus und lassen die Werte von `myInt` und `pi` ausgeben! Was beobachten Sie?
+<!-- kein Compile-Fehler, aber nur gErgebnis
 
 ---
 
@@ -440,7 +440,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4Mjk1NTk5OSw4NzEwMTAxNjEsLTE0OT
+eyJoaXN0b3J5IjpbLTQ2MTMxNzgxNSw4NzEwMTAxNjEsLTE0OT
 Q2NDc0MDQsLTEyMzkzODYyODQsLTIwNDM2NDkyOTcsLTcyNzcy
 Nzc3OCwxMjQ2Nzk0MzM0LC0xMjg5NTc1Nzc2LDkxMzY3NTM3Ni
 w1OTM3NTg0NTAsMTMwNjE2ODU3MywtMTkzNjIwODAwMywxMDc3
