@@ -351,7 +351,7 @@ System.out.println(i==j); // Ergebnis: true}
 ```
 - bei String und anderen Objekten: Test auf Gleichheit mit Methode `equals()`
 ``` java
-String  s1=new  String("maus"); // hier wird ein neues String-Objekt erzeugt (s. VL2)
+String  s1=new  String("maus"); // neues String-Objekt wird erzeugt (s. VL2)
 String  s2=new  String("maus");
 System.out.println(s1==s2); // false!
 System.out.println(s1.equals(s2)); // true
@@ -585,11 +585,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzE0NzE5NjUsLTExNTkxMzkzMDEsMT
-Q4ODMxODYzOSwxMjAwNDk3OTI0LDE2MjYyNjU1NjQsLTE3NDM0
-MTU4MzEsLTI3OTEyODY5OCwxNTkxNjczOTM5LC01OTc4NzUzMz
-YsLTE0NTcwNTE3MDksNTUwMzQxNTM1LDY0NDA0OTUwNywxNzk5
-Mzg0NjE0LDEwMDYzNDUzMzgsNjI1MDk4Nzc5LDkzMzkyNTE0MC
-wtMTA1MjcxNDQyNiwtMTMwNzY4NjEwNSw4NzEwMTAxNjEsLTE0
-OTQ2NDc0MDRdfQ==
+eyJoaXN0b3J5IjpbLTQ0NjQ4MTgxNywtMTE1OTEzOTMwMSwxND
+g4MzE4NjM5LDEyMDA0OTc5MjQsMTYyNjI2NTU2NCwtMTc0MzQx
+NTgzMSwtMjc5MTI4Njk4LDE1OTE2NzM5MzksLTU5Nzg3NTMzNi
+wtMTQ1NzA1MTcwOSw1NTAzNDE1MzUsNjQ0MDQ5NTA3LDE3OTkz
+ODQ2MTQsMTAwNjM0NTMzOCw2MjUwOTg3NzksOTMzOTI1MTQwLC
+0xMDUyNzE0NDI2LC0xMzA3Njg2MTA1LDg3MTAxMDE2MSwtMTQ5
+NDY0NzQwNF19
 -->
