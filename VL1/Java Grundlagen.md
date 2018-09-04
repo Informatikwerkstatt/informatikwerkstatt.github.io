@@ -273,9 +273,10 @@ int counterI = 1;
 double counterD = 1.0;
 
 /*
- hier wird eine int-Variable auf 
- eine double-Variable gecastet
+  hier wird eine int-Variable auf 
+  eine double-Variable gecastet
  */
+
 counterD = counterI;
 System.out.println("counterI = ", counterI
 ```
@@ -418,7 +419,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1OTE5ODI1MiwtMjA0MzY0OTI5NywtNz
+eyJoaXN0b3J5IjpbMTQ0MzcyMDIwNCwtMjA0MzY0OTI5NywtNz
 I3NzI3Nzc4LDEyNDY3OTQzMzQsLTEyODk1NzU3NzYsOTEzNjc1
 Mzc2LDU5Mzc1ODQ1MCwxMzA2MTY4NTczLC0xOTM2MjA4MDAzLD
 EwNzczMDEzNzcsMTQwMTAxMDMxMiwtNjE1MDA1NDY1LDE2NTU2
