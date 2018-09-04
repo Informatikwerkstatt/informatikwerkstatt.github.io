@@ -224,7 +224,7 @@ Java besitzt [50 reservierte Schlüsselwörter](https://en.wikipedia.org/wiki/Li
 public class HelloWorld
 {
 	// Variablendeklaration mit Initialisierung
-	private String message = "Hello World";
+	private final String message = "Hello World";
 	public static void main( String[] p_args )
 	{
 	// Variable wird Methode als Parameter übergeben
@@ -237,7 +237,12 @@ public class HelloWorld
 
 ### Zuweisung
 <!-- Zuweisungen von Variablen, Beachtung von final -->
+- Variable muss vor Verwendung deklariert werden
+```  java
+	private final String message = "Hello World";
+```
 
+- Initialisierung (Wertzuweisung) vor Verwendung!
 ---
 
 ## Typenumwandlung / Casting
@@ -371,11 +376,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTcyMDQzMTYsMTMwNjE2ODU3MywtMT
-kzNjIwODAwMywxMDc3MzAxMzc3LDE0MDEwMTAzMTIsLTYxNTAw
-NTQ2NSwxNjU1NjYwMzQ5LC03ODMzMzkwMTYsMTE2NDEyMzM2MS
-wyNjU3MjExNDQsMTA4ODk2NDg2OSwtMTE3MDgyMTQzNCwtMTA4
-NzU5MTk3MywxNjM3NjE0Njk5LDEyMzE1MzI4OTcsLTkwNjQ3OD
-k1MCwtMTk1MjQyNTM0LC0xNzM1NDQwODQzLDcwODc3NTE0Miw1
-NDA1NTM5MzhdfQ==
+eyJoaXN0b3J5IjpbNTkzNzU4NDUwLDEzMDYxNjg1NzMsLTE5Mz
+YyMDgwMDMsMTA3NzMwMTM3NywxNDAxMDEwMzEyLC02MTUwMDU0
+NjUsMTY1NTY2MDM0OSwtNzgzMzM5MDE2LDExNjQxMjMzNjEsMj
+Y1NzIxMTQ0LDEwODg5NjQ4NjksLTExNzA4MjE0MzQsLTEwODc1
+OTE5NzMsMTYzNzYxNDY5OSwxMjMxNTMyODk3LC05MDY0Nzg5NT
+AsLTE5NTI0MjUzNCwtMTczNTQ0MDg0Myw3MDg3NzUxNDIsNTQw
+NTUzOTM4XX0=
 -->
