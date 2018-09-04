@@ -252,15 +252,15 @@ public class HelloWorld
 	}
 ```	
 - Die Variable `message` kann nach ihrer Instanziierung als Argument (Parameter) zum Aufruf der Methode  `println()` des Objekts `System.out` (siehe VL2) verwendet werden
-- Der Wert der Variable wird somit übergeben und kann in der Methode weiterverarbeitet werden 
+- Der Wert der Variable wird so übergeben und kann in der Methode weiterverarbeitet werden 
 
 === 
 
 ### main() Methode
  
- -  Programme wie unser `HelloWorld` Beispiel , die eine main() Methode haben, sind also ausführbar.
+ -  Programme wie unser `HelloWorld` Beispiel , die eine main() Methode haben, sind *ausführbar*.
  -  Die Ausführung eines solchen Programms erfolgt durch Aufruf / Abarbeitung der `main()`-Methode
- - Das Argument `String[] p_args` der main Methode kann genutzt werden, um bei dem Aufruf des Programms über die Kommandozeile Parameter an es zu übergeben.
+ - Das Argument `String[] p_args` der `main()` Methode kann genutzt werden, um bei dem Aufruf des Programms über die Kommandozeile Parameter an es zu übergeben.
 ---
 
 ## Typenumwandlung
@@ -271,6 +271,7 @@ public class HelloWorld
 byte counterB = 1;
 int counterI = 1;
 double counterD = 1.0;
+
 /*
  hier wird eine int-Variable auf 
  eine double-Variable gecastet
@@ -417,7 +418,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5ODMzNTEzMiwtMjA0MzY0OTI5NywtNz
+eyJoaXN0b3J5IjpbLTI1OTE5ODI1MiwtMjA0MzY0OTI5NywtNz
 I3NzI3Nzc4LDEyNDY3OTQzMzQsLTEyODk1NzU3NzYsOTEzNjc1
 Mzc2LDU5Mzc1ODQ1MCwxMzA2MTY4NTczLC0xOTM2MjA4MDAzLD
 EwNzczMDEzNzcsMTQwMTAxMDMxMiwtNjE1MDA1NDY1LDE2NTU2
