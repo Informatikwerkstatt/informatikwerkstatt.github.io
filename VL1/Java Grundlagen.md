@@ -322,6 +322,12 @@ myInt= (int)pi;
 
 ---
 
+
+## Größer, Kleiner, Gleich - Vergleiche und Operatoren
+
+<!-- Operatoren erklären, Operatoren Precedence erklären -->
+
+
 ## Ja / Nein / Vielleicht - If-Else
 
 <!-- Aufbau von If-Else, Dangling Else -->
@@ -333,11 +339,6 @@ myInt= (int)pi;
 <!-- was ist das, wann nutzt man if, wann den ternären Operator -->
 
 ---
-
-## Größer, Kleiner, Gleich - Vergleiche und Operatoren
-
-<!-- Operatoren erklären, Operatoren Precedence erklären -->
-
 ---
 
 ## @Let's try
@@ -441,11 +442,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAwMjYzNDE0LC0xMzA3Njg2MTA1LDg3MT
-AxMDE2MSwtMTQ5NDY0NzQwNCwtMTIzOTM4NjI4NCwtMjA0MzY0
-OTI5NywtNzI3NzI3Nzc4LDEyNDY3OTQzMzQsLTEyODk1NzU3Nz
-YsOTEzNjc1Mzc2LDU5Mzc1ODQ1MCwxMzA2MTY4NTczLC0xOTM2
-MjA4MDAzLDEwNzczMDEzNzcsMTQwMTAxMDMxMiwtNjE1MDA1ND
-Y1LDE2NTU2NjAzNDksLTc4MzMzOTAxNiwxMTY0MTIzMzYxLDI2
-NTcyMTE0NF19
+eyJoaXN0b3J5IjpbLTEwNTI3MTQ0MjYsLTEzMDc2ODYxMDUsOD
+cxMDEwMTYxLC0xNDk0NjQ3NDA0LC0xMjM5Mzg2Mjg0LC0yMDQz
+NjQ5Mjk3LC03Mjc3Mjc3NzgsMTI0Njc5NDMzNCwtMTI4OTU3NT
+c3Niw5MTM2NzUzNzYsNTkzNzU4NDUwLDEzMDYxNjg1NzMsLTE5
+MzYyMDgwMDMsMTA3NzMwMTM3NywxNDAxMDEwMzEyLC02MTUwMD
+U0NjUsMTY1NTY2MDM0OSwtNzgzMzM5MDE2LDExNjQxMjMzNjEs
+MjY1NzIxMTQ0XX0=
 -->
