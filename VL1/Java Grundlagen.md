@@ -428,7 +428,7 @@ else {
 
 ## Arrays
 <!-- was sind Arrays, wozu sind sie gut, was gibt es für Beschränkungen -->
-- Container-Objekte, die eine feste Anzahl von Werten eines bestimmten Types speichern können.
+- Container-Objekte, die eine feste Anzahl von Werten eines bestimmten Types speichern können (detaillierte Einführung [hier](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html))
 - HelloWorld-Beispiel: Argument `String[] p_args`ist  Array von String-Objekten
 - Anderes Beispiel: Liste von Highscore-Werten eines Spiels
 - Elemente über eine Index-Variable (Werte von `0` bis `Länge-1`) addressierbar
@@ -528,7 +528,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxODc5OTE3NywtNTk3ODc1MzM2LC0xND
+eyJoaXN0b3J5IjpbMTU5MTY3MzkzOSwtNTk3ODc1MzM2LC0xND
 U3MDUxNzA5LDU1MDM0MTUzNSw2NDQwNDk1MDcsMTc5OTM4NDYx
 NCwxMDA2MzQ1MzM4LDYyNTA5ODc3OSw5MzM5MjUxNDAsLTEwNT
 I3MTQ0MjYsLTEzMDc2ODYxMDUsODcxMDEwMTYxLC0xNDk0NjQ3
