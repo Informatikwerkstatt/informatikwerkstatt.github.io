@@ -444,7 +444,7 @@ int[] highscores = {1000, 850, 600};
 ```
 - Eindimensionaler Array, Deklaration mit `new` Operator
 ``` java
-int[] highscores[10] = [1000, 850, 600];
+int[] highscores = new int[10];
 ```
 ===
 
@@ -532,11 +532,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNTc0ODM0OCwtMjc5MTI4Njk4LDE1OT
-E2NzM5MzksLTU5Nzg3NTMzNiwtMTQ1NzA1MTcwOSw1NTAzNDE1
-MzUsNjQ0MDQ5NTA3LDE3OTkzODQ2MTQsMTAwNjM0NTMzOCw2Mj
-UwOTg3NzksOTMzOTI1MTQwLC0xMDUyNzE0NDI2LC0xMzA3Njg2
-MTA1LDg3MTAxMDE2MSwtMTQ5NDY0NzQwNCwtMTIzOTM4NjI4NC
-wtMjA0MzY0OTI5NywtNzI3NzI3Nzc4LDEyNDY3OTQzMzQsLTEy
-ODk1NzU3NzZdfQ==
+eyJoaXN0b3J5IjpbOTUxODQ4MTc3LC0yNzkxMjg2OTgsMTU5MT
+Y3MzkzOSwtNTk3ODc1MzM2LC0xNDU3MDUxNzA5LDU1MDM0MTUz
+NSw2NDQwNDk1MDcsMTc5OTM4NDYxNCwxMDA2MzQ1MzM4LDYyNT
+A5ODc3OSw5MzM5MjUxNDAsLTEwNTI3MTQ0MjYsLTEzMDc2ODYx
+MDUsODcxMDEwMTYxLC0xNDk0NjQ3NDA0LC0xMjM5Mzg2Mjg0LC
+0yMDQzNjQ5Mjk3LC03Mjc3Mjc3NzgsMTI0Njc5NDMzNCwtMTI4
+OTU3NTc3Nl19
 -->
