@@ -322,7 +322,9 @@ myInt= (int)pi;
 ## Größer, Kleiner, Gleich - Vergleiche und Operatoren
 <!-- Operatoren erklären, Operatoren Precedence erklären -->
 - In Java kann man eine größe Anzahl von arithmetischen und Vergleichs-Operatoren nutzen
-- Einen haben wir schon kennen gelernt - den Zuweisungsoperator A=B
+- Einen haben wir schon kennen gelernt - den Zuweisungsoperator `A=B`, der A den Wert in B zuweist. 
+- Mit arithmetischen Operatoren kann man rechnen. 
+- 
 
 ## Ja / Nein / Vielleicht - If-Else
 
@@ -438,11 +440,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NjA5NTMwOSw5MzM5MjUxNDAsLTEwNT
-I3MTQ0MjYsLTEzMDc2ODYxMDUsODcxMDEwMTYxLC0xNDk0NjQ3
-NDA0LC0xMjM5Mzg2Mjg0LC0yMDQzNjQ5Mjk3LC03Mjc3Mjc3Nz
-gsMTI0Njc5NDMzNCwtMTI4OTU3NTc3Niw5MTM2NzUzNzYsNTkz
-NzU4NDUwLDEzMDYxNjg1NzMsLTE5MzYyMDgwMDMsMTA3NzMwMT
-M3NywxNDAxMDEwMzEyLC02MTUwMDU0NjUsMTY1NTY2MDM0OSwt
-NzgzMzM5MDE2XX0=
+eyJoaXN0b3J5IjpbNjI1MzQ3MzAsOTMzOTI1MTQwLC0xMDUyNz
+E0NDI2LC0xMzA3Njg2MTA1LDg3MTAxMDE2MSwtMTQ5NDY0NzQw
+NCwtMTIzOTM4NjI4NCwtMjA0MzY0OTI5NywtNzI3NzI3Nzc4LD
+EyNDY3OTQzMzQsLTEyODk1NzU3NzYsOTEzNjc1Mzc2LDU5Mzc1
+ODQ1MCwxMzA2MTY4NTczLC0xOTM2MjA4MDAzLDEwNzczMDEzNz
+csMTQwMTAxMDMxMiwtNjE1MDA1NDY1LDE2NTU2NjAzNDksLTc4
+MzMzOTAxNl19
 -->
