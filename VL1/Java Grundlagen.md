@@ -409,14 +409,14 @@ Betrachte die beiden folgenden IF-ELSE Anweisungen
  2. Schreibe für jede Anweisung ein Java-Programm; wähle geeignete Ausgaben, um die Ausführung nachvollziehen zu können.
  
 ```java
-// Anweisung 1
-int a=5, b=6;
-if (a<b) { a=b; }
-else { b=a; }
-// Anweisung 2
-int a=5, b=6, c=7;
-if( a>b ) { a=b; }
-else {
+// Anweisung 1			// Anweisung 2
+int a=5, b=6;			int a=5, b=6, c=7;
+if (a<b) { a=b; }		if( a>b ) { a=b; }
+else { b=a; }	
+
+
+
+
     if ( a<c ) { a=c; }
 }
 ```
@@ -541,7 +541,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5OTgxNzUxMSwtMTc0MzQxNTgzMSwtMj
+eyJoaXN0b3J5IjpbLTMzMTA3OTk3MywtMTc0MzQxNTgzMSwtMj
 c5MTI4Njk4LDE1OTE2NzM5MzksLTU5Nzg3NTMzNiwtMTQ1NzA1
 MTcwOSw1NTAzNDE1MzUsNjQ0MDQ5NTA3LDE3OTkzODQ2MTQsMT
 AwNjM0NTMzOCw2MjUwOTg3NzksOTMzOTI1MTQwLC0xMDUyNzE0
