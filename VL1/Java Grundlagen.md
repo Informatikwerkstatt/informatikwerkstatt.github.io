@@ -156,6 +156,7 @@ public class HelloWorld
 {
 	public static void main( String[] p_args )
 	{
+		// 
 		System.out.println( "Hello, World" );
 	}
 }
@@ -226,7 +227,7 @@ public class HelloWorld
 	
 	public static void main( String[] p_args )
 	{
-		System.out.println( "Hello, World" );
+		System.out.println( message );
 	}
 }
 ```
@@ -370,11 +371,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjE2MTE4OTQsLTE5MzYyMDgwMDMsMT
-A3NzMwMTM3NywxNDAxMDEwMzEyLC02MTUwMDU0NjUsMTY1NTY2
-MDM0OSwtNzgzMzM5MDE2LDExNjQxMjMzNjEsMjY1NzIxMTQ0LD
-EwODg5NjQ4NjksLTExNzA4MjE0MzQsLTEwODc1OTE5NzMsMTYz
-NzYxNDY5OSwxMjMxNTMyODk3LC05MDY0Nzg5NTAsLTE5NTI0Mj
-UzNCwtMTczNTQ0MDg0Myw3MDg3NzUxNDIsNTQwNTUzOTM4LDM3
-MjM2NzMzM119
+eyJoaXN0b3J5IjpbNDQ4MzcyNjY1LC0xOTM2MjA4MDAzLDEwNz
+czMDEzNzcsMTQwMTAxMDMxMiwtNjE1MDA1NDY1LDE2NTU2NjAz
+NDksLTc4MzMzOTAxNiwxMTY0MTIzMzYxLDI2NTcyMTE0NCwxMD
+g4OTY0ODY5LC0xMTcwODIxNDM0LC0xMDg3NTkxOTczLDE2Mzc2
+MTQ2OTksMTIzMTUzMjg5NywtOTA2NDc4OTUwLC0xOTUyNDI1Mz
+QsLTE3MzU0NDA4NDMsNzA4Nzc1MTQyLDU0MDU1MzkzOCwzNzIz
+NjczMzNdfQ==
 -->
