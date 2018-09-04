@@ -33,8 +33,7 @@ public class HelloWorld
 		System.out.println( "Hello, World" );
 	}
 }
-```
-@todo: Video - erstellen und speichern der Java Datei mit Visual Studio Code 
+``
 
 ===
 
@@ -152,11 +151,12 @@ Und hier das ganze im Video:
 ## Aufbau eines Java-Programms
 <!-- wie ist der allgemeine Aufbau eines Java Programs, Stichwort Klasse, Stichwork main, insbesondere Parameter erklären -->
 - Wir betrachten jetzt unser HelloWorld-Programm etwas genauer
-- Quelldatei enthält eine oder mehrere Klassendefinitionen (i.d.R. eine)
+- Quelldatei enthält Klassendefinitionen (i.d.R. eine Klasse pro Datei)
 - Klasse: 
 	- Zentrale Einheit der objektorientierten Programmierung (s. VL2). 
 	- Programmcode ist in Klassen organisiert
 	- Klasse hat Namen (z.B. HelloWorld)
+	- Konvention: Name der Klasse = Name der Quelldatei, die die Klasse enthält
 ---
 
 ## Java Keywords
@@ -317,11 +317,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIyNDI3MjAsMTY1NTY2MDM0OSwtNzgzMz
-M5MDE2LDExNjQxMjMzNjEsMjY1NzIxMTQ0LDEwODg5NjQ4Njks
-LTExNzA4MjE0MzQsLTEwODc1OTE5NzMsMTYzNzYxNDY5OSwxMj
-MxNTMyODk3LC05MDY0Nzg5NTAsLTE5NTI0MjUzNCwtMTczNTQ0
-MDg0Myw3MDg3NzUxNDIsNTQwNTUzOTM4LDM3MjM2NzMzMywxMD
-Q0NDA5MTQ4LDIyNTUxMTUwMiwtMTgyMzc4ODY4OSwtMTExNjE2
-Mzk3OF19
+eyJoaXN0b3J5IjpbLTc2MjA5NTQxNywxNjU1NjYwMzQ5LC03OD
+MzMzkwMTYsMTE2NDEyMzM2MSwyNjU3MjExNDQsMTA4ODk2NDg2
+OSwtMTE3MDgyMTQzNCwtMTA4NzU5MTk3MywxNjM3NjE0Njk5LD
+EyMzE1MzI4OTcsLTkwNjQ3ODk1MCwtMTk1MjQyNTM0LC0xNzM1
+NDQwODQzLDcwODc3NTE0Miw1NDA1NTM5MzgsMzcyMzY3MzMzLD
+EwNDQ0MDkxNDgsMjI1NTExNTAyLC0xODIzNzg4Njg5LC0xMTE2
+MTYzOTc4XX0=
 -->
