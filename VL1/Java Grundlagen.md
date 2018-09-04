@@ -428,9 +428,9 @@ else {
 ---
 
 ## Arrays
-
 <!-- was sind Arrays, wozu sind sie gut, was gibt es für Beschränkungen -->
-
+- Arrays sind Sammlungen (Listen) ähnlicher Objekte
+- Im HelloWorld-Beispiel haben wir bereits e
 ===
 
 ### Array Initialisierung
@@ -522,11 +522,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5Nzg3NTMzNiwtMTQ1NzA1MTcwOSw1NT
-AzNDE1MzUsNjQ0MDQ5NTA3LDE3OTkzODQ2MTQsMTAwNjM0NTMz
-OCw2MjUwOTg3NzksOTMzOTI1MTQwLC0xMDUyNzE0NDI2LC0xMz
-A3Njg2MTA1LDg3MTAxMDE2MSwtMTQ5NDY0NzQwNCwtMTIzOTM4
-NjI4NCwtMjA0MzY0OTI5NywtNzI3NzI3Nzc4LDEyNDY3OTQzMz
-QsLTEyODk1NzU3NzYsOTEzNjc1Mzc2LDU5Mzc1ODQ1MCwxMzA2
-MTY4NTczXX0=
+eyJoaXN0b3J5IjpbLTM4MTg5ODk1LC01OTc4NzUzMzYsLTE0NT
+cwNTE3MDksNTUwMzQxNTM1LDY0NDA0OTUwNywxNzk5Mzg0NjE0
+LDEwMDYzNDUzMzgsNjI1MDk4Nzc5LDkzMzkyNTE0MCwtMTA1Mj
+cxNDQyNiwtMTMwNzY4NjEwNSw4NzEwMTAxNjEsLTE0OTQ2NDc0
+MDQsLTEyMzkzODYyODQsLTIwNDM2NDkyOTcsLTcyNzcyNzc3OC
+wxMjQ2Nzk0MzM0LC0xMjg5NTc1Nzc2LDkxMzY3NTM3Niw1OTM3
+NTg0NTBdfQ==
 -->
