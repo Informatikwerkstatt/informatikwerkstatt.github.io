@@ -449,7 +449,12 @@ int[] highscores = new int[10];
 highscores[0] = 4711;
 ```
 - Nach `new`-Anweisung sind die Elemente des Arrays mit dem Initialwert des Elementtyps initialisiert (Zahlen: `0`, `boolean: false`)
-- Zweidimensionaler Array 
+- Zweidimensionaler Array:
+ ``` java
+int[][] tabelleNamen = new String[10][15];
+...
+highscores[0] = 4711;
+```
 ===
 
 ### Collections
@@ -536,7 +541,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNjM2NzYyOCwtMjc5MTI4Njk4LDE1OT
+eyJoaXN0b3J5IjpbLTYxNzg0OTgzNywtMjc5MTI4Njk4LDE1OT
 E2NzM5MzksLTU5Nzg3NTMzNiwtMTQ1NzA1MTcwOSw1NTAzNDE1
 MzUsNjQ0MDQ5NTA3LDE3OTkzODQ2MTQsMTAwNjM0NTMzOCw2Mj
 UwOTg3NzksOTMzOTI1MTQwLC0xMDUyNzE0NDI2LC0xMzA3Njg2
