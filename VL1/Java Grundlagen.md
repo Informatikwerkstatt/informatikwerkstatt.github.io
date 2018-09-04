@@ -222,7 +222,8 @@ Java besitzt [50 reservierte Schlüsselwörter](https://en.wikipedia.org/wiki/Li
 ``` java
 public class HelloWorld
 {
-	private 
+	private String message = "Hello World";
+	
 	public static void main( String[] p_args )
 	{
 		System.out.println( "Hello, World" );
@@ -369,11 +370,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNzU2ODI3MCwtMTkzNjIwODAwMywxMD
-c3MzAxMzc3LDE0MDEwMTAzMTIsLTYxNTAwNTQ2NSwxNjU1NjYw
-MzQ5LC03ODMzMzkwMTYsMTE2NDEyMzM2MSwyNjU3MjExNDQsMT
-A4ODk2NDg2OSwtMTE3MDgyMTQzNCwtMTA4NzU5MTk3MywxNjM3
-NjE0Njk5LDEyMzE1MzI4OTcsLTkwNjQ3ODk1MCwtMTk1MjQyNT
-M0LC0xNzM1NDQwODQzLDcwODc3NTE0Miw1NDA1NTM5MzgsMzcy
-MzY3MzMzXX0=
+eyJoaXN0b3J5IjpbLTExMjE2MTE4OTQsLTE5MzYyMDgwMDMsMT
+A3NzMwMTM3NywxNDAxMDEwMzEyLC02MTUwMDU0NjUsMTY1NTY2
+MDM0OSwtNzgzMzM5MDE2LDExNjQxMjMzNjEsMjY1NzIxMTQ0LD
+EwODg5NjQ4NjksLTExNzA4MjE0MzQsLTEwODc1OTE5NzMsMTYz
+NzYxNDY5OSwxMjMxNTMyODk3LC05MDY0Nzg5NTAsLTE5NTI0Mj
+UzNCwtMTczNTQ0MDg0Myw3MDg3NzUxNDIsNTQwNTUzOTM4LDM3
+MjM2NzMzM119
 -->
