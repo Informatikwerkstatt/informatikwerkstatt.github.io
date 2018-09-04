@@ -491,7 +491,7 @@ betreuer.add(s1);
 betreuer.add(s2);
 // gib Elemente aus
 String item = new String();
-for(int i =0; i < betreuer.size(); i++) {
+for (int i =0; i < betreuer.size(); i++) {
             item = (String)betreuer.elementAt(i));
             System.out.println(item);
 }
@@ -588,11 +588,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4ODMxODYzOSwxMjAwNDk3OTI0LDE2Mj
-YyNjU1NjQsLTE3NDM0MTU4MzEsLTI3OTEyODY5OCwxNTkxNjcz
-OTM5LC01OTc4NzUzMzYsLTE0NTcwNTE3MDksNTUwMzQxNTM1LD
-Y0NDA0OTUwNywxNzk5Mzg0NjE0LDEwMDYzNDUzMzgsNjI1MDk4
-Nzc5LDkzMzkyNTE0MCwtMTA1MjcxNDQyNiwtMTMwNzY4NjEwNS
-w4NzEwMTAxNjEsLTE0OTQ2NDc0MDQsLTEyMzkzODYyODQsLTIw
-NDM2NDkyOTddfQ==
+eyJoaXN0b3J5IjpbLTExNTkxMzkzMDEsMTQ4ODMxODYzOSwxMj
+AwNDk3OTI0LDE2MjYyNjU1NjQsLTE3NDM0MTU4MzEsLTI3OTEy
+ODY5OCwxNTkxNjczOTM5LC01OTc4NzUzMzYsLTE0NTcwNTE3MD
+ksNTUwMzQxNTM1LDY0NDA0OTUwNywxNzk5Mzg0NjE0LDEwMDYz
+NDUzMzgsNjI1MDk4Nzc5LDkzMzkyNTE0MCwtMTA1MjcxNDQyNi
+wtMTMwNzY4NjEwNSw4NzEwMTAxNjEsLTE0OTQ2NDc0MDQsLTEy
+MzkzODYyODRdfQ==
 -->
