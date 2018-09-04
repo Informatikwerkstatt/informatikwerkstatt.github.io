@@ -442,9 +442,11 @@ else {
 ``` java
 int[] highscores = {1000, 850, 600};
 ```
-- Eindimensionaler Array, Deklaration mit `new` Operator
+- Eindimensionaler Array, Deklaration mit `new` Operator; "Füllen" später
 ``` java
 int[] highscores = new int[10];
+...
+highscores[5] = 45
 ```
 - Nach `new`-Anweisung sind die Elemente des Arrays mit dem Initialwert des Elementtyps initialisiert (Zahlen: `0`, `boolean: false`)
 ===
@@ -533,11 +535,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg4ODY3MjQxLC0yNzkxMjg2OTgsMTU5MT
-Y3MzkzOSwtNTk3ODc1MzM2LC0xNDU3MDUxNzA5LDU1MDM0MTUz
-NSw2NDQwNDk1MDcsMTc5OTM4NDYxNCwxMDA2MzQ1MzM4LDYyNT
-A5ODc3OSw5MzM5MjUxNDAsLTEwNTI3MTQ0MjYsLTEzMDc2ODYx
-MDUsODcxMDEwMTYxLC0xNDk0NjQ3NDA0LC0xMjM5Mzg2Mjg0LC
-0yMDQzNjQ5Mjk3LC03Mjc3Mjc3NzgsMTI0Njc5NDMzNCwtMTI4
-OTU3NTc3Nl19
+eyJoaXN0b3J5IjpbLTE5NzQ3MzUxNzksLTI3OTEyODY5OCwxNT
+kxNjczOTM5LC01OTc4NzUzMzYsLTE0NTcwNTE3MDksNTUwMzQx
+NTM1LDY0NDA0OTUwNywxNzk5Mzg0NjE0LDEwMDYzNDUzMzgsNj
+I1MDk4Nzc5LDkzMzkyNTE0MCwtMTA1MjcxNDQyNiwtMTMwNzY4
+NjEwNSw4NzEwMTAxNjEsLTE0OTQ2NDc0MDQsLTEyMzkzODYyOD
+QsLTIwNDM2NDkyOTcsLTcyNzcyNzc3OCwxMjQ2Nzk0MzM0LC0x
+Mjg5NTc1Nzc2XX0=
 -->
