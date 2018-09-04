@@ -490,9 +490,14 @@ Vector betreuer = new Vector();
 // füge Elemente dazu
 betreuer.add(s1);
 betreuer.add(s2);
-// 
+// gib Elemente aus
+for(int i =0; i < betreuer.size(); i++)
+        {
+            ((String)betreuer.elementAt(i)).gibDatenAus();
+        }
 ``` 
-Detailliertere Infos findest Du [hier](https://docs.oracle.com/javase/tutorial/collections/index.html)
+Detailliertere Infos zu dem Java Collections Framework findest Du [hier](https://docs.oracle.com/javase/tutorial/collections/index.html)
+
 ---
 
 ## Wieder und wieder und wieder... - Schleifen
@@ -573,7 +578,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NTU2NTI0OSwxMjAwNDk3OTI0LDE2Mj
+eyJoaXN0b3J5IjpbLTcxNjE2NDc0NSwxMjAwNDk3OTI0LDE2Mj
 YyNjU1NjQsLTE3NDM0MTU4MzEsLTI3OTEyODY5OCwxNTkxNjcz
 OTM5LC01OTc4NzUzMzYsLTE0NTcwNTE3MDksNTUwMzQxNTM1LD
 Y0NDA0OTUwNywxNzk5Mzg0NjE0LDEwMDYzNDUzMzgsNjI1MDk4
