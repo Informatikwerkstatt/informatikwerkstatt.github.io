@@ -198,6 +198,8 @@ Java besitzt [50 reservierte Schlüsselwörter](https://en.wikipedia.org/wiki/Li
 ## Datentypen
 <!-- Basisdatentypen, Text, Zahl, Boxing/Unboxing des Compilers -->
 - Alle Daten, die in Java-Programmen verarbeitet werden, haben einen wohldefinierten Datentyp
+- Java enthält vordefinierte Basisdatentypen
+
 ---
 
 ## Variablen
@@ -343,11 +345,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk0ODA1NjYsMTQwMTAxMDMxMiwtNjE1MD
-A1NDY1LDE2NTU2NjAzNDksLTc4MzMzOTAxNiwxMTY0MTIzMzYx
-LDI2NTcyMTE0NCwxMDg4OTY0ODY5LC0xMTcwODIxNDM0LC0xMD
-g3NTkxOTczLDE2Mzc2MTQ2OTksMTIzMTUzMjg5NywtOTA2NDc4
-OTUwLC0xOTUyNDI1MzQsLTE3MzU0NDA4NDMsNzA4Nzc1MTQyLD
-U0MDU1MzkzOCwzNzIzNjczMzMsMTA0NDQwOTE0OCwyMjU1MTE1
-MDJdfQ==
+eyJoaXN0b3J5IjpbMTk2MDI2NzY4NiwxNDAxMDEwMzEyLC02MT
+UwMDU0NjUsMTY1NTY2MDM0OSwtNzgzMzM5MDE2LDExNjQxMjMz
+NjEsMjY1NzIxMTQ0LDEwODg5NjQ4NjksLTExNzA4MjE0MzQsLT
+EwODc1OTE5NzMsMTYzNzYxNDY5OSwxMjMxNTMyODk3LC05MDY0
+Nzg5NTAsLTE5NTI0MjUzNCwtMTczNTQ0MDg0Myw3MDg3NzUxND
+IsNTQwNTUzOTM4LDM3MjM2NzMzMywxMDQ0NDA5MTQ4LDIyNTUx
+MTUwMl19
 -->
