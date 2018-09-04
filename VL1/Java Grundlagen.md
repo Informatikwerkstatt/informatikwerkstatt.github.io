@@ -253,15 +253,15 @@ public class HelloWorld
 		System.out.println( message );
 	}
 ```	
-- Die Variable `message` kann nach ihrer Instanziierung als Argument (Parameter) zum Aufruf der Methode  `println()`  (des Objekts `System.out`, siehe VL2) verwendet werden
-- Die Variable wird somit übergeben und kann in der Methode weiterverarbeitet werden 
+- Die Variable `message` kann nach ihrer Instanziierung als Argument (Parameter) zum Aufruf der Methode  `println()` des Objekts `System.out`, siehe VL2) verwendet werden
+- Der Wert der Variable wird somit übergeben und kann in der Methode weiterverarbeitet werden 
 
 === 
 
-### main() Methoden
+### main() Methode
  
- - Findet die Java Virtual Machine bei der Ausführung mit java HelloWorld eine solche Methode, dann wird sie ausgeführt
  -  Programme wie unser `HelloWorld` Beispiel , die eine main() Methode haben, sind also ausführbar.
+ -  Die Aususführung mit java HelloWorld eine solche Methode, dann wird sie ausgeführt
  - Das Argument String[] p_args der main Methode kann genutzt werden, um bei dem Aufruf des Programms über die Kommandozeile Parameter an es zu übergeben.
 ---
 
@@ -397,11 +397,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODk1NzU3NzYsOTEzNjc1Mzc2LDU5Mz
-c1ODQ1MCwxMzA2MTY4NTczLC0xOTM2MjA4MDAzLDEwNzczMDEz
-NzcsMTQwMTAxMDMxMiwtNjE1MDA1NDY1LDE2NTU2NjAzNDksLT
-c4MzMzOTAxNiwxMTY0MTIzMzYxLDI2NTcyMTE0NCwxMDg4OTY0
-ODY5LC0xMTcwODIxNDM0LC0xMDg3NTkxOTczLDE2Mzc2MTQ2OT
-ksMTIzMTUzMjg5NywtOTA2NDc4OTUwLC0xOTUyNDI1MzQsLTE3
-MzU0NDA4NDNdfQ==
+eyJoaXN0b3J5IjpbNDE4MTg5MzU5LC0xMjg5NTc1Nzc2LDkxMz
+Y3NTM3Niw1OTM3NTg0NTAsMTMwNjE2ODU3MywtMTkzNjIwODAw
+MywxMDc3MzAxMzc3LDE0MDEwMTAzMTIsLTYxNTAwNTQ2NSwxNj
+U1NjYwMzQ5LC03ODMzMzkwMTYsMTE2NDEyMzM2MSwyNjU3MjEx
+NDQsMTA4ODk2NDg2OSwtMTE3MDgyMTQzNCwtMTA4NzU5MTk3My
+wxNjM3NjE0Njk5LDEyMzE1MzI4OTcsLTkwNjQ3ODk1MCwtMTk1
+MjQyNTM0XX0=
 -->
