@@ -446,9 +446,10 @@ int[] highscores = {1000, 850, 600};
 ``` java
 int[] highscores = new int[10];
 ...
-highscores[5] = 45
+highscores[0] = 4711;
 ```
 - Nach `new`-Anweisung sind die Elemente des Arrays mit dem Initialwert des Elementtyps initialisiert (Zahlen: `0`, `boolean: false`)
+- Zweidimensionaler Array 
 ===
 
 ### Collections
@@ -535,11 +536,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzQ3MzUxNzksLTI3OTEyODY5OCwxNT
-kxNjczOTM5LC01OTc4NzUzMzYsLTE0NTcwNTE3MDksNTUwMzQx
-NTM1LDY0NDA0OTUwNywxNzk5Mzg0NjE0LDEwMDYzNDUzMzgsNj
-I1MDk4Nzc5LDkzMzkyNTE0MCwtMTA1MjcxNDQyNiwtMTMwNzY4
-NjEwNSw4NzEwMTAxNjEsLTE0OTQ2NDc0MDQsLTEyMzkzODYyOD
-QsLTIwNDM2NDkyOTcsLTcyNzcyNzc3OCwxMjQ2Nzk0MzM0LC0x
-Mjg5NTc1Nzc2XX0=
+eyJoaXN0b3J5IjpbMTUzNjM2NzYyOCwtMjc5MTI4Njk4LDE1OT
+E2NzM5MzksLTU5Nzg3NTMzNiwtMTQ1NzA1MTcwOSw1NTAzNDE1
+MzUsNjQ0MDQ5NTA3LDE3OTkzODQ2MTQsMTAwNjM0NTMzOCw2Mj
+UwOTg3NzksOTMzOTI1MTQwLC0xMDUyNzE0NDI2LC0xMzA3Njg2
+MTA1LDg3MTAxMDE2MSwtMTQ5NDY0NzQwNCwtMTIzOTM4NjI4NC
+wtMjA0MzY0OTI5NywtNzI3NzI3Nzc4LDEyNDY3OTQzMzQsLTEy
+ODk1NzU3NzZdfQ==
 -->
