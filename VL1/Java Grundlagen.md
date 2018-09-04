@@ -272,7 +272,6 @@ byte counterB = 1;
 int counterI = 1;
 double counterD = 1.0;
 String myNumber = "";
-
 /*
   wir casten jetzt eine byte-Variable auf eine 
   int-Variable und dann die int-Variable auf 
@@ -297,12 +296,12 @@ mynumber = Integer.toString(counterI).
 ``` java
 /*
  hier versuche ich, eine double-Variable auf 
- eine int-Variable zu casten
+ eine int-Variable zu casten :o
  */
 counterI = counterD;
 ```
 5. Übersetzen Sie das Programm! Was beobachten Sie?
-6.  Ermitteln SIe durch Nachdenken: Auf welche Typen können byte / int / double gecastet werden?
+6.  Ermitteln Sie jeweils durch Nachdenken oder probieren: Auf welche Typen können byte / int / double gecastet werden?
 7. Versuchen Sie, die Variable counterD auf die String-Variable myNumber zu casten! 
 
 ===
@@ -442,11 +441,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTI3MTQ0MjYsLTEzMDc2ODYxMDUsOD
-cxMDEwMTYxLC0xNDk0NjQ3NDA0LC0xMjM5Mzg2Mjg0LC0yMDQz
-NjQ5Mjk3LC03Mjc3Mjc3NzgsMTI0Njc5NDMzNCwtMTI4OTU3NT
-c3Niw5MTM2NzUzNzYsNTkzNzU4NDUwLDEzMDYxNjg1NzMsLTE5
-MzYyMDgwMDMsMTA3NzMwMTM3NywxNDAxMDEwMzEyLC02MTUwMD
-U0NjUsMTY1NTY2MDM0OSwtNzgzMzM5MDE2LDExNjQxMjMzNjEs
-MjY1NzIxMTQ0XX0=
+eyJoaXN0b3J5IjpbLTYzNTYzNDcxNiwtMTA1MjcxNDQyNiwtMT
+MwNzY4NjEwNSw4NzEwMTAxNjEsLTE0OTQ2NDc0MDQsLTEyMzkz
+ODYyODQsLTIwNDM2NDkyOTcsLTcyNzcyNzc3OCwxMjQ2Nzk0Mz
+M0LC0xMjg5NTc1Nzc2LDkxMzY3NTM3Niw1OTM3NTg0NTAsMTMw
+NjE2ODU3MywtMTkzNjIwODAwMywxMDc3MzAxMzc3LDE0MDEwMT
+AzMTIsLTYxNTAwNTQ2NSwxNjU1NjYwMzQ5LC03ODMzMzkwMTYs
+MTE2NDEyMzM2MV19
 -->
