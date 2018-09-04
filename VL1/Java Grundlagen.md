@@ -498,18 +498,7 @@ for (int  i  =0; i <  betreuer.size(); i++)
 Detailliertere Infos zum Java Collections Framework findest Du [hier](https://docs.oracle.com/javase/tutorial/collections/index.html)
 
 ---
-## @Let's try
- 
-- Schreibe zunächst ein kleines Programm, in dem Du 
-	1. einen `Array` Deiner Wahl deklarierst
-	2. ihn initialisierst
-	3. seine Werte ausliest und ausgibst 
- 
--  **@Cracks:** Schreibe ein weiteres Programm, in dem Du 
-	1. eine `ArrayList` Deiner Wahl deklarierst
-	2. sie mit Werten füllst
-	3. und danach die Werte ausliest und ausgibst 
- 
+## @Let's try 
 ---
 
 ## Wieder und wieder und wieder... - Schleifen
@@ -590,11 +579,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE4NDAzMzU3LC05NzQyNjA3NDMsLTE5Mj
-g2NzQ2NTAsLTExNTkxMzkzMDEsMTQ4ODMxODYzOSwxMjAwNDk3
-OTI0LDE2MjYyNjU1NjQsLTE3NDM0MTU4MzEsLTI3OTEyODY5OC
-wxNTkxNjczOTM5LC01OTc4NzUzMzYsLTE0NTcwNTE3MDksNTUw
-MzQxNTM1LDY0NDA0OTUwNywxNzk5Mzg0NjE0LDEwMDYzNDUzMz
-gsNjI1MDk4Nzc5LDkzMzkyNTE0MCwtMTA1MjcxNDQyNiwtMTMw
-NzY4NjEwNV19
+eyJoaXN0b3J5IjpbMTEyMDg4MTgzMSwtOTc0MjYwNzQzLC0xOT
+I4Njc0NjUwLC0xMTU5MTM5MzAxLDE0ODgzMTg2MzksMTIwMDQ5
+NzkyNCwxNjI2MjY1NTY0LC0xNzQzNDE1ODMxLC0yNzkxMjg2OT
+gsMTU5MTY3MzkzOSwtNTk3ODc1MzM2LC0xNDU3MDUxNzA5LDU1
+MDM0MTUzNSw2NDQwNDk1MDcsMTc5OTM4NDYxNCwxMDA2MzQ1Mz
+M4LDYyNTA5ODc3OSw5MzM5MjUxNDAsLTEwNTI3MTQ0MjYsLTEz
+MDc2ODYxMDVdfQ==
 -->
