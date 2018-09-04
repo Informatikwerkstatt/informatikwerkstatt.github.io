@@ -151,10 +151,12 @@ Und hier das ganze im Video:
 
 ## Aufbau eines Java-Programms
 <!-- wie ist der allgemeine Aufbau eines Java Programs, Stichwort Klasse, Stichwork main, insbesondere Parameter erklären -->
-- Quelldatei: enthält eine oder mehrere Klassendefinitionen (i.d.R. eine)
+- Wir betrachten jetzt unser HelloWorld-Programm etwas genauer
+- Quelldatei enthält eine oder mehrere Klassendefinitionen (i.d.R. eine)
 - Klasse: 
 	- Zentrale Einheit der objektorientierten Programmierung (s. VL2). 
-	- Code muss in einer Klasse
+	- Programmcode ist in Klassen organisiert
+	- Klasse hat Namen (z.B. HelloWorld)
 ---
 
 ## Java Keywords
@@ -315,11 +317,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTUwNzc5NDYsMTY1NTY2MDM0OSwtNz
-gzMzM5MDE2LDExNjQxMjMzNjEsMjY1NzIxMTQ0LDEwODg5NjQ4
-NjksLTExNzA4MjE0MzQsLTEwODc1OTE5NzMsMTYzNzYxNDY5OS
-wxMjMxNTMyODk3LC05MDY0Nzg5NTAsLTE5NTI0MjUzNCwtMTcz
-NTQ0MDg0Myw3MDg3NzUxNDIsNTQwNTUzOTM4LDM3MjM2NzMzMy
-wxMDQ0NDA5MTQ4LDIyNTUxMTUwMiwtMTgyMzc4ODY4OSwtMTEx
-NjE2Mzk3OF19
+eyJoaXN0b3J5IjpbNjIyNDI3MjAsMTY1NTY2MDM0OSwtNzgzMz
+M5MDE2LDExNjQxMjMzNjEsMjY1NzIxMTQ0LDEwODg5NjQ4Njks
+LTExNzA4MjE0MzQsLTEwODc1OTE5NzMsMTYzNzYxNDY5OSwxMj
+MxNTMyODk3LC05MDY0Nzg5NTAsLTE5NTI0MjUzNCwtMTczNTQ0
+MDg0Myw3MDg3NzUxNDIsNTQwNTUzOTM4LDM3MjM2NzMzMywxMD
+Q0NDA5MTQ4LDIyNTUxMTUwMiwtMTgyMzc4ODY4OSwtMTExNjE2
+Mzk3OF19
 -->
