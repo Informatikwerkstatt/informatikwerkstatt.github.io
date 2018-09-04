@@ -365,7 +365,8 @@ System.out.println(s1.equals(s2)); // true
 - IF-ELSE-Anweisung hat Form `if (bedingung) {block1} else {block2}`
 ``` java
 int a=2;
-if (a>0)    System
+if (a>0) System.out.println(a + " ist positiv");
+if (a <=0) System.out.println(a + ist "nichtpositiv
 
 ```
 
@@ -479,7 +480,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMTE5MTA5NywxMDA2MzQ1MzM4LDYyNT
+eyJoaXN0b3J5IjpbMTc5MDA3ODA3NCwxMDA2MzQ1MzM4LDYyNT
 A5ODc3OSw5MzM5MjUxNDAsLTEwNTI3MTQ0MjYsLTEzMDc2ODYx
 MDUsODcxMDEwMTYxLC0xNDk0NjQ3NDA0LC0xMjM5Mzg2Mjg0LC
 0yMDQzNjQ5Mjk3LC03Mjc3Mjc3NzgsMTI0Njc5NDMzNCwtMTI4
