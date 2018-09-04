@@ -165,12 +165,16 @@ public class HelloWorld
 - Die `HelloWorld` Klasse hat eine Methode ```main``` 
 - In der Folge ,mehr über Klassen und Ihren Aufbau
 ===
-###Klassen 
+### Klassen 
 	
 - Zentrale Einheit der objektorientierten Programmierung (s. VL2). 
 - Programmcode ist in Klassen organisiert
 - Klasse hat Namen (z.B. HelloWorld)
 - Konvention: Name der Klasse = Name der Quelldatei, die die Klasse enthält
+
+### Methoden
+- Strukturieren den Code einer Klasse
+- Methode
 ---
 
 ## Java Keywords
@@ -331,11 +335,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNTAwNTQ2NSwxNjU1NjYwMzQ5LC03OD
-MzMzkwMTYsMTE2NDEyMzM2MSwyNjU3MjExNDQsMTA4ODk2NDg2
-OSwtMTE3MDgyMTQzNCwtMTA4NzU5MTk3MywxNjM3NjE0Njk5LD
-EyMzE1MzI4OTcsLTkwNjQ3ODk1MCwtMTk1MjQyNTM0LC0xNzM1
-NDQwODQzLDcwODc3NTE0Miw1NDA1NTM5MzgsMzcyMzY3MzMzLD
-EwNDQ0MDkxNDgsMjI1NTExNTAyLC0xODIzNzg4Njg5LC0xMTE2
-MTYzOTc4XX0=
+eyJoaXN0b3J5IjpbLTUyOTMwNzUwNSwtNjE1MDA1NDY1LDE2NT
+U2NjAzNDksLTc4MzMzOTAxNiwxMTY0MTIzMzYxLDI2NTcyMTE0
+NCwxMDg4OTY0ODY5LC0xMTcwODIxNDM0LC0xMDg3NTkxOTczLD
+E2Mzc2MTQ2OTksMTIzMTUzMjg5NywtOTA2NDc4OTUwLC0xOTUy
+NDI1MzQsLTE3MzU0NDA4NDMsNzA4Nzc1MTQyLDU0MDU1MzkzOC
+wzNzIzNjczMzMsMTA0NDQwOTE0OCwyMjU1MTE1MDIsLTE4MjM3
+ODg2ODldfQ==
 -->
