@@ -239,6 +239,7 @@ public class HelloWorld
 	private final String message = "Hello World";
 ```
 - Mit dem Zuweisungsoperator `=` kann einer Variable ein Wert zugewiesen werden
+- = kopiert den Wert auf der rechten Seitein die Variable auf 
 - Wichtig: Initiale Wertzuweisung vor Verwendung einer Variable! 
 - Modifikator `final` gibt an, dass die Variable nach der Initialisierung nicht mehr verändert werden darf
 - `final` wird häufig verwendet, um Konstanten zu definieren
@@ -440,11 +441,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDc2ODYxMDUsODcxMDEwMTYxLC0xND
-k0NjQ3NDA0LC0xMjM5Mzg2Mjg0LC0yMDQzNjQ5Mjk3LC03Mjc3
-Mjc3NzgsMTI0Njc5NDMzNCwtMTI4OTU3NTc3Niw5MTM2NzUzNz
-YsNTkzNzU4NDUwLDEzMDYxNjg1NzMsLTE5MzYyMDgwMDMsMTA3
-NzMwMTM3NywxNDAxMDEwMzEyLC02MTUwMDU0NjUsMTY1NTY2MD
-M0OSwtNzgzMzM5MDE2LDExNjQxMjMzNjEsMjY1NzIxMTQ0LDEw
-ODg5NjQ4NjldfQ==
+eyJoaXN0b3J5IjpbLTE5MzQwMDc5NTMsLTEzMDc2ODYxMDUsOD
+cxMDEwMTYxLC0xNDk0NjQ3NDA0LC0xMjM5Mzg2Mjg0LC0yMDQz
+NjQ5Mjk3LC03Mjc3Mjc3NzgsMTI0Njc5NDMzNCwtMTI4OTU3NT
+c3Niw5MTM2NzUzNzYsNTkzNzU4NDUwLDEzMDYxNjg1NzMsLTE5
+MzYyMDgwMDMsMTA3NzMwMTM3NywxNDAxMDEwMzEyLC02MTUwMD
+U0NjUsMTY1NTY2MDM0OSwtNzgzMzM5MDE2LDExNjQxMjMzNjEs
+MjY1NzIxMTQ0XX0=
 -->
