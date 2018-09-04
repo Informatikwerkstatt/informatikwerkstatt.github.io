@@ -211,6 +211,10 @@ Java besitzt [50 reservierte Schlüsselwörter](https://en.wikipedia.org/wiki/Li
 | String| Zeichenkette, max. $2^{31}-1$ Zeichen. z.B. `"Hello World!"` |
 
 ===
+### @Cracks
+Warum  gibt es verschiedene Datentypen für Zahlenwerte?
+Man könnte doch für alles `double` verwenden ...
+
 ---
 ## Variablen
 <!-- Deklaration von Variablen, Nutzung von Variablen, Keywort "final" -->
@@ -441,7 +445,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTc4ODIwODMsOTMzOTI1MTQwLC0xMD
+eyJoaXN0b3J5IjpbLTE0MTYyNTQyNjgsOTMzOTI1MTQwLC0xMD
 UyNzE0NDI2LC0xMzA3Njg2MTA1LDg3MTAxMDE2MSwtMTQ5NDY0
 NzQwNCwtMTIzOTM4NjI4NCwtMjA0MzY0OTI5NywtNzI3NzI3Nz
 c4LDEyNDY3OTQzMzQsLTEyODk1NzU3NzYsOTEzNjc1Mzc2LDU5
