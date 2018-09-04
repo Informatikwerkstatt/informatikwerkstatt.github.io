@@ -178,10 +178,10 @@ public class HelloWorld
 	- Rückgabewert (`void` = keine Rückgabe)
 	- Name (`main`)
 	- Eingabeparameter (optional), beschrieben durch 
-		- Typ (z.B. `String[]` bezeichnet Liste (Array)  von Zeichenketten)
+		- Typ, z.B. `String[]` bezeichnet Liste (Array)  von Zeichenketten
 		- Name `p_args` 
-		- 
-	Rumpf mit Anweisungen
+	- Rumpf mit Anweisungen, in `{ ... }`eingefasst
+-
 ---
 
 ## Java Keywords
@@ -342,7 +342,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NzY3NTA3OCwxNDAxMDEwMzEyLC02MT
+eyJoaXN0b3J5IjpbMTk3NjE4Mjc4MSwxNDAxMDEwMzEyLC02MT
 UwMDU0NjUsMTY1NTY2MDM0OSwtNzgzMzM5MDE2LDExNjQxMjMz
 NjEsMjY1NzIxMTQ0LDEwODg5NjQ4NjksLTExNzA4MjE0MzQsLT
 EwODc1OTE5NzMsMTYzNzYxNDY5OSwxMjMxNTMyODk3LC05MDY0
