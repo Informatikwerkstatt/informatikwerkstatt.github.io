@@ -500,7 +500,12 @@ Detailliertere Infos zu dem Java Collections Framework findest Du [hier](https:/
 
 ---
 ## @Let's try
-
+ - Schreibe ein kleines Programm, in dem Du 
+	  1. einen Array Deiner Wahl deklarierst
+	  2. ihn initialisierst
+	  3. seine Werte ausliest und ausgibst
+  - Schreibe ein weiteres Programm, in dem Du 
+	  1.  
 ---
 
 ## Wieder und wieder und wieder... - Schleifen
@@ -581,7 +586,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MzYyODQwMywxMjAwNDk3OTI0LDE2Mj
+eyJoaXN0b3J5IjpbMTIxMDk5MTI3MCwxMjAwNDk3OTI0LDE2Mj
 YyNjU1NjQsLTE3NDM0MTU4MzEsLTI3OTEyODY5OCwxNTkxNjcz
 OTM5LC01OTc4NzUzMzYsLTE0NTcwNTE3MDksNTUwMzQxNTM1LD
 Y0NDA0OTUwNywxNzk5Mzg0NjE0LDEwMDYzNDUzMzgsNjI1MDk4
