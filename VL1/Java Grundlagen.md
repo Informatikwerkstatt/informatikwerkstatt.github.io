@@ -287,6 +287,7 @@ System.out.println("counterI = ", counterI
 - Schreiben Sie eine Klasse Example.java mit einer main()-Methode
 - Kopieren Sie das obigen Code-Fragment in den Rumpf der main()-Methode 
 - Führen Sie das Programm aus! Was beobachten Sie?
+
 - Fügen Sie nun folgende Zeile am Ende des main()-Programms ein?
 ``` java
 /*
@@ -296,6 +297,7 @@ System.out.println("counterI = ", counterI
 counterI = counterD;
 ```
 - Was beobachten Sie?
+
 - Auf welche Typen können byte / int / double gecastet werden 
 
 ---
@@ -419,11 +421,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MzcyMDIwNCwtMjA0MzY0OTI5NywtNz
-I3NzI3Nzc4LDEyNDY3OTQzMzQsLTEyODk1NzU3NzYsOTEzNjc1
-Mzc2LDU5Mzc1ODQ1MCwxMzA2MTY4NTczLC0xOTM2MjA4MDAzLD
-EwNzczMDEzNzcsMTQwMTAxMDMxMiwtNjE1MDA1NDY1LDE2NTU2
-NjAzNDksLTc4MzMzOTAxNiwxMTY0MTIzMzYxLDI2NTcyMTE0NC
-wxMDg4OTY0ODY5LC0xMTcwODIxNDM0LC0xMDg3NTkxOTczLDE2
-Mzc2MTQ2OTldfQ==
+eyJoaXN0b3J5IjpbODQ3OTkyODA4LC0yMDQzNjQ5Mjk3LC03Mj
+c3Mjc3NzgsMTI0Njc5NDMzNCwtMTI4OTU3NTc3Niw5MTM2NzUz
+NzYsNTkzNzU4NDUwLDEzMDYxNjg1NzMsLTE5MzYyMDgwMDMsMT
+A3NzMwMTM3NywxNDAxMDEwMzEyLC02MTUwMDU0NjUsMTY1NTY2
+MDM0OSwtNzgzMzM5MDE2LDExNjQxMjMzNjEsMjY1NzIxMTQ0LD
+EwODg5NjQ4NjksLTExNzA4MjE0MzQsLTEwODc1OTE5NzMsMTYz
+NzYxNDY5OV19
 -->
