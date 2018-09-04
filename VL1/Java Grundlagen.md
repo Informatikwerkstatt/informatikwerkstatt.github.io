@@ -438,9 +438,9 @@ else {
 ===
 ### Array anlegen / initialisieren
 <!-- verschiedene Arten für die Initialisierung von Arrays -->
-- Eindimensionaler Array, explizite Initialisierung bei Deklaration
+- Eindimensionaler Array, direkte Initialisierung durch Aufzählung
 ``` java
-int[] highscores = [1000, 850, 600];
+int[] highscores = {1000, 850, 600};
 ```
 - Eindimensionaler Array, Deklaration mit `new` Operator
 ``` java
@@ -532,11 +532,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3OTEyODY5OCwxNTkxNjczOTM5LC01OT
-c4NzUzMzYsLTE0NTcwNTE3MDksNTUwMzQxNTM1LDY0NDA0OTUw
-NywxNzk5Mzg0NjE0LDEwMDYzNDUzMzgsNjI1MDk4Nzc5LDkzMz
-kyNTE0MCwtMTA1MjcxNDQyNiwtMTMwNzY4NjEwNSw4NzEwMTAx
-NjEsLTE0OTQ2NDc0MDQsLTEyMzkzODYyODQsLTIwNDM2NDkyOT
-csLTcyNzcyNzc3OCwxMjQ2Nzk0MzM0LC0xMjg5NTc1Nzc2LDkx
-MzY3NTM3Nl19
+eyJoaXN0b3J5IjpbMTcwNTc0ODM0OCwtMjc5MTI4Njk4LDE1OT
+E2NzM5MzksLTU5Nzg3NTMzNiwtMTQ1NzA1MTcwOSw1NTAzNDE1
+MzUsNjQ0MDQ5NTA3LDE3OTkzODQ2MTQsMTAwNjM0NTMzOCw2Mj
+UwOTg3NzksOTMzOTI1MTQwLC0xMDUyNzE0NDI2LC0xMzA3Njg2
+MTA1LDg3MTAxMDE2MSwtMTQ5NDY0NzQwNCwtMTIzOTM4NjI4NC
+wtMjA0MzY0OTI5NywtNzI3NzI3Nzc4LDEyNDY3OTQzMzQsLTEy
+ODk1NzU3NzZdfQ==
 -->
