@@ -284,17 +284,15 @@ System.out.println("counterI = ", counterI
 - Schreiben Sie eine Klasse Example.java mit einer main()-Methode
 - Kopieren Sie das obigen Code-Fragment in den Rumpf der main()-Methode 
 - Führen Sie das Programm aus! Was beobachten Sie?
-- Fügen Sie nun folgende Anweisungen am Ende des main()-Programms ein?
+- Fügen Sie nun folgende Zeile am Ende des main()-Programms ein?
 ``` java
 /*
- hier wird eine double-Variable auf 
- eine double-Variable gecastet
+ hier versuche ich, eine double-Variable auf 
+ eine int-Variable zu casten
  */
-counterD = counterI;
-System.out.println("counterI = ", counterI
+counterI = counterD;
 ```
-- Versuchen Sie ein Casting der einzelnen Variablen auf die jeweils anderen!
-- Was passiert?
+- Was beobachten Sie?
 - Auf welche Typen können byte / int / double gecastet werden 
 
 ---
@@ -418,7 +416,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MDA3MzA5MiwtMjA0MzY0OTI5NywtNz
+eyJoaXN0b3J5IjpbMTIxNjE5NTUzMywtMjA0MzY0OTI5NywtNz
 I3NzI3Nzc4LDEyNDY3OTQzMzQsLTEyODk1NzU3NzYsOTEzNjc1
 Mzc2LDU5Mzc1ODQ1MCwxMzA2MTY4NTczLC0xOTM2MjA4MDAzLD
 EwNzczMDEzNzcsMTQwMTAxMDMxMiwtNjE1MDA1NDY1LDE2NTU2
