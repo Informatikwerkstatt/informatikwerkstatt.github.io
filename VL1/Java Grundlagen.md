@@ -272,6 +272,7 @@ public class HelloWorld
 <!-- Was bedeutet Casting, wozu wird es benötigt, was ist der Sinn davon, was sind die Nachteile davon, insbesondere parsen von String als numerischer Wert -->
 
 - Typumwandlung (engl. *Casting*) = Umwandlung eines Datentyps in einen anderen Datentyp.
+
 ``` java
 byte counterB = 1;
 int counterI = 1;
@@ -586,11 +587,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NDI2MDc0MywtMTkyODY3NDY1MCwtMT
-E1OTEzOTMwMSwxNDg4MzE4NjM5LDEyMDA0OTc5MjQsMTYyNjI2
-NTU2NCwtMTc0MzQxNTgzMSwtMjc5MTI4Njk4LDE1OTE2NzM5Mz
-ksLTU5Nzg3NTMzNiwtMTQ1NzA1MTcwOSw1NTAzNDE1MzUsNjQ0
-MDQ5NTA3LDE3OTkzODQ2MTQsMTAwNjM0NTMzOCw2MjUwOTg3Nz
-ksOTMzOTI1MTQwLC0xMDUyNzE0NDI2LC0xMzA3Njg2MTA1LDg3
-MTAxMDE2MV19
+eyJoaXN0b3J5IjpbMTc0NzM4NjEyMywtOTc0MjYwNzQzLC0xOT
+I4Njc0NjUwLC0xMTU5MTM5MzAxLDE0ODgzMTg2MzksMTIwMDQ5
+NzkyNCwxNjI2MjY1NTY0LC0xNzQzNDE1ODMxLC0yNzkxMjg2OT
+gsMTU5MTY3MzkzOSwtNTk3ODc1MzM2LC0xNDU3MDUxNzA5LDU1
+MDM0MTUzNSw2NDQwNDk1MDcsMTc5OTM4NDYxNCwxMDA2MzQ1Mz
+M4LDYyNTA5ODc3OSw5MzM5MjUxNDAsLTEwNTI3MTQ0MjYsLTEz
+MDc2ODYxMDVdfQ==
 -->
