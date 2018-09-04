@@ -275,15 +275,14 @@ double counterD = 1.0;
  eine double-Variable gecastet
  */
 counterD = counterI;
-System.out.println("co
+System.out.println("counterI = ", counterI
 ```
 ---
-
 ## @Let's try
 
 <!-- Codebeispiel Main-Programm, Variablen deklarieren, Variablen setzen, Variablen mit Println ausgeben -->
 - Schreiben Sie eine Klasse Example.java mit einer main()-Methode
-- Kopieren Sie den obigen Code in den Rumpf der main()-Methode 
+- Kopieren Sie das obigen Code in den Rumpf der main()-Methode 
 - Führen Sie das Programm aus
 - Versuchen Sie ein Casting der einzelnen Variablen auf die jeweils anderen!
 - Was passiert?
@@ -410,7 +409,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg1MTIxNjYxLC0yMDQzNjQ5Mjk3LC03Mj
+eyJoaXN0b3J5IjpbNzE3MTIxOTc5LC0yMDQzNjQ5Mjk3LC03Mj
 c3Mjc3NzgsMTI0Njc5NDMzNCwtMTI4OTU3NTc3Niw5MTM2NzUz
 NzYsNTkzNzU4NDUwLDEzMDYxNjg1NzMsLTE5MzYyMDgwMDMsMT
 A3NzMwMTM3NywxNDAxMDEwMzEyLC02MTUwMDU0NjUsMTY1NTY2
