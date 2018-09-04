@@ -242,7 +242,8 @@ public class HelloWorld
 	private final String message = "Hello World";
 ```
 
-- Initialisierung (Wertzuweisung) vor Verwendung!
+- Initiale Wertzuweisung
+-  vor Verwendung!
 ---
 
 ## Typenumwandlung / Casting
@@ -376,11 +377,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkzNzU4NDUwLDEzMDYxNjg1NzMsLTE5Mz
-YyMDgwMDMsMTA3NzMwMTM3NywxNDAxMDEwMzEyLC02MTUwMDU0
-NjUsMTY1NTY2MDM0OSwtNzgzMzM5MDE2LDExNjQxMjMzNjEsMj
-Y1NzIxMTQ0LDEwODg5NjQ4NjksLTExNzA4MjE0MzQsLTEwODc1
-OTE5NzMsMTYzNzYxNDY5OSwxMjMxNTMyODk3LC05MDY0Nzg5NT
-AsLTE5NTI0MjUzNCwtMTczNTQ0MDg0Myw3MDg3NzUxNDIsNTQw
-NTUzOTM4XX0=
+eyJoaXN0b3J5IjpbLTEyMTEyMzU1MzMsNTkzNzU4NDUwLDEzMD
+YxNjg1NzMsLTE5MzYyMDgwMDMsMTA3NzMwMTM3NywxNDAxMDEw
+MzEyLC02MTUwMDU0NjUsMTY1NTY2MDM0OSwtNzgzMzM5MDE2LD
+ExNjQxMjMzNjEsMjY1NzIxMTQ0LDEwODg5NjQ4NjksLTExNzA4
+MjE0MzQsLTEwODc1OTE5NzMsMTYzNzYxNDY5OSwxMjMxNTMyOD
+k3LC05MDY0Nzg5NTAsLTE5NTI0MjUzNCwtMTczNTQ0MDg0Myw3
+MDg3NzUxNDJdfQ==
 -->
