@@ -411,6 +411,7 @@ Betrachte die beiden folgenden IF-ELSE Anweisungen
 ```java
 // Anweisung 1				// Anweisung 2
 int a=5, b=6;				int a=5, b=6, c=7;
+
 if ( a<b ) { a=b; }			if ( a>b ) { a=b; }
 else { b=a; }				else {
 						    if ( a<c ) { a=c; }
@@ -422,13 +423,12 @@ else { b=a; }				else {
 ---
 ## Arrays
 <!-- was sind Arrays, wozu sind sie gut, was gibt es für Beschränkungen -->
-- Container-Objekte, die eine feste Anzahl von Werten eines bestimmten Types speichern können (detaillierte Einführung [hier](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html))
-- HelloWorld-Beispiel: Argument `String[] p_args`ist  Array von String-Objekten
+- Container-Objekte, die feste Anzahl von Werten eines bestimmten Types speichern können (detaillierte Einführung [hier](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html))
+- HelloWorld-Beispiel: Array  `String[] p_args`
 - Anderes Beispiel: Liste von Highscore-Werten eines Spiels
 - Elemente über eine Index-Variable (Werte von `0` bis `Länge-1`) addressierbar
-- Arrays können verschachtelt sein 
 ![](http://winf.in.tu-clausthal.de/jpm/infws/img/1_array.png)
-
+- Arrays können verschachtelt sein 
 ===
 ### Array anlegen / initialisieren
 <!-- verschiedene Arten für die Initialisierung von Arrays -->
@@ -536,7 +536,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDU1NDM1NzUsLTE3NDM0MTU4MzEsLT
+eyJoaXN0b3J5IjpbLTExNjI2OTQ4MjAsLTE3NDM0MTU4MzEsLT
 I3OTEyODY5OCwxNTkxNjczOTM5LC01OTc4NzUzMzYsLTE0NTcw
 NTE3MDksNTUwMzQxNTM1LDY0NDA0OTUwNywxNzk5Mzg0NjE0LD
 EwMDYzNDUzMzgsNjI1MDk4Nzc5LDkzMzkyNTE0MCwtMTA1Mjcx
