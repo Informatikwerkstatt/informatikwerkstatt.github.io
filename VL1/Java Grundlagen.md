@@ -163,7 +163,7 @@ public class HelloWorld
 - Quelldatei enthält Klasse HelloWorld
 - Das Verhalten einer Klasse wird durch Methoden beschrieben
 - Die `HelloWorld` Klasse hat eine Methode ```main``` 
-- In der Folge ,mehr über Klassen und Ihren Aufbau
+- In der Folge erfahren wir mehr über Klassen und Ihren Aufbau
 ===
 ### Klassen 
 	
@@ -171,7 +171,7 @@ public class HelloWorld
 - Programmcode ist in Klassen organisiert
 - Klasse hat Namen (z.B. HelloWorld)
 - Konvention: Name der Klasse = Name der Quelldatei, die die Klasse enthält
-
+===
 ### Methoden
 - Strukturieren den Code einer Klasse
 - Methode beschrieben durch
@@ -342,11 +342,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjk0NzI1MjAsMTQwMTAxMDMxMiwtNj
-E1MDA1NDY1LDE2NTU2NjAzNDksLTc4MzMzOTAxNiwxMTY0MTIz
-MzYxLDI2NTcyMTE0NCwxMDg4OTY0ODY5LC0xMTcwODIxNDM0LC
-0xMDg3NTkxOTczLDE2Mzc2MTQ2OTksMTIzMTUzMjg5NywtOTA2
-NDc4OTUwLC0xOTUyNDI1MzQsLTE3MzU0NDA4NDMsNzA4Nzc1MT
-QyLDU0MDU1MzkzOCwzNzIzNjczMzMsMTA0NDQwOTE0OCwyMjU1
-MTE1MDJdfQ==
+eyJoaXN0b3J5IjpbNzExNjAwMDg2LDE0MDEwMTAzMTIsLTYxNT
+AwNTQ2NSwxNjU1NjYwMzQ5LC03ODMzMzkwMTYsMTE2NDEyMzM2
+MSwyNjU3MjExNDQsMTA4ODk2NDg2OSwtMTE3MDgyMTQzNCwtMT
+A4NzU5MTk3MywxNjM3NjE0Njk5LDEyMzE1MzI4OTcsLTkwNjQ3
+ODk1MCwtMTk1MjQyNTM0LC0xNzM1NDQwODQzLDcwODc3NTE0Mi
+w1NDA1NTM5MzgsMzcyMzY3MzMzLDEwNDQ0MDkxNDgsMjI1NTEx
+NTAyXX0=
 -->
