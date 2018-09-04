@@ -112,7 +112,7 @@ Werkzeug unter Windows: *Eingabeaufforderung*
 - `del Dateiname` löscht die Datei mit Namen `Dateiname`, wenn diese Datei existiert
 
  ===
-### Compilieren der Sourcen
+### Compilieren des Quellcodes
 
 - Übersetzen des geschriebenen Java-Quellcodes in _Maschinensprache_ (meistens Binärcode)
 - Eingabe in Java: 
@@ -313,11 +313,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MzMzOTAxNiwxMTY0MTIzMzYxLDI2NT
-cyMTE0NCwxMDg4OTY0ODY5LC0xMTcwODIxNDM0LC0xMDg3NTkx
-OTczLDE2Mzc2MTQ2OTksMTIzMTUzMjg5NywtOTA2NDc4OTUwLC
-0xOTUyNDI1MzQsLTE3MzU0NDA4NDMsNzA4Nzc1MTQyLDU0MDU1
-MzkzOCwzNzIzNjczMzMsMTA0NDQwOTE0OCwyMjU1MTE1MDIsLT
-E4MjM3ODg2ODksLTExMTYxNjM5NzgsMTA1OTk3OTc5MywtMTIy
-MDAzODQ5NV19
+eyJoaXN0b3J5IjpbMTc2ODQyODg2MywtNzgzMzM5MDE2LDExNj
+QxMjMzNjEsMjY1NzIxMTQ0LDEwODg5NjQ4NjksLTExNzA4MjE0
+MzQsLTEwODc1OTE5NzMsMTYzNzYxNDY5OSwxMjMxNTMyODk3LC
+05MDY0Nzg5NTAsLTE5NTI0MjUzNCwtMTczNTQ0MDg0Myw3MDg3
+NzUxNDIsNTQwNTUzOTM4LDM3MjM2NzMzMywxMDQ0NDA5MTQ4LD
+IyNTUxMTUwMiwtMTgyMzc4ODY4OSwtMTExNjE2Mzk3OCwxMDU5
+OTc5NzkzXX0=
 -->
