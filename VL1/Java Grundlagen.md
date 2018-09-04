@@ -430,11 +430,11 @@ else {
 <!-- was sind Arrays, wozu sind sie gut, was gibt es für Beschränkungen -->
 - Arrays sind Sammlungen (Listen) ähnlicher Objekte (d.h. gleicher Typ)
 - Im HelloWorld-Beispiel: Argument `String[] p_args`ist  Array von String-Objekten
-- 
+- Elemente eines Arrays sind über eine Index-Variable (Werte von `0` bis `Länge-1`) addressierbar
 
     
 
-```
+
 ===
 
 ### Array Initialisierung
@@ -527,11 +527,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg2NDQ4NjIsLTU5Nzg3NTMzNiwtMTQ1Nz
-A1MTcwOSw1NTAzNDE1MzUsNjQ0MDQ5NTA3LDE3OTkzODQ2MTQs
-MTAwNjM0NTMzOCw2MjUwOTg3NzksOTMzOTI1MTQwLC0xMDUyNz
-E0NDI2LC0xMzA3Njg2MTA1LDg3MTAxMDE2MSwtMTQ5NDY0NzQw
-NCwtMTIzOTM4NjI4NCwtMjA0MzY0OTI5NywtNzI3NzI3Nzc4LD
-EyNDY3OTQzMzQsLTEyODk1NzU3NzYsOTEzNjc1Mzc2LDU5Mzc1
-ODQ1MF19
+eyJoaXN0b3J5IjpbMTA3MjI5MjQ2LC01OTc4NzUzMzYsLTE0NT
+cwNTE3MDksNTUwMzQxNTM1LDY0NDA0OTUwNywxNzk5Mzg0NjE0
+LDEwMDYzNDUzMzgsNjI1MDk4Nzc5LDkzMzkyNTE0MCwtMTA1Mj
+cxNDQyNiwtMTMwNzY4NjEwNSw4NzEwMTAxNjEsLTE0OTQ2NDc0
+MDQsLTEyMzkzODYyODQsLTIwNDM2NDkyOTcsLTcyNzcyNzc3OC
+wxMjQ2Nzk0MzM0LC0xMjg5NTc1Nzc2LDkxMzY3NTM3Niw1OTM3
+NTg0NTBdfQ==
 -->
