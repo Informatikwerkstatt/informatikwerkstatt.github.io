@@ -329,7 +329,10 @@ myInt= (int)pi;
 - In Java kann man eine größe Anzahl von arithmetischen und Vergleichs-Operatoren nutzen
 - Einen haben wir schon kennen gelernt - den Zuweisungsoperator `A=B`, der A den Wert in B zuweist. 
 - Mit arithmetischen Operatoren (z.B. +, -, *, /) kann man rechnen. [Hier](https://de.wikibooks.org/wiki/Java_Standard:_Operatoren#Arithmetische_Operatoren) clicken für Übersicht
-- Vergleichs-Operatoren (z.B. >, !=, >=) werden verwendet, um Bedingungen für Verzweigungen eines Programms auszudrücken  [Hier](https://de.wikibooks.org/wiki/Java_Standard:_Operatoren#Arithmetische_Operatoren) clicken für Übersicht
+- Vergleichs-Operatoren (z.B. >, !=, >=) werden verwendet, um Bedingungen für Verzweigungen eines Programms auszudrücken  [Hier](https://de.wikibooks.org/wiki/Java_Standard:_Operatoren#Operatoren_f%C3%BCr_Vergleiche) clicken für Übersicht
+- Für Operatoren in Java gelten die üblichen mathematischen Präzedenzregeln (z.B. "Punktrechnung geht vor Strichrechnung"
+- Im Zweifelsfall: Klammern setzen
+	
 
 ## Ja / Nein / Vielleicht - If-Else
 
@@ -445,11 +448,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MjkzMjc4LDkzMzkyNTE0MCwtMTA1Mj
-cxNDQyNiwtMTMwNzY4NjEwNSw4NzEwMTAxNjEsLTE0OTQ2NDc0
-MDQsLTEyMzkzODYyODQsLTIwNDM2NDkyOTcsLTcyNzcyNzc3OC
-wxMjQ2Nzk0MzM0LC0xMjg5NTc1Nzc2LDkxMzY3NTM3Niw1OTM3
-NTg0NTAsMTMwNjE2ODU3MywtMTkzNjIwODAwMywxMDc3MzAxMz
-c3LDE0MDEwMTAzMTIsLTYxNTAwNTQ2NSwxNjU1NjYwMzQ5LC03
-ODMzMzkwMTZdfQ==
+eyJoaXN0b3J5IjpbMjE0Mzg1MTU5Niw5MzM5MjUxNDAsLTEwNT
+I3MTQ0MjYsLTEzMDc2ODYxMDUsODcxMDEwMTYxLC0xNDk0NjQ3
+NDA0LC0xMjM5Mzg2Mjg0LC0yMDQzNjQ5Mjk3LC03Mjc3Mjc3Nz
+gsMTI0Njc5NDMzNCwtMTI4OTU3NTc3Niw5MTM2NzUzNzYsNTkz
+NzU4NDUwLDEzMDYxNjg1NzMsLTE5MzYyMDgwMDMsMTA3NzMwMT
+M3NywxNDAxMDEwMzEyLC02MTUwMDU0NjUsMTY1NTY2MDM0OSwt
+NzgzMzM5MDE2XX0=
 -->
