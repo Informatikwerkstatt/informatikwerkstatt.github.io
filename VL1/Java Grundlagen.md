@@ -393,7 +393,7 @@ else
 ```
 - oder etwas eleganter
 ```java
- System.out.println(
+ System.out.println(a + " ist " + (a 
 ```
 ---
 ---
@@ -499,11 +499,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODgxMjQwMzMsMTc5OTM4NDYxNCwxMD
-A2MzQ1MzM4LDYyNTA5ODc3OSw5MzM5MjUxNDAsLTEwNTI3MTQ0
-MjYsLTEzMDc2ODYxMDUsODcxMDEwMTYxLC0xNDk0NjQ3NDA0LC
-0xMjM5Mzg2Mjg0LC0yMDQzNjQ5Mjk3LC03Mjc3Mjc3NzgsMTI0
-Njc5NDMzNCwtMTI4OTU3NTc3Niw5MTM2NzUzNzYsNTkzNzU4ND
-UwLDEzMDYxNjg1NzMsLTE5MzYyMDgwMDMsMTA3NzMwMTM3Nywx
-NDAxMDEwMzEyXX0=
+eyJoaXN0b3J5IjpbLTQ1MjAwNTA0MSwxNzk5Mzg0NjE0LDEwMD
+YzNDUzMzgsNjI1MDk4Nzc5LDkzMzkyNTE0MCwtMTA1MjcxNDQy
+NiwtMTMwNzY4NjEwNSw4NzEwMTAxNjEsLTE0OTQ2NDc0MDQsLT
+EyMzkzODYyODQsLTIwNDM2NDkyOTcsLTcyNzcyNzc3OCwxMjQ2
+Nzk0MzM0LC0xMjg5NTc1Nzc2LDkxMzY3NTM3Niw1OTM3NTg0NT
+AsMTMwNjE2ODU3MywtMTkzNjIwODAwMywxMDc3MzAxMzc3LDE0
+MDEwMTAzMTJdfQ==
 -->
