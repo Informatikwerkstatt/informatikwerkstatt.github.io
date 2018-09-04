@@ -412,13 +412,9 @@ Betrachte die beiden folgenden IF-ELSE Anweisungen
 // Anweisung 1			// Anweisung 2
 int a=5, b=6;			int a=5, b=6, c=7;
 if (a<b) { a=b; }		if( a>b ) { a=b; }
-else { b=a; }	
-
-
-
-
-    if ( a<c ) { a=c; }
-}
+else { b=a; }			else {
+				    if ( a<c ) { a=c; }
+				}
 ```
 <!-- Anweisung 1: 5<6, also wird a=b ausgeführt (if-Zweig)
        Anweisung 2: a <= b, deshalb zunächst else-Zweig, dann wg a<c der if-Zweig -->
@@ -541,11 +537,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMTA3OTk3MywtMTc0MzQxNTgzMSwtMj
-c5MTI4Njk4LDE1OTE2NzM5MzksLTU5Nzg3NTMzNiwtMTQ1NzA1
-MTcwOSw1NTAzNDE1MzUsNjQ0MDQ5NTA3LDE3OTkzODQ2MTQsMT
-AwNjM0NTMzOCw2MjUwOTg3NzksOTMzOTI1MTQwLC0xMDUyNzE0
-NDI2LC0xMzA3Njg2MTA1LDg3MTAxMDE2MSwtMTQ5NDY0NzQwNC
-wtMTIzOTM4NjI4NCwtMjA0MzY0OTI5NywtNzI3NzI3Nzc4LDEy
-NDY3OTQzMzRdfQ==
+eyJoaXN0b3J5IjpbLTE5MDYzNTc2NzMsLTE3NDM0MTU4MzEsLT
+I3OTEyODY5OCwxNTkxNjczOTM5LC01OTc4NzUzMzYsLTE0NTcw
+NTE3MDksNTUwMzQxNTM1LDY0NDA0OTUwNywxNzk5Mzg0NjE0LD
+EwMDYzNDUzMzgsNjI1MDk4Nzc5LDkzMzkyNTE0MCwtMTA1Mjcx
+NDQyNiwtMTMwNzY4NjEwNSw4NzEwMTAxNjEsLTE0OTQ2NDc0MD
+QsLTEyMzkzODYyODQsLTIwNDM2NDkyOTcsLTcyNzcyNzc3OCwx
+MjQ2Nzk0MzM0XX0=
 -->
