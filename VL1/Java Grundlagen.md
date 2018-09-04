@@ -288,11 +288,11 @@ mynumber = Integer.toString(counterI).
 ## @Let's try
 
 <!-- Codebeispiel Main-Programm, Variablen deklarieren, Variablen setzen, Variablen mit Println ausgeben -->
-- Schreiben Sie eine Klasse Example.java mit einer main()-Methode
-- Kopieren Sie das obigen Code-Fragment in den Rumpf der main()-Methode 
-- Führen Sie das Programm aus! Was beobachten Sie?
+1. Schreiben Sie eine Klasse Example.java mit einer main()-Methode
+2.  Kopieren Sie das obigen Code-Fragment in den Rumpf der main()-Methode 
+3. Führen Sie das Programm aus! Was beobachten Sie?
 
-- Fügen Sie nun folgende Zeile am Ende des main()-Programms ein?
+4. Fügen Sie nun folgende Zeile am Ende des main()-Programms ein?
 ``` java
 /*
  hier versuche ich, eine double-Variable auf 
@@ -300,9 +300,9 @@ mynumber = Integer.toString(counterI).
  */
 counterI = counterD;
 ```
-- Was beobachten Sie?
-- Auf welche Typen können byte / int / double gecastet werden
-- Versuchen Sie, die Variable  
+5. Was beobachten Sie?
+6.  Auf welche Typen können byte / int / double gecastet werden?
+7. Versuchen Sie, die Variable counterD auf die String-Variable myNumber zu casten! 
 
 ---
 
@@ -425,11 +425,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNDEyNDQ3MywtMjA0MzY0OTI5NywtNz
-I3NzI3Nzc4LDEyNDY3OTQzMzQsLTEyODk1NzU3NzYsOTEzNjc1
-Mzc2LDU5Mzc1ODQ1MCwxMzA2MTY4NTczLC0xOTM2MjA4MDAzLD
-EwNzczMDEzNzcsMTQwMTAxMDMxMiwtNjE1MDA1NDY1LDE2NTU2
-NjAzNDksLTc4MzMzOTAxNiwxMTY0MTIzMzYxLDI2NTcyMTE0NC
-wxMDg4OTY0ODY5LC0xMTcwODIxNDM0LC0xMDg3NTkxOTczLDE2
-Mzc2MTQ2OTldfQ==
+eyJoaXN0b3J5IjpbLTEyMzkzODYyODQsLTIwNDM2NDkyOTcsLT
+cyNzcyNzc3OCwxMjQ2Nzk0MzM0LC0xMjg5NTc1Nzc2LDkxMzY3
+NTM3Niw1OTM3NTg0NTAsMTMwNjE2ODU3MywtMTkzNjIwODAwMy
+wxMDc3MzAxMzc3LDE0MDEwMTAzMTIsLTYxNTAwNTQ2NSwxNjU1
+NjYwMzQ5LC03ODMzMzkwMTYsMTE2NDEyMzM2MSwyNjU3MjExND
+QsMTA4ODk2NDg2OSwtMTE3MDgyMTQzNCwtMTA4NzU5MTk3Mywx
+NjM3NjE0Njk5XX0=
 -->
