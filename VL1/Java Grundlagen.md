@@ -404,16 +404,14 @@ else
 ---
 ## @Home
 Betrachte die beiden folgenden IF-ELSE Anweisungen
-
  1. Überlege, welcher Teil der Anweisungen jeweils ausgeführt wird und
     warum. 
-2. Schreibe für jede Anweisung ein Java-Programm; wähle geeignete Ausgaben, um die Ausführung nachvollziehen zu können.
+ 2. Schreibe für jede Anweisung ein Java-Programm; wähle geeignete Ausgaben, um die Ausführung nachvollziehen zu können.
 ```java
 // Anweisung 1
 int a=5, b=6;
 if (a<b) { a=b; }
 else { b=a; }
-
 // Anweisung 2
 int a=5, b=6, c=7;
 if( a>b ) { a=b; }
@@ -542,7 +540,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzAzODU2MDksLTI3OTEyODY5OCwxNT
+eyJoaXN0b3J5IjpbLTE3NDM0MTU4MzEsLTI3OTEyODY5OCwxNT
 kxNjczOTM5LC01OTc4NzUzMzYsLTE0NTcwNTE3MDksNTUwMzQx
 NTM1LDY0NDA0OTUwNywxNzk5Mzg0NjE0LDEwMDYzNDUzMzgsNj
 I1MDk4Nzc5LDkzMzkyNTE0MCwtMTA1MjcxNDQyNiwtMTMwNzY4
