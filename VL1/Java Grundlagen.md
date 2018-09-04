@@ -223,15 +223,17 @@ Java besitzt [50 reservierte Schlüsselwörter](https://en.wikipedia.org/wiki/Li
 ``` java
 public class HelloWorld
 {
+	// Variablendeklaration
 	private String message = "Hello World";
 	
 	public static void main( String[] p_args )
 	{
+	// Variable wird Methode als Parameter übergeben
 		System.out.println( message );
 	}
 }
 ```
-- Variable muss vor Zuweisun
+- Variable muss vor Verwendung Wert zugewiesen werden
 ===
 
 ### Zuweisung
@@ -371,7 +373,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMDgyODgyOSwtMTkzNjIwODAwMywxMD
+eyJoaXN0b3J5IjpbMTM2Mzc5NzUxNCwtMTkzNjIwODAwMywxMD
 c3MzAxMzc3LDE0MDEwMTAzMTIsLTYxNTAwNTQ2NSwxNjU1NjYw
 MzQ5LC03ODMzMzkwMTYsMTE2NDEyMzM2MSwyNjU3MjExNDQsMT
 A4ODk2NDg2OSwtMTE3MDgyMTQzNCwtMTA4NzU5MTk3MywxNjM3
