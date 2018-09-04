@@ -183,7 +183,7 @@ public class HelloWorld
 		- Typ, z.B. `String[]` bezeichnet Liste (Array)  von Zeichenketten
 		- Name `p_args` 
 	- Rumpf mit Anweisungen, in `{ ... }`eingefasst
-- Methoden und Klassen können außerdem sog. Modifier haben (z.B. `public`, oder `public static` (siehe VL2)
+- Methoden und Klassen können außerdem sog. Modifikatoren haben (z.B. `public`, oder `public static` (siehe VL2)
 
 ---
 
@@ -210,7 +210,6 @@ Java besitzt [50 reservierte Schlüsselwörter](https://en.wikipedia.org/wiki/Li
 | boolean|`true` und `false` |
 | char | Einzelne Zeichen, 16-bit Länge. z.B. `'a'` |
 | String| Zeichenkette, max. $2^{31}-1$ Zeichen. z.B. `"Hello World!"` |
-
 
 ---
 
@@ -242,7 +241,9 @@ public class HelloWorld
 	private final String message = "Hello World";
 ```
 - Mit dem Zuweisungsoperator `=` kann einer Variable ein Wert zugewiesen werden
-- Initiale Wertzuweisung vor Verwendung! (
+- Wichtig: Initiale Wertzuweisung vor Verwendung! Am besten in der Deklaration! 
+- Modifikator final gibt an, dass die Variable nach der Initialisierung nicht mehr verändert werden darf
+- Mithilfe von final lassen sich in Java Konstanten definieren
 ---
 
 ## Typenumwandlung / Casting
@@ -376,11 +377,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEzNjc1Mzc2LDU5Mzc1ODQ1MCwxMzA2MT
-Y4NTczLC0xOTM2MjA4MDAzLDEwNzczMDEzNzcsMTQwMTAxMDMx
-MiwtNjE1MDA1NDY1LDE2NTU2NjAzNDksLTc4MzMzOTAxNiwxMT
-Y0MTIzMzYxLDI2NTcyMTE0NCwxMDg4OTY0ODY5LC0xMTcwODIx
-NDM0LC0xMDg3NTkxOTczLDE2Mzc2MTQ2OTksMTIzMTUzMjg5Ny
-wtOTA2NDc4OTUwLC0xOTUyNDI1MzQsLTE3MzU0NDA4NDMsNzA4
-Nzc1MTQyXX0=
+eyJoaXN0b3J5IjpbNTAwNjIwNTMzLDkxMzY3NTM3Niw1OTM3NT
+g0NTAsMTMwNjE2ODU3MywtMTkzNjIwODAwMywxMDc3MzAxMzc3
+LDE0MDEwMTAzMTIsLTYxNTAwNTQ2NSwxNjU1NjYwMzQ5LC03OD
+MzMzkwMTYsMTE2NDEyMzM2MSwyNjU3MjExNDQsMTA4ODk2NDg2
+OSwtMTE3MDgyMTQzNCwtMTA4NzU5MTk3MywxNjM3NjE0Njk5LD
+EyMzE1MzI4OTcsLTkwNjQ3ODk1MCwtMTk1MjQyNTM0LC0xNzM1
+NDQwODQzXX0=
 -->
