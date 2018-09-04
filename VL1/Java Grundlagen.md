@@ -438,9 +438,9 @@ else {
 ===
 ### Array anlegen / initialisieren
 <!-- verschiedene Arten für die Initialisierung von Arrays -->
-Eindimensionaler Array, direkt (bei Deklaration) initialisiert
+- Eindimensionaler Array, direkt (bei Deklaration) initialisiert
 ``` java
-
+int[] highscores = [1000, 850, 600];
 ```
 
 ===
@@ -529,7 +529,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMDU4MDY3NiwxNTkxNjczOTM5LC01OT
+eyJoaXN0b3J5IjpbMTM0MTc2NDk5MywxNTkxNjczOTM5LC01OT
 c4NzUzMzYsLTE0NTcwNTE3MDksNTUwMzQxNTM1LDY0NDA0OTUw
 NywxNzk5Mzg0NjE0LDEwMDYzNDUzMzgsNjI1MDk4Nzc5LDkzMz
 kyNTE0MCwtMTA1MjcxNDQyNiwtMTMwNzY4NjEwNSw4NzEwMTAx
