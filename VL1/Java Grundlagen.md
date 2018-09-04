@@ -456,6 +456,9 @@ String[][] tabelleNamen = new String[10][15];
 tabelleNamen[7][8] = "Steffi";
 ```
 ===
+### Zugriff auf Array
+- Adressieren des gesuchten Feldes
+- 
 
 ### Collections
 - Sammlung von Interfaces
@@ -541,11 +544,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxODIxOTM1MiwxMjAwNDk3OTI0LDE2Mj
-YyNjU1NjQsLTE3NDM0MTU4MzEsLTI3OTEyODY5OCwxNTkxNjcz
-OTM5LC01OTc4NzUzMzYsLTE0NTcwNTE3MDksNTUwMzQxNTM1LD
-Y0NDA0OTUwNywxNzk5Mzg0NjE0LDEwMDYzNDUzMzgsNjI1MDk4
-Nzc5LDkzMzkyNTE0MCwtMTA1MjcxNDQyNiwtMTMwNzY4NjEwNS
-w4NzEwMTAxNjEsLTE0OTQ2NDc0MDQsLTEyMzkzODYyODQsLTIw
-NDM2NDkyOTddfQ==
+eyJoaXN0b3J5IjpbLTIwNzIwMTU2MTksMTIwMDQ5NzkyNCwxNj
+I2MjY1NTY0LC0xNzQzNDE1ODMxLC0yNzkxMjg2OTgsMTU5MTY3
+MzkzOSwtNTk3ODc1MzM2LC0xNDU3MDUxNzA5LDU1MDM0MTUzNS
+w2NDQwNDk1MDcsMTc5OTM4NDYxNCwxMDA2MzQ1MzM4LDYyNTA5
+ODc3OSw5MzM5MjUxNDAsLTEwNTI3MTQ0MjYsLTEzMDc2ODYxMD
+UsODcxMDEwMTYxLC0xNDk0NjQ3NDA0LC0xMjM5Mzg2Mjg0LC0y
+MDQzNjQ5Mjk3XX0=
 -->
