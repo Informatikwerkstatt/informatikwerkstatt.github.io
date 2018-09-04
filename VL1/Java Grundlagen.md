@@ -215,8 +215,8 @@ Java besitzt [50 reservierte Schlüsselwörter](https://en.wikipedia.org/wiki/Li
 <!-- Deklaration von Variablen, Nutzung von Variablen, Keywort "final" -->
  
 - Benannter Bereich im Speicher, dem in einem Programm ein Wert zugewiesen werden kann 
-- Mithilfe der Datentypen können wir dem Java-Compiler genau beschreiben, welches erlaubte Wert einer Variable sind 
-- Wir erweitern unser Hallo World-Programm
+- Mithilfe der Datentypen können wir dem Java-Compiler genau beschreiben, welches erlaubte Werte einer Variable sind 
+- Wir erweitern unser Hallo World-Programm:
 ``` java
 public class HelloWorld
 {
@@ -394,11 +394,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNzcyNzc3OCwxMjQ2Nzk0MzM0LC0xMj
-g5NTc1Nzc2LDkxMzY3NTM3Niw1OTM3NTg0NTAsMTMwNjE2ODU3
-MywtMTkzNjIwODAwMywxMDc3MzAxMzc3LDE0MDEwMTAzMTIsLT
-YxNTAwNTQ2NSwxNjU1NjYwMzQ5LC03ODMzMzkwMTYsMTE2NDEy
-MzM2MSwyNjU3MjExNDQsMTA4ODk2NDg2OSwtMTE3MDgyMTQzNC
-wtMTA4NzU5MTk3MywxNjM3NjE0Njk5LDEyMzE1MzI4OTcsLTkw
-NjQ3ODk1MF19
+eyJoaXN0b3J5IjpbNjI1MTI2Mzc3LC03Mjc3Mjc3NzgsMTI0Nj
+c5NDMzNCwtMTI4OTU3NTc3Niw5MTM2NzUzNzYsNTkzNzU4NDUw
+LDEzMDYxNjg1NzMsLTE5MzYyMDgwMDMsMTA3NzMwMTM3NywxND
+AxMDEwMzEyLC02MTUwMDU0NjUsMTY1NTY2MDM0OSwtNzgzMzM5
+MDE2LDExNjQxMjMzNjEsMjY1NzIxMTQ0LDEwODg5NjQ4NjksLT
+ExNzA4MjE0MzQsLTEwODc1OTE5NzMsMTYzNzYxNDY5OSwxMjMx
+NTMyODk3XX0=
 -->
