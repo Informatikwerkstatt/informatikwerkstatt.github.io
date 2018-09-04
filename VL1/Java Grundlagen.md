@@ -381,8 +381,8 @@ else
 
 ### Ternärer Operator
 <!-- was ist das, wann nutzt man if, wann den ternären Operator -->
-- Wenn nur zwischen zwei Ausgabewerten unterschieden werden soll, so gibt es für die If-Else-Anweisung eine Kurzform: Den ternären Operator `?:`
-- Er hat die Form
+- Wenn nur zwischen zwei Ausgabewerten unterschieden werden soll, so gibt es für die If-Else-Anweisung eine Kurzform
+-  Der ternäre Operator `?:`hat die Form
 ```
 (<boolescher Ausdruck>) `?` AusgabewertTrue `:` AusgabewertFalse;
 ```
@@ -393,7 +393,7 @@ else
 ```
 - oder etwas eleganter
 ```java
- System.out.println(a + " ist " + (a > 0) ? "positiv" : "nichtpositiv);
+ System.out.println(a + " ist " + ((a > 0) ? "positiv" : "nichtpositiv"));
 ```
 ---
 ---
@@ -499,11 +499,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ0MDQ5NTA3LDE3OTkzODQ2MTQsMTAwNj
-M0NTMzOCw2MjUwOTg3NzksOTMzOTI1MTQwLC0xMDUyNzE0NDI2
-LC0xMzA3Njg2MTA1LDg3MTAxMDE2MSwtMTQ5NDY0NzQwNCwtMT
-IzOTM4NjI4NCwtMjA0MzY0OTI5NywtNzI3NzI3Nzc4LDEyNDY3
-OTQzMzQsLTEyODk1NzU3NzYsOTEzNjc1Mzc2LDU5Mzc1ODQ1MC
-wxMzA2MTY4NTczLC0xOTM2MjA4MDAzLDEwNzczMDEzNzcsMTQw
-MTAxMDMxMl19
+eyJoaXN0b3J5IjpbNTUwMzQxNTM1LDY0NDA0OTUwNywxNzk5Mz
+g0NjE0LDEwMDYzNDUzMzgsNjI1MDk4Nzc5LDkzMzkyNTE0MCwt
+MTA1MjcxNDQyNiwtMTMwNzY4NjEwNSw4NzEwMTAxNjEsLTE0OT
+Q2NDc0MDQsLTEyMzkzODYyODQsLTIwNDM2NDkyOTcsLTcyNzcy
+Nzc3OCwxMjQ2Nzk0MzM0LC0xMjg5NTc1Nzc2LDkxMzY3NTM3Ni
+w1OTM3NTg0NTAsMTMwNjE2ODU3MywtMTkzNjIwODAwMywxMDc3
+MzAxMzc3XX0=
 -->
