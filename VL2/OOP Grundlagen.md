@@ -22,7 +22,7 @@ __Objekt-Orientierte Programmierung Grundlagen__
 
 ## Eigenschaften
 
-<!-- was sind Eigenenschaften, wozu braucht man die-->
+<!-- was sind Eigenschaften, wozu braucht man die-->
 
 ---
 
@@ -130,3 +130,6 @@ __Objekt-Orientierte Programmierung Grundlagen__
    
 * Alle 4 [Operationen](https://de.wikipedia.org/wiki/Bruchrechnung#Rechnen_mit_Bruchtermen) (Addition, Subtraktion, Multiplikation, Division) müssen implementiert werden. 
 * __Freiwillig:__ Implementation eines Algorithmus zum Kürzen des berechneten Bruchs, also aus $\frac{2}{4} \Rightarrow \frac{1}{2}$ und aus $\frac{2}{1} \Rightarrow 2$
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbNjgwNjkyMjEyXX0=
+-->
