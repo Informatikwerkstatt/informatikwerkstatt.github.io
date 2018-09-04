@@ -290,8 +290,8 @@ mynumber = Integer.toString(counterI).
 <!-- Codebeispiel Main-Programm, Variablen deklarieren, Variablen setzen, Variablen mit Println ausgeben -->
 1. Schreibe eine Klasse Example.java mit einer `main()`-Methode
 2.  Kopieree das obigen Code-Fragment in den Rumpf der `main()`-Methode 
-3. Übersetze das Programm und führen es aus! Was beobachten Sie?
-4. Fügen Sie nun folgende Zeile am Ende des `main()`-Programms ein?
+3. Übersetze das Programm und führe es aus! Was beobachtest Du?
+4. Füge nun folgende Zeile am Ende des `main()`-Programms ein?
 ``` java
 /*
  hier versuche ich, eine double-Variable auf 
@@ -299,14 +299,14 @@ mynumber = Integer.toString(counterI).
  */
 counterI = counterD;
 ```
-5. Übersetzen Sie das Programm! Was beobachten Sie?
-6.  Ermitteln Sie jeweils durch Nachdenken oder probieren: Auf welche Typen können byte / int / double gecastet werden?
-7. Versuchen Sie, die Variable `counterD` auf die String-Variable `myNumber` zu casten! 
+5. Übersetze das Programm! Was beobachtest Du?
+6.  Ermittele jeweils durch Nachdenken oder probieren: Auf welche Typen können byte / int / double gecastet werden?
+7. Versuche, die Variable `counterD` auf die String-Variable `myNumber` zu casten! 
 
 ===
 ### Implizites vs. explizites Casting
-- Die Typenumwandlung ist oft notwendig, erfordert aber Sorgfalt!
-- Dabei können Probleme zur Übersetzungszeit und u.U. auch zur Ausführungszeit (runtime) eines Programmes auftreten. 
+- Typenumwandlung ist oft notwendig, erfordert aber Sorgfalt!
+- Dabei können Probleme zur Übersetzungszeit und u.U. auch zur Ausführungszeit (runtime) eines Programmes auftreten 
 - *Erweiterndes Casting* (z.B. von `int` auf `double`) wird vom Compiler automatisch durchgeführt (implizites Casting)
 - *Einschränkendes Casting* (z.B. von `double` auf `int`) muss explizit vom Programmierer gemacht *(und geprüft!)* werden. Beispiel:
 ``` java
@@ -315,7 +315,7 @@ double  pi  =  3.14159;
 //explizites casting
 myInt= (int)pi;
 ```
-- **@Let's try:** Führen Sie den o.g. Code aus und lassen die Werte von `myInt` und `pi` ausgeben! Was beobachten Sie?
+- **@Let's try:** Führe den o.g. Code aus und gib die Werte von `myInt` und `pi` aus! Was beobachtest Du?
 <!-- kein Compile-Fehler, aber nur ganzzahliger Anteil!-->
 
 ---
@@ -440,11 +440,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjYzMjg4NzgsLTEwNTI3MTQ0MjYsLT
-EzMDc2ODYxMDUsODcxMDEwMTYxLC0xNDk0NjQ3NDA0LC0xMjM5
-Mzg2Mjg0LC0yMDQzNjQ5Mjk3LC03Mjc3Mjc3NzgsMTI0Njc5ND
-MzNCwtMTI4OTU3NTc3Niw5MTM2NzUzNzYsNTkzNzU4NDUwLDEz
-MDYxNjg1NzMsLTE5MzYyMDgwMDMsMTA3NzMwMTM3NywxNDAxMD
-EwMzEyLC02MTUwMDU0NjUsMTY1NTY2MDM0OSwtNzgzMzM5MDE2
-LDExNjQxMjMzNjFdfQ==
+eyJoaXN0b3J5IjpbMTI0NDMwMjYxNCwtMTA1MjcxNDQyNiwtMT
+MwNzY4NjEwNSw4NzEwMTAxNjEsLTE0OTQ2NDc0MDQsLTEyMzkz
+ODYyODQsLTIwNDM2NDkyOTcsLTcyNzcyNzc3OCwxMjQ2Nzk0Mz
+M0LC0xMjg5NTc1Nzc2LDkxMzY3NTM3Niw1OTM3NTg0NTAsMTMw
+NjE2ODU3MywtMTkzNjIwODAwMywxMDc3MzAxMzc3LDE0MDEwMT
+AzMTIsLTYxNTAwNTQ2NSwxNjU1NjYwMzQ5LC03ODMzMzkwMTYs
+MTE2NDEyMzM2MV19
 -->
