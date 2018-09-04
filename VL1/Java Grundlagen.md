@@ -340,7 +340,9 @@ int l = 4 * i + j / 2;
 System.out.println("k = " + k);
 System.out.println("l = " + l);
 ```
-	
+===
+### Test auf Gleichheit
+- Häufig  	
 
 ## Ja / Nein / Vielleicht - If-Else
 
@@ -456,11 +458,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODg5OTU5Miw5MzM5MjUxNDAsLTEwNT
-I3MTQ0MjYsLTEzMDc2ODYxMDUsODcxMDEwMTYxLC0xNDk0NjQ3
-NDA0LC0xMjM5Mzg2Mjg0LC0yMDQzNjQ5Mjk3LC03Mjc3Mjc3Nz
-gsMTI0Njc5NDMzNCwtMTI4OTU3NTc3Niw5MTM2NzUzNzYsNTkz
-NzU4NDUwLDEzMDYxNjg1NzMsLTE5MzYyMDgwMDMsMTA3NzMwMT
-M3NywxNDAxMDEwMzEyLC02MTUwMDU0NjUsMTY1NTY2MDM0OSwt
-NzgzMzM5MDE2XX0=
+eyJoaXN0b3J5IjpbLTExNjc5MTY0MDIsOTMzOTI1MTQwLC0xMD
+UyNzE0NDI2LC0xMzA3Njg2MTA1LDg3MTAxMDE2MSwtMTQ5NDY0
+NzQwNCwtMTIzOTM4NjI4NCwtMjA0MzY0OTI5NywtNzI3NzI3Nz
+c4LDEyNDY3OTQzMzQsLTEyODk1NzU3NzYsOTEzNjc1Mzc2LDU5
+Mzc1ODQ1MCwxMzA2MTY4NTczLC0xOTM2MjA4MDAzLDEwNzczMD
+EzNzcsMTQwMTAxMDMxMiwtNjE1MDA1NDY1LDE2NTU2NjAzNDks
+LTc4MzMzOTAxNl19
 -->
