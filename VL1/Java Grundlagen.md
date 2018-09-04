@@ -464,8 +464,10 @@ int first = highscores[0]; //first hat nun Wert `1000`
 ```
 - Arrayelemente durchiterieren mit for-Schleife (s.u.)
 ``` java
-int first = highscores[0]; //first hat nun Wert `1000`
+for (int i=0; i<highscores.length; i++)
+	System.out.println(highscores[i]); 
 ```
+- Häufiger Fehler: Ungültiger Wert für Index --> Führt z
  
 ### Collections
 - Sammlung von Interfaces
@@ -551,11 +553,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ2NzE4OTQsMTIwMDQ5NzkyNCwxNjI2Mj
-Y1NTY0LC0xNzQzNDE1ODMxLC0yNzkxMjg2OTgsMTU5MTY3Mzkz
-OSwtNTk3ODc1MzM2LC0xNDU3MDUxNzA5LDU1MDM0MTUzNSw2ND
-QwNDk1MDcsMTc5OTM4NDYxNCwxMDA2MzQ1MzM4LDYyNTA5ODc3
-OSw5MzM5MjUxNDAsLTEwNTI3MTQ0MjYsLTEzMDc2ODYxMDUsOD
-cxMDEwMTYxLC0xNDk0NjQ3NDA0LC0xMjM5Mzg2Mjg0LC0yMDQz
-NjQ5Mjk3XX0=
+eyJoaXN0b3J5IjpbMTU2OTkwNjkzNSwxMjAwNDk3OTI0LDE2Mj
+YyNjU1NjQsLTE3NDM0MTU4MzEsLTI3OTEyODY5OCwxNTkxNjcz
+OTM5LC01OTc4NzUzMzYsLTE0NTcwNTE3MDksNTUwMzQxNTM1LD
+Y0NDA0OTUwNywxNzk5Mzg0NjE0LDEwMDYzNDUzMzgsNjI1MDk4
+Nzc5LDkzMzkyNTE0MCwtMTA1MjcxNDQyNiwtMTMwNzY4NjEwNS
+w4NzEwMTAxNjEsLTE0OTQ2NDc0MDQsLTEyMzkzODYyODQsLTIw
+NDM2NDkyOTddfQ==
 -->
