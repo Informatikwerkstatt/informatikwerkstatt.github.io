@@ -374,7 +374,7 @@ if (a>0)
 else 
   System.out.println(a + ist "nichtpositiv");
 ```
-Blövke mit mehr als einer Anweisung werden von geschweiften Klammern eingefasst
+- Blöcke mit mehr als einer Anweisung werden von geschweiften Klammern eingefasst
 
 ===
 
@@ -486,11 +486,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5OTM4NDYxNCwxMDA2MzQ1MzM4LDYyNT
-A5ODc3OSw5MzM5MjUxNDAsLTEwNTI3MTQ0MjYsLTEzMDc2ODYx
-MDUsODcxMDEwMTYxLC0xNDk0NjQ3NDA0LC0xMjM5Mzg2Mjg0LC
-0yMDQzNjQ5Mjk3LC03Mjc3Mjc3NzgsMTI0Njc5NDMzNCwtMTI4
-OTU3NTc3Niw5MTM2NzUzNzYsNTkzNzU4NDUwLDEzMDYxNjg1Nz
-MsLTE5MzYyMDgwMDMsMTA3NzMwMTM3NywxNDAxMDEwMzEyLC02
-MTUwMDU0NjVdfQ==
+eyJoaXN0b3J5IjpbODM0NTc2NiwxNzk5Mzg0NjE0LDEwMDYzND
+UzMzgsNjI1MDk4Nzc5LDkzMzkyNTE0MCwtMTA1MjcxNDQyNiwt
+MTMwNzY4NjEwNSw4NzEwMTAxNjEsLTE0OTQ2NDc0MDQsLTEyMz
+kzODYyODQsLTIwNDM2NDkyOTcsLTcyNzcyNzc3OCwxMjQ2Nzk0
+MzM0LC0xMjg5NTc1Nzc2LDkxMzY3NTM3Niw1OTM3NTg0NTAsMT
+MwNjE2ODU3MywtMTkzNjIwODAwMywxMDc3MzAxMzc3LDE0MDEw
+MTAzMTJdfQ==
 -->
