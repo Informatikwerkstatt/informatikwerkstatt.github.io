@@ -343,7 +343,14 @@ System.out.println("l = " + l);
 ===
 ### Test auf Gleichheit
 - Vorsicht beim Test auf Gleichheit bei speziellen Datenobjekten
-- Operator == prüft Gleichheit der Speicherstellen 	
+- Operator `==` prüft Gleichheit der Speicherstellen
+``` java
+int  i=1;
+int  j=1;
+System.out.println(i==j); // Ergebnis: true}
+```
+- bei String u
+
 
 ## Ja / Nein / Vielleicht - If-Else
 
@@ -459,11 +466,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI1MDk4Nzc5LDkzMzkyNTE0MCwtMTA1Mj
-cxNDQyNiwtMTMwNzY4NjEwNSw4NzEwMTAxNjEsLTE0OTQ2NDc0
-MDQsLTEyMzkzODYyODQsLTIwNDM2NDkyOTcsLTcyNzcyNzc3OC
-wxMjQ2Nzk0MzM0LC0xMjg5NTc1Nzc2LDkxMzY3NTM3Niw1OTM3
-NTg0NTAsMTMwNjE2ODU3MywtMTkzNjIwODAwMywxMDc3MzAxMz
-c3LDE0MDEwMTAzMTIsLTYxNTAwNTQ2NSwxNjU1NjYwMzQ5LC03
-ODMzMzkwMTZdfQ==
+eyJoaXN0b3J5IjpbNzA3NDQwNjE0LDYyNTA5ODc3OSw5MzM5Mj
+UxNDAsLTEwNTI3MTQ0MjYsLTEzMDc2ODYxMDUsODcxMDEwMTYx
+LC0xNDk0NjQ3NDA0LC0xMjM5Mzg2Mjg0LC0yMDQzNjQ5Mjk3LC
+03Mjc3Mjc3NzgsMTI0Njc5NDMzNCwtMTI4OTU3NTc3Niw5MTM2
+NzUzNzYsNTkzNzU4NDUwLDEzMDYxNjg1NzMsLTE5MzYyMDgwMD
+MsMTA3NzMwMTM3NywxNDAxMDEwMzEyLC02MTUwMDU0NjUsMTY1
+NTY2MDM0OV19
 -->
