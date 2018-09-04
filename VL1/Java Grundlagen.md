@@ -379,8 +379,8 @@ else
 ===
 
 ### Ternärer Operator
-
 <!-- was ist das, wann nutzt man if, wann den ternären Operator -->
+Wenn nur zwischen zwei Ausgabewerten unterschieden werden soll, so gibt es für die If-Then-Else-Anweisung eine Kurzform; und zwar den
 
 ---
 ---
@@ -486,11 +486,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM0NTc2NiwxNzk5Mzg0NjE0LDEwMDYzND
-UzMzgsNjI1MDk4Nzc5LDkzMzkyNTE0MCwtMTA1MjcxNDQyNiwt
-MTMwNzY4NjEwNSw4NzEwMTAxNjEsLTE0OTQ2NDc0MDQsLTEyMz
-kzODYyODQsLTIwNDM2NDkyOTcsLTcyNzcyNzc3OCwxMjQ2Nzk0
-MzM0LC0xMjg5NTc1Nzc2LDkxMzY3NTM3Niw1OTM3NTg0NTAsMT
-MwNjE2ODU3MywtMTkzNjIwODAwMywxMDc3MzAxMzc3LDE0MDEw
-MTAzMTJdfQ==
+eyJoaXN0b3J5IjpbLTE5MjMyMzg2MzksMTc5OTM4NDYxNCwxMD
+A2MzQ1MzM4LDYyNTA5ODc3OSw5MzM5MjUxNDAsLTEwNTI3MTQ0
+MjYsLTEzMDc2ODYxMDUsODcxMDEwMTYxLC0xNDk0NjQ3NDA0LC
+0xMjM5Mzg2Mjg0LC0yMDQzNjQ5Mjk3LC03Mjc3Mjc3NzgsMTI0
+Njc5NDMzNCwtMTI4OTU3NTc3Niw5MTM2NzUzNzYsNTkzNzU4ND
+UwLDEzMDYxNjg1NzMsLTE5MzYyMDgwMDMsMTA3NzMwMTM3Nywx
+NDAxMDEwMzEyXX0=
 -->
