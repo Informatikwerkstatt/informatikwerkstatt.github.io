@@ -509,6 +509,7 @@ Detailliertere Infos zum Java Collections Framework findest Du [hier](https://do
  1. eine ArrayList Deiner Wahl deklarierst
  2. sie mit Werten füllst
  3. und danach die Werte ausliest und ausgibst 
+ 
 ---
 
 ## Wieder und wieder und wieder... - Schleifen
@@ -589,7 +590,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjkzNTQ3NTksLTk3NDI2MDc0MywtMT
+eyJoaXN0b3J5IjpbLTExOTE1NTY3NjcsLTk3NDI2MDc0MywtMT
 kyODY3NDY1MCwtMTE1OTEzOTMwMSwxNDg4MzE4NjM5LDEyMDA0
 OTc5MjQsMTYyNjI2NTU2NCwtMTc0MzQxNTgzMSwtMjc5MTI4Nj
 k4LDE1OTE2NzM5MzksLTU5Nzg3NTMzNiwtMTQ1NzA1MTcwOSw1
