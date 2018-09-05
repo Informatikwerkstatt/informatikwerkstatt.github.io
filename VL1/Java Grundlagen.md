@@ -47,14 +47,11 @@ public class CHelloWorld
 
 ===
 
-## Java auf Android-Endgeräten
-<!-- eine Subfolie für Java bei Android (Achtung die Infos auf Folien vom letzten Jahr stimmen nicht mehr Dalvik VM wird bei Android nicht mehr benutzt
-JPM: Ich würde das eher am Anfang der Android-Intro machen. Hier eher die allgemeine Abbildung, die den Cross-Platform Charakter von Java illustriert, s.u. -->
+## Java überall
 
-- Android: Betriebssystem für mobile Endgeräte
-- Eigene JVM für Android, siehe [Android Grundlage](/android-grundlagen/)!
+Wir nutzen später in dieser Vorlesung [Java auf Android](/android-grundlagen/)
 
-    ![Deployment](images/java-cross-pf.png#center)
+![Deployment](images/java-cross-pf.png#center)
 
 ---
 
@@ -64,11 +61,13 @@ JPM: Ich würde das eher am Anfang der Android-Intro machen. Hier eher die allge
 
 - **Quellcode**: Textbasierte Darstellung eines Programms
     - ```.java``` Textdatei, erstellt z.B. [Visual Studio Code](https://code.visualstudio.com/)
-	 - einzelne Zeichen als Bitfolgen gespeichert, standardisierte [Kodierung](https://de.wikipedia.org/wiki/Zeichenkodierung) (z.B. [UTF-8](https://de.wikipedia.org/wiki/UTF-8))
-	 - Textdateien können nur textuelle Information enthalten
+    - Zeichen werden in einer [Kodierung](https://de.wikipedia.org/wiki/Zeichenkodierung) gespeichert (deutsche Umlaute)
+    - heute wird meist [UTF-8](https://de.wikipedia.org/wiki/UTF-8)
+
 - **Binärcode**: Ausführbares Programm als Bytefolge gespeichert, 
     - ```.class``` Binärdateien sind nicht für den Menschen lesbar
     - werden von Programmen wie dem Java Compiler ```javac``` erzeugt
+
 - **App**: Ein Programm, das vom Nutzer aufgerufen und verwendet werden kann (z.B. Google Maps)
 
 ---
@@ -133,8 +132,8 @@ java HelloWorld
 ## @Let's try
 
 1. Starte _Visual Studio Code_
-2. Erstelle leere Datei mit dem Namen ```HelloWorld.java```
-3. Kopiere oder schreibe den Beispielcode des Hello-World-Programms __exakt wie angegeben,__ in die Datei
+2. Erstelle leere Datei mit dem Namen ```CHelloWorld.java```
+3. Kopiere oder schreibe den Beispielcode des [Hello-World-Programms](#/1/1) __exakt wie angegeben,__ in die Datei
 4. Speichere die Datei auf dem Desktop
 5. Öffne die _Eingabeaufforderung_
 6. Schau mittels ```dir``` wo der Desktop ist
@@ -147,10 +146,9 @@ java HelloWorld
 ## Aufbau eines Java-Programms
 
 - Betrachten wir noch einmal unser [HelloWorld-Programm](#/1/1)
-- Quelldatei enthält Klasse HelloWorld 
+- Quelldatei enthält Klasse ```CHelloWorld```
     - *Achtung*: Groß-/Kleinschreibung wird in Java generell unterschieden!
-- Verhalten einer Klasse wird durch Methoden beschrieben
-- Die ```CHelloWorld``` Klasse hat eine Methode: ```main()``` 
+- Die ```CHelloWorld``` Klasse hat eine [Methode](/oop-grundlagen/#/6) ```main``` zum Starten des Programms 
 
 ===
 
@@ -433,8 +431,8 @@ System.out.println("l = " + l);
 
 ## @Let's try
 
-1. Erstellen Sie eine Klasse ```Example1``` (Datei ```Example1.java```) mit einer ```main()```-Methode.
-2.  Probieren Sie die obigen Beispiele für ```if-else``` und den ternären Operator aus!
+1. Erstellt eine Klasse ```Example1``` (Datei ```Example1.java```) mit einer ```main()```-Methode.
+2.  Probiert die obigen Beispiele für ```if-else``` und den ternären Operator aus!
 
 ===
 
@@ -666,7 +664,7 @@ Schreibe ein weiteres Programm, in dem Du
      ```
      
 - Es gibt Fälle, in denen Endlosschleifen beabsichtigt sind.
-- Manchmal entstehen Sie aber unbeabsichtigt - durch Programmierfehler
+- Manchmal entstehen sie aber unbeabsichtigt - durch Programmierfehler
 
 ===
 
@@ -750,7 +748,7 @@ Schreibe ein weiteres Programm, in dem Du
 
 ### @Let's try: Ein Beispiel
 
-Lassen Sie das folgende Beispiel laufen - was passiert?
+Lasst das folgende Beispiel laufen - was passiert?
 
 ```java
 public class Div0Fehler
@@ -815,19 +813,19 @@ public class Div0Fehler
 ## @Home/Übung
 
 - Im Abschnitt über Arrays haben wir das Problem kennengelernt, dass mit ungültigen (zu großen oder negativen) Array-Indizes auf Elemente eines Arrays zugegriffen wird
- 1. Schreiben Sie ein Programm, in dem eine solche Situation auftritt
+ 1. Schreibt ein Programm, in dem eine solche Situation auftritt
  2. Wie heisst die Exception, die hier "geworfen" wird?
- 3. Überlegen Sie, wie Sie die Situation behandeln können
- 4. Erstellen Sie einen entsprechenden Try-Catch-Block
- 5. Compilieren Sie ihr Programm und lassen es laufen
+ 3. Überlegt, wie die Situation behandelt werden kann
+ 4. Erstellen einen entsprechenden Try-Catch-Block
+ 5. Compiliert das Programm und lassen es laufen
 
 ---
 
 ## @Home/Übung
 
-> Schreiben Sie ein Programm, das zwei Argumente von der Kommandozeile einliest, einen String und eine Zahl, und das den String so oft auf der Kommandozeile ausgibt, wie die Zahl angibt.
+> Schreiben ein Programm, das zwei Argumente von der Kommandozeile einliest, einen String und eine Zahl, und das den String so oft auf der Kommandozeile ausgibt, wie die Zahl angibt.
 
-- Prüfen Sie die Typen der Eingaben
+- Prüft die Typen der Eingaben
 - Bei einem leeren String sollte eine Fehlermeldung ausgegeben werden, dass der String leer ist
 - Wenn die Zahl $\leq 0$ ist, dann soll eine passende Fehlermeldung ausgegeben werden
 * Wenn die Argumentanzahl nicht stimmt, soll auch eine passende Meldung ausgegeben werden
@@ -837,10 +835,10 @@ public class Div0Fehler
 
 ## @Home/Übung
 
-> Schreiben Sie ein Programm, dass zwei ganze Zahlen A und B von der Kommandozeile einliest und (1) das Ergebnis der ganzzahligen Division der beiden Zahlen sowie (2) den Rest der ganzzahligen Division ausgibt.
+> Schreibt ein Programm, dass zwei ganze Zahlen A und B von der Kommandozeile einliest und (1) das Ergebnis der ganzzahligen Division der beiden Zahlen sowie (2) den Rest der ganzzahligen Division ausgibt.
 
-* Prüfen Sie Typen und Anzahl der Eingaben (insbesondere Anforderung:  *ganze* Zahl! )
-* Geben Sie entsprechende Fehlermeldungen aus
+* Prüft Typen und Anzahl der Eingaben (insbesondere Anforderung:  *ganze* Zahl! )
+* Gebt eine entsprechende Fehlermeldungen aus
 
 ---
 
