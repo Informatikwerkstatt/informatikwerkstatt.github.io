@@ -620,13 +620,18 @@ public  class  Endless
 ---
 
 ## @Let's try
-- Versuche 
+- Versuche, die obigen Beispiele selbst zum Laufen zu bringen. 
+	- for each, 
+	- while / do while
+	- Endlosschleife
+
 
 
 ---
 
 ### @Profis - Lambda-Expression & Streaming-API
 <!-- @Phil: Ich denke, das ist hier zu viel. Würd ich weglassen, höchstens später on demand -->
+
 <!-- 
 https://blog.codecentric.de/2013/10/java-8-erste-schritte-mit-lambdas-und-streams/
 https://www.baeldung.com/java-8-streams
@@ -672,7 +677,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkwNDMxNjQ4LC0xODE3NTEyMzcsMTQ5MD
+eyJoaXN0b3J5IjpbNzMwNzk5MjcxLC0xODE3NTEyMzcsMTQ5MD
 c2MTIwLDEwMTcxNzg5NjEsLTg3MDI4Mjc3LDIwMjQxNDYzMzIs
 MzE1NTY0MDMxLDE2NTk5NTUwOTYsMTczNjQwMDk4NywtMTA0Nz
 IyOTE2MywtMTMwMzM2ODQ1MSwxODMwNzU1OTE0LC0xNDcxMTc2
