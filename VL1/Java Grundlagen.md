@@ -551,10 +551,13 @@ for (String item : someList) {
 - z.B. wir schauen alle 5 Minuten so lange in den Briefkasten, bis ein Brief drinnen liegt
 ``` 
 // pseudocode
+Mail m = null;
 boolean gotmail = false;
 while (! gotmail ){
-	Mail m = Mailbox.lookup(); // look for new mail
-	gotmail = (m != null); //
+	m = Mailbox.lookup(); // look for new mail
+	gotmail = (m != null); 
+}
+m.read();
 	
 ```
 
@@ -625,11 +628,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA5MTM1MjE1LC0xMzAzMzY4NDUxLDE4Mz
-A3NTU5MTQsLTE0NzExNzY3MDcsLTQ1MDA3NzIzLDY1MTE4MjU2
-NywtMTgyMzg4NDI4NSwtMTI3MTY2ODMwLC05NzQyNjA3NDMsLT
-E5Mjg2NzQ2NTAsLTExNTkxMzkzMDEsMTQ4ODMxODYzOSwxMjAw
-NDk3OTI0LDE2MjYyNjU1NjQsLTE3NDM0MTU4MzEsLTI3OTEyOD
-Y5OCwxNTkxNjczOTM5LC01OTc4NzUzMzYsLTE0NTcwNTE3MDks
-NTUwMzQxNTM1XX0=
+eyJoaXN0b3J5IjpbLTEwNDcyMjkxNjMsLTEzMDMzNjg0NTEsMT
+gzMDc1NTkxNCwtMTQ3MTE3NjcwNywtNDUwMDc3MjMsNjUxMTgy
+NTY3LC0xODIzODg0Mjg1LC0xMjcxNjY4MzAsLTk3NDI2MDc0My
+wtMTkyODY3NDY1MCwtMTE1OTEzOTMwMSwxNDg4MzE4NjM5LDEy
+MDA0OTc5MjQsMTYyNjI2NTU2NCwtMTc0MzQxNTgzMSwtMjc5MT
+I4Njk4LDE1OTE2NzM5MzksLTU5Nzg3NTMzNiwtMTQ1NzA1MTcw
+OSw1NTAzNDE1MzVdfQ==
 -->
