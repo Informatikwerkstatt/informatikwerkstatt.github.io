@@ -437,6 +437,7 @@ else {
 - Elemente über eine Index-Variable (Werte von `0` bis `Länge-1`) addressierbar
 ![](http://winf.in.tu-clausthal.de/jpm/infws/img/1_array.png)
 - Arrays können verschachtelt sein 
+
 ===
 ### Array anlegen / initialisieren
 <!-- verschiedene Arten für die Initialisierung von Arrays -->
@@ -592,11 +593,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUxMTgyNTY3LC0xODIzODg0Mjg1LC0xMj
-cxNjY4MzAsLTk3NDI2MDc0MywtMTkyODY3NDY1MCwtMTE1OTEz
-OTMwMSwxNDg4MzE4NjM5LDEyMDA0OTc5MjQsMTYyNjI2NTU2NC
-wtMTc0MzQxNTgzMSwtMjc5MTI4Njk4LDE1OTE2NzM5MzksLTU5
-Nzg3NTMzNiwtMTQ1NzA1MTcwOSw1NTAzNDE1MzUsNjQ0MDQ5NT
-A3LDE3OTkzODQ2MTQsMTAwNjM0NTMzOCw2MjUwOTg3NzksOTMz
-OTI1MTQwXX0=
+eyJoaXN0b3J5IjpbLTQ1MDA3NzIzLDY1MTE4MjU2NywtMTgyMz
+g4NDI4NSwtMTI3MTY2ODMwLC05NzQyNjA3NDMsLTE5Mjg2NzQ2
+NTAsLTExNTkxMzkzMDEsMTQ4ODMxODYzOSwxMjAwNDk3OTI0LD
+E2MjYyNjU1NjQsLTE3NDM0MTU4MzEsLTI3OTEyODY5OCwxNTkx
+NjczOTM5LC01OTc4NzUzMzYsLTE0NTcwNTE3MDksNTUwMzQxNT
+M1LDY0NDA0OTUwNywxNzk5Mzg0NjE0LDEwMDYzNDUzMzgsNjI1
+MDk4Nzc5XX0=
 -->
