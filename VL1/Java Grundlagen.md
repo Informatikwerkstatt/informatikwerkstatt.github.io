@@ -553,8 +553,9 @@ for (String item : someList) {
 // pseudocode
 boolean gotmail = false;
 while (! gotmail ){
-	Mail m = Mailbox.lookup(); //
-	gotm
+	Mail m = Mailbox.lookup(); // look for new mail
+	gotmail = (m != null); //
+	
 ```
 
 ---
@@ -624,11 +625,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMTgxMDc5NywtMTMwMzM2ODQ1MSwxOD
-MwNzU1OTE0LC0xNDcxMTc2NzA3LC00NTAwNzcyMyw2NTExODI1
-NjcsLTE4MjM4ODQyODUsLTEyNzE2NjgzMCwtOTc0MjYwNzQzLC
-0xOTI4Njc0NjUwLC0xMTU5MTM5MzAxLDE0ODgzMTg2MzksMTIw
-MDQ5NzkyNCwxNjI2MjY1NTY0LC0xNzQzNDE1ODMxLC0yNzkxMj
-g2OTgsMTU5MTY3MzkzOSwtNTk3ODc1MzM2LC0xNDU3MDUxNzA5
-LDU1MDM0MTUzNV19
+eyJoaXN0b3J5IjpbNDA5MTM1MjE1LC0xMzAzMzY4NDUxLDE4Mz
+A3NTU5MTQsLTE0NzExNzY3MDcsLTQ1MDA3NzIzLDY1MTE4MjU2
+NywtMTgyMzg4NDI4NSwtMTI3MTY2ODMwLC05NzQyNjA3NDMsLT
+E5Mjg2NzQ2NTAsLTExNTkxMzkzMDEsMTQ4ODMxODYzOSwxMjAw
+NDk3OTI0LDE2MjYyNjU1NjQsLTE3NDM0MTU4MzEsLTI3OTEyOD
+Y5OCwxNTkxNjczOTM5LC01OTc4NzUzMzYsLTE0NTcwNTE3MDks
+NTUwMzQxNTM1XX0=
 -->
