@@ -645,8 +645,9 @@ public  class  Endless
 - Fehler in Programmen, z.B.
 	- Division durch 0
 	- Zugriff auf einen nicht existierenden Array-Index
-	- 
-	- führen in anderen Programmiersprachen, wie z.B.. in C, direkt zu Programmabstürzen. Diese Fehler werden in Java als _Exception_ (Ausnahme) bezeichnet. 
+	- Zugriff auf ein noch nicht erzeugtes Objekt
+- Diese Fehler werden in Java als _Exception_ (Ausnahme) bezeichnet 
+- Sie treten zur Laufzeit ein (deshalb: RuntimeException) Abstürzen oder unerwünschten Programmzuständen führt. _Exceptions_ treten immer erst zur Laufzeit ein,
 
 ---
 
@@ -681,11 +682,11 @@ public  class  Endless
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTgzOTYwMzcsLTE5Mjc4MTk4MDcsLT
-E4MTc1MTIzNywxNDkwNzYxMjAsMTAxNzE3ODk2MSwtODcwMjgy
-NzcsMjAyNDE0NjMzMiwzMTU1NjQwMzEsMTY1OTk1NTA5NiwxNz
-M2NDAwOTg3LC0xMDQ3MjI5MTYzLC0xMzAzMzY4NDUxLDE4MzA3
-NTU5MTQsLTE0NzExNzY3MDcsLTQ1MDA3NzIzLDY1MTE4MjU2Ny
-wtMTgyMzg4NDI4NSwtMTI3MTY2ODMwLC05NzQyNjA3NDMsLTE5
-Mjg2NzQ2NTBdfQ==
+eyJoaXN0b3J5IjpbMTIzNDc4NTY2NiwtMTkyNzgxOTgwNywtMT
+gxNzUxMjM3LDE0OTA3NjEyMCwxMDE3MTc4OTYxLC04NzAyODI3
+NywyMDI0MTQ2MzMyLDMxNTU2NDAzMSwxNjU5OTU1MDk2LDE3Mz
+Y0MDA5ODcsLTEwNDcyMjkxNjMsLTEzMDMzNjg0NTEsMTgzMDc1
+NTkxNCwtMTQ3MTE3NjcwNywtNDUwMDc3MjMsNjUxMTgyNTY3LC
+0xODIzODg0Mjg1LC0xMjcxNjY4MzAsLTk3NDI2MDc0MywtMTky
+ODY3NDY1MF19
 -->
