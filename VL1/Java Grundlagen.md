@@ -56,7 +56,7 @@ public class HelloWorld
 JPM: Ich würde das eher am Anfang der Android-Intro machen. Hier eher die allgemeine Abbildung, die den Cross-Platform Charakter von Java illustriert, s.u. -->
 
  - Android: Betriebssystem für mobile Endgeräte
- - Eigene JVM für Android, siehe Vorlesung 4!
+ - Eigene JVM für Android, siehe VL4!
   ![](http://winf.in.tu-clausthal.de/jpm/infws/img/java-cross-pf.png)
 
 ---
@@ -150,7 +150,7 @@ Und hier das ganze im Video:
 
 ## Aufbau eines Java-Programms
 <!-- wie ist der allgemeine Aufbau eines Java Programs, Stichwort Klasse, Stichwork main, insbesondere Parameter erklären -->
-- Betrachten wir noch einmal unser HelloWorld-Programms
+- Betrachten wir noch einmal unser HelloWorld-Programm
 ```java
 public class HelloWorld
 {
@@ -591,11 +591,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzE2NjgzMCwtOTc0MjYwNzQzLC0xOT
-I4Njc0NjUwLC0xMTU5MTM5MzAxLDE0ODgzMTg2MzksMTIwMDQ5
-NzkyNCwxNjI2MjY1NTY0LC0xNzQzNDE1ODMxLC0yNzkxMjg2OT
-gsMTU5MTY3MzkzOSwtNTk3ODc1MzM2LC0xNDU3MDUxNzA5LDU1
-MDM0MTUzNSw2NDQwNDk1MDcsMTc5OTM4NDYxNCwxMDA2MzQ1Mz
-M4LDYyNTA5ODc3OSw5MzM5MjUxNDAsLTEwNTI3MTQ0MjYsLTEz
-MDc2ODYxMDVdfQ==
+eyJoaXN0b3J5IjpbLTQzMTQzOTkyMCwtMTI3MTY2ODMwLC05Nz
+QyNjA3NDMsLTE5Mjg2NzQ2NTAsLTExNTkxMzkzMDEsMTQ4ODMx
+ODYzOSwxMjAwNDk3OTI0LDE2MjYyNjU1NjQsLTE3NDM0MTU4Mz
+EsLTI3OTEyODY5OCwxNTkxNjczOTM5LC01OTc4NzUzMzYsLTE0
+NTcwNTE3MDksNTUwMzQxNTM1LDY0NDA0OTUwNywxNzk5Mzg0Nj
+E0LDEwMDYzNDUzMzgsNjI1MDk4Nzc5LDkzMzkyNTE0MCwtMTA1
+MjcxNDQyNl19
 -->
