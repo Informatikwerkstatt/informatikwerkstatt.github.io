@@ -505,14 +505,14 @@ for (int  i  =0; i <  betreuer.size(); i++)
 ### @Let's try 
 <!-- an dieser Folienformattierung verzweifele ich -->
 * Schreibe zunächst ein kleines Programm, in dem Du 
-    1. einen `Array` Deiner Wahl deklarierst
-    2. ihn initialisierst
-    3. seine Werte ausliest und ausgibst 
+  1. einen `Array` Deiner Wahl deklarierst
+  2. ihn initialisierst
+  3. seine Werte ausliest und ausgibst 
  
 * **@Crack**: Schreibe ein weiteres Programm, in dem Du 
-    1. eine `ArrayList` Deiner Wahl deklarierst
-    2. sie mit Werten füllst
-    3. und danach die Werte ausliest und ausgibst 
+  1. eine `ArrayList` Deiner Wahl deklarierst
+  2. sie mit Werten füllst
+  3. und danach die Werte ausliest und ausgibst 
 
 ---
 ## Wieder und wieder und wieder... - Schleifen
