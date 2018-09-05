@@ -157,7 +157,7 @@ java HelloWorld
 
 ### Klassen 
 	
-- Zentrale Einheit der [objektorientierten Programmierung](/oop-grundlagen/)). 
+- Zentrale Einheit der [objektorientierten Programmierung](/oop-grundlagen/). 
 - Programmcode ist in Klassen organisiert
 - Klasse hat Namen (z.B. ```CHelloWorld```)
 - Konvention: Name der Klasse = Name der Quelldatei, die die Klasse enthält und Prefix ```C``` für Klasse / Class
@@ -182,7 +182,7 @@ java HelloWorld
 
 * Java besitzt [50 reservierte Schlüsselwörter](https://en.wikipedia.org/wiki/List_of_Java_keywords), die in der Sprachdefinition festgelegt sind.
 * Sie definieren den Grundwortschatz der Programmiersprache, grundlegende Befehle
-* Im [HelloWorld-Programm](#/5) haben wir bereits einige davon kennen gelernt: ```public```, ```class```, ```static```, ```void```
+* Im [HelloWorld-Programm](#/1/1) haben wir bereits einige davon kennen gelernt: ```public```, ```class```, ```static```, ```void```
 * Schlüsselwörter dürfen nicht als Variablen-, Funktions-, Methoden-, Klassennamen benutzt werden
 
 ---
@@ -220,7 +220,7 @@ Man könnte doch für alles `double` verwenden ...
  
 - Benannter Bereich im Speicher, dem in einem Programm ein Wert zugewiesen werden kann 
 - Mithilfe der Datentypen können wir dem Java-Compiler genau beschreiben, welches erlaubte Werte einer Variable sind 
-- Wir erweitern unser [HelloWorld-Programm](#/5):
+- Wir erweitern unser [HelloWorld-Programm](#/1/1):
 
    ```java    
     public class HelloWorld
@@ -403,7 +403,7 @@ System.out.println("l = " + l);
     else 
     	  System.out.println(a + ist "nichtpositiv");
     ```
-    ```
+
 - Blöcke mit mehreren Anweisungen in geschweifte Klammern einfassen!
 
 ===
