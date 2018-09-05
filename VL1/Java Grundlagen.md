@@ -531,14 +531,14 @@ for ( int i = 0; i < highscores.length; i++ )
     System.out.println(highscores[i]); 
     ```
 
-- Häufiger Fehler: Ungültiger Wert für Index --> Führt zu Laufzeitfehler
+- Häufiger Fehler: Ungültiger Wert für Index &rarr; führt zu Laufzeitfehler
 
     ```java
 final int[] highscores = {1000, 850, 600};
 
-//Zugriff auf viertes Element --> Fehler
+//Zugriff auf viertes Element was nicht existiert
 final int l_wert = highscores[3]; 
-    ``` 
+``` 
 
 ===
 
