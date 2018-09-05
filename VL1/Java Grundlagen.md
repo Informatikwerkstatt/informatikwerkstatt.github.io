@@ -579,6 +579,10 @@ while ( true ) {
  ```
 - Es gibt Fälle, in denen Endlosschleifen beabsichtigt sind.
 - Manchmal entstehen Sie aber unbeabsichtigt - durch Programmierfehler
+
+===
+### Oh weh, was macht mein Programm
+- @LetWas passiert hier? 
  ``` java
 public  class  Endless
 {
@@ -655,11 +659,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNDE0NjMzMiwzMTU1NjQwMzEsMTY1OT
-k1NTA5NiwxNzM2NDAwOTg3LC0xMDQ3MjI5MTYzLC0xMzAzMzY4
-NDUxLDE4MzA3NTU5MTQsLTE0NzExNzY3MDcsLTQ1MDA3NzIzLD
-Y1MTE4MjU2NywtMTgyMzg4NDI4NSwtMTI3MTY2ODMwLC05NzQy
-NjA3NDMsLTE5Mjg2NzQ2NTAsLTExNTkxMzkzMDEsMTQ4ODMxOD
-YzOSwxMjAwNDk3OTI0LDE2MjYyNjU1NjQsLTE3NDM0MTU4MzEs
-LTI3OTEyODY5OF19
+eyJoaXN0b3J5IjpbLTEwMzQ4MTA5NiwyMDI0MTQ2MzMyLDMxNT
+U2NDAzMSwxNjU5OTU1MDk2LDE3MzY0MDA5ODcsLTEwNDcyMjkx
+NjMsLTEzMDMzNjg0NTEsMTgzMDc1NTkxNCwtMTQ3MTE3NjcwNy
+wtNDUwMDc3MjMsNjUxMTgyNTY3LC0xODIzODg0Mjg1LC0xMjcx
+NjY4MzAsLTk3NDI2MDc0MywtMTkyODY3NDY1MCwtMTE1OTEzOT
+MwMSwxNDg4MzE4NjM5LDEyMDA0OTc5MjQsMTYyNjI2NTU2NCwt
+MTc0MzQxNTgzMV19
 -->
