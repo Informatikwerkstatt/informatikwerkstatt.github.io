@@ -239,14 +239,14 @@ Man könnte doch für alles `double` verwenden ...
 <!-- Zuweisungen von Variablen, Beachtung von final -->
 
 - Variable muss vor Verwendung deklariert werden
-    ```  java
-        	private final String message = "Hello World";
+    ``` java
+    private final String message = "Hello World";
     ```
 - Mit dem Zuweisungsoperator ```=``` kann einer Variable ein Wert zugewiesen werden
 - ```=``` kopiert Wert auf der rechten Seite in die Variable auf der linken 
 - Wichtig: Initiale Wertzuweisung (=Initialisierung) vor Verwendung einer Variable! 
-- Modifikator ```final``` gibt an, dass die Variable nach der Initialisierung nicht mehr verändert werden darf
-- ```final``` wird häufig verwendet, um Konstanten zu definieren
+- Modifikator ```java  final``` gibt an, dass die Variable nach der Initialisierung nicht mehr verändert werden darf
+- ```java  final``` wird häufig verwendet, um Konstanten zu definieren
 
 ===
 
@@ -257,17 +257,18 @@ Man könnte doch für alles `double` verwenden ...
 
 ```java	
 public static void main( String[] p_args )
-	{
-		System.out.println( message );
+{
+    System.out.println( message );
+}
 ```
 
 === 
 
-### main() Methode
+### main-Methode
  
-- Programme wie unser ```HelloWorld``` Beispiel , die eine main() Methode haben, sind *ausführbar*.
-- Ausführung: Aufruf / Abarbeitung der ```main()```-Methode
-- Das Argument ```String[] p_args``` der ```main()``` Methode kann genutzt werden, um bei dem Aufruf des Programms über die Kommandozeile Parameter an es zu übergeben.
+- Programme wie unser [HelloWorld-Beispiel](#/1/1) , die eine ```main```-Methode haben, sind *ausführbar*.
+- Ausführung: Aufruf / Abarbeitung der ```main```-Methode
+- Das Argument ```java String[] p_args``` der ```main```-Methode kann genutzt werden, um bei dem Aufruf des Programms über die Kommandozeile Parameter an es zu übergeben.
 
 ---
 
@@ -293,10 +294,10 @@ mynumber = Integer.toString(counterI).
 
 ### @Let's try
 
-1. Schreibe eine Klasse Example.java mit einer ```main()```-Methode
-2. Kopiere das obigen Code-Fragment in den Rumpf der ```main()```-Methode 
+1. Schreibe eine Klasse Example.java mit einer ```main```-Methode
+2. Kopiere das obigen Code-Fragment in den Rumpf der ```main```-Methode 
 4. Übersetze das Programm und führe es aus! Was beobachtest Du?
-5. Füge nun folgende Zeile am Ende des ```main()```-Programms ein?
+5. Füge nun folgende Zeile am Ende des ```main```-Programms ein?
 
     ``` java
     ///*
@@ -431,7 +432,7 @@ System.out.println("l = " + l);
 
 ## @Let's try
 
-1. Erstellt eine Klasse ```Example1``` (Datei ```Example1.java```) mit einer ```main()```-Methode.
+1. Erstellt eine Klasse ```Example1``` (Datei ```Example1.java```) mit einer ```main```-Methode.
 2.  Probiert die obigen Beispiele für ```if-else``` und den ternären Operator aus!
 
 ===
@@ -771,7 +772,7 @@ public class Div0Fehler
 - Java verwendet das sogenannte Try-Catch Modell zur Ausnahmebehandlung
 - Code, in dem eine Ausnahme auftreten kann, wird in einen "Catch-Block" eingeschlossen.
 - Dahinter wird ein Try-Block angegeben, der bestimmt, was im Falle des Auftretens von Ausnahmen zu tun ist.
-- Wir erweitern den Rumpf der main()-Methode unserer `Div0Fehler`-Klasse
+- Wir erweitern den Rumpf der ```main```-Methode unserer `Div0Fehler`-Klasse
     
     ```java
       int  ergebnis=0;
@@ -858,7 +859,7 @@ public class Div0Fehler
 - Variablen dürfen nur Zahlen, Buchstaben, oder \_ enthalten
 - Konstanten i.d.R.  in Großbuchstaben, Teilworte mit \_ getrennt, z.B. ```final String APP_NAME = “Meine App“;```
 - Konventionen
-	- Variablen- und Methodennamen beginnen mit Kleinbuchstaben, z.B. ```liste```, ```main()``` <!-- $, \_ bei Variablen hab ich hier weggelassen, zuviel Detail -->
+	- Variablen- und Methodennamen beginnen mit Kleinbuchstaben, z.B. ```liste```, ```main``` <!-- $, \_ bei Variablen hab ich hier weggelassen, zuviel Detail -->
 	- Klassennamen beginnen mit Großbuchstaben
 	- Besteht ein Name aus mehreren Worten, werden die Anfangsbuchstaben der inneren Worte  groß geschrieben (= CamelCase), z.B.
 	- Variable: ```highScoreListe```
