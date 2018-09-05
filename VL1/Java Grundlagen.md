@@ -667,7 +667,9 @@ public  class  Div0Fehler{
 ===
 ### Fang den Fehler - try-catch
 <!-- wie behandelt man Exceptions -->
-
+- Java verwendet das sogenannte Try-Catch Modell zur Ausnahmebehandlung
+- Code, in dem eine Ausnahme auftreten kann, wird in einen "Catch-Block" eingeschlossen.
+- Dahinter wird ein Try-Block angegeben, der bestimmt, was im Falle welcher 
 
 ---
 
@@ -696,7 +698,7 @@ public  class  Div0Fehler{
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4Njg4MDA3OSw4MDkyODIzMTcsLTUyMT
+eyJoaXN0b3J5IjpbMTA5OTA1NDkwMiw4MDkyODIzMTcsLTUyMT
 MxNzQyNSwtMTkyNzgxOTgwNywtMTgxNzUxMjM3LDE0OTA3NjEy
 MCwxMDE3MTc4OTYxLC04NzAyODI3NywyMDI0MTQ2MzMyLDMxNT
 U2NDAzMSwxNjU5OTU1MDk2LDE3MzY0MDA5ODcsLTEwNDcyMjkx
