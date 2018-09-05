@@ -72,9 +72,6 @@
                     .append( jQuery( '<script/>' ).attr( 'src', '//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/shell.min.js' ) )
                     .append( jQuery( '<script/>' ).attr( 'src', '//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/powershell.min.js' ) )
                 hljs.initHighlightingOnLoad();   
-                jQuery('pre code').each(function() {
-                    hljs.highlightBlock(this, '    ');
-                });
             } },
         ]
     });
