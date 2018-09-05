@@ -18,7 +18,7 @@
 
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/css/reveal.min.css" />
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/layout.css" id="theme" />
-    <link ref="stylesheet" href="{{ site.baseurl }}/assets/codestyle.css" />
+    <link ref="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/androidstudio.min.css" />
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.3.1/css/all.css"crossorigin="anonymous">
     
     <!--[if lt IE 9]>
@@ -64,14 +64,17 @@
             { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/zoom-js/zoom.min.js', async: true },
             { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/notes/notes.min.js', async: true },
             { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/math/math.min.js', async: true },
-            { src: '//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js', async: true, callback: function() { 
+            { src: '//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js', async: true, callback: function() { 
                 jQuery( 'head' )
-                    .append( jQuery( '<script/>' ).attr( 'src', '//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/java.min.js' ) )
-                    .append( jQuery( '<script/>' ).attr( 'src', '//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/json.min.js' ) )
-                    .append( jQuery( '<script/>' ).attr( 'src', '//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/bash.min.js' ) )
-                    .append( jQuery( '<script/>' ).attr( 'src', '//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/shell.min.js' ) )
-                    .append( jQuery( '<script/>' ).attr( 'src', '//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/powershell.min.js' ) )
+                    .append( jQuery( '<script/>' ).attr( 'src', '//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js' ) )
+                    .append( jQuery( '<script/>' ).attr( 'src', '//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/json.min.js' ) )
+                    .append( jQuery( '<script/>' ).attr( 'src', '//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js' ) )
+                    .append( jQuery( '<script/>' ).attr( 'src', '//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/shell.min.js' ) )
+                    .append( jQuery( '<script/>' ).attr( 'src', '//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/powershell.min.js' ) )
                 hljs.initHighlightingOnLoad();   
+                jQuery('pre code').each(function() {
+                    hljs.highlightBlock(this, '    ');
+                });
             } },
         ]
     });
