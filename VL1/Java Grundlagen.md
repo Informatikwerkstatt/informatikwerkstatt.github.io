@@ -551,12 +551,11 @@ for (String item : someList) {
 - z.B. wir schauen alle 5 Sekunden so lange in den Briefkasten, bis ein Brief drinnen liegt
 ``` 
 // pseudocode - just to display the general principle
-Mail m = null; 
-boolean gotmail = false;
-while (! gotmail ){
+Mail m = null;                // in this we'll store the mail if it arrives
+
+while (! gotmail ){           // ! operator = logical NOT
 	m = Mailbox.lookup(); // look for new mail
-	gotmail = (m != null); 
-	// we pause the program for 5 seconds
+	gotmail = (m != null);
 	Thread.sleep(5000);
 }
 m.read(); // finally we can read the mail
@@ -629,11 +628,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MzU5NTk0LC0xMDQ3MjI5MTYzLC0xMz
-AzMzY4NDUxLDE4MzA3NTU5MTQsLTE0NzExNzY3MDcsLTQ1MDA3
-NzIzLDY1MTE4MjU2NywtMTgyMzg4NDI4NSwtMTI3MTY2ODMwLC
-05NzQyNjA3NDMsLTE5Mjg2NzQ2NTAsLTExNTkxMzkzMDEsMTQ4
-ODMxODYzOSwxMjAwNDk3OTI0LDE2MjYyNjU1NjQsLTE3NDM0MT
-U4MzEsLTI3OTEyODY5OCwxNTkxNjczOTM5LC01OTc4NzUzMzYs
-LTE0NTcwNTE3MDldfQ==
+eyJoaXN0b3J5IjpbLTEwMDQ4MzQwMjksLTEwNDcyMjkxNjMsLT
+EzMDMzNjg0NTEsMTgzMDc1NTkxNCwtMTQ3MTE3NjcwNywtNDUw
+MDc3MjMsNjUxMTgyNTY3LC0xODIzODg0Mjg1LC0xMjcxNjY4Mz
+AsLTk3NDI2MDc0MywtMTkyODY3NDY1MCwtMTE1OTEzOTMwMSwx
+NDg4MzE4NjM5LDEyMDA0OTc5MjQsMTYyNjI2NTU2NCwtMTc0Mz
+QxNTgzMSwtMjc5MTI4Njk4LDE1OTE2NzM5MzksLTU5Nzg3NTMz
+NiwtMTQ1NzA1MTcwOV19
 -->
