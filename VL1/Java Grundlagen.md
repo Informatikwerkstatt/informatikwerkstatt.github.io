@@ -333,6 +333,7 @@ myInt = (int)pi;
 - Vergleichs-Operatoren (z.B. >, !=, >=) drücken Bedingungen für Verzweigungen eines Programms aus.  Übersicht [hier](https://de.wikibooks.org/wiki/Java_Standard:_Operatoren#Operatoren_f%C3%BCr_Vergleiche)
 - Übliche mathematische Präzedenzregeln für Operatoren (z.B. "Punktrechnung vor Strichrechnung"). Übersicht [hier](https://de.wikibooks.org/wiki/Java_Standard:_Operatoren)
 - Im Zweifelsfall: Klammern setzen!
+- **@Let's try:**
 ``` java
 int i = 2;
 int j = 2 * i;
@@ -343,7 +344,7 @@ System.out.println("l = " + l);
 ```
 ===
 ### Test auf Gleichheit
-- Vorsicht beim Test auf Gleichheit bei speziellen Datenobjekten
+- Vorsicht beim Test auf Gleichheit bei speziellen Datenobjekten!
 - Operator `==` prüft Gleichheit der Speicherstellen
 ``` java
 int  i=1;
@@ -590,7 +591,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzczNTQ2NjAsLTEyNzE2NjgzMCwtOT
+eyJoaXN0b3J5IjpbLTEwMDY3NDExNDQsLTEyNzE2NjgzMCwtOT
 c0MjYwNzQzLC0xOTI4Njc0NjUwLC0xMTU5MTM5MzAxLDE0ODgz
 MTg2MzksMTIwMDQ5NzkyNCwxNjI2MjY1NTY0LC0xNzQzNDE1OD
 MxLC0yNzkxMjg2OTgsMTU5MTY3MzkzOSwtNTk3ODc1MzM2LC0x
