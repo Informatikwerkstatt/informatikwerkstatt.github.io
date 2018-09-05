@@ -528,7 +528,7 @@ for (String name: betreuer)
 	- `for each` 
 	- `while`
 	- `do while` (erzwingt mindestens einen Durchlauf) 
-- im Folgenden erläutern wir kurz `foreach` und `while`
+- Wir erläutern kurz `foreach` und `while`
 
 ===
 ### For each
@@ -547,7 +547,7 @@ for (String item : someList) {
 - Anm.:  Da im Rumpf der `for each` Anweisung nur Kopien der Listenelemente verarbeitet werden, kann man damit keine Elemente der Liste ändern oder löschen!
 
 ===
-- Wenn die Anzahl der Wiederholungen eines Codeblocks nicht von vorne herein bekannt ist, sondern nach jedem Durchlauf eine Bedingung überprüft werden muss, nutzen wir die `while-`Schleife
+- Wenn die Anzahl der Wiederholungen eines Codeblocks nicht bekannt ist, sondern nach jedem Durchlauf eine Bedingung überprüft werden muss, nutzen wir die `while-`Schleife
 - z.B. wir schauen alle 5 Sekunden so lange in den Briefkasten, bis ein Brief drinnen liegt
 ``` 
 // Pseudocode - dient nur zum Erklären des Prinzips
@@ -633,11 +633,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTQ5NDIwMzcsMTczNjQwMDk4NywtMT
-A0NzIyOTE2MywtMTMwMzM2ODQ1MSwxODMwNzU1OTE0LC0xNDcx
-MTc2NzA3LC00NTAwNzcyMyw2NTExODI1NjcsLTE4MjM4ODQyOD
-UsLTEyNzE2NjgzMCwtOTc0MjYwNzQzLC0xOTI4Njc0NjUwLC0x
-MTU5MTM5MzAxLDE0ODgzMTg2MzksMTIwMDQ5NzkyNCwxNjI2Mj
-Y1NTY0LC0xNzQzNDE1ODMxLC0yNzkxMjg2OTgsMTU5MTY3Mzkz
-OSwtNTk3ODc1MzM2XX0=
+eyJoaXN0b3J5IjpbMTM3ODE1MzIzOSwxNzM2NDAwOTg3LC0xMD
+Q3MjI5MTYzLC0xMzAzMzY4NDUxLDE4MzA3NTU5MTQsLTE0NzEx
+NzY3MDcsLTQ1MDA3NzIzLDY1MTE4MjU2NywtMTgyMzg4NDI4NS
+wtMTI3MTY2ODMwLC05NzQyNjA3NDMsLTE5Mjg2NzQ2NTAsLTEx
+NTkxMzkzMDEsMTQ4ODMxODYzOSwxMjAwNDk3OTI0LDE2MjYyNj
+U1NjQsLTE3NDM0MTU4MzEsLTI3OTEyODY5OCwxNTkxNjczOTM5
+LC01OTc4NzUzMzZdfQ==
 -->
