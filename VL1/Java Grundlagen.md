@@ -558,7 +558,14 @@ while (m == null ){           // Mache weiter, solange noch keine Mail da ist
 }
 m.read();                     // Endlich!! Wir können unsere Mail lesen
 ```
-
+- und hier noch ein Beispiel für do-while
+``` java
+int count = 1;
+while (count < 11) {
+   System.out.println("Count is: " + count);
+   count++;
+ }
+```        
 ---
 ## Infinity Loop
  
@@ -626,11 +633,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNjQwMDk4NywtMTA0NzIyOTE2MywtMT
-MwMzM2ODQ1MSwxODMwNzU1OTE0LC0xNDcxMTc2NzA3LC00NTAw
-NzcyMyw2NTExODI1NjcsLTE4MjM4ODQyODUsLTEyNzE2NjgzMC
-wtOTc0MjYwNzQzLC0xOTI4Njc0NjUwLC0xMTU5MTM5MzAxLDE0
-ODgzMTg2MzksMTIwMDQ5NzkyNCwxNjI2MjY1NTY0LC0xNzQzND
-E1ODMxLC0yNzkxMjg2OTgsMTU5MTY3MzkzOSwtNTk3ODc1MzM2
-LC0xNDU3MDUxNzA5XX0=
+eyJoaXN0b3J5IjpbLTE5NDk3ODE5MTgsMTczNjQwMDk4NywtMT
+A0NzIyOTE2MywtMTMwMzM2ODQ1MSwxODMwNzU1OTE0LC0xNDcx
+MTc2NzA3LC00NTAwNzcyMyw2NTExODI1NjcsLTE4MjM4ODQyOD
+UsLTEyNzE2NjgzMCwtOTc0MjYwNzQzLC0xOTI4Njc0NjUwLC0x
+MTU5MTM5MzAxLDE0ODgzMTg2MzksMTIwMDQ5NzkyNCwxNjI2Mj
+Y1NTY0LC0xNzQzNDE1ODMxLC0yNzkxMjg2OTgsMTU5MTY3Mzkz
+OSwtNTk3ODc1MzM2XX0=
 -->
