@@ -551,14 +551,12 @@ for (String item : someList) {
 - z.B. wir schauen alle 5 Sekunden so lange in den Briefkasten, bis ein Brief drinnen liegt
 ``` 
 // pseudocode - just to display the general principle
-Mail m = null;                // in this we'll store the mail if it arrives
-
-while (! gotmail ){           // ! operator = logical NOT
-	m = Mailbox.lookup(); // look for new mail
-	gotmail = (m != null);
-	Thread.sleep(5000);
+Mail m = null;                // Zum Speichern der Mail
+while (m == null ){           // Mache weiter, sol
+    m = Mailbox.lookup();     // look for new mail
+    Thread.sleep(5000);
 }
-m.read(); // finally we can read the mail
+m.read(); // finally we can read ourmail
 ```
 
 ---
@@ -628,7 +626,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDQ4MzQwMjksLTEwNDcyMjkxNjMsLT
+eyJoaXN0b3J5IjpbLTE5MTcyNDc2MzIsLTEwNDcyMjkxNjMsLT
 EzMDMzNjg0NTEsMTgzMDc1NTkxNCwtMTQ3MTE3NjcwNywtNDUw
 MDc3MjMsNjUxMTgyNTY3LC0xODIzODg0Mjg1LC0xMjcxNjY4Mz
 AsLTk3NDI2MDc0MywtMTkyODY3NDY1MCwtMTE1OTEzOTMwMSwx
