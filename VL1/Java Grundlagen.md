@@ -536,7 +536,7 @@ for (String name: betreuer)
 - die `for each`-Schleife haben wir im obigen `ArrayList`-Beispiel schon kennengelernt
 - Sie dient zum einfachen Durchlaufen listenartiger Datenstrukturen und Arrays
 - Anm.: Das Wort "each" kommt darin nicht vor. Man nennt sie so, um sie von der `for`-Schleife zu unterscheiden
-- Allgemeine Form
+- Beispiel:
 ``` java
 List<String> someList = new ArrayList<String>();
 // füge "aepfel", "birnen", "pflaumen" zu someList hinzu
@@ -554,8 +554,8 @@ for (String item : someList) {
 // Pseudocode - dient nur zum Erklären des Prinzips
 Mail m = null;                // Zum Speichern der Mail
 while (m == null ){           // Mache weiter, solange noch keine Mail da ist
-    m = Mailbox.lookup();     // Schaue nach Mail
-    Thread.sleep(5000);       // Warte 5 Sekunden
+    m = Mailbox.lookup();       // Schaue nach Mail
+    Thread.sleep(5000);         // Warte 5 Sekunden
 }
 m.read();                     // Endlich!! Wir können unsere Mail lesen
 ```
@@ -634,11 +634,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MjgxODczOSwxNzM2NDAwOTg3LC0xMD
-Q3MjI5MTYzLC0xMzAzMzY4NDUxLDE4MzA3NTU5MTQsLTE0NzEx
-NzY3MDcsLTQ1MDA3NzIzLDY1MTE4MjU2NywtMTgyMzg4NDI4NS
-wtMTI3MTY2ODMwLC05NzQyNjA3NDMsLTE5Mjg2NzQ2NTAsLTEx
-NTkxMzkzMDEsMTQ4ODMxODYzOSwxMjAwNDk3OTI0LDE2MjYyNj
-U1NjQsLTE3NDM0MTU4MzEsLTI3OTEyODY5OCwxNTkxNjczOTM5
-LC01OTc4NzUzMzZdfQ==
+eyJoaXN0b3J5IjpbOTg0MDI1NTQxLDE3MzY0MDA5ODcsLTEwND
+cyMjkxNjMsLTEzMDMzNjg0NTEsMTgzMDc1NTkxNCwtMTQ3MTE3
+NjcwNywtNDUwMDc3MjMsNjUxMTgyNTY3LC0xODIzODg0Mjg1LC
+0xMjcxNjY4MzAsLTk3NDI2MDc0MywtMTkyODY3NDY1MCwtMTE1
+OTEzOTMwMSwxNDg4MzE4NjM5LDEyMDA0OTc5MjQsMTYyNjI2NT
+U2NCwtMTc0MzQxNTgzMSwtMjc5MTI4Njk4LDE1OTE2NzM5Mzks
+LTU5Nzg3NTMzNl19
 -->
