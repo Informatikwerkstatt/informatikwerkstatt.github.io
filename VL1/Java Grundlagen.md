@@ -222,11 +222,11 @@ Man könnte doch für alles `double` verwenden ...
 public class CHelloWorld
 {
     // Variablendeklaration mit Initialisierung
-    private final String message = "Hello World";
+    private static final String message = "Hello World";
     
     public static void main( String[] p_args )
     {
-    // Variable wird Methode als Parameter übergeben
+        // Variable wird Methode als Parameter übergeben
         System.out.println( message );
     }
 }
@@ -518,25 +518,26 @@ l_tabelle[7][8] = "Steffi";
 ### Zugriff auf Array
 - Adressieren des gesuchten Feldes mit Indexvariable:
 
-    ``` java
-int[] highscores = {1000, 850, 600};
+    ```java
+final int[] l_highscores = {1000, 850, 600};
 //first hat nun Wert `1000`
-int first = highscores[0];
+final int l_erstes = highscores[0];
     ```
 
 - Arrayelemente durchlaufen (iterieren) mit `for`-Schleife (s.u.)
 
-    ``` java
-for ( int i=0; i < highscores.length; i++ )
+    ```java
+for ( int i = 0; i < highscores.length; i++ )
     System.out.println(highscores[i]); 
     ```
 
 - Häufiger Fehler: Ungültiger Wert für Index --> Führt zu Laufzeitfehler
 
-    ``` java
-int[] highscores = {1000, 850, 600};
+    ```java
+final int[] highscores = {1000, 850, 600};
+
 //Zugriff auf viertes Element --> Fehler
-int = highscores[3]; 
+final int l_wert = highscores[3]; 
     ``` 
 
 ===
@@ -550,20 +551,26 @@ int = highscores[3];
 <!-- was ist es, kurz fassen und auf Listen & Sets beschränken -->
 
     ```java
-import java.util.ArrayList; //importiere die Klasse
-// ...
-String  s1  =  "Phil";
-String  s2  =  "Steffi";
-String  s3  =  "Jörg";
-// erzeuge neue Liste
-ArrayList<String> betreuer  =  new  ArrayList<>();
-// füge Elemente ein
-betreuer.add(s1);
-betreuer.add(s2);
-betreuer.add(s3);
-// gib alle Elemente aus (for-Schleife s.u.)
-for (String name: betreuer)
-    System.out.println(name);
+// importiere die Klasse
+import java.util.ArrayList; 
+
+public class CMeineListe
+{
+    public static void main( final String[] p_args )
+    {
+        // erzeuge neue Liste
+        final ArrayList<String> l_betreuer  =  new  ArrayList<>();
+
+        // füge Elemente ein
+        betreuer.add( "Phil" );
+        betreuer.add( "Steffi" );
+        betreuer.add( "Jörg" );
+
+        // gib alle Elemente aus (for-Schleife s.u.)
+        for ( final String l_name : betreuer)
+            System.out.println( l_name );
+    }
+}
     ```
 
 - Detailliertere Infos zum Java Collections Framework findest Du [hier](https://docs.oracle.com/javase/tutorial/collections/index.html)
@@ -583,7 +590,8 @@ for (String name: betreuer)
 ### @Profis
 
 Schreibe ein weiteres Programm, in dem Du 
-    1. eine `ArrayList` Deiner Wahl deklarierst
+
+    1. eine ```ArrayList``` Deiner Wahl deklarierst
     2. sie mit Werten füllst
     3. und danach die Werte ausliest und ausgibst 
 
