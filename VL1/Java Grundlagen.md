@@ -708,8 +708,9 @@ public  class  Div0Fehler{
 
 ## @Übungsaufgabe
 
-> Schreiben Sie ein Programm, dass einen String und eine Zahl von der Kommandozeile einliest und den String so oft auf der Kommandozeile ausgibt, wie als Zahl gesetzt ist.
+> Schreiben Sie ein Programm, dass zwei Argumente von der Kommandozeile einliest, einen String und eine Zahl, und das den String so oft auf der Kommandozeile ausgibt, wie die Zahl angibt.
 
+* Prüfen Sie die Typen der Eingaben
 * Bei einem leeren String sollte eine Fehlermeldung ausgegeben werden, dass der String leer ist
 * Wenn die Zahl $\leq 0$ ist, dann soll eine passende Fehlermeldung ausgegeben werden
 * Wenn die Argumentanzahl nicht stimmt soll auch eine passende Meldung ausgegeben werden
@@ -725,11 +726,11 @@ public  class  Div0Fehler{
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzcyNjg3ODksODA5MjgyMzE3LC01Mj
-EzMTc0MjUsLTE5Mjc4MTk4MDcsLTE4MTc1MTIzNywxNDkwNzYx
-MjAsMTAxNzE3ODk2MSwtODcwMjgyNzcsMjAyNDE0NjMzMiwzMT
-U1NjQwMzEsMTY1OTk1NTA5NiwxNzM2NDAwOTg3LC0xMDQ3MjI5
-MTYzLC0xMzAzMzY4NDUxLDE4MzA3NTU5MTQsLTE0NzExNzY3MD
-csLTQ1MDA3NzIzLDY1MTE4MjU2NywtMTgyMzg4NDI4NSwtMTI3
-MTY2ODMwXX0=
+eyJoaXN0b3J5IjpbLTY0MjQ1MTEzOSw4MDkyODIzMTcsLTUyMT
+MxNzQyNSwtMTkyNzgxOTgwNywtMTgxNzUxMjM3LDE0OTA3NjEy
+MCwxMDE3MTc4OTYxLC04NzAyODI3NywyMDI0MTQ2MzMyLDMxNT
+U2NDAzMSwxNjU5OTU1MDk2LDE3MzY0MDA5ODcsLTEwNDcyMjkx
+NjMsLTEzMDMzNjg0NTEsMTgzMDc1NTkxNCwtMTQ3MTE3NjcwNy
+wtNDUwMDc3MjMsNjUxMTgyNTY3LC0xODIzODg0Mjg1LC0xMjcx
+NjY4MzBdfQ==
 -->
