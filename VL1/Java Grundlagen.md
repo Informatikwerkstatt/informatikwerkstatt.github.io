@@ -626,7 +626,7 @@ Schreibe ein weiteres Programm, in dem Du
 - Wenn die Anzahl der Wiederholungen eines Codeblocks nicht bekannt ist, sondern nach jedem Durchlauf eine Bedingung überprüft werden muss, nutzen wir die `while-`Schleife
 - z.B. wir schauen alle 5 Sekunden so lange in den Briefkasten, bis ein Brief drinnen liegt
 
-    ``` 
+    ```
     // Pseudocode - dient nur zum Erklären des Prinzips
     // Zum Speichern der Mail
     Mail m = null;
@@ -643,8 +643,8 @@ Schreibe ein weiteres Programm, in dem Du
     ```
 
 - Und hier noch ein Beispiel für `do-while`
-
-    ``` java
+    
+    ```java
     int count = 1;
     // der Rumpf der Schleife wird bei do-while mindestens einmal ausgeführt
     do { 
@@ -864,6 +864,8 @@ public class Div0Fehler
 	- Variablen- und Methodennamen beginnen mit Kleinbuchstaben, z.B. ```liste```, ```main()``` <!-- $, \_ bei Variablen hab ich hier weggelassen, zuviel Detail -->
 	- Klassennamen beginnen mit Großbuchstaben
 	- Besteht ein Name aus mehreren Worten, werden die Anfangsbuchstaben der inneren Worte  groß geschrieben (= CamelCase), z.B.
-		- Variable: ```highScoreListe```
-		- Methode: ```onCreate()```
-		- Klasse: ```ArrayIndexOutOfBoundsException```
+	- Variable: ```highScoreListe```
+	- Methode: ```onCreate()```
+	- Klasse: ```ArrayIndexOutOfBoundsException``
+
+
