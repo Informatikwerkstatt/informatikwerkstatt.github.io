@@ -615,10 +615,7 @@ public  class  Endless
 ### Kill-it -- das Video
 - Hier noch ein Video zur Illustration des Prozesses
 
-
-<iframe class="video" src="https://player.vimeo.com/video/287916699" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
-
-<iframe class="video" src="https://player.vimeo.com/288322168" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
+<iframe src="https://player.vimeo.com/video/288322168" width="320" height="180" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ---
 
@@ -676,7 +673,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNjQ0NDY1NCwtMTgxNzUxMjM3LDE0OT
+eyJoaXN0b3J5IjpbMTI0NDIxNTc0OCwtMTgxNzUxMjM3LDE0OT
 A3NjEyMCwxMDE3MTc4OTYxLC04NzAyODI3NywyMDI0MTQ2MzMy
 LDMxNTU2NDAzMSwxNjU5OTU1MDk2LDE3MzY0MDA5ODcsLTEwND
 cyMjkxNjMsLTEzMDMzNjg0NTEsMTgzMDc1NTkxNCwtMTQ3MTE3
