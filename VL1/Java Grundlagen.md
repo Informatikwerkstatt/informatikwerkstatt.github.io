@@ -640,7 +640,6 @@ public  class  Endless
 
 ---
 ## Wirf den Fehler - Throw-Exception
-
 <!-- Was sind Exception, Beispiel am besten Division durch 0 -->
 
 ---
@@ -676,11 +675,11 @@ public  class  Endless
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjc4MTk4MDcsLTE4MTc1MTIzNywxND
-kwNzYxMjAsMTAxNzE3ODk2MSwtODcwMjgyNzcsMjAyNDE0NjMz
-MiwzMTU1NjQwMzEsMTY1OTk1NTA5NiwxNzM2NDAwOTg3LC0xMD
-Q3MjI5MTYzLC0xMzAzMzY4NDUxLDE4MzA3NTU5MTQsLTE0NzEx
-NzY3MDcsLTQ1MDA3NzIzLDY1MTE4MjU2NywtMTgyMzg4NDI4NS
-wtMTI3MTY2ODMwLC05NzQyNjA3NDMsLTE5Mjg2NzQ2NTAsLTEx
-NTkxMzkzMDFdfQ==
+eyJoaXN0b3J5IjpbLTE3MTcyNDMyNzcsLTE5Mjc4MTk4MDcsLT
+E4MTc1MTIzNywxNDkwNzYxMjAsMTAxNzE3ODk2MSwtODcwMjgy
+NzcsMjAyNDE0NjMzMiwzMTU1NjQwMzEsMTY1OTk1NTA5NiwxNz
+M2NDAwOTg3LC0xMDQ3MjI5MTYzLC0xMzAzMzY4NDUxLDE4MzA3
+NTU5MTQsLTE0NzExNzY3MDcsLTQ1MDA3NzIzLDY1MTE4MjU2Ny
+wtMTgyMzg4NDI4NSwtMTI3MTY2ODMwLC05NzQyNjA3NDMsLTE5
+Mjg2NzQ2NTBdfQ==
 -->
