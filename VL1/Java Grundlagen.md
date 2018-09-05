@@ -553,7 +553,8 @@ for (String item : someList) {
 // pseudocode
 boolean gotmail = false;
 while (! gotmail ){
-	
+	Mail m = Mailbox.lookup(); //
+	gotm
 ```
 
 ---
@@ -623,7 +624,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMjAxODQwNywtMTMwMzM2ODQ1MSwxOD
+eyJoaXN0b3J5IjpbMjAwMTgxMDc5NywtMTMwMzM2ODQ1MSwxOD
 MwNzU1OTE0LC0xNDcxMTc2NzA3LC00NTAwNzcyMyw2NTExODI1
 NjcsLTE4MjM4ODQyODUsLTEyNzE2NjgzMCwtOTc0MjYwNzQzLC
 0xOTI4Njc0NjUwLC0xMTU5MTM5MzAxLDE0ODgzMTg2MzksMTIw
