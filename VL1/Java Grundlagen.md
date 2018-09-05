@@ -715,8 +715,9 @@ public  class  Div0Fehler{
 - Wenn die Zahl $\leq 0$ ist, dann soll eine passende Fehlermeldung ausgegeben werden
 * Wenn die Argumentanzahl nicht stimmt, soll auch eine passende Meldung ausgegeben werden
 * Wenn bei der Umwandlung des Textes in eine Zahl ein Fehler auftritt, dann soll auch eine verständliche Fehlermeldung ausgegeben werden
+* Tipp: 
 
-## @Übungsaufgabe
+## @Home/Übung
 
 > Schreiben Sie ein Programm, dass zwei ganze Zahlen A und B von der Kommandozeile einliest und (1) das Ergebnis der ganzzahligen Division der beiden Zahlen sowie (2) den Rest der ganzzahligen Division ausgibt.
 
@@ -735,11 +736,11 @@ public  class  Div0Fehler{
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTUxMjU2OTMsODA5MjgyMzE3LC01Mj
-EzMTc0MjUsLTE5Mjc4MTk4MDcsLTE4MTc1MTIzNywxNDkwNzYx
-MjAsMTAxNzE3ODk2MSwtODcwMjgyNzcsMjAyNDE0NjMzMiwzMT
-U1NjQwMzEsMTY1OTk1NTA5NiwxNzM2NDAwOTg3LC0xMDQ3MjI5
-MTYzLC0xMzAzMzY4NDUxLDE4MzA3NTU5MTQsLTE0NzExNzY3MD
-csLTQ1MDA3NzIzLDY1MTE4MjU2NywtMTgyMzg4NDI4NSwtMTI3
-MTY2ODMwXX0=
+eyJoaXN0b3J5IjpbNDUwMTg2OTEwLDgwOTI4MjMxNywtNTIxMz
+E3NDI1LC0xOTI3ODE5ODA3LC0xODE3NTEyMzcsMTQ5MDc2MTIw
+LDEwMTcxNzg5NjEsLTg3MDI4Mjc3LDIwMjQxNDYzMzIsMzE1NT
+Y0MDMxLDE2NTk5NTUwOTYsMTczNjQwMDk4NywtMTA0NzIyOTE2
+MywtMTMwMzM2ODQ1MSwxODMwNzU1OTE0LC0xNDcxMTc2NzA3LC
+00NTAwNzcyMyw2NTExODI1NjcsLTE4MjM4ODQyODUsLTEyNzE2
+NjgzMF19
 -->
