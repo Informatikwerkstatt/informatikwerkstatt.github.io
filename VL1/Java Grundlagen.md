@@ -211,7 +211,7 @@ Java besitzt [50 reservierte Schlüsselwörter](https://en.wikipedia.org/wiki/Li
 | String| Zeichenkette, max. $2^{31}-1$ Zeichen. z.B. `"Hello World!"` |
 
 ===
-### @Cracks
+### @Profis
 Warum  gibt es verschiedene Datentypen für Zahlenwerte?
 Man könnte doch für alles `double` verwenden ...
 
@@ -358,7 +358,7 @@ String  s2=new  String("maus");
 System.out.println(s1==s2); // false!
 System.out.println(s1.equals(s2)); // true
 ```
-- **@Cracks**: Könnt Ihr dieses Ergebnis erklären?
+- **@Profis**: Könnt Ihr dieses Ergebnis erklären?
 - Anm. : In `s1.equals(s2)` muss `s1` initialisiert sein --> prüfen mit `s1 != null`
 
 ---
@@ -510,7 +510,7 @@ for (String name: betreuer)
     1. einen `Array` Deiner Wahl deklarierst
     2. ihn initialisierst
     3. seine Werte ausliest und ausgibst 
-* **@Crack**: Schreibe ein weiteres Programm, in dem Du 
+* **@Profis**: Schreibe ein weiteres Programm, in dem Du 
     1. eine `ArrayList` Deiner Wahl deklarierst
     2. sie mit Werten füllst
     3. und danach die Werte ausliest und ausgibst 
@@ -677,11 +677,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwNzk5MjcxLC0xODE3NTEyMzcsMTQ5MD
-c2MTIwLDEwMTcxNzg5NjEsLTg3MDI4Mjc3LDIwMjQxNDYzMzIs
-MzE1NTY0MDMxLDE2NTk5NTUwOTYsMTczNjQwMDk4NywtMTA0Nz
-IyOTE2MywtMTMwMzM2ODQ1MSwxODMwNzU1OTE0LC0xNDcxMTc2
-NzA3LC00NTAwNzcyMyw2NTExODI1NjcsLTE4MjM4ODQyODUsLT
-EyNzE2NjgzMCwtOTc0MjYwNzQzLC0xOTI4Njc0NjUwLC0xMTU5
-MTM5MzAxXX0=
+eyJoaXN0b3J5IjpbMTk4MDg2ODE5OCwtMTgxNzUxMjM3LDE0OT
+A3NjEyMCwxMDE3MTc4OTYxLC04NzAyODI3NywyMDI0MTQ2MzMy
+LDMxNTU2NDAzMSwxNjU5OTU1MDk2LDE3MzY0MDA5ODcsLTEwND
+cyMjkxNjMsLTEzMDMzNjg0NTEsMTgzMDc1NTkxNCwtMTQ3MTE3
+NjcwNywtNDUwMDc3MjMsNjUxMTgyNTY3LC0xODIzODg0Mjg1LC
+0xMjcxNjY4MzAsLTk3NDI2MDc0MywtMTkyODY3NDY1MCwtMTE1
+OTEzOTMwMV19
 -->
