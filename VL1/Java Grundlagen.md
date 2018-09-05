@@ -670,22 +670,21 @@ public  class  Div0Fehler{
 - Java verwendet das sogenannte Try-Catch Modell zur Ausnahmebehandlung
 - Code, in dem eine Ausnahme auftreten kann, wird in einen "Catch-Block" eingeschlossen.
 - Dahinter wird ein Try-Block angegeben, der bestimmt, was im Falle des Auftretens von Ausnahmen zu tun ist.
-- Wir erweitern den Rumpf der main()-Methode unserer Div0Fehler-KLasse
+- Wir erweitern den Rumpf der main()-Methode unserer `Div0Fehler`-KLasse
 ``` java
   int  ergebnis=0;
-  try{
+  try{ //
     int  zaehler=5;
     int  nenner=0;
-ergebnis = zaehler / nenner;
-} catch (ArithmeticException  e){
-System.out.println(e.toString());
-System.out.println("Sorry, Du hast durch null geteilt! Probiere es nochmal!");
-}
-
-System.out.println("Ergebnis: "  + ergebnis);
-
+    ergebnis = zaehler / nenner;
+  } catch (ArithmeticException  e){ // try-Block wird beendet!
+    System.out.println(e.toString());
+    System.out.println("Sorry, Du hast durch null geteilt! Probiere es nochmal!");
+  }
+  System.out.println("Ergebnis: "  + ergebnis);
 }```
-
+- So kann man 
+ 
 ---
 
 ## @Let's try
@@ -713,7 +712,7 @@ System.out.println("Ergebnis: "  + ergebnis);
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3Nzg1ODYyNyw4MDkyODIzMTcsLTUyMT
+eyJoaXN0b3J5IjpbMTQ5OTIxMzg3OSw4MDkyODIzMTcsLTUyMT
 MxNzQyNSwtMTkyNzgxOTgwNywtMTgxNzUxMjM3LDE0OTA3NjEy
 MCwxMDE3MTc4OTYxLC04NzAyODI3NywyMDI0MTQ2MzMyLDMxNT
 U2NDAzMSwxNjU5OTU1MDk2LDE3MzY0MDA5ODcsLTEwNDcyMjkx
