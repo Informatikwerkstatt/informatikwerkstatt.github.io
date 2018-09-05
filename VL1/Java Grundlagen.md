@@ -550,7 +550,7 @@ final int l_wert = highscores[3];
 - Datenstrukturen (hier [Collections](https://docs.oracle.com/javase/tutorial/collections/index.html), als Java Bibliothek, werden zur Speicherung von Daten verwendet
 - Beispiel Liste: Klasse ```java.util.ArrayList``` &rarr; dynamischer Array (keine feste Länge)
 
-    ```java
+```java
 // importiere die Klasse
 import java.util.ArrayList; 
 
@@ -571,7 +571,7 @@ public class CMeineListe
             System.out.println( l_name );
     }
 }
-    ```
+```
 
 ===
 
