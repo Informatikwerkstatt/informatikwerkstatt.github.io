@@ -623,9 +623,7 @@ public  class  Endless
 - Versuche, die obigen Beispiele selbst zum Laufen zu bringen. 
 	- for each, 
 	- while / do while
-	- Endlosschleife
-
-
+	- Endlosschleife und Folgenbeseitigung
 
 ---
 
@@ -634,7 +632,7 @@ public  class  Endless
 - Wer sich gerade langweilt, weil alles viel zu einfach ist:
 - Macht Euch selbst mit zwei fortgeschritteneren Konzepten für die effiziente (und parallele) Verarbeitung großer Datenstrukturen / Datenmengen in Java vertraut.
 	- [Lambda-Ausdrücke](https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html)
-	- [Java Streaming]()
+	- [Java Streaming](https://www.oracle.com/technetwork/articles/java/ma14-java-se-8-streams-2177646.html)
 - Quellen zum "Reinschnuppern":
 	- [Erste Schritte](https://blog.codecentric.de/2013/10/java-8-erste-schritte-mit-lambdas-und-streams/)
 	- [java 8 streams](https://www.baeldung.com/java-8-streams)
@@ -679,11 +677,11 @@ public  class  Endless
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NjQ5MTgwLC0xODE3NTEyMzcsMTQ5MD
-c2MTIwLDEwMTcxNzg5NjEsLTg3MDI4Mjc3LDIwMjQxNDYzMzIs
-MzE1NTY0MDMxLDE2NTk5NTUwOTYsMTczNjQwMDk4NywtMTA0Nz
-IyOTE2MywtMTMwMzM2ODQ1MSwxODMwNzU1OTE0LC0xNDcxMTc2
-NzA3LC00NTAwNzcyMyw2NTExODI1NjcsLTE4MjM4ODQyODUsLT
-EyNzE2NjgzMCwtOTc0MjYwNzQzLC0xOTI4Njc0NjUwLC0xMTU5
-MTM5MzAxXX0=
+eyJoaXN0b3J5IjpbMTUwNzE3OTA4NywtMTgxNzUxMjM3LDE0OT
+A3NjEyMCwxMDE3MTc4OTYxLC04NzAyODI3NywyMDI0MTQ2MzMy
+LDMxNTU2NDAzMSwxNjU5OTU1MDk2LDE3MzY0MDA5ODcsLTEwND
+cyMjkxNjMsLTEzMDMzNjg0NTEsMTgzMDc1NTkxNCwtMTQ3MTE3
+NjcwNywtNDUwMDc3MjMsNjUxMTgyNTY3LC0xODIzODg0Mjg1LC
+0xMjcxNjY4MzAsLTk3NDI2MDc0MywtMTkyODY3NDY1MCwtMTE1
+OTEzOTMwMV19
 -->
