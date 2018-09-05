@@ -418,7 +418,7 @@ else
 
 ### Ternärer Operator
 
-- Wenn nur zwischen zwei Ausgabewerten unterschieden werden soll, gibt es für die IF-ELSE-Anweisung eine Kurzform: <script>Diagram(Sequence( NonTerminal('Bedingung'), Terminal('?'), NonTerminal('Wert bei True'), Terminal(':'), NonTerminal('Wert ebi False') ) ).toSVG();</script>
+- Wenn nur zwischen zwei Ausgabewerten unterschieden werden soll, gibt es für die IF-ELSE-Anweisung eine Kurzform: <script>let l_rrd = Diagram(Sequence( NonTerminal('Bedingung'), Terminal('?'), NonTerminal('Wert bei True'), Terminal(':'), NonTerminal('Wert ebi False') ) ).toSVG();</script>
 
 -  Der *ternäre Operator* `?:` hat die Form
 
