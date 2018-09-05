@@ -537,7 +537,9 @@ for (String name: betreuer)
 - Anm.: Das Wort "each" kommt darin nicht vor. Man spricht Man spricht von der "For each-Schleife", um sie vond er for-Schleife zu unterscheiden
 Allgemeine Form
 ``` java
-Man spricht zwar von der "For each-Schleife", aber
+List<String> someList = new ArrayList<String>();
+// füge "aepfel", "birnen", "pflaumen" to someList
+
 ```
 - Java bietet unterschiedliche Kontrollstrukturen für Schleifen, z.B.
 	- `for` (etwas veraltet)
@@ -613,11 +615,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NzU3ODU3LDE4MzA3NTU5MTQsLTE0Nz
-ExNzY3MDcsLTQ1MDA3NzIzLDY1MTE4MjU2NywtMTgyMzg4NDI4
-NSwtMTI3MTY2ODMwLC05NzQyNjA3NDMsLTE5Mjg2NzQ2NTAsLT
-ExNTkxMzkzMDEsMTQ4ODMxODYzOSwxMjAwNDk3OTI0LDE2MjYy
-NjU1NjQsLTE3NDM0MTU4MzEsLTI3OTEyODY5OCwxNTkxNjczOT
-M5LC01OTc4NzUzMzYsLTE0NTcwNTE3MDksNTUwMzQxNTM1LDY0
-NDA0OTUwN119
+eyJoaXN0b3J5IjpbMTUxMzY1OTQzOCwxODMwNzU1OTE0LC0xND
+cxMTc2NzA3LC00NTAwNzcyMyw2NTExODI1NjcsLTE4MjM4ODQy
+ODUsLTEyNzE2NjgzMCwtOTc0MjYwNzQzLC0xOTI4Njc0NjUwLC
+0xMTU5MTM5MzAxLDE0ODgzMTg2MzksMTIwMDQ5NzkyNCwxNjI2
+MjY1NTY0LC0xNzQzNDE1ODMxLC0yNzkxMjg2OTgsMTU5MTY3Mz
+kzOSwtNTk3ODc1MzM2LC0xNDU3MDUxNzA5LDU1MDM0MTUzNSw2
+NDQwNDk1MDddfQ==
 -->
