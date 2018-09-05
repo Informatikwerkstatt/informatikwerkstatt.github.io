@@ -271,7 +271,8 @@ Man könnte doch für alles `double` verwenden ...
 - Die Variable `message` kann nach ihrer Instanziierung als Argument (Parameter) beim Aufruf der Methode  `println()` des Objekts `System.out` (siehe [Objekt-Orientierte Programmierung Grundlagen](/oop-grundlagen/)) verwendet werden
 - Der Wert der Variable wird an die Methode übergeben und dort weiterverarbeitet. 
 
-```java	public static void main( String[] p_args )
+```java	
+public static void main( String[] p_args )
 	{
 		System.out.println( message );
 ```
@@ -858,5 +859,5 @@ m.read();                     // Endlich!! Wir können unsere Mail lesen
 		- Methode: `onCreate()`
 		- Klasse: `ArrayIndexOutOfBoundsException`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMzU5NTYxOV19
+eyJoaXN0b3J5IjpbMTEzNjUyNzMxM119
 -->
