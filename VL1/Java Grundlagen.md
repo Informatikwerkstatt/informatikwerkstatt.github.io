@@ -743,19 +743,21 @@ public  class  Div0Fehler{
 - Variablennamen beginnen mit einem Buchstaben, mit $ oder mit \_ ($ ist möglich, aber unerwünscht)
 - Sie dürfen nur Zahlen, Buchstaben, oder \_ enthalten
 - Konventionen
-	- Einzelne Worte als Variablenname werden klein geschrieben, z.B. `liste`
+	- Variablen- und Methodennamen beginnen mit Kleinbuchstaben, z.B. `liste`, `main()`
 	- Klassennamen beginnen mit Großbuchstaben
-	- 
-	- Besteht ein Name aus mehreren Worten, werden die Anfangsbuchstaben inneren Worte  geschrieben (CamelCase)
+	- Besteht ein Name aus mehreren Worten, werden die Anfangsbuchstaben der inneren Worte  groß geschrieben (= CamelCase)
+		- Variable: `highScoreListe`
+		- Methode: `onCreate()`
+		- Klasse
 ïƒ˜	textEingabe
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTE0ODU1NTksLTEzMTE2NzM5NzUsND
-UwMTg2OTEwLDgwOTI4MjMxNywtNTIxMzE3NDI1LC0xOTI3ODE5
-ODA3LC0xODE3NTEyMzcsMTQ5MDc2MTIwLDEwMTcxNzg5NjEsLT
-g3MDI4Mjc3LDIwMjQxNDYzMzIsMzE1NTY0MDMxLDE2NTk5NTUw
-OTYsMTczNjQwMDk4NywtMTA0NzIyOTE2MywtMTMwMzM2ODQ1MS
-wxODMwNzU1OTE0LC0xNDcxMTc2NzA3LC00NTAwNzcyMyw2NTEx
-ODI1NjddfQ==
+eyJoaXN0b3J5IjpbMjExNTk1OTU2NiwtMTMxMTY3Mzk3NSw0NT
+AxODY5MTAsODA5MjgyMzE3LC01MjEzMTc0MjUsLTE5Mjc4MTk4
+MDcsLTE4MTc1MTIzNywxNDkwNzYxMjAsMTAxNzE3ODk2MSwtOD
+cwMjgyNzcsMjAyNDE0NjMzMiwzMTU1NjQwMzEsMTY1OTk1NTA5
+NiwxNzM2NDAwOTg3LC0xMDQ3MjI5MTYzLC0xMzAzMzY4NDUxLD
+E4MzA3NTU5MTQsLTE0NzExNzY3MDcsLTQ1MDA3NzIzLDY1MTE4
+MjU2N119
 -->
