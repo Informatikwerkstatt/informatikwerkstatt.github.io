@@ -604,7 +604,9 @@ public  class  Endless
 ### Kill it - Der Task-Manager
 <!-- wie killt man ein hängendes Java Programm -->
 - Wenn ein Programm "hängt", ist es manchmal unvermeidbar, den Prozess zu beenden, in dem das Programm läuft
-- Dazu 
+- Dazu
+	- TaskManager öffnen (Rechtsklick auf Datumsanzeige in Windows-Taskleiste)
+	- Prozess  Eingabeaufforderung
 
 ---
 
@@ -662,11 +664,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MDI4Mjc3LDIwMjQxNDYzMzIsMzE1NT
-Y0MDMxLDE2NTk5NTUwOTYsMTczNjQwMDk4NywtMTA0NzIyOTE2
-MywtMTMwMzM2ODQ1MSwxODMwNzU1OTE0LC0xNDcxMTc2NzA3LC
-00NTAwNzcyMyw2NTExODI1NjcsLTE4MjM4ODQyODUsLTEyNzE2
-NjgzMCwtOTc0MjYwNzQzLC0xOTI4Njc0NjUwLC0xMTU5MTM5Mz
-AxLDE0ODgzMTg2MzksMTIwMDQ5NzkyNCwxNjI2MjY1NTY0LC0x
-NzQzNDE1ODMxXX0=
+eyJoaXN0b3J5IjpbNjkyMDg2NjY0LC04NzAyODI3NywyMDI0MT
+Q2MzMyLDMxNTU2NDAzMSwxNjU5OTU1MDk2LDE3MzY0MDA5ODcs
+LTEwNDcyMjkxNjMsLTEzMDMzNjg0NTEsMTgzMDc1NTkxNCwtMT
+Q3MTE3NjcwNywtNDUwMDc3MjMsNjUxMTgyNTY3LC0xODIzODg0
+Mjg1LC0xMjcxNjY4MzAsLTk3NDI2MDc0MywtMTkyODY3NDY1MC
+wtMTE1OTEzOTMwMSwxNDg4MzE4NjM5LDEyMDA0OTc5MjQsMTYy
+NjI2NTU2NF19
 -->
