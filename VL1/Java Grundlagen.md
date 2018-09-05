@@ -694,13 +694,13 @@ public  class  Div0Fehler{
 ---
 
 
-## @Let's try
+## @Home
 
  - Im Abschnitt über Arrays haben wir gesehen, dass ein häufiger Fehler ist, dass versucht wird, mit ungültigen (zu großen pder negativen) Array-Indizes auf Elemente eines Arrays zuzugreifen
  1. Schreiben Sie ein Programm, in dem eine solche Situation auftritt
  2. Überlegen Sie, wie Sie die Situation behandeln können
  3. Erstellen Sie einen entsprechenden Try-Catch-Block
- 4. COmpilieren SIe ihr Programm und lassen es laufen
+ 4. Compilieren Sie ihr Programm und lassen es laufen
 
 <!-- Division durch Null Beispiel fangen + eigenes Beispiel wo eine RuntimeException geworfen wird -->
 
@@ -735,11 +735,11 @@ public  class  Div0Fehler{
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjUyNTAzNCw4MDkyODIzMTcsLTUyMT
-MxNzQyNSwtMTkyNzgxOTgwNywtMTgxNzUxMjM3LDE0OTA3NjEy
-MCwxMDE3MTc4OTYxLC04NzAyODI3NywyMDI0MTQ2MzMyLDMxNT
-U2NDAzMSwxNjU5OTU1MDk2LDE3MzY0MDA5ODcsLTEwNDcyMjkx
-NjMsLTEzMDMzNjg0NTEsMTgzMDc1NTkxNCwtMTQ3MTE3NjcwNy
-wtNDUwMDc3MjMsNjUxMTgyNTY3LC0xODIzODg0Mjg1LC0xMjcx
-NjY4MzBdfQ==
+eyJoaXN0b3J5IjpbNTQ3NDUwNyw4MDkyODIzMTcsLTUyMTMxNz
+QyNSwtMTkyNzgxOTgwNywtMTgxNzUxMjM3LDE0OTA3NjEyMCwx
+MDE3MTc4OTYxLC04NzAyODI3NywyMDI0MTQ2MzMyLDMxNTU2ND
+AzMSwxNjU5OTU1MDk2LDE3MzY0MDA5ODcsLTEwNDcyMjkxNjMs
+LTEzMDMzNjg0NTEsMTgzMDc1NTkxNCwtMTQ3MTE3NjcwNywtND
+UwMDc3MjMsNjUxMTgyNTY3LC0xODIzODg0Mjg1LC0xMjcxNjY4
+MzBdfQ==
 -->
