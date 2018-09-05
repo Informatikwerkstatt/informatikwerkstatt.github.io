@@ -639,8 +639,14 @@ public  class  Endless
 	- [Stream tutorial](https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/)
 
 ---
-## Wirf den Fehler - Throw-Exception
+## Fehler - Exception
 <!-- Was sind Exception, Beispiel am besten Division durch 0 -->
+
+- Fehler in Programmen, z.B.
+	- Division durch 0
+	- Zugriff auf einen nicht existierenden Array-Index
+	- 
+	- führen in anderen Programmiersprachen, wie z.B.. in C, direkt zu Programmabstürzen. Diese Fehler werden in Java als _Exception_ (Ausnahme) bezeichnet. 
 
 ---
 
@@ -675,7 +681,7 @@ public  class  Endless
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTcyNDMyNzcsLTE5Mjc4MTk4MDcsLT
+eyJoaXN0b3J5IjpbLTE3MTgzOTYwMzcsLTE5Mjc4MTk4MDcsLT
 E4MTc1MTIzNywxNDkwNzYxMjAsMTAxNzE3ODk2MSwtODcwMjgy
 NzcsMjAyNDE0NjMzMiwzMTU1NjQwMzEsMTY1OTk1NTA5NiwxNz
 M2NDAwOTg3LC0xMDQ3MjI5MTYzLC0xMzAzMzY4NDUxLDE4MzA3
