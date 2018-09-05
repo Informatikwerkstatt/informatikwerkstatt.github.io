@@ -456,14 +456,14 @@ Switch-case
 
 ## @Home
 
-Betrachte die beiden folgenden IF-ELSE Anweisungen
+Betrachte die beiden folgenden ```if-else``` Anweisungen
  1. Überlege, welcher Teil der Anweisungen jeweils ausgeführt wird und
     warum. 
  2. Schreibe für jede Anweisung ein Java-Programm; wähle geeignete Ausgaben, um die Ausführung nachvollziehen zu können.
 
 ```java
 // Anweisung 1				
-int a = 5
+int a = 5;
 int b = 6;	
 if ( a < b )
 { 
@@ -477,7 +477,9 @@ else
 
 ```java
 // Anweisung 2
-int a = 5, b = 6, c = 7;
+int a = 5;
+int b = 6;
+int c = 7;
 if ( a > b )
 { 
     a = b;
