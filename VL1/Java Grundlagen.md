@@ -732,12 +732,13 @@ public  class  Div0Fehler{
 ---
 ## Stil ist alles
 - Damit Programme für andere lesbar sind, gibt es eine Reihe von Konventionen bezüglich der Namensgebung, Groß-Klein-Schreibung
-- In JAva sind die in sogenannten Coding Styles
+- In Java sind die in sogenannten Coding Style Guides zusammengefasst
+- Beispiel: [Google Coding Style]]
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MjE5NjQ0MCwtMTMxMTY3Mzk3NSw0NT
+eyJoaXN0b3J5IjpbLTE1NjQ4NTgxMiwtMTMxMTY3Mzk3NSw0NT
 AxODY5MTAsODA5MjgyMzE3LC01MjEzMTc0MjUsLTE5Mjc4MTk4
 MDcsLTE4MTc1MTIzNywxNDkwNzYxMjAsMTAxNzE3ODk2MSwtOD
 cwMjgyNzcsMjAyNDE0NjMzMiwzMTU1NjQwMzEsMTY1OTk1NTA5
