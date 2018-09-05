@@ -735,12 +735,22 @@ public  class  Div0Fehler{
 - In Java sind die in sogenannten Coding Style Guides zusammengefasst
 - Beispiel: [Google Java Coding Style](https://google.github.io/styleguide/javaguide.html)
 - In der Folge listen wir ein paar ausgewählte dieser Konventionen 
-===
 
+===
+### Konventionen zur Namensgebung 
+
+- Variablennamen sind case-sensitiv: text und Text sind unterschiedliche Variable
+ï‚§	Variablennamen mÃ¼ssen mit einem Buchstaben, $ oder _ beginnen ($ ist mÃ¶glich, aber unerwÃ¼nscht)
+ï‚§	Sie dÃ¼rfen nur Zahlen, Buchstaben, oder _ enthalten
+ï‚§	Konventionen:
+ï‚§	Einzelne Worte als Variablenname werden klein geschrieben
+ïƒ˜	text
+ï‚§	Besteht ein Name aus mehreren Worten, werden die inneren Worte groÃŸ geschrieben (CamelCase)
+ïƒ˜	textEingabe
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDIzNzQxNTUsLTEzMTE2NzM5NzUsND
+eyJoaXN0b3J5IjpbLTEyNjE0MTQzOTYsLTEzMTE2NzM5NzUsND
 UwMTg2OTEwLDgwOTI4MjMxNywtNTIxMzE3NDI1LC0xOTI3ODE5
 ODA3LC0xODE3NTEyMzcsMTQ5MDc2MTIwLDEwMTcxNzg5NjEsLT
 g3MDI4Mjc3LDIwMjQxNDYzMzIsMzE1NTY0MDMxLDE2NTk5NTUw
