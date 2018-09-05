@@ -582,7 +582,7 @@ while ( true ) {
 
 ===
 ### Oh weh, was macht mein Programm
-- @LetWas passiert hier? 
+ - **@Let's try**: Was passiert hier? 
  ``` java
 public  class  Endless
 {
@@ -596,6 +596,8 @@ public  class  Endless
    }
 }
 ``` 
+- 
+ - Wenn Ihr das Programm über die Kommandozeile gestartet habt, könnt Ihr es
 
 ---
 
@@ -659,11 +661,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzQ4MTA5NiwyMDI0MTQ2MzMyLDMxNT
-U2NDAzMSwxNjU5OTU1MDk2LDE3MzY0MDA5ODcsLTEwNDcyMjkx
-NjMsLTEzMDMzNjg0NTEsMTgzMDc1NTkxNCwtMTQ3MTE3NjcwNy
-wtNDUwMDc3MjMsNjUxMTgyNTY3LC0xODIzODg0Mjg1LC0xMjcx
-NjY4MzAsLTk3NDI2MDc0MywtMTkyODY3NDY1MCwtMTE1OTEzOT
-MwMSwxNDg4MzE4NjM5LDEyMDA0OTc5MjQsMTYyNjI2NTU2NCwt
-MTc0MzQxNTgzMV19
+eyJoaXN0b3J5IjpbMzg5MDIyMDUxLDIwMjQxNDYzMzIsMzE1NT
+Y0MDMxLDE2NTk5NTUwOTYsMTczNjQwMDk4NywtMTA0NzIyOTE2
+MywtMTMwMzM2ODQ1MSwxODMwNzU1OTE0LC0xNDcxMTc2NzA3LC
+00NTAwNzcyMyw2NTExODI1NjcsLTE4MjM4ODQyODUsLTEyNzE2
+NjgzMCwtOTc0MjYwNzQzLC0xOTI4Njc0NjUwLC0xMTU5MTM5Mz
+AxLDE0ODgzMTg2MzksMTIwMDQ5NzkyNCwxNjI2MjY1NTY0LC0x
+NzQzNDE1ODMxXX0=
 -->
