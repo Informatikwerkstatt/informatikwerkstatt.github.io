@@ -612,10 +612,13 @@ public  class  Endless
 	- Fertig!
 
 ===
-### Kill-it Video
+### Kill-it -- das Video
 - Hier noch ein Video zur Illustration des Prozesses
 
-<iframe class="video" src="https://vimeo.com/288322168" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
+
+<iframe class="video" src="https://player.vimeo.com/video/287916699" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
+
+<iframe class="video" src="https://player.vimeo.com/288322168" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
 
 ---
 
@@ -673,11 +676,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjE3OTQyMjAsLTE4MTc1MTIzNywxND
-kwNzYxMjAsMTAxNzE3ODk2MSwtODcwMjgyNzcsMjAyNDE0NjMz
-MiwzMTU1NjQwMzEsMTY1OTk1NTA5NiwxNzM2NDAwOTg3LC0xMD
-Q3MjI5MTYzLC0xMzAzMzY4NDUxLDE4MzA3NTU5MTQsLTE0NzEx
-NzY3MDcsLTQ1MDA3NzIzLDY1MTE4MjU2NywtMTgyMzg4NDI4NS
-wtMTI3MTY2ODMwLC05NzQyNjA3NDMsLTE5Mjg2NzQ2NTAsLTEx
-NTkxMzkzMDFdfQ==
+eyJoaXN0b3J5IjpbMTUwNjQ0NDY1NCwtMTgxNzUxMjM3LDE0OT
+A3NjEyMCwxMDE3MTc4OTYxLC04NzAyODI3NywyMDI0MTQ2MzMy
+LDMxNTU2NDAzMSwxNjU5OTU1MDk2LDE3MzY0MDA5ODcsLTEwND
+cyMjkxNjMsLTEzMDMzNjg0NTEsMTgzMDc1NTkxNCwtMTQ3MTE3
+NjcwNywtNDUwMDc3MjMsNjUxMTgyNTY3LC0xODIzODg0Mjg1LC
+0xMjcxNjY4MzAsLTk3NDI2MDc0MywtMTkyODY3NDY1MCwtMTE1
+OTEzOTMwMV19
 -->
