@@ -18,7 +18,7 @@ __Java Grundlagen__
 
 ===
 
-### Hello-World: Mein erstes Java-Programm
+## Hello-World: Mein erstes Java-Programm
 
 - Ein [Hello-World-Programm](https://de.wikipedia.org/wiki/Hallo-Welt-Programm) ist ein Minimalbeispiel für ein Programm in einer Programmiersprache
 - Das folgende Java-Programm gibt die Zeichenkette ```Hello World``` auf der Konsole aus.
@@ -35,7 +35,7 @@ public class CHelloWorld
 
 ===
 
-### Java Standalone am Rechner
+## Java Standalone am Rechner
  
 - Java Compiler:  Befehl ```javac```
 - Dienstprogramm, Teil der Java Software
@@ -48,7 +48,7 @@ public class CHelloWorld
 
 ===
 
-### Java auf Android-Endgeräten
+## Java auf Android-Endgeräten
 <!-- eine Subfolie für Java bei Android (Achtung die Infos auf Folien vom letzten Jahr stimmen nicht mehr Dalvik VM wird bei Android nicht mehr benutzt
 JPM: Ich würde das eher am Anfang der Android-Intro machen. Hier eher die allgemeine Abbildung, die den Cross-Platform Charakter von Java illustriert, s.u. -->
 
@@ -414,11 +414,16 @@ Note: kein Compile-Fehler, aber nur ganzzahliger Anteil!-->
     ```
     
 - Blöcke mit mehreren Anweisungen in geschweifte Klammern einfassen!
-<!-- @Phil: brauchen wir  switch-case -->
+
+---
+
+### @Profi
+
+Switch-case
 
 ===
 
-### Ternärer Operator
+## Ternärer Operator
 <!-- ternärer Operator funktioniert nur für 2 Alternativen; kompakter; if-else empfinden viele als besser lesbar -->
 - Wenn nur zwischen zwei Ausgabewerten unterschieden werden soll, gibt es für die IF-ELSE-Anweisung eine Kurzform
 -  Der *ternäre Operator* `?:` hat die Form
