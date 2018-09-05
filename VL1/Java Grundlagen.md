@@ -164,7 +164,7 @@ public class HelloWorld
  - Quelldatei enthält Klasse HelloWorld 
 	 - *Achtung*: Groß-/Kleinschreibung wird in Java generell unterschieden!
  - Verhalten einer Klasse wird durch Methoden beschrieben
- - Die `HelloWorld` Klasse hat eine Methode ```main``` 
+ - Die `HelloWorld` Klasse hat eine Methode: ```main()``` 
 - In der Folge erfahren wir mehr über Klassen und Ihren Aufbau
 ===
 ### Klassen 
@@ -591,11 +591,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMTQzOTkyMCwtMTI3MTY2ODMwLC05Nz
-QyNjA3NDMsLTE5Mjg2NzQ2NTAsLTExNTkxMzkzMDEsMTQ4ODMx
-ODYzOSwxMjAwNDk3OTI0LDE2MjYyNjU1NjQsLTE3NDM0MTU4Mz
-EsLTI3OTEyODY5OCwxNTkxNjczOTM5LC01OTc4NzUzMzYsLTE0
-NTcwNTE3MDksNTUwMzQxNTM1LDY0NDA0OTUwNywxNzk5Mzg0Nj
-E0LDEwMDYzNDUzMzgsNjI1MDk4Nzc5LDkzMzkyNTE0MCwtMTA1
-MjcxNDQyNl19
+eyJoaXN0b3J5IjpbODEyMjMzNTU5LC0xMjcxNjY4MzAsLTk3ND
+I2MDc0MywtMTkyODY3NDY1MCwtMTE1OTEzOTMwMSwxNDg4MzE4
+NjM5LDEyMDA0OTc5MjQsMTYyNjI2NTU2NCwtMTc0MzQxNTgzMS
+wtMjc5MTI4Njk4LDE1OTE2NzM5MzksLTU5Nzg3NTMzNiwtMTQ1
+NzA1MTcwOSw1NTAzNDE1MzUsNjQ0MDQ5NTA3LDE3OTkzODQ2MT
+QsMTAwNjM0NTMzOCw2MjUwOTg3NzksOTMzOTI1MTQwLC0xMDUy
+NzE0NDI2XX0=
 -->
