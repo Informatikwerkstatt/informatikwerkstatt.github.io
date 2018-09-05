@@ -31,7 +31,7 @@ public class CHelloWorld
 		System.out.println( "Hello, World" );
 	}
 }
-`````
+```
 
 ===
 
@@ -111,8 +111,8 @@ Die [Kommandozeile / Windows Eingabeaufforderung](https://de.wikipedia.org/wiki/
 - Übersetzen des geschriebenen Java-Quellcodes in _Maschinensprache_ (meistens Binärcode)
 - Eingabe in Java:
 
-    ```
-    javac HelloWorld.java
+    ```shell
+javac HelloWorld.java
     ```
 
 - Damit die Datei ```javac.exe``` gefunden wird, müssen die Umgebungsvariablen ```%JAVA_HOME%``` und ```%PATH%``` entsprehend gesetzt sein. Details für Windows [hier](https://docs.oracle.com/javase/10/install/installation-jdk-and-jre-microsoft-windows-platforms.htm).
@@ -373,6 +373,7 @@ System.out.println(i==j);
 - bei String und anderen Objekten: Test mit Methode `equals()`
 
     ```java
+
 // neues String-Objekt wird erzeugt
 String s1 = new String("maus");
 String s2 = new String("maus");
@@ -620,11 +621,11 @@ Schreibe ein weiteres Programm, in dem Du
 - Beispiel:
 
     ```java
-    List<String> someList = new ArrayList<String>();
-    // füge "aepfel", "birnen", "pflaumen" zu someList hinzu
-    for (String item : someList) {
-        System.out.println(item);
-    }
+List<String> someList = new ArrayList<String>();
+// füge "aepfel", "birnen", "pflaumen" zu someList hinzu
+for (String item : someList) {
+    System.out.println(item);
+}
     ```
 
 - Anm.:  Da im Rumpf der `for each` Anweisung nur Kopien der Listenelemente verarbeitet werden, kann man damit keine Elemente der Liste ändern oder löschen!
@@ -637,30 +638,31 @@ Schreibe ein weiteres Programm, in dem Du
 - z.B. wir schauen alle 5 Sekunden so lange in den Briefkasten, bis ein Brief drinnen liegt
 
     ```
-    // Pseudocode - dient nur zum Erklären des Prinzips
-    // Zum Speichern der Mail
-    Mail m = null;
-    // Mache weiter, solange noch keine Mail da ist        
-    while (m == null )
-    {           
-        // Schaue nach Mail
-        m = Mailbox.lookup();  
-        // Warte 5 Sekunden     
-        Thread.sleep(5000);         
-    }
-    // Endlich!! Wir können unsere Mail lesen
-    m.read();
+// Pseudocode - dient nur zum Erklären des Prinzips
+// Zum Speichern der Mail
+Mail m = null;
+// Mache weiter, solange noch keine Mail da ist        
+while ( Objects.isNull(m) )
+{           
+    // Schaue nach Mail
+    m = Mailbox.lookup();  
+    // Warte 5 Sekunden     
+    Thread.sleep(5000);         
+}
+// Endlich!! Wir können unsere Mail lesen
+m.read();
     ```
 
 - Und hier noch ein Beispiel für `do-while`
     
     ```java
-    int count = 1;
-    // der Rumpf der Schleife wird bei do-while mindestens einmal ausgeführt
-    do { 
-       System.out.println("Count is: " + count);
-       count++;
-     } while (count < 11); 
+int count = 1;
+// der Rumpf der Schleife wird bei do-while mindestens einmal ausgeführt
+do
+{ 
+    System.out.println( "Count is: " + count );
+    count++;
+} while (count < 11); 
     ```
 
 ---
@@ -671,9 +673,10 @@ Schreibe ein weiteres Programm, in dem Du
 - Antwort: Whileschleife, die nie abbricht
 
     ```java
-while ( true ) {
+while ( true )
+{
     // einatmen  ... ausatmen
-    }
+}
      ```
      
 - Es gibt Fälle, in denen Endlosschleifen beabsichtigt sind.
@@ -686,21 +689,23 @@ while ( true ) {
 - Was passiert hier? 
  
     ```java
-    public class Endless
-  {
-   public static void  main( String[] p_args )
-       {
-         int  n=0, m=0;
-         while (n <  11) {
+public class Endless
+{
+    public static void  main( String[] p_args )
+    {
+        int n = 0;
+        int m = 0;
+        while ( n < 11 )
+        {
            System.out.println("Count is: "  + n);
            m++;
-         }
-       }
+        }
     }
+}
     ```
      
 - Endlosschleifen sind ein einfaches Rezept, die CPU komplett auszulasten :o
- - Wenn Ihr das Programm über die Eingabeaufforderung gestartet habt, könnt Ihr es dort mit der Tastenkombination STRG+C beenden.
+- Wenn Ihr das Programm über die Eingabeaufforderung gestartet habt, könnt Ihr es dort mit der Tastenkombination STRG+C beenden.
 - Manchmal ist es aber nicht so einfach ...
 
 ===
