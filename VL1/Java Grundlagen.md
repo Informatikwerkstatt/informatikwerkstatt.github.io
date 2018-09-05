@@ -550,13 +550,13 @@ for (String item : someList) {
 - Wenn die Anzahl der Wiederholungen eines Codeblocks nicht von vorne herein bekannt ist, sondern nach jedem Durchlauf eine Bedingung überprüft werden muss, nutzen wir die `while-`Schleife
 - z.B. wir schauen alle 5 Sekunden so lange in den Briefkasten, bis ein Brief drinnen liegt
 ``` 
-// pseudocode - just to display the general principle
+// Pseudocode - dient nur zum Erklären des Prinzips
 Mail m = null;                // Zum Speichern der Mail
-while (m == null ){           // Mache weiter, sol
-    m = Mailbox.lookup();     // look for new mail
-    Thread.sleep(5000);
+while (m == null ){           // Mache weiter, solange noch keine Mail da ist
+    m = Mailbox.lookup();     // Schaue nach Mail
+    Thread.sleep(5000);       // Warte 5 Sekunden
 }
-m.read(); // finally we can read ourmail
+m.read();                     // Endlich!! Wir können unsere Mail lesen
 ```
 
 ---
@@ -626,11 +626,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTcyNDc2MzIsLTEwNDcyMjkxNjMsLT
-EzMDMzNjg0NTEsMTgzMDc1NTkxNCwtMTQ3MTE3NjcwNywtNDUw
-MDc3MjMsNjUxMTgyNTY3LC0xODIzODg0Mjg1LC0xMjcxNjY4Mz
-AsLTk3NDI2MDc0MywtMTkyODY3NDY1MCwtMTE1OTEzOTMwMSwx
-NDg4MzE4NjM5LDEyMDA0OTc5MjQsMTYyNjI2NTU2NCwtMTc0Mz
-QxNTgzMSwtMjc5MTI4Njk4LDE1OTE2NzM5MzksLTU5Nzg3NTMz
-NiwtMTQ1NzA1MTcwOV19
+eyJoaXN0b3J5IjpbMTczNjQwMDk4NywtMTA0NzIyOTE2MywtMT
+MwMzM2ODQ1MSwxODMwNzU1OTE0LC0xNDcxMTc2NzA3LC00NTAw
+NzcyMyw2NTExODI1NjcsLTE4MjM4ODQyODUsLTEyNzE2NjgzMC
+wtOTc0MjYwNzQzLC0xOTI4Njc0NjUwLC0xMTU5MTM5MzAxLDE0
+ODgzMTg2MzksMTIwMDQ5NzkyNCwxNjI2MjY1NTY0LC0xNzQzND
+E1ODMxLC0yNzkxMjg2OTgsMTU5MTY3MzkzOSwtNTk3ODc1MzM2
+LC0xNDU3MDUxNzA5XX0=
 -->
