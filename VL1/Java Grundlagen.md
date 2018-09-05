@@ -567,10 +567,13 @@ do { // der Rumpf der Schleife wird bei do-while mindestens einmal ausgeführt
    count++;
  } while (count < 11); 
 ```        
----
-## Infinity Loop
- 
+===
+### Infinity Loop
 <!-- while true, was passiert intern dabei -> CPU Last 100% -->
+- Frage: Wie kann man ein Programm erzeugen, das nie anhält?
+- Antwort: Wh
+ 
+
 
 ---
 
@@ -634,11 +637,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg0MDI1NTQxLDE3MzY0MDA5ODcsLTEwND
-cyMjkxNjMsLTEzMDMzNjg0NTEsMTgzMDc1NTkxNCwtMTQ3MTE3
-NjcwNywtNDUwMDc3MjMsNjUxMTgyNTY3LC0xODIzODg0Mjg1LC
-0xMjcxNjY4MzAsLTk3NDI2MDc0MywtMTkyODY3NDY1MCwtMTE1
-OTEzOTMwMSwxNDg4MzE4NjM5LDEyMDA0OTc5MjQsMTYyNjI2NT
-U2NCwtMTc0MzQxNTgzMSwtMjc5MTI4Njk4LDE1OTE2NzM5Mzks
-LTU5Nzg3NTMzNl19
+eyJoaXN0b3J5IjpbODg4NDA0NTgsMTczNjQwMDk4NywtMTA0Nz
+IyOTE2MywtMTMwMzM2ODQ1MSwxODMwNzU1OTE0LC0xNDcxMTc2
+NzA3LC00NTAwNzcyMyw2NTExODI1NjcsLTE4MjM4ODQyODUsLT
+EyNzE2NjgzMCwtOTc0MjYwNzQzLC0xOTI4Njc0NjUwLC0xMTU5
+MTM5MzAxLDE0ODgzMTg2MzksMTIwMDQ5NzkyNCwxNjI2MjY1NT
+Y0LC0xNzQzNDE1ODMxLC0yNzkxMjg2OTgsMTU5MTY3MzkzOSwt
+NTk3ODc1MzM2XX0=
 -->
