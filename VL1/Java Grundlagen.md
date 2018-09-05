@@ -648,11 +648,11 @@ public  class  Endless
 	- Zugriff auf ein noch nicht erzeugtes Objekt
 - Diese Fehler werden in Java als _Exception_ (Ausnahme) bezeichnet 
 - Sie treten zur Laufzeit ein (deshalb: RuntimeException)
-- Unbehandelt führen sie zu  Abstürzen oder unerwünschten Programmzuständen führt. 
-
+- Unbehandelt führen sie zu  Abstürzen oder unerwünschten Programmzuständen 
 
 ===
-### Let's try: Ein Beispiel
+### @Let's try: Ein Beispiel
+- Lassen Sie das folgende Beispiel laufen - was passiert?
 ``` java
 public  class  Div0Fehler{
   public  static  void  main( String[] p_args )
@@ -663,9 +663,9 @@ public  class  Div0Fehler{
     System.out.println("Ergebnis: "  + ergebnis);
   }
 }
----
-
-## Fange den Fehler - try-catch
+```
+===
+### Fang den Fehler - try-catch
 
 <!-- wie behandelt man Exceptions -->
 
@@ -696,11 +696,11 @@ public  class  Div0Fehler{
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzYxODA2NTksLTUyMTMxNzQyNSwtMT
-kyNzgxOTgwNywtMTgxNzUxMjM3LDE0OTA3NjEyMCwxMDE3MTc4
-OTYxLC04NzAyODI3NywyMDI0MTQ2MzMyLDMxNTU2NDAzMSwxNj
-U5OTU1MDk2LDE3MzY0MDA5ODcsLTEwNDcyMjkxNjMsLTEzMDMz
-Njg0NTEsMTgzMDc1NTkxNCwtMTQ3MTE3NjcwNywtNDUwMDc3Mj
-MsNjUxMTgyNTY3LC0xODIzODg0Mjg1LC0xMjcxNjY4MzAsLTk3
-NDI2MDc0M119
+eyJoaXN0b3J5IjpbODA5MjgyMzE3LC01MjEzMTc0MjUsLTE5Mj
+c4MTk4MDcsLTE4MTc1MTIzNywxNDkwNzYxMjAsMTAxNzE3ODk2
+MSwtODcwMjgyNzcsMjAyNDE0NjMzMiwzMTU1NjQwMzEsMTY1OT
+k1NTA5NiwxNzM2NDAwOTg3LC0xMDQ3MjI5MTYzLC0xMzAzMzY4
+NDUxLDE4MzA3NTU5MTQsLTE0NzExNzY3MDcsLTQ1MDA3NzIzLD
+Y1MTE4MjU2NywtMTgyMzg4NDI4NSwtMTI3MTY2ODMwLC05NzQy
+NjA3NDNdfQ==
 -->
