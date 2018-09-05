@@ -579,7 +579,13 @@ while ( true ) {
  ```
 - Es gibt Fälle, in denen Endlosschleifen beabsichtigt sind.
 - Manchmal entstehen Sie aber unbeabsichtigt - durch Programmierfehler
-- `enter code here` 
+ ``` java
+int n=0, m=0;
+while (n < 11) {
+   System.out.println("Count is: " + n);
+   m++;
+ } 
+``` 
 
 ---
 
@@ -643,7 +649,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMyMjg2MzU0LDE2NTk5NTUwOTYsMTczNj
+eyJoaXN0b3J5IjpbMzE1NTY0MDMxLDE2NTk5NTUwOTYsMTczNj
 QwMDk4NywtMTA0NzIyOTE2MywtMTMwMzM2ODQ1MSwxODMwNzU1
 OTE0LC0xNDcxMTc2NzA3LC00NTAwNzcyMyw2NTExODI1NjcsLT
 E4MjM4ODQyODUsLTEyNzE2NjgzMCwtOTc0MjYwNzQzLC0xOTI4
