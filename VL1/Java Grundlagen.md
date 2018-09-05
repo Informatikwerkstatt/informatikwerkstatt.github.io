@@ -605,8 +605,12 @@ public  class  Endless
 <!-- wie killt man ein hängendes Java Programm -->
 - Wenn ein Programm "hängt", ist es manchmal unvermeidbar, den Prozess zu beenden, in dem das Programm läuft
 - Dazu
-	- TaskManager öffnen (Rechtsklick auf Datumsanzeige in Windows-Taskleiste)
-	- Prozess  Eingabeaufforderung
+	- Rechtsklick auf Datumsanzeige in Windows-Taskleiste
+	- Im Menu Task-Manager auswählen
+	- "Hängenden" Prozess (hier: Windows-Befehlsprozessor) suchen
+	- Rechtsklick  darauf, "Task beenden" auswählen
+	- Fertig!
+- Hier noch ein Video zur 
 
 ---
 
@@ -664,11 +668,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkyMDg2NjY0LC04NzAyODI3NywyMDI0MT
-Q2MzMyLDMxNTU2NDAzMSwxNjU5OTU1MDk2LDE3MzY0MDA5ODcs
-LTEwNDcyMjkxNjMsLTEzMDMzNjg0NTEsMTgzMDc1NTkxNCwtMT
-Q3MTE3NjcwNywtNDUwMDc3MjMsNjUxMTgyNTY3LC0xODIzODg0
-Mjg1LC0xMjcxNjY4MzAsLTk3NDI2MDc0MywtMTkyODY3NDY1MC
-wtMTE1OTEzOTMwMSwxNDg4MzE4NjM5LDEyMDA0OTc5MjQsMTYy
-NjI2NTU2NF19
+eyJoaXN0b3J5IjpbLTMxNTIxMjk1OSwtODcwMjgyNzcsMjAyND
+E0NjMzMiwzMTU1NjQwMzEsMTY1OTk1NTA5NiwxNzM2NDAwOTg3
+LC0xMDQ3MjI5MTYzLC0xMzAzMzY4NDUxLDE4MzA3NTU5MTQsLT
+E0NzExNzY3MDcsLTQ1MDA3NzIzLDY1MTE4MjU2NywtMTgyMzg4
+NDI4NSwtMTI3MTY2ODMwLC05NzQyNjA3NDMsLTE5Mjg2NzQ2NT
+AsLTExNTkxMzkzMDEsMTQ4ODMxODYzOSwxMjAwNDk3OTI0LDE2
+MjYyNjU1NjRdfQ==
 -->
