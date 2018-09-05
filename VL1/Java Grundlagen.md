@@ -561,10 +561,10 @@ m.read();                     // Endlich!! Wir können unsere Mail lesen
 - und hier noch ein Beispiel für do-while
 ``` java
 int count = 1;
-while (count < 11) {
+do { // der Rumpf der Schleife wird bei do-while mindestens einmal ausgeführt
    System.out.println("Count is: " + count);
    count++;
- }
+ } while (count < 11); 
 ```        
 ---
 ## Infinity Loop
@@ -633,7 +633,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDk3ODE5MTgsMTczNjQwMDk4NywtMT
+eyJoaXN0b3J5IjpbLTIxMTQ5NDIwMzcsMTczNjQwMDk4NywtMT
 A0NzIyOTE2MywtMTMwMzM2ODQ1MSwxODMwNzU1OTE0LC0xNDcx
 MTc2NzA3LC00NTAwNzcyMyw2NTExODI1NjcsLTE4MjM4ODQyOD
 UsLTEyNzE2NjgzMCwtOTc0MjYwNzQzLC0xOTI4Njc0NjUwLC0x
