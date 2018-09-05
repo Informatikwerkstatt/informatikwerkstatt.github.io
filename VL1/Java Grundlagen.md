@@ -49,7 +49,7 @@ public class CHelloWorld
 
 ## Java überall
 
-Wir nutzten später in dieser Vorlesung [Java auf Ant](/android-grundlagen/)
+Wir nutzen später in dieser Vorlesung [Java auf Ant](/android-grundlagen/)
 
 ![Deployment](images/java-cross-pf.png#center)
 
@@ -61,8 +61,8 @@ Wir nutzten später in dieser Vorlesung [Java auf Ant](/android-grundlagen/)
 
 - **Quellcode**: Textbasierte Darstellung eines Programms
     - ```.java``` Textdatei, erstellt z.B. [Visual Studio Code](https://code.visualstudio.com/)
-   	 - Zeichen werd in ei [Kodierung](https://de.wikipedia.org/wiki/Zeichenkodierung) gespeichert (deutsche Umlaute)
-    - heute wird meist [UTF-8](https://de.wikipedia.org/wiki/UTF-8)
+   	 - Zeichen werd in einer [Kodierung](https://de.wikipedia.org/wiki/Zeichenkodierung) gespeichert (deutsche Umlaute)
+    - heute wird meist [UTF-8](https://de.wikipedia.org/wiki/UTF-8) verwendet
 
 - **Binärcode**: Ausführbares Programm als Bytefolge gespeichert, 
     - ```.class``` Binärdateien sind nicht für den Menschen lesbar
@@ -76,7 +76,7 @@ Wir nutzten später in dieser Vorlesung [Java auf Ant](/android-grundlagen/)
 
 Die [Kommandozeile / Windows Eingabeaufforderung](https://de.wikipedia.org/wiki/Kommandozeile) ist eine Anwendung, um mittels Tastatureingabe Befehle/Programme auszuführen. 
 
-- manuellen  Compilieren einfacher Programmbeispiele
+- Manuelles  Compilieren einfacher Programmbeispiele
 - Starten einfacher Beispiele
 - Verstehen des Prozesses des Compilierens und der Ausführung von Javaprogrammen
 
@@ -897,5 +897,5 @@ public class Div0Fehler
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NzY0NTU2MF19
+eyJoaXN0b3J5IjpbMTY4Mzk4ODY0XX0=
 -->
