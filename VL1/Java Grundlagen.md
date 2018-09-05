@@ -514,7 +514,7 @@ for (int  i  =0; i <  betreuer.size(); i++)
     3. und danach die Werte ausliest und ausgibst 
 
 ---
-## Wieder und wieder und wieder... - Schleifen
+## Spiel's noch einmal, Sam ... - Schleifen
 
 <!-- for, while und do-while Schleifen, wann benutzt man was anhand eines einfachen zu erklärenden Beispiels -->
 
@@ -592,11 +592,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzExNzY3MDcsLTQ1MDA3NzIzLDY1MT
-E4MjU2NywtMTgyMzg4NDI4NSwtMTI3MTY2ODMwLC05NzQyNjA3
-NDMsLTE5Mjg2NzQ2NTAsLTExNTkxMzkzMDEsMTQ4ODMxODYzOS
-wxMjAwNDk3OTI0LDE2MjYyNjU1NjQsLTE3NDM0MTU4MzEsLTI3
-OTEyODY5OCwxNTkxNjczOTM5LC01OTc4NzUzMzYsLTE0NTcwNT
-E3MDksNTUwMzQxNTM1LDY0NDA0OTUwNywxNzk5Mzg0NjE0LDEw
-MDYzNDUzMzhdfQ==
+eyJoaXN0b3J5IjpbLTY1MjM5NDAyMSwtMTQ3MTE3NjcwNywtND
+UwMDc3MjMsNjUxMTgyNTY3LC0xODIzODg0Mjg1LC0xMjcxNjY4
+MzAsLTk3NDI2MDc0MywtMTkyODY3NDY1MCwtMTE1OTEzOTMwMS
+wxNDg4MzE4NjM5LDEyMDA0OTc5MjQsMTYyNjI2NTU2NCwtMTc0
+MzQxNTgzMSwtMjc5MTI4Njk4LDE1OTE2NzM5MzksLTU5Nzg3NT
+MzNiwtMTQ1NzA1MTcwOSw1NTAzNDE1MzUsNjQ0MDQ5NTA3LDE3
+OTkzODQ2MTRdfQ==
 -->
