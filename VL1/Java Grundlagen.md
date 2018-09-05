@@ -519,7 +519,7 @@ l_tabelle[7][8] = "Steffi";
 ### Zugriff auf Array
 - Adressieren des gesuchten Feldes mit Indexvariable:
 
-    ```java
+```java
 final int[] l_highscores = {1000, 850, 600};
 //first hat nun Wert `1000`
 final int l_erstes = highscores[0];
@@ -527,15 +527,14 @@ final int l_erstes = highscores[0];
 
 - Arrayelemente durchlaufen (iterieren) mit `for`-Schleife
 
-    ```java
+```java
 for ( int i = 0; i < highscores.length; i++ )
     System.out.println(highscores[i]); 
     ```
 
 - Häufiger Fehler: Ungültiger Wert für Index &rarr; führt zu Laufzeitfehler
 
-    ```java
-
+```java
 final int[] highscores = {1000, 850, 600};
 //Zugriff auf viertes Element was nicht existiert
 final int l_wert = highscores[3]; 
