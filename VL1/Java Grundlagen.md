@@ -218,19 +218,19 @@ Man könnte doch für alles `double` verwenden ...
 - Mithilfe der Datentypen können wir dem Java-Compiler genau beschreiben, welches erlaubte Werte einer Variable sind 
 - Wir erweitern unser [HelloWorld-Programm](#/1/1):
 
-   ```java    
-public class CHelloWorld
-{
+```java    
+    public class CHelloWorld
+    {
     // Variablendeklaration mit Initialisierung
-    private static final String message = "Hello World";
+      private static final String message = "Hello World";
     
-    public static void main( String[] p_args )
-    	{
+      public static void main( String[] p_args )
+      {
        	// Variable wird Methode als Parameter übergeben
         System.out.println( message );
+      }
     }
-}
-    ```
+```
 
 ===
 
@@ -239,9 +239,9 @@ public class CHelloWorld
 
 - Variable muss vor Verwendung deklariert werden
     
-    ```java
-private final String message = "Hello World";
-    ```
+```java
+    private final String message = "Hello World";
+```
 
 - Mit dem Zuweisungsoperator ```=``` kann einer Variable ein Wert zugewiesen werden
 - ```=``` kopiert Wert auf der rechten Seite in die Variable auf der linken 
@@ -897,5 +897,5 @@ public class Div0Fehler
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY5MTgwMzA0XX0=
+eyJoaXN0b3J5IjpbMzgxMTEzNzk2XX0=
 -->
