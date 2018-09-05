@@ -610,7 +610,7 @@ public  class  Endless
 	- "Hängenden" Prozess (hier: Windows-Befehlsprozessor) suchen
 	- Rechtsklick  darauf, "Task beenden" auswählen
 	- Fertig!
-- Hier noch ein Video zur 
+- Hier noch ein Video zur Illustration
 
 ---
 
@@ -668,7 +668,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNTIxMjk1OSwtODcwMjgyNzcsMjAyND
+eyJoaXN0b3J5IjpbMTAxNzE3ODk2MSwtODcwMjgyNzcsMjAyND
 E0NjMzMiwzMTU1NjQwMzEsMTY1OTk1NTA5NiwxNzM2NDAwOTg3
 LC0xMDQ3MjI5MTYzLC0xMzAzMzY4NDUxLDE4MzA3NTU5MTQsLT
 E0NzExNzY3MDcsLTQ1MDA3NzIzLDY1MTE4MjU2NywtMTgyMzg4
