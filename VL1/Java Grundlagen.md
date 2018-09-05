@@ -649,6 +649,7 @@ public  class  Endless
 - Diese Fehler werden in Java als _Exception_ (Ausnahme) bezeichnet 
 - Sie treten zur Laufzeit ein (deshalb: RuntimeException)
 - Unbehandelt führen sie zu  Abstürzen oder unerwünschten Programmzuständen 
+- IN Java werden 
 
 ===
 ### @Let's try: Ein Beispiel
@@ -692,11 +693,9 @@ public  class  Div0Fehler{
 - Wie könnte man sinnvoll den Fall abfangen, wenn der Nenner von einem Benutzer eingegeben wird?
 
 ---
+## @Home/Übung
 
-
-## @Home
-
- - Im Abschnitt über Arrays haben wir gesehen, dass ein häufiger Fehler ist, dass versucht wird, mit ungültigen (zu großen pder negativen) Array-Indizes auf Elemente eines Arrays zuzugreifen
+ - Im Abschnitt über Arrays haben wir das Problem kennengelernt, dass mit ungültigen (zu großen oder negativen) Array-Indizes auf Elemente eines Arrays zugegriffen wird
  1. Schreiben Sie ein Programm, in dem eine solche Situation auftritt
  2. Überlegen Sie, wie Sie die Situation behandeln können
  3. Erstellen Sie einen entsprechenden Try-Catch-Block
@@ -706,7 +705,7 @@ public  class  Div0Fehler{
 
 ---
 
-## @Übungsaufgabe
+## @Home/Übung
 
 > Schreiben Sie ein Programm, dass zwei Argumente von der Kommandozeile einliest, einen String und eine Zahl, und das den String so oft auf der Kommandozeile ausgibt, wie die Zahl angibt.
 
@@ -735,11 +734,11 @@ public  class  Div0Fehler{
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ3NDUwNyw4MDkyODIzMTcsLTUyMTMxNz
-QyNSwtMTkyNzgxOTgwNywtMTgxNzUxMjM3LDE0OTA3NjEyMCwx
-MDE3MTc4OTYxLC04NzAyODI3NywyMDI0MTQ2MzMyLDMxNTU2ND
-AzMSwxNjU5OTU1MDk2LDE3MzY0MDA5ODcsLTEwNDcyMjkxNjMs
-LTEzMDMzNjg0NTEsMTgzMDc1NTkxNCwtMTQ3MTE3NjcwNywtND
-UwMDc3MjMsNjUxMTgyNTY3LC0xODIzODg0Mjg1LC0xMjcxNjY4
-MzBdfQ==
+eyJoaXN0b3J5IjpbLTY5MDYyNTQwMSw4MDkyODIzMTcsLTUyMT
+MxNzQyNSwtMTkyNzgxOTgwNywtMTgxNzUxMjM3LDE0OTA3NjEy
+MCwxMDE3MTc4OTYxLC04NzAyODI3NywyMDI0MTQ2MzMyLDMxNT
+U2NDAzMSwxNjU5OTU1MDk2LDE3MzY0MDA5ODcsLTEwNDcyMjkx
+NjMsLTEzMDMzNjg0NTEsMTgzMDc1NTkxNCwtMTQ3MTE3NjcwNy
+wtNDUwMDc3MjMsNjUxMTgyNTY3LC0xODIzODg0Mjg1LC0xMjcx
+NjY4MzBdfQ==
 -->
