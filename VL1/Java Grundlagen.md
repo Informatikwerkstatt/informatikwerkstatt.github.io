@@ -31,7 +31,7 @@ public class CHelloWorld
 		System.out.println( "Hello, World" );
 	}
 }
-```
+`````
 
 ===
 
@@ -213,7 +213,6 @@ Man könnte doch für alles `double` verwenden ...
 ---
 
 ## Variablen
-<!-- Deklaration von Variablen, Nutzung von Variablen, Keywort "final" -->
  
 - Benannter Bereich im Speicher, dem in einem Programm ein Wert zugewiesen werden kann 
 - Mithilfe der Datentypen können wir dem Java-Compiler genau beschreiben, welches erlaubte Werte einer Variable sind 
@@ -245,8 +244,8 @@ Man könnte doch für alles `double` verwenden ...
 - Mit dem Zuweisungsoperator ```=``` kann einer Variable ein Wert zugewiesen werden
 - ```=``` kopiert Wert auf der rechten Seite in die Variable auf der linken 
 - Wichtig: Initiale Wertzuweisung (=Initialisierung) vor Verwendung einer Variable! 
-- Modifikator ```java  final``` gibt an, dass die Variable nach der Initialisierung nicht mehr verändert werden darf
-- ```java  final``` wird häufig verwendet, um Konstanten zu definieren
+- Modifikator ```final``` gibt an, dass die Variable nach der Initialisierung nicht mehr verändert werden darf
+- ```final``` wird häufig verwendet, um Konstanten zu definieren
 
 ===
 
