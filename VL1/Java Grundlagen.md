@@ -567,8 +567,8 @@ do { // der Rumpf der Schleife wird bei do-while mindestens einmal ausgeführt
    count++;
  } while (count < 11); 
 ```        
-===
-### Infinity Loop
+---
+## Infinity Loop
 <!-- while true, was passiert intern dabei -> CPU Last 100% -->
 - Frage: Wie kann man ein Programm erzeugen, das nie anhält?
 - Antwort: Whileschleife, die nie abbricht
@@ -581,7 +581,7 @@ while ( true ) {
 - Manchmal entstehen Sie aber unbeabsichtigt - durch Programmierfehler
 
 ===
-### Oh weh, was macht mein Programm
+### Oh weh, was macht mein Programm??
  - **@Let's try**: Was passiert hier? 
  ``` java
 public  class  Endless
@@ -596,13 +596,14 @@ public  class  Endless
    }
 }
 ``` 
+- Endlosschleifen sind ein einfaches Rezept, die CPU komplett auszulasten :o
  - Wenn Ihr das Programm über die Eingabeaufforderung gestartet habt, könnt Ihr es dort mit der Tastenkombination STRG+C beenden.
-- Manchmal ist es aber nicht so einfach
----
+- Manchmal ist es aber nicht so einfach ...
 
-## Kill it - Der Task-Manager
-
+===
+### Kill it - Der Task-Manager
 <!-- wie killt man ein hängendes Java Programm -->
+- Wenn ein Programm
 
 ---
 
@@ -660,7 +661,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI4MzkyMjU3LDIwMjQxNDYzMzIsMzE1NT
+eyJoaXN0b3J5IjpbMjA3NzY4NzcwLDIwMjQxNDYzMzIsMzE1NT
 Y0MDMxLDE2NTk5NTUwOTYsMTczNjQwMDk4NywtMTA0NzIyOTE2
 MywtMTMwMzM2ODQ1MSwxODMwNzU1OTE0LC0xNDcxMTc2NzA3LC
 00NTAwNzcyMyw2NTExODI1NjcsLTE4MjM4ODQyODUsLTEyNzE2
