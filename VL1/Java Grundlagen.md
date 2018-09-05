@@ -546,17 +546,9 @@ for (String item : someList) {
 ```
 - Anm.:  Da im Rumpf der `for each` Anweisung nur Kopien der Listenelemente verarbeitet werden, kann man damit keine Elemente der Liste ändern oder löschen!
 
-```
-- Java bietet unterschiedliche Kontrollstrukturen für Schleifen, z.B.
-	- `for` (etwas veraltet)
-	- `foreach` 
-	- `while`
-	- `do while` (erzwingt mindestens einen Durchlauf) 
-- im Folgenden erläutern wir kurz `foreach` und `while`
-
 ---
 ## Infinity Loop
-
+- Wenn die Anzahl der Wiederholungen eines Codeblocks nicht von Vorneherein bekannt ist, sondern nach jedem Durchlauf eine Bedingung überprüft werden muss, nutzen wir die while-Schleife 
 <!-- while true, was passiert intern dabei -> CPU Last 100% -->
 
 ---
@@ -621,11 +613,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MTEzNTc2MCwtMTMwMzM2ODQ1MSwxOD
-MwNzU1OTE0LC0xNDcxMTc2NzA3LC00NTAwNzcyMyw2NTExODI1
-NjcsLTE4MjM4ODQyODUsLTEyNzE2NjgzMCwtOTc0MjYwNzQzLC
-0xOTI4Njc0NjUwLC0xMTU5MTM5MzAxLDE0ODgzMTg2MzksMTIw
-MDQ5NzkyNCwxNjI2MjY1NTY0LC0xNzQzNDE1ODMxLC0yNzkxMj
-g2OTgsMTU5MTY3MzkzOSwtNTk3ODc1MzM2LC0xNDU3MDUxNzA5
-LDU1MDM0MTUzNV19
+eyJoaXN0b3J5IjpbNzA2NzE4NTksLTEzMDMzNjg0NTEsMTgzMD
+c1NTkxNCwtMTQ3MTE3NjcwNywtNDUwMDc3MjMsNjUxMTgyNTY3
+LC0xODIzODg0Mjg1LC0xMjcxNjY4MzAsLTk3NDI2MDc0MywtMT
+kyODY3NDY1MCwtMTE1OTEzOTMwMSwxNDg4MzE4NjM5LDEyMDA0
+OTc5MjQsMTYyNjI2NTU2NCwtMTc0MzQxNTgzMSwtMjc5MTI4Nj
+k4LDE1OTE2NzM5MzksLTU5Nzg3NTMzNiwtMTQ1NzA1MTcwOSw1
+NTAzNDE1MzVdfQ==
 -->
