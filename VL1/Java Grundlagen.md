@@ -526,8 +526,9 @@ for (String name: betreuer)
 - Java bietet unterschiedliche Kontrollstrukturen für Schleifen, z.B.
 	- for-Schleife (etwas veraltet)
 	- foreach-Schleife (haben wir oben in dem ArrayList-Beispiel schon gesehen)
-	- 
-
+	- while-Schleife
+	- do while-Schleife (erzwingt mindestens einen Durchlauf) 
+- 
 ===
 
 ### For-Each
@@ -602,11 +603,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5ODg3NzM3LDE4MzA3NTU5MTQsLTE0Nz
-ExNzY3MDcsLTQ1MDA3NzIzLDY1MTE4MjU2NywtMTgyMzg4NDI4
-NSwtMTI3MTY2ODMwLC05NzQyNjA3NDMsLTE5Mjg2NzQ2NTAsLT
-ExNTkxMzkzMDEsMTQ4ODMxODYzOSwxMjAwNDk3OTI0LDE2MjYy
-NjU1NjQsLTE3NDM0MTU4MzEsLTI3OTEyODY5OCwxNTkxNjczOT
-M5LC01OTc4NzUzMzYsLTE0NTcwNTE3MDksNTUwMzQxNTM1LDY0
-NDA0OTUwN119
+eyJoaXN0b3J5IjpbLTEzMjkyNTUxNzIsMTgzMDc1NTkxNCwtMT
+Q3MTE3NjcwNywtNDUwMDc3MjMsNjUxMTgyNTY3LC0xODIzODg0
+Mjg1LC0xMjcxNjY4MzAsLTk3NDI2MDc0MywtMTkyODY3NDY1MC
+wtMTE1OTEzOTMwMSwxNDg4MzE4NjM5LDEyMDA0OTc5MjQsMTYy
+NjI2NTU2NCwtMTc0MzQxNTgzMSwtMjc5MTI4Njk4LDE1OTE2Nz
+M5MzksLTU5Nzg3NTMzNiwtMTQ1NzA1MTcwOSw1NTAzNDE1MzUs
+NjQ0MDQ5NTA3XX0=
 -->
