@@ -313,88 +313,85 @@
 /*********************************************
  * Highlight.js code style
 *********************************************/
+/*
+ * Visual Studio 2015 dark style
+ * Author: Nicolas LLOBERA <nllobera@gmail.com>
+ */
 .hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  color: #000;
-  background: #fff;
+  color: #DCDCDC;
+}
+
+.hljs-keyword,
+.hljs-literal,
+.hljs-symbol,
+.hljs-name {
+  color: #569CD6;
+}
+.hljs-link {
+  color: #569CD6;
+  text-decoration: underline;
+}
+
+.hljs-built_in,
+.hljs-type {
+  color: #4EC9B0;
+}
+
+.hljs-number,
+.hljs-class {
+  color: #B8D7A3;
+}
+
+.hljs-string,
+.hljs-meta-string {
+  color: #D69D85;
+}
+
+.hljs-regexp,
+.hljs-template-tag {
+  color: #9A5334;
 }
 
 .hljs-subst,
-.hljs-title {
-  font-weight: normal;
-  color: #000;
+.hljs-function,
+.hljs-title,
+.hljs-params,
+.hljs-formula {
+  color: #DCDCDC;
 }
 
 .hljs-comment,
 .hljs-quote {
-  color: #808080;
-  font-style: italic;
-}
-
-.hljs-meta {
-  color: #808000;
-}
-
-.hljs-tag {
-  background: #efefef;
-}
-
-.hljs-section,
-.hljs-name,
-.hljs-literal,
-.hljs-keyword,
-.hljs-selector-tag,
-.hljs-type,
-.hljs-selector-id,
-.hljs-selector-class {
-  font-weight: bold;
-  color: #000080;
-}
-
-.hljs-attribute,
-.hljs-number,
-.hljs-regexp,
-.hljs-link {
-  font-weight: bold;
-  color: #0000ff;
-}
-
-.hljs-number,
-.hljs-regexp,
-.hljs-link {
-  font-weight: normal;
-}
-
-.hljs-string {
-  color: #008000;
-  font-weight: bold;
-}
-
-.hljs-symbol,
-.hljs-bullet,
-.hljs-formula {
-  color: #000;
-  background: #d0eded;
+  color: #57A64A;
   font-style: italic;
 }
 
 .hljs-doctag {
-  text-decoration: underline;
+  color: #608B4E;
+}
+
+.hljs-meta,
+.hljs-meta-keyword,
+.hljs-tag {
+  color: #9B9B9B;
 }
 
 .hljs-variable,
 .hljs-template-variable {
-  color: #660e7a;
+  color: #BD63C5;
 }
 
-.hljs-addition {
-  background: #baeeba;
+.hljs-attr,
+.hljs-attribute,
+.hljs-builtin-name {
+  color: #9CDCFE;
 }
 
-.hljs-deletion {
-  background: #ffc8bd;
+.hljs-section {
+  color: gold;
 }
 
 .hljs-emphasis {
@@ -403,4 +400,25 @@
 
 .hljs-strong {
   font-weight: bold;
+}
+
+.hljs-bullet,
+.hljs-selector-tag,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+  color: #D7BA7D;
+}
+
+.hljs-addition {
+  background-color: #144212;
+  display: inline-block;
+  width: 100%;
+}
+
+.hljs-deletion {
+  background-color: #600;
+  display: inline-block;
+  width: 100%;
 }
