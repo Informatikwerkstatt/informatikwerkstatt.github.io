@@ -360,6 +360,7 @@ System.out.println("l = " + l);
 ===
 
 ### Test auf Gleichheit
+
 - Vorsicht beim Test auf Gleichheit bei speziellen Datenobjekten!
 - Operator `==` prüft Gleichheit der Speicherstellen
 
@@ -368,12 +369,11 @@ int  i=1;
 int  j=1;
 // Ergebnis: true
 System.out.println(i==j);
-    ```
-    
+```
+
 - bei String und anderen Objekten: Test mit Methode `equals()`
 
     ```java
-
 // neues String-Objekt wird erzeugt
 String s1 = new String("maus");
 String s2 = new String("maus");
@@ -382,8 +382,8 @@ String s2 = new String("maus");
 System.out.println(s1==s2);
 // true
 System.out.println(s1.equals(s2)); 
-    ```
-    
+```
+
 - **@Profis**: Könnt Ihr dieses Ergebnis erklären?
 - Anm. : In `s1.equals(s2)` muss `s1` initialisiert sein &rarr; prüfen mit `s1 != null`
 
