@@ -630,6 +630,9 @@ public  class  Endless
 ---
 
 ### @Profis - Lambda-Expression & Streaming-API
+
+- Wer sich gerade langweilt, weil alles viel zu einfach ist:
+- Macht Euch selbst mit zwei fortgeschritteneren Konzepten für die effizidem Java Streaming API vertraut 
 <!-- @Phil: Ich denke, das ist hier zu viel. Würd ich weglassen, höchstens später on demand -->
 
 <!-- 
@@ -677,7 +680,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MDg2ODE5OCwtMTgxNzUxMjM3LDE0OT
+eyJoaXN0b3J5IjpbLTExNTc2MjM0MiwtMTgxNzUxMjM3LDE0OT
 A3NjEyMCwxMDE3MTc4OTYxLC04NzAyODI3NywyMDI0MTQ2MzMy
 LDMxNTU2NDAzMSwxNjU5OTU1MDk2LDE3MzY0MDA5ODcsLTEwND
 cyMjkxNjMsLTEzMDMzNjg0NTEsMTgzMDc1NTkxNCwtMTQ3MTE3
