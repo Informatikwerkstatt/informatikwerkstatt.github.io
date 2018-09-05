@@ -698,10 +698,12 @@ public  class  Div0Fehler{
 
  - Im Abschnitt über Arrays haben wir das Problem kennengelernt, dass mit ungültigen (zu großen oder negativen) Array-Indizes auf Elemente eines Arrays zugegriffen wird
  1. Schreiben Sie ein Programm, in dem eine solche Situation auftritt
- 2. Überlegen Sie, wie Sie die Situation behandeln können
- 3. Erstellen Sie einen entsprechenden Try-Catch-Block
- 4. Compilieren Sie ihr Programm und lassen es laufen
+ 2. Wie heisst die Exception, die hier "geworfen" wird?
+ 3. Überlegen Sie, wie Sie die Situation behandeln können
+ 4. Erstellen Sie einen entsprechenden Try-Catch-Block
+ 5. Compilieren Sie ihr Programm und lassen es laufen
 
+-
 <!-- Division durch Null Beispiel fangen + eigenes Beispiel wo eine RuntimeException geworfen wird -->
 
 ---
@@ -715,7 +717,6 @@ public  class  Div0Fehler{
 - Wenn die Zahl $\leq 0$ ist, dann soll eine passende Fehlermeldung ausgegeben werden
 * Wenn die Argumentanzahl nicht stimmt, soll auch eine passende Meldung ausgegeben werden
 * Wenn bei der Umwandlung des Textes in eine Zahl ein Fehler auftritt, dann soll auch eine verständliche Fehlermeldung ausgegeben werden
-* Tipp: 
 
 ## @Home/Übung
 
@@ -736,11 +737,11 @@ public  class  Div0Fehler{
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUwMTg2OTEwLDgwOTI4MjMxNywtNTIxMz
-E3NDI1LC0xOTI3ODE5ODA3LC0xODE3NTEyMzcsMTQ5MDc2MTIw
-LDEwMTcxNzg5NjEsLTg3MDI4Mjc3LDIwMjQxNDYzMzIsMzE1NT
-Y0MDMxLDE2NTk5NTUwOTYsMTczNjQwMDk4NywtMTA0NzIyOTE2
-MywtMTMwMzM2ODQ1MSwxODMwNzU1OTE0LC0xNDcxMTc2NzA3LC
-00NTAwNzcyMyw2NTExODI1NjcsLTE4MjM4ODQyODUsLTEyNzE2
-NjgzMF19
+eyJoaXN0b3J5IjpbMTQ2NzA4NjAzLDQ1MDE4NjkxMCw4MDkyOD
+IzMTcsLTUyMTMxNzQyNSwtMTkyNzgxOTgwNywtMTgxNzUxMjM3
+LDE0OTA3NjEyMCwxMDE3MTc4OTYxLC04NzAyODI3NywyMDI0MT
+Q2MzMyLDMxNTU2NDAzMSwxNjU5OTU1MDk2LDE3MzY0MDA5ODcs
+LTEwNDcyMjkxNjMsLTEzMDMzNjg0NTEsMTgzMDc1NTkxNCwtMT
+Q3MTE3NjcwNywtNDUwMDc3MjMsNjUxMTgyNTY3LC0xODIzODg0
+Mjg1XX0=
 -->
