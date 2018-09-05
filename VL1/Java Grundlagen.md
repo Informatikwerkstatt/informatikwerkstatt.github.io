@@ -65,7 +65,7 @@ JPM: Ich würde das eher am Anfang der Android-Intro machen. Hier eher die allge
 
 - **Quellcode**: Textbasierte Darstellung eines Programms
     - ```.java``` Textdatei, erstellt z.B. [Visual Studio Code](https://code.visualstudio.com/)
-	 - einzelne Zeichen als Bitfolgen gespeichert, standardisierte [Kodierung|(https://de.wikipedia.org/wiki/Zeichenkodierung) (z.B. [UTF-8](https://de.wikipedia.org/wiki/UTF-8))
+	 - einzelne Zeichen als Bitfolgen gespeichert, standardisierte [Kodierung](https://de.wikipedia.org/wiki/Zeichenkodierung) (z.B. [UTF-8](https://de.wikipedia.org/wiki/UTF-8))
 	 - Textdateien können nur textuelle Information enthalten
 - **Binärcode**: Ausführbares Programm als Bytefolge gespeichert, 
     - ```.class``` Binärdateien sind nicht für den Menschen lesbar
@@ -76,7 +76,7 @@ JPM: Ich würde das eher am Anfang der Android-Intro machen. Hier eher die allge
 
 ## Kommandozeile - tippen statt clicken!
 
-Die [Kommandozeile / Windows Eingabeaufforderung](https://de.wikipedia.org/wiki/Kommandozeile) ist eine Anwendung, um mittels Tastatureingabe Befehle/Programme auszuführen. Wir nutzen sie zum
+Die [Kommandozeile / Windows Eingabeaufforderung](https://de.wikipedia.org/wiki/Kommandozeile) ist eine Anwendung, um mittels Tastatureingabe Befehle/Programme auszuführen. 
 
 - manuellen  Compilieren einfacher Programmbeispiele
 - Starten einfacher Beispiele
@@ -86,11 +86,11 @@ Die [Kommandozeile / Windows Eingabeaufforderung](https://de.wikipedia.org/wiki/
 
 ### Kommandozeilentool unter Windows: Eingabeaufforderung
 
-![Windows Commandline](images/1_cmd.png#floatright)
-
 1. Linksclick auf Windows-Symbol
 2. In Windows-Suche ```cmd``` eingeben (+ Return-Taste)
 3. Linksclick auf angezeigtes ```cmd```-Symbol
+
+![Windows Commandline](images/1_cmd.png#floatright)
 
 ===
 
@@ -153,7 +153,6 @@ java HelloWorld
 - Verhalten einer Klasse wird durch Methoden beschrieben
 - Die ```CHelloWorld``` Klasse hat eine Methode: ```main()``` 
 
-
 ===
 
 ### Klassen 
@@ -194,7 +193,9 @@ java HelloWorld
 - jeder Datentyp hat einen Namen und definiert einen Wertebereich
 - Java enthält vordefinierte (primitive) Basisdatentypen 
 
----
+===
+
+### Standard-Datentypen
 
 |Datentyp|Wertebereich|
 |--|--|
@@ -239,6 +240,7 @@ Man könnte doch für alles `double` verwenden ...
 
 ### Zuweisung
 <!-- Zuweisungen von Variablen, Beachtung von final -->
+
 - Variable muss vor Verwendung deklariert werden
     ```  java
         	private final String message = "Hello World";
@@ -261,8 +263,6 @@ public static void main( String[] p_args )
 	{
 		System.out.println( message );
 ```
-	
-
 
 === 
 
@@ -327,9 +327,13 @@ mynumber = Integer.toString(counterI).
     myInt = (int)pi;
     ```
     
-- **@Let's try:** Führe den o.g. Code aus und gib die Werte von `myInt` und `pi` aus! Was beobachtest Du?
+===
+    
+### @Let's try
 
-Note: kein Compile-Fehler, aber nur ganzzahliger Anteil!-->
+Führe den [Code](#/10/2) aus und gib die Werte von `myInt` und `pi` aus! Was beobachtest Du?
+
+Note: kein Compile-Fehler, aber nur ganzzahliger Anteil!
 
 ---
 
@@ -341,16 +345,19 @@ Note: kein Compile-Fehler, aber nur ganzzahliger Anteil!-->
 - Vergleichs-Operatoren (z.B. ```>```, ```!=```, ```>=```) drücken Bedingungen für Verzweigungen eines Programms aus. Übersicht [hier](https://de.wikibooks.org/wiki/Java_Standard:_Operatoren#Operatoren_f%C3%BCr_Vergleiche)
 - Übliche mathematische Präzedenzregeln für Operatoren (z.B. "Punktrechnung vor Strichrechnung"). Übersicht [hier](https://de.wikibooks.org/wiki/Java_Standard:_Operatoren)
 - Im Zweifelsfall: Klammern setzen!
-- **@Let's try:**
 
-    ```java
-    int i = 2;
-    int j = 2 * i;
-    int k = 4 * ( i + j) / 2;
-    int l = 4 * i + j / 2;
-    System.out.println("k = " + k);
-    System.out.println("l = " + l);
-    ```
+===
+
+### @Let's try
+
+```java
+int i = 2;
+int j = 2 * i;
+int k = 4 * ( i + j) / 2;
+int l = 4 * i + j / 2;
+System.out.println("k = " + k);
+System.out.println("l = " + l);
+```
     
 ===
 
@@ -399,13 +406,8 @@ Note: kein Compile-Fehler, aber nur ganzzahliger Anteil!-->
     ```
 - Blöcke mit mehreren Anweisungen in geschweifte Klammern einfassen!
 
----
-
-### @Profi
-
-Switch-case
-
 ===
+
 ### Ternärer Operator
 <!-- ternärer Operator funktioniert nur für 2 Alternativen; kompakter; if-else empfinden viele als besser lesbar -->
 - Wenn nur zwischen zwei Ausgabewerten unterschieden werden soll, gibt es für die IF-ELSE-Anweisung eine Kurzform
@@ -426,29 +428,37 @@ Switch-case
     ```java
      System.out.println(a + " ist " + ((a > 0) ? "positiv" : "nichtpositiv"));
     ```
-    ```
----
+
+===
 
 ## @Let's try
 
 1. Erstellen Sie eine Klasse `Example1` (Datei `Example1.java`) mit einer main() Methode.
 2.  Probieren Sie die obigen Beispiele für `if-else` und den ternären Operator aus!
 
+===
+
+### @Profi
+
+Switch-case
+
 ---
 
 ## @Home
+
 Betrachte die beiden folgenden IF-ELSE Anweisungen
  1. Überlege, welcher Teil der Anweisungen jeweils ausgeführt wird und
     warum. 
  2. Schreibe für jede Anweisung ein Java-Programm; wähle geeignete Ausgaben, um die Ausführung nachvollziehen zu können.
 
-    ```java
-    // Anweisung 1				
-    int a = 5, b = 6;				
-    if ( a < b ) { a = b; }			
-    else { b = a; }							
+```java
+// Anweisung 1				
+int a = 5, b = 6;				
+if ( a < b ) { a = b; }			
+else { b = a; }							
     
-    ```
+```
+
 ```java
     // Anweisung 2
     int a = 5, b = 6, c = 7;
@@ -500,7 +510,7 @@ highscores[0] = 4711;
     ...
     tabelleNamen[7][8] = "Steffi";
     ```
-    ```
+
 ===
 
 ### Zugriff auf Array
@@ -530,6 +540,7 @@ highscores[0] = 4711;
 ===
 
 ### Collections
+
 - Java Bibliothek, stellt häufig verwendete Datenstrukturen und Methoden zur Speicherung und Verkettung von Objekten zur Verfügung
 - Haupttypen Listen, Mengen, Maps, Queues
 - Beispiel Liste: Klasse `java.util.ArrayList` = dynamischer Array (keine feste Länge)
@@ -557,7 +568,8 @@ highscores[0] = 4711;
 
 ===
 
-### @Let's try 
+### @Let's try
+
 <!-- an dieser Folienformattierung verzweifele ich -->
 * Schreibe zunächst ein kleines Programm, in dem Du 
     1. einen `Array` Deiner Wahl deklarierst
@@ -587,6 +599,7 @@ highscores[0] = 4711;
 ===
 
 ### For each
+
 <!-- was ist for-each, wann ist es sinnvoll -->
 - die `for each`-Schleife haben wir im obigen `ArrayList`-Beispiel schon kennengelernt
 - Sie dient zum einfachen Durchlaufen listenartiger Datenstrukturen und Arrays
@@ -600,13 +613,13 @@ highscores[0] = 4711;
         System.out.println(item);
     }
     ```
-    }
-```
+
 - Anm.:  Da im Rumpf der `for each` Anweisung nur Kopien der Listenelemente verarbeitet werden, kann man damit keine Elemente der Liste ändern oder löschen!
 
 ===
 
 ### While / do-while
+
 - Wenn die Anzahl der Wiederholungen eines Codeblocks nicht bekannt ist, sondern nach jedem Durchlauf eine Bedingung überprüft werden muss, nutzen wir die `while-`Schleife
 - z.B. wir schauen alle 5 Sekunden so lange in den Briefkasten, bis ein Brief drinnen liegt
 
@@ -630,7 +643,7 @@ m.read();                     // Endlich!! Wir können unsere Mail lesen
        count++;
      } while (count < 11); 
     ```
-     
+
 ---
 
 ## Infinity Loop
@@ -651,9 +664,9 @@ m.read();                     // Endlich!! Wir können unsere Mail lesen
 
 ### Oh weh, was macht mein Programm??
 
-- **@Let's try**: Was passiert hier? 
+- Was passiert hier? 
  
-    ``` java
+    ```java
     public class Endless
   {
     {
@@ -686,14 +699,14 @@ m.read();                     // Endlich!! Wir können unsere Mail lesen
 
 ===
 
-### Kill-it -- das Video
-- Hier noch ein Video zur Illustration des Prozesses
+### Just Kill-it now
 
 <iframe src="https://player.vimeo.com/video/288322168" width="320" height="180" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ---
 
 ## @Let's try
+
 - Versuche, die obigen Beispiele selbst zum Laufen zu bringen. 
 	- for each, 
 	- while / do while
@@ -729,19 +742,18 @@ m.read();                     // Endlich!! Wir können unsere Mail lesen
 ===
 
 ### @Let's try: Ein Beispiel
-- Lassen Sie das folgende Beispiel laufen - was passiert?
-    ```java
-    public class Div0Fehler
+
+Lassen Sie das folgende Beispiel laufen - was passiert?
+
+```java
+public class Div0Fehler
+{
+    public  static  void  main( String[] p_args )
     {
-      public  static  void  main( String[] p_args )
-      {
-  {
-      int  zaehler=5;
+        int  zaehler=5;
         int  nenner=0;
         int  ergebnis  = zaehler / nenner;
         System.out.println("Ergebnis: "  + ergebnis);
-      }
-    }
     }
 }
 ```
@@ -749,39 +761,42 @@ m.read();                     // Endlich!! Wir können unsere Mail lesen
 ===
 
 ### Fang den Fehler - try-catch
+
 <!-- wie behandelt man Exceptions -->
 - Java verwendet das sogenannte Try-Catch Modell zur Ausnahmebehandlung
 - Code, in dem eine Ausnahme auftreten kann, wird in einen "Catch-Block" eingeschlossen.
 - Dahinter wird ein Try-Block angegeben, der bestimmt, was im Falle des Auftretens von Ausnahmen zu tun ist.
 - Wir erweitern den Rumpf der main()-Methode unserer `Div0Fehler`-KlLasse
     
-    ``` java
+    ```java
       int  ergebnis=0;
       try{ //
         int  zaehler=5;
         int  nenner=0;
         ergebnis = zaehler / nenner;
-      } catch (ArithmeticException  e){ // try-Block wird beendet!
+      } 
+      catch (ArithmeticException  e)
+      { 
+        // try-Block wird beendet!
         System.out.println(e.toString());
         System.out.println("Sorry, Du hast durch null geteilt! Probiere es nochmal!");
       }
-    }
-  System.out.println("Ergebnis: "  + ergebnis);
-    }
+      System.out.println("Ergebnis: "  + ergebnis);
     ```
-    }
-```
+
 - So kann der Programmierer sinnvoll auf Ausnahmen reagieren 
 
 ===
 
-### @Profis: Diskussion 
+### @Profis: Diskussion
+
 - Ist es sinnvoll, auf Laufzeitfehler wie z.B. Division durch Null mit try-catch zu reagieren?
 <!-- eher sinnvoll für nutzerdefinierte DomänenExceptions, die mögliche aber inkorrekte Situationen (wie z.B. NutzerId unbekannt bei einer Registrierung) abbilden. -->
 - Wie könnte man sinnvoll den Fall abfangen, wenn der Nenner von einem Benutzer eingegeben wird?
 <!-- Sicherstellen, dass das Programm korrekt aufgerufen wird: vor der Ausführung Eingabetypen prüfen -->
 
 ---
+
 ## @Home
 
 1. Installation [Java Development Kit](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
@@ -792,7 +807,7 @@ m.read();                     // Endlich!! Wir können unsere Mail lesen
 
 ## @Home/Übung
 
- - Im Abschnitt über Arrays haben wir das Problem kennengelernt, dass mit ungültigen (zu großen oder negativen) Array-Indizes auf Elemente eines Arrays zugegriffen wird
+- Im Abschnitt über Arrays haben wir das Problem kennengelernt, dass mit ungültigen (zu großen oder negativen) Array-Indizes auf Elemente eines Arrays zugegriffen wird
  1. Schreiben Sie ein Programm, in dem eine solche Situation auftritt
  2. Wie heisst die Exception, die hier "geworfen" wird?
  3. Überlegen Sie, wie Sie die Situation behandeln können
@@ -823,6 +838,7 @@ m.read();                     // Endlich!! Wir können unsere Mail lesen
 ---
 
 ## Stil ist alles
+
 - Damit Programme für andere lesbar sind, gibt es eine Reihe von Regeln und Konventionen bezüglich der Namensgebung und Groß-Klein-Schreibung
 - In Java sind die in sogenannten Coding Style Guides zusammengefasst
 - Beispiel: [Google Java Coding Style](https://google.github.io/styleguide/javaguide.html)
@@ -843,6 +859,3 @@ m.read();                     // Endlich!! Wir können unsere Mail lesen
 		- Variable: `highScoreListe`
 		- Methode: `onCreate()`
 		- Klasse: `ArrayIndexOutOfBoundsException`
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNjUyNzMxM119
--->
