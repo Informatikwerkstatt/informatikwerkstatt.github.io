@@ -64,35 +64,33 @@ JPM: Ich würde das eher am Anfang der Android-Intro machen. Hier eher die allge
  @Phil: Gehört Bundling nicht eher ins Android Kapitel?-->
 
 - **Quellcode**: Textbasierte Darstellung eines Programms
-    - z.B. ```.java``` Datei, erstellt mit Texteditor (z.B. Visual Studio Code)
-	 - einzelne Zeichen als Bitfolgen gespeichert, standardisierte Kodierung (z.B. UTF-8)
+    - ```.java``` Textdatei, erstellt z.B. [Visual Studio Code](https://code.visualstudio.com/)
+	 - einzelne Zeichen als Bitfolgen gespeichert, standardisierte [Kodierung|(https://de.wikipedia.org/wiki/Zeichenkodierung) (z.B. [UTF-8](https://de.wikipedia.org/wiki/UTF-8))
 	 - Textdateien können nur textuelle Information enthalten
- - **Binärcode**: Ausführbares Programm als Bytefolge gespeichert, z.B. ```.class``` Datei
-	 - Binärdateien sind nicht für den Menschen lesbar
-	 - werden von Programmen (z.B. Java Compiler ```javac```) verarbeitet / interpretiert
- - **App**: Ein Programm, das vom Nutzer aufgerufen und verwendet werden kann (z.B. Google Maps)
+- **Binärcode**: Ausführbares Programm als Bytefolge gespeichert, 
+    - ```.class``` Binärdateien sind nicht für den Menschen lesbar
+    - werden von Programmen wie dem Java Compiler ```javac``` erzeugt
+- **App**: Ein Programm, das vom Nutzer aufgerufen und verwendet werden kann (z.B. Google Maps)
 
 ---
 
 ## Kommandozeile - tippen statt clicken!
 
-Die [Kommandozeile](https://de.wikipedia.org/wiki/Kommandozeile) ist eine Anwendung, um mittels Tastatureingabe Befehle/Programme auszuführen. 
-Wir nutzen sie zum
+Die [Kommandozeile / Windows Eingabeaufforderung](https://de.wikipedia.org/wiki/Kommandozeile) ist eine Anwendung, um mittels Tastatureingabe Befehle/Programme auszuführen. Wir nutzen sie zum
+
 - manuellen  Compilieren einfacher Programmbeispiele
 - Starten einfacher Beispiele
 - Verstehen des Prozesses des Compilierens und der Ausführung von Javaprogrammen
-
-Werkzeug unter Windows: *Eingabeaufforderung*
 
 ===
 
 ### Kommandozeilentool unter Windows: Eingabeaufforderung
 
- 1. Linksclick auf Windows-Symbol
- 2. In Windows-Suche ```cmd``` eingeben (+ Return-Taste)
- 3. Linksclick auf angezeigtes ```cmd```-Symbol
- 
-![Windows Commandline](images/1_cmd.png)
+![Windows Commandline](images/1_cmd.png#floatright)
+
+1. Linksclick auf Windows-Symbol
+2. In Windows-Suche ```cmd``` eingeben (+ Return-Taste)
+3. Linksclick auf angezeigtes ```cmd```-Symbol
 
 ===
 
@@ -119,19 +117,17 @@ Werkzeug unter Windows: *Eingabeaufforderung*
     javac HelloWorld.java
     ```
 
-- Damit die Datei ```javac.exe``` gefunden wird, müssen die Umgebungsvariablen ```%JAVA_HOME%``` und ```%PATH%``` entsprehend gesetzt sein. [Details siehe z.B. hier](https://docs.oracle.com/javase/10/install/installation-jdk-and-jre-microsoft-windows-platforms.htm).
+- Damit die Datei ```javac.exe``` gefunden wird, müssen die Umgebungsvariablen ```%JAVA_HOME%``` und ```%PATH%``` entsprehend gesetzt sein. Details für Windows [hier](https://docs.oracle.com/javase/10/install/installation-jdk-and-jre-microsoft-windows-platforms.htm).
 
 ===
 
 ### Ausführen des Programms
 
-    ```shell
-    java HelloWorld
-    ```
-    
-Und hier das ganze im Video:
-
 <iframe class="video" src="https://player.vimeo.com/video/287916699" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
+
+```shell
+java HelloWorld
+```
 
 ---
 
@@ -151,19 +147,8 @@ Und hier das ganze im Video:
 
 ## Aufbau eines Java-Programms
 
-- Betrachten wir noch einmal unser HelloWorld-Programm
-
-    ```java
-    public class CHelloWorld
-    {
-    	public static void main( String[] p_args )
-    	{
-    		// Ausgabe 
-    		System.out.println( "Hello, World" );
-    	}
-    }
-    ```
- - Quelldatei enthält Klasse HelloWorld 
+- Betrachten wir noch einmal unser [HelloWorld-Programm](#/1/1)
+- Quelldatei enthält Klasse HelloWorld 
     - *Achtung*: Groß-/Kleinschreibung wird in Java generell unterschieden!
 - Verhalten einer Klasse wird durch Methoden beschrieben
 - Die ```CHelloWorld``` Klasse hat eine Methode: ```main()``` 
