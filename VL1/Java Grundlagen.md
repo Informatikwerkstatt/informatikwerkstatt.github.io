@@ -393,13 +393,13 @@ false!
 - IF-Anweisung hat Form ```if (bedingung) block```
 - Wenn Bedingung erfüllt ist , wird Anweisungsblock ausgeführt; sonst übersprungen.
 
-```j = 2;
-if ( a > 0)
-   =2; 
-System.out.println( a + " ist positiv" );
+```java
+int a = 2;
+if ( a > 0 ) 
+    System.out.println( a + " ist positiv" );
 
-if ( a <= ) 
-   0) System.out.println(a + ist "nichtpositiv");
+if ( a <= 0 ) 
+    System.out.println(a + ist "nichtpositiv");
 ```
 
 - IF-ELSE-Anweisung hat Form `if (bedingung) block1 else block2`
@@ -419,7 +419,7 @@ else
 
 - Wenn nur zwischen zwei Ausgabewerten unterschieden werden soll, gibt es für die IF-ELSE-Anweisung eine Kurzform
 
--  Der *ternäre Operator* hat die Form  <textarea class="rrd">Diagram( Sequence( NonTerminal('Bedingung'), Terminal('?'), NonTerminal('Wert bei True'), Terminal(':'), NonTerminal('Wert ebi False') ) )</textarea>
+-  Der *ternäre Operator* hat die Form  ```Diagram( Sequence( NonTerminal('Bedingung'), Terminal('?'), NonTerminal('Wert bei True'), Terminal(':'), NonTerminal('Wert ebi False') ) )```
 
 
 - Beispiel:
@@ -895,8 +895,3 @@ public class Div0Fehler
 	- Variable: ```highScoreListe```
 	- Methode: ```onCreate()```
 	- Klasse: ```ArrayIndexOutOfBoundsException``
-
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MjYyMzMyMF19
--->
