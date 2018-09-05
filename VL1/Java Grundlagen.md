@@ -731,16 +731,17 @@ public  class  Div0Fehler{
 
 ---
 ## Stil ist alles
-
+- Damit Programme für andere lesbar sind, gibt es eine Reihe von Konventionen bezüglich der Namensgebung, Groß-Klein-Schreibung
+- In JAva sind die in sogenannten Coding Styles
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTE2NzM5NzUsNDUwMTg2OTEwLDgwOT
-I4MjMxNywtNTIxMzE3NDI1LC0xOTI3ODE5ODA3LC0xODE3NTEy
-MzcsMTQ5MDc2MTIwLDEwMTcxNzg5NjEsLTg3MDI4Mjc3LDIwMj
-QxNDYzMzIsMzE1NTY0MDMxLDE2NTk5NTUwOTYsMTczNjQwMDk4
-NywtMTA0NzIyOTE2MywtMTMwMzM2ODQ1MSwxODMwNzU1OTE0LC
-0xNDcxMTc2NzA3LC00NTAwNzcyMyw2NTExODI1NjcsLTE4MjM4
-ODQyODVdfQ==
+eyJoaXN0b3J5IjpbMTc1MjE5NjQ0MCwtMTMxMTY3Mzk3NSw0NT
+AxODY5MTAsODA5MjgyMzE3LC01MjEzMTc0MjUsLTE5Mjc4MTk4
+MDcsLTE4MTc1MTIzNywxNDkwNzYxMjAsMTAxNzE3ODk2MSwtOD
+cwMjgyNzcsMjAyNDE0NjMzMiwzMTU1NjQwMzEsMTY1OTk1NTA5
+NiwxNzM2NDAwOTg3LC0xMDQ3MjI5MTYzLC0xMzAzMzY4NDUxLD
+E4MzA3NTU5MTQsLTE0NzExNzY3MDcsLTQ1MDA3NzIzLDY1MTE4
+MjU2N119
 -->
