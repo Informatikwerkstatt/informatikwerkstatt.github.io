@@ -695,6 +695,13 @@ public  class  Div0Fehler{
 - <!-- Sicherstellen, dass das Programm korrekt aufgerufen wird: vor der Ausführung Eingabetypen prüfen -->
 
 ---
+## @Home
+
+1. Installation [Java Development Kit](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
+2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
+3. Installation [Visual Studio Code](https://code.visualstudio.com/)
+
+---
 ## @Home/Übung
 
  - Im Abschnitt über Arrays haben wir das Problem kennengelernt, dass mit ungültigen (zu großen oder negativen) Array-Indizes auf Elemente eines Arrays zugegriffen wird
@@ -704,14 +711,10 @@ public  class  Div0Fehler{
  4. Erstellen Sie einen entsprechenden Try-Catch-Block
  5. Compilieren Sie ihr Programm und lassen es laufen
 
--
-<!-- Division durch Null Beispiel fangen + eigenes Beispiel wo eine RuntimeException geworfen wird -->
-
 ---
-
 ## @Home/Übung
 
-> Schreiben Sie ein Programm, dass zwei Argumente von der Kommandozeile einliest, einen String und eine Zahl, und das den String so oft auf der Kommandozeile ausgibt, wie die Zahl angibt.
+> Schreiben Sie ein Programm, das zwei Argumente von der Kommandozeile einliest, einen String und eine Zahl, und das den String so oft auf der Kommandozeile ausgibt, wie die Zahl angibt.
 
 - Prüfen Sie die Typen der Eingaben
 - Bei einem leeren String sollte eine Fehlermeldung ausgegeben werden, dass der String leer ist
@@ -727,19 +730,17 @@ public  class  Div0Fehler{
 * Geben Sie entsprechende Fehlermeldungen aus
 
 ---
+## Stil ist alles
 
-## @Home
 
-1. Installation [Java Development Kit](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
-2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
-3. Installation [Visual Studio Code](https://code.visualstudio.com/)
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgwNDQ5MzEsNDUwMTg2OTEwLDgwOTI4Mj
-MxNywtNTIxMzE3NDI1LC0xOTI3ODE5ODA3LC0xODE3NTEyMzcs
-MTQ5MDc2MTIwLDEwMTcxNzg5NjEsLTg3MDI4Mjc3LDIwMjQxND
-YzMzIsMzE1NTY0MDMxLDE2NTk5NTUwOTYsMTczNjQwMDk4Nywt
-MTA0NzIyOTE2MywtMTMwMzM2ODQ1MSwxODMwNzU1OTE0LC0xND
-cxMTc2NzA3LC00NTAwNzcyMyw2NTExODI1NjcsLTE4MjM4ODQy
-ODVdfQ==
+eyJoaXN0b3J5IjpbLTEzMTE2NzM5NzUsNDUwMTg2OTEwLDgwOT
+I4MjMxNywtNTIxMzE3NDI1LC0xOTI3ODE5ODA3LC0xODE3NTEy
+MzcsMTQ5MDc2MTIwLDEwMTcxNzg5NjEsLTg3MDI4Mjc3LDIwMj
+QxNDYzMzIsMzE1NTY0MDMxLDE2NTk5NTUwOTYsMTczNjQwMDk4
+NywtMTA0NzIyOTE2MywtMTMwMzM2ODQ1MSwxODMwNzU1OTE0LC
+0xNDcxMTc2NzA3LC00NTAwNzcyMyw2NTExODI1NjcsLTE4MjM4
+ODQyODVdfQ==
 -->
