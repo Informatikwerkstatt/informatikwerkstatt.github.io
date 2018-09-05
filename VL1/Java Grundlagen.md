@@ -577,7 +577,7 @@ while ( true ) {
     // einatmen  ... ausatmen
  }
  ```
-
+- Es gibt Fälle, in denen Endlosschleifen beabsichtigt sind (s.  
 
 ---
 
@@ -641,11 +641,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNzUzNDY1LDE3MzY0MDA5ODcsLTEwND
-cyMjkxNjMsLTEzMDMzNjg0NTEsMTgzMDc1NTkxNCwtMTQ3MTE3
-NjcwNywtNDUwMDc3MjMsNjUxMTgyNTY3LC0xODIzODg0Mjg1LC
-0xMjcxNjY4MzAsLTk3NDI2MDc0MywtMTkyODY3NDY1MCwtMTE1
-OTEzOTMwMSwxNDg4MzE4NjM5LDEyMDA0OTc5MjQsMTYyNjI2NT
-U2NCwtMTc0MzQxNTgzMSwtMjc5MTI4Njk4LDE1OTE2NzM5Mzks
-LTU5Nzg3NTMzNl19
+eyJoaXN0b3J5IjpbMTY1OTk1NTA5NiwxNzM2NDAwOTg3LC0xMD
+Q3MjI5MTYzLC0xMzAzMzY4NDUxLDE4MzA3NTU5MTQsLTE0NzEx
+NzY3MDcsLTQ1MDA3NzIzLDY1MTE4MjU2NywtMTgyMzg4NDI4NS
+wtMTI3MTY2ODMwLC05NzQyNjA3NDMsLTE5Mjg2NzQ2NTAsLTEx
+NTkxMzkzMDEsMTQ4ODMxODYzOSwxMjAwNDk3OTI0LDE2MjYyNj
+U1NjQsLTE3NDM0MTU4MzEsLTI3OTEyODY5OCwxNTkxNjczOTM5
+LC01OTc4NzUzMzZdfQ==
 -->
