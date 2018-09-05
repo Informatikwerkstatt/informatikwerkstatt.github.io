@@ -111,9 +111,9 @@ Die [Kommandozeile / Windows Eingabeaufforderung](https://de.wikipedia.org/wiki/
 - Übersetzen des geschriebenen Java-Quellcodes in _Maschinensprache_ (meistens Binärcode)
 - Eingabe in Java:
 
-    ```shell
+```shell
 javac HelloWorld.java
-    ```
+```
 
 - Damit die Datei ```javac.exe``` gefunden wird, müssen die Umgebungsvariablen ```%JAVA_HOME%``` und ```%PATH%``` entsprehend gesetzt sein. Details für Windows [hier](https://docs.oracle.com/javase/10/install/installation-jdk-and-jre-microsoft-windows-platforms.htm).
 
@@ -897,5 +897,5 @@ public class Div0Fehler
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4Mzk4ODY0XX0=
+eyJoaXN0b3J5IjpbNzY5MTgwMzA0XX0=
 -->
