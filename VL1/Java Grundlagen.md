@@ -49,7 +49,7 @@ public class CHelloWorld
 
 ## Java überall
 
-Wir nutzen später in dieser Vorlesung [Java auf Android](/android-grundlagen/)
+Wir nutzten später in dieser Vorlesung [Java auf Ant](/android-grundlagen/)
 
 ![Deployment](images/java-cross-pf.png#center)
 
@@ -61,7 +61,7 @@ Wir nutzen später in dieser Vorlesung [Java auf Android](/android-grundlagen/)
 
 - **Quellcode**: Textbasierte Darstellung eines Programms
     - ```.java``` Textdatei, erstellt z.B. [Visual Studio Code](https://code.visualstudio.com/)
-    - Zeichen werden in einer [Kodierung](https://de.wikipedia.org/wiki/Zeichenkodierung) gespeichert (deutsche Umlaute)
+   	 - Zeichen werd in ei [Kodierung](https://de.wikipedia.org/wiki/Zeichenkodierung) gespeichert (deutsche Umlaute)
     - heute wird meist [UTF-8](https://de.wikipedia.org/wiki/UTF-8)
 
 - **Binärcode**: Ausführbares Programm als Bytefolge gespeichert, 
@@ -225,8 +225,8 @@ public class CHelloWorld
     private static final String message = "Hello World";
     
     public static void main( String[] p_args )
-    {
-        // Variable wird Methode als Parameter übergeben
+    	{
+       	// Variable wird Methode als Parameter übergeben
         System.out.println( message );
     }
 }
@@ -259,7 +259,7 @@ private final String message = "Hello World";
 ```java	
 public static void main( String[] p_args )
 {
-    System.out.println( message );
+System.out.println( message );
 }
 ```
 
@@ -269,7 +269,7 @@ public static void main( String[] p_args )
  
 - Programme wie unser [HelloWorld-Beispiel](#/1/1) , die eine ```main```-Methode haben, sind *ausführbar*.
 - Ausführung: Aufruf / Abarbeitung der ```main```-Methode
-- Das Argument ```java String[] p_args``` der ```main```-Methode kann genutzt werden, um bei dem Aufruf des Programms über die Kommandozeile Parameter an es zu übergeben.
+- Das Argument ```java String[] p_args``` der ```main``` Methode kann genutzt werden, um bei dem Aufruf des Programms über die Kommandozeile Parameter an es zu übergeben.
 
 ---
 
@@ -301,7 +301,7 @@ mynumber = Integer.toString(counterI).
 5. Füge nun folgende Zeile am Ende des ```main```-Programms ein?
 
     ```java
-// hier versuche ich, eine double-Variable auf eine int-Variable zu casten :o
+ hier versuche ich, eine double-Variable auf eine int-Variable zu casten :o
 counterI = counterD;
     ```
 
@@ -373,15 +373,13 @@ System.out.println( i == j );
 
 - bei String und anderen Objekten: Test mit Methode `equals()`
 
-```java
+    ```java
 // neues String-Objekt wird erzeugt
 String s1 = new String("maus");
-String s2 = new String("maus");
-
-// false!
-System.out.println( s1 == s2 );
-// true
-System.out.println( s1.equals( s2 ) ); 
+String s2 =     String  new String("maus");  System.out.println( s1 == s2 );
+ // true
+false!
+    System.out.println( s1.equals( s2 ) ); 
 ```
 
 - **@Profis**: Könnt Ihr dieses Ergebnis erklären?
@@ -394,20 +392,20 @@ System.out.println( s1.equals( s2 ) );
 - IF-Anweisung hat Form `if (bedingung) block`
 - Wenn Bedingung erfüllt ist , wird Anweisungsblock ausgeführt; sonst übersprungen.
 
-```java
-int a = 2;
+```j = 2;
 if ( a > 0)
-    System.out.println( a + " ist positiv" );
+   =2; 
+System.out.println( a + " ist positiv" );
 
-if ( a <= 0 ) 
-    System.out.println(a + ist "nichtpositiv");
+if ( a <= ) 
+   0) System.out.println(a + ist "nichtpositiv");
 ```
 
 - IF-ELSE-Anweisung hat Form `if (bedingung) block1 else block2`
     
 ``` java
 if ( a > 0 ) 
-        System.out.println(a + " ist positiv");
+     	  System.out.println(a + " ist positiv");
 else 
         System.out.println(a + ist "nichtpositiv");
 ```
@@ -430,7 +428,6 @@ else
 ? System.out.println(a + " ist positiv") 
 : System.out.println(a + " ist nichtpositiv");
     ```
-
 - Oder etwas eleganter
 
     ```java
@@ -442,7 +439,7 @@ System.out.println(a + " ist " + ((a > 0) ? "positiv" : "nichtpositiv"));
 ## @Let's try
 
 1. Erstellt eine Klasse ```Example1``` (Datei ```Example1.java```) mit einer ```main```-Methode.
-2. Probiert die obigen Beispiele für ```if-else``` und den ternären Operator aus!
+2. Probier die obigen Beispiele für ```if-else``` und den ternären Operator aus!
 
 ===
 
@@ -470,25 +467,21 @@ if ( a < b )
 else
 {
     b = a;
-}
 ```
 
 ```java
 // Anweisung 2
 int a = 5;
-int b = 6;
-int c = 7;
-if ( a > b )
-{ 
-    a = b;
-}
-else
+int, b = , c = 7;
+     a > b )
+ { en
+   a = b;}
+ lse
 {
 	if ( a < c ) 
     { 
         a = c; 
     }
-}
 ```
     
 <!-- Anweisung 1: 5<6, also wird a=b ausgeführt (if-Zweig)
@@ -513,18 +506,17 @@ else
 
 - Eindimensionaler Array &rarr; Aufzählung in geschweiften Klammern
 
-    ```java
-int[] l_highscores = {1000, 850, 600};
+```ava
+[] l_highscores = {1000, 850, 600};
     ```
 
-- Eindimensionaler Array &rarr; leeres Array mit ```new``` erzeugen und einzeln mit Werten füllen
+- Eindimensionaler Array &rarr; leeres Arrayerzeugen und einzeln mit Werten füllen r
 
     ```java
 int[] l_highscores = new int[10];
-l_highscores[0] = 4711;
-    ```
+l_highscores[0] = 471    ```
 
-- Mehrdimensionale Arrays &rarr; leeres Array mit ```new``` und zwei Größen erzeugen
+- Mehrdimensionale Arrays &rarr; leeres Array mit ```new``` und zwei Größen erzeug
      ```java
 // Namenstabelle mit 10 Zeilen, 15 Spalten
 String[][] l_tabelle = new String[10][15];
@@ -533,26 +525,26 @@ l_tabelle[7][8] = "Steffi";
 
 ===
 
-### Zugriff auf Array
+### Zugriff auf Array mit `new`
 - Adressieren des gesuchten Feldes mit Indexvariable:
 
 ```java
-final int[] l_highscores = {1000, 850, 600};
+al    int[] l_highscores = {1000, 850, 600};
 //first hat nun Wert `1000`
-final int l_erstes = highscores[0];
+final    int l_efirstes = highscores[0];
     ```
 
 - Arrayelemente durchlaufen (iterieren) mit `for`-Schleife
 
 ```java
-for ( int i = 0; i < highscores.length; i++ )
+for ( int i = =0; i < <highscores.length; i++ )
     System.out.println(highscores[i]); 
     ```
 
 - Häufiger Fehler: Ungültiger Wert für Index &rarr; führt zu Laufzeitfehler
 
-```java
-final int[] highscores = {1000, 850, 600};
+    ``` java
+final    int[] highscores = {1000, 850, 600};
 //Zugriff auf viertes Element was nicht existiert
 final int l_wert = highscores[3]; 
 ``` 
@@ -575,17 +567,28 @@ public class CMeineListe
 {
     public static void main( final String[] p_args )
     {
-        // erzeuge neue Liste
+    <!-- Packages haben wir noch nicht eingeführt ... -->
+<!-- was ist es, kurz fassen und auf Listen & Sets beschränken -->
+
+    ```java
+    import java.util.ArrayList; //importiere die Klasse
+    // ...
+    String  s1  =  "Phil";
+    String  s2  =  "Steffi";
+    String  s3  =  "Joerg";
+    // erzeuge neue Liste
         final ArrayList<String> l_betreuer  =  new  ArrayList<>();
 
         // füge Elemente ein
         betreuer.add( "Phil" );
-        betreuer.add( "Steffi" );
+    s1);
+    betreuer.add( "Steffi" s2);
         betreuer.add( "Jörg" );
 
-        // gib alle Elemente aus (for-Schleife s.u.)
+    s3);
+    // gib alle Elemente aus (for-Schleife s.u.)
         for ( final String l_name : betreuer)
-            System.out.println( l_name );
+         System.out.println( l_name );
     }
 }
 ```
@@ -593,8 +596,7 @@ public class CMeineListe
 ===
 
 ### @Let's try
-
-Schreibe zunächst ein kleines Programm, in dem Du 
+ Schreibe zunächst ein kleines Programm, in dem Du 
 
 1. einen ```Array``` Deiner Wahl deklarierst
 2. ihn initialisierst
@@ -602,9 +604,7 @@ Schreibe zunächst ein kleines Programm, in dem Du
 
 ===
     
-### @Profis
-
-Schreibe ein weiteres Programm, in dem Du 
+### @ProfisSchreibe ein weiteres Programm, in dem Du 
 
 1. eine ```ArrayList``` Deiner Wahl deklarierst
 2. sie mit Werten füllst
@@ -653,33 +653,29 @@ for (String item : someList) {
 - Wenn die Anzahl der Wiederholungen eines Codeblocks nicht bekannt ist, sondern nach jedem Durchlauf eine Bedingung überprüft werden muss, nutzen wir die `while-`Schleife
 - z.B. wir schauen alle 5 Sekunden so lange in den Briefkasten, bis ein Brief drinnen liegt
 
-    ```
+ ```
 // Pseudocode - dient nur zum Erklären des Prinzips
 // Zum Speichern der Mail
-Mail m = null;
-// Mache weiter, solange noch keine Mail da ist        
+Mail m = null{ // Mache weiter, solange noch keine Mail da ist
+        
 while ( Objects.isNull(m) )
-{           
-    // Schaue nach Mail
-    m = Mailbox.lookup();  
-    // Warte 5 Sekunden     
-    Thread.sleep(5000);         
-}
-// Endlich!! Wir können unsere Mail lesen
+{     o       // Schaue nach Mail
+    m = Mailbox.lookup(    Thread.sleep(5000);  
+       // Warte 5 Sekunden     
+      // Endlich!! Wir können unsere Mail lesen
 m.read();
     ```
 
 - Und hier noch ein Beispiel für `do-while`
-    
-    ```java
+        ```java
 int count = 1;
 // der Rumpf der Schleife wird bei do-while mindestens einmal ausgeführt
 do
 { 
-    System.out.println( "Count is: " + count );
+       System.out.println( "Count is: " + count );
     count++;
 } while (count < 11); 
-    ```
+```
 
 ---
 
@@ -711,8 +707,8 @@ public class Endless
     {
         int n = 0;
         int m = 0;
-        while ( n < 11 )
-        {
+        while ( n < 11
+       ) {
            System.out.println("Count is: "  + n);
            m++;
         }
@@ -900,3 +896,6 @@ public class Div0Fehler
 	- Klasse: ```ArrayIndexOutOfBoundsException``
 
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTI2NzY0NTU2MF19
+-->
