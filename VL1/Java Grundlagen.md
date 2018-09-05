@@ -774,7 +774,7 @@ public class Div0Fehler
 - Java verwendet das sogenannte Try-Catch Modell zur Ausnahmebehandlung
 - Code, in dem eine Ausnahme auftreten kann, wird in einen "Catch-Block" eingeschlossen.
 - Dahinter wird ein Try-Block angegeben, der bestimmt, was im Falle des Auftretens von Ausnahmen zu tun ist.
-- Wir erweitern den Rumpf der main()-Methode unserer `Div0Fehler`-KlLasse
+- Wir erweitern den Rumpf der main()-Methode unserer `Div0Fehler`-Klasse
     
     ```java
       int  ergebnis=0;
