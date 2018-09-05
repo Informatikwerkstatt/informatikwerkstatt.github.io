@@ -544,11 +544,11 @@ final int l_wert = highscores[3];
 
 ### Collections
 
-- Java Bibliothek, stellt häufig verwendete Datenstrukturen und Methoden zur Speicherung und Verkettung von Objekten zur Verfügung
-- Haupttypen Listen, Mengen, Maps, Queues
-- Beispiel Liste: Klasse `java.util.ArrayList` = dynamischer Array (keine feste Länge)
 <!-- Packages haben wir noch nicht eingeführt ... -->
 <!-- was ist es, kurz fassen und auf Listen & Sets beschränken -->
+
+- Datenstrukturen (hier [Collections](https://docs.oracle.com/javase/tutorial/collections/index.html), als Java Bibliothek, werden zur Speicherung von Daten verwendet
+- Beispiel Liste: Klasse ```java.util.ArrayList``` &rarr; dynamischer Array (keine feste Länge)
 
     ```java
 // importiere die Klasse
@@ -573,17 +573,15 @@ public class CMeineListe
 }
     ```
 
-- Detailliertere Infos zum Java Collections Framework findest Du [hier](https://docs.oracle.com/javase/tutorial/collections/index.html)
-
 ===
 
 ### @Let's try
 
-<!-- an dieser Folienformattierung verzweifele ich -->
-* Schreibe zunächst ein kleines Programm, in dem Du 
-    1. einen `Array` Deiner Wahl deklarierst
-    2. ihn initialisierst
-    3. seine Werte ausliest und ausgibst 
+Schreibe zunächst ein kleines Programm, in dem Du 
+
+1. einen ```Array``` Deiner Wahl deklarierst
+2. ihn initialisierst
+3. seine Werte ausliest und ausgibst 
 
 ===
     
@@ -591,9 +589,9 @@ public class CMeineListe
 
 Schreibe ein weiteres Programm, in dem Du 
 
-    1. eine ```ArrayList``` Deiner Wahl deklarierst
-    2. sie mit Werten füllst
-    3. und danach die Werte ausliest und ausgibst 
+1. eine ```ArrayList``` Deiner Wahl deklarierst
+2. sie mit Werten füllst
+3. und danach die Werte ausliest und ausgibst 
 
 ---
 
