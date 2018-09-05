@@ -236,7 +236,8 @@ Man könnte doch für alles `double` verwenden ...
 - Mithilfe der Datentypen können wir dem Java-Compiler genau beschreiben, welches erlaubte Werte einer Variable sind 
 - Wir erweitern unser [HelloWorld-Programm](#/5):
 
-    ``` java
+    ```java
+    
     public class HelloWorld
     {
     	// Variablendeklaration mit Initialisierung
@@ -248,8 +249,7 @@ Man könnte doch für alles `double` verwenden ...
     		System.out.println( message );
     	}
     }
-    	}
-}
+    
 ```
 
 ===
@@ -860,5 +860,5 @@ m.read();                     // Endlich!! Wir können unsere Mail lesen
 		- Methode: `onCreate()`
 		- Klasse: `ArrayIndexOutOfBoundsException`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNTcyODk5N119
+eyJoaXN0b3J5IjpbMTMwODg5OTM2M119
 -->
