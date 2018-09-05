@@ -474,16 +474,12 @@ else {
 ## Arrays
 <!-- was sind Arrays, wozu sind sie gut, was gibt es für Beschränkungen -->
 
-- Container mit fester Anzahl von Werten eines bestimmten Types speichern können ([Details](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)))
+- Container mit fester Anzahl von Werten ([Details](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html))
+- alle Elemente sind vom [gleichen Typ](#/7)
 - Arrays können in Arrays verschachtelt werden
-- Beispiel aus [HelloWorld](#/1/1)  ```String[] p_args```
-
-===
-
-### Array Beispiel
-
-- Liste von Highscore-Werten eines Spiels
 - Elemente über eine Index-Variable beginnent bei 0 bis _Anzahl Element - 1_
+- Beispiel aus [HelloWorld](#/1/1):  ```String[] p_args```
+
 ![Array Aufbaue](images//1_array.png)
 
 ===
