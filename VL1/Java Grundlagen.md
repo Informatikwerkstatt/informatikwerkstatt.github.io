@@ -257,10 +257,10 @@ Man könnte doch für alles `double` verwenden ...
 - Der Wert der Variable wird an die Methode übergeben und dort weiterverarbeitet. 
 
 ```java	
-public static void main( String[] p_args )
-{
-System.out.println( message );
-}
+    public static void main( String[] p_args )
+    {
+       System.out.println( message );
+    }
 ```
 
 === 
@@ -282,7 +282,8 @@ byte counterB = 1;
 int counterI = 1;
 double counterD = 1.0;
 String myNumber = "";
-// wir casten jetzt eine byte-Variable auf eine  int-Variable und dann die int-Variable auf eine double-Variable. Geht das?
+// wir casten jetzt eine byte-Variable auf eine  int-Variable 
+// und dann die int-Variable auf eine double-Variable. Geht das?
 counterI = counterB;
 counterD = counterI;
 System.out.println("counterD = ", counterD);
@@ -300,7 +301,7 @@ mynumber = Integer.toString(counterI).
 4. Übersetze das Programm und führe es aus! Was beobachtest Du?
 5. Füge nun folgende Zeile am Ende des ```main```-Programms ein?
 
-    ```java
+   ```java
  hier versuche ich, eine double-Variable auf eine int-Variable zu casten :o
 counterI = counterD;
     ```
@@ -897,5 +898,5 @@ public class Div0Fehler
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgxMTEzNzk2XX0=
+eyJoaXN0b3J5IjpbMTQ2MjYyMzMyMF19
 -->
