@@ -486,25 +486,24 @@ else {
 
 ### Array anlegen / initialisieren
 
-- Eindimensionaler Array, direkte Initialisierung durch Aufzählung
+- Eindimensionaler Array &rarr; Aufzählung in geschweiften Klammern
 
-    ``` java
-    int[] highscores = {1000, 850, 600};
+    ```java
+    int[] l_highscores = {1000, 850, 600};
     ```
 
-- Eindimensionaler Array, Deklaration mit `new` Operator; "Füllen" später
+- Eindimensionaler Array &rarr; leeres Array mit ```new``` erzeugen und einzeln mit Werten füllen
 
-    ``` java
-    int[] highscores = new int[10];
-    highscores[0] = 4711;
+    ```java
+    int[] l_highscores = new int[10];
+    l_highscores[0] = 4711;
     ```
 
-- Nach `new`-Anweisung sind die Elemente des Arrays mit dem Initialwert des Elementtyps initialisiert (Zahlen: `0`, `boolean: false`)
-- Zweidimensionaler Array als Tabelle mit 10 Zeilen, 15 Spalten:
+- Mehrdimensionale Arrays &rarr; leeres Array mit ```new``` und zwei Größen erzeugen
      ```java
-     //Namenstabelle mit 10 Zeilen, 15 Spalten
-    String[][] tabelleNamen = new String[10][15];
-    tabelleNamen[7][8] = "Steffi";
+     // Namenstabelle mit 10 Zeilen, 15 Spalten
+    String[][] l_tabelle = new String[10][15];
+    l_tabelle[7][8] = "Steffi";
     ```
 
 ===
