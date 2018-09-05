@@ -603,7 +603,8 @@ public  class  Endless
 ===
 ### Kill it - Der Task-Manager
 <!-- wie killt man ein hängendes Java Programm -->
-- Wenn ein Programm
+- Wenn ein Programm "hängt", ist es manchmal unvermeidbar, den Prozess zu beenden, in dem das Programm läuft
+- Dazu 
 
 ---
 
@@ -661,7 +662,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NzY4NzcwLDIwMjQxNDYzMzIsMzE1NT
+eyJoaXN0b3J5IjpbLTg3MDI4Mjc3LDIwMjQxNDYzMzIsMzE1NT
 Y0MDMxLDE2NTk5NTUwOTYsMTczNjQwMDk4NywtMTA0NzIyOTE2
 MywtMTMwMzM2ODQ1MSwxODMwNzU1OTE0LC0xNDcxMTc2NzA3LC
 00NTAwNzcyMyw2NTExODI1NjcsLTE4MjM4ODQyODUsLTEyNzE2
