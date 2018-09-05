@@ -163,8 +163,7 @@ Und hier das ganze im Video:
     	}
     }
     ```
-
-- Quelldatei enthält Klasse HelloWorld 
+ - Quelldatei enthält Klasse HelloWorld 
     - *Achtung*: Groß-/Kleinschreibung wird in Java generell unterschieden!
 - Verhalten einer Klasse wird durch Methoden beschrieben
 - Die ```CHelloWorld``` Klasse hat eine Methode: ```main()``` 
@@ -249,15 +248,17 @@ Man könnte doch für alles `double` verwenden ...
     		System.out.println( message );
     	}
     }
-    ```
+    	}
+}
+```
 
 ===
 
 ### Zuweisung
 <!-- Zuweisungen von Variablen, Beachtung von final -->
 - Variable muss vor Verwendung deklariert werden
-    ```java
-        private final String message = "Hello World";
+    ```  java
+        	private final String message = "Hello World";
     ```
 - Mit dem Zuweisungsoperator ```=``` kann einer Variable ein Wert zugewiesen werden
 - ```=``` kopiert Wert auf der rechten Seite in die Variable auf der linken 
@@ -272,11 +273,9 @@ Man könnte doch für alles `double` verwenden ...
 - Die Variable `message` kann nach ihrer Instanziierung als Argument (Parameter) beim Aufruf der Methode  `println()` des Objekts `System.out` (siehe [Objekt-Orientierte Programmierung Grundlagen](/oop-grundlagen/)) verwendet werden
 - Der Wert der Variable wird an die Methode übergeben und dort weiterverarbeitet. 
 
-```java
-	public static void main( String[] p_args )
+```java	public static void main( String[] p_args )
 	{
 		System.out.println( message );
-	}
 ```
 	
 
@@ -318,8 +317,9 @@ mynumber = Integer.toString(counterI).
 4. Übersetze das Programm und führe es aus! Was beobachtest Du?
 5. Füge nun folgende Zeile am Ende des ```main()```-Programms ein?
 
-    ```java
-    // hier versuche ich, eine double-Variable auf eine int-Variable zu casten :o
+    ``` java
+    ///*
+ hier versuche ich, eine double-Variable auf eine int-Variable zu casten :o
     counterI = counterD;
     ```
 
@@ -406,13 +406,13 @@ Note: kein Compile-Fehler, aber nur ganzzahliger Anteil!-->
 
 - IF-ELSE-Anweisung hat Form `if (bedingung) block1 else block2`
     
-    ```java
+    ``` java
     if (a>0) 
     	  System.out.println(a + " ist positiv");
     else 
     	  System.out.println(a + ist "nichtpositiv");
     ```
-    
+    ```
 - Blöcke mit mehreren Anweisungen in geschweifte Klammern einfassen!
 
 ---
@@ -422,8 +422,7 @@ Note: kein Compile-Fehler, aber nur ganzzahliger Anteil!-->
 Switch-case
 
 ===
-
-## Ternärer Operator
+### Ternärer Operator
 <!-- ternärer Operator funktioniert nur für 2 Alternativen; kompakter; if-else empfinden viele als besser lesbar -->
 - Wenn nur zwischen zwei Ausgabewerten unterschieden werden soll, gibt es für die IF-ELSE-Anweisung eine Kurzform
 -  Der *ternäre Operator* `?:` hat die Form
@@ -431,19 +430,19 @@ Switch-case
     ```
     (<boolescher Ausdruck>) `?` AusgabewertTrue `:` AusgabewertFalse;
     ```
-    
+    ```
 - Beispiel:
 
     ```java
      (a > 0) ? System.out.println(a + " ist positiv") 
     	 : System.out.println(a + " ist nichtpositiv");
     ```
-    
+    ```
 - Oder etwas eleganter
     ```java
      System.out.println(a + " ist " + ((a > 0) ? "positiv" : "nichtpositiv"));
     ```
-    
+    ```
 ---
 
 ## @Let's try
@@ -464,9 +463,9 @@ Betrachte die beiden folgenden IF-ELSE Anweisungen
     int a = 5, b = 6;				
     if ( a < b ) { a = b; }			
     else { b = a; }							
+    
     ```
-
-    ```java
+```java
     // Anweisung 2
     int a = 5, b = 6, c = 7;
     if ( a > b ) { a = b; }
@@ -496,16 +495,17 @@ Betrachte die beiden folgenden IF-ELSE Anweisungen
 <!-- verschiedene Arten für die Initialisierung von Arrays -->
 - Eindimensionaler Array, direkte Initialisierung durch Aufzählung
 
-    ```java
+    ``` java
     int[] highscores = {1000, 850, 600};
     ```
 
 - Eindimensionaler Array, Deklaration mit `new` Operator; "Füllen" später
 
-    ```java
+    ``` java
     int[] highscores = new int[10];
     ...
-    highscores[0] = 4711;
+    ...
+highscores[0] = 4711;
     ```
 
 - Nach `new`-Anweisung sind die Elemente des Arrays mit dem Initialwert des Elementtyps initialisiert (Zahlen: `0`, `boolean: false`)
@@ -516,13 +516,13 @@ Betrachte die beiden folgenden IF-ELSE Anweisungen
     ...
     tabelleNamen[7][8] = "Steffi";
     ```
-    
+    ```
 ===
 
 ### Zugriff auf Array
 - Adressieren des gesuchten Feldes mit Indexvariable:
 
-    ```java
+    ``` java
     int[] highscores = {1000, 850, 600};
     //first hat nun Wert `1000`
     int first = highscores[0];
@@ -530,14 +530,14 @@ Betrachte die beiden folgenden IF-ELSE Anweisungen
 
 - Arrayelemente durchlaufen (iterieren) mit `for`-Schleife (s.u.)
 
-    ```java
+    ``` java
     for (int i=0; i<highscores.length; i++)
     	System.out.println(highscores[i]); 
     ```
 
 - Häufiger Fehler: Ungültiger Wert für Index --> Führt zu Laufzeitfehler
 
-    ```java
+    ``` java
     int[] highscores = {1000, 850, 600};
     //Zugriff auf viertes Element --> Fehler
     int = highscores[3]; 
@@ -559,7 +559,7 @@ Betrachte die beiden folgenden IF-ELSE Anweisungen
     String  s2  =  "Steffi";
     String  s3  =  "Joerg";
     // erzeuge neue Liste
-    ArrayList<String> betreuer  =  new  ArrayList<>();
+   ArrayList<String> betreuer  =  new  ArrayList<>();
     // füge Elemente ein
     betreuer.add(s1);
     betreuer.add(s2);
@@ -568,7 +568,7 @@ Betrachte die beiden folgenden IF-ELSE Anweisungen
     for (String name: betreuer)
         System.out.println(name);
     ```
-    
+   ``` 
 - Detailliertere Infos zum Java Collections Framework findest Du [hier](https://docs.oracle.com/javase/tutorial/collections/index.html)
 
 ===
@@ -616,7 +616,8 @@ Betrachte die beiden folgenden IF-ELSE Anweisungen
         System.out.println(item);
     }
     ```
-    
+    }
+```
 - Anm.:  Da im Rumpf der `for each` Anweisung nur Kopien der Listenelemente verarbeitet werden, kann man damit keine Elemente der Liste ändern oder löschen!
 
 ===
@@ -632,12 +633,13 @@ Betrachte die beiden folgenden IF-ELSE Anweisungen
         m = Mailbox.lookup();       // Schaue nach Mail
         Thread.sleep(5000);         // Warte 5 Sekunden
     }
-    m.read();                     // Endlich!! Wir können unsere Mail lesen
+    }
+m.read();                     // Endlich!! Wir können unsere Mail lesen
     ```
 
 - Und hier noch ein Beispiel für `do-while`
 
-    ```java
+    ``` java
     int count = 1;
     do { // der Rumpf der Schleife wird bei do-while mindestens einmal ausgeführt
        System.out.println("Count is: " + count);
@@ -667,10 +669,11 @@ Betrachte die beiden folgenden IF-ELSE Anweisungen
 
 - **@Let's try**: Was passiert hier? 
  
-    ```java
+    ``` java
     public class Endless
+  {
     {
-       public  static  void  main( String[] p_args )
+   public static void  main( String[] p_args )
        {
          int  n=0, m=0;
          while (n <  11) {
@@ -746,15 +749,18 @@ Betrachte die beiden folgenden IF-ELSE Anweisungen
     ```java
     public class Div0Fehler
     {
-      public static void  main( String[] p_args )
+      public  static  void  main( String[] p_args )
       {
-        int  zaehler=5;
+  {
+      int  zaehler=5;
         int  nenner=0;
         int  ergebnis  = zaehler / nenner;
         System.out.println("Ergebnis: "  + ergebnis);
       }
     }
-    ```
+    }
+}
+```
 
 ===
 
@@ -763,9 +769,9 @@ Betrachte die beiden folgenden IF-ELSE Anweisungen
 - Java verwendet das sogenannte Try-Catch Modell zur Ausnahmebehandlung
 - Code, in dem eine Ausnahme auftreten kann, wird in einen "Catch-Block" eingeschlossen.
 - Dahinter wird ein Try-Block angegeben, der bestimmt, was im Falle des Auftretens von Ausnahmen zu tun ist.
-- Wir erweitern den Rumpf der main()-Methode unserer `Div0Fehler`-Klasse
+- Wir erweitern den Rumpf der main()-Methode unserer `Div0Fehler`-KlLasse
     
-    ```java
+    ``` java
       int  ergebnis=0;
       try{ //
         int  zaehler=5;
@@ -775,10 +781,12 @@ Betrachte die beiden folgenden IF-ELSE Anweisungen
         System.out.println(e.toString());
         System.out.println("Sorry, Du hast durch null geteilt! Probiere es nochmal!");
       }
-      System.out.println("Ergebnis: "  + ergebnis);
+    }
+  System.out.println("Ergebnis: "  + ergebnis);
     }
     ```
-    
+    }
+```
 - So kann der Programmierer sinnvoll auf Ausnahmen reagieren 
 
 ===
@@ -843,8 +851,7 @@ Betrachte die beiden folgenden IF-ELSE Anweisungen
 - Bei Variablennamen ist Groß-/Kleinschreibung relevant: 
 	- `text` und `Text` sind unterschiedliche Variable
 - Variablen dürfen nur Zahlen, Buchstaben, oder \_ enthalten
-- Konstanten i.d.R.  in Großbuchstaben, Teilworte mit \_ getrennt, z.B.
-- `final String APP_NAME = “Meine App“;`
+- Konstanten i.d.R.  in Großbuchstaben, Teilworte mit \_ getrennt, z.B. `final String APP_NAME = “Meine App“;`
 - Konventionen
 	- Variablen- und Methodennamen beginnen mit Kleinbuchstaben, z.B. `liste`, `main()` <!-- $, \_ bei Variablen hab ich hier weggelassen, zuviel Detail -->
 	- Klassennamen beginnen mit Großbuchstaben
@@ -852,3 +859,6 @@ Betrachte die beiden folgenden IF-ELSE Anweisungen
 		- Variable: `highScoreListe`
 		- Methode: `onCreate()`
 		- Klasse: `ArrayIndexOutOfBoundsException`
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTcyNTcyODk5N119
+-->
