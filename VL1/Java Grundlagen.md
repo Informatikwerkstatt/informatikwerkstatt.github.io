@@ -596,9 +596,8 @@ public  class  Endless
    }
 }
 ``` 
-- 
- - Wenn Ihr das Programm über die Kommandozeile gestartet habt, könnt Ihr es
-
+ - Wenn Ihr das Programm über die Eingabeaufforderung gestartet habt, könnt Ihr es dort mit der Tastenkombination STRG+C beenden.
+- Manchmal ist es aber nicht so einfach
 ---
 
 ## Kill it - Der Task-Manager
@@ -661,7 +660,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg5MDIyMDUxLDIwMjQxNDYzMzIsMzE1NT
+eyJoaXN0b3J5IjpbOTI4MzkyMjU3LDIwMjQxNDYzMzIsMzE1NT
 Y0MDMxLDE2NTk5NTUwOTYsMTczNjQwMDk4NywtMTA0NzIyOTE2
 MywtMTMwMzM2ODQ1MSwxODMwNzU1OTE0LC0xNDcxMTc2NzA3LC
 00NTAwNzcyMyw2NTExODI1NjcsLTE4MjM4ODQyODUsLTEyNzE2
