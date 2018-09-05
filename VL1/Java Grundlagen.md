@@ -741,23 +741,23 @@ public  class  Div0Fehler{
 
 - Bei Variablennamen ist Groß-/Kleinschreibung relevant: 
 	- `text` und `Text` sind unterschiedliche Variable
-- Variablennamen beginnen i.d.R. mit einem Buchstaben  <!-- $, \_ hab ich weggelassen -->
 - Variablen dürfen nur Zahlen, Buchstaben, oder \_ enthalten
-- Konstanten i.d.R. . in Großbuchstaben, Teilworte mit \_ getrennt, z.B.  `final String APP_NAME = “Meine App“;`
+- Konstanten i.d.R.  in Großbuchstaben, Teilworte mit \_ getrennt, z.B.
+- `final String APP_NAME = “Meine App“;`
 - Konventionen
-	- Variablen- und Methodennamen beginnen mit Kleinbuchstaben, z.B. `liste`, `main()`
+	- Variablen- und Methodennamen beginnen mit Kleinbuchstaben, z.B. `liste`, `main()` <!-- $, \_ bei Variablen hab ich hier weggelassen, zuviel Detail -->
 	- Klassennamen beginnen mit Großbuchstaben
-	- Besteht ein Name aus mehreren Worten, werden die Anfangsbuchstaben der inneren Worte  groß geschrieben (= CamelCase)
+	- Besteht ein Name aus mehreren Worten, werden die Anfangsbuchstaben der inneren Worte  groß geschrieben (= CamelCase), z.B.
 		- Variable: `highScoreListe`
 		- Methode: `onCreate()`
 		- Klasse: `ArrayIndexOutOfBoundsException`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMDEzNDQwNywtMTMxMTY3Mzk3NSw0NT
-AxODY5MTAsODA5MjgyMzE3LC01MjEzMTc0MjUsLTE5Mjc4MTk4
-MDcsLTE4MTc1MTIzNywxNDkwNzYxMjAsMTAxNzE3ODk2MSwtOD
-cwMjgyNzcsMjAyNDE0NjMzMiwzMTU1NjQwMzEsMTY1OTk1NTA5
-NiwxNzM2NDAwOTg3LC0xMDQ3MjI5MTYzLC0xMzAzMzY4NDUxLD
-E4MzA3NTU5MTQsLTE0NzExNzY3MDcsLTQ1MDA3NzIzLDY1MTE4
-MjU2N119
+eyJoaXN0b3J5IjpbLTEwNDcxNzYwODAsLTEzMTE2NzM5NzUsND
+UwMTg2OTEwLDgwOTI4MjMxNywtNTIxMzE3NDI1LC0xOTI3ODE5
+ODA3LC0xODE3NTEyMzcsMTQ5MDc2MTIwLDEwMTcxNzg5NjEsLT
+g3MDI4Mjc3LDIwMjQxNDYzMzIsMzE1NTY0MDMxLDE2NTk5NTUw
+OTYsMTczNjQwMDk4NywtMTA0NzIyOTE2MywtMTMwMzM2ODQ1MS
+wxODMwNzU1OTE0LC0xNDcxMTc2NzA3LC00NTAwNzcyMyw2NTEx
+ODI1NjddfQ==
 -->
