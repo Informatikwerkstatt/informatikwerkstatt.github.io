@@ -611,7 +611,7 @@ public  class  Endless
 	- Rechtsklick  darauf, "Task beenden" auswählen
 	- Fertig!
 - Hier noch ein Video zur Illustration
-<iframe class="video" src=https://vimeo.com/288322168" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
+<iframe class="video" src="https://vimeo.com/288322168" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
 
 ---
 
@@ -669,11 +669,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MDc2MTIwLDEwMTcxNzg5NjEsLTg3MD
-I4Mjc3LDIwMjQxNDYzMzIsMzE1NTY0MDMxLDE2NTk5NTUwOTYs
-MTczNjQwMDk4NywtMTA0NzIyOTE2MywtMTMwMzM2ODQ1MSwxOD
-MwNzU1OTE0LC0xNDcxMTc2NzA3LC00NTAwNzcyMyw2NTExODI1
-NjcsLTE4MjM4ODQyODUsLTEyNzE2NjgzMCwtOTc0MjYwNzQzLC
-0xOTI4Njc0NjUwLC0xMTU5MTM5MzAxLDE0ODgzMTg2MzksMTIw
-MDQ5NzkyNF19
+eyJoaXN0b3J5IjpbLTg2ODIzNzgwNiwxNDkwNzYxMjAsMTAxNz
+E3ODk2MSwtODcwMjgyNzcsMjAyNDE0NjMzMiwzMTU1NjQwMzEs
+MTY1OTk1NTA5NiwxNzM2NDAwOTg3LC0xMDQ3MjI5MTYzLC0xMz
+AzMzY4NDUxLDE4MzA3NTU5MTQsLTE0NzExNzY3MDcsLTQ1MDA3
+NzIzLDY1MTE4MjU2NywtMTgyMzg4NDI4NSwtMTI3MTY2ODMwLC
+05NzQyNjA3NDMsLTE5Mjg2NzQ2NTAsLTExNTkxMzkzMDEsMTQ4
+ODMxODYzOV19
 -->
