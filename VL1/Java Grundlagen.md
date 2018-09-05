@@ -319,7 +319,7 @@ counterI = counterD;
 int myInt;
 double  pi  =  3.14159;
 //explizites casting
-myInt= (int)pi;
+myInt = (int)pi;
 ```
 - **@Let's try:** Führe den o.g. Code aus und gib die Werte von `myInt` und `pi` aus! Was beobachtest Du?
 <!-- kein Compile-Fehler, aber nur ganzzahliger Anteil!-->
@@ -328,8 +328,8 @@ myInt= (int)pi;
 ## Größer, Kleiner, Gleich - Vergleiche und Operatoren
 <!-- Operatoren erklären, Operatoren Precedence erklären -->
 - In Java kann man eine größe Anzahl von [Standard-Operatoren](https://de.wikibooks.org/wiki/Java_Standard:_Operatoren) nutzen
-- Einen kennen wir schon: Operator `A=B` weist A den Wert in B zu 
-- Mit arithmetischen Operatoren (z.B. +, -) kann man rechnen. Übersicht [hier](https://de.wikibooks.org/wiki/Java_Standard:_Operatoren#Arithmetische_Operatoren)
+- Einen kennen wir schon: Operator `A=B` weist `A` den Wert in `B` zu 
+- Mit arithmetischen Operatoren (z.B. `+, -`) kann man rechnen. Übersicht [hier](https://de.wikibooks.org/wiki/Java_Standard:_Operatoren#Arithmetische_Operatoren)
 - Vergleichs-Operatoren (z.B. >, !=, >=) drücken Bedingungen für Verzweigungen eines Programms aus.  Übersicht [hier](https://de.wikibooks.org/wiki/Java_Standard:_Operatoren#Operatoren_f%C3%BCr_Vergleiche)
 - Übliche mathematische Präzedenzregeln für Operatoren (z.B. "Punktrechnung vor Strichrechnung"). Übersicht [hier](https://de.wikibooks.org/wiki/Java_Standard:_Operatoren)
 - Im Zweifelsfall: Klammern setzen!
@@ -590,11 +590,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NDM3ODg3MCwtMTI3MTY2ODMwLC05Nz
-QyNjA3NDMsLTE5Mjg2NzQ2NTAsLTExNTkxMzkzMDEsMTQ4ODMx
-ODYzOSwxMjAwNDk3OTI0LDE2MjYyNjU1NjQsLTE3NDM0MTU4Mz
-EsLTI3OTEyODY5OCwxNTkxNjczOTM5LC01OTc4NzUzMzYsLTE0
-NTcwNTE3MDksNTUwMzQxNTM1LDY0NDA0OTUwNywxNzk5Mzg0Nj
-E0LDEwMDYzNDUzMzgsNjI1MDk4Nzc5LDkzMzkyNTE0MCwtMTA1
-MjcxNDQyNl19
+eyJoaXN0b3J5IjpbLTE2MzczNTQ2NjAsLTEyNzE2NjgzMCwtOT
+c0MjYwNzQzLC0xOTI4Njc0NjUwLC0xMTU5MTM5MzAxLDE0ODgz
+MTg2MzksMTIwMDQ5NzkyNCwxNjI2MjY1NTY0LC0xNzQzNDE1OD
+MxLC0yNzkxMjg2OTgsMTU5MTY3MzkzOSwtNTk3ODc1MzM2LC0x
+NDU3MDUxNzA5LDU1MDM0MTUzNSw2NDQwNDk1MDcsMTc5OTM4ND
+YxNCwxMDA2MzQ1MzM4LDYyNTA5ODc3OSw5MzM5MjUxNDAsLTEw
+NTI3MTQ0MjZdfQ==
 -->
