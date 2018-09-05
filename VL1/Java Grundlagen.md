@@ -690,9 +690,9 @@ public  class  Div0Fehler{
 ===
 ### @Profis: Diskussion 
 - Ist es sinnvoll, auf Laufzeitfehler wie z.B. Division durch Null mit try-catch zu reagieren?
-<!-- eher sinnvoll für nutzerdefinierte DomänenExceptions, die mö
+<!-- eher sinnvoll für nutzerdefinierte DomänenExceptions, die mögliche aber inkorrekte Situationen (wie z.B. NutzerId unbekannt bei einer Registrierung) abbilden. -->
 - Wie könnte man sinnvoll den Fall abfangen, wenn der Nenner von einem Benutzer eingegeben wird?
-- <!-- vor der Ausführung Eingabetypen prüfen -->
+- <!-- Sicherstellen, dass das Programm korrekt aufgerufen wird: vor der Ausführung Eingabetypen prüfen -->
 
 ---
 ## @Home/Übung
@@ -735,11 +735,11 @@ public  class  Div0Fehler{
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NTMwMTE4OCw0NTAxODY5MTAsODA5Mj
-gyMzE3LC01MjEzMTc0MjUsLTE5Mjc4MTk4MDcsLTE4MTc1MTIz
-NywxNDkwNzYxMjAsMTAxNzE3ODk2MSwtODcwMjgyNzcsMjAyND
-E0NjMzMiwzMTU1NjQwMzEsMTY1OTk1NTA5NiwxNzM2NDAwOTg3
-LC0xMDQ3MjI5MTYzLC0xMzAzMzY4NDUxLDE4MzA3NTU5MTQsLT
-E0NzExNzY3MDcsLTQ1MDA3NzIzLDY1MTE4MjU2NywtMTgyMzg4
-NDI4NV19
+eyJoaXN0b3J5IjpbNzgwNDQ5MzEsNDUwMTg2OTEwLDgwOTI4Mj
+MxNywtNTIxMzE3NDI1LC0xOTI3ODE5ODA3LC0xODE3NTEyMzcs
+MTQ5MDc2MTIwLDEwMTcxNzg5NjEsLTg3MDI4Mjc3LDIwMjQxND
+YzMzIsMzE1NTY0MDMxLDE2NTk5NTUwOTYsMTczNjQwMDk4Nywt
+MTA0NzIyOTE2MywtMTMwMzM2ODQ1MSwxODMwNzU1OTE0LC0xND
+cxMTc2NzA3LC00NTAwNzcyMyw2NTExODI1NjcsLTE4MjM4ODQy
+ODVdfQ==
 -->
