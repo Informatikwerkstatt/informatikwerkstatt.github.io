@@ -394,23 +394,23 @@ System.out.println( s1.equals( s2 ) );
 - IF-Anweisung hat Form `if (bedingung) block`
 - Wenn Bedingung erfüllt ist , wird Anweisungsblock ausgeführt; sonst übersprungen.
 
-    ```java
+```java
 int a = 2;
 if ( a > 0)
     System.out.println( a + " ist positiv" );
 
 if ( a <= 0 ) 
     System.out.println(a + ist "nichtpositiv");
-    ```
+```
 
 - IF-ELSE-Anweisung hat Form `if (bedingung) block1 else block2`
     
-    ``` java
+``` java
 if ( a > 0 ) 
         System.out.println(a + " ist positiv");
 else 
         System.out.println(a + ist "nichtpositiv");
-    ```
+```
 
 - Blöcke mit mehreren Anweisungen in geschweifte Klammern einfassen!
 
