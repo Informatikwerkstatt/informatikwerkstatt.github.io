@@ -713,9 +713,18 @@ public  class  Div0Fehler{
 * Prüfen Sie die Typen der Eingaben
 * Bei einem leeren String sollte eine Fehlermeldung ausgegeben werden, dass der String leer ist
 * Wenn die Zahl $\leq 0$ ist, dann soll eine passende Fehlermeldung ausgegeben werden
-* Wenn die Argumentanzahl nicht stimmt soll auch eine passende Meldung ausgegeben werden
+* Wenn die Argumentanzahl nicht stimmt, soll auch eine passende Meldung ausgegeben werden
 * Wenn bei der Umwandlung des Textes in eine Zahl ein Fehler auftritt, dann soll auch eine verständliche Fehlermeldung ausgegeben werden
 
+## @Übungsaufgabe
+
+> Schreiben Sie ein Programm, dass zwei ganze Zahlen A und B von der Kommandozeile einliest und das Ergebnis 
+
+* Prüfen Sie die Typen der Eingaben
+* Bei einem leeren String sollte eine Fehlermeldung ausgegeben werden, dass der String leer ist
+* Wenn die Zahl $\leq 0$ ist, dann soll eine passende Fehlermeldung ausgegeben werden
+* Wenn die Argumentanzahl nicht stimmt, soll auch eine passende Meldung ausgegeben werden
+* Wenn bei der Umwandlung des Textes in eine Zahl ein Fehler auftritt, dann soll auch eine verständliche Fehlermeldung ausgegeben werden
 
 ---
 
@@ -726,11 +735,11 @@ public  class  Div0Fehler{
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MjQ1MTEzOSw4MDkyODIzMTcsLTUyMT
-MxNzQyNSwtMTkyNzgxOTgwNywtMTgxNzUxMjM3LDE0OTA3NjEy
-MCwxMDE3MTc4OTYxLC04NzAyODI3NywyMDI0MTQ2MzMyLDMxNT
-U2NDAzMSwxNjU5OTU1MDk2LDE3MzY0MDA5ODcsLTEwNDcyMjkx
-NjMsLTEzMDMzNjg0NTEsMTgzMDc1NTkxNCwtMTQ3MTE3NjcwNy
-wtNDUwMDc3MjMsNjUxMTgyNTY3LC0xODIzODg0Mjg1LC0xMjcx
-NjY4MzBdfQ==
+eyJoaXN0b3J5IjpbOTI4NjM3ODA4LDgwOTI4MjMxNywtNTIxMz
+E3NDI1LC0xOTI3ODE5ODA3LC0xODE3NTEyMzcsMTQ5MDc2MTIw
+LDEwMTcxNzg5NjEsLTg3MDI4Mjc3LDIwMjQxNDYzMzIsMzE1NT
+Y0MDMxLDE2NTk5NTUwOTYsMTczNjQwMDk4NywtMTA0NzIyOTE2
+MywtMTMwMzM2ODQ1MSwxODMwNzU1OTE0LC0xNDcxMTc2NzA3LC
+00NTAwNzcyMyw2NTExODI1NjcsLTE4MjM4ODQyODUsLTEyNzE2
+NjgzMF19
 -->
