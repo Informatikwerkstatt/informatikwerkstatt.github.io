@@ -580,11 +580,17 @@ while ( true ) {
 - Es gibt Fälle, in denen Endlosschleifen beabsichtigt sind.
 - Manchmal entstehen Sie aber unbeabsichtigt - durch Programmierfehler
  ``` java
-int n=0, m=0;
-while (n < 11) {
-   System.out.println("Count is: " + n);
-   m++;
- } 
+public  class  Endless
+{
+   public  static  void  main( String[] p_args )
+   {
+     int  n=0, m=0;
+     while (n <  11) {
+       System.out.println("Count is: "  + n);
+       m++;
+     }
+   }
+}
 ``` 
 
 ---
@@ -649,11 +655,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE1NTY0MDMxLDE2NTk5NTUwOTYsMTczNj
-QwMDk4NywtMTA0NzIyOTE2MywtMTMwMzM2ODQ1MSwxODMwNzU1
-OTE0LC0xNDcxMTc2NzA3LC00NTAwNzcyMyw2NTExODI1NjcsLT
-E4MjM4ODQyODUsLTEyNzE2NjgzMCwtOTc0MjYwNzQzLC0xOTI4
-Njc0NjUwLC0xMTU5MTM5MzAxLDE0ODgzMTg2MzksMTIwMDQ5Nz
-kyNCwxNjI2MjY1NTY0LC0xNzQzNDE1ODMxLC0yNzkxMjg2OTgs
-MTU5MTY3MzkzOV19
+eyJoaXN0b3J5IjpbMjAyNDE0NjMzMiwzMTU1NjQwMzEsMTY1OT
+k1NTA5NiwxNzM2NDAwOTg3LC0xMDQ3MjI5MTYzLC0xMzAzMzY4
+NDUxLDE4MzA3NTU5MTQsLTE0NzExNzY3MDcsLTQ1MDA3NzIzLD
+Y1MTE4MjU2NywtMTgyMzg4NDI4NSwtMTI3MTY2ODMwLC05NzQy
+NjA3NDMsLTE5Mjg2NzQ2NTAsLTExNTkxMzkzMDEsMTQ4ODMxOD
+YzOSwxMjAwNDk3OTI0LDE2MjYyNjU1NjQsLTE3NDM0MTU4MzEs
+LTI3OTEyODY5OF19
 -->
