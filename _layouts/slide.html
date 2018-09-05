@@ -36,7 +36,6 @@
             )
         )
     </script>
-    <script src="{{ site.baseurl }}/assets/railroad-diagrams.js"></script>
 </head>
 <body>
     <div class="reveal">
@@ -73,6 +72,11 @@
                     .append( jQuery( '<script/>' ).attr( 'src', '//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/powershell.min.js' ) )
                 hljs.initHighlightingOnLoad();   
             } },
+            { src: '{{ site.baseurl }}/assets/railroad-diagrams.js', async: true, callback: function() {
+                jQuery(".rrd").each(function() {
+                    // https://tabatkins.github.io/railroad-diagrams/generator.html
+                });
+            } }
         ]
     });
     </script>

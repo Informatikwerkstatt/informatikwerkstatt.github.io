@@ -385,13 +385,13 @@ System.out.println( s1.equals( s2 ) );
 ```
 
 - **@Profis**: Könnt Ihr dieses Ergebnis erklären?
-- Anm. : In `s1.equals(s2)` muss `s1` initialisiert sein &rarr; prüfen mit `s1 != null`
+- Anm. : In ```s1.equals(s2)``` muss ```s1``` initialisiert sein &rarr; prüfen mit ```Objects.nonNull)s1)```
 
 ---
 
 ## Bedingte Anweisungen - IF-ELSE
 
-- IF-Anweisung hat Form `if (bedingung) block`
+- IF-Anweisung hat Form ```if (bedingung) block```
 - Wenn Bedingung erfüllt ist , wird Anweisungsblock ausgeführt; sonst übersprungen.
 
 ```java
@@ -420,7 +420,7 @@ else
 
 - Wenn nur zwischen zwei Ausgabewerten unterschieden werden soll, gibt es für die IF-ELSE-Anweisung eine Kurzform
 
--  Der *ternäre Operator* hat die Form  <script>let l_rrd = Diagram( Sequence( NonTerminal("Bedingung"), Terminal("?"), NonTerminal("Wert bei True"), Terminal(":"), NonTerminal("Wert ebi False") ) ).toSVG();</script>
+-  Der *ternäre Operator* hat die Form  <textarea class="rrd">Diagram( Sequence( NonTerminal('Bedingung'), Terminal('?'), NonTerminal('Wert bei True'), Terminal(':'), NonTerminal('Wert ebi False') ) )</textarea>
 
 
 - Beispiel:
