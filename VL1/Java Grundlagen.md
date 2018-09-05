@@ -742,7 +742,9 @@ public  class  Div0Fehler{
 - Bei Variablennamen ist Groß-/Kleinschreibung relevant: 
 	- `text` und `Text` sind unterschiedliche Variable
 - Variablennamen beginnen mit einem Buchstaben, mit $ oder mit \_ ($ möglich, aber unerwünscht)
-- Variebdürfen nur Zahlen, Buchstaben, oder \_ enthalten
+- Variablen dürfen nur Zahlen, Buchstaben, oder \_ enthalten
+- Konstanten (Variablen mit Modifikator `final`): Namen i.d.R. in Großbuchstaben, Teilworte mit \_ getrennt
+–	final String APP_NAME = “Meine App“;
 - Konventionen
 	- Variablen- und Methodennamen beginnen mit Kleinbuchstaben, z.B. `liste`, `main()`
 	- Klassennamen beginnen mit Großbuchstaben
@@ -752,7 +754,7 @@ public  class  Div0Fehler{
 		- Klasse: `ArrayIndexOutOfBoundsException`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNjE3NzY1NiwtMTMxMTY3Mzk3NSw0NT
+eyJoaXN0b3J5IjpbMTI2MzU1ODI5OSwtMTMxMTY3Mzk3NSw0NT
 AxODY5MTAsODA5MjgyMzE3LC01MjEzMTc0MjUsLTE5Mjc4MTk4
 MDcsLTE4MTc1MTIzNywxNDkwNzYxMjAsMTAxNzE3ODk2MSwtOD
 cwMjgyNzcsMjAyNDE0NjMzMiwzMTU1NjQwMzEsMTY1OTk1NTA5
