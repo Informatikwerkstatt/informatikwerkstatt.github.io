@@ -683,9 +683,18 @@ public  class  Div0Fehler{
   }
   System.out.println("Ergebnis: "  + ergebnis);
 }```
-- So kann man 
- 
+- So kann der Programmierer sinnvoll auf Ausnahmen reagieren 
+
+===
+
+### @Profis 
+- Ist es sinnvoll, auf Laufzeitfehler wie z.B. Division durch Null mit try-catch zu reagieren?
+- Wie könnte man 
+
+
+
 ---
+
 
 ## @Let's try
 
@@ -712,11 +721,11 @@ public  class  Div0Fehler{
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5OTIxMzg3OSw4MDkyODIzMTcsLTUyMT
-MxNzQyNSwtMTkyNzgxOTgwNywtMTgxNzUxMjM3LDE0OTA3NjEy
-MCwxMDE3MTc4OTYxLC04NzAyODI3NywyMDI0MTQ2MzMyLDMxNT
-U2NDAzMSwxNjU5OTU1MDk2LDE3MzY0MDA5ODcsLTEwNDcyMjkx
-NjMsLTEzMDMzNjg0NTEsMTgzMDc1NTkxNCwtMTQ3MTE3NjcwNy
-wtNDUwMDc3MjMsNjUxMTgyNTY3LC0xODIzODg0Mjg1LC0xMjcx
-NjY4MzBdfQ==
+eyJoaXN0b3J5IjpbLTE3NTg1NzgzODgsODA5MjgyMzE3LC01Mj
+EzMTc0MjUsLTE5Mjc4MTk4MDcsLTE4MTc1MTIzNywxNDkwNzYx
+MjAsMTAxNzE3ODk2MSwtODcwMjgyNzcsMjAyNDE0NjMzMiwzMT
+U1NjQwMzEsMTY1OTk1NTA5NiwxNzM2NDAwOTg3LC0xMDQ3MjI5
+MTYzLC0xMzAzMzY4NDUxLDE4MzA3NTU5MTQsLTE0NzExNzY3MD
+csLTQ1MDA3NzIzLDY1MTE4MjU2NywtMTgyMzg4NDI4NSwtMTI3
+MTY2ODMwXX0=
 -->
