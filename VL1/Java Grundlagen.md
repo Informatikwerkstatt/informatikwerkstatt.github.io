@@ -40,7 +40,7 @@ public class HelloWorld
 ### Java Standalone am Rechner
 <!-- eine Subfolie für Java-Standalone am Rechner (Java Runtime) 
 --> 
-![](http://winf.in.tu-clausthal.de/jpm/infws/img/java-process.png)<!-- todo: agree on destination  in github --> 
+![Build-Prozess](images/java-process.png)
  
  - Java Compiler:  Befehl `javac` 
 	 - Dienstprogramm, Teil der Java Software
@@ -57,7 +57,7 @@ JPM: Ich würde das eher am Anfang der Android-Intro machen. Hier eher die allge
 
  - Android: Betriebssystem für mobile Endgeräte
  - Eigene JVM für Android, siehe VL4!
-  ![](http://winf.in.tu-clausthal.de/jpm/infws/img/java-cross-pf.png)
+  ![Deployment](images/java-cross-pf.png)
 
 ---
 
@@ -93,7 +93,7 @@ Werkzeug unter Windows: *Eingabeaufforderung*
  2. In Windows-Suche `cmd` eingeben (+ Return-Taste)
  3. Linksclick auf angezeigtes `cmd`-Symbol
  
-![](http://winf.in.tu-clausthal.de/jpm/infws/img/1_cmd.png)
+![Windows Commandline](images/1_cmd.png)
 
 ===
 ### Befehle der Eingabeaufforderung
@@ -166,14 +166,18 @@ public class HelloWorld
  - Verhalten einer Klasse wird durch Methoden beschrieben
  - Die `HelloWorld` Klasse hat eine Methode: ```main()``` 
 - In der Folge erfahren wir mehr über Klassen und Ihren Aufbau
+
 ===
+
 ### Klassen 
 	
 - Zentrale Einheit der objektorientierten Programmierung (s. VL2). 
 - Programmcode ist in Klassen organisiert
 - Klasse hat Namen (z.B. HelloWorld)
 - Konvention: Name der Klasse = Name der Quelldatei, die die Klasse enthält
+
 ===
+
 ### Methoden
 - Strukturieren den Code einer Klasse
 - Methode beschrieben durch
@@ -194,7 +198,9 @@ Java besitzt [50 reservierte Schlüsselwörter](https://en.wikipedia.org/wiki/Li
 * Sie definieren den Grundwortschatz der Programmiersprache, grundlegende Befehle
 * Im HelloWorld-Programm haben wir bereits einige davon kennen gelernt: `public`, `class`, `static`, `void`
 * Schlüsselwörter dürfen nicht als Variablen-, Funktions-, Methoden-, Klassennamen benutzt werden
+
 ---
+
 ## Datentypen
 <!-- Basisdatentypen, Text, Zahl, Boxing/Unboxing des Compilers -->
 - Alle Daten, die in Java-Programmen verarbeitet werden, müssen wohldefinierten Datentyp haben
@@ -211,11 +217,13 @@ Java besitzt [50 reservierte Schlüsselwörter](https://en.wikipedia.org/wiki/Li
 | String| Zeichenkette, max. $2^{31}-1$ Zeichen. z.B. `"Hello World!"` |
 
 ===
+
 ### @Profis
 Warum  gibt es verschiedene Datentypen für Zahlenwerte?
 Man könnte doch für alles `double` verwenden ...
 
 ---
+
 ## Variablen
 <!-- Deklaration von Variablen, Nutzung von Variablen, Keywort "final" -->
  
@@ -237,6 +245,7 @@ public class HelloWorld
 ```
 
 ===
+
 ### Zuweisung
 <!-- Zuweisungen von Variablen, Beachtung von final -->
 - Variable muss vor Verwendung deklariert werden
@@ -250,6 +259,7 @@ public class HelloWorld
 - `final` wird häufig verwendet, um Konstanten zu definieren
 
 ===
+
 ### Verwendung von Variablen bei Methodenaufrufen
 ``` java
 	public static void main( String[] p_args )
@@ -261,6 +271,7 @@ public class HelloWorld
 - Der Wert der Variable wird an die Methode übergeben und dort weiterverarbeitet. 
 
 === 
+
 ### main() Methode
  
  -  Programme wie unser `HelloWorld` Beispiel , die eine main() Methode haben, sind *ausführbar*.
@@ -268,20 +279,17 @@ public class HelloWorld
  - Das Argument `String[] p_args` der `main()` Methode kann genutzt werden, um bei dem Aufruf des Programms über die Kommandozeile Parameter an es zu übergeben.
 
 ---
+
 ## Typumwandlung
 <!-- Was bedeutet Casting, wozu wird es benötigt, was ist der Sinn davon, was sind die Nachteile davon, insbesondere parsen von String als numerischer Wert -->
 
 - Typumwandlung (engl. *Casting*) = Umwandlung eines Datentyps in einen anderen Datentyp.
-``` java
+```java
 byte counterB = 1;
 int counterI = 1;
 double counterD = 1.0;
 String myNumber = "";
-/*
-  wir casten jetzt eine byte-Variable auf eine 
-  int-Variable und dann die int-Variable auf 
-  eine double-Variable. Geht das?
- */
+// wir casten jetzt eine byte-Variable auf eine  int-Variable und dann die int-Variable auf eine double-Variable. Geht das?
 counterI = counterB;
 counterD = counterI;
 System.out.println("counterD = ", counterD);
@@ -291,6 +299,7 @@ mynumber = Integer.toString(counterI).
 ```
 
 ===
+
 ### @Let's try
 
 <!-- Codebeispiel Main-Programm, Variablen deklarieren, Variablen setzen, Variablen mit Println ausgeben -->
@@ -298,35 +307,40 @@ mynumber = Integer.toString(counterI).
 2. Kopiere das obigen Code-Fragment in den Rumpf der `main()`-Methode 
 4. Übersetze das Programm und führe es aus! Was beobachtest Du?
 5. Füge nun folgende Zeile am Ende des `main()`-Programms ein?
-``` java
-/*
- hier versuche ich, eine double-Variable auf 
- eine int-Variable zu casten :o
- */
-counterI = counterD;
-```
+
+    ```java
+    // hier versuche ich, eine double-Variable auf eine int-Variable zu casten :o
+    counterI = counterD;
+    ```
+
 6. Übersetze das Programm! Was beobachtest Du?
 7.  Ermittele jeweils durch Nachdenken oder probieren: Auf welche Typen können byte / int / double gecastet werden?
 8. Versuche, die Variable `counterD` auf die String-Variable `myNumber` zu casten! 
 
 ===
+
 ### Implizites vs. explizites Casting
+
 - Typenumwandlung ist oft notwendig, erfordert aber Sorgfalt!
 - Dabei können Probleme zur Übersetzungszeit und u.U. auch zur Ausführungszeit (runtime) eines Programmes auftreten 
 - *Erweiterndes Casting* (z.B. von `int` auf `double`) wird vom Compiler automatisch durchgeführt (implizites Casting)
 - *Einschränkendes Casting* (z.B. von `double` auf `int`) muss explizit vom Programmierer gemacht *(und geprüft!)* werden. Beispiel:
-``` java
-int myInt;
-double  pi  =  3.14159;
-//explizites casting
-myInt = (int)pi;
-```
+
+    ```java
+    int myInt;
+    double  pi  =  3.14159;
+    //explizites casting
+    myInt = (int)pi;
+    ```
+    
 - **@Let's try:** Führe den o.g. Code aus und gib die Werte von `myInt` und `pi` aus! Was beobachtest Du?
 <!-- kein Compile-Fehler, aber nur ganzzahliger Anteil!-->
 
 ---
+
 ## Größer, Kleiner, Gleich - Vergleiche und Operatoren
 <!-- Operatoren erklären, Operatoren Precedence erklären -->
+
 - In Java kann man eine größe Anzahl von [Standard-Operatoren](https://de.wikibooks.org/wiki/Java_Standard:_Operatoren) nutzen
 - Einen kennen wir schon: Operator `A=B` weist `A` den Wert in `B` zu 
 - Mit arithmetischen Operatoren (z.B. `+, -`) kann man rechnen. Übersicht [hier](https://de.wikibooks.org/wiki/Java_Standard:_Operatoren#Arithmetische_Operatoren)
@@ -334,172 +348,211 @@ myInt = (int)pi;
 - Übliche mathematische Präzedenzregeln für Operatoren (z.B. "Punktrechnung vor Strichrechnung"). Übersicht [hier](https://de.wikibooks.org/wiki/Java_Standard:_Operatoren)
 - Im Zweifelsfall: Klammern setzen!
 - **@Let's try:**
-``` java
-int i = 2;
-int j = 2 * i;
-int k = 4 * ( i + j) / 2;
-int l = 4 * i + j / 2;
-System.out.println("k = " + k);
-System.out.println("l = " + l);
-```
+    ```java
+    int i = 2;
+    int j = 2 * i;
+    int k = 4 * ( i + j) / 2;
+    int l = 4 * i + j / 2;
+    System.out.println("k = " + k);
+    System.out.println("l = " + l);
+    ```
+    
 ===
+
 ### Test auf Gleichheit
 - Vorsicht beim Test auf Gleichheit bei speziellen Datenobjekten!
 - Operator `==` prüft Gleichheit der Speicherstellen
-``` java
-int  i=1;
-int  j=1;
-System.out.println(i==j); // Ergebnis: true}
-```
+    ```java
+    int  i=1;
+    int  j=1;
+    System.out.println(i==j); // Ergebnis: true}
+    ```
+    
 - bei String und anderen Objekten: Test mit Methode `equals()`
-``` java
-String  s1=new  String("maus"); // neues String-Objekt wird erzeugt (s. VL2)
-String  s2=new  String("maus");
-System.out.println(s1==s2); // false!
-System.out.println(s1.equals(s2)); // true
-```
+
+    ```java
+    String  s1=new  String("maus"); // neues String-Objekt wird erzeugt (s. VL2)
+    String  s2=new  String("maus");
+    System.out.println(s1==s2); // false!
+    System.out.println(s1.equals(s2)); // true
+    ```
+    
 - **@Profis**: Könnt Ihr dieses Ergebnis erklären?
-- Anm. : In `s1.equals(s2)` muss `s1` initialisiert sein --> prüfen mit `s1 != null`
+- Anm. : In `s1.equals(s2)` muss `s1` initialisiert sein &rarr; prüfen mit `s1 != null`
 
 ---
+
 ## Bedingte Anweisungen - IF-ELSE
+
 - IF-Anweisung hat Form `if (bedingung) block`
-	- Wenn Bedingung erfüllt ist , wird Anweisungsblock ausgeführt; sonst übersprungen.
-``` java
-int a=2;
-if (a>0) System.out.println(a + " ist positiv");
-if (a <=0) System.out.println(a + ist "nichtpositiv");
-```
+- Wenn Bedingung erfüllt ist , wird Anweisungsblock ausgeführt; sonst übersprungen.
+
+    ```java
+    int a=2;
+    if (a>0) System.out.println(a + " ist positiv");
+    if (a <=0) System.out.println(a + ist "nichtpositiv");
+    ```
+
 - IF-ELSE-Anweisung hat Form `if (bedingung) block1 else block2`
-``` java
-if (a>0) 
-	  System.out.println(a + " ist positiv");
-else 
-	  System.out.println(a + ist "nichtpositiv");
-```
+    
+    ```java
+    if (a>0) 
+    	  System.out.println(a + " ist positiv");
+    else 
+    	  System.out.println(a + ist "nichtpositiv");
+    ```
+    
 - Blöcke mit mehreren Anweisungen in geschweifte Klammern einfassen!
 <!-- @Phil: brauchen wir  switch-case -->
 
 ===
+
 ### Ternärer Operator
 <!-- ternärer Operator funktioniert nur für 2 Alternativen; kompakter; if-else empfinden viele als besser lesbar -->
 - Wenn nur zwischen zwei Ausgabewerten unterschieden werden soll, gibt es für die IF-ELSE-Anweisung eine Kurzform
 -  Der *ternäre Operator* `?:` hat die Form
-```
-(<boolescher Ausdruck>) `?` AusgabewertTrue `:` AusgabewertFalse;
-```
+
+    ```
+    (<boolescher Ausdruck>) `?` AusgabewertTrue `:` AusgabewertFalse;
+    ```
+    
 - Beispiel:
-```java
- (a > 0) ? System.out.println(a + " ist positiv") 
-	 : System.out.println(a + " ist nichtpositiv");
-```
+
+    ```java
+     (a > 0) ? System.out.println(a + " ist positiv") 
+    	 : System.out.println(a + " ist nichtpositiv");
+    ```
+    
 - Oder etwas eleganter
-```java
- System.out.println(a + " ist " + ((a > 0) ? "positiv" : "nichtpositiv"));
-```
+    ```java
+     System.out.println(a + " ist " + ((a > 0) ? "positiv" : "nichtpositiv"));
+    ```
+    
 ---
+
 ## @Let's try
 
- 1. Erstellen Sie eine Klasse `Example1` (Datei `Example1.java`) mit einer
-    main() Methode.
- 2.  Probieren Sie die obigen Beispiele für `if-else` und den ternären Operator aus!
+1. Erstellen Sie eine Klasse `Example1` (Datei `Example1.java`) mit einer main() Methode.
+2.  Probieren Sie die obigen Beispiele für `if-else` und den ternären Operator aus!
 
 ---
+
 ## @Home
 Betrachte die beiden folgenden IF-ELSE Anweisungen
  1. Überlege, welcher Teil der Anweisungen jeweils ausgeführt wird und
     warum. 
  2. Schreibe für jede Anweisung ein Java-Programm; wähle geeignete Ausgaben, um die Ausführung nachvollziehen zu können.
 
-```java
-// Anweisung 1				
-int a = 5, b = 6;				
-if ( a < b ) { a = b; }			
-else { b = a; }							
-```
-```java
-// Anweisung 2
-int a = 5, b = 6, c = 7;
-if ( a > b ) { a = b; }
-else {
-	if ( a < c ) { a = c; }
-}
-```
+    ```java
+    // Anweisung 1				
+    int a = 5, b = 6;				
+    if ( a < b ) { a = b; }			
+    else { b = a; }							
+    ```
+
+    ```java
+    // Anweisung 2
+    int a = 5, b = 6, c = 7;
+    if ( a > b ) { a = b; }
+    else {
+    	if ( a < c ) { a = c; }
+    }
+    ```
+    
 <!-- Anweisung 1: 5<6, also wird a=b ausgeführt (if-Zweig)
-       Anweisung 2: a <= b, deshalb zunächst else-Zweig, dann wg a<c der if-Zweig -->
+    Anweisung 2: a <= b, deshalb zunächst else-Zweig, dann wg a<c der if-Zweig -->
 
 ---
+
 ## Arrays
 <!-- was sind Arrays, wozu sind sie gut, was gibt es für Beschränkungen -->
+
 - Container-Objekte, die feste Anzahl von Werten eines bestimmten Types speichern können (detaillierte Einführung [hier](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html))
 - HelloWorld-Beispiel: Array  `String[] p_args`
 - Anderes Beispiel: Liste von Highscore-Werten eines Spiels
 - Elemente über eine Index-Variable (Werte von `0` bis `Länge-1`) addressierbar
-![](http://winf.in.tu-clausthal.de/jpm/infws/img/1_array.png)
+![Array Aufbaue](images//1_array.png)
 - Arrays können verschachtelt sein 
 
 ===
+
 ### Array anlegen / initialisieren
 <!-- verschiedene Arten für die Initialisierung von Arrays -->
 - Eindimensionaler Array, direkte Initialisierung durch Aufzählung
-``` java
-int[] highscores = {1000, 850, 600};
-```
+
+    ```java
+    int[] highscores = {1000, 850, 600};
+    ```
+
 - Eindimensionaler Array, Deklaration mit `new` Operator; "Füllen" später
-``` java
-int[] highscores = new int[10];
-...
-highscores[0] = 4711;
-```
+
+    ```java
+    int[] highscores = new int[10];
+    ...
+    highscores[0] = 4711;
+    ```
+
 - Nach `new`-Anweisung sind die Elemente des Arrays mit dem Initialwert des Elementtyps initialisiert (Zahlen: `0`, `boolean: false`)
 - Zweidimensionaler Array als Tabelle mit 10 Zeilen, 15 Spalten:
- ``` java
- //Namenstabelle mit 10 Zeilen, 15 Spalten
-String[][] tabelleNamen = new String[10][15];
-...
-tabelleNamen[7][8] = "Steffi";
-```
+     ```java
+     //Namenstabelle mit 10 Zeilen, 15 Spalten
+    String[][] tabelleNamen = new String[10][15];
+    ...
+    tabelleNamen[7][8] = "Steffi";
+    ```
+    
 ===
+
 ### Zugriff auf Array
 - Adressieren des gesuchten Feldes mit Indexvariable:
-``` java
-int[] highscores = {1000, 850, 600};
-int first = highscores[0]; //first hat nun Wert `1000`
-```
+
+    ```java
+    int[] highscores = {1000, 850, 600};
+    //first hat nun Wert `1000`
+    int first = highscores[0];
+    ```
+
 - Arrayelemente durchlaufen (iterieren) mit `for`-Schleife (s.u.)
-``` java
-for (int i=0; i<highscores.length; i++)
-	System.out.println(highscores[i]); 
-```
+
+    ```java
+    for (int i=0; i<highscores.length; i++)
+    	System.out.println(highscores[i]); 
+    ```
+
 - Häufiger Fehler: Ungültiger Wert für Index --> Führt zu Laufzeitfehler
-``` java
-int[] highscores = {1000, 850, 600};
-int = highscores[3]; //Zugriff auf viertes Element --> Fehler
-``` 
+
+    ```java
+    int[] highscores = {1000, 850, 600};
+    //Zugriff auf viertes Element --> Fehler
+    int = highscores[3]; 
+    ``` 
 
 ===
+
 ### Collections
 - Java Bibliothek, stellt häufig verwendete Datenstrukturen und Methoden zur Speicherung und Verkettung von Objekten zur Verfügung
 - Haupttypen Listen, Mengen, Maps, Queues
 - Beispiel Liste: Klasse `java.util.ArrayList` = dynamischer Array (keine feste Länge)
 <!-- Packages haben wir noch nicht eingeführt ... -->
 <!-- was ist es, kurz fassen und auf Listen & Sets beschränken -->
-``` java
-import java.util.ArrayList; //importiere die Klasse
-// ...
-String  s1  =  "Phil";
-String  s2  =  "Steffi";
-String  s3  =  "Joerg";
-// erzeuge neue Liste
-ArrayList<String> betreuer  =  new  ArrayList<>();
-// füge Elemente ein
-betreuer.add(s1);
-betreuer.add(s2);
-betreuer.add(s3);
-// gib alle Elemente aus (for-Schleife s.u.)
-for (String name: betreuer)
-    System.out.println(name);
-``` 
+
+    ```java
+    import java.util.ArrayList; //importiere die Klasse
+    // ...
+    String  s1  =  "Phil";
+    String  s2  =  "Steffi";
+    String  s3  =  "Joerg";
+    // erzeuge neue Liste
+    ArrayList<String> betreuer  =  new  ArrayList<>();
+    // füge Elemente ein
+    betreuer.add(s1);
+    betreuer.add(s2);
+    betreuer.add(s3);
+    // gib alle Elemente aus (for-Schleife s.u.)
+    for (String name: betreuer)
+        System.out.println(name);
+    ```
+    
 - Detailliertere Infos zum Java Collections Framework findest Du [hier](https://docs.oracle.com/javase/tutorial/collections/index.html)
 
 ===
@@ -516,6 +569,7 @@ for (String name: betreuer)
     3. und danach die Werte ausliest und ausgibst 
 
 ---
+
 ## Spiel's noch einmal, Sam ... - Schleifen
 
 <!-- for, while und do-while Schleifen, wann benutzt man was anhand eines einfachen zu erklärenden Beispiels -->
@@ -531,76 +585,92 @@ for (String name: betreuer)
 - Wir erläutern kurz `foreach` und `while`
 
 ===
+
 ### For each
 <!-- was ist for-each, wann ist es sinnvoll -->
 - die `for each`-Schleife haben wir im obigen `ArrayList`-Beispiel schon kennengelernt
 - Sie dient zum einfachen Durchlaufen listenartiger Datenstrukturen und Arrays
 - Anm.: Das Wort "each" kommt darin nicht vor. Man nennt sie so, um sie von der `for`-Schleife zu unterscheiden
 - Beispiel:
-``` java
-List<String> someList = new ArrayList<String>();
-// füge "aepfel", "birnen", "pflaumen" zu someList hinzu
-for (String item : someList) {
-    System.out.println(item);
-}
-```
+
+    ```java
+    List<String> someList = new ArrayList<String>();
+    // füge "aepfel", "birnen", "pflaumen" zu someList hinzu
+    for (String item : someList) {
+        System.out.println(item);
+    }
+    ```
+    
 - Anm.:  Da im Rumpf der `for each` Anweisung nur Kopien der Listenelemente verarbeitet werden, kann man damit keine Elemente der Liste ändern oder löschen!
 
 ===
+
 ### While / do-while
 - Wenn die Anzahl der Wiederholungen eines Codeblocks nicht bekannt ist, sondern nach jedem Durchlauf eine Bedingung überprüft werden muss, nutzen wir die `while-`Schleife
 - z.B. wir schauen alle 5 Sekunden so lange in den Briefkasten, bis ein Brief drinnen liegt
-``` 
-// Pseudocode - dient nur zum Erklären des Prinzips
-Mail m = null;                // Zum Speichern der Mail
-while (m == null ){           // Mache weiter, solange noch keine Mail da ist
-    m = Mailbox.lookup();       // Schaue nach Mail
-    Thread.sleep(5000);         // Warte 5 Sekunden
-}
-m.read();                     // Endlich!! Wir können unsere Mail lesen
-```
+
+    ``` 
+    // Pseudocode - dient nur zum Erklären des Prinzips
+    Mail m = null;                // Zum Speichern der Mail
+    while (m == null ){           // Mache weiter, solange noch keine Mail da ist
+        m = Mailbox.lookup();       // Schaue nach Mail
+        Thread.sleep(5000);         // Warte 5 Sekunden
+    }
+    m.read();                     // Endlich!! Wir können unsere Mail lesen
+    ```
+
 - Und hier noch ein Beispiel für `do-while`
-``` java
-int count = 1;
-do { // der Rumpf der Schleife wird bei do-while mindestens einmal ausgeführt
-   System.out.println("Count is: " + count);
-   count++;
- } while (count < 11); 
-```        
+
+    ```java
+    int count = 1;
+    do { // der Rumpf der Schleife wird bei do-while mindestens einmal ausgeführt
+       System.out.println("Count is: " + count);
+       count++;
+     } while (count < 11); 
+    ```
+     
 ---
+
 ## Infinity Loop
 <!-- while true, was passiert intern dabei -> CPU Last 100% -->
 - Frage: Wie kann man ein Programm erzeugen, das nie anhält?
 - Antwort: Whileschleife, die nie abbricht
-```java
-while ( true ) {
-    // einatmen  ... ausatmen
- }
- ```
+
+    ```java
+    while ( true ) {
+        // einatmen  ... ausatmen
+     }
+     ```
+     
 - Es gibt Fälle, in denen Endlosschleifen beabsichtigt sind.
 - Manchmal entstehen Sie aber unbeabsichtigt - durch Programmierfehler
 
 ===
+
 ### Oh weh, was macht mein Programm??
- - **@Let's try**: Was passiert hier? 
- ``` java
-public  class  Endless
-{
-   public  static  void  main( String[] p_args )
-   {
-     int  n=0, m=0;
-     while (n <  11) {
-       System.out.println("Count is: "  + n);
-       m++;
-     }
-   }
-}
-``` 
+
+- **@Let's try**: Was passiert hier? 
+ 
+    ```java
+    public class Endless
+    {
+       public  static  void  main( String[] p_args )
+       {
+         int  n=0, m=0;
+         while (n <  11) {
+           System.out.println("Count is: "  + n);
+           m++;
+         }
+       }
+    }
+    ```
+     
 - Endlosschleifen sind ein einfaches Rezept, die CPU komplett auszulasten :o
  - Wenn Ihr das Programm über die Eingabeaufforderung gestartet habt, könnt Ihr es dort mit der Tastenkombination STRG+C beenden.
 - Manchmal ist es aber nicht so einfach ...
 
 ===
+
 ### Kill it - Der Task-Manager
 <!-- wie killt man ein hängendes Java Programm -->
 - Wenn ein Programm "hängt", ist es manchmal unvermeidbar, den Prozess zu beenden, in dem das Programm läuft
@@ -612,6 +682,7 @@ public  class  Endless
 	- Fertig!
 
 ===
+
 ### Kill-it -- das Video
 - Hier noch ein Video zur Illustration des Prozesses
 
@@ -639,6 +710,7 @@ public  class  Endless
 	- [Stream tutorial](https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/)
 
 ---
+
 ## Fehler - Exception
 <!-- Was sind Exception, Beispiel am besten Division durch 0 -->
 
@@ -652,47 +724,54 @@ public  class  Endless
 - In Java werden Ausnahmen von der JVM oder von Java-Programmen "geworfen" (throw) 
 
 ===
+
 ### @Let's try: Ein Beispiel
 - Lassen Sie das folgende Beispiel laufen - was passiert?
-``` java
-public  class  Div0Fehler{
-  public  static  void  main( String[] p_args )
-  {
-    int  zaehler=5;
-    int  nenner=0;
-    int  ergebnis  = zaehler / nenner;
-    System.out.println("Ergebnis: "  + ergebnis);
-  }
-}
-```
+    ```java
+    public class Div0Fehler
+    {
+      public static void  main( String[] p_args )
+      {
+        int  zaehler=5;
+        int  nenner=0;
+        int  ergebnis  = zaehler / nenner;
+        System.out.println("Ergebnis: "  + ergebnis);
+      }
+    }
+    ```
+
 ===
+
 ### Fang den Fehler - try-catch
 <!-- wie behandelt man Exceptions -->
 - Java verwendet das sogenannte Try-Catch Modell zur Ausnahmebehandlung
 - Code, in dem eine Ausnahme auftreten kann, wird in einen "Catch-Block" eingeschlossen.
 - Dahinter wird ein Try-Block angegeben, der bestimmt, was im Falle des Auftretens von Ausnahmen zu tun ist.
-- Wir erweitern den Rumpf der main()-Methode unserer `Div0Fehler`-KLasse
-``` java
-  int  ergebnis=0;
-  try{ //
-    int  zaehler=5;
-    int  nenner=0;
-    ergebnis = zaehler / nenner;
-  } catch (ArithmeticException  e){ // try-Block wird beendet!
-    System.out.println(e.toString());
-    System.out.println("Sorry, Du hast durch null geteilt! Probiere es nochmal!");
-  }
-  System.out.println("Ergebnis: "  + ergebnis);
-}
-```
+- Wir erweitern den Rumpf der main()-Methode unserer `Div0Fehler`-Klasse
+    
+    ```java
+      int  ergebnis=0;
+      try{ //
+        int  zaehler=5;
+        int  nenner=0;
+        ergebnis = zaehler / nenner;
+      } catch (ArithmeticException  e){ // try-Block wird beendet!
+        System.out.println(e.toString());
+        System.out.println("Sorry, Du hast durch null geteilt! Probiere es nochmal!");
+      }
+      System.out.println("Ergebnis: "  + ergebnis);
+    }
+    ```
+    
 - So kann der Programmierer sinnvoll auf Ausnahmen reagieren 
 
 ===
+
 ### @Profis: Diskussion 
 - Ist es sinnvoll, auf Laufzeitfehler wie z.B. Division durch Null mit try-catch zu reagieren?
 <!-- eher sinnvoll für nutzerdefinierte DomänenExceptions, die mögliche aber inkorrekte Situationen (wie z.B. NutzerId unbekannt bei einer Registrierung) abbilden. -->
 - Wie könnte man sinnvoll den Fall abfangen, wenn der Nenner von einem Benutzer eingegeben wird?
-- <!-- Sicherstellen, dass das Programm korrekt aufgerufen wird: vor der Ausführung Eingabetypen prüfen -->
+<!-- Sicherstellen, dass das Programm korrekt aufgerufen wird: vor der Ausführung Eingabetypen prüfen -->
 
 ---
 ## @Home
@@ -702,6 +781,7 @@ public  class  Div0Fehler{
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 ---
+
 ## @Home/Übung
 
  - Im Abschnitt über Arrays haben wir das Problem kennengelernt, dass mit ungültigen (zu großen oder negativen) Array-Indizes auf Elemente eines Arrays zugegriffen wird
@@ -712,6 +792,7 @@ public  class  Div0Fehler{
  5. Compilieren Sie ihr Programm und lassen es laufen
 
 ---
+
 ## @Home/Übung
 
 > Schreiben Sie ein Programm, das zwei Argumente von der Kommandozeile einliest, einen String und eine Zahl, und das den String so oft auf der Kommandozeile ausgibt, wie die Zahl angibt.
@@ -722,6 +803,8 @@ public  class  Div0Fehler{
 * Wenn die Argumentanzahl nicht stimmt, soll auch eine passende Meldung ausgegeben werden
 * Wenn bei der Umwandlung des Textes in eine Zahl ein Fehler auftritt, dann soll auch eine verständliche Fehlermeldung ausgegeben werden
 
+---
+
 ## @Home/Übung
 
 > Schreiben Sie ein Programm, dass zwei ganze Zahlen A und B von der Kommandozeile einliest und (1) das Ergebnis der ganzzahligen Division der beiden Zahlen sowie (2) den Rest der ganzzahligen Division ausgibt.
@@ -730,6 +813,7 @@ public  class  Div0Fehler{
 * Geben Sie entsprechende Fehlermeldungen aus
 
 ---
+
 ## Stil ist alles
 - Damit Programme für andere lesbar sind, gibt es eine Reihe von Regeln und Konventionen bezüglich der Namensgebung und Groß-Klein-Schreibung
 - In Java sind die in sogenannten Coding Style Guides zusammengefasst
@@ -737,6 +821,7 @@ public  class  Div0Fehler{
 - In der Folge listen wir ein paar ausgewählte dieser Konventionen 
 
 ===
+
 ### Konventionen zur Namensgebung 
 
 - Bei Variablennamen ist Groß-/Kleinschreibung relevant: 
@@ -751,13 +836,3 @@ public  class  Div0Fehler{
 		- Variable: `highScoreListe`
 		- Methode: `onCreate()`
 		- Klasse: `ArrayIndexOutOfBoundsException`
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDcxNzYwODAsLTEzMTE2NzM5NzUsND
-UwMTg2OTEwLDgwOTI4MjMxNywtNTIxMzE3NDI1LC0xOTI3ODE5
-ODA3LC0xODE3NTEyMzcsMTQ5MDc2MTIwLDEwMTcxNzg5NjEsLT
-g3MDI4Mjc3LDIwMjQxNDYzMzIsMzE1NTY0MDMxLDE2NTk5NTUw
-OTYsMTczNjQwMDk4NywtMTA0NzIyOTE2MywtMTMwMzM2ODQ1MS
-wxODMwNzU1OTE0LC0xNDcxMTc2NzA3LC00NTAwNzcyMyw2NTEx
-ODI1NjddfQ==
--->
