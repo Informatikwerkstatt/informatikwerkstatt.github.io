@@ -416,15 +416,16 @@ System.out.println("l = " + l);
     ```
     (<boolescher Ausdruck>) `?` AusgabewertTrue `:` AusgabewertFalse;
     ```
-    ```
+
 - Beispiel:
 
     ```java
      (a > 0) ? System.out.println(a + " ist positiv") 
     	 : System.out.println(a + " ist nichtpositiv");
     ```
-    ```
+
 - Oder etwas eleganter
+
     ```java
      System.out.println(a + " ist " + ((a > 0) ? "positiv" : "nichtpositiv"));
     ```
@@ -433,8 +434,8 @@ System.out.println("l = " + l);
 
 ## @Let's try
 
-1. Erstellen Sie eine Klasse `Example1` (Datei `Example1.java`) mit einer main() Methode.
-2.  Probieren Sie die obigen Beispiele für `if-else` und den ternären Operator aus!
+1. Erstellen Sie eine Klasse ```Example1``` (Datei ```Example1.java```) mit einer ```main()```-Methode.
+2.  Probieren Sie die obigen Beispiele für ```if-else``` und den ternären Operator aus!
 
 ===
 
@@ -460,13 +461,13 @@ else { b = a; }
 ```
 
 ```java
-    // Anweisung 2
-    int a = 5, b = 6, c = 7;
-    if ( a > b ) { a = b; }
-    else {
-    	if ( a < c ) { a = c; }
-    }
-    ```
+// Anweisung 2
+int a = 5, b = 6, c = 7;
+if ( a > b ) { a = b; }
+else {
+	if ( a < c ) { a = c; }
+}
+```
     
 <!-- Anweisung 1: 5<6, also wird a=b ausgeführt (if-Zweig)
     Anweisung 2: a <= b, deshalb zunächst else-Zweig, dann wg a<c der if-Zweig -->
@@ -497,9 +498,7 @@ else { b = a; }
 
     ``` java
     int[] highscores = new int[10];
-    ...
-    ...
-highscores[0] = 4711;
+    highscores[0] = 4711;
     ```
 
 - Nach `new`-Anweisung sind die Elemente des Arrays mit dem Initialwert des Elementtyps initialisiert (Zahlen: `0`, `boolean: false`)
@@ -507,7 +506,6 @@ highscores[0] = 4711;
      ```java
      //Namenstabelle mit 10 Zeilen, 15 Spalten
     String[][] tabelleNamen = new String[10][15];
-    ...
     tabelleNamen[7][8] = "Steffi";
     ```
 
@@ -563,7 +561,7 @@ highscores[0] = 4711;
     for (String name: betreuer)
         System.out.println(name);
     ```
-   ``` 
+
 - Detailliertere Infos zum Java Collections Framework findest Du [hier](https://docs.oracle.com/javase/tutorial/collections/index.html)
 
 ===
@@ -575,7 +573,12 @@ highscores[0] = 4711;
     1. einen `Array` Deiner Wahl deklarierst
     2. ihn initialisierst
     3. seine Werte ausliest und ausgibst 
-* **@Profis**: Schreibe ein weiteres Programm, in dem Du 
+
+===
+    
+### @Profis
+
+Schreibe ein weiteres Programm, in dem Du 
     1. eine `ArrayList` Deiner Wahl deklarierst
     2. sie mit Werten füllst
     3. und danach die Werte ausliest und ausgibst 
@@ -625,20 +628,26 @@ highscores[0] = 4711;
 
     ``` 
     // Pseudocode - dient nur zum Erklären des Prinzips
-    Mail m = null;                // Zum Speichern der Mail
-    while (m == null ){           // Mache weiter, solange noch keine Mail da ist
-        m = Mailbox.lookup();       // Schaue nach Mail
-        Thread.sleep(5000);         // Warte 5 Sekunden
+    // Zum Speichern der Mail
+    Mail m = null;
+    // Mache weiter, solange noch keine Mail da ist        
+    while (m == null )
+    {           
+        // Schaue nach Mail
+        m = Mailbox.lookup();  
+        // Warte 5 Sekunden     
+        Thread.sleep(5000);         
     }
-    }
-m.read();                     // Endlich!! Wir können unsere Mail lesen
+    // Endlich!! Wir können unsere Mail lesen
+    m.read();
     ```
 
 - Und hier noch ein Beispiel für `do-while`
 
     ``` java
     int count = 1;
-    do { // der Rumpf der Schleife wird bei do-while mindestens einmal ausgeführt
+    // der Rumpf der Schleife wird bei do-while mindestens einmal ausgeführt
+    do { 
        System.out.println("Count is: " + count);
        count++;
      } while (count < 11); 
@@ -669,7 +678,6 @@ m.read();                     // Endlich!! Wir können unsere Mail lesen
     ```java
     public class Endless
   {
-    {
    public static void  main( String[] p_args )
        {
          int  n=0, m=0;
@@ -849,13 +857,13 @@ public class Div0Fehler
 ### Konventionen zur Namensgebung 
 
 - Bei Variablennamen ist Groß-/Kleinschreibung relevant: 
-	- `text` und `Text` sind unterschiedliche Variable
+	- ```text``` und ```Text``` sind unterschiedliche Variable
 - Variablen dürfen nur Zahlen, Buchstaben, oder \_ enthalten
-- Konstanten i.d.R.  in Großbuchstaben, Teilworte mit \_ getrennt, z.B. `final String APP_NAME = “Meine App“;`
+- Konstanten i.d.R.  in Großbuchstaben, Teilworte mit \_ getrennt, z.B. ```final String APP_NAME = “Meine App“;```
 - Konventionen
-	- Variablen- und Methodennamen beginnen mit Kleinbuchstaben, z.B. `liste`, `main()` <!-- $, \_ bei Variablen hab ich hier weggelassen, zuviel Detail -->
+	- Variablen- und Methodennamen beginnen mit Kleinbuchstaben, z.B. ```liste```, ```main()``` <!-- $, \_ bei Variablen hab ich hier weggelassen, zuviel Detail -->
 	- Klassennamen beginnen mit Großbuchstaben
 	- Besteht ein Name aus mehreren Worten, werden die Anfangsbuchstaben der inneren Worte  groß geschrieben (= CamelCase), z.B.
-		- Variable: `highScoreListe`
-		- Methode: `onCreate()`
-		- Klasse: `ArrayIndexOutOfBoundsException`
+		- Variable: ```highScoreListe```
+		- Methode: ```onCreate()```
+		- Klasse: ```ArrayIndexOutOfBoundsException```
