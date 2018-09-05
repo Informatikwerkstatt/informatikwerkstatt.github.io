@@ -474,17 +474,22 @@ else {
 ## Arrays
 <!-- was sind Arrays, wozu sind sie gut, was gibt es für Beschränkungen -->
 
-- Container-Objekte, die feste Anzahl von Werten eines bestimmten Types speichern können (detaillierte Einführung [hier](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html))
-- HelloWorld-Beispiel: Array  `String[] p_args`
-- Anderes Beispiel: Liste von Highscore-Werten eines Spiels
-- Elemente über eine Index-Variable (Werte von `0` bis `Länge-1`) addressierbar
+- Container mit fester Anzahl von Werten eines bestimmten Types speichern können ([Details](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)))
+- Beispiel aus [HelloWorld](#/1/1)  ```String[] p_args```
+
+===
+
+### Array Beispiel
+
+- Liste von Highscore-Werten eines Spiels
+- Arrays können in Arrays verschachtelt werden
+- Elemente über eine Index-Variable beginnent bei 0 bis _Anzahl Element - 1_
 ![Array Aufbaue](images//1_array.png)
-- Arrays können verschachtelt sein 
 
 ===
 
 ### Array anlegen / initialisieren
-<!-- verschiedene Arten für die Initialisierung von Arrays -->
+
 - Eindimensionaler Array, direkte Initialisierung durch Aufzählung
 
     ``` java

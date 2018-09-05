@@ -91,13 +91,11 @@
   .reveal img[src$='#floatright'] {
     float: right;
     margin-left: 0.25em;
-    vertical-align: middle;
   }  
 
   .reveal img[src$='#floatleft'] {
     float: left;
     margin-right: 0.25em;
-    vertical-align: middle;
   }  
 
   .reveal img[src$='#half'] {
