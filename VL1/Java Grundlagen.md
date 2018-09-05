@@ -395,15 +395,18 @@ System.out.println( s1.equals( s2 ) );
 - Wenn Bedingung erfüllt ist , wird Anweisungsblock ausgeführt; sonst übersprungen.
 
     ```java
-int a=2;
-if (a>0) System.out.println(a + " ist positiv");
-if (a <=0) System.out.println(a + ist "nichtpositiv");
+int a = 2;
+if ( a > 0)
+    System.out.println( a + " ist positiv" );
+
+if ( a <= 0 ) 
+    System.out.println(a + ist "nichtpositiv");
     ```
 
 - IF-ELSE-Anweisung hat Form `if (bedingung) block1 else block2`
     
     ``` java
-if (a>0) 
+if ( a > 0 ) 
         System.out.println(a + " ist positiv");
 else 
         System.out.println(a + ist "nichtpositiv");
@@ -441,7 +444,7 @@ System.out.println(a + " ist " + ((a > 0) ? "positiv" : "nichtpositiv"));
 ## @Let's try
 
 1. Erstellt eine Klasse ```Example1``` (Datei ```Example1.java```) mit einer ```main```-Methode.
-2.  Probiert die obigen Beispiele für ```if-else``` und den ternären Operator aus!
+2. Probiert die obigen Beispiele für ```if-else``` und den ternären Operator aus!
 
 ===
 
@@ -460,17 +463,31 @@ Betrachte die beiden folgenden IF-ELSE Anweisungen
 
 ```java
 // Anweisung 1				
-int a = 5, b = 6;				
-if ( a < b ) { a = b; }			
-else { b = a; }
+int a = 5
+int b = 6;	
+if ( a < b )
+{ 
+    a = b; 
+}			
+else
+{
+    b = a;
+}
 ```
 
 ```java
 // Anweisung 2
 int a = 5, b = 6, c = 7;
-if ( a > b ) { a = b; }
-else {
-	if ( a < c ) { a = c; }
+if ( a > b )
+{ 
+    a = b;
+}
+else
+{
+	if ( a < c ) 
+    { 
+        a = c; 
+    }
 }
 ```
     
