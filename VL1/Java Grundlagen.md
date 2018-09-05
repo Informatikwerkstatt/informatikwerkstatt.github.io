@@ -257,14 +257,14 @@ public class HelloWorld
 		System.out.println( message );
 	}
 ```	
-- Die Variable `message` kann nach ihrer Instanziierung als Argument (Parameter) zum Aufruf der Methode  `println()` des Objekts `System.out` (siehe VL2) verwendet werden
-- Der Wert der Variable wird so übergeben und kann in der Methode weiterverarbeitet werden 
+- Die Variable `message` kann nach ihrer Instanziierung als Argument (Parameter) beim Aufruf der Methode  `println()` des Objekts `System.out` (siehe VL2) verwendet werden
+- Der Wert der Variable wird an die Methode übergeben und dort weiterverarbeitet. 
 
 === 
 ### main() Methode
  
  -  Programme wie unser `HelloWorld` Beispiel , die eine main() Methode haben, sind *ausführbar*.
- -  Die Ausführung eines solchen Programms erfolgt durch Aufruf / Abarbeitung der `main()`-Methode
+ -  Die Ausführung: Aufruf / Abarbeitung der `main()`-Methode
  - Das Argument `String[] p_args` der `main()` Methode kann genutzt werden, um bei dem Aufruf des Programms über die Kommandozeile Parameter an es zu übergeben.
 
 ---
@@ -591,7 +591,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNDY2OTEzNywtMTI3MTY2ODMwLC05Nz
+eyJoaXN0b3J5IjpbMTEzMzMyMzg0OCwtMTI3MTY2ODMwLC05Nz
 QyNjA3NDMsLTE5Mjg2NzQ2NTAsLTExNTkxMzkzMDEsMTQ4ODMx
 ODYzOSwxMjAwNDk3OTI0LDE2MjYyNjU1NjQsLTE3NDM0MTU4Mz
 EsLTI3OTEyODY5OCwxNTkxNjczOTM5LC01OTc4NzUzMzYsLTE0
