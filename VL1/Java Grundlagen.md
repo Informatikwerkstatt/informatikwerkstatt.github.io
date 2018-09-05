@@ -532,10 +532,10 @@ for (String name: betreuer)
 
 ===
 ### For each
-<!-- was ist for-each, wann ist es sinnvoll >
-- die For Each-Schleife haben wir im obigen ArrayList-Beispiel schon kennengelernt
-- Anm.: Das Wort "each" kommt darin nicht vor. Man spricht Man spricht von der "For each-Schleife", um sie von der for-Schleife zu unterscheiden
-Allgemeine Form
+<!-- was ist for-each, wann ist es sinnvoll -->
+- die `For each`-Schleife haben wir im obigen `ArrayList`-Beispiel schon kennengelernt
+- Anm.: Das Wort "each" kommt darin nicht vor. Man nennt sie so, um sie von der `for`-Schleife zu unterscheiden
+- Allgemeine Form
 ``` java
 List<String> someList = new ArrayList<String>();
 // füge "aepfel", "birnen", "pflaumen" zu someList hinzu
@@ -544,6 +544,7 @@ for (String item : someList) {
     System.out.println(item);
 }
 ```
+
 
 ```
 - Java bietet unterschiedliche Kontrollstrukturen für Schleifen, z.B.
@@ -620,7 +621,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwODE2MTcxOSwxODMwNzU1OTE0LC0xND
+eyJoaXN0b3J5IjpbLTMxNjI3ODM1NiwxODMwNzU1OTE0LC0xND
 cxMTc2NzA3LC00NTAwNzcyMyw2NTExODI1NjcsLTE4MjM4ODQy
 ODUsLTEyNzE2NjgzMCwtOTc0MjYwNzQzLC0xOTI4Njc0NjUwLC
 0xMTU5MTM5MzAxLDE0ODgzMTg2MzksMTIwMDQ5NzkyNCwxNjI2
