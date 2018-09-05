@@ -264,7 +264,7 @@ public class HelloWorld
 ### main() Methode
  
  -  Programme wie unser `HelloWorld` Beispiel , die eine main() Methode haben, sind *ausführbar*.
- -  Die Ausführung: Aufruf / Abarbeitung der `main()`-Methode
+ -  Ausführung: Aufruf / Abarbeitung der `main()`-Methode
  - Das Argument `String[] p_args` der `main()` Methode kann genutzt werden, um bei dem Aufruf des Programms über die Kommandozeile Parameter an es zu übergeben.
 
 ---
@@ -272,7 +272,6 @@ public class HelloWorld
 <!-- Was bedeutet Casting, wozu wird es benötigt, was ist der Sinn davon, was sind die Nachteile davon, insbesondere parsen von String als numerischer Wert -->
 
 - Typumwandlung (engl. *Casting*) = Umwandlung eines Datentyps in einen anderen Datentyp.
-
 ``` java
 byte counterB = 1;
 int counterI = 1;
@@ -591,7 +590,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMzMyMzg0OCwtMTI3MTY2ODMwLC05Nz
+eyJoaXN0b3J5IjpbMTM3NDM3ODg3MCwtMTI3MTY2ODMwLC05Nz
 QyNjA3NDMsLTE5Mjg2NzQ2NTAsLTExNTkxMzkzMDEsMTQ4ODMx
 ODYzOSwxMjAwNDk3OTI0LDE2MjYyNjU1NjQsLTE3NDM0MTU4Mz
 EsLTI3OTEyODY5OCwxNTkxNjczOTM5LC01OTc4NzUzMzYsLTE0
