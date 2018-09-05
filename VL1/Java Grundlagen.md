@@ -37,14 +37,13 @@ public class CHelloWorld
 
 ## Java Standalone am Rechner
  
-- Java Compiler:  Befehl ```javac```
-- Dienstprogramm, Teil der Java Software
-    - Übersetzt Java Programm in binäres bytecode-Format (Endung ```.class```)
- - Java Virtual Machine (JVM): Befehl ```java```
-	 - Laufzeitumgebung für Java
-	 - Portabilität durch eine JVM pro Plattform (Betriebssystem)
+- Java Compiler: ```javac```
+- Übersetzt Java Programm in binäres bytecode-Format (Endung ```.class```)
+- Java Virtual Machine (JVM): ```java```
+    - Laufzeitumgebung für Java
+    - JVM für jedes Betriebssystem vorhanden
 
-![Build-Prozess](images/java-process.png)
+![Build-Prozess](images/java-process.png#center)
 
 ===
 
@@ -55,7 +54,7 @@ JPM: Ich würde das eher am Anfang der Android-Intro machen. Hier eher die allge
 - Android: Betriebssystem für mobile Endgeräte
 - Eigene JVM für Android, siehe [Android Grundlage](/android-grundlagen/)!
 
-  ![Deployment](images/java-cross-pf.png)
+    ![Deployment](images/java-cross-pf.png#center)
 
 ---
 

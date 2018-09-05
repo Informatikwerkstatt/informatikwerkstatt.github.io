@@ -84,14 +84,20 @@
   max-height: calc(40vh);
   max-width: calc(65vw); }
 
+  .reveal img[src$='#center'] {
+    margin: 0 auto;
+  }
+
   .reveal img[src$='#floatright'] {
     float: right;
     margin-left: 0.25em;
+    vertical-align: top;
   }  
 
   .reveal img[src$='#floatleft'] {
     float: left;
     margin-right: 0.25em;
+    vertical-align: top;
   }  
 
   .reveal img[src$='#half'] {
