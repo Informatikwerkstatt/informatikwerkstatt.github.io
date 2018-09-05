@@ -666,8 +666,8 @@ public  class  Div0Fehler{
 ```
 ===
 ### Fang den Fehler - try-catch
-
 <!-- wie behandelt man Exceptions -->
+
 
 ---
 
@@ -696,11 +696,11 @@ public  class  Div0Fehler{
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA5MjgyMzE3LC01MjEzMTc0MjUsLTE5Mj
-c4MTk4MDcsLTE4MTc1MTIzNywxNDkwNzYxMjAsMTAxNzE3ODk2
-MSwtODcwMjgyNzcsMjAyNDE0NjMzMiwzMTU1NjQwMzEsMTY1OT
-k1NTA5NiwxNzM2NDAwOTg3LC0xMDQ3MjI5MTYzLC0xMzAzMzY4
-NDUxLDE4MzA3NTU5MTQsLTE0NzExNzY3MDcsLTQ1MDA3NzIzLD
-Y1MTE4MjU2NywtMTgyMzg4NDI4NSwtMTI3MTY2ODMwLC05NzQy
-NjA3NDNdfQ==
+eyJoaXN0b3J5IjpbLTM4Njg4MDA3OSw4MDkyODIzMTcsLTUyMT
+MxNzQyNSwtMTkyNzgxOTgwNywtMTgxNzUxMjM3LDE0OTA3NjEy
+MCwxMDE3MTc4OTYxLC04NzAyODI3NywyMDI0MTQ2MzMyLDMxNT
+U2NDAzMSwxNjU5OTU1MDk2LDE3MzY0MDA5ODcsLTEwNDcyMjkx
+NjMsLTEzMDMzNjg0NTEsMTgzMDc1NTkxNCwtMTQ3MTE3NjcwNy
+wtNDUwMDc3MjMsNjUxMTgyNTY3LC0xODIzODg0Mjg1LC0xMjcx
+NjY4MzBdfQ==
 -->
