@@ -547,6 +547,7 @@ for (String item : someList) {
 - Anm.:  Da im Rumpf der `for each` Anweisung nur Kopien der Listenelemente verarbeitet werden, kann man damit keine Elemente der Liste ändern oder löschen!
 
 ===
+### While / do-while
 - Wenn die Anzahl der Wiederholungen eines Codeblocks nicht bekannt ist, sondern nach jedem Durchlauf eine Bedingung überprüft werden muss, nutzen wir die `while-`Schleife
 - z.B. wir schauen alle 5 Sekunden so lange in den Briefkasten, bis ein Brief drinnen liegt
 ``` 
@@ -558,7 +559,7 @@ while (m == null ){           // Mache weiter, solange noch keine Mail da ist
 }
 m.read();                     // Endlich!! Wir können unsere Mail lesen
 ```
-- und hier noch ein Beispiel für do-while
+- Und hier noch ein Beispiel für `do-while`
 ``` java
 int count = 1;
 do { // der Rumpf der Schleife wird bei do-while mindestens einmal ausgeführt
@@ -633,7 +634,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3ODE1MzIzOSwxNzM2NDAwOTg3LC0xMD
+eyJoaXN0b3J5IjpbMTk1MjgxODczOSwxNzM2NDAwOTg3LC0xMD
 Q3MjI5MTYzLC0xMzAzMzY4NDUxLDE4MzA3NTU5MTQsLTE0NzEx
 NzY3MDcsLTQ1MDA3NzIzLDY1MTE4MjU2NywtMTgyMzg4NDI4NS
 wtMTI3MTY2ODMwLC05NzQyNjA3NDMsLTE5Mjg2NzQ2NTAsLTEx
