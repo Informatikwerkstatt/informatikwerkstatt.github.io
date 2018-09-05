@@ -489,14 +489,16 @@ import java.util.ArrayList; //importiere die Klasse
 // ...
 String  s1  =  "Phil";
 String  s2  =  "Steffi";
+String  s3  =  "Joerg";
 // erzeuge neuen Vector
-ArrayList<String> betreuer = new  ArrayList<>();
-// füge Elemente hinzu
+ArrayList<String> betreuer  =  new  ArrayList<>();
+// füge Elemente ein
 betreuer.add(s1);
 betreuer.add(s2);
+betreuer.add(s3);
 // gib Elemente aus
-for (int  i  =0; i <  betreuer.size(); i++) 
-   System.out.println((String)betreuer.get(i));
+for (String name: betreuer)
+    System.out.println(name);
 ``` 
 - Detailliertere Infos zum Java Collections Framework findest Du [hier](https://docs.oracle.com/javase/tutorial/collections/index.html)
 
@@ -597,11 +599,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMDc1NTkxNCwtMTQ3MTE3NjcwNywtND
-UwMDc3MjMsNjUxMTgyNTY3LC0xODIzODg0Mjg1LC0xMjcxNjY4
-MzAsLTk3NDI2MDc0MywtMTkyODY3NDY1MCwtMTE1OTEzOTMwMS
-wxNDg4MzE4NjM5LDEyMDA0OTc5MjQsMTYyNjI2NTU2NCwtMTc0
-MzQxNTgzMSwtMjc5MTI4Njk4LDE1OTE2NzM5MzksLTU5Nzg3NT
-MzNiwtMTQ1NzA1MTcwOSw1NTAzNDE1MzUsNjQ0MDQ5NTA3LDE3
-OTkzODQ2MTRdfQ==
+eyJoaXN0b3J5IjpbMTUwNjQxNTg3LDE4MzA3NTU5MTQsLTE0Nz
+ExNzY3MDcsLTQ1MDA3NzIzLDY1MTE4MjU2NywtMTgyMzg4NDI4
+NSwtMTI3MTY2ODMwLC05NzQyNjA3NDMsLTE5Mjg2NzQ2NTAsLT
+ExNTkxMzkzMDEsMTQ4ODMxODYzOSwxMjAwNDk3OTI0LDE2MjYy
+NjU1NjQsLTE3NDM0MTU4MzEsLTI3OTEyODY5OCwxNTkxNjczOT
+M5LC01OTc4NzUzMzYsLTE0NTcwNTE3MDksNTUwMzQxNTM1LDY0
+NDA0OTUwN119
 -->
