@@ -722,11 +722,9 @@ public  class  Div0Fehler{
 
 > Schreiben Sie ein Programm, dass zwei ganze Zahlen A und B von der Kommandozeile einliest und (1) das Ergebnis der ganzzahligen Division der beiden Zahlen sowie (2) den Rest der ganzzahligen Division ausgibt.
 
-* Prüfen Sie die Typen der Eingaben
-* Bei einem leeren String sollte eine Fehlermeldung ausgegeben werden, dass der String leer ist
-* Wenn die Zahl $\leq 0$ ist, dann soll eine passende Fehlermeldung ausgegeben werden
-* Wenn die Argumentanzahl nicht stimmt, soll auch eine passende Meldung ausgegeben werden
-* Wenn bei der Umwandlung des Textes in eine Zahl ein Fehler auftritt, dann soll auch eine verständliche Fehlermeldung ausgegeben werden
+* Prüfen Sie Typen und Anzahl der Eingaben (insbesondere Anforderung:  *ganze* Zahl! )
+* Geben Sie entsprechende Fehlermeldungen aus
+* Werfen Sie eine e
 
 ---
 
@@ -737,11 +735,11 @@ public  class  Div0Fehler{
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NzA4NjAzLDQ1MDE4NjkxMCw4MDkyOD
-IzMTcsLTUyMTMxNzQyNSwtMTkyNzgxOTgwNywtMTgxNzUxMjM3
-LDE0OTA3NjEyMCwxMDE3MTc4OTYxLC04NzAyODI3NywyMDI0MT
-Q2MzMyLDMxNTU2NDAzMSwxNjU5OTU1MDk2LDE3MzY0MDA5ODcs
-LTEwNDcyMjkxNjMsLTEzMDMzNjg0NTEsMTgzMDc1NTkxNCwtMT
-Q3MTE3NjcwNywtNDUwMDc3MjMsNjUxMTgyNTY3LC0xODIzODg0
-Mjg1XX0=
+eyJoaXN0b3J5IjpbLTE0MjMwNDc4MDcsNDUwMTg2OTEwLDgwOT
+I4MjMxNywtNTIxMzE3NDI1LC0xOTI3ODE5ODA3LC0xODE3NTEy
+MzcsMTQ5MDc2MTIwLDEwMTcxNzg5NjEsLTg3MDI4Mjc3LDIwMj
+QxNDYzMzIsMzE1NTY0MDMxLDE2NTk5NTUwOTYsMTczNjQwMDk4
+NywtMTA0NzIyOTE2MywtMTMwMzM2ODQ1MSwxODMwNzU1OTE0LC
+0xNDcxMTc2NzA3LC00NTAwNzcyMyw2NTExODI1NjcsLTE4MjM4
+ODQyODVdfQ==
 -->
