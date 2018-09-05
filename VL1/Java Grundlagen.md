@@ -599,7 +599,9 @@ public class CMeineListe
 
 ===
     
-### @ProfisSchreibe ein weiteres Programm, in dem Du 
+### @Profis
+
+Schreibe ein weiteres Programm, in dem Du 
 
 1. eine ```ArrayList``` Deiner Wahl deklarierst
 2. sie mit Werten füllst
@@ -615,20 +617,20 @@ public class CMeineListe
 - Schleifen haben eine Abbruchbedingung (z.B. Ende der Liste erreicht)
 - Es gibt auch Endlosschleifen (s.u.).
 - Java bietet unterschiedliche Kontrollstrukturen für Schleifen, z.B.
-	- `for` (etwas veraltet)
-	- `for each` 
-	- `while`
-	- `do while` (erzwingt mindestens einen Durchlauf) 
-- Wir erläutern kurz `foreach` und `while`
+	- ```for``` (etwas veraltet)
+	- ```for each``` 
+	- ```while```
+	- ```do while``` (erzwingt mindestens einen Durchlauf) 
+- Wir erläutern kurz ```foreach``` und ```while```
 
 ===
 
 ### For each
 
 <!-- was ist for-each, wann ist es sinnvoll -->
-- die `for each`-Schleife haben wir im obigen `ArrayList`-Beispiel schon kennengelernt
+- die ```for each```-Schleife haben wir im obigen ```ArrayList```-Beispiel schon kennengelernt
 - Sie dient zum einfachen Durchlaufen listenartiger Datenstrukturen und Arrays
-- Anm.: Das Wort "each" kommt darin nicht vor. Man nennt sie so, um sie von der `for`-Schleife zu unterscheiden
+- Anm.: Das Wort "each" kommt darin nicht vor. Man nennt sie so, um sie von der ```for```-Schleife zu unterscheiden
 
 ```java
 final List<String> someList = new ArrayList<>();
