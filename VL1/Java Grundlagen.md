@@ -490,13 +490,13 @@ import java.util.ArrayList; //importiere die Klasse
 String  s1  =  "Phil";
 String  s2  =  "Steffi";
 String  s3  =  "Joerg";
-// erzeuge neuen Vector
+// erzeuge neue Liste
 ArrayList<String> betreuer  =  new  ArrayList<>();
 // füge Elemente ein
 betreuer.add(s1);
 betreuer.add(s2);
 betreuer.add(s3);
-// gib Elemente aus
+// gib alle Elemente aus (for-Schleife s.u.)
 for (String name: betreuer)
     System.out.println(name);
 ``` 
@@ -523,7 +523,7 @@ for (String name: betreuer)
 - Z.B. alle Elemente einer Liste ausgeben
 - Schleifen haben eine Abbruchbedingung (z.B. Ende der Liste erreicht)
 - Es gibt auch Endlosschleifen (s.u.).
-- 
+- Es gibt unterschiedliche 
 
 ===
 
@@ -599,11 +599,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNjQxNTg3LDE4MzA3NTU5MTQsLTE0Nz
-ExNzY3MDcsLTQ1MDA3NzIzLDY1MTE4MjU2NywtMTgyMzg4NDI4
-NSwtMTI3MTY2ODMwLC05NzQyNjA3NDMsLTE5Mjg2NzQ2NTAsLT
-ExNTkxMzkzMDEsMTQ4ODMxODYzOSwxMjAwNDk3OTI0LDE2MjYy
-NjU1NjQsLTE3NDM0MTU4MzEsLTI3OTEyODY5OCwxNTkxNjczOT
-M5LC01OTc4NzUzMzYsLTE0NTcwNTE3MDksNTUwMzQxNTM1LDY0
-NDA0OTUwN119
+eyJoaXN0b3J5IjpbMTI2NzY0NTAxNCwxODMwNzU1OTE0LC0xND
+cxMTc2NzA3LC00NTAwNzcyMyw2NTExODI1NjcsLTE4MjM4ODQy
+ODUsLTEyNzE2NjgzMCwtOTc0MjYwNzQzLC0xOTI4Njc0NjUwLC
+0xMTU5MTM5MzAxLDE0ODgzMTg2MzksMTIwMDQ5NzkyNCwxNjI2
+MjY1NTY0LC0xNzQzNDE1ODMxLC0yNzkxMjg2OTgsMTU5MTY3Mz
+kzOSwtNTk3ODc1MzM2LC0xNDU3MDUxNzA5LDU1MDM0MTUzNSw2
+NDQwNDk1MDddfQ==
 -->
