@@ -649,13 +649,20 @@ public  class  Endless
 - Diese Fehler werden in Java als _Exception_ (Ausnahme) bezeichnet 
 - Sie treten zur Laufzeit ein (deshalb: RuntimeException)
 - Unbehandelt führen sie zu  Abstürzen oder unerwünschten Programmzuständen führt. 
+
+
+===
+### Let's try: Ein Beispiel
 ``` java
-int zaehler=5;
-int nenner = 0;
-int ergebnis = zaehler / nenner;
-```
-
-
+public  class  Div0Fehler{
+  public  static  void  main( String[] p_args )
+  {
+    int  zaehler=5;
+    int  nenner=0;
+    int  ergebnis  = zaehler / nenner;
+    System.out.println("Ergebnis: "  + ergebnis);
+  }
+}
 ---
 
 ## Fange den Fehler - try-catch
@@ -689,11 +696,11 @@ int ergebnis = zaehler / nenner;
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMTMxNzQyNSwtMTkyNzgxOTgwNywtMT
-gxNzUxMjM3LDE0OTA3NjEyMCwxMDE3MTc4OTYxLC04NzAyODI3
-NywyMDI0MTQ2MzMyLDMxNTU2NDAzMSwxNjU5OTU1MDk2LDE3Mz
-Y0MDA5ODcsLTEwNDcyMjkxNjMsLTEzMDMzNjg0NTEsMTgzMDc1
-NTkxNCwtMTQ3MTE3NjcwNywtNDUwMDc3MjMsNjUxMTgyNTY3LC
-0xODIzODg0Mjg1LC0xMjcxNjY4MzAsLTk3NDI2MDc0MywtMTky
-ODY3NDY1MF19
+eyJoaXN0b3J5IjpbLTE1MzYxODA2NTksLTUyMTMxNzQyNSwtMT
+kyNzgxOTgwNywtMTgxNzUxMjM3LDE0OTA3NjEyMCwxMDE3MTc4
+OTYxLC04NzAyODI3NywyMDI0MTQ2MzMyLDMxNTU2NDAzMSwxNj
+U5OTU1MDk2LDE3MzY0MDA5ODcsLTEwNDcyMjkxNjMsLTEzMDMz
+Njg0NTEsMTgzMDc1NTkxNCwtMTQ3MTE3NjcwNywtNDUwMDc3Mj
+MsNjUxMTgyNTY3LC0xODIzODg0Mjg1LC0xMjcxNjY4MzAsLTk3
+NDI2MDc0M119
 -->
