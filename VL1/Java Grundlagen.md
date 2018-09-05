@@ -535,7 +535,6 @@ for ( int i = 0; i < highscores.length; i++ )
 
     ```java
 final int[] highscores = {1000, 850, 600};
-
 //Zugriff auf viertes Element was nicht existiert
 final int l_wert = highscores[3]; 
 ``` 
