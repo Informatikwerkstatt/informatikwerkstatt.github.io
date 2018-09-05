@@ -524,7 +524,7 @@ final int[] l_highscores = {1000, 850, 600};
 final int l_erstes = highscores[0];
     ```
 
-- Arrayelemente durchlaufen (iterieren) mit `for`-Schleife (s.u.)
+- Arrayelemente durchlaufen (iterieren) mit `for`-Schleife
 
     ```java
 for ( int i = 0; i < highscores.length; i++ )
@@ -534,6 +534,7 @@ for ( int i = 0; i < highscores.length; i++ )
 - Häufiger Fehler: Ungültiger Wert für Index &rarr; führt zu Laufzeitfehler
 
     ```java
+
 final int[] highscores = {1000, 850, 600};
 //Zugriff auf viertes Element was nicht existiert
 final int l_wert = highscores[3]; 
