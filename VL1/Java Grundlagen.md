@@ -284,19 +284,20 @@ public class HelloWorld
 <!-- Was bedeutet Casting, wozu wird es benötigt, was ist der Sinn davon, was sind die Nachteile davon, insbesondere parsen von String als numerischer Wert -->
 
 - Typumwandlung (engl. *Casting*) = Umwandlung eines Datentyps in einen anderen Datentyp.
-```java
-byte counterB = 1;
-int counterI = 1;
-double counterD = 1.0;
-String myNumber = "";
-// wir casten jetzt eine byte-Variable auf eine  int-Variable und dann die int-Variable auf eine double-Variable. Geht das?
-counterI = counterB;
-counterD = counterI;
-System.out.println("counterD = ", counterD);
 
-//int auf String casten erfordert extra Methodenaufruf
-mynumber = Integer.toString(counterI).
-```
+    ```java
+    byte counterB = 1;
+    int counterI = 1;
+    double counterD = 1.0;
+    String myNumber = "";
+    // wir casten jetzt eine byte-Variable auf eine  int-Variable und dann die int-Variable auf eine double-Variable. Geht das?
+    counterI = counterB;
+    counterD = counterI;
+    System.out.println("counterD = ", counterD);
+    
+    //int auf String casten erfordert extra Methodenaufruf
+    mynumber = Integer.toString(counterI).
+    ```
 
 ===
 
