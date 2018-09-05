@@ -577,7 +577,9 @@ while ( true ) {
     // einatmen  ... ausatmen
  }
  ```
-- Es gibt Fälle, in denen Endlosschleifen beabsichtigt sind (s.  
+- Es gibt Fälle, in denen Endlosschleifen beabsichtigt sind.
+- Manchmal entstehen Sie aber unbeabsichtigt - durch Programmierfehler
+- `enter code here` 
 
 ---
 
@@ -641,11 +643,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1OTk1NTA5NiwxNzM2NDAwOTg3LC0xMD
-Q3MjI5MTYzLC0xMzAzMzY4NDUxLDE4MzA3NTU5MTQsLTE0NzEx
-NzY3MDcsLTQ1MDA3NzIzLDY1MTE4MjU2NywtMTgyMzg4NDI4NS
-wtMTI3MTY2ODMwLC05NzQyNjA3NDMsLTE5Mjg2NzQ2NTAsLTEx
-NTkxMzkzMDEsMTQ4ODMxODYzOSwxMjAwNDk3OTI0LDE2MjYyNj
-U1NjQsLTE3NDM0MTU4MzEsLTI3OTEyODY5OCwxNTkxNjczOTM5
-LC01OTc4NzUzMzZdfQ==
+eyJoaXN0b3J5IjpbMjMyMjg2MzU0LDE2NTk5NTUwOTYsMTczNj
+QwMDk4NywtMTA0NzIyOTE2MywtMTMwMzM2ODQ1MSwxODMwNzU1
+OTE0LC0xNDcxMTc2NzA3LC00NTAwNzcyMyw2NTExODI1NjcsLT
+E4MjM4ODQyODUsLTEyNzE2NjgzMCwtOTc0MjYwNzQzLC0xOTI4
+Njc0NjUwLC0xMTU5MTM5MzAxLDE0ODgzMTg2MzksMTIwMDQ5Nz
+kyNCwxNjI2MjY1NTY0LC0xNzQzNDE1ODMxLC0yNzkxMjg2OTgs
+MTU5MTY3MzkzOV19
 -->
