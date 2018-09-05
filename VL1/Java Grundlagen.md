@@ -505,14 +505,14 @@ for (int  i  =0; i <  betreuer.size(); i++)
 ### @Let's try 
 <!-- an dieser Folienformattierung verzweifele ich -->
 Schreibe zunächst ein kleines Programm, in dem Du 
-- einen `Array` Deiner Wahl deklarierst
-- ihn initialisierst
-- seine Werte ausliest und ausgibst 
+ einen `Array` Deiner Wahl deklarierst
+ ihn initialisierst
+ seine Werte ausliest und ausgibst 
  
 **@Crack**: Schreibe ein weiteres Programm, in dem Du 
-- eine `ArrayList` Deiner Wahl deklarierst
-- sie mit Werten füllst
-- und danach die Werte ausliest und ausgibst 
+ eine `ArrayList` Deiner Wahl deklarierst
+ sie mit Werten füllst
+ und danach die Werte ausliest und ausgibst 
 
 ---
 ## Wieder und wieder und wieder... - Schleifen
@@ -593,11 +593,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MDA3NzIzLDY1MTE4MjU2NywtMTgyMz
-g4NDI4NSwtMTI3MTY2ODMwLC05NzQyNjA3NDMsLTE5Mjg2NzQ2
-NTAsLTExNTkxMzkzMDEsMTQ4ODMxODYzOSwxMjAwNDk3OTI0LD
-E2MjYyNjU1NjQsLTE3NDM0MTU4MzEsLTI3OTEyODY5OCwxNTkx
-NjczOTM5LC01OTc4NzUzMzYsLTE0NTcwNTE3MDksNTUwMzQxNT
-M1LDY0NDA0OTUwNywxNzk5Mzg0NjE0LDEwMDYzNDUzMzgsNjI1
-MDk4Nzc5XX0=
+eyJoaXN0b3J5IjpbLTE0NzExNzY3MDcsLTQ1MDA3NzIzLDY1MT
+E4MjU2NywtMTgyMzg4NDI4NSwtMTI3MTY2ODMwLC05NzQyNjA3
+NDMsLTE5Mjg2NzQ2NTAsLTExNTkxMzkzMDEsMTQ4ODMxODYzOS
+wxMjAwNDk3OTI0LDE2MjYyNjU1NjQsLTE3NDM0MTU4MzEsLTI3
+OTEyODY5OCwxNTkxNjczOTM5LC01OTc4NzUzMzYsLTE0NTcwNT
+E3MDksNTUwMzQxNTM1LDY0NDA0OTUwNywxNzk5Mzg0NjE0LDEw
+MDYzNDUzMzhdfQ==
 -->
