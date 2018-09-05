@@ -647,7 +647,14 @@ public  class  Endless
 	- Zugriff auf einen nicht existierenden Array-Index
 	- Zugriff auf ein noch nicht erzeugtes Objekt
 - Diese Fehler werden in Java als _Exception_ (Ausnahme) bezeichnet 
-- Sie treten zur Laufzeit ein (deshalb: RuntimeException) Abstürzen oder unerwünschten Programmzuständen führt. _Exceptions_ treten immer erst zur Laufzeit ein,
+- Sie treten zur Laufzeit ein (deshalb: RuntimeException)
+- Unbehandelt führen sie zu  Abstürzen oder unerwünschten Programmzuständen führt. 
+``` java
+int zaehler=5;
+int nenner = 0;
+int ergebnis = zaehler / nenner;
+```
+
 
 ---
 
@@ -682,7 +689,7 @@ public  class  Endless
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNDc4NTY2NiwtMTkyNzgxOTgwNywtMT
+eyJoaXN0b3J5IjpbLTUyMTMxNzQyNSwtMTkyNzgxOTgwNywtMT
 gxNzUxMjM3LDE0OTA3NjEyMCwxMDE3MTc4OTYxLC04NzAyODI3
 NywyMDI0MTQ2MzMyLDMxNTU2NDAzMSwxNjU5OTU1MDk2LDE3Mz
 Y0MDA5ODcsLTEwNDcyMjkxNjMsLTEzMDMzNjg0NTEsMTgzMDc1
