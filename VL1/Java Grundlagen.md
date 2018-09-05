@@ -698,7 +698,9 @@ public  class  Div0Fehler{
 
 ## @Let's try
 
- - Im Abschnitt über Arrays haben wir gesehen, dass ein häufiger Fehler ist, dass versucht wird, mit ungültigen Array-Indizes auf Array-Indized 
+ - Im Abschnitt über Arrays haben wir gesehen, dass ein häufiger Fehler ist, dass versucht wird, mit ungültigen (zu großen pder negativen) Array-Indizes auf Elemente eines Arrays zuzugreifen
+ 1. Schreiben Sie ein Programm, in dem eine solche Situation auftritt
+ 2. Erstellen Sie 
 
 <!-- Division durch Null Beispiel fangen + eigenes Beispiel wo eine RuntimeException geworfen wird -->
 
@@ -723,7 +725,7 @@ public  class  Div0Fehler{
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzcxNDQ5MDcsODA5MjgyMzE3LC01Mj
+eyJoaXN0b3J5IjpbLTEzNzcyNjg3ODksODA5MjgyMzE3LC01Mj
 EzMTc0MjUsLTE5Mjc4MTk4MDcsLTE4MTc1MTIzNywxNDkwNzYx
 MjAsMTAxNzE3ODk2MSwtODcwMjgyNzcsMjAyNDE0NjMzMiwzMT
 U1NjQwMzEsMTY1OTk1NTA5NiwxNzM2NDAwOTg3LC0xMDQ3MjI5
