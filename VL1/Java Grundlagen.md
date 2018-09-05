@@ -219,17 +219,17 @@ Man könnte doch für alles `double` verwenden ...
 - Wir erweitern unser [HelloWorld-Programm](#/1/1):
 
 ```java    
-    public class CHelloWorld
-    {
+public class CHelloWorld
+{
     // Variablendeklaration mit Initialisierung
-      private static final String message = "Hello World";
-    
-      public static void main( String[] p_args )
-      {
-       	// Variable wird Methode als Parameter übergeben
+    private static final String message = "Hello World";
+
+    public static void main( String[] p_args )
+    {
+        // Variable wird Methode als Parameter übergeben
         System.out.println( message );
-      }
     }
+}
 ```
 
 ===
@@ -240,7 +240,7 @@ Man könnte doch für alles `double` verwenden ...
 - Variable muss vor Verwendung deklariert werden
     
 ```java
-    private final String message = "Hello World";
+private static final String message = "Hello World";
 ```
 
 - Mit dem Zuweisungsoperator ```=``` kann einer Variable ein Wert zugewiesen werden
@@ -257,10 +257,10 @@ Man könnte doch für alles `double` verwenden ...
 - Der Wert der Variable wird an die Methode übergeben und dort weiterverarbeitet. 
 
 ```java	
-    public static void main( String[] p_args )
-    {
-       System.out.println( message );
-    }
+public static void main( String[] p_args )
+{
+    System.out.println( message );
+}
 ```
 
 === 
@@ -301,13 +301,13 @@ mynumber = Integer.toString(counterI).
 4. Übersetze das Programm und führe es aus! Was beobachtest Du?
 5. Füge nun folgende Zeile am Ende des ```main```-Programms ein?
 
-   ```java
- hier versuche ich, eine double-Variable auf eine int-Variable zu casten :o
+```java
+// hier versuche ich, eine double-Variable auf eine int-Variable zu casten :o
 counterI = counterD;
-    ```
+```
 
 6. Übersetze das Programm! Was beobachtest Du?
-7.  Ermittele jeweils durch Nachdenken oder probieren: Auf welche Typen können ```byte``` / ```int``` / ```double``` gecastet werden?
+7. Ermittele jeweils durch Nachdenken oder probieren: Auf welche Typen können ```byte``` / ```int``` / ```double``` gecastet werden?
 8. Versuche, die Variable ```counterD``` auf die String-Variable ```myNumber``` zu casten! 
 
 ===
@@ -319,12 +319,12 @@ counterI = counterD;
 - *Erweiterndes Casting* (z.B. von ```int``` auf ```double```) wird vom Compiler automatisch durchgeführt (implizites Casting)
 - *Einschränkendes Casting* (z.B. von ```double``` auf ```int```) muss explizit vom Programmierer gemacht *(und geprüft!)* werden. Beispiel:
 
-    ```java
+```java
 int myInt;
 double  pi  =  3.14159;
 //explizites casting
 myInt = (int) pi;
-    ```
+```
     
 ===
     
@@ -374,13 +374,15 @@ System.out.println( i == j );
 
 - bei String und anderen Objekten: Test mit Methode `equals()`
 
-    ```java
+```java
 // neues String-Objekt wird erzeugt
 String s1 = new String("maus");
-String s2 =     String  new String("maus");  System.out.println( s1 == s2 );
+String s2 = new String("maus");
+
+// false
+System.out.println( s1 == s2 );
  // true
-false!
-    System.out.println( s1.equals( s2 ) ); 
+System.out.println( s1.equals( s2 ) ); 
 ```
 
 - **@Profis**: Könnt Ihr dieses Ergebnis erklären?
@@ -404,7 +406,7 @@ if ( a <= 0 )
 
 - IF-ELSE-Anweisung hat Form `if (bedingung) block1 else block2`
     
-``` java
+```java
 if ( a > 0 ) 
      	  System.out.println(a + " ist positiv");
 else 
@@ -418,22 +420,19 @@ else
 ### Ternärer Operator
 
 - Wenn nur zwischen zwei Ausgabewerten unterschieden werden soll, gibt es für die IF-ELSE-Anweisung eine Kurzform
-
 -  Der *ternäre Operator* hat die Form  ```Diagram( Sequence( NonTerminal('Bedingung'), Terminal('?'), NonTerminal('Wert bei True'), Terminal(':'), NonTerminal('Wert ebi False') ) )```
 
-
-- Beispiel:
-
-    ```java
+```java
 (a > 0) 
 ? System.out.println(a + " ist positiv") 
 : System.out.println(a + " ist nichtpositiv");
-    ```
+```
+
 - Oder etwas eleganter
 
-    ```java
+```java
 System.out.println(a + " ist " + ((a > 0) ? "positiv" : "nichtpositiv"));
-    ```
+```
 
 ===
 
@@ -453,9 +452,9 @@ Switch-case
 ## @Home
 
 Betrachte die beiden folgenden ```if-else``` Anweisungen
- 1. Überlege, welcher Teil der Anweisungen jeweils ausgeführt wird und
-    warum. 
- 2. Schreibe für jede Anweisung ein Java-Programm; wähle geeignete Ausgaben, um die Ausführung nachvollziehen zu können.
+
+1. Überlege, welcher Teil der Anweisungen jeweils ausgeführt wird und warum. 
+2. Schreibe für jede Anweisung ein Java-Programm; wähle geeignete Ausgaben, um die Ausführung nachvollziehen zu können.
 
 ```java
 // Anweisung 1				
@@ -468,25 +467,28 @@ if ( a < b )
 else
 {
     b = a;
+}
 ```
 
 ```java
 // Anweisung 2
 int a = 5;
-int, b = , c = 7;
-     a > b )
- { en
-   a = b;}
- lse
+int b = 6;
+int c = 7;
+if () a > b )
+ {
+   a = b;
+}
+else
 {
 	if ( a < c ) 
     { 
         a = c; 
     }
+}
 ```
     
-<!-- Anweisung 1: 5<6, also wird a=b ausgeführt (if-Zweig)
-    Anweisung 2: a <= b, deshalb zunächst else-Zweig, dann wg a<c der if-Zweig -->
+Notes: Anweisung 1: 5<6, also wird a=b ausgeführt (if-Zweig) Anweisung 2: a <= b, deshalb zunächst else-Zweig, dann wg a < c der if-Zweig
 
 ---
 
@@ -518,6 +520,7 @@ int[] l_highscores = new int[10];
 l_highscores[0] = 471    ```
 
 - Mehrdimensionale Arrays &rarr; leeres Array mit ```new``` und zwei Größen erzeug
+
      ```java
 // Namenstabelle mit 10 Zeilen, 15 Spalten
 String[][] l_tabelle = new String[10][15];
@@ -526,25 +529,27 @@ l_tabelle[7][8] = "Steffi";
 
 ===
 
-### Zugriff auf Array mit `new`
+### Zugriff auf Array mit ```new```
+
 - Adressieren des gesuchten Feldes mit Indexvariable:
 
 ```java
-al    int[] l_highscores = {1000, 850, 600};
-//first hat nun Wert `1000`
-final    int l_efirstes = highscores[0];
-    ```
+int[] l_highscores = {1000, 850, 600};
+
+// Variable erhält den Wert aus dem ersten ELement 1000
+final int l_erstes = l_highscores[0];
+```
 
 - Arrayelemente durchlaufen (iterieren) mit `for`-Schleife
 
 ```java
 for ( int i = =0; i < <highscores.length; i++ )
     System.out.println(highscores[i]); 
-    ```
+```
 
 - Häufiger Fehler: Ungültiger Wert für Index &rarr; führt zu Laufzeitfehler
 
-    ``` java
+```java
 final    int[] highscores = {1000, 850, 600};
 //Zugriff auf viertes Element was nicht existiert
 final int l_wert = highscores[3]; 
@@ -568,28 +573,17 @@ public class CMeineListe
 {
     public static void main( final String[] p_args )
     {
-    <!-- Packages haben wir noch nicht eingeführt ... -->
-<!-- was ist es, kurz fassen und auf Listen & Sets beschränken -->
-
-    ```java
-    import java.util.ArrayList; //importiere die Klasse
-    // ...
-    String  s1  =  "Phil";
-    String  s2  =  "Steffi";
-    String  s3  =  "Joerg";
-    // erzeuge neue Liste
+        // erzeuge neue Liste
         final ArrayList<String> l_betreuer  =  new  ArrayList<>();
 
         // füge Elemente ein
         betreuer.add( "Phil" );
-    s1);
-    betreuer.add( "Steffi" s2);
+        betreuer.add( "Steffi" s2);
         betreuer.add( "Jörg" );
 
-    s3);
-    // gib alle Elemente aus (for-Schleife s.u.)
+        // gib alle Elemente aus (for-Schleife s.u.)
         for ( final String l_name : betreuer)
-         System.out.println( l_name );
+            System.out.println( l_name );
     }
 }
 ```
@@ -635,15 +629,13 @@ public class CMeineListe
 - die `for each`-Schleife haben wir im obigen `ArrayList`-Beispiel schon kennengelernt
 - Sie dient zum einfachen Durchlaufen listenartiger Datenstrukturen und Arrays
 - Anm.: Das Wort "each" kommt darin nicht vor. Man nennt sie so, um sie von der `for`-Schleife zu unterscheiden
-- Beispiel:
 
-    ```java
-List<String> someList = new ArrayList<String>();
-// füge "aepfel", "birnen", "pflaumen" zu someList hinzu
-for (String item : someList) {
+```java
+final List<String> someList = new ArrayList<>();
+// füge "Äpfel", "Birnen", "Pflaumen" zu someList hinzu
+for ( final String item : someList )
     System.out.println(item);
-}
-    ```
+```
 
 - Anm.:  Da im Rumpf der `for each` Anweisung nur Kopien der Listenelemente verarbeitet werden, kann man damit keine Elemente der Liste ändern oder löschen!
 
@@ -660,22 +652,27 @@ for (String item : someList) {
 Mail m = null{ // Mache weiter, solange noch keine Mail da ist
         
 while ( Objects.isNull(m) )
-{     o       // Schaue nach Mail
-    m = Mailbox.lookup(    Thread.sleep(5000);  
-       // Warte 5 Sekunden     
-      // Endlich!! Wir können unsere Mail lesen
+{
+    // Schaue nach Mail
+    m = Mailbox.lookup(); 
+    // Warte 5 Sekunden
+    Thread.sleep(5000); 
+}    
+// Endlich!! Wir können unsere Mail lesen
 m.read();
-    ```
+```
 
 - Und hier noch ein Beispiel für `do-while`
-        ```java
+
+```java
 int count = 1;
 // der Rumpf der Schleife wird bei do-while mindestens einmal ausgeführt
 do
 { 
-       System.out.println( "Count is: " + count );
+    System.out.println( "Count is: " + count );
     count++;
-} while (count < 11); 
+}
+while ( count < 11 ); 
 ```
 
 ---
@@ -685,12 +682,12 @@ do
 - Frage: Wie kann man ein Programm erzeugen, das nie anhält?
 - Antwort: Whileschleife, die nie abbricht
 
-    ```java
+```java
 while ( true )
 {
     // einatmen  ... ausatmen
 }
-     ```
+```
      
 - Es gibt Fälle, in denen Endlosschleifen beabsichtigt sind.
 - Manchmal entstehen sie aber unbeabsichtigt - durch Programmierfehler
@@ -708,8 +705,8 @@ public class Endless
     {
         int n = 0;
         int m = 0;
-        while ( n < 11
-       ) {
+        while ( n < 11 )
+        {
            System.out.println("Count is: "  + n);
            m++;
         }
