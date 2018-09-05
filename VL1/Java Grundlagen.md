@@ -623,7 +623,7 @@ highscores[0] = 4711;
 - Wenn die Anzahl der Wiederholungen eines Codeblocks nicht bekannt ist, sondern nach jedem Durchlauf eine Bedingung überprüft werden muss, nutzen wir die `while-`Schleife
 - z.B. wir schauen alle 5 Sekunden so lange in den Briefkasten, bis ein Brief drinnen liegt
 
-    ```
+ ```
     // Pseudocode - dient nur zum Erklären des Prinzips
     Mail m = null;                // Zum Speichern der Mail
     while (m == null ){            // Mache weiter, solange noch keine Mail da ist
@@ -635,14 +635,14 @@ highscores[0] = 4711;
  
 
 - Und hier noch ein Beispiel für `do-while`
-
-    ```java
-        int count = 1;
-        do { // der Rumpf der Schleife wird bei do-while mindestens einmal ausgeführt
+    
+```java
+    int count = 1;
+    do { // der Rumpf der Schleife wird bei do-while mindestens einmal ausgeführt
        System.out.println("Count is: " + count);
        count++;
      } while (count < 11); 
-    ```
+```
 
 ---
 
@@ -860,5 +860,5 @@ public class Div0Fehler
 		- Methode: `onCreate()`
 		- Klasse: `ArrayIndexOutOfBoundsException`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUwMzkxNTA0XX0=
+eyJoaXN0b3J5IjpbLTE3OTkzMzc4Ml19
 -->
