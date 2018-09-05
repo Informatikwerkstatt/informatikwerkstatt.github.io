@@ -731,7 +731,7 @@ public  class  Div0Fehler{
 
 ---
 ## Stil ist alles
-- Damit Programme für andere lesbar sind, gibt es eine Reihe von Konventionen bezüglich der Namensgebung und Groß-Klein-Schreibung
+- Damit Programme für andere lesbar sind, gibt es eine Reihe von Regeln und Konventionen bezüglich der Namensgebung und Groß-Klein-Schreibung
 - In Java sind die in sogenannten Coding Style Guides zusammengefasst
 - Beispiel: [Google Java Coding Style](https://google.github.io/styleguide/javaguide.html)
 - In der Folge listen wir ein paar ausgewählte dieser Konventionen 
@@ -740,21 +740,21 @@ public  class  Div0Fehler{
 ### Konventionen zur Namensgebung 
 
 - Bei Variablennamen ist Groß-/Kleinschreibung relevant: `text` und `Text` sind unterschiedliche Variable
-- Variablennamen beginnen mit einem Buchstaben, mit $ oder mit \_ 
-- Sie dÃ¼rfen nur Zahlen, Buchstaben, oder _ enthalten
-ï‚§	Konventionen:
-ï‚§	Einzelne Worte als Variablenname werden klein geschrieben
-ïƒ˜	text
+- Variablennamen beginnen mit einem Buchstaben, mit $ oder mit \_ ($ ist möglich, aber unerwünscht)
+- Sie dürfen nur Zahlen, Buchstaben, oder \_ enthalten
+- Konventionen
+	- Einzelne Worte als Variablenname werden klein geschrieben, z.B. highscore
+
 ï‚§	Besteht ein Name aus mehreren Worten, werden die inneren Worte groÃŸ geschrieben (CamelCase)
 ïƒ˜	textEingabe
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzkyNDU1NTIsLTEzMTE2NzM5NzUsND
-UwMTg2OTEwLDgwOTI4MjMxNywtNTIxMzE3NDI1LC0xOTI3ODE5
-ODA3LC0xODE3NTEyMzcsMTQ5MDc2MTIwLDEwMTcxNzg5NjEsLT
-g3MDI4Mjc3LDIwMjQxNDYzMzIsMzE1NTY0MDMxLDE2NTk5NTUw
-OTYsMTczNjQwMDk4NywtMTA0NzIyOTE2MywtMTMwMzM2ODQ1MS
-wxODMwNzU1OTE0LC0xNDcxMTc2NzA3LC00NTAwNzcyMyw2NTEx
-ODI1NjddfQ==
+eyJoaXN0b3J5IjpbNzY4ODkxNjYzLC0xMzExNjczOTc1LDQ1MD
+E4NjkxMCw4MDkyODIzMTcsLTUyMTMxNzQyNSwtMTkyNzgxOTgw
+NywtMTgxNzUxMjM3LDE0OTA3NjEyMCwxMDE3MTc4OTYxLC04Nz
+AyODI3NywyMDI0MTQ2MzMyLDMxNTU2NDAzMSwxNjU5OTU1MDk2
+LDE3MzY0MDA5ODcsLTEwNDcyMjkxNjMsLTEzMDMzNjg0NTEsMT
+gzMDc1NTkxNCwtMTQ3MTE3NjcwNywtNDUwMDc3MjMsNjUxMTgy
+NTY3XX0=
 -->
