@@ -740,8 +740,8 @@ public  class  Div0Fehler{
 ### Konventionen zur Namensgebung 
 
 - Bei Variablennamen ist Groß-/Kleinschreibung relevant: `text` und `Text` sind unterschiedliche Variable
-ï‚§	Variablennamen beginnen mit einem Buchstaben, mit $ oder mit _ beginnen ($ ist mÃ¶glich, aber unerwÃ¼nscht)
-ï‚§	Sie dÃ¼rfen nur Zahlen, Buchstaben, oder _ enthalten
+- Variablennamen beginnen mit einem Buchstaben, mit $ oder mit \_ 
+- Sie dÃ¼rfen nur Zahlen, Buchstaben, oder _ enthalten
 ï‚§	Konventionen:
 ï‚§	Einzelne Worte als Variablenname werden klein geschrieben
 ïƒ˜	text
@@ -750,11 +750,11 @@ public  class  Div0Fehler{
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNzcxNTAyLC0xMzExNjczOTc1LDQ1MD
-E4NjkxMCw4MDkyODIzMTcsLTUyMTMxNzQyNSwtMTkyNzgxOTgw
-NywtMTgxNzUxMjM3LDE0OTA3NjEyMCwxMDE3MTc4OTYxLC04Nz
-AyODI3NywyMDI0MTQ2MzMyLDMxNTU2NDAzMSwxNjU5OTU1MDk2
-LDE3MzY0MDA5ODcsLTEwNDcyMjkxNjMsLTEzMDMzNjg0NTEsMT
-gzMDc1NTkxNCwtMTQ3MTE3NjcwNywtNDUwMDc3MjMsNjUxMTgy
-NTY3XX0=
+eyJoaXN0b3J5IjpbLTE2MzkyNDU1NTIsLTEzMTE2NzM5NzUsND
+UwMTg2OTEwLDgwOTI4MjMxNywtNTIxMzE3NDI1LC0xOTI3ODE5
+ODA3LC0xODE3NTEyMzcsMTQ5MDc2MTIwLDEwMTcxNzg5NjEsLT
+g3MDI4Mjc3LDIwMjQxNDYzMzIsMzE1NTY0MDMxLDE2NTk5NTUw
+OTYsMTczNjQwMDk4NywtMTA0NzIyOTE2MywtMTMwMzM2ODQ1MS
+wxODMwNzU1OTE0LC0xNDcxMTc2NzA3LC00NTAwNzcyMyw2NTEx
+ODI1NjddfQ==
 -->
