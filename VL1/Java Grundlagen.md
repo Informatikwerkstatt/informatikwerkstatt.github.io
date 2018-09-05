@@ -358,7 +358,8 @@ String  s2=new  String("maus");
 System.out.println(s1==s2); // false!
 System.out.println(s1.equals(s2)); // true
 ```
-- Bei `s1.equals(s2)` muss `s1` initialisiert sein --> prüfen mit `s1 != null`
+- **@Cracks**: Könnt Ihr dieses Ergebnis erklären?
+- Anm. : In `s1.equals(s2)` muss `s1` initialisiert sein --> prüfen mit `s1 != null`
 
 ---
 ## Bedingte Anweisungen - IF-ELSE
@@ -591,7 +592,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDY3NDExNDQsLTEyNzE2NjgzMCwtOT
+eyJoaXN0b3J5IjpbLTE4MjM4ODQyODUsLTEyNzE2NjgzMCwtOT
 c0MjYwNzQzLC0xOTI4Njc0NjUwLC0xMTU5MTM5MzAxLDE0ODgz
 MTg2MzksMTIwMDQ5NzkyNCwxNjI2MjY1NTY0LC0xNzQzNDE1OD
 MxLC0yNzkxMjg2OTgsMTU5MTY3MzkzOSwtNTk3ODc1MzM2LC0x
