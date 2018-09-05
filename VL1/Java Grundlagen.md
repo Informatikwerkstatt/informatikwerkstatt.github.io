@@ -633,17 +633,12 @@ public  class  Endless
 
 - Wer sich gerade langweilt, weil alles viel zu einfach ist:
 - Macht Euch selbst mit zwei fortgeschritteneren Konzepten für die effiziente (und parallele) Verarbeitung großer Datenstrukturen / Datenmengen in Java vertraut.
-	- [Lambda-Ausdrücke]()
+	- [Lambda-Ausdrücke](https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html)
 	- [Java Streaming]()
 - Quellen zum "Reinschnuppern":
-	- [blog.codecentric.de](https://blog.codecentric.de/2013/10/java-8-erste-schritte-mit-lambdas-und-streams/)
-	- 	
-	  
-<!-- 
-
-https://www.baeldung.com/java-8-streams
-https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
--->
+	- [Erste Schritte](https://blog.codecentric.de/2013/10/java-8-erste-schritte-mit-lambdas-und-streams/)
+	- [java 8 streams](https://www.baeldung.com/java-8-streams)
+	- [Stream tutorial](https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/)
 
 ---
 
@@ -684,7 +679,7 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkwNjI4NjQxLC0xODE3NTEyMzcsMTQ5MD
+eyJoaXN0b3J5IjpbLTU5NjQ5MTgwLC0xODE3NTEyMzcsMTQ5MD
 c2MTIwLDEwMTcxNzg5NjEsLTg3MDI4Mjc3LDIwMjQxNDYzMzIs
 MzE1NTY0MDMxLDE2NTk5NTUwOTYsMTczNjQwMDk4NywtMTA0Nz
 IyOTE2MywtMTMwMzM2ODQ1MSwxODMwNzU1OTE0LC0xNDcxMTc2
