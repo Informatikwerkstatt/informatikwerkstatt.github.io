@@ -689,9 +689,7 @@ public  class  Div0Fehler{
 ===
 ### @Profis: Diskussion 
 - Ist es sinnvoll, auf Laufzeitfehler wie z.B. Division durch Null mit try-catch zu reagieren?
-- Wie könnte man den Fall abfangen, wenn der Nenner von einem Benutzer eingegeben wird
-
-
+- Wie könnte man sinnvoll den Fall abfangen, wenn der Nenner von einem Benutzer eingegeben wird?
 
 ---
 
@@ -700,7 +698,9 @@ public  class  Div0Fehler{
 
  - Im Abschnitt über Arrays haben wir gesehen, dass ein häufiger Fehler ist, dass versucht wird, mit ungültigen (zu großen pder negativen) Array-Indizes auf Elemente eines Arrays zuzugreifen
  1. Schreiben Sie ein Programm, in dem eine solche Situation auftritt
- 2. Erstellen Sie 
+ 2. Überlegen Sie, wie Sie die Situation behandeln können
+ 3. Erstellen Sie einen entsprechenden Try-Catch-Block
+ 4. COmpilieren SIe ihr Programm und lassen es laufen
 
 <!-- Division durch Null Beispiel fangen + eigenes Beispiel wo eine RuntimeException geworfen wird -->
 
@@ -735,11 +735,11 @@ public  class  Div0Fehler{
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkyNDgwMjczLDgwOTI4MjMxNywtNTIxMz
-E3NDI1LC0xOTI3ODE5ODA3LC0xODE3NTEyMzcsMTQ5MDc2MTIw
-LDEwMTcxNzg5NjEsLTg3MDI4Mjc3LDIwMjQxNDYzMzIsMzE1NT
-Y0MDMxLDE2NTk5NTUwOTYsMTczNjQwMDk4NywtMTA0NzIyOTE2
-MywtMTMwMzM2ODQ1MSwxODMwNzU1OTE0LC0xNDcxMTc2NzA3LC
-00NTAwNzcyMyw2NTExODI1NjcsLTE4MjM4ODQyODUsLTEyNzE2
-NjgzMF19
+eyJoaXN0b3J5IjpbLTE3MjUyNTAzNCw4MDkyODIzMTcsLTUyMT
+MxNzQyNSwtMTkyNzgxOTgwNywtMTgxNzUxMjM3LDE0OTA3NjEy
+MCwxMDE3MTc4OTYxLC04NzAyODI3NywyMDI0MTQ2MzMyLDMxNT
+U2NDAzMSwxNjU5OTU1MDk2LDE3MzY0MDA5ODcsLTEwNDcyMjkx
+NjMsLTEzMDMzNjg0NTEsMTgzMDc1NTkxNCwtMTQ3MTE3NjcwNy
+wtNDUwMDc3MjMsNjUxMTgyNTY3LC0xODIzODg0Mjg1LC0xMjcx
+NjY4MzBdfQ==
 -->
