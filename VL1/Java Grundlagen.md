@@ -739,21 +739,20 @@ public  class  Div0Fehler{
 ===
 ### Konventionen zur Namensgebung 
 
-- Bei Variablennamen ist Groß-/Kleinschreibung relevant: `text` und `Text` sind unterschiedliche Variable
-- Variablennamen beginnen mit einem Buchstaben, mit $ oder mit \_ ($ ist möglich, aber unerwünscht)
-- Sie dürfen nur Zahlen, Buchstaben, oder \_ enthalten
+- Bei Variablennamen ist Groß-/Kleinschreibung relevant: 
+	- `text` und `Text` sind unterschiedliche Variable
+- Variablennamen beginnen mit einem Buchstaben, mit $ oder mit \_ ($ möglich, aber unerwünscht)
+- Variebdürfen nur Zahlen, Buchstaben, oder \_ enthalten
 - Konventionen
 	- Variablen- und Methodennamen beginnen mit Kleinbuchstaben, z.B. `liste`, `main()`
 	- Klassennamen beginnen mit Großbuchstaben
 	- Besteht ein Name aus mehreren Worten, werden die Anfangsbuchstaben der inneren Worte  groß geschrieben (= CamelCase)
 		- Variable: `highScoreListe`
 		- Methode: `onCreate()`
-		- Klasse
-ïƒ˜	textEingabe
-
+		- Klasse: `ArrayIndexOutOfBoundsException`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNTk1OTU2NiwtMTMxMTY3Mzk3NSw0NT
+eyJoaXN0b3J5IjpbMjAzNjE3NzY1NiwtMTMxMTY3Mzk3NSw0NT
 AxODY5MTAsODA5MjgyMzE3LC01MjEzMTc0MjUsLTE5Mjc4MTk4
 MDcsLTE4MTc1MTIzNywxNDkwNzYxMjAsMTAxNzE3ODk2MSwtOD
 cwMjgyNzcsMjAyNDE0NjMzMiwzMTU1NjQwMzEsMTY1OTk1NTA5
