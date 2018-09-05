@@ -630,9 +630,9 @@ highscores[0] = 4711;
         m = Mailbox.lookup();       // Schaue nach Mail
         Thread.sleep(5000);         // Warte 5 Sekunden
     }
-    }
-m.read();                     // Endlich!! Wir können unsere Mail lesen
-    ```
+    m.read();                     // Endlich!! Wir können unsere Mail lesen
+ ```
+ 
 
 - Und hier noch ein Beispiel für `do-while`
 
@@ -859,3 +859,6 @@ public class Div0Fehler
 		- Variable: `highScoreListe`
 		- Methode: `onCreate()`
 		- Klasse: `ArrayIndexOutOfBoundsException`
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMjA1ODg1MTJdfQ==
+-->
