@@ -9,11 +9,9 @@ __Java Grundlagen__
 ---
 
 ## Sprichst Du Java?
-<!-- Allgemeine Infos zu Java -->
-* Objektorientierte Programmiersprache
-* Seit 1995
-* Plattformunabhängig
-	* Java Programme laufen auf verschiedenen Betriebssystemen  (Windows, Mac, Unix, Android)
+
+* Objektorientierte Programmiersprache seit 1995
+* Plattformunabhängig &rarr; Java Programme laufen auf verschiedenen Betriebssystemen (Windows, Mac, Unix, Android)
 * Java Software enthalten in Oracle's Standard Edition Java Development Kit [(Java SE JDK)](https://www.oracle.com/technetwork/java/javase/overview/index.html)
 * Aktuelle Version: [Java 11](http://jdk.java.net/11/)
 * Die Java Software ist auf den Pool-Rechnern installiert
@@ -23,10 +21,10 @@ __Java Grundlagen__
 ### Hello-World: Mein erstes Java-Programm
 
 - Ein [Hello-World-Programm](https://de.wikipedia.org/wiki/Hallo-Welt-Programm) ist ein Minimalbeispiel für ein Programm in einer Programmiersprache
-- Das folgende Java-Programm gibt die Zeichenkette "Hello World" auf der Konsole aus.
+- Das folgende Java-Programm gibt die Zeichenkette ```Hello World``` auf der Konsole aus.
 
 ```java
-public class HelloWorld
+public class CHelloWorld
 {
 	public static void main( String[] p_args )
 	{
@@ -38,16 +36,15 @@ public class HelloWorld
 ===
 
 ### Java Standalone am Rechner
-<!-- eine Subfolie für Java-Standalone am Rechner (Java Runtime) 
---> 
-![Build-Prozess](images/java-process.png)
  
- - Java Compiler:  Befehl `javac` 
-	 - Dienstprogramm, Teil der Java Software
-	 - Übersetzt Java Programm in binäres bytecode-Format (Endung `.class`)
- - Java Virtual Machine (JVM): Befehl `java`
+- Java Compiler:  Befehl ```javac```
+- Dienstprogramm, Teil der Java Software
+    - Übersetzt Java Programm in binäres bytecode-Format (Endung ```.class```)
+ - Java Virtual Machine (JVM): Befehl ```java```
 	 - Laufzeitumgebung für Java
 	 - Portabilität durch eine JVM pro Plattform (Betriebssystem)
+
+![Build-Prozess](images/java-process.png)
 
 ===
 
@@ -55,8 +52,9 @@ public class HelloWorld
 <!-- eine Subfolie für Java bei Android (Achtung die Infos auf Folien vom letzten Jahr stimmen nicht mehr Dalvik VM wird bei Android nicht mehr benutzt
 JPM: Ich würde das eher am Anfang der Android-Intro machen. Hier eher die allgemeine Abbildung, die den Cross-Platform Charakter von Java illustriert, s.u. -->
 
- - Android: Betriebssystem für mobile Endgeräte
- - Eigene JVM für Android, siehe VL4!
+- Android: Betriebssystem für mobile Endgeräte
+- Eigene JVM für Android, siehe [Android Grundlage](/android-grundlagen/)!
+
   ![Deployment](images/java-cross-pf.png)
 
 ---
@@ -65,13 +63,13 @@ JPM: Ich würde das eher am Anfang der Android-Intro machen. Hier eher die allge
  <!-- Übersetzungsvorgang, compilieren + Bundling 
  @Phil: Gehört Bundling nicht eher ins Android Kapitel?-->
 
- - **Quellcode**: Textbasierte Darstellung eines Programms
-	 - z.B. `.java` Datei, erstellt mit Texteditor (z.B. Visual Studio Code)
+- **Quellcode**: Textbasierte Darstellung eines Programms
+    - z.B. ```.java``` Datei, erstellt mit Texteditor (z.B. Visual Studio Code)
 	 - einzelne Zeichen als Bitfolgen gespeichert, standardisierte Kodierung (z.B. UTF-8)
 	 - Textdateien können nur textuelle Information enthalten
- - **Binärcode**: Ausführbares Programm als Bytefolge gespeichert, z.B. `.class` Datei
+ - **Binärcode**: Ausführbares Programm als Bytefolge gespeichert, z.B. ```.class``` Datei
 	 - Binärdateien sind nicht für den Menschen lesbar
-	 - werden von Programmen (z.B. Java Compiler `javac`) verarbeitet / interpretiert
+	 - werden von Programmen (z.B. Java Compiler ```javac```) verarbeitet / interpretiert
  - **App**: Ein Programm, das vom Nutzer aufgerufen und verwendet werden kann (z.B. Google Maps)
 
 ---
@@ -89,45 +87,48 @@ Werkzeug unter Windows: *Eingabeaufforderung*
 ===
 
 ### Kommandozeilentool unter Windows: Eingabeaufforderung
+
  1. Linksclick auf Windows-Symbol
- 2. In Windows-Suche `cmd` eingeben (+ Return-Taste)
- 3. Linksclick auf angezeigtes `cmd`-Symbol
+ 2. In Windows-Suche ```cmd``` eingeben (+ Return-Taste)
+ 3. Linksclick auf angezeigtes ```cmd```-Symbol
  
 ![Windows Commandline](images/1_cmd.png)
 
 ===
-### Befehle der Eingabeaufforderung
-<!-- Ausgewählte Befehle der Windows Commandline, navigieren in Verzeichnissen & Verzeichnislisting -->
- - `help` listet alle Befehle auf
- - `dir` listet Inhalt des aktuellen Verzeichnisses
- - `cd [Laufwerk:][Pfad]`wechselt Laufwerk / Verzeichnis, z.B. 
-	 - `cd c:\Users\jpm\Development`
-	 - `cd Development` wechselt in Unterverzeichnis `Development` des aktuellen Verzeichnisses, falls dieses existiert 
-	- `cd \` wechselt ins Wurzelverzeichnis
-	- `cd ..` wechselt in das übergeordnete Verzeichnis
-- Befehl mit der Option `/?` starten, um genauere Infos zu bekommen! 
-	- z.B.`cd /?` liefert Infos zum Befehl `cd`
-- `ren [Laufwerk:][Pfad]Dateiname1 Dateiname2` benennt Datei mit Namen `Dateiname1` in `Dateiname2` um
-- `del Dateiname` löscht die Datei mit Namen `Dateiname`, wenn diese Datei existiert
 
- ===
+### Befehle der Eingabeaufforderung
+
+- ```help``` listet alle Befehle auf
+- ```dir``` listet Inhalt des aktuellen Verzeichnisses
+- ```cd [Laufwerk:][Pfad]``` wechselt Laufwerk / Verzeichnis, z.B. 
+	 - ```cd c:\Programme```
+	 - ```cd Development``` wechselt in Unterverzeichnis ```Development``` des aktuellen Verzeichnisses, falls dieses existiert 
+    - ```cd \``` wechselt ins Wurzelverzeichnis
+    - ```cd ..``` wechselt in das übergeordnete Verzeichnis
+- Befehl mit der Option ```/?``` starten, um genauere Infos zu bekommen: ```cd /?``` liefert Infos zum Befehl ```cd```
+
+
+===
+ 
 ### Compilieren des Quellcodes
 
 - Übersetzen des geschriebenen Java-Quellcodes in _Maschinensprache_ (meistens Binärcode)
-- Eingabe in Java: 
-```shell
-javac HelloWorld.java
-```
+- Eingabe in Java:
 
-- Damit die Datei `javac.exe` gefunden wird, müssen die Umgebungsvariablen `%JAVA_HOME%` und `%PATH%` entsprehend gesetzt sein. [Details siehe z.B. hier](https://docs.oracle.com/javase/10/install/installation-jdk-and-jre-microsoft-windows-platforms.htm).
+    ```shell
+    javac HelloWorld.java
+    ```
+
+- Damit die Datei ```javac.exe``` gefunden wird, müssen die Umgebungsvariablen ```%JAVA_HOME%``` und ```%PATH%``` entsprehend gesetzt sein. [Details siehe z.B. hier](https://docs.oracle.com/javase/10/install/installation-jdk-and-jre-microsoft-windows-platforms.htm).
 
 ===
 
 ### Ausführen des Programms
 
-```shell
-java HelloWorld
-```
+    ```shell
+    java HelloWorld
+    ```
+    
 Und hier das ganze im Video:
 
 <iframe class="video" src="https://player.vimeo.com/video/287916699" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
@@ -149,67 +150,71 @@ Und hier das ganze im Video:
 ---
 
 ## Aufbau eines Java-Programms
-<!-- wie ist der allgemeine Aufbau eines Java Programs, Stichwort Klasse, Stichwork main, insbesondere Parameter erklären -->
+
 - Betrachten wir noch einmal unser HelloWorld-Programm
-```java
-public class HelloWorld
-{
-	public static void main( String[] p_args )
-	{
-		// Ausgabe 
-		System.out.println( "Hello, World" );
-	}
-}
-```
- - Quelldatei enthält Klasse HelloWorld 
-	 - *Achtung*: Groß-/Kleinschreibung wird in Java generell unterschieden!
- - Verhalten einer Klasse wird durch Methoden beschrieben
- - Die `HelloWorld` Klasse hat eine Methode: ```main()``` 
-- In der Folge erfahren wir mehr über Klassen und Ihren Aufbau
+
+    ```java
+    public class CHelloWorld
+    {
+    	public static void main( String[] p_args )
+    	{
+    		// Ausgabe 
+    		System.out.println( "Hello, World" );
+    	}
+    }
+    ```
+
+- Quelldatei enthält Klasse HelloWorld 
+    - *Achtung*: Groß-/Kleinschreibung wird in Java generell unterschieden!
+- Verhalten einer Klasse wird durch Methoden beschrieben
+- Die ```CHelloWorld``` Klasse hat eine Methode: ```main()``` 
+
 
 ===
 
 ### Klassen 
 	
-- Zentrale Einheit der objektorientierten Programmierung (s. VL2). 
+- Zentrale Einheit der [objektorientierten Programmierung](/oop-grundlagen/)). 
 - Programmcode ist in Klassen organisiert
-- Klasse hat Namen (z.B. HelloWorld)
-- Konvention: Name der Klasse = Name der Quelldatei, die die Klasse enthält
+- Klasse hat Namen (z.B. ```CHelloWorld```)
+- Konvention: Name der Klasse = Name der Quelldatei, die die Klasse enthält und Prefix ```C``` für Klasse / Class
 
 ===
 
 ### Methoden
+
 - Strukturieren den Code einer Klasse
 - Methode beschrieben durch
-	- Rückgabewert (`void` = Methode gibt keinen Wert zurück)
-	- Name (`main`)
+	- Rückgabewert (```void``` = Methode gibt keinen Wert zurück)
+	- Name (```main```)
 	- Eingabeparameter (optional), beschrieben durch 
-		- Typ, z.B. `String[]` bezeichnet Liste (Array)  von Zeichenketten
-		- Name `p_args` 
-	- Rumpf mit Anweisungen, in `{ ... }`eingefasst
-- Methoden und Klassen können außerdem sog. Modifikatoren haben (z.B. `public`, oder `public static` (siehe VL2)
+		- Typ, z.B. ```String[]``` bezeichnet Liste (Array)  von Zeichenketten
+		- Name ```p_args``` 
+	- Rumpf mit Anweisungen, in ```{ ... }``` eingefasst
+- Methoden und Klassen können außerdem sog. Modifikatoren haben (z.B. ```public```, oder ```public static``` (siehe [Objekt-Orientierte Programmierung Grundlagen](/oop-grundlagen/))
 
 ---
 
 ## Java Schlüsselwörter
 
-Java besitzt [50 reservierte Schlüsselwörter](https://en.wikipedia.org/wiki/List_of_Java_keywords), die in der Sprachdefinition festgelegt sind.
-
+* Java besitzt [50 reservierte Schlüsselwörter](https://en.wikipedia.org/wiki/List_of_Java_keywords), die in der Sprachdefinition festgelegt sind.
 * Sie definieren den Grundwortschatz der Programmiersprache, grundlegende Befehle
-* Im HelloWorld-Programm haben wir bereits einige davon kennen gelernt: `public`, `class`, `static`, `void`
+* Im [HelloWorld-Programm](#/5) haben wir bereits einige davon kennen gelernt: ```public```, ```class```, ```static```, ```void```
 * Schlüsselwörter dürfen nicht als Variablen-, Funktions-, Methoden-, Klassennamen benutzt werden
 
 ---
 
 ## Datentypen
-<!-- Basisdatentypen, Text, Zahl, Boxing/Unboxing des Compilers -->
-- Alle Daten, die in Java-Programmen verarbeitet werden, müssen wohldefinierten Datentyp haben
+
+- Alle Daten, die in Java-Programmen verarbeitet werden, müssen einen wohldefinierten Datentyp haben
 - jeder Datentyp hat einen Namen und definiert einen Wertebereich
-- Java enthält vordefinierte Basisdatentypen, z.B.: 
+- Java enthält vordefinierte (primitive) Basisdatentypen 
+
+---
 
 |Datentyp|Wertebereich|
 |--|--|
-| boolean|`true` und `false`, 1 Bit Länge |
+| boolean | ```true``` und ```false```, 1 Byte Länge |
 | byte | Ganze Zahlen von -128 bis 127 |
 | int| Ganze Zahl, 32 bit Länge | 
 | double| Fliesskommazahl mit doppelter Genauigkeit | 
@@ -219,6 +224,7 @@ Java besitzt [50 reservierte Schlüsselwörter](https://en.wikipedia.org/wiki/Li
 ===
 
 ### @Profis
+
 Warum  gibt es verschiedene Datentypen für Zahlenwerte?
 Man könnte doch für alles `double` verwenden ...
 
@@ -229,85 +235,88 @@ Man könnte doch für alles `double` verwenden ...
  
 - Benannter Bereich im Speicher, dem in einem Programm ein Wert zugewiesen werden kann 
 - Mithilfe der Datentypen können wir dem Java-Compiler genau beschreiben, welches erlaubte Werte einer Variable sind 
-- Wir erweitern unser Hallo-World-Programm:
-``` java
-public class HelloWorld
-{
-	// Variablendeklaration mit Initialisierung
-	private final String message = "Hello World";
-	
-	public static void main( String[] p_args )
-	{
-	// Variable wird Methode als Parameter übergeben
-		System.out.println( message );
-	}
-}
-```
+- Wir erweitern unser [HelloWorld-Programm](#/5):
+
+    ``` java
+    public class HelloWorld
+    {
+    	// Variablendeklaration mit Initialisierung
+    	private final String message = "Hello World";
+    	
+    	public static void main( String[] p_args )
+    	{
+    	// Variable wird Methode als Parameter übergeben
+    		System.out.println( message );
+    	}
+    }
+    ```
 
 ===
 
 ### Zuweisung
 <!-- Zuweisungen von Variablen, Beachtung von final -->
 - Variable muss vor Verwendung deklariert werden
-```  java
-	private final String message = "Hello World";
-```
-- Mit dem Zuweisungsoperator `=` kann einer Variable ein Wert zugewiesen werden
-- `=` kopiert Wert auf der rechten Seite in die Variable auf der linken 
+    ```java
+        private final String message = "Hello World";
+    ```
+- Mit dem Zuweisungsoperator ```=``` kann einer Variable ein Wert zugewiesen werden
+- ```=``` kopiert Wert auf der rechten Seite in die Variable auf der linken 
 - Wichtig: Initiale Wertzuweisung (=Initialisierung) vor Verwendung einer Variable! 
-- Modifikator `final` gibt an, dass die Variable nach der Initialisierung nicht mehr verändert werden darf
-- `final` wird häufig verwendet, um Konstanten zu definieren
+- Modifikator ```final``` gibt an, dass die Variable nach der Initialisierung nicht mehr verändert werden darf
+- ```final``` wird häufig verwendet, um Konstanten zu definieren
 
 ===
 
 ### Verwendung von Variablen bei Methodenaufrufen
-``` java
+
+- Die Variable `message` kann nach ihrer Instanziierung als Argument (Parameter) beim Aufruf der Methode  `println()` des Objekts `System.out` (siehe [Objekt-Orientierte Programmierung Grundlagen](/oop-grundlagen/)) verwendet werden
+- Der Wert der Variable wird an die Methode übergeben und dort weiterverarbeitet. 
+
+```java
 	public static void main( String[] p_args )
 	{
 		System.out.println( message );
 	}
-```	
-- Die Variable `message` kann nach ihrer Instanziierung als Argument (Parameter) beim Aufruf der Methode  `println()` des Objekts `System.out` (siehe VL2) verwendet werden
-- Der Wert der Variable wird an die Methode übergeben und dort weiterverarbeitet. 
+```
+	
+
 
 === 
 
 ### main() Methode
  
- -  Programme wie unser `HelloWorld` Beispiel , die eine main() Methode haben, sind *ausführbar*.
- -  Ausführung: Aufruf / Abarbeitung der `main()`-Methode
- - Das Argument `String[] p_args` der `main()` Methode kann genutzt werden, um bei dem Aufruf des Programms über die Kommandozeile Parameter an es zu übergeben.
+- Programme wie unser ```HelloWorld``` Beispiel , die eine main() Methode haben, sind *ausführbar*.
+- Ausführung: Aufruf / Abarbeitung der ```main()```-Methode
+- Das Argument ```String[] p_args``` der ```main()``` Methode kann genutzt werden, um bei dem Aufruf des Programms über die Kommandozeile Parameter an es zu übergeben.
 
 ---
 
 ## Typumwandlung
-<!-- Was bedeutet Casting, wozu wird es benötigt, was ist der Sinn davon, was sind die Nachteile davon, insbesondere parsen von String als numerischer Wert -->
 
-- Typumwandlung (engl. *Casting*) = Umwandlung eines Datentyps in einen anderen Datentyp.
+Typumwandlung (engl. *Casting*) = Umwandlung eines Datentyps in einen anderen Datentyp.
 
-    ```java
-    byte counterB = 1;
-    int counterI = 1;
-    double counterD = 1.0;
-    String myNumber = "";
-    // wir casten jetzt eine byte-Variable auf eine  int-Variable und dann die int-Variable auf eine double-Variable. Geht das?
-    counterI = counterB;
-    counterD = counterI;
-    System.out.println("counterD = ", counterD);
+```java
+byte counterB = 1;
+int counterI = 1;
+double counterD = 1.0;
+String myNumber = "";
+// wir casten jetzt eine byte-Variable auf eine  int-Variable und dann die int-Variable auf eine double-Variable. Geht das?
+counterI = counterB;
+counterD = counterI;
+System.out.println("counterD = ", counterD);
     
-    //int auf String casten erfordert extra Methodenaufruf
-    mynumber = Integer.toString(counterI).
-    ```
+//int auf String casten erfordert extra Methodenaufruf
+mynumber = Integer.toString(counterI).
+```
 
 ===
 
 ### @Let's try
 
-<!-- Codebeispiel Main-Programm, Variablen deklarieren, Variablen setzen, Variablen mit Println ausgeben -->
-1. Schreibe eine Klasse Example.java mit einer `main()`-Methode
-2. Kopiere das obigen Code-Fragment in den Rumpf der `main()`-Methode 
+1. Schreibe eine Klasse Example.java mit einer ```main()```-Methode
+2. Kopiere das obigen Code-Fragment in den Rumpf der ```main()```-Methode 
 4. Übersetze das Programm und führe es aus! Was beobachtest Du?
-5. Füge nun folgende Zeile am Ende des `main()`-Programms ein?
+5. Füge nun folgende Zeile am Ende des ```main()```-Programms ein?
 
     ```java
     // hier versuche ich, eine double-Variable auf eine int-Variable zu casten :o
@@ -316,7 +325,7 @@ public class HelloWorld
 
 6. Übersetze das Programm! Was beobachtest Du?
 7.  Ermittele jeweils durch Nachdenken oder probieren: Auf welche Typen können byte / int / double gecastet werden?
-8. Versuche, die Variable `counterD` auf die String-Variable `myNumber` zu casten! 
+8. Versuche, die Variable ```counterD``` auf die String-Variable ```myNumber``` zu casten! 
 
 ===
 
@@ -324,8 +333,8 @@ public class HelloWorld
 
 - Typenumwandlung ist oft notwendig, erfordert aber Sorgfalt!
 - Dabei können Probleme zur Übersetzungszeit und u.U. auch zur Ausführungszeit (runtime) eines Programmes auftreten 
-- *Erweiterndes Casting* (z.B. von `int` auf `double`) wird vom Compiler automatisch durchgeführt (implizites Casting)
-- *Einschränkendes Casting* (z.B. von `double` auf `int`) muss explizit vom Programmierer gemacht *(und geprüft!)* werden. Beispiel:
+- *Erweiterndes Casting* (z.B. von ```int``` auf ```double```) wird vom Compiler automatisch durchgeführt (implizites Casting)
+- *Einschränkendes Casting* (z.B. von ```double``` auf ```int```) muss explizit vom Programmierer gemacht *(und geprüft!)* werden. Beispiel:
 
     ```java
     int myInt;
@@ -335,20 +344,21 @@ public class HelloWorld
     ```
     
 - **@Let's try:** Führe den o.g. Code aus und gib die Werte von `myInt` und `pi` aus! Was beobachtest Du?
-<!-- kein Compile-Fehler, aber nur ganzzahliger Anteil!-->
+
+Note: kein Compile-Fehler, aber nur ganzzahliger Anteil!-->
 
 ---
 
 ## Größer, Kleiner, Gleich - Vergleiche und Operatoren
-<!-- Operatoren erklären, Operatoren Precedence erklären -->
 
 - In Java kann man eine größe Anzahl von [Standard-Operatoren](https://de.wikibooks.org/wiki/Java_Standard:_Operatoren) nutzen
-- Einen kennen wir schon: Operator `A=B` weist `A` den Wert in `B` zu 
-- Mit arithmetischen Operatoren (z.B. `+, -`) kann man rechnen. Übersicht [hier](https://de.wikibooks.org/wiki/Java_Standard:_Operatoren#Arithmetische_Operatoren)
-- Vergleichs-Operatoren (z.B. >, !=, >=) drücken Bedingungen für Verzweigungen eines Programms aus.  Übersicht [hier](https://de.wikibooks.org/wiki/Java_Standard:_Operatoren#Operatoren_f%C3%BCr_Vergleiche)
+- Einen kennen wir schon: Operator ```A=B``` weist ```A``` den Wert in ```B``` zu 
+- Mit arithmetischen Operatoren (z.B. ```+```, ```-```) kann man rechnen. Übersicht [hier](https://de.wikibooks.org/wiki/Java_Standard:_Operatoren#Arithmetische_Operatoren)
+- Vergleichs-Operatoren (z.B. ```>```, ```!=```, ```>=```) drücken Bedingungen für Verzweigungen eines Programms aus. Übersicht [hier](https://de.wikibooks.org/wiki/Java_Standard:_Operatoren#Operatoren_f%C3%BCr_Vergleiche)
 - Übliche mathematische Präzedenzregeln für Operatoren (z.B. "Punktrechnung vor Strichrechnung"). Übersicht [hier](https://de.wikibooks.org/wiki/Java_Standard:_Operatoren)
 - Im Zweifelsfall: Klammern setzen!
 - **@Let's try:**
+
     ```java
     int i = 2;
     int j = 2 * i;
@@ -372,7 +382,7 @@ public class HelloWorld
 - bei String und anderen Objekten: Test mit Methode `equals()`
 
     ```java
-    String  s1=new  String("maus"); // neues String-Objekt wird erzeugt (s. VL2)
+    String  s1=new  String("maus"); // neues String-Objekt wird erzeugt
     String  s2=new  String("maus");
     System.out.println(s1==s2); // false!
     System.out.println(s1.equals(s2)); // true
@@ -633,7 +643,7 @@ Betrachte die beiden folgenden IF-ELSE Anweisungen
 ---
 
 ## Infinity Loop
-<!-- while true, was passiert intern dabei -> CPU Last 100% -->
+
 - Frage: Wie kann man ein Programm erzeugen, das nie anhält?
 - Antwort: Whileschleife, die nie abbricht
 
