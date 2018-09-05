@@ -643,12 +643,12 @@ for ( final String item : someList )
 
 ===
 
-### While / do-while
+### While / Do-While
 
 - Wenn die Anzahl der Wiederholungen eines Codeblocks nicht bekannt ist, sondern nach jedem Durchlauf eine Bedingung überprüft werden muss, nutzen wir die `while-`Schleife
 - z.B. wir schauen alle 5 Sekunden so lange in den Briefkasten, bis ein Brief drinnen liegt
 
- ```
+```
 // Pseudocode - dient nur zum Erklären des Prinzips
 // Zum Speichern der Mail
 Mail m = null{ // Mache weiter, solange noch keine Mail da ist
