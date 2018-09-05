@@ -383,8 +383,8 @@ else
 ===
 ### Ternärer Operator
 <!-- ternärer Operator funktioniert nur für 2 Alternativen; kompakter; if-else empfinden viele als besser lesbar -->
-- Wenn nur zwischen zwei Ausgabewerten unterschieden werden soll, so gibt es für die IF-ELSE-Anweisung eine Kurzform
--  Der ternäre Operator `?:` hat die Form
+- Wenn nur zwischen zwei Ausgabewerten unterschieden werden soll, gibt es für die IF-ELSE-Anweisung eine Kurzform
+-  Der *ternäre Operator* `?:` hat die Form
 ```
 (<boolescher Ausdruck>) `?` AusgabewertTrue `:` AusgabewertFalse;
 ```
@@ -592,11 +592,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjM4ODQyODUsLTEyNzE2NjgzMCwtOT
-c0MjYwNzQzLC0xOTI4Njc0NjUwLC0xMTU5MTM5MzAxLDE0ODgz
-MTg2MzksMTIwMDQ5NzkyNCwxNjI2MjY1NTY0LC0xNzQzNDE1OD
-MxLC0yNzkxMjg2OTgsMTU5MTY3MzkzOSwtNTk3ODc1MzM2LC0x
-NDU3MDUxNzA5LDU1MDM0MTUzNSw2NDQwNDk1MDcsMTc5OTM4ND
-YxNCwxMDA2MzQ1MzM4LDYyNTA5ODc3OSw5MzM5MjUxNDAsLTEw
-NTI3MTQ0MjZdfQ==
+eyJoaXN0b3J5IjpbNjUxMTgyNTY3LC0xODIzODg0Mjg1LC0xMj
+cxNjY4MzAsLTk3NDI2MDc0MywtMTkyODY3NDY1MCwtMTE1OTEz
+OTMwMSwxNDg4MzE4NjM5LDEyMDA0OTc5MjQsMTYyNjI2NTU2NC
+wtMTc0MzQxNTgzMSwtMjc5MTI4Njk4LDE1OTE2NzM5MzksLTU5
+Nzg3NTMzNiwtMTQ1NzA1MTcwOSw1NTAzNDE1MzUsNjQ0MDQ5NT
+A3LDE3OTkzODQ2MTQsMTAwNjM0NTMzOCw2MjUwOTg3NzksOTMz
+OTI1MTQwXX0=
 -->
