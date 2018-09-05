@@ -138,7 +138,7 @@ Und hier das ganze im Video:
 
 1. Starte _Visual Studio Code_
 2. Erstelle leere Datei mit dem Namen ```HelloWorld.java```
-3. Kopiere oder schreibe den Beispielcode des Hello-World-Programms __exakt, wie angegegben,__ in die Datei
+3. Kopiere oder schreibe den Beispielcode des Hello-World-Programms __exakt wie angegeben,__ in die Datei
 4. Speichere die Datei auf dem Desktop
 5. Öffne die _Eingabeaufforderung_
 6. Schau mittels ```dir``` wo der Desktop ist
@@ -673,11 +673,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTc1MTIzNywxNDkwNzYxMjAsMTAxNz
-E3ODk2MSwtODcwMjgyNzcsMjAyNDE0NjMzMiwzMTU1NjQwMzEs
-MTY1OTk1NTA5NiwxNzM2NDAwOTg3LC0xMDQ3MjI5MTYzLC0xMz
-AzMzY4NDUxLDE4MzA3NTU5MTQsLTE0NzExNzY3MDcsLTQ1MDA3
-NzIzLDY1MTE4MjU2NywtMTgyMzg4NDI4NSwtMTI3MTY2ODMwLC
-05NzQyNjA3NDMsLTE5Mjg2NzQ2NTAsLTExNTkxMzkzMDEsMTQ4
-ODMxODYzOV19
+eyJoaXN0b3J5IjpbLTE0MjE3OTQyMjAsLTE4MTc1MTIzNywxND
+kwNzYxMjAsMTAxNzE3ODk2MSwtODcwMjgyNzcsMjAyNDE0NjMz
+MiwzMTU1NjQwMzEsMTY1OTk1NTA5NiwxNzM2NDAwOTg3LC0xMD
+Q3MjI5MTYzLC0xMzAzMzY4NDUxLDE4MzA3NTU5MTQsLTE0NzEx
+NzY3MDcsLTQ1MDA3NzIzLDY1MTE4MjU2NywtMTgyMzg4NDI4NS
+wtMTI3MTY2ODMwLC05NzQyNjA3NDMsLTE5Mjg2NzQ2NTAsLTEx
+NTkxMzkzMDFdfQ==
 -->
