@@ -499,7 +499,7 @@ int, b = , c = 7;
 - Elemente über eine Index-Variable beginnent bei 0 bis _Anzahl Element - 1_
 - Beispiel aus [HelloWorld](#/1/1):  ```String[] p_args```
 
-![Array Aufbaue](images//1_array.png)
+![Array Aufbau](images//1_array.png)
 
 ===
 
@@ -507,8 +507,8 @@ int, b = , c = 7;
 
 - Eindimensionaler Array &rarr; Aufzählung in geschweiften Klammern
 
-```ava
-[] l_highscores = {1000, 850, 600};
+    ```java
+int[] l_highscores = {1000, 850, 600};
     ```
 
 - Eindimensionaler Array &rarr; leeres Arrayerzeugen und einzeln mit Werten füllen r
