@@ -544,7 +544,7 @@ for (String item : someList) {
     System.out.println(item);
 }
 ```
-- For each ist geeignet für Lese-Operationen. Man kann im Körper der Anweisung keine Elemente der Liste löschen
+- Anm.: `For each` ist geeignet für Lese-Operationen. Da im Körper der Anweisung nur Kopien der Listenelemente verarbeitet werden, kann man damit keine Elemente der Liste ändern oder löschen!
 
 ```
 - Java bietet unterschiedliche Kontrollstrukturen für Schleifen, z.B.
@@ -621,11 +621,11 @@ https://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDMzNjg0NTEsMTgzMDc1NTkxNCwtMT
-Q3MTE3NjcwNywtNDUwMDc3MjMsNjUxMTgyNTY3LC0xODIzODg0
-Mjg1LC0xMjcxNjY4MzAsLTk3NDI2MDc0MywtMTkyODY3NDY1MC
-wtMTE1OTEzOTMwMSwxNDg4MzE4NjM5LDEyMDA0OTc5MjQsMTYy
-NjI2NTU2NCwtMTc0MzQxNTgzMSwtMjc5MTI4Njk4LDE1OTE2Nz
-M5MzksLTU5Nzg3NTMzNiwtMTQ1NzA1MTcwOSw1NTAzNDE1MzUs
-NjQ0MDQ5NTA3XX0=
+eyJoaXN0b3J5IjpbLTI5NjA5NjcyMywtMTMwMzM2ODQ1MSwxOD
+MwNzU1OTE0LC0xNDcxMTc2NzA3LC00NTAwNzcyMyw2NTExODI1
+NjcsLTE4MjM4ODQyODUsLTEyNzE2NjgzMCwtOTc0MjYwNzQzLC
+0xOTI4Njc0NjUwLC0xMTU5MTM5MzAxLDE0ODgzMTg2MzksMTIw
+MDQ5NzkyNCwxNjI2MjY1NTY0LC0xNzQzNDE1ODMxLC0yNzkxMj
+g2OTgsMTU5MTY3MzkzOSwtNTk3ODc1MzM2LC0xNDU3MDUxNzA5
+LDU1MDM0MTUzNV19
 -->
