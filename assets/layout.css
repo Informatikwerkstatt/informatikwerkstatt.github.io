@@ -198,6 +198,7 @@
  
  .reveal code {
    font-family: monospace;
+   font-size: 110%;
    text-transform: none; }
  
  .reveal pre code {
@@ -321,7 +322,7 @@
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  background: #7E7E7E;
+  background: #1E1E1E;
   color: #DCDCDC;
 }
 
