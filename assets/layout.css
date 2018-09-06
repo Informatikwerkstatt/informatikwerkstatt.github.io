@@ -89,13 +89,13 @@
   }
 
   .reveal img[src$='#floatright'],
-  .reveal floatright {
+  .reveal .floatright {
     float: right;
     margin-left: 0.25em;
   }  
 
   .reveal img[src$='#floatleft'],
-  .reveal floatleft {
+  .reveal .floatleft {
     float: left;
     margin-right: 0.25em;
   }  
