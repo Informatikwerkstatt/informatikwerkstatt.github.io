@@ -109,7 +109,22 @@ Software-Entwicklung besteht aus viel Text schreiben, so dass es hilfreich ist, 
 
 ### Shortcuts - eine Auswahl
 
-[alle Shortcuts](https://developer.android.com/studio/intro/keyboard-shortcuts)
+| Kommando              | Shortcut  |
+|-----------------------|:---------:|
+| Klasse finden         | ```Control``` + ```N``` |
+| Alles speichern       | ```Control``` + ```S``` |
+| Suchen                | ```Control``` + ```F``` |
+| Ersetzen              | ```Control``` + ```R``` |
+| | |
+| Optimiere Imports     | ```Control``` + ```Alt``` + ```O``` |
+| Reformat code	        | ```Control``` + ```Alt``` + ```L``` |	
+| Quick-Fix<sup>1<sup>  | ```Alt``` + ```Enter``` |
+| Basis Code-Ergänzung  | ```Control``` + ```Space``` |
+| Smarte Code-Ergänzung | ```Control``` + ```Shift``` + ```Space```
+| | |
+| Erzeugen & Ausführen  | ```Shift``` + ```F10``` |
+
+&rArr; [alle Shortcuts](https://developer.android.com/studio/intro/keyboard-shortcuts)
 
 ---
 
@@ -154,13 +169,14 @@ Log.e( "berechnung", "hier ist eine Division durch null aufgetreten" );
 
 ### Log Levels
 
-nach Schwere sortiert:
 
-* Verbose &rarr; ```Log.v( "tag", "text" )```
-* Debug &rarr; ```Log.d( "tag", "text" )```
-* Info &rarr; ```Log.i( "tag", "text" )```
-* Warn &rarr; ```Log.w( "tag", "text" )```
-* Error &rarr; ```Log.e( "tag", "text" )```
+| Log Level | Source Code |
+|-----------|:-----------:|
+| Verbose   | ```Log.v( "tag", "text" )``` |
+| Debug     | ```Log.d( "tag", "text" )``` |
+| Info      | ```Log.i( "tag", "text" )``` |
+| Warn      | ```Log.w( "tag", "text" )``` |
+| Error     | ```Log.e( "tag", "text" )``` |
 
 
 ===
