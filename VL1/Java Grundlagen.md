@@ -326,7 +326,7 @@ public class CTypeUmwandlung
     final int l_pi_int = (int) l_pi;
     ```
 
-- *Schlechter Code-Stil*, da ein _expliziter Cast_ immer ein Hinweis auf einen nicht richtig definierten Typ ist
+- *Schlechter Code-Stil*, da ein _expliziter Cast_ immer ein Hinweis auf einen nicht richtig definierten Typ ist, besser ein generischer Typ
 
     ```java
     final Number l_pi = 3.14159;
