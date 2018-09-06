@@ -77,6 +77,8 @@ Um zu
 
 ## Ablauf & Termine
 
+===
+
 ### Vorlesung mit Übung (bis Dez)
 
 | Datum   | Thema    |
@@ -191,7 +193,7 @@ eyJoaXN0b3J5IjpbLTEzNjEyOTk1MTFdfQ==
 
 ---
 
-## Darf ich Sachen aus dem Internet kopieren?
+## Darf ich Sachen kopieren?
 
 Grundsätzlich __Ja__
 aber man muss angeben woher man sich etwas kopiert hat, sonst ist es ein [Plagiat](https://de.wikipedia.org/wiki/Plagiat) was zum Ausschluss führen kann.
@@ -224,7 +226,7 @@ aber man muss angeben woher man sich etwas kopiert hat, sonst ist es ein [Plagia
 
 ## Wir bieten nur die Basis
 
-* Das Script ist __nur__ eine Grundlage
+* Das Script und die Veranstaltung ist __nur__ eine Grundlage
 * Probiert selbstständig alles aus
 * Werdet aktiv bei Problemen / Fragen &rarr; Wir helfen Euch zu lernen
 * Im Team lernt Ihr am meisten &rarr; arbeitet mit unterschiedlichen Menschen zusammen
