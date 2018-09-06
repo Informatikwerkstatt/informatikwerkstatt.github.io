@@ -205,11 +205,15 @@ __&rarr; Was passiert und wie erklärt Ihr Euch bei den unterschiedlichen Listen
 
 ## Activity
 
-* entspricht einem Fenster in dern Anwendung
+* entspricht einem Fenster in der Anwendung 
+* ist eine spezielle [Android](https://developer.android.com/reference/android/app/Activity) [Klasse](/oop-grundlagen/#/2)
+* benötigt ein Layout in der [Manifestdatei](/android-grundlagen/#/5/1)
 * wird eine Activity geöffnet &rarr; wird sie als über die bestehende Activity gelegt
-* jede Activity 
-	* ist eine [Java Klasse](/oop-grundlagen/#/2)
-	* benötigt ein Layout in der Manifestdatei
+* [Einführung in Activities](https://developer.android.com/guide/components/activities/intro-activities)
+
+===
+
+### @Let's try
 
 ---
 
