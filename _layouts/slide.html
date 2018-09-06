@@ -84,6 +84,11 @@
                         jQuery(this).after( jQuery("<strong/>").text( "RRD Parsing Error: " + e ) );
                     }
                 });
+            } },
+            { src: '//cdnjs.cloudflare.com/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js', async: true, callback: function() { 
+                jQuery( '.qrcode' ).each(function() {
+                    jQuery(this).qrcode({ text : jQuery(this).attr( 'data-qrcode' ) });
+                });    
             } }
         ]
     });

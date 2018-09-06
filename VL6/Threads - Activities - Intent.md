@@ -205,7 +205,7 @@ __&rarr; Was passiert und wie erklärt Ihr Euch bei den unterschiedlichen Listen
 
 ## Activity
 
-* entspricht einem Fenster in der Anwendung 
+* entspricht einem [Fenster mit Interaktion durch den Benutzer](https://de.wikibooks.org/wiki/Googles_Android/_Activities) in der Anwendung 
 * ist eine spezielle [Android](https://developer.android.com/reference/android/app/Activity) [Klasse](/oop-grundlagen/#/2)
 * benötigt ein Layout in der [Manifestdatei](/android-grundlagen/#/5/1)
 * wird eine Activity geöffnet &rarr; wird sie als über die bestehende Activity gelegt
@@ -223,9 +223,13 @@ __&rarr; Was passiert und wie erklärt Ihr Euch bei den unterschiedlichen Listen
 
 ## Intent
 
+* ein Intent ist die [abstrakte Absicht](https://de.wikibooks.org/wiki/Googles_Android/_Intents_oder_%22Ich_h%C3%A4tte_gern_den_Zucker%22) zu tun
+
 ---
 
 ## Datenübergabe Intent &rarr; Activity
+
+> Um eine Activity aus einer anderen zu öffnen / starten, benötigen man ein Intent, in dem die Daten übergeben werden
 
 ---
 
