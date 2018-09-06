@@ -94,12 +94,12 @@ Wir nutzen später in dieser Vorlesung [Java auf Ant](/android-grundlagen/)
 
 ### Befehle der Eingabeaufforderung
 
-- ```dir``` listet Inhalt des aktuellen Verzeichnisses
-- ```cd [Laufwerk:][Pfad]``` wechselt Laufwerk / Verzeichnis, z.B. 
+- ```dir``` &rarr; Inhalt des aktuellen Verzeichnisses
+- ```cd [Laufwerk:][Pfad]``` &rarr; wechselt Laufwerk / Verzeichnis
 	 - ```cd c:\Programme```
-	 - ```cd Development``` wechselt in Unterverzeichnis ```Development``` des aktuellen Verzeichnisses, falls dieses existiert 
-    - ```cd \``` wechselt ins Wurzelverzeichnis
-    - ```cd ..``` wechselt in das übergeordnete Verzeichnis
+	 - ```cd Development``` &rarr; wechselt in das existiertende Unterverzeichnis ```Development```
+    - ```cd \``` &rarr; wechselt ins Wurzelverzeichnis
+    - ```cd ..``` &rarr; wechselt in das übergeordnete Verzeichnis
 - Befehl mit der Option ```/?``` aufrufen, um eine kurze Hilfe zu erhalten
 - [Liste weiterer Befehle](https://de.wikibooks.org/wiki/Batch-Programmierung:_Wichtige_DOS-Kommandos)
 
