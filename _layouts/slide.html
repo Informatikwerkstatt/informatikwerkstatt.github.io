@@ -74,7 +74,14 @@
             } },
             { src: '{{ site.baseurl }}/assets/railroad-diagrams.js', async: true, callback: function() {
                 jQuery(".rrd").each(function() {
-                    // https://tabatkins.github.io/railroad-diagrams/generator.html
+                    try
+                    {
+                        jQuery(this).after( eval( jQuery(this).text() ) );
+                    }
+                    catch (e)
+                    {
+                        jQuery(this).after( jQuery("<strong/>").text( "RRD Parsing Error" ) );
+                    }
                 });
             } }
         ]
