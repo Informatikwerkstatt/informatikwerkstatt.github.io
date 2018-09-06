@@ -420,15 +420,14 @@ else
 ### Ternärer Operator
 
 - Wenn nur zwischen zwei Ausgabewerten unterschieden werden soll, gibt es für die IF-ELSE-Anweisung eine Kurzform
--  Der *ternäre Operator* hat die Form  <span class="rrd" data-rrd="Diagram( Sequence( NonTerminal('Bedingung'), Terminal('?'), NonTerminal('Wert bei True'), Terminal(':'), NonTerminal('Wert ebi False') ) )"></span>
+-  Der *ternäre Operator* hat die allgemeine Form  <span class="rrd" data-rrd="Diagram( Sequence( NonTerminal('Bedingung'), Terminal('?'), NonTerminal('Wert bei True'), Terminal(':'), NonTerminal('Wert bei False') ) )"></span>
+- als Zuweisung
 
 ```java
-(a > 0) 
-? System.out.println(a + " ist positiv") 
-: System.out.println(a + " ist nichtpositiv");
+String l_result = (a > 0) ? "Wert ist positiv") : "Wert ist nicht positiv";
 ```
 
-- Oder etwas eleganter
+- Oder etwas eleganter als Parameter
 
 ```java
 System.out.println(a + " ist " + ((a > 0) ? "positiv" : "nichtpositiv"));
