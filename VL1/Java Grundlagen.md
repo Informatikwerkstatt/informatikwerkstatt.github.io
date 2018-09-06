@@ -84,10 +84,10 @@ Wir nutzen später in dieser Vorlesung [Java auf Ant](/android-grundlagen/)
 
 ### Kommandozeilentool unter Windows: Eingabeaufforderung
 
+![Windows Commandline](images/1_cmd.png#floatright)
 1. Linksclick auf Windows-Symbol
 2. In Windows-Suche ```cmd``` eingeben (+ Return-Taste)
 3. Linksclick auf angezeigtes ```cmd```-Symbol
-![Windows Commandline](images/1_cmd.png#floatright)
 
 ===
 
