@@ -110,7 +110,7 @@ Software-Entwicklung besteht aus viel Text schreiben, so dass es hilfreich ist, 
 ### Shortcuts - eine Auswahl
 
 | Kommando              | Shortcut  |
-|-----------------------|:---------:|
+|-----------------------|----------:|
 | Klasse finden         | ```Control``` + ```N``` |
 | Alles speichern       | ```Control``` + ```S``` |
 | Suchen                | ```Control``` + ```F``` |
@@ -124,7 +124,8 @@ Software-Entwicklung besteht aus viel Text schreiben, so dass es hilfreich ist, 
 | | |
 | Erzeugen & Ausführen  | ```Shift``` + ```F10``` |
 
-&rArr; [alle Shortcuts](https://developer.android.com/studio/intro/keyboard-shortcuts)
+<small>1: kann benutzt werden, wenn ein Befehl mit einer <span style="text-decoration: underline wavy red;">roten Linie</span> unterstrichen wurde</small>
+<small>[alle Shortcuts](https://developer.android.com/studio/intro/keyboard-shortcuts)</small>
 
 ---
 
