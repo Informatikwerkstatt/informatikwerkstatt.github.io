@@ -66,9 +66,9 @@ Um zu
 ## Die Spielregeln
 
 * Termine im IFI PC Pool
-    * betreute Übung Di 17-19 Uhr (Anwesenheitspflicht)
-    * unbetreute Übung Mi 8-10 Uhr
-    * Vorlesung Fr 13-15 Uhr (Anwesenheitspflicht)
+    * betreute Übung Di 17:00-19:00 Uhr (Anwesenheitspflicht)
+    * Vorlesung Mi 8:30-10:00 Uhr (Anwesenheitspflicht)
+    * unbetreute Übungen Mi 10:00-12:00 Uhr & Fr 13:00-15:00
 * pünktliches Erscheinen um 17 bzw. 13 Uhr (st / sine tempore)
 * einmaliges Zuspätkommen / Fehlen in einer der beiden genannten Veranstaltung
 * bei weiterem Fehlen Vorlage eines ärztlichen Attests
@@ -79,31 +79,31 @@ Um zu
 
 ===
 
-### Vorlesung mit Übung (bis Dez)
+### Vorlesung (bis Dez)
 
-| Datum   | Thema    |
-|:--------|:---------|
+| Datum   | Thema |
+|:--------|:------|
 | 23. Okt | Organisation|
-| 26. Okt | Java Grundlagen|
-| 30. Okt | OOP Grundlagen|
-| 02. Nov | Git & Github Einführung|
-| 09. Nov | Android Grundlagen & Tablet Einrichtung|
-| 16. Nov | User Interface|
-| 23. Nov | Threads - Activities - Intent|
-| 30. Nov | Fragmente & Persistenz|
-| 07. Dez | Sensoren & Events|
+| 24. Okt | [Java Grundlagen](/java-grundlagen/) |
+| 31. Okt | [OOP Grundlagen](/oop-grundlagen/) |
+| 07. Nov | [Git & Github Einführung](/git-github/) |
+| 14. Nov | [Android Grundlagen](/android-grundlagen/) |
+| 21. Nov | [User Interface](/user-interface/) |
+| 28. Nov | [Threads - Activities - Intent](/threads-activities-intent/) |
+| 05. Dez | [Fragmente & Persistenz](/fragment-persistenz/) |
+| 12. Dez | [Sensoren & Events](/sensoren-resourcen/) |
 
 ===
 
 ### Projektzeitraum (ab Dez)
 
-| Datum   | Thema    |
-|:--------|:---------|
-| 04. Dez | Vorstellung der Projektideen als Kurzvortrag|
-| 21. Dez | 1. Milestone|
-| 18. Jan | 2. Milestone|
-| 01. Feb | 3. Milestone|
-| 08. Feb | 4. Milestone / Finale Präsentation|
+| Datum   | Thema |
+|:--------|:------|
+| 04. Dez | Vorstellung der Projektideen als Kurzvortrag |
+| 19. Dez | 1. Milestone |
+| 16. Jan | 2. Milestone |
+| 01. Feb | 3. Milestone |
+| 08. Feb | 4. Milestone / Abschlusspräsentation |
 
 &rArr; zwei Industrievorträge - Termine werden noch bekannt gegeben
 
