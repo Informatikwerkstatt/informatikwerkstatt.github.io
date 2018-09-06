@@ -420,7 +420,7 @@ else
 ### Ternärer Operator
 
 - Wenn nur zwischen zwei Ausgabewerten unterschieden werden soll, gibt es für die IF-ELSE-Anweisung eine Kurzform
--  Der *ternäre Operator* hat die Form  <pre class="rrd">Diagram( Sequence( NonTerminal('Bedingung'), Terminal('?'), NonTerminal('Wert bei True'), Terminal(':'), NonTerminal('Wert ebi False') ) )</pre>
+-  Der *ternäre Operator* hat die Form  <span class="rrd" data-rrd="Diagram( Sequence( NonTerminal('Bedingung'), Terminal('?'), NonTerminal('Wert bei True'), Terminal(':'), NonTerminal('Wert ebi False') ) )"></span>
 
 ```java
 (a > 0) 

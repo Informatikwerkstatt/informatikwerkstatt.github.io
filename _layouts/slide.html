@@ -76,11 +76,13 @@
                 jQuery(".rrd").each(function() {
                     try
                     {
-                        jQuery(this).after( eval( jQuery(this).text() ) );
+                        jQuery(this).after( 
+                            eval( jQuery(this).attr( "data-rrd" ).replace(/<\/?[^>]+>/gi, '') ).toSVG() 
+                        );
                     }
                     catch (e)
                     {
-                        jQuery(this).after( jQuery("<strong/>").text( "RRD Parsing Error" ) );
+                        jQuery(this).after( jQuery("<strong/>").text( "RRD Parsing Error: " + e ) );
                     }
                 });
             } }
