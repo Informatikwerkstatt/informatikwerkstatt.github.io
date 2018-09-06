@@ -84,9 +84,11 @@ Wir nutzen später in dieser Vorlesung [Java auf Ant](/android-grundlagen/)
 
 ### Kommandozeilentool unter Windows: Eingabeaufforderung
 
-> 1. Linksclick auf Windows-Symbol
-> 2. In Windows-Suche ```cmd``` eingeben (+ Return-Taste)
-> 3. Linksclick auf angezeigtes ```cmd```-Symbol
+<div style="float: left;">
+1. Linksclick auf Windows-Symbol
+2. In Windows-Suche ```cmd``` eingeben (+ Return-Taste)
+3. Linksclick auf angezeigtes ```cmd```-Symbol
+</div>
 
 ![Windows Commandline](images/1_cmd.png#floatright)
 
@@ -96,8 +98,8 @@ Wir nutzen später in dieser Vorlesung [Java auf Ant](/android-grundlagen/)
 
 - ```dir``` &rarr; Inhalt des aktuellen Verzeichnisses
 - ```cd [Laufwerk:][Pfad]``` &rarr; wechselt Laufwerk / Verzeichnis
-	 - ```cd c:\Programme```
-	 - ```cd Development``` &rarr; wechselt in das existiertende Unterverzeichnis ```Development```
+	- ```cd c:\Programme```
+	- ```cd Development``` &rarr; wechselt in das existiertende Unterverzeichnis ```Development```
     - ```cd \``` &rarr; wechselt ins Wurzelverzeichnis
     - ```cd ..``` &rarr; wechselt in das übergeordnete Verzeichnis
 - Befehl mit der Option ```/?``` aufrufen, um eine kurze Hilfe zu erhalten
