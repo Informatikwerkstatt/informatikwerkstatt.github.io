@@ -105,6 +105,8 @@ Um zu
 | 01. Feb | 3. Milestone|
 | 08. Feb | 4. Milestone / Finale Präsentation|
 
+&rArr; zwei Industrievorträge - Termine werden noch bekannt gegeben
+
 ---
 
 ### Projektthemen

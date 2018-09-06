@@ -97,9 +97,19 @@ Software-Entwicklung besteht aus viel Text schreiben, so dass es hilfreich ist, 
 
 ### IntelliSense
 
+> IntelliSense ist die _automatische Befehlsergänzung_ durch die IDE
+
 ===
 
 ### Shortcuts
+
+> Shortcuts sind Tastenkürzel, über die man wichtige Befehle ohne Klicken ausführen kann
+
+===
+
+### Shortcuts - eine Auswahl
+
+[alle Shortcuts](https://developer.android.com/studio/intro/keyboard-shortcuts)
 
 ---
 
