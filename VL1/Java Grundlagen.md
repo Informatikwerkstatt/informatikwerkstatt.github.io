@@ -87,9 +87,11 @@ Wir nutzen später in dieser Vorlesung [Java auf Ant](/android-grundlagen/)
 <div class="floatright">
 ![Windows Commandline](images/1_cmd.png)
 </div>
-1. Linksclick auf Windows-Symbol</li>
-2. In Windows-Suche ```cmd``` eingeben (+ Return-Taste)</li>
-3. Linksclick auf angezeigtes ```cmd```-Symbol</li>
+<ol>
+<li>Linksclick auf Windows-Symbol</li>
+<li>In Windows-Suche ```cmd``` eingeben (+ Return-Taste)</li>
+<li>Linksclick auf angezeigtes ```cmd```-Symbol</li>
+</ol>
 
 ===
 
