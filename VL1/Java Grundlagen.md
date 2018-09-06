@@ -383,7 +383,7 @@ System.out.println( s1.equals( s2 ) );
 ```
 
 - **@Profis**: Könnt Ihr dieses Ergebnis erklären?
-- Anm. : In ```s1.equals(s2)``` muss ```s1``` initialisiert sein &rarr; prüfen mit ```Objects.nonNull)s1)```
+- Anm. : In ```s1.equals(s2)``` muss ```s1``` initialisiert sein &rarr; prüfen mit ```Objects.nonNull(s1)```
 
 ---
 
