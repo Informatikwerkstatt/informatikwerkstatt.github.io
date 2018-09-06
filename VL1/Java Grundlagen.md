@@ -61,7 +61,7 @@ Wir nutzen später in dieser Vorlesung [Java auf Ant](/android-grundlagen/)
 
 - **Quellcode**: Textbasierte Darstellung eines Programms
     - ```.java``` Textdatei, erstellt z.B. [Visual Studio Code](https://code.visualstudio.com/)
-   	 - Zeichen werd in einer [Kodierung](https://de.wikipedia.org/wiki/Zeichenkodierung) gespeichert (deutsche Umlaute)
+   	- Zeichen werd in einer [Kodierung](https://de.wikipedia.org/wiki/Zeichenkodierung) gespeichert (deutsche Umlaute)
     - heute wird meist [UTF-8](https://de.wikipedia.org/wiki/UTF-8) verwendet
 
 - **Binärcode**: Ausführbares Programm als Bytefolge gespeichert, 
@@ -74,7 +74,7 @@ Wir nutzen später in dieser Vorlesung [Java auf Ant](/android-grundlagen/)
 
 ## Kommandozeile - tippen statt clicken!
 
-Die [Kommandozeile / Windows Eingabeaufforderung](https://de.wikipedia.org/wiki/Kommandozeile) ist eine Anwendung, um mittels Tastatureingabe Befehle/Programme auszuführen. 
+> Die [Kommandozeile / Windows Eingabeaufforderung](https://de.wikipedia.org/wiki/Kommandozeile) ist eine Anwendung, um mittels Tastatureingabe Befehle/Programme auszuführen. 
 
 - Manuelles  Compilieren einfacher Programmbeispiele
 - Starten einfacher Beispiele
@@ -84,9 +84,9 @@ Die [Kommandozeile / Windows Eingabeaufforderung](https://de.wikipedia.org/wiki/
 
 ### Kommandozeilentool unter Windows: Eingabeaufforderung
 
-1. Linksclick auf Windows-Symbol
-2. In Windows-Suche ```cmd``` eingeben (+ Return-Taste)
-3. Linksclick auf angezeigtes ```cmd```-Symbol
+> 1. Linksclick auf Windows-Symbol
+> 2. In Windows-Suche ```cmd``` eingeben (+ Return-Taste)
+> 3. Linksclick auf angezeigtes ```cmd```-Symbol
 
 ![Windows Commandline](images/1_cmd.png#floatright)
 
@@ -94,15 +94,14 @@ Die [Kommandozeile / Windows Eingabeaufforderung](https://de.wikipedia.org/wiki/
 
 ### Befehle der Eingabeaufforderung
 
-- ```help``` listet alle Befehle auf
 - ```dir``` listet Inhalt des aktuellen Verzeichnisses
 - ```cd [Laufwerk:][Pfad]``` wechselt Laufwerk / Verzeichnis, z.B. 
 	 - ```cd c:\Programme```
 	 - ```cd Development``` wechselt in Unterverzeichnis ```Development``` des aktuellen Verzeichnisses, falls dieses existiert 
     - ```cd \``` wechselt ins Wurzelverzeichnis
     - ```cd ..``` wechselt in das übergeordnete Verzeichnis
-- Befehl mit der Option ```/?``` starten, um genauere Infos zu bekommen: ```cd /?``` liefert Infos zum Befehl ```cd```
-
+- Befehl mit der Option ```/?``` aufrufen, um eine kurze Hilfe zu erhalten
+- [Liste weiterer Befehle](https://de.wikibooks.org/wiki/Batch-Programmierung:_Wichtige_DOS-Kommandos)
 
 ===
  
