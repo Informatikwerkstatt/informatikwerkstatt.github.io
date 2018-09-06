@@ -166,7 +166,7 @@
  .reveal blockquote {
    display: block;
    position: relative;
-   width: calc(90vw);;
+   width: 90%;
    margin: 20px auto;
    padding: 5px;
    font-style: italic;
