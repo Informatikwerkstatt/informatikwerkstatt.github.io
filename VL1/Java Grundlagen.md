@@ -483,8 +483,8 @@ else
 int a = 5;
 int b = 6;
 int c = 7;
-if () a > b )
- {
+if (a > b )
+{
    a = b;
 }
 else

@@ -223,7 +223,15 @@ __&rarr; Was passiert und wie erklärt Ihr Euch bei den unterschiedlichen Listen
 
 ## Intent
 
-* ein Intent ist die [abstrakte Absicht](https://de.wikibooks.org/wiki/Googles_Android/_Intents_oder_%22Ich_h%C3%A4tte_gern_den_Zucker%22) zu tun
+* [abstrakte Absicht](https://de.wikibooks.org/wiki/Googles_Android/_Intents_oder_%22Ich_h%C3%A4tte_gern_den_Zucker%22) zu tun
+* [Intents](https://developer.android.com/reference/android/content/Intent) sind passive Datenstruktur-Klassen
+* Intents sind applikationsübergeifend z.B. _Email versenden_, und werden zur [Laufzeit](https://en.wikipedia.org/wiki/Intent_(Android)) gebunden
+* über [Intent-Filter](#) können komplexe Prüfungen zur Ausführung gesetzt werden
+
+<!-- 
+https://developer.android.com/training/basics/firstapp/starting-activity
+
+ -->
 
 ---
 
@@ -231,9 +239,15 @@ __&rarr; Was passiert und wie erklärt Ihr Euch bei den unterschiedlichen Listen
 
 > Um eine Activity aus einer anderen zu öffnen / starten, benötigen man ein Intent, in dem die Daten übergeben werden
 
+Notes: Einem Studierenden einen Zettel in die Hand geben, auf dem steht, dass er aufstehen und zur Tür gehen und sich wieder hinsetzen soll. Das gehen die die "Activity", der Zettel das "Intent" und die "Nachricht" die Daten
+
 ---
 
 ## Let's try
+
+---
+
+## Intent-Filter
 
 ---
 
