@@ -219,9 +219,9 @@ __&rarr; Was passiert und wie erklärt Ihr Euch bei den unterschiedlichen Listen
 
 ## Activity Lifecycle
 
-![Android Activity Lifecycle](https://developer.android.com/guide/components/images/activity_lifecycle.png)
+<!-- https://developer.android.com/guide/components/activities/activity-lifecycle -->
 
-<!--https://developer.android.com/guide/components/activities/activity-lifecycle-->
+![Android Activity Lifecycle](https://developer.android.com/guide/components/images/activity_lifecycle.png)
 
 ---
 
@@ -235,10 +235,7 @@ __&rarr; Was passiert und wie erklärt Ihr Euch bei den unterschiedlichen Listen
 * werden zur [Laufzeit](https://en.wikipedia.org/wiki/Intent_(Android)) gebunden
 * über [Intent-Filter](#/8) können komplexe Prüfungen zur Ausführung gesetzt werden
 
-<!-- 
-https://developer.android.com/training/basics/firstapp/starting-activity
-
- -->
+<!-- https://developer.android.com/training/basics/firstapp/starting-activity -->
 
 ---
 
