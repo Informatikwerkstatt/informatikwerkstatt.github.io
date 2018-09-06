@@ -291,17 +291,26 @@ public class CTypeUmwandlung
 
 ### @Let's try
 
-1. Erstelle ein Programm mit dem gezeigten Code
-2. Übersetze das Programm und führe es aus! Was beobachtest Du?
+1. Erstelle ein Programm aus dem [gezeigtem Code](#/9)
+2. Übersetze das Programm und führe es aus 
 
+&rArr; Was beobachtest Du?
 
 ===
 
 ### @Let's try
 
-1. Ergänze in das Programm als letzte Zeile
-2. Ermittele jeweils durch Nachdenken oder probieren: Auf welche Typen können ```byte``` / ```int``` / ```double``` gecastet werden?
-3. Versuche, die Variable ```counterD``` auf die String-Variable ```myNumber``` zu casten! 
+1. Ergänze in das [Programm](#/9) als letzte Zeilen
+
+    ```java
+    final String l_text = Integer.toString( l_toint );
+    System.out.println( "Textausgabe: " + l_text );
+    ```
+
+2. Übersetze das Programm und führe es aus 
+
+&rArr; Was beobachtest Du und wie kannst Du das erklären?
+&rArr; Kannst Du das Programm so umformulieren, dass es mit der Variable ```l_todouble``` funktioniert?
 
 ---
 
