@@ -135,9 +135,40 @@ Es dürfen gerne auch eigene Vorschläge (mit Rücksprache) umgesetzt werden
 
 ---
 
-## Genereller Ablauf
+## Hilfe, ich bin überfordert!
 
-Ihr sollt
+> Ich habe doch gerade erst angefangen zu studieren!? Was wollt ihr von mir, das kann doch nicht wahr sein!? Ich hab' doch noch andere Vorlesungen und wie soll ich das alles schaffen!?
+
+===
+
+### Training
+
+<iframe class="video" src="https://www.youtube.com/embed/3PycZtfns_U" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
+
+===
+
+### Training
+
+<iframe class="video" src="https://www.youtube.com/embed/__qOY9hcm64" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
+
+===
+
+### Training
+
+<iframe class="video" src="https://www.youtube.com/embed/R37pbIySnjg" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
+
+===
+
+### Resultat
+
+<iframe class="video" src="https://www.youtube.com/embed/Bg21M2zwG9Q" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEzNjEyOTk1MTFdfQ==
+-->
+
+---
+
+## Was sollt Ihr machen?
 
 * in der Vorlesung am Rechner mitarbeiten
 * in den Übungen das Gelernte ausprobieren und erweitern
@@ -146,7 +177,7 @@ Ihr sollt
 
 ---
 
-## Ziele, die jeder erreichen soll
+## Welche Ziele sollt ihr erreichen?
 
 * Umgang mit Programmierwerkzeugen
     * Grundlagen in der Java & Android
@@ -197,36 +228,3 @@ aber man muss angeben woher man sich etwas kopiert hat, sonst ist es ein [Plagia
 * Probiert selbstständig alles aus
 * Werdet aktiv bei Problemen / Fragen &rarr; Wir helfen Euch zu lernen
 * Im Team lernt Ihr am meisten &rarr; arbeitet mit unterschiedlichen Menschen zusammen
-
----
-
-## Hilfe, ich bin überfordert!
-
-> Ich habe doch gerade erst angefangen zu studieren!? Was wollt ihr von mir, das kann doch nicht wahr sein!? Ich hab' doch noch andere Vorlesungen und wie soll ich das alles schaffen!?
-
-===
-
-### Training
-
-<iframe class="video" src="https://www.youtube.com/embed/3PycZtfns_U" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
-
-===
-
-### Training
-
-<iframe class="video" src="https://www.youtube.com/embed/__qOY9hcm64" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
-
-===
-
-### Training
-
-<iframe class="video" src="https://www.youtube.com/embed/R37pbIySnjg" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
-
-===
-
-### Resultat
-
-<iframe class="video" src="https://www.youtube.com/embed/Bg21M2zwG9Q" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjEyOTk1MTFdfQ==
--->
