@@ -76,11 +76,13 @@ Es nimmt einem viel Arbeit ab!
 
 ### Manifest
 
+> Das [Android Manifest](https://developer.android.com/guide/topics/manifest/manifest-intro) ist eine [XML-Datei](https://de.wikipedia.org/wiki/Extensible_Markup_Language) in der die Konfiguration der App, wie Start-[Activity](/threads-activities-intent/#/3) oder auch [Berechtigungen](/sensoren-resourcen/#/2) für Sensoren hinterlegt werden
+
 ===
 
-### Resourcen & Berechtigungen
+### Resourcen & Berechtigungen<sup>1</sup>
 
-Wir behandeln hier nur kurz die Berechtigungen, im Foliensatz [Sensoren & Resourcen](/sensoren-resourcen/) werden wir genauer darauf eingehen
+<small>1: Wir behandeln hier nur kurz die Berechtigungen, im Foliensatz [Sensoren & Resourcen](/sensoren-resourcen/) werden wir genauer darauf eingehen</small>
 
 ---
 
