@@ -74,6 +74,10 @@ Es nimmt einem viel Arbeit ab!
 
 ===
 
+### Manifest
+
+===
+
 ### Resourcen & Berechtigungen
 
 Wir behandeln hier nur kurz die Berechtigungen, im Foliensatz [Sensoren & Resourcen](/sensoren-resourcen/) werden wir genauer darauf eingehen

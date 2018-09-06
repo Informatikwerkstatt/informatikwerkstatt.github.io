@@ -205,6 +205,12 @@ __&rarr; Was passiert und wie erklärt Ihr Euch bei den unterschiedlichen Listen
 
 ## Activity
 
+* entspricht einem Fenster in dern Anwendung
+* wird eine Activity geöffnet &rarr; wird sie als über die bestehende Activity gelegt
+* jede Activity 
+	* ist eine [Java Klasse](/oop-grundlagen/#/2)
+	* benötigt ein Layout in der Manifestdatei
+
 ---
 
 ## Activity Lifetime
