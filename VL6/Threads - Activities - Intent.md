@@ -217,16 +217,25 @@ __&rarr; Was passiert und wie erklärt Ihr Euch bei den unterschiedlichen Listen
 
 ---
 
-## Activity Lifetime
+## Activity Lifecycle
+
+![Android Activity Lifecycle](https://developer.android.com/guide/components/images/activity_lifecycle.png)
+
+<!--
+https://developer.android.com/guide/components/activities/activity-lifecycle
+-->
 
 ---
 
 ## Intent
 
-* [abstrakte Absicht](https://de.wikibooks.org/wiki/Googles_Android/_Intents_oder_%22Ich_h%C3%A4tte_gern_den_Zucker%22) zu tun
+> Ich will eine Email versenden
+
+* [abstrakte Absicht](https://de.wikibooks.org/wiki/Googles_Android/_Intents_oder_%22Ich_h%C3%A4tte_gern_den_Zucker%22) etwas zu tun
 * [Intents](https://developer.android.com/reference/android/content/Intent) sind passive Datenstruktur-Klassen
-* Intents sind applikationsübergeifend z.B. _Email versenden_, und werden zur [Laufzeit](https://en.wikipedia.org/wiki/Intent_(Android)) gebunden
-* über [Intent-Filter](#) können komplexe Prüfungen zur Ausführung gesetzt werden
+* Intents sind applikationsübergeifend 
+* werden zur [Laufzeit](https://en.wikipedia.org/wiki/Intent_(Android)) gebunden
+* über [Intent-Filter](#/8) können komplexe Prüfungen zur Ausführung gesetzt werden
 
 <!-- 
 https://developer.android.com/training/basics/firstapp/starting-activity
