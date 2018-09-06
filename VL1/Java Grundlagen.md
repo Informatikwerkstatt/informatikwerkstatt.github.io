@@ -232,19 +232,16 @@ public class CHelloWorld
 ===
 
 ### Zuweisung
-<!-- Zuweisungen von Variablen, Beachtung von final -->
 
 - Variable muss vor Verwendung deklariert werden
     
-```java
-private static final String message = "Hello World";
-```
+    ```java
+    private static final String message = "Hello World";
+    ```
 
-- Mit dem Zuweisungsoperator ```=``` kann einer Variable ein Wert zugewiesen werden
+- ```=``` Zuweisungsoperator &rarr; Wert wird einer Variablen zugewiesen
 - ```=``` kopiert Wert auf der rechten Seite in die Variable auf der linken 
-- Wichtig: Initiale Wertzuweisung (=Initialisierung) vor Verwendung einer Variable! 
-- Modifikator ```final``` gibt an, dass die Variable nach der Initialisierung nicht mehr verändert werden darf
-- ```final``` wird häufig verwendet, um Konstanten zu definieren
+- Modifikator ```final``` ermöglicht Variablen nicht _schreibbar_ zu mache, d.h. der Wert ist unveränderbar
 
 ===
 
@@ -272,7 +269,7 @@ public static void main( String[] p_args )
 
 ## Typumwandlung
 
-Typumwandlung (engl. *Casting*) = Umwandlung eines Datentyps in einen anderen Datentyp.
+Typumwandlung (engl. *Casting*) ist die Umwandlung eines Datentyps in einen anderen
 
 ```java
 byte counterB = 1;
@@ -311,10 +308,9 @@ counterI = counterD;
 
 ### Implizites vs. explizites Casting
 
-- Typenumwandlung ist oft notwendig, erfordert aber Sorgfalt!
-- Dabei können Probleme zur Übersetzungszeit und u.U. auch zur Ausführungszeit (Runtime) eines Programmes auftreten 
-- *Erweiterndes Casting* (```int``` &rarr; ```double```) wird vom Compiler automatisch durchgeführt (implizites Casting)
-- *Einschränkendes Casting* (```double``` &rarr; ```int```) muss explizit vom Programmierer gemacht *(und geprüft!)* werden
+- *Erweiterndes Casting* (```int``` &rarr; ```double```) &rarr; Compiler führt es automatisch durch (implizites Casting)
+- *Einschränkendes Casting* (```double``` &rarr; ```int```) &rarr; muss explizit vom Programmierer gemacht werden
+- Bei einem expliziten Casting können [Runtime-Fehler](#/18) auftreten
 
     ```java
     final double l_pi =  3.14159;
