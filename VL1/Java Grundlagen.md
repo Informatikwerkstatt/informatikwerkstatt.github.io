@@ -313,15 +313,22 @@ counterI = counterD;
 
 - Typenumwandlung ist oft notwendig, erfordert aber Sorgfalt!
 - Dabei können Probleme zur Übersetzungszeit und u.U. auch zur Ausführungszeit (Runtime) eines Programmes auftreten 
-- *Erweiterndes Casting* (z.B. von ```int``` auf ```double```) wird vom Compiler automatisch durchgeführt (implizites Casting)
-- *Einschränkendes Casting* (z.B. von ```double``` auf ```int```) muss explizit vom Programmierer gemacht *(und geprüft!)* werden. Beispiel:
+- *Erweiterndes Casting* (```int``` &rarr; ```double```) wird vom Compiler automatisch durchgeführt (implizites Casting)
+- *Einschränkendes Casting* (```double``` &rarr; ```int```) muss explizit vom Programmierer gemacht *(und geprüft!)* werden
 
-```java
-int myInt;
-double  pi  =  3.14159;
-//explizites casting
-myInt = (int) pi;
-```
+    ```java
+    final double l_pi =  3.14159;
+    //explizites casting
+    final int l_pi_int = (int) l_pi;
+    ```
+
+- *Schlechter Code-Stil*, da ein _expliziter Cast_ immer ein Hinweis auf einen nicht richtig definierten Typ ist
+
+    ```java
+    final Number l_pi = 3.14159;
+    final int l_pi_int = l_pi.intValue();
+    final double l_pi_double = doubleValue();
+    ```
     
 ===
     
@@ -329,7 +336,7 @@ myInt = (int) pi;
 
 Führe den [Code](#/10/2) aus und gib die Werte von `myInt` und `pi` aus! Was beobachtest Du?
 
-Note: kein Compile-Fehler, aber nur ganzzahliger Anteil!
+Notes: kein Compile-Fehler, aber nur ganzzahliger Anteil!
 
 ---
 
@@ -362,73 +369,74 @@ System.out.println("l = " + l);
 - Vorsicht beim Test auf Gleichheit bei Objekten
 - Operator `==` prüft Gleichheit der Speicherstellen
 
-```java
-int  i=1;
-int  j=1;
-// Ergebnis: true
-System.out.println( i == j );
-```
+    ```java
+    int  i=1;
+    int  j=1;
+    // Ergebnis: true
+    System.out.println( i == j );
+    ```
 
 - bei String und anderen Objekten: Test mit Methode `equals()`
 
-```java
-// neues String-Objekt wird erzeugt
-String s1 = new String("maus");
-String s2 = new String("maus");
+    ```java
+    // neues String-Objekt wird erzeugt
+    String s1 = new String("maus");
+    String s2 = new String("maus");
 
-// false
-System.out.println( s1 == s2 );
- // true
-System.out.println( s1.equals( s2 ) ); 
-```
+    // false
+    System.out.println( s1 == s2 );
+    // true
+    System.out.println( s1.equals( s2 ) ); 
+    ```
 
-- **@Profis**: Könnt Ihr dieses Ergebnis erklären?
-- Anm. : In ```s1.equals(s2)``` muss ```s1``` initialisiert sein &rarr; prüfen mit ```Objects.nonNull(s1)```
+&rArr; Könnt Ihr dieses Ergebnis erklären?
+
+Notes: In ```s1.equals(s2)``` muss ```s1``` initialisiert sein &rarr; prüfen mit ```Objects.nonNull(s1)```
 
 ---
 
-## Bedingte Anweisungen - IF-ELSE
+## Bedingte Anweisungen - if-else
 
 <span class="rrd" data-rrd="Diagram( Sequence( Terminal('if'), NonTerminal('( Bedingung )'), NonTerminal('{ ... }'), Optional( Sequence( Terminal('else'), NonTerminal('{ ... }') ) ) ) )"</span>
 
 - Blöcke mit mehreren Anweisungen in geschweifte Klammern einfassen!
 - Wenn Bedingung erfüllt ist , wird Anweisungsblock ausgeführt; sonst übersprungen.
 
-```java
-int a = 2;
-if ( a > 0 ) 
-    System.out.println( a + " ist positiv" );
+    ```java
+    int a = 2;
+    if ( a > 0 ) 
+        System.out.println( a + " ist positiv" );
 
-if ( a <= 0 ) 
-    System.out.println(a + ist "nichtpositiv");
-```
+    if ( a <= 0 ) 
+        System.out.println(a + ist "nichtpositiv");
+    ```
 
 - Entweder-Oder
     
-```java
-if ( a > 0 ) 
-    System.out.println(a + " ist positiv");
-else 
-    System.out.println(a + ist "nichtpositiv");
-```
+    ```java
+    if ( a > 0 ) 
+        System.out.println(a + " ist positiv");
+    else 
+        System.out.println(a + ist "nichtpositiv");
+    ```
 
 ===
 
-### Ternärer Operator - IF-ELSE Kurzform
+### Ternärer Operator - if-else Kurzform
 
 <span class="rrd" data-rrd="Diagram( Sequence( NonTerminal('Bedingung'), Terminal('?'), NonTerminal('Wert bei True'), Terminal(':'), NonTerminal('Wert bei False') ) )"></span>
 
-- als Zuweisung
+- als Zuweisung 
 
-```java
-String l_result = (a > 0) ? "Wert ist positiv") : "Wert ist nicht positiv";
-```
+    ```java
+    String l_result = (a > 0) ? "Wert ist positiv") : "Wert ist nicht positiv";
+    ```
 
 - Oder etwas eleganter als Parameter
 
-```java
-System.out.println(a + " ist " + ((a > 0) ? "positiv" : "nichtpositiv"));
-```
+    ```java
+    System.out.println(a + " ist " + ((a > 0) ? "positiv" : "nichtpositiv"));
+    ```
 
 ===
 
@@ -489,7 +497,6 @@ Notes: Anweisung 1: 5<6, also wird a=b ausgeführt (if-Zweig) Anweisung 2: a <= 
 ---
 
 ## Arrays
-<!-- was sind Arrays, wozu sind sie gut, was gibt es für Beschränkungen -->
 
 - Container mit fester Anzahl von Werten ([Details](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html))
 - alle Elemente sind vom [gleichen Typ](#/7)
