@@ -272,39 +272,38 @@ public static void main( String[] p_args )
 Typumwandlung (engl. *Casting*) ist die Umwandlung eines Datentyps in einen anderen
 
 ```java
-byte counterB = 1;
-int counterI = 1;
-double counterD = 1.0;
-String myNumber = "";
-// wir casten jetzt eine byte-Variable auf eine  int-Variable 
-// und dann die int-Variable auf eine double-Variable. Geht das?
-counterI = counterB;
-counterD = counterI;
-System.out.println("counterD = ", counterD);
-    
-//int auf String casten erfordert extra Methodenaufruf
-mynumber = Integer.toString(counterI).
+public class CTypeUmwandlung
+{
+    public static void main( final String[] p_args )
+    {
+        final byte l_byte = 1;
+
+        // implizites Casting
+        final int l_toint = l_byte;
+        final double l_todouble = l_toint;
+
+        System.out.println( "Ausgabe: " + l_byte + "    " + l_toint + "    " + l_todouble );
+    }
+}
 ```
 
 ===
 
 ### @Let's try
 
-1. Schreibe eine Klasse Example.java mit einer ```main```-Methode
-2. Kopiere das obigen Code-Fragment in den Rumpf der ```main```-Methode 
-4. Übersetze das Programm und führe es aus! Was beobachtest Du?
-5. Füge nun folgende Zeile am Ende des ```main```-Programms ein?
+1. Erstelle ein Programm mit dem gezeigten Code
+2. Übersetze das Programm und führe es aus! Was beobachtest Du?
 
-```java
-// hier versuche ich, eine double-Variable auf eine int-Variable zu casten :o
-counterI = counterD;
-```
-
-6. Übersetze das Programm! Was beobachtest Du?
-7. Ermittele jeweils durch Nachdenken oder probieren: Auf welche Typen können ```byte``` / ```int``` / ```double``` gecastet werden?
-8. Versuche, die Variable ```counterD``` auf die String-Variable ```myNumber``` zu casten! 
 
 ===
+
+### @Let's try
+
+1. Ergänze in das Programm als letzte Zeile
+2. Ermittele jeweils durch Nachdenken oder probieren: Auf welche Typen können ```byte``` / ```int``` / ```double``` gecastet werden?
+3. Versuche, die Variable ```counterD``` auf die String-Variable ```myNumber``` zu casten! 
+
+---
 
 ### Implizites vs. explizites Casting
 
