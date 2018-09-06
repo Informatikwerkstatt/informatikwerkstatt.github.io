@@ -115,16 +115,15 @@ Software-Entwicklung besteht aus viel Text schreiben, so dass es hilfreich ist, 
 | Alles speichern       | ```Control``` + ```S``` |
 | Suchen                | ```Control``` + ```F``` |
 | Ersetzen              | ```Control``` + ```R``` |
-| | |
 | Optimiere Imports     | ```Control``` + ```Alt``` + ```O``` |
 | Reformat code	        | ```Control``` + ```Alt``` + ```L``` |	
 | Quick-Fix<sup>1<sup>  | ```Alt``` + ```Enter``` |
 | Basis Code-Ergänzung  | ```Control``` + ```Space``` |
 | Smarte Code-Ergänzung | ```Control``` + ```Shift``` + ```Space```
-| | |
 | Erzeugen & Ausführen  | ```Shift``` + ```F10``` |
 
 <small>1: kann benutzt werden, wenn ein Befehl mit einer <span style="text-decoration: underline wavy red;">roten Linie</span> unterstrichen wurde</small>
+<br/>
 <small>[alle Shortcuts](https://developer.android.com/studio/intro/keyboard-shortcuts)</small>
 
 ---
