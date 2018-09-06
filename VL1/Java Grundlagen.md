@@ -392,7 +392,9 @@ System.out.println( s1.equals( s2 ) );
 
 ## Bedingte Anweisungen - IF-ELSE
 
-- IF-Anweisung hat Form ```if (bedingung) block```
+<span class="rrd" data-rrd="Diagram( Sequence( Terminal('if'), NonTerminal('( Bedingung )'), NonTerminal('{ ... }'), Optional( Sequence( Terminal('else'), NonTerminal('{ ... }') ) ) ) )"</span>
+
+- Blöcke mit mehreren Anweisungen in geschweifte Klammern einfassen!
 - Wenn Bedingung erfüllt ist , wird Anweisungsblock ausgeführt; sonst übersprungen.
 
 ```java
@@ -404,23 +406,21 @@ if ( a <= 0 )
     System.out.println(a + ist "nichtpositiv");
 ```
 
-- IF-ELSE-Anweisung hat Form `if (bedingung) block1 else block2`
+- Entweder-Oder
     
 ```java
 if ( a > 0 ) 
-     	  System.out.println(a + " ist positiv");
+    System.out.println(a + " ist positiv");
 else 
-        System.out.println(a + ist "nichtpositiv");
+    System.out.println(a + ist "nichtpositiv");
 ```
-
-- Blöcke mit mehreren Anweisungen in geschweifte Klammern einfassen!
 
 ===
 
-### Ternärer Operator
+### Ternärer Operator - IF-ELSE Kurzform
 
-- Wenn nur zwischen zwei Ausgabewerten unterschieden werden soll, gibt es für die IF-ELSE-Anweisung eine Kurzform
--  Der *ternäre Operator* hat die allgemeine Form  <span class="rrd" data-rrd="Diagram( Sequence( NonTerminal('Bedingung'), Terminal('?'), NonTerminal('Wert bei True'), Terminal(':'), NonTerminal('Wert bei False') ) )"></span>
+<span class="rrd" data-rrd="Diagram( Sequence( NonTerminal('Bedingung'), Terminal('?'), NonTerminal('Wert bei True'), Terminal(':'), NonTerminal('Wert bei False') ) )"></span>
+
 - als Zuweisung
 
 ```java
