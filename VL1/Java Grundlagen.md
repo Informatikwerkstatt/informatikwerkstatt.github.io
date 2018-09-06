@@ -84,12 +84,9 @@ Wir nutzen später in dieser Vorlesung [Java auf Ant](/android-grundlagen/)
 
 ### Kommandozeilentool unter Windows: Eingabeaufforderung
 
-<div style="float: left;">
 1. Linksclick auf Windows-Symbol
 2. In Windows-Suche ```cmd``` eingeben (+ Return-Taste)
 3. Linksclick auf angezeigtes ```cmd```-Symbol
-</div>
-
 ![Windows Commandline](images/1_cmd.png#floatright)
 
 ===
