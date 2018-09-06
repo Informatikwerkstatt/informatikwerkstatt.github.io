@@ -221,9 +221,7 @@ __&rarr; Was passiert und wie erklärt Ihr Euch bei den unterschiedlichen Listen
 
 ![Android Activity Lifecycle](https://developer.android.com/guide/components/images/activity_lifecycle.png)
 
-<!--
-https://developer.android.com/guide/components/activities/activity-lifecycle
--->
+<!--https://developer.android.com/guide/components/activities/activity-lifecycle-->
 
 ---
 
