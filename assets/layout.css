@@ -373,7 +373,6 @@ svg.railroad-diagram g.diagram-text:hover path.diagram-text {
   overflow-x: auto;
   padding: 0.5em;
   color: #000;
-  background: #fff;
 }
 
 .hljs-subst,
@@ -405,7 +404,7 @@ svg.railroad-diagram g.diagram-text:hover path.diagram-text {
 .hljs-selector-id,
 .hljs-selector-class {
   font-weight: bold;
-  color: #000080;
+  color: #004bf0;
 }
 
 .hljs-attribute,
@@ -431,7 +430,7 @@ svg.railroad-diagram g.diagram-text:hover path.diagram-text {
 .hljs-bullet,
 .hljs-formula {
   color: #000;
-  background: #d0eded;
+  background: #a0ddfe;
   font-style: italic;
 }
 
@@ -441,15 +440,15 @@ svg.railroad-diagram g.diagram-text:hover path.diagram-text {
 
 .hljs-variable,
 .hljs-template-variable {
-  color: #660e7a;
+  color: #880e7c;
 }
 
 .hljs-addition {
-  background: #baeeba;
+  background: #aadeb7;
 }
 
 .hljs-deletion {
-  background: #ffc8bd;
+  background: #ff989d;
 }
 
 .hljs-emphasis {
