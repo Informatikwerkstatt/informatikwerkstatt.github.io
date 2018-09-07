@@ -851,20 +851,21 @@ public class Div0Fehler
 
 ---
 
-## @Home/Übung
+## @Home / Übung
 
-- Im Abschnitt über Arrays haben wir das Problem kennengelernt, dass mit ungültigen (zu großen oder negativen) Array-Indizes auf Elemente eines Arrays zugegriffen wird
- 1. Schreibt ein Programm, in dem eine solche Situation auftritt
- 2. Wie heisst die Exception, die hier "geworfen" wird?
- 3. Überlegt, wie die Situation behandelt werden kann
- 4. Erstellen einen entsprechenden Try-Catch-Block
- 5. Compiliert das Programm und lassen es laufen
+Im Abschnitt über Arrays haben wir das Problem kennengelernt, dass mit ungültigen (zu großen oder negativen) Array-Indizes auf Elemente eines Arrays zugegriffen wird
+
+1. Schreibt ein Programm, in dem eine solche Situation auftritt
+2. Wie heisst die Exception, die hier "geworfen" wird?
+3. Überlegt, wie die Situation behandelt werden kann
+4. Erstellen einen entsprechenden Try-Catch-Block
+5. Compiliert das Programm und lassen es laufen
 
 ---
 
-## @Home/Übung
+## @Home / Übung
 
-> Schreiben ein Programm, das zwei Argumente von der Kommandozeile einliest, einen String und eine Zahl, und das den String so oft auf der Kommandozeile ausgibt, wie die Zahl angibt.
+Schreiben ein Programm, das zwei Argumente von der Kommandozeile einliest, einen String und eine Zahl, und das den String so oft auf der Kommandozeile ausgibt, wie die Zahl angibt.
 
 - Prüft die Typen der Eingaben
 - Bei einem leeren String sollte eine Fehlermeldung ausgegeben werden, dass der String leer ist
@@ -874,9 +875,9 @@ public class Div0Fehler
 
 ---
 
-## @Home/Übung
+## @Home / Übung
 
-> Schreibt ein Programm, dass zwei ganze Zahlen A und B von der Kommandozeile einliest und (1) das Ergebnis der ganzzahligen Division der beiden Zahlen sowie (2) den Rest der ganzzahligen Division ausgibt.
+Schreibt ein Programm, dass zwei ganze Zahlen A und B von der Kommandozeile einliest und (1) das Ergebnis der ganzzahligen Division der beiden Zahlen sowie (2) den Rest der ganzzahligen Division ausgibt.
 
 * Prüft Typen und Anzahl der Eingaben (insbesondere Anforderung:  *ganze* Zahl! )
 * Gebt eine entsprechende Fehlermeldungen aus
