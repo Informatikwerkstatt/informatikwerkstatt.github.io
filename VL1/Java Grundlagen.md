@@ -115,7 +115,7 @@ Wir nutzen später in dieser Vorlesung [Java auf Ant](/android-grundlagen/)
 javac HelloWorld.java
 ```
 
-<small>Damit der Befehl ```javac``` gefunden wird, müssen zwei Umgebungsvariablen ```%JAVA_HOME%``` und ```%PATH%``` gesetzt sein. Details für Windows [hier](https://docs.oracle.com/javase/10/install/installation-jdk-and-jre-microsoft-windows-platforms.htm). Im Pool sind diese Variablen gesetzt</small>
+<small>Damit der Befehl ```javac``` gefunden wird, müssen zwei Umgebungsvariablen ```JAVA_HOME``` und ```PATH``` gesetzt sein. Im Pool wurden dies schon vollständig [konfiguriert](https://docs.oracle.com/javase/10/install/installation-jdk-and-jre-microsoft-windows-platforms.htm). </small>
 
 ===
 
