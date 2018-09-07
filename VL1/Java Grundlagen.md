@@ -85,8 +85,14 @@ Wir nutzen später in dieser Vorlesung [Java auf Ant](/android-grundlagen/)
 ### Kommandozeilentool unter Windows: Eingabeaufforderung
 
 <div class="flex">
-<div><ol><li>Linksclick auf Windows-Symbol</li><li>In Windows-Suche ```cmd``` eingeben (+ Return-Taste)</li><li>Linksclick auf angezeigtes ```cmd```-Symbol</li></ol></div>
-<div>![Windows Commandline](images/1_cmd.png)</div>
+<div>
+* Linksclick auf Windows-Symbol
+* In Windows-Suche ```cmd``` eingeben (+ Return-Taste)
+* Linksclick auf angezeigtes ```cmd```-Symbol
+</div>
+<div>
+![Windows Commandline](images/1_cmd.png)
+</div>
 </div>
 
 ===

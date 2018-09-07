@@ -49,7 +49,7 @@ Um zu
 
 ![Stefanie Schneider](images/stefanie.jpg#floatright)
 
-* Termin- / Votragsorganisation
+* Termin- / Vortragsorganisation
 * Anwesenheitsliste / Krankmeldungen
 * Ausgabe Android Tablets
 
@@ -83,7 +83,7 @@ Um zu
 
 | Datum   | Thema |
 |:--------|:------|
-| 23. Okt | Organisation|
+| 23. Okt | [Organisation](/organisation/) |
 | 24. Okt | [Java Grundlagen](/java-grundlagen/) |
 | 31. Okt | [OOP Grundlagen](/oop-grundlagen/) |
 | 07. Nov | [Git & Github Einführung](/git-github/) |
