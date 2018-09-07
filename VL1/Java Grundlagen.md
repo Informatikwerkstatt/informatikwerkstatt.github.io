@@ -85,10 +85,7 @@ Wir nutzen später in dieser Vorlesung [Java auf Ant](/android-grundlagen/)
 ### Kommandozeilentool unter Windows: Eingabeaufforderung
 
 <div class="flex">
-<div>
-<ol>
-<li>Linksclick auf Windows-Symbol</li><li>In Windows-Suche ```cmd``` eingeben <kbd>Return</kbd></li><li>Linksclick auf angezeigtes ```cmd```-Symbol</li></ol>
-</div>
+<div><ol><li>Linksclick auf Windows-Symbol</li><li>In Windows-Suche ```cmd``` eingeben <kbd>Return</kbd></li><li>Linksclick auf angezeigtes ```cmd```-Symbol</li></ol></div>
 <div>
 ![Windows Commandline](images/1_cmd.png)
 </div>
@@ -112,13 +109,13 @@ Wir nutzen später in dieser Vorlesung [Java auf Ant](/android-grundlagen/)
 ### Compilieren des Quellcodes
 
 - Übersetzen des geschriebenen Java-Quellcodes in _Maschinensprache_ (meistens Binärcode)
-- Eingabe in Java:
+- Eingabe in Commandline:
 
 ```shell
 javac HelloWorld.java
 ```
 
-- Damit die Datei ```javac.exe``` gefunden wird, müssen die Umgebungsvariablen ```%JAVA_HOME%``` und ```%PATH%``` entsprehend gesetzt sein. Details für Windows [hier](https://docs.oracle.com/javase/10/install/installation-jdk-and-jre-microsoft-windows-platforms.htm).
+<small>Damit der Befehl ```javac``` gefunden wird, müssen zwei Umgebungsvariablen ```%JAVA_HOME%``` und ```%PATH%``` gesetzt sein. Details für Windows [hier](https://docs.oracle.com/javase/10/install/installation-jdk-and-jre-microsoft-windows-platforms.htm). Im Pool sind diese Variablen gesetzt</small>
 
 ===
 
