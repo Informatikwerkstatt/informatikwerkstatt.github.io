@@ -98,8 +98,13 @@
   .reveal .floatleft {
     float: left;
     margin-right: 0.25em;
-  }  
-
+  }
+  
+  .reveal .flex {
+    display: flex;
+    align-items: center;
+  }
+  
   .reveal img[src$='#half'] {
     max-width: 50%;
     max-height: 50%;

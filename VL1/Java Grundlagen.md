@@ -84,9 +84,10 @@ Wir nutzen später in dieser Vorlesung [Java auf Ant](/android-grundlagen/)
 
 ### Kommandozeilentool unter Windows: Eingabeaufforderung
 
-<div class="floatright">
-![Windows Commandline](images/1_cmd.png)
-</div><div class="floatleft"><ol><li>Linksclick auf Windows-Symbol</li><li>In Windows-Suche ```cmd``` eingeben (+ Return-Taste)</li><li>Linksclick auf angezeigtes ```cmd```-Symbol</li></ol></div>
+<div class="flex">
+<div><ol><li>Linksclick auf Windows-Symbol</li><li>In Windows-Suche ```cmd``` eingeben (+ Return-Taste)</li><li>Linksclick auf angezeigtes ```cmd```-Symbol</li></ol></div>
+<div>![Windows Commandline](images/1_cmd.png)</div>
+</div>
 
 ===
 
@@ -310,6 +311,7 @@ public class CTypeUmwandlung
 2. Übersetze das Programm und führe es aus 
 
 &rArr; Was beobachtest Du und wie kannst Du das erklären?
+
 &rArr; Kannst Du das Programm so umformulieren, dass es mit der Variable ```l_todouble``` funktioniert?
 
 ---

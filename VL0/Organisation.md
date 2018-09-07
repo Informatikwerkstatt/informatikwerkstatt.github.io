@@ -125,14 +125,14 @@ Es dürfen gerne auch eigene Vorschläge (mit Rücksprache) umgesetzt werden
 
 ===
 
-### Fortgeschrittene
+### Fortgeschrittene - GPS mit Routing
 
 * [Schleichwegdatenbank](#/5/2) um alle geheimen Abkürzen in Clausthal immer auf dem Handy zu haben
 * [Party-Route](#/5/2) um alle Parties in Clausthal zu verwalten und zwischen den einzelnen Locations immer einen kürzesten Weg zu berechnen (die Aufnahme von Point-of-Interest wie z.B. etwas zu Essen auf dem Weg zu finden, wäre auch hilfreich)
 
 ===
 
-### Profis
+### Profis - GPS mit Backend
 
 * [Scotland Yard](https://de.wikipedia.org/wiki/Scotland_Yard_(Spiel), zu Beginn wird ein Spieler als Mr. X bestimmt und alle paar Minuten wird dessen GPS Position bei den anderen Spielern in einer Map dargestellt. Wenn ein Spieler näher als ein paar Meter an Mr. X heran kommt, wird dieser als gefangen markiert und ein neuer Mr. X wird bestimmt
 * [Who-I-Am](#5/3), auf einer Karte werden alle Positionen der Spieler angezeigt. In jeder Runde kann ich einen Spieler fragen, wer er ist oder wo er ist, der angesprochene Spieler kann entscheiden, ob die Antwort wahrheitsgemäß oder falsch gegeben wird. Bei einer falschen Antwort wird per Zufall eine Position oder Name eines anderen Spielers gewählt. Das Ziel ist es, dass man alle Spieler richtig anhand des Namens und der Position zuordnet
@@ -172,7 +172,7 @@ eyJoaXN0b3J5IjpbLTEzNjEyOTk1MTFdfQ==
 
 ---
 
-## Was sollt Ihr machen?
+## Wie soll das hier laufen?
 
 * in der Vorlesung am Rechner mitarbeiten
 * in den Übungen das Gelernte ausprobieren und erweitern
@@ -183,15 +183,10 @@ eyJoaXN0b3J5IjpbLTEzNjEyOTk1MTFdfQ==
 
 ## Welche Ziele sollt ihr erreichen?
 
-* Umgang mit Programmierwerkzeugen
-    * Grundlagen in der Java & Android
-    * Umgang mit einer Entwicklungsumgebung
-* Grundlagen der Projektorganisation
-    * Zusammenarbeit im Team
-    * Organisation von Arbeitspaketen
-    * Zeitmanagement   
-* Recherchemethodiken
-* Präsentationstechnik
+* Umgang mit Programmierwerkzeugen (Java, Android, IDE)
+* Grundlagen der Projektorganisation (Teamarbeit, Organisation, Zeitmanagement)
+* Präsentation von eigenen Ergebnissen
+* selbstständiges zielorientiertes Arbeiten erlernen
 
 ---
 
@@ -206,11 +201,12 @@ aber man muss angeben woher man sich etwas kopiert hat, sonst ist es ein [Plagia
 
 ## Wo bekomme ich Hilfe?
 
-* Kommillitonen, bei persönlichen Treffen
+* Kommillitonen, bei persönlichen Treffen & Diskussion
 * Im Internet
     * [Stackoverflow](https://stackoverflow.com/) 
     * [Java Newsgroup](https://groups.google.com/forum/#!forum/comp.lang.java.programmer)
     * [Android Developers](https://developer.android.com/support)
+    * [Github](https://github.com/) &rarr; [existierende Applikationen](https://github.com/search?q=android) anschauen
 * Für ausländische Studierende
     * [IZC H.E.L.P.](https://www.izc.tu-clausthal.de/sprachenzentrum/deutsch/help/) 
     * [IZC Sprachtandem](https://www.izc.tu-clausthal.de/sprachenzentrum/deutsch/sprachtandem/)
