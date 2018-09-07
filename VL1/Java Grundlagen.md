@@ -60,12 +60,12 @@ Wir nutzen später in dieser Vorlesung [Java auf Ant](/android-grundlagen/)
  @Phil: Gehört Bundling nicht eher ins Android Kapitel?-->
 
 - **Quellcode**: Textbasierte Darstellung eines Programms
-    - ```.java``` Textdatei, erstellt z.B. [Visual Studio Code](https://code.visualstudio.com/)
+    - ```java```-Textdatei, erstellt z.B. [Visual Studio Code](https://code.visualstudio.com/)
    	- Zeichen werd in einer [Kodierung](https://de.wikipedia.org/wiki/Zeichenkodierung) gespeichert (deutsche Umlaute)
     - heute wird meist [UTF-8](https://de.wikipedia.org/wiki/UTF-8) verwendet
 
 - **Binärcode**: Ausführbares Programm als Bytefolge gespeichert, 
-    - ```.class``` Binärdateien sind nicht für den Menschen lesbar
+    - ```class```-Binärdateien sind nicht für den Menschen lesbar
     - werden von Programmen wie dem Java Compiler ```javac``` erzeugt
 
 - **App**: Ein Programm, das vom Nutzer aufgerufen und verwendet werden kann (z.B. Google Maps)
