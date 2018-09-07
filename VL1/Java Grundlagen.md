@@ -194,14 +194,14 @@ java HelloWorld
 
 ### Standard-Datentypen
 
-|Datentyp|Wertebereich|
+| Datentyp | Wertebereich | Größe |
 |--|--|
-| boolean | ```true``` und ```false```, 1 Byte Länge |
-| byte | Ganze Zahlen von -128 bis 127 |
-| int| Ganze Zahl, 32 bit Länge | 
-| double| Fliesskommazahl mit doppelter Genauigkeit | 
-| char | Einzelne Zeichen, 16-bit Länge. z.B. `'a'` |
-| String| Zeichenkette, max. $2^{31}-1$ Zeichen. z.B. `"Hello World!"` |
+| boolean | ```true``` und ```false``` | 1 Byte |
+| byte | Ganze Zahlen ($\mathbb{Z}$) von -128 bis 127 | 1 Byte |
+| int| Ganze Zahl ($\mathbb{Z}$) | 4 Byte | 
+| double| Fliesskommazahl ($\mathbb{R}$) | 8 Byte | 
+| char | Einzelne Zeichen z.B. `'a'` | 2 Byte  |
+| String| Zeichenkette z.B. `"Hello World!"` | dynamisch, max. $2^{31}-1$ Zeichen |
 
 ===
 
