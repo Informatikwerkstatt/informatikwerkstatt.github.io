@@ -731,7 +731,7 @@ public class Endless
 }
     ```
      
-- Endlosschleifen sind ein einfaches Rezept, die CPU komplett auszulasten :o
+- Endlosschleifen sind ein einfaches Rezept, die CPU komplett auszulasten <i class="em em-astonished"></i>
 - Wenn Ihr das Programm über die Eingabeaufforderung gestartet habt, könnt Ihr es dort mit der Tastenkombination STRG+C beenden.
 - Manchmal ist es aber nicht so einfach ...
 
