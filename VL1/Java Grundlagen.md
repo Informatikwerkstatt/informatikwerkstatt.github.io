@@ -87,7 +87,7 @@ Wir nutzen später in dieser Vorlesung [Java auf Ant](/android-grundlagen/)
 <div class="flex">
 <div>
 * Linksclick auf Windows-Symbol
-* In Windows-Suche ```cmd``` eingeben (+ Return-Taste)
+* In Windows-Suche ```cmd``` eingeben <kbd>Return</kbd>
 * Linksclick auf angezeigtes ```cmd```-Symbol
 </div>
 <div>
@@ -732,7 +732,7 @@ public class Endless
     ```
      
 - Endlosschleifen sind ein einfaches Rezept <i class="em em-astonished"></i>, die CPU komplett auszulasten
-- Wenn Ihr das Programm über die Eingabeaufforderung gestartet habt, könnt Ihr es dort mit der Tastenkombination <kbd>Strg</kbd> + <kbd>c</kbd> beenden.
+- Wenn Ihr das Programm über die Eingabeaufforderung gestartet habt, könnt Ihr es dort mit der Tastenkombination <kbd>Strg + c</kbd> beenden.
 - Manchmal ist es aber nicht so einfach ...
 
 ===

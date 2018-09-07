@@ -170,6 +170,10 @@
  .reveal dd {
    margin-left: 40px; }
 
+ .reveal em {
+    width: 65% 
+ } 
+
  .reveal kbd {
    display: inline-block;
    padding: 3px 5px;
