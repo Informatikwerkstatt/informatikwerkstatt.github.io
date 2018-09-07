@@ -171,12 +171,12 @@
    margin-left: 40px; }
 
  .reveal .em {
-    width: 65% 
+    width: 1em; 
  } 
 
  .reveal kbd {
    display: inline-block;
-   font-size: 75%;
+   font-size: 65%;
    padding: 3px 5px;
    color: #444d56;
    vertical-align: middle;
