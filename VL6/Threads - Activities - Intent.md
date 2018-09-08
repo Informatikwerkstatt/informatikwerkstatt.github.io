@@ -251,10 +251,27 @@ Notes: Einem Studierenden einen Zettel in die Hand geben, auf dem steht, dass er
 
 ---
 
-## Intent-Filter
+## Intent-Filter---
+
+## Activity Lifetime
+
+---
+
+## Intent
+
+---
+
+## Datenübergabe Intent &rarr; Activity
+
+---
+
+## Let's try
 
 ---
 
 ### @Profis - Background Tasks
 
 <!-- https://developer.android.com/training/best-background -->
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTkxNDM5MTc4NF19
+-->
