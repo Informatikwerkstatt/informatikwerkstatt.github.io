@@ -115,7 +115,7 @@ Ein [Android Projekt](https://developer.android.com/studio/projects/) besteh aus
 
 ### Unit-Testing
 
-> [Unit-Testing](https://de.wikipedia.org/wiki/Modultest), auch _Modultest_ oder _Komponententest_ ist eine Möglichtkeit einzelne Routinen auf ihre korrekte Funktionsweise zu überprüfen. In Java / Android nutzt man dafür das [JUnit](https://junit.org/)-Framework.
+> [Unit-Testing](https://de.wikipedia.org/wiki/Modultest), auch _Modultest_ oder _Komponententest_ ist eine Möglichtkeit einzelne Routinen auf ihre korrekte Funktionsweise zu überprüfen. In Java nutzt man dafür das [JUnit](https://junit.org/)-Framework, für [App-Testing](https://developer.android.com/studio/test/) gibt es weitere Möglichkeiten
 
 ```java
 import org.junit.Test;
