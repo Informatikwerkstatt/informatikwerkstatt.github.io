@@ -72,14 +72,19 @@ Es nimmt einem viel Arbeit ab!
 
 ## Projektstruktur
 
+<div class="flex">
+<div><p>Ein [Android Projekt](https://developer.android.com/studio/projects/) besteh aus mehreren Verzeichnis mit mehreren Dateien.</p><ol><li><strong>app</strong> Hauptverzeichnis mit alen Daten</li><li><strong>Gradle Scripts</strong> ein Verzeichnnis um mit dem Build Tools [Gradle](https://gradle.org/) die App zu compilieren und zu bundlen</li><li><strong>manifests</strong> das [Manifest](#/5/1), d.h. die Konfiguration, des Projektes</li><li><strong>java</strong> enthält alle Quellcodedateien, einmal den Quellcode der App und den Code der [Unit-Tests](https://de.wikipedia.org/wiki/Modultest)</li><li><strong>res</strong> ein Verzeichnis mit allen weiteren Komponenten der App wie z.B. Bilder, Icons, Layout der [Activities (Fenster)](/threads-activities-intent/#/3), etc.</li></ol>
+</div>
+<div>
 ![Android Projekt Struktur](https://developer.android.com/images/tools/projectview-p1.png#floatright)
-Ein [Android Projekt](https://developer.android.com/studio/projects/) besteh aus mehreren Verzeichnis mit mehreren Dateien.
+</div>
+</div>
 
-- **app** Hauptverzeichnis mit alen Daten
-- **Gradle Scripts** ein Verzeichnnis um mit dem Build Tools [Gradle](https://gradle.org/) die App zu compilieren und zu bundlen
-- **manifests** das [Manifest](#/5/1), d.h. die Konfiguration, des Projektes
-- **java** enthält alle Quellcodedateien, einmal den Quellcode der App und den Code der [Unit-Tests](https://de.wikipedia.org/wiki/Modultest)
-- **res** ein Verzeichnis mit allen weiteren Komponenten der App wie z.B. Bilder, Icons, Layout der [Activities (Fenster)](/threads-activities-intent/#/3), etc.
+- **app** 
+- **Gradle Scripts** 
+- **manifests** 
+- **java** 
+- **res** 
 
 ===
 
