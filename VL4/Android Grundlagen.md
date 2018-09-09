@@ -10,7 +10,7 @@ __Android Grundlagen__
 
 ## Android - was ist das?
 
-[Android]( https://de.wikipedia.org/wiki/Android_(Betriebssystem) ) ist ein  Betriebsystem ([Freie Software](https://de.wikipedia.org/wiki/Freie_Software)) für mobile Geräte, das von Google entwickelt und 2008 veröffentlicht wurde
+[Android](https://de.wikipedia.org/wiki/Android_\(Betriebssystem\)) ist ein  Betriebsystem ([Freie Software](https://de.wikipedia.org/wiki/Freie_Software)) für mobile Geräte, das von Google entwickelt und 2008 veröffentlicht wurde
 
 ---
 
@@ -72,7 +72,7 @@ Es nimmt einem viel Arbeit ab!
 
 ## Projektstruktur
 
-![Android Projekt Struktur](https://developer.android.com/images/tools/projectview-p1.png)
+![Android Projekt Struktur](https://developer.android.com/images/tools/projectview-p1.png#floatright)
 Ein [Android Projekt](https://developer.android.com/studio/projects/) besteh aus mehreren Verzeichnis mit mehreren Dateien.
 
 - **app** Hauptverzeichnis mit alen Daten
@@ -128,6 +128,7 @@ public final class TestCBeispiel
         Assert.assertEquals( 4, 2 + 2 );
     }
 }
+```
 
 ===
 
