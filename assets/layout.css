@@ -97,9 +97,9 @@
   opacity: 0;
   left: 0; right: 0; bottom: 0;
   margin: 0;
-  padding: 15px;
-  font-size: 14px;
-  line-height: 22px;
+  padding: 10px;
+  font-size: 0.8em;
+  line-height: 1.2em;
   background-color: rgba(0,0,0,0.8);
   transition: all 300ms ease;
   transition-delay: 300ms;
