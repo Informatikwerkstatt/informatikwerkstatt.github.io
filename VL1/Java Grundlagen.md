@@ -60,12 +60,12 @@ Wir nutzen später in dieser Vorlesung [Java auf Ant](/android-grundlagen/)
  @Phil: Gehört Bundling nicht eher ins Android Kapitel?-->
 
 - **Quellcode**: Textbasierte Darstellung eines Programms
-    - ```java```Textdatei, erstellt z.B. [Visual Studio Code](https://code.visualstudio.com/)
+    - ```java```-Textdatei, erstellt z.B. [Visual Studio Code](https://code.visualstudio.com/)
    	- Zeichen werd in einer [Kodierung](https://de.wikipedia.org/wiki/Zeichenkodierung) gespeichert (deutsche Umlaute)
     - heute wird meist [UTF-8](https://de.wikipedia.org/wiki/UTF-8) verwendet
 
 - **Binärcode**: Ausführbares Programm als Bytefolge gespeichert, 
-    - ```class```Binärdateien sind nicht für den Menschen lesbar
+    - ```class```-Binärdateien sind nicht für den Menschen lesbar
     - werden von Programmen wie dem Java Compiler ```javac``` erzeugt
 
 - **App**: Ein Programm, das vom Nutzer aufgerufen und verwendet werden kann (z.B. Google Maps)
@@ -85,8 +85,7 @@ Wir nutzen später in dieser Vorlesung [Java auf Ant](/android-grundlagen/)
 ### Kommandozeilentool unter Windows: Eingabeaufforderung
 
 <div class="flex">
-<div><ol><li>1. Linksclick auf Windows-Symbol</li><li>In Windows-Suche ```cmd``` eingeben <kbd>(+ Return</kbd></li><li>-Taste)
-Linksclick auf angezeigtes ```cmd```-Symbol</li></ol></div>
+<div><ol><li>Linksclick auf Windows-Symbol</li><li>In Windows-Suche ```cmd``` eingeben <kbd>Return</kbd></li><li>Linksclick auf angezeigtes ```cmd```-Symbol</li></ol></div>
 <div>
 ![Windows Commandline](images/1_cmd.png)
 </div>
@@ -102,8 +101,8 @@ Linksclick auf angezeigtes ```cmd```-Symbol</li></ol></div>
 	- ```cd Development``` &rarr; wechselt in das existiertende Unterverzeichnis ```Development```
     - ```cd \``` &rarr; wechselt ins Wurzelverzeichnis
     - ```cd ..``` &rarr; wechselt in das übergeordnete Verzeichnis
-- Befehl mit der Option ```/?``` aufrufstarten, um eine kurze Hilfe zu erhalten
-- [Liste weiterer Befehle](https://de.wikibooks.org/wiki/Batch-Programmierung:_Wichtige_DOndos)gen
+- Befehl mit der Option ```/?``` aufrufen, um eine kurze Hilfe zu erhalten
+- [Liste weiterer Befehle](https://de.wikibooks.org/wiki/Batch-Programmierung:_Wichtige_DOS-Kommandos)
 
 ===
  
@@ -245,7 +244,7 @@ public class CHelloWorld
 
 - ```=``` Zuweisungsoperator &rarr; Wert wird einer Variablen zugewiesen
 - ```=``` kopiert Wert auf der rechten Seite in die Variable auf der linken 
-- Modifikator ```final``` ermöglicht Variablen niacht _schreibbar_ zu mache, d.h. der Wert ist un vernde
+- Modifikator ```final``` ermöglicht Variablen nicht _schreibbar_ zu mache, d.h. der Wert ist unveränderbar
 
 ===
 
@@ -255,10 +254,10 @@ public class CHelloWorld
 - Der Wert der Variable wird an die Methode übergeben und dort weiterverarbeitet. 
 
 ```java	
-    public static void main( String[] p_args )
-    {
-       System.out.println( message );
-    }
+public static void main( String[] p_args )
+{
+    System.out.println( message );
+}
 ```
 
 === 
@@ -299,57 +298,39 @@ public class CTypeUmwandlung
 2. Übersetze das Programm und führe es aus 
 
 &rArr; Was beobachtest Du?
- ds ```
 
-. Übersetze das Programmeren
 ===
 
 ### @Let's try
 
-1. Ergänze in5. Füge nun folgende Zeile am Ende daes [Programm](#/9) als letzte Zeilen
+1. Ergänze in das [Programm](#/9) als letzte Zeilen
 
     ```java
     final String l_text = Integer.toString( l_toint );
-    "Textausgabe: " + l_text );
-    ```main```-Programms ein?
+    System.out.println( "Textausgabe: " + l_text );
+    ```
 
-```java
- // hier versuche ich, eine double-Variable auf eine int-Variable zu casten :o
-    counterI = counterD;
-```
-
-26. Übersetze das Programm und führe es aus 
+2. Übersetze das Programm und führe es aus 
 
 &rArr; Was beobachtest Du und wie kannst Du das erklären?
 
-&rArr; Kannst Du das Programm so umformuli! Was beobachtest Du?
-7.  Ermittele jeweils durch Nachdenken oder probieren: Auf welche Typen können ```byte``` / ```int```  ```double``` gecastet werden, dass es mit der Variable ```l_todouble``` funktioniert?
+&rArr; Kannst Du das Programm so umformulieren, dass es mit der Variable ```l_todouble``` funktioniert?
 
 ---
 
 ### Implizites vs. explizites Casting
-?
-8. Versuche, die Variable ```counterD``` auf die String-Variable ```myNumber``` zu casten! 
 
-===
-
-### Implizites vs. explizites Casting
-
-- Typenumwandlung ist oft notwendig, erfordert aber Sorgfalt!
-- Dabei können Probleme zur Übersetzungszeit und u.U. auch zur Ausführungszeit (Runtime) eines Programmes auftreten 
-- *Erweiterndes Casting* (```int``` &rarr;auf ```double```) &rarr; Compiler führt es automatisch durch (implizites Casting)
+- *Erweiterndes Casting* (```int``` &rarr; ```double```) &rarr; Compiler führt es automatisch durch (implizites Casting)
 - *Einschränkendes Casting* (```double``` &rarr; ```int```) &rarr; muss explizit vom Programmierer gemacht werden
--. Bei einem expliziten Casting können [Runtime-Fehler](#/18) auftrete:
+- Bei einem expliziten Casting können [Runtime-Fehler](#/18) auftreten
 
     ```java
-    final double _ p  =  3.14159;
+    final double l_pi =  3.14159;
     //explizites casting
     final int l_pi_int = (int) l_pi;
     ```
 
-- *Schlechter Code-Stil*, da ein _expliziter Cast_ immer ein Hinweis auf einen nicht richtig definierten Typ>
-
--  ist, besser ein generischer Typ
+- *Schlechter Code-Stil*, da ein _expliziter Cast_ immer ein Hinweis auf einen nicht richtig definierten Typ ist, besser ein generischer Typ
 
     ```java
     final Number l_pi = 3.14159;
@@ -396,7 +377,7 @@ System.out.println("l = " + l);
 - Vorsicht beim Test auf Gleichheit bei Objekten
 - Operator `==` prüft Gleichheit der Speicherstellen
 
-```ava
+    ```java
     int  i=1;
     int  j=1;
     // Ergebnis: true
@@ -418,7 +399,7 @@ System.out.println("l = " + l);
 
 &rArr; Könnt Ihr dieses Ergebnis erklären?
 
-Notes: In ```s1.equals(s2)``` muss ```s1``s1` initialisiert sein &rarr; prüfen mit ```Objects.nonNull(s1)```
+Notes: In ```s1.equals(s2)``` muss ```s1``` initialisiert sein &rarr; prüfen mit ```Objects.nonNull(s1)```
 
 ---
 
@@ -430,19 +411,19 @@ Notes: In ```s1.equals(s2)``` muss ```s1``s1` initialisiert sein &rarr; prüfen 
 - Wenn Bedingung erfüllt ist , wird Anweisungsblock ausgeführt; sonst übersprungen.
 
     ```java
-    int a```j = 2;
-    if ( a > 0 ) )
-       
-System.out.println( a + " ist positiv" );
+    int a = 2;
+    if ( a > 0 ) 
+        System.out.println( a + " ist positiv" );
 
     if ( a <= 0 ) 
-       System.out.println(a + ist "nichtpositiv";
+        System.out.println(a + ist "nichtpositiv");
     ```
 
 - Entweder-Oder
-        ```java
+    
+    ```java
     if ( a > 0 ) 
-      	  System.out.println(a + " ist positiv");
+        System.out.println(a + " ist positiv");
     else 
         System.out.println(a + ist "nichtpositiv");
     ```
@@ -451,17 +432,13 @@ System.out.println( a + " ist positiv" );
 
 ### Ternärer Operator - if-else Kurzform
 
-<span class="rrd" data-rrd="Diagram( Sequence( NonTerminal('Bedingung'), Terminal('?'), NonTerminal('Wert bei True'), Terminal(':'":"), NonTerminal('"Wert bebi False'") ) )"></span.toSVG();</script>
-
+<span class="rrd" data-rrd="Diagram( Sequence( NonTerminal('Bedingung'), Terminal('?'), NonTerminal('Wert bei True'), Terminal(':'), NonTerminal('Wert bei False') ) )"></span>
 
 - als Zuweisung 
 
     ```java
-    String l_result = (a > 0) ? "We```java
-(a > 0) 
-? System.out.println(a + " ist positiv") 
-: "WertSystem.out.println(a + " ist nicht positiv");
-```
+    String l_result = (a > 0) ? "Wert ist positiv") : "Wert ist nicht positiv";
+    ```
 
 - Oder etwas eleganter als Parameter
 
@@ -508,9 +485,9 @@ else
 ```java
 // Anweisung 2
 int a = 5;
-int, b = 6;
-int, c = 7;
-if (     a > b )
+int b = 6;
+int c = 7;
+if (a > b )
 {
    a = b;
 }
@@ -523,7 +500,7 @@ else
 }
 ```
     
-Notes:<!-- Anweisung 1: 5<6, also wird a=b ausgeführt (if-Zweig) Anweisung 2: a <= b, deshalb zunächst else-Zweig, dann wg a < c der if-Zweig
+Notes: Anweisung 1: 5<6, also wird a=b ausgeführt (if-Zweig) Anweisung 2: a <= b, deshalb zunächst else-Zweig, dann wg a < c der if-Zweig
 
 ---
 
@@ -583,7 +560,7 @@ for ( int i = =0; i < <highscores.length; i++ )
 
 - Häufiger Fehler: Ungültiger Wert für Index &rarr; führt zu Laufzeitfehler
 
-    ``` java
+```java
 final    int[] highscores = {1000, 850, 600};
 //Zugriff auf viertes Element was nicht existiert
 final int l_wert = highscores[3]; 
@@ -606,7 +583,8 @@ import java.util.ArrayList;
 public class CMeineListe
 {
     public static void main( final String[] p_args )
-    // erzeuge neue Liste
+    {
+        // erzeuge neue Liste
         final ArrayList<String> l_betreuer  =  new  ArrayList<>();
 
         // füge Elemente ein
@@ -614,10 +592,9 @@ public class CMeineListe
         betreuer.add( "Steffi" s2);
         betreuer.add( "Jörg" );
 
-    s3);
-    // gib alle Elemente aus (for-Schleife s.u.)
+        // gib alle Elemente aus (for-Schleife s.u.)
         for ( final String l_name : betreuer)
-       System.out.println( l_name );
+            System.out.println( l_name );
     }
 }
 ```
@@ -666,21 +643,18 @@ Schreibe ein weiteres Programm, in dem Du
 - Sie dient zum einfachen Durchlaufen listenartiger Datenstrukturen und Arrays
 - Anm.: Das Wort "each" kommt darin nicht vor. Man nennt sie so, um sie von der ```for```-Schleife zu unterscheiden
 
-- Beispiel:
-
-    ```java
-final List<String> someList = new ArrayList<String>();
-// füge "Äaepfel", "Bbirnen", "Ppflaumen" zu someList hinzu
-for ( final String item : someList ) {
+```java
+final List<String> someList = new ArrayList<>();
+// füge "Äpfel", "Birnen", "Pflaumen" zu someList hinzu
+for ( final String item : someList )
     System.out.println(item);
-}
-    ```
+```
 
 - Anm.:  Da im Rumpf der `for each` Anweisung nur Kopien der Listenelemente verarbeitet werden, kann man damit keine Elemente der Liste ändern oder löschen!
 
 ===
 
-### While / Do-hile
+### While / Do-While
 
 - Wenn die Anzahl der Wiederholungen eines Codeblocks nicht bekannt ist, sondern nach jedem Durchlauf eine Bedingung überprüft werden muss, nutzen wir die `while-`Schleife
 - z.B. wir schauen alle 5 Sekunden so lange in den Briefkasten, bis ein Brief drinnen liegt
@@ -692,12 +666,12 @@ Mail m = null{ // Mache weiter, solange noch keine Mail da ist
         
 while ( Objects.isNull(m) )
 {
-     o       // Schaue nach Mail
+    // Schaue nach Mail
     m = Mailbox.lookup(); 
     // Warte 5 Sekunden
     Thread.sleep(5000); 
-}     
- // Endlich!! Wir können unsere Mail lesen
+}    
+// Endlich!! Wir können unsere Mail lesen
 m.read();
 ```
 
@@ -708,7 +682,7 @@ int count = 1;
 // der Rumpf der Schleife wird bei do-while mindestens einmal ausgeführt
 do
 { 
-       System.out.println( "Count is: " + count );
+    System.out.println( "Count is: " + count );
     count++;
 }
 while ( count < 11 ); 
@@ -889,9 +863,9 @@ Im Abschnitt über Arrays haben wir das Problem kennengelernt, dass mit ungülti
 
 ---
 
-## @Home Übung
+## @Home / Übung
 
-Shreiben ein Programm, das zwei Argumente von der Kommandozeile einliest, einen String und eine Zahl, und das den String so oft auf der Kommandozeile ausgibt, wie die Zahl angibt.
+Schreiben ein Programm, das zwei Argumente von der Kommandozeile einliest, einen String und eine Zahl, und das den String so oft auf der Kommandozeile ausgibt, wie die Zahl angibt.
 
 - Prüft die Typen der Eingaben
 - Bei einem leeren String sollte eine Fehlermeldung ausgegeben werden, dass der String leer ist
@@ -901,9 +875,9 @@ Shreiben ein Programm, das zwei Argumente von der Kommandozeile einliest, einen 
 
 ---
 
-## @Home / /Übung
+## @Home / Übung
 
-> Schreibt ein Programm, dass zwei ganze Zahlen A und B von der Kommandozeile einliest und (1) das Ergebnis der ganzzahligen Division der beiden Zahlen sowie (2) den Rest der ganzzahligen Division ausgibt.
+Schreibt ein Programm, dass zwei ganze Zahlen A und B von der Kommandozeile einliest und (1) das Ergebnis der ganzzahligen Division der beiden Zahlen sowie (2) den Rest der ganzzahligen Division ausgibt.
 
 * Prüft Typen und Anzahl der Eingaben (insbesondere Anforderung:  *ganze* Zahl! )
 * Gebt eine entsprechende Fehlermeldungen aus
@@ -932,6 +906,3 @@ Shreiben ein Programm, das zwei Argumente von der Kommandozeile einliest, einen 
 	- Variable: ```highScoreListe```
 	- Methode: ```onCreate()```
 	- Klasse: ```ArrayIndexOutOfBoundsException``
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTA2NjA4NzVdfQ==
--->
