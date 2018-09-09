@@ -10,7 +10,7 @@ __Android Grundlagen__
 
 ## Android - was ist das?
 
-[Android](https://de.wikipedia.org/wiki/Android_(Betriebssystem) ist ein  Betriebsystem ([Freie Software](https://de.wikipedia.org/wiki/Freie_Software)) für mobile Geräte, das von Google entwickelt und 2008 veröffentlicht wurde
+[Android](https://de.wikipedia.org/wiki/Android_(Betriebssystem)) ist ein  Betriebsystem ([Freie Software](https://de.wikipedia.org/wiki/Freie_Software)) für mobile Geräte, das von Google entwickelt und 2008 veröffentlicht wurde
 
 ---
 
@@ -72,6 +72,15 @@ Es nimmt einem viel Arbeit ab!
 
 ## Projektstruktur
 
+![Android Projekt Struktur](https://developer.android.com/images/tools/projectview-p1.png)
+Ein [Android Projekt](https://developer.android.com/studio/projects/) besteh aus mehreren Verzeichnis mit mehreren Dateien.
+
+- **app** Hauptverzeichnis mit alen Daten
+- **Gradle Scripts** ein Verzeichnnis um mit dem Build Tools [Gradle](https://gradle.org/) die App zu compilieren und zu bundlen
+- **manifests** das [Manifest](#/5/1), d.h. die Konfiguration, des Projektes
+- **java** enthält alle Quellcodedateien, einmal den Quellcode der App und den Code der [Unit-Tests](https://de.wikipedia.org/wiki/Modultest)
+- **res** ein Verzeichnis mit allen weiteren Komponenten der App wie z.B. Bilder, Icons, Layout der [Activities (Fenster)](/threads-activities-intent/#/3), etc.
+
 ===
 
 ### Manifest
@@ -100,6 +109,25 @@ Es nimmt einem viel Arbeit ab!
     </application>
 </manifest>
 ```
+
+===
+
+### Unit-Testing
+
+> [Unit-Testing](https://de.wikipedia.org/wiki/Modultest), auch _Modultest_ oder _Komponententest_ ist eine Möglichtkeit einzelne Routinen auf ihre korrekte Funktionsweise zu überprüfen. In Java / Android nutzt man dafür das [JUnit](https://junit.org/)-Framework.
+
+```java
+import org.junit.Test;
+import org.junit.Assert;
+
+public final class TestCBeispiel
+{
+    @Test
+    public void addition_isCorrect()
+    {
+        Assert.assertEquals( 4, 2 + 2 );
+    }
+}
 
 ===
 
