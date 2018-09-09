@@ -24,7 +24,7 @@ Ein [View](https://developer.android.com/reference/android/view/View) ist die ob
 
 Eine [ViewGroup](https://developer.android.com/reference/android/view/ViewGroup) ist eine Sammlung von View-Containern eines Layouts, sowohl View wie auch ViewGroup können miteinander verbunden werden
 
-![ZUsammenhang zwischen View und ViewGroup](https://developer.android.com/images/viewgroup_2x.png)
+![View und ViewGroup - Quelle https://developer.android.com/training/basics/firstapp/building-ui ](https://developer.android.com/images/viewgroup_2x.png)
 
 ---
 
@@ -64,7 +64,7 @@ Eine [ViewGroup](https://developer.android.com/reference/android/view/ViewGroup)
 
 Das [Linear Layout](https://developer.android.com/guide/topics/ui/layout/linear) ermöglicht es geradlinige Strukturen wie z.B. Listen darzustellen. Die Breite ist flexible, aber auf eine Spalte begrenzt, und die Höhe orientiert sich der Länge des Inhaltes
 
-![Linear Layout](https://developer.android.com/images/ui/linearlayout.png)
+![Linear Layout - Quelle https://developer.android.com/guide/topics/ui/layout/linear](https://developer.android.com/images/ui/linearlayout.png)
 
 ===
 
@@ -72,7 +72,7 @@ Das [Linear Layout](https://developer.android.com/guide/topics/ui/layout/linear)
 
 Das [Grid View Layout](https://developer.android.com/guide/topics/ui/layout/gridview) ist aufgebaut wie ein Schachbrett. Die Anzahl der Zeilen und Spalten kann zur Laufzeit gesetzt werden. Es eignet sich gut für Darstellung von mehreren Thumbnails
 
-![Grid View Layout](https://developer.android.com/images/ui/gridview.png)
+![Grid View Layout - Quelle https://developer.android.com/guide/topics/ui/layout/gridview](https://developer.android.com/images/ui/gridview.png)
 
 ---
 
