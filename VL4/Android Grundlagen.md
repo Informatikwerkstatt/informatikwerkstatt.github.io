@@ -231,13 +231,19 @@ Log.e( "berechnung", "hier ist eine Division durch null aufgetreten" );
 
 ===
 
-### Anzeige
+### Logger-Anzeige
 
 <iframe class="video" src="https://player.vimeo.com/video/287641440" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
 
 ---
 
 ## @Let's try
+
+1. Ergänzt die Hellow-World App um den Logger
+2. Probiert die verschiedenen _Log Level_ aus
+3. Überprüft die Log Nachrichten auf dem PC und den Tablet
+
+&rArr; Wozu könnten die verschiedenen Log Levels sinnvoll sein?
 
 ---
 
@@ -247,15 +253,8 @@ Log.e( "berechnung", "hier ist eine Division durch null aufgetreten" );
 
 ### Breakpoints & debugger
 
-=== 
-
-### Println - Developers Best Friend
-
 ---
 
 ## @Home
 
 1. Installation von [Android Studio](https://developer.android.com/studio/)
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNDQ1NDI3NV19
--->
