@@ -167,7 +167,6 @@ Software-Entwicklung besteht aus viel Text schreiben, so dass es hilfreich ist, 
 | Kommando              | Shortcut  |
 |-----------------------|----------:|
 | Klasse finden         | ```Control``` + ```N``` |
-| Alles speichern       | ```Control``` + ```S``` |
 | Suchen                | ```Control``` + ```F``` |
 | Ersetzen              | ```Control``` + ```R``` |
 | Optimiere Imports     | ```Control``` + ```Alt``` + ```O``` |
