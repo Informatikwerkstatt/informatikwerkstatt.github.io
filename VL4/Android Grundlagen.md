@@ -115,7 +115,7 @@ Ein [Android Projekt](https://developer.android.com/studio/projects/) besteh aus
 
 ### Unit-Testing
 
-> [Unit-Testing](https://de.wikipedia.org/wiki/Modultest), auch _Modultest_ oder _Komponententest_ ist eine Möglichtkeit einzelne Routinen auf ihre korrekte Funktionsweise zu überprüfen. In Java nutzt man dafür das [JUnit](https://junit.org/)-Framework, für [App-Testing](https://developer.android.com/studio/test/) gibt es weitere Möglichkeiten
+> [Unit-Testing](https://de.wikipedia.org/wiki/Modultest), auch _Modultest_ oder _Komponententest_ ist eine Möglichtkeit einzelne Routinen auf ihre korrekte Funktionsweise zu überprüfen. In Java nutzt man dafür das [JUnit](https://junit.org/)-Framework, für [App-Testing](https://developer.android.com/studio/test/) gibt es weitere Möglichkeiten. Testing erhöht die Qualität der Software.
 
 ```java
 import org.junit.Test;
@@ -194,15 +194,10 @@ Der Prozess wird mit dem _grünen Button_ in der rechten oberen Fensterecke gest
 
 ### @Profis
 
-* [Continuous Integration](https://de.wikipedia.org/wiki/Kontinuierliche_Integration)
+[Testing](#/5/2) und [Build-Prozess](#/7) können mit Hilfe von [Continuous Integration](https://de.wikipedia.org/wiki/Kontinuierliche_Integration) automatisiert werden. Dazu gibt es mehrere Cloud-Plattformen, die direkt mit [Github](/git-github/) verbunden werden können. Somit kann der gesamte Prozess z.B. bei einem _Git Push_ automatisch ausgeführt werden und jeden Tag ein [Nightly Build](https://de.wikipedia.org/wiki/Nightly_Build) aus dem aktuellen Entwicklungsstand erzeugt werden.
+ 
 * [Circle CI](https://circleci.com/)
 * [Travis CI](https://travis-ci.org/)
-
-
-
----
-
-## @Let's try
 
 ---
 
