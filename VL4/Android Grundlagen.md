@@ -166,15 +166,15 @@ Software-Entwicklung besteht aus viel Text schreiben, so dass es hilfreich ist, 
 
 | Kommando              | Shortcut  |
 |-----------------------|----------:|
-| Klasse finden         | <kbd>Control + N</kbd> |
-| Suchen                | <kbd>Control + F</kbd> |
-| Ersetzen              | <kbd>Control + R</kbd> |
-| Optimiere Imports     | <kbd>Control + Alt + O</kbd> |
-| Reformat code	        | <kbd>Control + Alt + L</kbd> |	
-| Quick-Fix<sup>1<sup>  | <kbd>Alt + Enter</kbd> |
-| Basis Code-Ergänzung  | <kbd>Control+ Space</kbd> |
-| Smarte Code-Ergänzung | <kbd>Control + Shift + Space</kbd> |
-| Erzeugen & Ausführen  | <kbd>Shift + F10</kbd> |
+| Klasse finden         | <kbd>Control</kbd>+<kbd>N</kbd> |
+| Suchen                | <kbd>Control</kbd>+<kbd>F</kbd> |
+| Ersetzen              | <kbd>Control</kbd>+<kbd>R</kbd> |
+| Optimiere Imports     | <kbd>Control</kbd>+<kbd>Alt</kbd>+<kbd>O</kbd> |
+| Reformat code	        | <kbd>Control</kbd>+<kbd>Alt</kbd>+<kbd>L</kbd> |	
+| Quick-Fix<sup>1<sup>  | <kbd>Alt</kbd>+<kbd>Enter</kbd> |
+| Basis Code-Ergänzung  | <kbd>Control</kbd>+<kbd>Space</kbd> |
+| Smarte Code-Ergänzung | <kbd>Control</kbd>+<kbd>Shift</kbd>+<kbd>Space</kbd> |
+| Erzeugen & Ausführen  | <kbd>Shift</kbd>+<kbd>F10</kbd> |
 
 <small>1: kann benutzt werden, wenn ein Befehl mit einer <span style="text-decoration: underline wavy red;">roten Linie</span> unterstrichen wurde</small>
 <br/>
