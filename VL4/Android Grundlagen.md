@@ -166,15 +166,15 @@ Software-Entwicklung besteht aus viel Text schreiben, so dass es hilfreich ist, 
 
 | Kommando              | Shortcut  |
 |-----------------------|----------:|
-| Klasse finden         | ```Control``` + ```N``` |
-| Suchen                | ```Control``` + ```F``` |
-| Ersetzen              | ```Control``` + ```R``` |
-| Optimiere Imports     | ```Control``` + ```Alt``` + ```O``` |
-| Reformat code	        | ```Control``` + ```Alt``` + ```L``` |	
-| Quick-Fix<sup>1<sup>  | ```Alt``` + ```Enter``` |
-| Basis Code-Ergänzung  | ```Control``` + ```Space``` |
-| Smarte Code-Ergänzung | ```Control``` + ```Shift``` + ```Space```
-| Erzeugen & Ausführen  | ```Shift``` + ```F10``` |
+| Klasse finden         | <kbd>Control + N</kbd> |
+| Suchen                | <kbd>Control + F</kbd> |
+| Ersetzen              | <kbd>Control + R</kbd> |
+| Optimiere Imports     | <kbd>Control + Alt + O</kbd> |
+| Reformat code	        | <kbd>Control + Alt + L</kbd> |	
+| Quick-Fix<sup>1<sup>  | <kbd>Alt + Enter</kbd> |
+| Basis Code-Ergänzung  | <kbd>Control+ Space</kbd> |
+| Smarte Code-Ergänzung | <kbd>Control + Shift + Space</kbd> |
+| Erzeugen & Ausführen  | <kbd>Shift + F10</kbd> |
 
 <small>1: kann benutzt werden, wenn ein Befehl mit einer <span style="text-decoration: underline wavy red;">roten Linie</span> unterstrichen wurde</small>
 <br/>
