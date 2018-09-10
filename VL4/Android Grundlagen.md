@@ -139,7 +139,7 @@ public final class TestCBeispiel
 
 ---
 
-## Tastatur Dein Freund - IntelliSense & Shortcuts
+## Tastatur Dein Freund
 
 Software-Entwicklung besteht aus viel Text schreiben, so dass es hilfreich ist, vieles per Tastatur zu steuern:
 
