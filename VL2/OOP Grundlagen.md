@@ -11,16 +11,16 @@ __Objekt-Orientierte Programmierung Grundlagen__
 ## Objekt-Orientierte Programmierung (OOP) - was ist das?
 
 <!-- was ist der Sinn von OOP -->
-* Moderner Programmieransatz, Anfänge in späten 60ern (SIMULA), Mainstream seit 1990er
+* Moderner Programmieransatz, Mainstream seit 1990ern
 * Idee: Intuitive Beschreibung von Systemen und ihren Bestandteilen (Objekten) durch 
-    * Zustand (z.B. Fahrrad hat Farbe, Radgröße, aktuelle Geschwindigkeit, aktueller Gang)
+    * Zustand (z.B. Fahrrad hat Farbe, aktuelle Geschwindigkeit, Gang)
     * Verhalten (z.B. Gang wechseln, beschleunigen, bremsen) 
 * Prinzip **Abstraktion**:
-    * Fokus auf das Wichtige (was tut ein Objekt?) und Verbergen des Unwichtigen (wie wird es getan?) $\rarr$ [Interfaces](#/3/15)
+    * Fokus auf das Wichtige (was tut ein Objekt?), Verbergen des Unwichtigen (wie?) $\rarr$ [Interfaces](#/3/15)
 * Prinzip **Kapselung**:
     * "Zusammenbinden" von Zustand (Daten) und Verhalten  
 * Prinzip **Vererbung**
-    * Erkennen und Abbilden von Ähnlichkeiten und Unterschieden zwischen Objekten
+    * Abbilden von Ähnlichkeiten und Unterschieden zwischen Objekten
 * Prinzip **Polymorphismus** 
     * Kommt später noch ...
 <!-- Polymorphismus würd ich hier weglassen und nur auf Overloading und evtl. overriding beschränken -->
@@ -49,9 +49,9 @@ __Objekt-Orientierte Programmierung Grundlagen__
   // Definiere Eigenschaften
     private String m_farbe;
     private String m_marke;
-    private int m_leistung; 
-    private int m_tempo; //aktuelle Geschwindigkeit
-    private int m_gang; // aktueller Gang
+    private int m_kw;       // Leistung in kW
+    private int m_tempo;    //aktuelle Geschwindigkeit
+    private int m_gang;     // aktueller Gang
 
   $\ldots$
   }
@@ -82,25 +82,25 @@ __Objekt-Orientierte Programmierung Grundlagen__
       m_farbe = p_farbe;
       m_marke = p_marke;
       m_kw = p_kw;  // Leistung in kW
-      m_tempo=0; // Initialzustand: Auto steht
-      m_gang=1;  //Initialzustand: 1. Gang 
+      m_tempo = 0; // Initialzustand: Auto steht
+      m_gang = 1;  //Initialzustand: 1. Gang 
   }
   ```
 * Konstruktor ist ein Codeblock innerhalb einer Klassendefinition
-* Ähnelt einer Methode, hat aber Namen der Klasse und keinen RückgabeWert 
+* Ähnelt einer Methode, hat aber Namen der Klasse und keinen Rückgabewert 
 * Für eine Klasse kann es mehrere Konstruktoren mit unterschiedlichen Argumenten geben
 
 ===
 
-### this
+### Schlüsselwort ```this```
 
 <!-- was ist this, mit einem Schaubild -->
-* Innerhalb eines  Konstruktors oder einer Instanzenmethode refrenziert das Schlüsselwort ```this``` das Objekt, dessen Konstruktor oder Methode aufgerufen wird.
-* ```this``` liefert die Referenz auf den Speicherbereich zurück, in dem ein Objekt gespeichert ist
+* Innerhalb Konstruktor oder einer Instanzenmethode:  ```this``` referenziert das Objekt, dessen Konstruktor oder Methode aufgerufen wird.
+* Liefert die Referenz auf den Speicherbereich zurück, in dem das Objekt gespeichert ist
 * Nutzung von :
     * Auflösung von Namenskonflikten
     * Aufruf von Methoden und Konstruktoren
-* Betrachte das Beispiel: 
+* Betrachte Beispiel 
   ```java
     public Class CAuto{
     ...
@@ -109,18 +109,19 @@ __Objekt-Orientierte Programmierung Grundlagen__
       }
     }
   ```
-* $\ldots$ und den Aufruf:
+* $\ldots$ mit Aufruf:
   ```java
-      CAuto l_meinAuto = new CAuto("rot", "lada", 60);
-      CAuto l_nochEinAuto = l_meinAuto.getMe();
+      CAuto l_auto1 = new CAuto("rot", "lada", 60);
+      CAuto l_auto2 = l_meinAuto.getMe();
   ``` 
-* Variablen ```l_nochEinAuto``` und ```l_meinAuto``` zeigen auf dasselbe Objekt!
+* Was passiert hier? 
 
 ===
 
-### new und this
+### this: Diskussion des Beispiels
 
 * Das folgende Bild verdeutlicht noch einmal die Auswirkungen von ```new()``` und die oben beschriebene Anwendung von ```this```
+* Variablen ```l_auto1``` und ```l_auto2``` zeigen auf dasselbe Objekt!
 
 ![Beispiel](images/2_new_this.png#center)
 
@@ -134,7 +135,7 @@ __Objekt-Orientierte Programmierung Grundlagen__
 2. Definiere ein paar Eigenschaften für Deine Klasse
 3. Erzeuge in der ```main()``` drei unterschiedliche Instanzen Deiner Klasse
 4. Nutze ```System.out.println()```, um die Instanzen auszugeben. Was siehst Du? Was bedeutet das? 
-5. Prüfe die Identität der beiden oben definierten Variablen ```l_meinAuto``` und ```l_nochEinAuto``` in der ```main()```-Methode! Verwende den Operator ```==```. 
+5. Prüfe die Identität der beiden oben definierten Variablen ```l_auto1``` und ```l_auto2``` in der ```main()```-Methode! Verwende den Operator ```==```. 
 ---
 
 ## Methoden
@@ -175,13 +176,31 @@ $\ldots$
   ```
 * Das Schlüsselwort ```return```wird verwendet, um den Rückgabewert einer Methode zu spezifizieren.
 
-### Getter
+===
+
+### Getter-Methoden
 
 <!-- was ist ein getter, wozu braucht man es -->
+* Spezielle Methoden, die den wohldefinierten Lese-Zugriff auf Eigenschaften einer Methode definieren
+* Konventionen: 
+    * Getter für Eigenschaft ```m_eigenschaft``` heißt ```getEigenschaft()```
+    * Ergebnistyp ist Typ der Eigenschaft
+* Beipiele: Zwei Getter unserer Klasse ```Auto```:
+  ```java
+  public String getFarbe() {
+    return m_farbe;
+  }
+ 
+  public int getKw(){
+    return m_kw;
+  };
+  ``` 
+* Getter, die von beliebigen Klassen aufgerufen werden sollen, erhalten den Modifikator ```public```
+
 
 ===
 
-### Setter
+### Setter-Methoden
 
 <!-- was ist ein setter, wozu braucht man es, ebenso wann überprüft man Daten, in dem Objekt gesetzt werden -->
 
@@ -265,7 +284,7 @@ $\ldots$
 
 ---
 
-## Zusammenfassung. Vorteile Objektorientierter Programmierung
+## Zusammenfassung: Vorteile Objektorientierter Programmierung
 
 * Modularität
     * Quellcode einzelner Klassen kann unabhängig von dem anderer Klassen entwickelt und gepflegt werden
