@@ -457,7 +457,8 @@ Notes: In ```s1.equals(s2)``` muss ```s1``` initialisiert sein &rarr; prüfen mi
 
 ### @Profi
 
-Switch-case
+1. Macht Euch mit der ```switch-case``` Anweisung vertraut, siehe [Link](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/switch.html)!
+2. Schreibt ein selbstgewähltes Beispielprogramm, das ```switch-case``` nutzt!
 
 ---
 
@@ -589,7 +590,7 @@ public class CMeineListe
 
         // füge Elemente ein
         betreuer.add( "Phil" );
-        betreuer.add( "Steffi" s2);
+        betreuer.add( "Steffi");
         betreuer.add( "Jörg" );
 
         // gib alle Elemente aus (for-Schleife s.u.)
