@@ -53,7 +53,7 @@ __Objekt-Orientierte Programmierung Grundlagen__
     private int m_tempo;    //aktuelle Geschwindigkeit
     private int m_gang;     // aktueller Gang
 
-  $\ldots$
+    ...
   }
   ```
 * Wir sehen, dass die Eigenschaften zusammen den Zustand eines Fahrrads beschreiben
@@ -178,14 +178,23 @@ $\ldots$
 
 ===
 
-### Getter-Methoden
+### Getter-und Setter-Methoden
 
 <!-- was ist ein getter, wozu braucht man es -->
-* Spezielle Methoden, die den wohldefinierten Lese-Zugriff auf Eigenschaften einer Methode definieren
-* Konventionen: 
-    * Getter für Eigenschaft ```m_eigenschaft``` heißt ```getEigenschaft()```
-    * Ergebnistyp ist Typ der Eigenschaft
-* Beipiele: Zwei Getter unserer Klasse ```Auto```:
+* Spezielle Methoden, die den wohldefinierten Zugriff auf Eigenschaften einer Methode ermöglichen (siehe [Kapselungsprinzip](#/1))
+* Getter-Methoden: Lesezugriff auf eine Eigenschaft, Auslesen ihres Werts
+* Setter-Methoden: Schreibzugriff auf eine Eigenschaft, Prüfen und Ändern ihres Werts 
+* Beides sind normale Methoden, für die aber spezielle Konventionen gelten
+    * Nach außen sichtbar: i.d.R. Modifikator ```public```
+    * Namensgebung (s. nächste Folie)
+===
+
+### Getter: Konventionen und Beispiel
+
+* Namensgebung: Getter für Eigenschaft ```m_eigenschaft``` heißt ```getEigenschaft()```
+    * Ergebnistyp ist Typ von ```m_eigenschaft```
+    * i.d.R. keine Eingabeparameter
+* Beipiel --  Klasse ```Auto```:
   ```java
   public String getFarbe() {
     return m_farbe;
@@ -195,14 +204,27 @@ $\ldots$
     return m_kw;
   };
   ``` 
-* Getter, die von beliebigen Klassen aufgerufen werden sollen, erhalten den Modifikator ```public```
-
 
 ===
 
-### Setter-Methoden
+### Setter: Konventionen und Beispiel
 
 <!-- was ist ein setter, wozu braucht man es, ebenso wann überprüft man Daten, in dem Objekt gesetzt werden -->
+* Namensgebung: Setter für Eigenschaft ```m_eigenschaft``` heißt ```setEigenschaft(.)```
+    * Ergebnistyp ```void``` (kein Rückgabewert
+    * i.d.R. ein Eingabeparameter mit dem Typ von ```m_eigenschaft```
+* Beipiel: Zwei Getter unserer Klasse ```Auto```:
+  ```java
+  public void setFarbe(String p_farbe) {
+    m_farbe = p_farbe
+  }
+ 
+  public void setKw(int p_kw){
+    m_kw = p_kw;
+  };
+  ``` 
+* In Setter-Methoden werden häufig die Eingabeparameter geprüft (z.B. ```!= null```, eingeschränkte Wertebereiche)
+* Fehler abfangen z.B. durch  "Werfen" von Exceptions!
 
 ---
 
@@ -210,7 +232,8 @@ $\ldots$
 
 <!-- Beispiel mit Getter / Setter + eine eigene Methode, die irgendetwas mit den Eigenschaften macht -->
 1. Definiere Getter und Setter-Methoden für die Klasse CAuto
-2. Schreibe eine eigene Methode ```leistungPS()```, die die Leistung des Autos in der Maßeinheit ```PS``` zurückgibt.
+2. Definiere sinnvolle Regeln für mögliche Werte und prüfe deren Einhaltung in der Setter-Methode
+3. Schreibe eine eigene Methode ```leistungPS()```, die die Leistung des Autos in der Maßeinheit ```PS``` zurückgibt.
 
 ---
 
@@ -218,20 +241,25 @@ $\ldots$
 1. Mache die Methoden ```schalte()``` und ```beschleunige()``` realistischer:
     * Definiere für jedes ```CAuto``` zusätzliche Eigenschaften für die Höchstgeschwindigkeit und die Anzahl der Gänge
     * Prüfe beim Versuch, die Methoden auszuführen, ob die Methode ausgeführt werden kann; ansonsten gib ```false``` zurück
-    * @Profis: Ergänzt die Gangschaltung um Leerlauf und Rückwärtsgang und passt die Methoden ```schalte()``` und ```beschleunige()``` entsprechend an.
-   
+    * @Profis: Ergänzt die Gangschaltung um Leerlauf und Rückwärtsgang und passt die Methoden ```schalte()``` und ```beschleunige()``` entsprechend an. 
+---
+
+## Ich sehe Dich - Sichtbarkeit
+
+<!-- public / private / protected, private & public im Detail, protected muss nur erwähnt werden -->
+
+* Wesentlich für das Prinzip der Kapselung: Sichtbarkeit
+    * Kann ich auf den Wert einer Eigenschaft zugreifen oder eine Methode aufrufen?
+* Die Sichtbarkeit von Eigenschaften und Methoden kann vom Programmierer durch einen Modifikator eingestellt werden
+    * ```private```: nur innerhalb der Klasse sichtbar
+    * ```public```: auch für beliebige andere 
+    * ```protected```: innerhalb der KLasse sowie für von der Klasse abgeleitete Subklassen sichtbar, siehe [Vererbung](#/10/x))
 
 ---
 
 ## Es geht auch ohne Objekt - Static
 
 <!-- Was ist static, wann benutzt man es, wofür ist es gut und wann benutzt man es nicht -->
-
----
-
-## Ich sehe Dich - Visibility
-
-<!-- public / private / protected, private & public im Detail, protected muss nur erwähnt werden -->
 
 ---
 
