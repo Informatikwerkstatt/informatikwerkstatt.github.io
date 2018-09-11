@@ -16,7 +16,7 @@ __Objekt-Orientierte Programmierung Grundlagen__
     * Zustand (z.B. Fahrrad hat Farbe, aktuelle Geschwindigkeit, Gang)
     * Verhalten (z.B. Gang wechseln, beschleunigen, bremsen) 
 * Prinzip **Abstraktion**:
-    * Fokus auf das Wichtige (was tut ein Objekt?), Verbergen des Unwichtigen (wie?) $\rarr$ [Interfaces](#/3/15)
+    * Fokus auf das Wichtige (was tut ein Objekt?), Verbergen des Unwichtigen (wie?) &rarr; [Interfaces](#/3/15)
 * Prinzip **Kapselung**:
     * "Zusammenbinden" von Zustand (Daten) und Verhalten  
 * Prinzip **Vererbung**
@@ -109,7 +109,7 @@ __Objekt-Orientierte Programmierung Grundlagen__
       }
     }
   ```
-* $\ldots$ mit Aufruf:
+* ... mit Aufruf:
   ```java
       CAuto l_auto1 = new CAuto("rot", "lada", 60);
       CAuto l_auto2 = l_meinAuto.getMe();
@@ -146,13 +146,13 @@ __Objekt-Orientierte Programmierung Grundlagen__
     * Modifikatoren
     * Signatur: Name + Parameter (mit Typen) + Ergebnistyp (s. [VL1](../java-grundlagen/#/5/2))
 * Wir ergänzen unsere Klasse ```Auto``` um zwei Methoden:
-```java
-public Class CAuto {
- // Eigenschaften
-$\ldots$
-//Konstruktor
-$\ldots$
-// definiere Verhalten
+  ```java
+  public Class CAuto {
+   // Eigenschaften
+  ...
+  //Konstruktor
+  ...
+  // definiere Verhalten
     public boolean schalte(int p_gang) {
         m_gang = p_gang;
         return true;  // Schalten ist immer erfolgreich
@@ -161,20 +161,20 @@ $\ldots$
     public boolean beschleunige(int p_inkrement) {
         m_tempo += p_inkrement; 
     }
-}
+  }
 ```
-* **@Profis**: Warum haben die Methoden den Rückgabetyp ```boolean```?
+* **@Profis**: Warum haben die Methoden den Rückgabetyp ```boolean```? Wie könnte man das noch lösen?
 
 ===
 
 ### Aufruf einer Methode
-* Nach Erzeugen einer Instanz des Objekts ```CAuto``` mit ```new CAuto(.,.,.)``` können die Methoden des Objektes aufgerufen werden, z.B.
+* Nach Erzeugen einer Instanz von ```CAuto``` können die Methoden des Objektes aufgerufen werden, z.B.
   ```java
   CAuto l_meinAuto = new CAuto("gelb", "opel", 140);
   l_meinAuto.schalte(2); //schalte in den 2. Gang
   l_meinAuto.beschleunige(5); //beschleunige um 5 Einheiten
   ```
-* Das Schlüsselwort ```return```wird verwendet, um den Rückgabewert einer Methode zu spezifizieren.
+* Das Schlüsselwort ```return``` wird verwendet, um den Rückgabewert einer Methode zu spezifizieren.
 
 ===
 
@@ -191,8 +191,8 @@ $\ldots$
 
 ### Getter: Konventionen und Beispiel
 
-* Namensgebung: Getter für Eigenschaft ```m_eigenschaft``` heißt ```getEigenschaft()```
-    * Ergebnistyp ist Typ von ```m_eigenschaft```
+* Getter für Eigenschaft ```m_prop``` heißt ```getProp()```
+    * Ergebnistyp ist Typ von ```m_prop```
     * i.d.R. keine Eingabeparameter
 * Beipiel --  Klasse ```Auto```:
   ```java
@@ -210,8 +210,8 @@ $\ldots$
 ### Setter: Konventionen und Beispiel
 
 <!-- was ist ein setter, wozu braucht man es, ebenso wann überprüft man Daten, in dem Objekt gesetzt werden -->
-* Namensgebung: Setter für Eigenschaft ```m_eigenschaft``` heißt ```setEigenschaft(.)```
-    * Ergebnistyp ```void``` (kein Rückgabewert
+* Setter für Eigenschaft ```m_prop``` heißt ```setProp(.)```
+    * Ergebnistyp ```void``` (kein Rückgabewert)
     * i.d.R. ein Eingabeparameter mit dem Typ von ```m_eigenschaft```
 * Beipiel: Zwei Getter unserer Klasse ```Auto```:
   ```java
@@ -253,7 +253,7 @@ $\ldots$
 * Die Sichtbarkeit von Eigenschaften und Methoden kann vom Programmierer durch einen Modifikator eingestellt werden
     * ```private```: nur innerhalb der Klasse sichtbar
     * ```public```: auch für beliebige andere 
-    * ```protected```: innerhalb der KLasse sowie für von der Klasse abgeleitete Subklassen sichtbar, siehe [Vererbung](#/10/x))
+    * ```protected```: innerhalb der KLasse sowie für von der Klasse abgeleitete Subklassen sichtbar, siehe [Vererbung](#/10))
 
 ---
 
