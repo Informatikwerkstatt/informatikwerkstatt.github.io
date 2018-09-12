@@ -260,6 +260,49 @@ __Objekt-Orientierte Programmierung Grundlagen__
 ## Es geht auch ohne Objekt - Static
 
 <!-- Was ist static, wann benutzt man es, wofür ist es gut und wann benutzt man es nicht -->
+* Bisher: Klassen als Blaupausen für Objekte 
+* Jedes Objekt hat eigene Eigenschaften (_Instanzenvariablen_)
+* Jedes Objekt hat individuelles Verhalten durch Methoden (_Instanzenmethoden_)
+* Was machen wir mit "globalen" Eigenschaften oder Verhalten, die für alle Objekte gleich sind?
+    * Z.B. jedes Autoobjekt mit eindeutigen Seriennummer ausstatten
+    * Z.B. eine Übersicht über die Anzahl der bisher erzeugten Instanzen der Klasse verwalten
+* Mit dem Schlüsselwort ```static``` können wir sog. _Klassenvariablen_ sowie _Klassenmethoden_ definieren
+
+===
+
+### Instanzenvariablen
+* Bezeichnen Eigenschaften einer Klasse und sind nur einmal definiert.
+* Z.B.: Jedesmal, wenn Auto erzeugt wird &rarr; Wert der Klassenvariable um 1 hochzählen
+```java
+  public class CAuto {
+  // Definiere Eigenschaften
+    private String m_farbe;
+    private String m_marke;
+    ...
+  // Klassenvariable
+    private static int s_anzAutos = 0;
+  }
+ ... 
+  public CAuto(String p_farbe, String p_marke, int p_leistung) {
+      m_farbe = p_farbe;
+      m_marke = p_marke;
+     ...
+      id = ++s_seriennr; // Erhöhen der Klassenvariable
+  }
+  ```
+* Zugriff auf Wert einer Klassenvariable über Setter und Getter:
+```java
+int anzFahrzeuge = CAuto.getAnzAutos();
+``` java
+* Bei nicht ```private``` Klassenvariablen und Konstanten auch Direktzugriff möglich
+```java
+int l_avar = CAuto.aPublicClassVar;
+``` java
+
+===
+
+### Instanzenmethoden
+
 
 ---
 
