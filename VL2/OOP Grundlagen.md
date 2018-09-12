@@ -302,7 +302,7 @@ int l_avar = CAuto.aPublicClassVar;
 ===
 
 ### Instanzenmethoden
-
+<!-- Definition + Example of Definition and usage, example for Math.meth() -->
 
 ---
 
