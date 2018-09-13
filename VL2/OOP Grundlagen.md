@@ -12,7 +12,7 @@ __Objekt-Orientierte Programmierung Grundlagen__
 
 <!-- was ist der Sinn von OOP -->
 * Moderner Programmieransatz, Mainstream seit 1990ern
-* Idee: Intuitive Beschreibung von Systemen und ihren Bestandteilen (Objekten) durch 
+* Intuitive Beschreibung von Systemen und ihren Bestandteilen (Objekten) 
     * Zustand (z.B. Auto hat Farbe, Marke, aktuelle Geschwindigkeit, Gang)
     * Verhalten (z.B. Gang wechseln, Gas geben, bremsen) 
 * Prinzip **Abstraktion**:
@@ -30,11 +30,11 @@ __Objekt-Orientierte Programmierung Grundlagen__
 ## Klasse & Objekt
 <!-- was ist eine Klasse, was ist ein Objekt, was ist der Sinn von diesem Konzept -->
 
-* Objekt: Konkreter Bestandteil eines Systems, den man mit Software beschreiben will
+* _Objekt_: Konkreter Bestandteil eines Systems, den man mit Software beschreiben will
     * virtuell (z.B. konkretes Dokument auf dem Rechner) oder physisch (konkretes Fahrrad)
     * hat Zustand, beschrieben durch Eigenschaften und deren Ausprägungen (z.B. ```farbe=blau```)
     * hat Verhalten, beschrieben durch Methoden (z.B. ```wechseleGang```)
-* Klasse: Abstrakte Beschreibung  einer Menge ähnlicher Objekte (d.h. Objekte vom selben Typ)
+* _Klasse_: Abstrakte Beschreibung  einer Menge ähnlicher Objekte (d.h. Objekte vom selben Typ)
     * z.B. die Klasse aller Autos
     * definiert Eigenschaften und generelles Verhalten, die allen Fahrrädern gemeinsam sind
 * Softwaretechnisch: Klasse erlaubt uns, konkrete Objekte aus Ihr zu erzeugen 
@@ -66,12 +66,12 @@ __Objekt-Orientierte Programmierung Grundlagen__
 * Instanziierung = Erzeugung eines konkreten Objekts einer Klasse
 * Das konkrete Objekt nennen wir auch *Instanz* der Klasse
 * Dazu wird der ```new``` Operator verwendet. Er initialisiert das Objekt:
-    * allokiert Speicher für neues Objekt (wieviel, hängt von Klasse (Typ) des Objekts ab)
-    * gibt eine Referenz auf diesen Speicherbereich zurück, die einer Variable zugewiesen werden kann
+    1. allokiert Speicher für neues Objekt (wieviel, hängt von Klasse (Typ) des Objekts ab)
+    2. gibt eine Referenz auf diesen Speicherbereich zurück, die einer Variable zugewiesen werden kann
     ```java
     CAuto einAuto = new CAuto("rot", "beetle", 100);
     ```
-    * ruft dabei eine spezielle Methode der Klasse auf: Den *Konstruktor*.
+    3. ruft dabei eine spezielle Methode der Klasse auf: Den *Konstruktor*.
 
 ===
 
@@ -97,10 +97,10 @@ __Objekt-Orientierte Programmierung Grundlagen__
 <!-- was ist this, mit einem Schaubild -->
 * Innerhalb Konstruktor oder einer Instanzenmethode:  ```this``` referenziert das Objekt, dessen Konstruktor oder Methode aufgerufen wird.
 * Liefert die Referenz auf den Speicherbereich zurück, in dem das Objekt gespeichert ist
-* Nutzung von :
-    * Auflösung von Namenskonflikten
-    * Aufruf von Methoden und Konstruktoren
-* Betrachte Beispiel 
+* Nutzung von ```this```` für
+    1. Auflösung von Namenskonflikten
+    2. Aufruf von Methoden und Konstruktoren
+* Beispiel 
   ```java
     public Class CAuto{
     ...
@@ -131,7 +131,7 @@ __Objekt-Orientierte Programmierung Grundlagen__
 
 <!-- Beispiel Klasse erstellen mit ein paar Eigenschaften und aus der main Instantiieren -->
 
-1. Erstelle eine Klasse ```Auto``` mit einer ```main()```-Methode
+1. Erstelle die Klasse ```CAuto``` mit einer ```main()```-Methode
 2. Definiere ein paar Eigenschaften für Deine Klasse
 3. Erzeuge in der ```main()``` drei unterschiedliche Instanzen Deiner Klasse
 4. Nutze ```System.out.println()```, um die Instanzen auszugeben. Was siehst Du? Was bedeutet das? 
@@ -145,7 +145,7 @@ __Objekt-Orientierte Programmierung Grundlagen__
 * Besteht aus
     * Modifikatoren
     * Signatur: Name + Parameter (mit Typen) + Ergebnistyp (s. [VL1](../java-grundlagen/#/5/2))
-* Wir ergänzen unsere Klasse ```Auto``` um zwei Methoden:
+* Wir ergänzen unsere Klasse ```CAuto``` um drei Methoden zum Schalten, Gas geben und Bremsen:
   ```java
   public Class CAuto {
    //  Eigenschaften ...
@@ -163,7 +163,6 @@ __Objekt-Orientierte Programmierung Grundlagen__
   }
   ```
 
-
 ===
 
 ### Aufruf einer Methode
@@ -173,7 +172,7 @@ __Objekt-Orientierte Programmierung Grundlagen__
   l_meinAuto.schalte(2); //schalte in den 2. Gang
   l_meinAuto.beschleunige(5); //beschleunige um 5 Einheiten
   ```
-* Das Schlüsselwort ```return``` wird verwendet, um den Rückgabewert einer Methode zu spezifizieren.
+
 
 ===
 
@@ -193,7 +192,7 @@ __Objekt-Orientierte Programmierung Grundlagen__
 * Getter für Eigenschaft ```m_prop``` heißt ```getProp()```
     * Ergebnistyp ist Typ von ```m_prop```
     * i.d.R. keine Eingabeparameter
-* Beipiel --  Klasse ```Auto```:
+* Beispiel für Klasse ```CAuto```:
   ```java
   public String getFarbe() {
     return m_farbe;
@@ -203,7 +202,7 @@ __Objekt-Orientierte Programmierung Grundlagen__
     return m_kw;
   };
   ``` 
-
+* Schlüsselwort ```return``` wird verwendet, um den Rückgabewert einer Methode zu spezifizieren.
 ===
 
 ### Setter: Konventionen und Beispiel
@@ -211,8 +210,8 @@ __Objekt-Orientierte Programmierung Grundlagen__
 <!-- was ist ein setter, wozu braucht man es, ebenso wann überprüft man Daten, in dem Objekt gesetzt werden -->
 * Setter für Eigenschaft ```m_prop``` heißt ```setProp(.)```
     * Ergebnistyp ```void``` (kein Rückgabewert)
-    * i.d.R. ein Eingabeparameter mit dem Typ von ```m_eigenschaft```
-* Beipiel: Zwei Getter unserer Klasse ```Auto```:
+    * i.d.R. ein Eingabeparameter mit dem Typ von ```m_prop```
+* Beipiel: Zwei Getter unserer Klasse ```CAuto```:
   ```java
   public void setFarbe(String p_farbe) {
     m_farbe = p_farbe
@@ -230,7 +229,7 @@ __Objekt-Orientierte Programmierung Grundlagen__
 ## @Let's try
 
 <!-- Beispiel mit Getter / Setter + eine eigene Methode, die irgendetwas mit den Eigenschaften macht -->
-1. Definiere Getter und Setter-Methoden für die Klasse CAuto
+1. Definiere Getter und Setter-Methoden für die Klasse ```CAuto```
 2. Definiere sinnvolle Regeln für mögliche Werte und prüfe deren Einhaltung in der Setter-Methode
 3. Schreibe eine eigene Methode ```leistungPS()```, die die Leistung des Autos in der Maßeinheit ```PS``` zurückgibt.
 4. __@Profis__: Wie könnte man sinnvoll die möglichen Gangwechsel definieren?
@@ -239,10 +238,11 @@ __Objekt-Orientierte Programmierung Grundlagen__
 ---
 
 ## @Home/Übung
-1. Mache die Methoden ```schalte()``` und ```beschleunige()``` realistischer:
+1. Mache die Methoden ```schalte()```, ```beschleunige()```, ```bremse(.)``` realistischer:
     * Definiere für ```CAuto``` zusätzliche Eigenschaften für die Höchstgeschwindigkeit und die Anzahl der Gänge
     * Prüfe beim Versuch, die Methoden auszuführen, die Eingaben und fange Fehler ab
-    * @Profis: Ergänzt die Gangschaltung um Leerlauf und Rückwärtsgang und passt die Methoden ```schalte()``` und ```beschleunige()``` entsprechend an. 
+    * __@Profis__: Ergänze die Gangschaltung um Leerlauf und Rückwärtsgang und passe die Methoden entsprechend an. 
+    * __@Profis__: Realisiere einen einfachen Zusammenhang zwischen eingelegtem Gang und ändern der Geschwindigkeit
 ---
 
 ## Ich sehe Dich - Sichtbarkeit
@@ -253,8 +253,9 @@ __Objekt-Orientierte Programmierung Grundlagen__
     * Kann ich auf den Wert einer Eigenschaft zugreifen oder eine Methode aufrufen?
 * Die Sichtbarkeit von Eigenschaften und Methoden kann vom Programmierer durch einen Modifikator eingestellt werden
     * ```private```: nur innerhalb der Klasse sichtbar
-    * ```public```: auch für beliebige andere 
+    * ```public```: auch für beliebige andere Klassen / Objekte sichtbar
     * ```protected```: innerhalb der Klasse sowie für von der Klasse abgeleitete Subklassen sichtbar, siehe [Vererbung](#/10)
+* Sichtbarmachen von Eigenschaften nach Außen nur durch Getter-/Setter-Methoden!!
 
 ---
 
@@ -336,11 +337,11 @@ int l_aVariable = CAuto.aPublicClassVar;
 
 ---
 
-## Generalisierung und Spezialisierung: Ein SUV ist ein Auto ist ein Fahrzeug!
+## Generalisierung, Spezialisierung, Vererbung: Ein SUV ist ein Auto ist ein Fahrzeug!
 
 <!-- was ist Vererbung allgemein mit Beispiel, wofür verwendet man es, Beispiel mit unterschiedlich großen Boxen, abstrakte Klassen weg lassen -->
 * Zentrales Konzept der Objektorientierung
-* Realisiert zwei komplementäre Sichtweisen _Generalisierung_ und _Spezialisierung_
+* Zwei komplementäre Sichtweisen _Generalisierung_ und _Spezialisierung_
 * Generalisierung
     * Auto &rarr; Fahrzeug: Konzept Auto wird zu allgemeinerem Konzept Fahrzeug verallgemeinert
 * Spezialisierung 
