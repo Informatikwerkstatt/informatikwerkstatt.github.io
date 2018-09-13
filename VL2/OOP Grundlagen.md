@@ -68,9 +68,9 @@ __Objekt-Orientierte Programmierung Grundlagen__
 * Dazu wird der ```new``` Operator verwendet. Er initialisiert das Objekt:
     1. allokiert Speicher für neues Objekt (wieviel, hängt von Klasse (Typ) des Objekts ab)
     2. gibt eine Referenz auf diesen Speicherbereich zurück, die einer Variable zugewiesen werden kann
-    ```java
-    CAuto einAuto = new CAuto("rot", "beetle", 100);
-    ```
+       ```java
+       CAuto einAuto = new CAuto("rot", "beetle", 100);
+       ```
     3. ruft dabei eine spezielle Methode der Klasse auf: Den *Konstruktor*.
 
 ===
@@ -97,7 +97,7 @@ __Objekt-Orientierte Programmierung Grundlagen__
 <!-- was ist this, mit einem Schaubild -->
 * Innerhalb Konstruktor oder einer Instanzenmethode:  ```this``` referenziert das Objekt, dessen Konstruktor oder Methode aufgerufen wird.
 * Liefert die Referenz auf den Speicherbereich zurück, in dem das Objekt gespeichert ist
-* Nutzung von ```this```` für
+* Nutzung von ```this``` für
     1. Auflösung von Namenskonflikten
     2. Aufruf von Methoden und Konstruktoren
 * Beispiel 
@@ -118,9 +118,9 @@ __Objekt-Orientierte Programmierung Grundlagen__
 
 ===
 
-### this: Diskussion des Beispiels
+### ```this```: Diskussion des Beispiels
 
-* Das folgende Bild verdeutlicht noch einmal die Auswirkungen von ```new()``` und die oben beschriebene Anwendung von ```this```
+* Das folgende Bild verdeutlicht noch einmal die Auswirkungen von ```new()``` und die Anwendung von ```this```
 * Variablen ```l_auto1``` und ```l_auto2``` zeigen auf dasselbe Objekt!
 
 ![Beispiel this](images/2_new_this.png#center)
@@ -185,6 +185,7 @@ __Objekt-Orientierte Programmierung Grundlagen__
 * Beides sind normale Methoden, für die aber spezielle Konventionen gelten
     * Nach außen sichtbar: i.d.R. Modifikator ```public```
     * Namensgebung (s. nächste Folie)
+
 ===
 
 ### Getter: Konventionen und Beispiel
@@ -338,6 +339,7 @@ int l_aVariable = CAuto.aPublicClassVar;
 ---
 
 ## Generalisierung, Spezialisierung, Vererbung:
+
 ### Ein SUV ist ein Auto ist ein Fahrzeug!
 
 <!-- was ist Vererbung allgemein mit Beispiel, wofür verwendet man es, Beispiel mit unterschiedlich großen Boxen, abstrakte Klassen weg lassen -->
