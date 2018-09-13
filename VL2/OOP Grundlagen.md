@@ -375,7 +375,6 @@ int l_aVariable = CAuto.aPublicClassVar;
   public class cSuv extends CAuto {
       // Instanzenvariable von Auto müssen nicht nochmal definiert werden!
       private int m_fahrModus; //0=2WD, 1=4WD, 2=LOCK 
-      
 
       public int getFahrModus(){
           return m_fahrModus;
@@ -385,6 +384,7 @@ int l_aVariable = CAuto.aPublicClassVar;
         m_fahrmodus = p_modus;
       }
   }
+  ```
 
 ===
 
