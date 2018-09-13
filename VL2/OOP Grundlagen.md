@@ -13,8 +13,8 @@ __Objekt-Orientierte Programmierung Grundlagen__
 <!-- was ist der Sinn von OOP -->
 * Moderner Programmieransatz, Mainstream seit 1990ern
 * Idee: Intuitive Beschreibung von Systemen und ihren Bestandteilen (Objekten) durch 
-    * Zustand (z.B. Fahrrad hat Farbe, aktuelle Geschwindigkeit, Gang)
-    * Verhalten (z.B. Gang wechseln, beschleunigen, bremsen) 
+    * Zustand (z.B. Auto hat Farbe, Marke, aktuelle Geschwindigkeit, Gang)
+    * Verhalten (z.B. Gang wechseln, Gas geben, bremsen) 
 * Prinzip **Abstraktion**:
     * Fokus auf das Wichtige (was tut ein Objekt?), Verbergen des Unwichtigen (wie?) &rarr; [Interfaces](#/3/15)
 * Prinzip **Kapselung**:
@@ -35,7 +35,7 @@ __Objekt-Orientierte Programmierung Grundlagen__
     * hat Zustand, beschrieben durch Eigenschaften und deren Ausprägungen (z.B. ```farbe=blau```)
     * hat Verhalten, beschrieben durch Methoden (z.B. ```wechseleGang```)
 * Klasse: Abstrakte Beschreibung  einer Menge ähnlicher Objekte (d.h. Objekte vom selben Typ)
-    * z.B. die Klasse aller Fahrräder
+    * z.B. die Klasse aller Autos
     * definiert Eigenschaften und generelles Verhalten, die allen Fahrrädern gemeinsam sind
 * Softwaretechnisch: Klasse erlaubt uns, konkrete Objekte aus Ihr zu erzeugen 
 
@@ -50,7 +50,7 @@ __Objekt-Orientierte Programmierung Grundlagen__
     private String m_farbe;
     private String m_marke;
     private int m_kw;       // Leistung in kW
-    private int m_tempo;    //aktuelle Geschwindigkeit
+    private int m_tempo;    // aktuelle Geschwindigkeit
     private int m_gang;     // aktueller Gang
 
     ...
@@ -123,7 +123,7 @@ __Objekt-Orientierte Programmierung Grundlagen__
 * Das folgende Bild verdeutlicht noch einmal die Auswirkungen von ```new()``` und die oben beschriebene Anwendung von ```this```
 * Variablen ```l_auto1``` und ```l_auto2``` zeigen auf dasselbe Objekt!
 
-![Beispiel](images/2_new_this.png#center)
+![Beispiel this](images/2_new_this.png#center)
 
 ---
 
@@ -148,22 +148,21 @@ __Objekt-Orientierte Programmierung Grundlagen__
 * Wir ergänzen unsere Klasse ```Auto``` um zwei Methoden:
   ```java
   public Class CAuto {
-   // Eigenschaften
-  ...
-  //Konstruktor
-  ...
-  // definiere Verhalten
-    public boolean schalte(int p_gang) {
+   //  Eigenschaften ...
+   //  Konstruktoren ...
+   //  Verhalten
+    public void schalte(int p_gang) {
         m_gang = p_gang;
-        return true;  // Schalten ist immer erfolgreich
     }
-
-    public boolean beschleunige(int p_inkrement) {
-        m_tempo += p_inkrement; 
+    public void beschleunige(int p_inkrement) {
+        m_tempo += p_inkrement; // Gas geben 
+    }
+    public void bremse(int p_dekrement) {
+        m_tempo -= p_dekrement; // abbremsen
     }
   }
-```
-* **@Profis**: Warum haben die Methoden den Rückgabetyp ```boolean```? Wie könnte man das noch lösen?
+  ```
+
 
 ===
 
@@ -234,13 +233,15 @@ __Objekt-Orientierte Programmierung Grundlagen__
 1. Definiere Getter und Setter-Methoden für die Klasse CAuto
 2. Definiere sinnvolle Regeln für mögliche Werte und prüfe deren Einhaltung in der Setter-Methode
 3. Schreibe eine eigene Methode ```leistungPS()```, die die Leistung des Autos in der Maßeinheit ```PS``` zurückgibt.
+4. __@Profis__: Wie könnte man sinnvoll die möglichen Gangwechsel definieren?
+<!-- einfach: Folge R-1-2-..-N; komplexer: Zustandsautomat -->
 
 ---
 
 ## @Home/Übung
 1. Mache die Methoden ```schalte()``` und ```beschleunige()``` realistischer:
-    * Definiere für jedes ```CAuto``` zusätzliche Eigenschaften für die Höchstgeschwindigkeit und die Anzahl der Gänge
-    * Prüfe beim Versuch, die Methoden auszuführen, ob die Methode ausgeführt werden kann; ansonsten gib ```false``` zurück
+    * Definiere für ```CAuto``` zusätzliche Eigenschaften für die Höchstgeschwindigkeit und die Anzahl der Gänge
+    * Prüfe beim Versuch, die Methoden auszuführen, die Eingaben und fange Fehler ab
     * @Profis: Ergänzt die Gangschaltung um Leerlauf und Rückwärtsgang und passt die Methoden ```schalte()``` und ```beschleunige()``` entsprechend an. 
 ---
 
@@ -277,6 +278,7 @@ __Objekt-Orientierte Programmierung Grundlagen__
   public class CAuto {
     private String m_farbe;
     private String m_marke;
+    private int m_serienNr; 
     ...
   // Klassenvariable
     private static int s_anzAutos = 0;
@@ -286,7 +288,7 @@ __Objekt-Orientierte Programmierung Grundlagen__
       m_farbe = p_farbe;
       m_marke = p_marke;
      ...
-      id = ++s_anzAutos; // Erhöhen der Klassenvariable
+      m_serienNr = ++s_anzAutos; // Klassenvariable erhöhen, Seriennr speichern
   }
   ```
 * Zugriff auf Wert über Setter und Getter:
@@ -330,25 +332,175 @@ int l_aVariable = CAuto.aPublicClassVar;
     * aus der Klasse heraus
     * von außerhalb der Klasse
 
-    Was stellt Ihr fest?    
+   Was stellt Ihr fest?    
 
 ---
 
-## Vererbung
+## Generalisierung und Spezialisierung: Ein SUV ist ein Auto ist ein Fahrzeug!
 
 <!-- was ist Vererbung allgemein mit Beispiel, wofür verwendet man es, Beispiel mit unterschiedlich großen Boxen, abstrakte Klassen weg lassen -->
+* Zentrales Konzept der Objektorientierung
+* Realisiert zwei komplementäre Sichtweisen _Generalisierung_ und _Spezialisierung_
+* Generalisierung
+    * Auto &rarr; Fahrzeug: Konzept Auto wird zu allgemeinerem Konzept Fahrzeug verallgemeinert
+* Spezialisierung 
+    * SUV &larr; Auto: Konzept SUV ist Spezialisierung von Auto
+* Wir sagen: 
+    * "Fahrzeug ist die _Oberklasse_ von Auto"
+    * "SUV ist eine _Unterklasse_ von Auto"
+* Zwischen Ober- und Unterklasse besteht  (transitive) _Vererbungsbeziehung_
 
+===
+
+### Vererbungshierarchie
+* In Java kann man Unterklassen von Oberklassen _ableiten_ 
+* Unterklassen erbt von der Oberklasse deren Eigenschaften und Methoden
+* Durch Vererbung entsteht eine Vererbungshierarchie
+* In Java ist die allgemeinste Klasse ```Object``` -- alle Klassen erben von ihr (z.B. die Methode ```toString()```!)
+* Klassen (außer ```Object```) haben _genau eine_ Oberklasse 
+
+![Beispiel Vererbungshierarchie](images/2_vererbung.png#center)
+
+===
+
+### Beispiel
+<!-- enum wäre besser für die Antriebsarten, aber hier  zu kompliziert, oder? -->
+
+* Wir leiten jetzt die Unterklassse SUV unserer Klasse Auto ab. 
+![Antriebsmodi](images/2_awd.png#right)
+* Neue Java-Klasse, Nutzung des Schlüsselworts ```extends```
+* Beispiel: Klasse SUV mit unterschiedlichen Antriebsmodi (Frontantrieb, Allrad, Allrad mit Differentialsperre) 
+  ```java
+  public class cSuv extends CAuto {
+      // Instanzenvariable von Auto müssen nicht nochmal definiert werden!
+      private int m_fahrModus; //0=2WD, 1=4WD, 2=LOCK 
+      
+
+      public int getFahrModus(){
+          return m_fahrModus;
+      }
+
+      public void setFahrModus( int p_modus ){
+        m_fahrmodus = p_modus;
+      }
+  }
+
+===
+
+### Konstruktoren von Unterklassen
+
+* In dem Codefragement für unsere Klasse ```CSuv``` fehlt noch der Konstruktor
+* Konstruktor einer Unterklasse:
+    1. ruft zunächst den Konstruktor der Oberklasse (Schlüsselwort ```super```) auf
+    2. fügt zusätzliche Initialisierungen (hier: Initial gewählter Fahrmodus) hinzu
+* Hier das Codebeispiel
+```java
+    public CSuv(String p_farbe, String p_marke, int p_leistung) {
+      super(p_farbe, p_marke, p_kw); // Konstruktor von CAuto
+      m_fahrmodus=0;
+  }
+```
+* Aufruf des Konstruktors der Oberklasse muss erste Anweisung sein.
+--- 
+
+## Let's try / @Home
+1. Erstelle die Definition der og. Klasse ```CSuv``` und compiliere sie.
+2. Erzeuge eine Instanz von ```CSuv``` und schreibe in der ```main()```-Methode Anweisungen zum Test des Zugriffs auf die Eigenschaften (Getter und Setter) und Methoden  
+3. Worauf muss man bei der Setter-Methode ```setFahrModus(.)``` achten? Erweitere die Implementierung der Methode entsprechend!
+<!-- ungültige Eingaben abfangen -->
+4. __@Profis__: Ändere die SUV Klasse wie folgt:
+    * Definiere die Fahrmodi durch einen [Enum-Datentyp](https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html)
+    * Nutze Konstanten, um die möglichen Werte für die Fahrmodi zu definieren
+ 
 ---
 
 ## Interface
-
 <!-- was sind Interfaces, wozu sind sie gut, wofür braucht man sie -->
+* Fasst eine Gruppe von verwandten Methoden zusammen, die ein Objekt seiner Umwelt bereitstellt
+* Beschreibt nur die Signatur (Schnittstelle)
+    * Welche Methode? Welche Parameter? Welcher Rückgabewert?
+    * Rumpf der Methoden ist leer
+* Eine Klasse _implementiert_ ein Interface, wenn sie alle Methoden mit der im Interface definierten Signatur bereitstellt
+* "_Vertrag_" zwischen der Klasse und der Außenwelt, vom Compiler überwacht
+
+===
+
+### Interface definieren
+
+  ```java
+  public Interface IFahren {
+    public void schalte(int p_gang);
+    public void beschleunige(int p_inkrement);
+    public void bremse(int p_dekrement); 
+  }
+  ```
+* Interfaces können andere Interfaces erweiten (Schlüsselwort  ```extends```)
+* Alternative Definition des Interfaces ```Fahren```:
+  ```java
+  public Interface ITempoWechseln {
+    public void beschleunige(int p_inkrement);
+    public void bremse(int p_dekrement); 
+  }
+  ```
+  ```java
+  public Interface IFahren extends ITempoWechseln{
+    public void schalte(int p_gang);
+  }
+  ```
+* Im Gegensatz zu Klassen kann ein  Interface mehrere Interfaces erweitern
+
+===
+
+### Klasse implementiert Interface
+* Schlüsselwort ```implements```
+  ```java 
+  public class SomeClass implements Interface1, Interface2, ...{
+      //Definition der Klasse
+   } 
+  ```
+* Unsere Klasse ```CAuto``` soll das Interface ```Fahren``` implementieren.
+  ```java
+  public class CAuto implements Fahren {
+      // Eigenschaften, Konstruktoren, Klassen
+  } 
+  ```
+* __Merke__: 
+    1. Eine Klasse kann nur von einer (Ober-)Klasse erben (```extends````)
+    2. Eine Klasse kann beliebig viele Interfaces implementieren
 
 ---
 
 ## Überladen
-
 <!-- was heisst überladen, wofür braucht man es und welche Einschränkungen gibt es beim Überladen -->
+* (engl. _Overloading_): Unterschiedliche Methoden oder Konstruktoren einer Klasse mit selbem Namen, aber unterschiedlichen Parametern (Signatur)
+* Beispiel: Überladen der Methode ```abs(.)``` der Klasse ```java.lang.Math```:
+  ```java
+  static int abs(int val);
+  static long abs(long val);
+  static double abs(double val);
+  ```
+ * Methode berechnet Betrag der Eingabezahl
+ * Unterschiedliche Ausgabetypen für unterschiedliche Eingabetypen
+ * Auch möglich: verschiedene Zahl von Argumenten &rarr; z.B. [Überladen von Konstruktoren](#/?/?)
+
+===
+
+ ### Überladen von Konstruktoren
+ * Klassen können mehrere Konstruktoren mit unterschiedlichen Eingabeargumenten besitzen
+ * Häufig: Default-Konstruktor ohne Argumente:
+ * Bespiel: Unterschiedliche Konstruktoren für ```CAuto```
+   ```java
+   public CAuto() {
+    // setze alle Instanzenvariablen auf null oder Initialwert
+   }
+   public CAuto(String p_farbe, String p_marke, int p_leistung) {
+    // setze Initialwerte für Zustandsvariablen m_tempo, m_gang
+   }
+   public CAuto(String p_farbe, String p_marke, int p_leistung, 
+                int p_tempo, int p_gang){
+    // alle Werte vom Konstruktoraufruf übergeben 
+   }
+   ```
 
 ---
 
@@ -373,7 +525,23 @@ int l_aVariable = CAuto.aPublicClassVar;
 * Alle 4 [Operationen](https://de.wikipedia.org/wiki/Bruchrechnung#Rechnen_mit_Bruchtermen) (Addition, Subtraktion, Multiplikation, Division) müssen implementiert werden. 
 * __Freiwillig:__ Implementation eines Algorithmus zum Kürzen des berechneten Bruchs, also aus $\frac{2}{4} \Rightarrow \frac{1}{2}$ und aus $\frac{2}{1} \Rightarrow 2$
 
--->
+---
+
+## Packages
+* Hierarchische Organisation von Java-Klassen und Interfaces
+* Ähnlich zu Dateiordnern in Windows, ```.``` als Trennzeichen
+* Übersicht über alle Java SE Klassen [hier](https://download.java.net/java/early_access/jdk11/docs/api/java.base/module-summary.html)
+* Basisklassen wie ```String```, ```Math``` in Package ```java.lang```
+* Oft verwendet: Package ```java.util``` für Listen etc.
+* Package einer Klasse definieren: erste Anweisung in Java-Programm
+  ```java
+  package graphics;
+  ```
+* Organisationen verwenden umgekehrte Internet-Domain, z.B.
+  ```java
+  // Package mypackage der Org. sales.guugl.com
+  package com.guugl.sales.mypackage
+  ```
 
 ---
 
@@ -390,6 +558,15 @@ int l_aVariable = CAuto.aPublicClassVar;
     * Fehler können leicht auf einzelne Klassen zurückverfolgt werden 
     * Wenn eine bestimmte Klasse fehlerhaft oder sonst problematisch ist, kann sie einfach durch eine andere Klasse ersetzt werden
 
+---
+
+## Zusammenfassung: Konventionen bei Benennung von Variablen
+* In diesem Kapitel haben wir weitere Namenskonventionen eingeführt:
+    * lokale Variablen (im Rumpf einer Methode verwendet) beginnen mit ```l_``` (außer Zählvariablen wie i, j, $\ldots$)
+    * Instanzenvariablen beginnen mit ```m_``` (für engl. ```member```)
+    * Klassenvariablen beginnen mit ```s_``` (für ```static```)
+    * Parameter in Methodendefinitionen beginnen mit ```p_```
+    * Namen von Interfaces beginnen mit ```I```, Namen von Klassen mit ```C```
 ---
 
 ## Links
