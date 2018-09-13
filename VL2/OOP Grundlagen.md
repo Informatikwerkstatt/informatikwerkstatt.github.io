@@ -337,7 +337,8 @@ int l_aVariable = CAuto.aPublicClassVar;
 
 ---
 
-## Generalisierung, Spezialisierung, Vererbung: Ein SUV ist ein Auto ist ein Fahrzeug!
+## Generalisierung, Spezialisierung, Vererbung:
+### Ein SUV ist ein Auto ist ein Fahrzeug!
 
 <!-- was ist Vererbung allgemein mit Beispiel, wofür verwendet man es, Beispiel mit unterschiedlich großen Boxen, abstrakte Klassen weg lassen -->
 * Zentrales Konzept der Objektorientierung
