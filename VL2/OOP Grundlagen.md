@@ -369,7 +369,7 @@ int l_aVariable = CAuto.aPublicClassVar;
 
 ### Beispiel
 <!-- enum wäre besser für die Antriebsarten, aber hier  zu kompliziert,  deshalb für die PRofis als Aufgabe -->
-
+![Antriebsmodi](images/2_awd.png)
 * Neue Klasse SUV mit unterschiedlichen Antriebsmodi (Frontantrieb, Allrad, Allrad mit Differentialsperre) 
 * Wir leiten jetzt die Unterklassse ```CSuv``` von ```CAuto``` ab. 
 * Definition der Vererbungsbeziehung: Schlüsselwort ```extends```
@@ -387,7 +387,7 @@ int l_aVariable = CAuto.aPublicClassVar;
       }
   }
   ```
-![Antriebsmodi](images/2_awd.png#center)
+
 
 ===
 
@@ -400,11 +400,12 @@ int l_aVariable = CAuto.aPublicClassVar;
 * Hier das Codebeispiel:
 ```java
     public CSuv(String p_farbe, String p_marke, int p_leistung) {
-      super(p_farbe, p_marke, p_kw); // Konstruktor von CAuto
-      m_fahrmodus=0;
+      super(p_farbe, p_marke, p_kw);  // Konstruktor von CAuto
+      m_fahrmodus = 0;                // Initialer Modus: 2WD
   }
 ```
 * Aufruf des Konstruktors der Oberklasse muss erste Anweisung sein.
+
 --- 
 
 ## Let's try / @Home
@@ -432,7 +433,7 @@ int l_aVariable = CAuto.aPublicClassVar;
 ### Interface definieren
 
   ```java
-  public Interface IFahren {
+  public interface IFahren {
     public void schalte(int p_gang);
     public void beschleunige(int p_inkrement);
     public void bremse(int p_dekrement); 
@@ -441,13 +442,13 @@ int l_aVariable = CAuto.aPublicClassVar;
 * Interfaces können andere Interfaces erweiten (Schlüsselwort  ```extends```)
 * Alternative Definition des Interfaces ```Fahren```:
   ```java
-  public Interface ITempoWechseln {
+  public interface ITempoWechseln {
     public void beschleunige(int p_inkrement);
     public void bremse(int p_dekrement); 
   }
   ```
   ```java
-  public Interface IFahren extends ITempoWechseln{
+  public interface IFahren extends ITempoWechseln{
     public void schalte(int p_gang);
   }
   ```
@@ -469,7 +470,7 @@ int l_aVariable = CAuto.aPublicClassVar;
   } 
   ```
 * __Merke__: 
-    1. Eine Klasse kann nur von einer (Ober-)Klasse erben (```extends````)
+    1. Eine Klasse kann nur von einer (Ober-)Klasse erben (```extends```)
     2. Eine Klasse kann beliebig viele Interfaces implementieren
 
 ---
