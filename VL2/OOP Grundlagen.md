@@ -253,7 +253,7 @@ __Objekt-Orientierte Programmierung Grundlagen__
 * Die Sichtbarkeit von Eigenschaften und Methoden kann vom Programmierer durch einen Modifikator eingestellt werden
     * ```private```: nur innerhalb der Klasse sichtbar
     * ```public```: auch für beliebige andere 
-    * ```protected```: innerhalb der KLasse sowie für von der Klasse abgeleitete Subklassen sichtbar, siehe [Vererbung](#/10))
+    * ```protected```: innerhalb der Klasse sowie für von der Klasse abgeleitete Subklassen sichtbar, siehe [Vererbung](#/10)
 
 ---
 
@@ -266,7 +266,7 @@ __Objekt-Orientierte Programmierung Grundlagen__
 * Was machen wir mit "globalen" Eigenschaften oder Verhalten, die für alle Objekte gleich sind?
     * Z.B. jedes Autoobjekt mit eindeutigen Seriennummer ausstatten
     * Z.B. eine Übersicht über die Anzahl der bisher erzeugten Instanzen der Klasse verwalten
-* Mit dem Schlüsselwort ```static``` können wir sog. [_Klassenvariablen_](#/?) sowie [_Klassenmethoden_](#/?) definieren
+* Mit dem Schlüsselwort ```static``` können wir sog. [_Klassenvariablen_](#/8/1) sowie [_Klassenmethoden_](#/8/2) definieren
 
 ===
 
@@ -293,7 +293,7 @@ __Objekt-Orientierte Programmierung Grundlagen__
 ```java
 int anzFahrzeuge = CAuto.getAnzAutos();
 ```
-* Bei nicht ```private``` Klassenvariablen und Konstanten auch Direktzugriff möglich
+* Bei nicht privaten Klassenvariablen und Konstanten Direktzugriff möglich
 ```java
 int l_aVariable = CAuto.aPublicClassVar;
 ```
@@ -308,20 +308,22 @@ int l_aVariable = CAuto.aPublicClassVar;
   ```
 * Dürfen keine Instanzenvariablen ihrer Klasse verwenden
 * Anwendungen: 
-    * Zugriff auf ```static``` Eigenschaften (Klassenvariablen) mit Setter- und Getter-Methoden,  siehe [oben](#/?)
+    * Zugriff auf ```static``` Eigenschaften (Klassenvariablen) mit Setter- und Getter-Methoden,  siehe [oben](#/8/1)
       ```java
        public static int getAnzahlAutos() {
          return s_anzAutos;
        }
       ```
     * Libraries für generische Berechnungen, z.B. 
-    ```Math.max(number1, number2)```
+      ```java 
+      int l_max = Math.max(5, 3); // returns 5
+      ```
 ---
 
 ## @Let's try
 
 <!-- static mit private / public, Methoden mit public / private -->
-1. Ergänzt die Definition der Klasse ```CAuto``` um die oben beschriebenen Klassenvariable
+1. Ergänze die Definition der Klasse ```CAuto``` um die obigen Klassenvariablen
 2. Füge Setter- und Getter-Methoden hinzu
 3. Testet den Zugriff auf die Methoden aus dem ```main()``` Programm
 4. Denkt Euch eine andere ```private``` Klassenvariable aus und fügt sie hinzu. Testet den Zugriff darauf
