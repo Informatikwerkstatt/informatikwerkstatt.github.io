@@ -365,13 +365,11 @@ int l_aVariable = CAuto.aPublicClassVar;
 ===
 
 ### Beispiel
-<!-- enum wäre besser für die Antriebsarten, aber hier  zu kompliziert, oder? -->
-
+<!-- enum wäre besser für die Antriebsarten, aber hier  zu kompliziert,  deshalb für die PRofis als Aufgabe -->
 * Wir leiten jetzt die Unterklassse SUV unserer Klasse Auto ab. 
 * Neue Java-Klasse, Nutzung des Schlüsselworts ```extends```
 * Beispiel: Klasse SUV mit unterschiedlichen Antriebsmodi (Frontantrieb, Allrad, Allrad mit Differentialsperre) 
 
- ![Antriebsmodi](images/2_awd.png#center)
 
   ```java
   public class cSuv extends CAuto {
@@ -387,7 +385,8 @@ int l_aVariable = CAuto.aPublicClassVar;
       }
   }
   ```
-
+  
+![Antriebsmodi](images/2_awd.png#center)
 ===
 
 ### Konstruktoren von Unterklassen
