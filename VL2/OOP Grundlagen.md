@@ -486,7 +486,7 @@ int l_aVariable = CAuto.aPublicClassVar;
   ```
  * Methode berechnet Betrag der Eingabezahl
  * Unterschiedliche Ausgabetypen für unterschiedliche Eingabetypen
- * Auch möglich: verschiedene Zahl von Argumenten &rarr; z.B. [Überladen von Konstruktoren](#/?/?)
+ * Auch möglich: verschiedene Zahl von Argumenten &rarr; z.B. [Überladen von Konstruktoren](#/13/1)
 
 ===
 
