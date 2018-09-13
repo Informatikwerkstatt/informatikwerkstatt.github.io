@@ -352,7 +352,7 @@ int l_aVariable = CAuto.aPublicClassVar;
 * Wir sagen: 
     * "Fahrzeug ist die _Oberklasse_ von Auto"
     * "SUV ist eine _Unterklasse_ von Auto"
-* Zwischen Ober- und Unterklasse besteht  (transitive) _Vererbungsbeziehung_
+* Transitive _Vererbungsbeziehung_ zwischen Ober- und Unterklasse
 
 ===
 
@@ -374,7 +374,7 @@ int l_aVariable = CAuto.aPublicClassVar;
 * Wir leiten jetzt die Unterklassse ```CSuv``` von ```CAuto``` ab. 
 * Definition der Vererbungsbeziehung: Schlüsselwort ```extends```
   ```java
-  public class cSuv extends CAuto {
+  public class CSuv extends CAuto {
       // Instanzenvariable von Auto müssen nicht nochmal definiert werden!
       private int m_fahrModus; //0=2WD, 1=4WD, 2=LOCK 
 
