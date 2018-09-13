@@ -366,11 +366,10 @@ int l_aVariable = CAuto.aPublicClassVar;
 
 ### Beispiel
 <!-- enum wäre besser für die Antriebsarten, aber hier  zu kompliziert,  deshalb für die PRofis als Aufgabe -->
-* Wir leiten jetzt die Unterklassse SUV unserer Klasse Auto ab. 
-* Neue Java-Klasse, Nutzung des Schlüsselworts ```extends```
-* Beispiel: Klasse SUV mit unterschiedlichen Antriebsmodi (Frontantrieb, Allrad, Allrad mit Differentialsperre) 
 
-
+* Neue Klasse SUV mit unterschiedlichen Antriebsmodi (Frontantrieb, Allrad, Allrad mit Differentialsperre) 
+* Wir leiten jetzt die Unterklassse ```CSuv``` von ```CAuto``` ab. 
+* Definition der Vererbungsbeziehung: Schlüsselwort ```extends```
   ```java
   public class cSuv extends CAuto {
       // Instanzenvariable von Auto müssen nicht nochmal definiert werden!
@@ -385,8 +384,8 @@ int l_aVariable = CAuto.aPublicClassVar;
       }
   }
   ```
-  
 ![Antriebsmodi](images/2_awd.png#center)
+
 ===
 
 ### Konstruktoren von Unterklassen
@@ -395,7 +394,7 @@ int l_aVariable = CAuto.aPublicClassVar;
 * Konstruktor einer Unterklasse:
     1. ruft zunächst den Konstruktor der Oberklasse (Schlüsselwort ```super```) auf
     2. fügt zusätzliche Initialisierungen (hier: Initial gewählter Fahrmodus) hinzu
-* Hier das Codebeispiel
+* Hier das Codebeispiel:
 ```java
     public CSuv(String p_farbe, String p_marke, int p_leistung) {
       super(p_farbe, p_marke, p_kw); // Konstruktor von CAuto
