@@ -270,7 +270,7 @@ __Objekt-Orientierte Programmierung Grundlagen__
 
 ===
 
-### Instanzenvariablen
+### Klassenvariablen
 * Bezeichnen Eigenschaften einer Klasse und sind nur einmal definiert.
 * Z.B.: Jedesmal, wenn Auto erzeugt wird &rarr; Wert der Klassenvariable um 1 hochzählen
 ```java
@@ -301,7 +301,7 @@ int l_avar = CAuto.aPublicClassVar;
 
 ===
 
-### Instanzenmethoden
+### Klassenmethoden
 <!-- Definition + Example of Definition and usage, example for Math.meth() -->
 
 ---
