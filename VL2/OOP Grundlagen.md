@@ -368,9 +368,11 @@ int l_aVariable = CAuto.aPublicClassVar;
 <!-- enum wäre besser für die Antriebsarten, aber hier  zu kompliziert, oder? -->
 
 * Wir leiten jetzt die Unterklassse SUV unserer Klasse Auto ab. 
-![Antriebsmodi](images/2_awd.png#right)
 * Neue Java-Klasse, Nutzung des Schlüsselworts ```extends```
 * Beispiel: Klasse SUV mit unterschiedlichen Antriebsmodi (Frontantrieb, Allrad, Allrad mit Differentialsperre) 
+
+ ![Antriebsmodi](images/2_awd.png#center)
+
   ```java
   public class cSuv extends CAuto {
       // Instanzenvariable von Auto müssen nicht nochmal definiert werden!
