@@ -459,13 +459,13 @@ int l_aVariable = CAuto.aPublicClassVar;
 ### Klasse implementiert Interface
 * Schlüsselwort ```implements```
   ```java 
-  public class SomeClass implements Interface1, Interface2, ...{
+  public class CSomeClass implements Interface1, Interface2, ...{
       //Definition der Klasse
    } 
   ```
-* Unsere Klasse ```CAuto``` soll das Interface ```Fahren``` implementieren.
+* Unsere Klasse ```CAuto``` soll das Interface ```IFahren``` implementieren.
   ```java
-  public class CAuto implements Fahren {
+  public class CAuto implements IFahren {
       // Eigenschaften, Konstruktoren, Klassen
   } 
   ```
@@ -507,11 +507,30 @@ int l_aVariable = CAuto.aPublicClassVar;
    }
    ```
 
+===
+
+### Überschreiben von Methoden
+* (engl. Overriding) Zwei Methoden mit gleichem Namen und Parametern, aber unterschiedlichem Verhalten.
+* Entsteht, wenn abgeleitete Klasse ein Verhalten ihrer Oberklasse verändert.
+* z.B. Klasse ```CAuto``` hat eine Unterklasse ```CAutomatikAuto```
+   * Beide implementieren eine Methode
+   ```java
+    public void schalte(int p_gang);
+   ```
+    * Die Implementierung des Schaltens in der Unterklasse ```CAutomatikAuto``` wird aber eine andere sein als die in der Oberklasse
+    ```CAuto```
+* Überschreiben erfolgt einfach, indem die betreffende Methode in der Unterklasse entsprechend implementiert wird.
+
 ---
 
 ## @Let's try
 
 <!-- ein Beispiel mit Interface und 2 abgeleiteten Klassen vom Interface und dann noch einer dritten Klasse, die von einer Klasse abgeleitet wurde -->
+<!-- @Phil: Bin mir nicht sicher, ob Du so was gemeint hast - bitte checken. -->
+
+1. Ändere die Definition von ```CAuto``` und ```CSuv```, so dass sie das Interface ```IFahren``` implementieren.
+2. Denke Dir eine neue Klasse aus, die das Interface ```IFahren``` implementiert. Programmiere sie und teste sie in der ```main()```-Methode!
+3. Leite eine weitere Unterklasse aus ```CAuto``` ab. Überschreibe in der neuen Klasse mindestens eine Methode von ```CAuto``` und teste sie! 
 
 ---
 
