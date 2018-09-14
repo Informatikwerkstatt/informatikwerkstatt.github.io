@@ -280,25 +280,26 @@ __Grundlagen Objekt-Orientierter Programmierung__
     private String m_marke;
     private int m_serienNr; 
     ...
-  // Klassenvariable
+    // Klassenvariable
     private static int s_anzAutos = 0;
-  }
- ... 
-  public CAuto(String p_farbe, String p_marke, int p_leistung) {
+    ... 
+    // Konstruktor
+    public CAuto(String p_farbe, String p_marke, int p_leistung) {
       m_farbe = p_farbe;
       m_marke = p_marke;
      ...
       m_serienNr = ++s_anzAutos; // Klassenvariable erhöhen, Seriennr speichern
+    }
   }
   ```
 * Zugriff auf Wert über Setter und Getter:
-```java
-int anzFahrzeuge = CAuto.getAnzAutos();
-```
+  ```java
+  int anzFahrzeuge = CAuto.getAnzAutos();
+  ```
 * Bei nicht privaten Klassenvariablen und Konstanten Direktzugriff möglich
-```java
-int l_aVariable = CAuto.aPublicClassVar;
-```
+  ```java
+  int l_aVariable = CAuto.aPublicClassVar;
+  ```
 
 ===
 
