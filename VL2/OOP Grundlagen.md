@@ -4,7 +4,7 @@ permalink: /oop-grundlagen/
 ---
 
 # Informatikwerkstatt
-__Objekt-Orientierte Programmierung Grundlagen__
+__Grundlagen Objekt-Orientierter Programmierung__
 
 ---
 
@@ -339,8 +339,7 @@ int l_aVariable = CAuto.aPublicClassVar;
 ---
 
 ## Generalisierung, Spezialisierung, Vererbung:
-
-### Ein SUV ist ein Auto ist ein Fahrzeug!
+__Ein SUV ist ein Auto ist ein Fahrzeug!__
 
 <!-- was ist Vererbung allgemein mit Beispiel, wofür verwendet man es, Beispiel mit unterschiedlich großen Boxen, abstrakte Klassen weg lassen -->
 * Zentrales Konzept der Objektorientierung
