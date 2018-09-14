@@ -44,7 +44,7 @@ __Grundlagen Objekt-Orientierter Programmierung__
 ### Beispiel für Klasse
 
 * Hier seht Ihr eine rudimentäre Definition einer Klasse mit Eigenschaften
-```java
+  ```java
   public class CAuto {
   // Definiere Eigenschaften
     private String m_farbe;
@@ -171,7 +171,6 @@ __Grundlagen Objekt-Orientierter Programmierung__
   l_meinAuto.beschleunige(5); //beschleunige um 5 Einheiten
   ```
 
-
 ===
 
 ### Getter-und Setter-Methoden
@@ -274,7 +273,7 @@ __Grundlagen Objekt-Orientierter Programmierung__
 ### Klassenvariablen
 * Bezeichnen Eigenschaften einer Klasse; nur einmal definiert.
 * Z.B.: Jedesmal, wenn Auto erzeugt wird &rarr; Wert der Klassenvariable um 1 hochzählen
-```java
+  ```java
   public class CAuto {
     private String m_farbe;
     private String m_marke;
@@ -386,7 +385,6 @@ __Ein SUV ist ein Auto ist ein Fahrzeug!__
   }
   ```
 
-
 ===
 
 ### Konstruktoren von Unterklassen
@@ -396,12 +394,12 @@ __Ein SUV ist ein Auto ist ein Fahrzeug!__
     1. ruft zunächst den Konstruktor der Oberklasse (Schlüsselwort ```super```) auf
     2. fügt zusätzliche Initialisierungen (hier: Initial gewählter Fahrmodus) hinzu
 * Hier das Codebeispiel:
-```java
+  ```java
     public CSuv(String p_farbe, String p_marke, int p_leistung) {
       super(p_farbe, p_marke, p_kw);  // Konstruktor von CAuto
       m_fahrmodus = 0;                // Initialer Modus: 2WD
   }
-```
+  ```
 * Aufruf des Konstruktors der Oberklasse muss erste Anweisung sein.
 
 --- 
@@ -450,7 +448,7 @@ __Ein SUV ist ein Auto ist ein Fahrzeug!__
     public void schalte(int p_gang);
   }
   ```
-* Im Gegensatz zu Klassen kann ein  Interface mehrere Interfaces erweitern
+* Im Gegensatz zu Klassen kann ein  Interface mehrere andere Interfaces erweitern
 
 ===
 
@@ -491,7 +489,7 @@ __Ein SUV ist ein Auto ist ein Fahrzeug!__
  ### Überladen von Konstruktoren
  * Klassen können mehrere Konstruktoren mit unterschiedlichen Eingabeargumenten besitzen
  * Häufig: Default-Konstruktor ohne Argumente:
- * Bespiel: Unterschiedliche Konstruktoren für ```CAuto```
+ * Beispiel: Unterschiedliche Konstruktoren für ```CAuto```
    ```java
    public CAuto() {
     // setze alle Instanzenvariablen auf null oder Initialwert
@@ -540,9 +538,9 @@ __Ein SUV ist ein Auto ist ein Fahrzeug!__
 * Berechnungsfunktionen als Methoden
 * Die Eingabe erfolgt über die Kommandozeile in der Form 
   
-   ```shell
-   java Bruch 1 / 2 + 3 / 4
-   ```
+  ```shell
+  java Bruch 1 / 2 + 3 / 4
+  ```
    
 * Alle 4 [Operationen](https://de.wikipedia.org/wiki/Bruchrechnung#Rechnen_mit_Bruchtermen) (Addition, Subtraktion, Multiplikation, Division) müssen implementiert werden. 
 * __Freiwillig:__ Implementation eines Algorithmus zum Kürzen des berechneten Bruchs, also aus $\frac{2}{4} \Rightarrow \frac{1}{2}$ und aus $\frac{2}{1} \Rightarrow 2$
