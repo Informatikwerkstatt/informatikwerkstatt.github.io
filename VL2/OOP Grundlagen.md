@@ -213,15 +213,15 @@ __Grundlagen Objekt-Orientierter Programmierung__
 * Beipiel: Zwei Getter unserer Klasse ```CAuto```:
   ```java
   public void setFarbe(String p_farbe) {
-    m_farbe = p_farbe
+    m_farbe = p_farbe;
   }
  
   public void setKw(int p_kw){
     m_kw = p_kw;
-  };
+  }
   ``` 
-* In Setter-Methoden werden häufig die Eingabeparameter geprüft (z.B. ```!= null```, eingeschränkte Wertebereiche)
-* Fehler abfangen z.B. durch  "Werfen" von Exceptions!
+* In Settern werden häufig Eingabeparameter geprüft (z.B. ```!= null```, eingeschränkte Wertebereiche)
+* Fehler abfangen z.B. durch  "Werfen" von [Exceptions](https://informatikwerkstatt.github.io/java-grundlagen/#/19)!
 
 ---
 
