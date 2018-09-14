@@ -97,9 +97,7 @@ __Grundlagen Objekt-Orientierter Programmierung__
 <!-- was ist this, mit einem Schaubild -->
 * Innerhalb Konstruktor oder einer Instanzenmethode:  ```this``` referenziert das Objekt, dessen Konstruktor oder Methode aufgerufen wird.
 * Liefert die Referenz auf den Speicherbereich zurück, in dem das Objekt gespeichert ist
-* Nutzung von ```this``` für
-    1. Auflösung von Namenskonflikten
-    2. Aufruf von Methoden und Konstruktoren
+* Nutzung für (1) Auflösung von Namenskonflikten und (2) beim Aufruf von Methoden und Konstruktoren
 * Beispiel 
   ```java
     public Class CAuto{
@@ -118,7 +116,7 @@ __Grundlagen Objekt-Orientierter Programmierung__
 
 ===
 
-### ```this```: Diskussion des Beispiels
+### ```this```: Illustration des Beispiels
 
 * Das folgende Bild verdeutlicht noch einmal die Auswirkungen von ```new()``` und die Anwendung von ```this```
 * Variablen ```l_auto1``` und ```l_auto2``` zeigen auf dasselbe Objekt!
