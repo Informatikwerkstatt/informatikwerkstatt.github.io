@@ -210,7 +210,7 @@ __Grundlagen Objekt-Orientierter Programmierung__
 * Setter für Eigenschaft ```m_prop``` heißt ```setProp(.)```
     * Ergebnistyp ```void``` (kein Rückgabewert)
     * i.d.R. ein Eingabeparameter mit dem Typ von ```m_prop```
-* Beipiel: Zwei Getter unserer Klasse ```CAuto```:
+* Beispiel: Zwei Setter unserer Klasse ```CAuto```:
   ```java
   public void setFarbe(String p_farbe) {
     m_farbe = p_farbe;
