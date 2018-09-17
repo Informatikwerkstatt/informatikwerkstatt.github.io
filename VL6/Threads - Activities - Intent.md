@@ -225,6 +225,33 @@ __&rarr; Was passiert und wie erklärt Ihr Euch bei den unterschiedlichen Listen
 
 ---
 
+## Denke parallel - Background Threads
+
+Mobile Apps müssen _schnell_ und _effizient_ reagieren, so dass der Benutzer
+das Gefühl von Echtzeit bekommt. 
+
+* Damit können komplexe Berechnung _nicht_ in der Activity statt finden
+* Komplexe Berechnungen müssen in eigen [Threads](#/1) ausgelagert werden
+    * Zugriff auf Daten aus dem Web
+    * Datenaustausch zwischen Tablets
+    * Berechnung von 2D/3D Koordinaten
+
+<!-- https://developer.android.com/guide/background/ -->
+<!-- https://medium.com/elevate-by-lateral-view/background-processing-in-android-575fd4ecf769 -->
+
+===
+
+### Wie geht das parallel?
+
+> Wie in bei den Hausaufgaben / einem Übungszettel: Es gibt mehrere Aufgaben (Berechnungen) und mehrere Studierende (Threads). Man spricht ab, wer welche Aufgabe bearbeitet und jeder
+Studierende bearbeitet seine Aufgabe. Wenn alle Aufgaben bearbeitet wurden, dann ist
+der Aufgabenzettel auch bearbeitet. 
+
+&rArr; In der Informatik nennt man das Prinzip [Fork & Join Modell](https://en.wikipedia.org/wiki/Fork%E2%80%93join_model)
+
+
+---
+
 ## Intent
 
 > Ich will eine Email versenden
