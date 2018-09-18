@@ -6,4 +6,5 @@
 !*.jpg
 !assets/*.css
 !assets/*.js
+!assets/*.html
 !_layouts/*.html
