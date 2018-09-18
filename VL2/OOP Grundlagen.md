@@ -423,6 +423,7 @@ __Ein SUV ist ein Auto ist ein Fahrzeug!__
     * Rumpf der Methoden ist leer
 * Eine Klasse _implementiert_ ein Interface, wenn sie alle Methoden mit der im Interface definierten Signatur bereitstellt
 * "_Vertrag_" zwischen der Klasse und der Außenwelt, vom Compiler überwacht
+* In Interfaces werden auch Exceptions definiert; darauf gehen wir hier nicht näher ein.
 
 ===
 
@@ -436,7 +437,7 @@ __Ein SUV ist ein Auto ist ein Fahrzeug!__
   }
   ```
 * Interfaces können andere Interfaces erweiten (Schlüsselwort  ```extends```)
-* Alternative Definition des Interfaces ```Fahren```:
+* Alternative Definition des Interfaces ```IFahren```:
   ```java
   public interface ITempoWechseln {
     public void beschleunige(int p_inkrement);
@@ -488,10 +489,11 @@ __Ein SUV ist ein Auto ist ein Fahrzeug!__
 
  ### Überladen von Konstruktoren
  * Klassen können mehrere Konstruktoren mit unterschiedlichen Eingabeargumenten besitzen
- * Häufig: Default-Konstruktor ohne Argumente:
+ * Häufig: Default-Konstruktor ohne Argumente
+     * Wird automatisch vom Compiler eingefügt, wenn man den Konstruktor vergisst
  * Beispiel: Unterschiedliche Konstruktoren für ```CAuto```
    ```java
-   public CAuto() {
+   public CAuto() { // Default-Konstruktor
     // setze alle Instanzenvariablen auf null oder Initialwert
    }
    public CAuto(String p_farbe, String p_marke, int p_leistung) {
