@@ -254,17 +254,17 @@ der Aufgabenzettel auch bearbeitet.
 
 ## Intent
 
-> Ich will eine Email versenden
-
 * [abstrakte Absicht](https://de.wikibooks.org/wiki/Googles_Android/_Intents_oder_%22Ich_h%C3%A4tte_gern_den_Zucker%22) etwas zu tun
-* [Intents](https://developer.android.com/reference/android/content/Intent) sind passive Datenstruktur-Klassen
-* Intents sind applikationsübergeifend 
+* [Intents](https://developer.android.com/reference/android/content/Intent) sind passive Datenstruktur-Klassen &rarr; eine Art _Nachrichten-Objekt_
+* Intents sind applikationsübergeifend
 * werden zur [Laufzeit](https://en.wikipedia.org/wiki/Intent_(Android)) gebunden
 * über [Intent-Filter](#/8) können komplexe Prüfungen zur Ausführung gesetzt werden
 
 <!-- https://developer.android.com/training/basics/firstapp/starting-activity -->
 
----
+Notes: Studi einen Zettel geben auf dem steht "geh bitte mal vor die Tür und komm zurück", das gehen ist die Activity, der Text auf dem Zettel die Daten für die Activity und der Zettel selbst ist das Intent
+
+===
 
 ## Datenübergabe Intent &rarr; Activity
 
@@ -279,6 +279,31 @@ Notes: Einem Studierenden einen Zettel in die Hand geben, auf dem steht, dass er
 ---
 
 ## Intent-Filter
+
+* [explizite Intents](https://developer.android.com/guide/components/intents-filters#ExampleExplicit), diese werden direkt aus dem Quellcode aufgerufen
+* [implizite Intents](https://developer.android.com/guide/components/intents-filters#ExampleSend), diese werden _allgemein_ durch Android behandelt
+
+&rArr; und für die impliziten Intents benötigt die App den _Intent-Filter_ um darauf reagieren zu können
+
+===
+
+### Emfangen von impliziten Intents
+
+* Das [Empfangen](https://developer.android.com/guide/components/intents-filters#Receiving) von Intents wird über Filter in der [Manifest](/android-grundlagen/#/5/1) definiert
+* Filter besitzen die Einträge ```action```, ```category``` und ```data``` um auf das Intent zu matchen
+* es können mehrere Filter angegeben werden und **alle** müssen matchen, damit ein Intent ausgeführt wird
+
+```xml
+<activity android:name="ShareActivity">
+    <intent-filter>
+        <action android:name="android.intent.action.SEND"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <data android:mimeType="text/plain"/>
+    </intent-filter>
+</activity>
+```
+
+Notes: Studis fragen, was "explizit" und "implizit" ist, einem Studi sagen "geh mal Tafel putzen" &rarr; explizites Intent, dann implizit "putzt mal die Tafel"
 
 ---
 
