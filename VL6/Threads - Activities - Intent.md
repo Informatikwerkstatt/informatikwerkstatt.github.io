@@ -16,7 +16,7 @@ Heutige CPUs können mehrere Aufgaben parallel verarbeiten<sup>1</sup>:
 
 <small>1: Wir machen hier nur eine ganz kurze Einführung in Multithreading, wird in späteren Vorlesungen noch einmal behandelt</small>
 
-Notes: Studis fragen, ob 2 einen Tanzkurs besucht haben und z.B. einen Walzer vorführen können, Stichwort Synchronisation aufeinander erläutern
+Note: Studis fragen, ob 2 einen Tanzkurs besucht haben und z.B. einen Walzer vorführen können, Stichwort Synchronisation aufeinander erläutern
 
 ===
 
@@ -262,7 +262,7 @@ der Aufgabenzettel auch bearbeitet.
 
 <!-- https://developer.android.com/training/basics/firstapp/starting-activity -->
 
-Notes: Studi einen Zettel geben auf dem steht "geh bitte mal vor die Tür und komm zurück", das gehen ist die Activity, der Text auf dem Zettel die Daten für die Activity und der Zettel selbst ist das Intent
+Note: Studi einen Zettel geben auf dem steht "geh bitte mal vor die Tür und komm zurück", das gehen ist die Activity, der Text auf dem Zettel die Daten für die Activity und der Zettel selbst ist das Intent
 
 ===
 
@@ -270,7 +270,7 @@ Notes: Studi einen Zettel geben auf dem steht "geh bitte mal vor die Tür und ko
 
 > Um eine Activity aus einer anderen zu öffnen / starten, benötigen man ein Intent, in dem die Daten übergeben werden
 
-Notes: Einem Studierenden einen Zettel in die Hand geben, auf dem steht, dass er aufstehen und zur Tür gehen und sich wieder hinsetzen soll. Das gehen die die "Activity", der Zettel das "Intent" und die "Nachricht" die Daten
+Note: Einem Studierenden einen Zettel in die Hand geben, auf dem steht, dass er aufstehen und zur Tür gehen und sich wieder hinsetzen soll. Das gehen die die "Activity", der Zettel das "Intent" und die "Nachricht" die Daten
 
 ---
 
@@ -303,7 +303,7 @@ Notes: Einem Studierenden einen Zettel in die Hand geben, auf dem steht, dass er
 </activity>
 ```
 
-Notes: Studis fragen, was "explizit" und "implizit" ist, einem Studi sagen "geh mal Tafel putzen" &rarr; explizites Intent, dann implizit "putzt mal die Tafel"
+Note: Studis fragen, was "explizit" und "implizit" ist, einem Studi sagen "geh mal Tafel putzen" &rarr; explizites Intent, dann implizit "putzt mal die Tafel"
 
 ---
 

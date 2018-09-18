@@ -344,7 +344,7 @@ public class CTypeUmwandlung
 
 Führe den [Code](#/10/2) aus und gib die Werte von `myInt` und `pi` aus! Was beobachtest Du?
 
-Notes: kein Compile-Fehler, aber nur ganzzahliger Anteil!
+Note: kein Compile-Fehler, aber nur ganzzahliger Anteil!
 
 ---
 
@@ -399,7 +399,7 @@ System.out.println("l = " + l);
 
 &rArr; Könnt Ihr dieses Ergebnis erklären?
 
-Notes: In ```s1.equals(s2)``` muss ```s1``` initialisiert sein &rarr; prüfen mit ```Objects.nonNull(s1)```
+Note: In ```s1.equals(s2)``` muss ```s1``` initialisiert sein &rarr; prüfen mit ```Objects.nonNull(s1)```
 
 ---
 
@@ -501,7 +501,7 @@ else
 }
 ```
     
-Notes: Anweisung 1: 5<6, also wird a=b ausgeführt (if-Zweig) Anweisung 2: a <= b, deshalb zunächst else-Zweig, dann wg a < c der if-Zweig
+Note: Anweisung 1: 5<6, also wird a=b ausgeführt (if-Zweig) Anweisung 2: a <= b, deshalb zunächst else-Zweig, dann wg a < c der if-Zweig
 
 ---
 

@@ -8,7 +8,7 @@ __Git & Github__
 
 <!-- ggf Social Cars Git Folien nutzen -->
 
-Notes: Zwei Studierende aufforderung Protokoll zu der Veranstaltung heute zu führen, es reicht wenn sie die Headlines und 1-2 Stichworte für die Folie mitschreiben (wichtig ist, dass die Protokolle nicht identisch sind)
+Note: Zwei Studierende aufforderung Protokoll zu der Veranstaltung heute zu führen, es reicht wenn sie die Headlines und 1-2 Stichworte für die Folie mitschreiben (wichtig ist, dass die Protokolle nicht identisch sind)
 
 ---
 
@@ -58,7 +58,7 @@ Notes: Zwei Studierende aufforderung Protokoll zu der Veranstaltung heute zu fü
 
 <!-- was sind Branches, wofür sind sie gut, wie werden sie erstellt -->
 
-Notes: Verweisen auf die zwei Protokollanten
+Note: Verweisen auf die zwei Protokollanten
 
 ---
 
@@ -139,7 +139,7 @@ Notes: Verweisen auf die zwei Protokollanten
 
 <!-- was ist ein Merge Conflict -->
 
-Notes: Fragen, wie beide Protokolle gemergt werden sollen
+Note: Fragen, wie beide Protokolle gemergt werden sollen
 
 ---
 
