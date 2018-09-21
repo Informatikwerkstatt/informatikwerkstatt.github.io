@@ -8,23 +8,82 @@ __Git & Github__
 
 <!-- ggf Social Cars Git Folien nutzen -->
 
-Note: Zwei Studierende aufforderung Protokoll zu der Veranstaltung heute zu führen, es reicht wenn sie die Headlines und 1-2 Stichworte für die Folie mitschreiben (wichtig ist, dass die Protokolle nicht identisch sind)
+Note:  Zwei Studierende auffordern,  Protokoll zu der Veranstaltung heute zu führen; Headlines und 1-2 Stichworte für die Folie mitschreiben. (Wichtig ist, dass die Protokolle nicht identisch sind)
 
 ---
 
-## Was ist ein Repository?
+## Versionskontrolle - Was ist das und wofür?
+
+* Komplexe Projekte, z.B. Softwareentwicklung, erfordern Zusammenarbeit zwischen vielen Beteiligten
+  * Lange Entwicklungszeiten 
+  * Viele Code-Module und Dokumente
+  * Mehreren Entwicklern und Teams arbeiten gleichzeitig
+  * Nicht-lineare Entwicklung: Viele Unterversionen und Verzweigungen
+* Wie behält man da die Übersicht? 
+* Wie kann man unterschiedliche Versionen und Entwicklungsstände verwalten?
+* Wie vermeidet man, dass Entwickler gegenseitig ihre Arbeit "kaputt machen"?
+
+&rarr; __Versionskontrollsysteme__: Protokollieren Änderungen an einer Datei oder einer Anzahl von Dateien über die Zeit hinweg, so dass man zu jedem Zeitpunkt auf Versionen und Änderungen zugreifen kann
+
+
+## Repositories
 
 <!-- Was ist ein Repository, wofür braucht man es, was ist der Sinn davon -->
+* Systeme zur Versionskontrolle nutzen __Repositories__
+* = Verwaltetes Verzeichnis zur Speicherung und Beschreibung digitaler Objekte (z.B. Source Code, Dokumentation, ...)
+* = Eine Art Datenbank, auf der mehrere Nutzer parallel arbeiten können
+* Realisiert Softwarefunktionen zur Versionskontrolle und Zusammenarbeit auf dem Repository
+* Für jedes digitale Objekt wird die Versionshistorie gespeichert
 
 ===
 
 ### Was ist Git?
 
 <!-- einmal allgemeines zu Git -->
+* Dezentral organisiertes System zur Versionskontrolle
+* Entstanden aus der Linux Entwickler-Community
+* Schnell, einfaches Design
+* Speziell geeignet für große Projekte mit nichtlinearer Entwicklung
 
 ===
 
-### Gitconfig
+### Git Funktionsweise
+
+* Versionshistorie: Reihe von "Snapshots" über Dateien eines Projekts
+* Bei jedem Speichern legt Git eine Version des Projekts an 
+    * Sichert Zustand sämtlicher Dateien in diesem Moment (= Snapshot) 
+    * Speichert eine Referenz auf diesen Snapshot 
+* Beispiel: Projekt mit drei initialen Dateien A, B und C
+
+![Git Versionshistorie](images/3-git-snapshots.png)
+
+=== 
+
+### Git Lokale Sicht
+
+* Jeder Nutzer hat lokal
+    * Arbeitsverzeichnis: Hier werden die Dateien bearbeitet
+    * Staging-Bereich: Hier werden Änderungen vorgemerkt, die in die nächste Version übernommen werden sollen 
+    * Git Repository: Enthält komplettes Abbild eines Projekts
+* Grundlegender lokaler Workflow:
+
+![Git Lokaler Workflow](images/3-git-lokal-wf.png)
+* Drei Zustände einer Datei in Git: geändert, vorgemerkt, committed!
+
+===
+
+### Git verteilte Architektur
+
+* I.d.R.: zusätzliches "remote" Repository, von dem verschiedene Nutzer Ihre Daten kopieren ("klonen") und miteinander synchronisieren  
+* Folgende Abbildung zeigt einen Beispiel-Workflow
+
+![Git Remote Workflow](images/3-git-remote.png)
+
+* In der Folge schauen wir uns die bisher im Überblick gezeigten Abläufe im Detail an
+
+==
+
+## Gitconfig
 
 <!-- wie konfiguriert man git -->
 
@@ -192,3 +251,9 @@ Note: Fragen, wie beide Protokolle gemergt werden sollen
 
 * [Git Bash](https://git-scm.com/downloads)
 * [Git Kraken](https://www.gitkraken.com/)
+
+---
+
+## Links
+
+* Online Buch: [Pro Git](https://git-scm.com/book/de/v1) von Scott Chacon and Ben Straub
