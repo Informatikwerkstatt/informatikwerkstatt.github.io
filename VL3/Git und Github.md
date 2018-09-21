@@ -59,13 +59,13 @@ Note:  Zwei Studierende auffordern,  Protokoll zu der Veranstaltung heute zu fü
 
 === 
 
-### Git lokale Sicht
+### Git lokaler Workflow
 
 * Jeder Nutzer hat lokal
     * Arbeitsverzeichnis: Hier werden die Dateien bearbeitet
     * Staging-Bereich: Hier werden Änderungen vorgemerkt, die in die nächste Version übernommen werden sollen 
     * Git Repository: Enthält komplettes Abbild eines Projekts
-* Grundlegender lokaler Workflow:
+
 ![Git Lokaler Workflow](images/3-git-lokal-wf.png)
 * Drei Zustände einer Datei in Git: geändert, vorgemerkt, committed!
 
