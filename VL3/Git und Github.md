@@ -15,13 +15,12 @@ Note:  Zwei Studierende auffordern,  Protokoll zu der Veranstaltung heute zu fü
 ## Versionskontrolle - Was ist das und wofür?
 
 * Komplexe Projekte, z.B. Softwareentwicklung, erfordern Zusammenarbeit zwischen vielen Beteiligten
-  * Lange Entwicklungszeiten 
-  * Viele Code-Module und Dokumente
+  * Lange Entwicklungszeiten, viele Code-Module und Dokumente
   * Mehrere Entwickler und Teams arbeiten gleichzeitig
   * Nicht-lineare Entwicklung: Viele Unterversionen und Verzweigungen
 * Wie behält man da die Übersicht? 
-* Wie kann man unterschiedliche Versionen und Entwicklungsstände verwalten?
-* Wie vermeidet man, dass Entwickler gegenseitig ihre Arbeit "kaputt machen"?
+* Wie verwaltet man unterschiedliche Versionen und Entwicklungsstände?
+* Wie vermeidet man, dass Entwickler sich gegenseitig stören?
 
 &rarr; __Versionskontrollsystem__: Protokolliert Änderungen an Dateien über die Zeit hinweg, so dass man zu jedem Zeitpunkt auf Versionen und Änderungen zugreifen kann
 
@@ -67,7 +66,6 @@ Note:  Zwei Studierende auffordern,  Protokoll zu der Veranstaltung heute zu fü
     * Staging-Bereich: Hier werden Änderungen vorgemerkt, die in die nächste Version übernommen werden sollen 
     * Git Repository: Enthält komplettes Abbild eines Projekts
 * Grundlegender lokaler Workflow:
-
 ![Git Lokaler Workflow](images/3-git-lokal-wf.png)
 * Drei Zustände einer Datei in Git: geändert, vorgemerkt, committed!
 
@@ -82,7 +80,7 @@ Note:  Zwei Studierende auffordern,  Protokoll zu der Veranstaltung heute zu fü
 
 * In der Folge schauen wir uns die bisher im Überblick gezeigten Abläufe im Detail an
 
-==
+---
 
 ## Gitconfig
 
