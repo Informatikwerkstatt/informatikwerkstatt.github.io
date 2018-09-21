@@ -17,14 +17,15 @@ Note:  Zwei Studierende auffordern,  Protokoll zu der Veranstaltung heute zu fü
 * Komplexe Projekte, z.B. Softwareentwicklung, erfordern Zusammenarbeit zwischen vielen Beteiligten
   * Lange Entwicklungszeiten 
   * Viele Code-Module und Dokumente
-  * Mehreren Entwicklern und Teams arbeiten gleichzeitig
+  * Mehrere Entwickler und Teams arbeiten gleichzeitig
   * Nicht-lineare Entwicklung: Viele Unterversionen und Verzweigungen
 * Wie behält man da die Übersicht? 
 * Wie kann man unterschiedliche Versionen und Entwicklungsstände verwalten?
 * Wie vermeidet man, dass Entwickler gegenseitig ihre Arbeit "kaputt machen"?
 
-&rarr; __Versionskontrollsysteme__: Protokollieren Änderungen an einer Datei oder einer Anzahl von Dateien über die Zeit hinweg, so dass man zu jedem Zeitpunkt auf Versionen und Änderungen zugreifen kann
+&rarr; __Versionskontrollsystem__: Protokolliert Änderungen an Dateien über die Zeit hinweg, so dass man zu jedem Zeitpunkt auf Versionen und Änderungen zugreifen kann
 
+---
 
 ## Repositories
 
@@ -32,12 +33,12 @@ Note:  Zwei Studierende auffordern,  Protokoll zu der Veranstaltung heute zu fü
 * Systeme zur Versionskontrolle nutzen __Repositories__
 * = Verwaltetes Verzeichnis zur Speicherung und Beschreibung digitaler Objekte (z.B. Source Code, Dokumentation, ...)
 * = Eine Art Datenbank, auf der mehrere Nutzer parallel arbeiten können
-* Realisiert Softwarefunktionen zur Versionskontrolle und Zusammenarbeit auf dem Repository
+* Realisiert Softwarefunktionen zur Versionskontrolle und Zusammenarbeit
 * Für jedes digitale Objekt wird die Versionshistorie gespeichert
 
-===
+---
 
-### Was ist Git?
+## Was ist Git?
 
 <!-- einmal allgemeines zu Git -->
 * Dezentral organisiertes System zur Versionskontrolle
@@ -59,7 +60,7 @@ Note:  Zwei Studierende auffordern,  Protokoll zu der Veranstaltung heute zu fü
 
 === 
 
-### Git Lokale Sicht
+### Git lokale Sicht
 
 * Jeder Nutzer hat lokal
     * Arbeitsverzeichnis: Hier werden die Dateien bearbeitet
