@@ -16,7 +16,7 @@ __User Interface__
 * Rückgängigtaste für die aktuelle Eingabe soll vorhanden sein
 * Berechnung soll korrekt funktionieren
 
-<small>Eine [Beispiel APK](assets/taschenrechner.apk) gibt es zum anschauen</small>
+<small>Eine [Beispiel APK](https://github.com/Informatikwerkstatt/informatikwerkstatt.github.io/releases/download/apk-taschenrechner/taschenrechner.apk) gibt es zum anschauen</small>
 
 Note: Studis fragen, was man dafür wohl alles braucht: UI Layout, Events, Algorithmus
 
