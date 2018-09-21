@@ -8,6 +8,20 @@ __User Interface__
 
 ---
 
+## Unser Szenario - Der Taschenrechner
+
+> Wir bauen einen Taschenrechner, der Plus, Minus, Mal und Geteilt kann (Klammersetzung und Punkt-vor-Strichrechnung ignorieren wir). Wer möchte kann auch noch eine Rest-Division (Modulo) einbauen
+
+* Komma-Zahlen sollen eingebar sein
+* Rückgängigtaste für die aktuelle Eingabe soll vorhanden sein
+* Berechnung soll korrekt funktionieren
+
+<small>Eine [Beispiel APK](assets/taschenrechner.apk) gibt es zum anschauen</small>
+
+Note: Studis fragen, was man dafür wohl alles braucht: UI Layout, Events, Algorithmus
+
+---
+
 ## Interface Aufbau
 
 <!-- https://developer.android.com/training/basics/firstapp/building-ui -->
@@ -20,7 +34,7 @@ Ein [View](https://developer.android.com/reference/android/view/View) ist die ob
 
 ===
 
-### ViewGroudp
+### ViewGroud
 
 Eine [ViewGroup](https://developer.android.com/reference/android/view/ViewGroup) ist eine Sammlung von View-Containern eines Layouts, sowohl View wie auch ViewGroup können miteinander verbunden werden
 
@@ -60,6 +74,11 @@ Eine [ViewGroup](https://developer.android.com/reference/android/view/ViewGroup)
 
 ===
 
+### Constraint Layout
+
+
+===
+
 ### Linear Layout
 
 Das [Linear Layout](https://developer.android.com/guide/topics/ui/layout/linear) ermöglicht es geradlinige Strukturen wie z.B. Listen darzustellen. Die Breite ist flexible, aber auf eine Spalte begrenzt, und die Höhe orientiert sich der Länge des Inhaltes
@@ -73,6 +92,11 @@ Das [Linear Layout](https://developer.android.com/guide/topics/ui/layout/linear)
 Das [Grid View Layout](https://developer.android.com/guide/topics/ui/layout/gridview) ist aufgebaut wie ein Schachbrett. Die Anzahl der Zeilen und Spalten kann zur Laufzeit gesetzt werden. Es eignet sich gut für Darstellung von mehreren Thumbnails
 
 ![Grid View Layout - Quelle https://developer.android.com/guide/topics/ui/layout/gridview](https://developer.android.com/images/ui/gridview.png)
+
+---
+
+### Margin & Padding
+
 
 ---
 

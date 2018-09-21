@@ -4,7 +4,10 @@
 !*.md
 !*.png
 !*.jpg
+!*.apk
+
 !assets/*.css
 !assets/*.js
 !assets/*.html
+
 !_layouts/*.html

@@ -254,6 +254,18 @@ Log.e( "berechnung", "hier ist eine Division durch null aufgetreten" );
 
 ---
 
+## Deployment
+
+<!-- Deployment aus dem Android Studio heraus -->
+
+=== 
+
+### APK
+
+<!-- Deployment als unsicheres APK, Release APK geht nur mit Google API Key, APK bauen, Datei per USB ins Dateisystem des Tablet übertragen, in Entwicklereinstellungen Installation von unbekannten Herstellern erlauben und via Dateimanager APK installieren -->
+
+---
+
 ## @Home
 
 1. Installation von [Android Studio](https://developer.android.com/studio/)
