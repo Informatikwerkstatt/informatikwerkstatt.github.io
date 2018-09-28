@@ -63,8 +63,8 @@
             { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/search/search.min.js', async: true },
             { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/zoom-js/zoom.min.js', async: true },
             { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.7.0/plugin/math/math.min.js', async: true },
-            { src: '/assets/notes.js', async: true },
-            { src: '/assets/imagehover.js', async: true },
+            { src: '{{ site.baseurl }}/assets/notes.js', async: true },
+            { src: '{{ site.baseurl }}/assets/imagehover.js', async: true },
             { src: '//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js', async: true, callback: function() { 
                 jQuery( 'head' )
                     .append( jQuery( '<script/>' ).attr( 'src', '//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js' ) )
