@@ -200,6 +200,16 @@ Der Prozess wird mit dem _grünen Button_ in der rechten oberen Fensterecke gest
 
 ---
 
+### APK - Android Application Package
+
+> Ein [Android Application Package](https://en.wikipedia.org/wiki/Android_application_package), kurz _APK_, ist eine Datei, die das gesamte Programm in Binärform mit allen abhängigen Resourcen enthält. Zusätzlich ist ein APK noch [digital signiert](https://de.wikipedia.org/wiki/Digitale_Signatur), so dass der Urheber validierbar ist
+
+<iframe class="video" src="https://player.vimeo.com/video/292676865" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
+
+<small>nachdem das APK erzeugt wurde, wird es auf das Tablet per USB Dateifreigabe kopiert und kann mit dem Android Dateimanager installiert werden</small>
+
+---
+
 ## Schreib' es hin - Der Logger
 
 > Ein [Logger](https://developer.android.com/reference/android/util/Log) ist ein ```System.out.println``` mit etwas mehr Funktionalität um Ausgaben besser strukturieren zu können unf ggf. in eine Datei o.ä. schreiben zu können
@@ -250,19 +260,7 @@ Log.e( "berechnung", "hier ist eine Division durch null aufgetreten" );
 
 ===
 
-### Breakpoints & debugger
-
----
-
-## Deployment
-
-<!-- Deployment aus dem Android Studio heraus -->
-
-=== 
-
-### APK
-
-<!-- Deployment als unsicheres APK, Release APK geht nur mit Google API Key, APK bauen, Datei per USB ins Dateisystem des Tablet übertragen, in Entwicklereinstellungen Installation von unbekannten Herstellern erlauben und via Dateimanager APK installieren -->
+### Breakpoints & Debugger
 
 ---
 
