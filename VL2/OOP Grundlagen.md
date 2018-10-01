@@ -42,23 +42,37 @@ Eigenschaften zusammen beschreiben den Zustand eines Autos beschreiben &rarr; si
 
 ```java
 public class CAuto {
-  // definiere Eigenschaften
-  
+  // --- definiere Eigenschaften ---
+
+  // unveränderbare Eigenschaft durch final  
   private final String m_farbe;
   private final String m_marke;
-  // Leistung in kW
-  private final int m_kw;
+  private final int m_maximaleGeschwindigkeit;
+  private final int m_anzahlGaenge;
+
+  // veränderbare Eigenschaften
   // aktuelle Geschwindigkeit - der Wert bei Java mit 0 automatisch belegt
-  private int m_tempo;
+  private int m_aktuelleGeschwindigkeit;
   // aktueller Gang - hier wird ein Wert vorgegeben
   private int m_gang = 1;
+  
 
-  // definiere Methode, als erstes den Konstruktor, aber die Reihenfolge im Quellcode ist beliebig möglich
-  public CAuto( final String p_farbe, final String p_marke, final int p_leistung)
+  // --- definiere Methoden ---
+
+  // Default-Konstruktor ohne Parameter
+  public CAuto()
+  {
+    // ruft den Konstruktor mit Parametern auf
+    this( "rot", "VW", 5, 250 );
+  }
+
+  // Konstruktor mit Parametern
+  public CAuto( final String p_farbe, final String p_marke, final int p_anzahlGaenge, final int p_maximaleGeschwindigkeit)
   {
     m_farbe = p_farbe;
     m_marke = p_marke;
-    m_kw = p_kw;  
+    m_anzahlGaenge = p_anzahlGaenge;
+    m_maximaleGeschwindigkeit = p_maximaleGeschwindigkeit;
   }
 }
 ```
@@ -73,7 +87,7 @@ public class CAuto {
     1. allokiert Speicher für neues Objekt (wieviel, hängt von Klasse (Typ) des Objekts ab)
     2. gibt eine Referenz auf diesen Speicherbereich zurück, die einer Variable zugewiesen werden kann
        ```java
-       final CAuto l_auto = new CAuto("rot", "beetle", 100);
+       final CAuto l_auto = new CAuto("rot", "beetle", 5, 250);
        ```
     3. ruft dabei eine spezielle Methode der Klasse auf: Den *Konstruktor*.
 
@@ -86,11 +100,17 @@ public class CAuto {
 * Für eine Klasse kann es mehrere Konstruktoren mit unterschiedlichen Argumenten geben
 
 ```java
-public CAuto( final String p_farbe, final String p_marke, final int p_leistung)
+public CAuto()
+{
+  this( "rot", "VW", 5, 250 );
+}
+
+public CAuto( final String p_farbe, final String p_marke, final int p_anzahlGaenge, final int p_maximaleGeschwindigkeit)
 {
   m_farbe = p_farbe;
   m_marke = p_marke;
-  m_kw = p_kw;  
+  m_anzahlGaenge = p_anzahlGaenge;
+  m_maximaleGeschwindigkeit = p_maximaleGeschwindigkeit;
 }
 ```
 
@@ -112,7 +132,7 @@ public CAuto( final String p_farbe, final String p_marke, final int p_leistung)
   ```
 * ... mit Aufruf:
   ```java
-      final CAuto l_auto1 = new CAuto("rot", "lada", 60);
+      final CAuto l_auto1 = new CAuto("rot", "lada", 5, 200);
       final CAuto l_auto2 = l_meinAuto.get();
 
       // l_auto1 und l_auto2 enthalten nun die gleiche Referenz
@@ -144,32 +164,35 @@ public CAuto( final String p_farbe, final String p_marke, final int p_leistung)
 
 ## Methoden
 
-<!-- Was sind Methoden, wozu braucht man sie, wie sehen sie aus -->
-* Methode implementiert Verhalten einer Klasse
-* Besteht aus
-    * Modifikatoren
-    * Signatur: Name + Parameter (mit Typen) + Ergebnistyp (s. [VL1](../java-grundlagen/#/5/2))
-* Wir ergänzen unsere Klasse ```CAuto``` um drei Methoden zum Schalten, Gas geben und Bremsen:
-  ```java
-  public Class CAuto {
-   //  Eigenschaften ...
-   //  Konstruktoren ...
-   //  Verhalten
-    public void schalte(int p_gang)
-    {
-        m_gang = p_gang;
-    }
-    public void beschleunige(int p_inkrement)
-    {
-        m_tempo += p_inkrement;
-    }
-    public void bremse(final int p_dekrement)
-    {
-        m_tempo -= p_dekrement;
-        m_tempo = m_tempo < 0 ? 0 : m_tempo;
-    }
+<span class="rrd" data-rrd="Diagram( Optional( Choice(0, Terminal('public'), Terminal('protected'), Terminal('private')), 'skip'),Choice(0,Terminal('void'), Terminal('int'), Terminal('String'), NonTerminal('...')), Terminal('Methodenname'), Terminal('('), Optional(Choice(0, NonTerminal('Parameter')), 'skip'), Terminal(')') )"></span>
+
+Wir ergänzen unsere Klasse ```CAuto``` um drei Methoden zum Schalten, Gas geben und Bremsen:
+```java
+public class CAuto {
+  // --- Eigenschaften ---
+  // --- Konstruktoren ---
+  // --- Methoden / Verhalten ---
+
+  public void schalte(int p_gang)
+  {
+      m_gang = p_gang % ( m_anzahlGaenge + 1 );
+      m_gang = m_gang < 0 ? 0 : m_gang;
   }
-  ```
+
+  public void beschleunige(int p_inkrement)
+  {
+      m_aktuelleGeschwindigkeit += p_inkrement;
+      m_aktuelleGeschwindigkeit = m_aktuelleGeschwindigkeit > m_maximaleGeschwindigkeit ? m_maximaleGeschwindigkeit : m_aktuelleGeschwindigkeit;
+
+  }
+  
+  public void bremse(final int p_dekrement)
+  {
+      m_aktuelleGeschwindigkeit -= p_dekrement;
+      m_aktuelleGeschwindigkeit = m_aktuelleGeschwindigkeit < 0 ? 0 : m_aktuelleGeschwindigkeit;
+  }
+}
+```
 
 ===
 
