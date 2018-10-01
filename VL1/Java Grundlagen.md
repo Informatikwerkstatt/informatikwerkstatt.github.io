@@ -56,8 +56,6 @@ Wir nutzen später in dieser Vorlesung [Java auf Ant](/android-grundlagen/)
 ---
 
 ## Quellcode, Binärcode, Apps ...??
- <!-- Übersetzungsvorgang, compilieren + Bundling 
- @Phil: Gehört Bundling nicht eher ins Android Kapitel?-->
 
 - **Quellcode**: Textbasierte Darstellung eines Programms
     - ```java```-Textdatei, erstellt z.B. [Visual Studio Code](https://code.visualstudio.com/)

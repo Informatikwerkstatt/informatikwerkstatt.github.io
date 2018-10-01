@@ -30,7 +30,9 @@ __Tablet Einrichtung__
 
 ## Entwicklermodus
 
-<!-- Tablet in den Entwicklermodus setzen, je nach Androidversion ggf unterschiedlich -->
+<!-- Tablet in den Entwicklermodus setzen, je nach Androidversion ggf unterschiedlich 
+https://developer.android.com/studio/debug/dev-options
+-->
 
 ---
 
