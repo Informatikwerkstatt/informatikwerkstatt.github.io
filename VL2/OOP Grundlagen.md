@@ -166,7 +166,7 @@ public CAuto( final String p_farbe, final String p_marke, final int p_anzahlGaen
 
 <span class="rrd" data-rrd="Diagram( Optional( Choice(0, Terminal('public'), Terminal('protected'), Terminal('private')), 'skip'),Choice(0,Terminal('void'), Terminal('int'), Terminal('String'), NonTerminal('...')), Terminal('Methodenname'), Terminal('('), Optional(Choice(0, NonTerminal('Parameter')), 'skip'), Terminal(')') )"></span>
 
-Klasse ```CAuto``` um drei Methoden zum Schalten, Gas geben und Bremsen ergänzen
+```CAuto``` Klasse um drei Methoden Schalten, Gas geben und Bremsen ergänzen
 
 ```java
 public class CAuto {
