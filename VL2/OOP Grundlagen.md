@@ -10,60 +10,64 @@ __Grundlagen Objekt-Orientierter Programmierung__
 
 ## Objekt-Orientierte Programmierung (OOP) - was ist das?
 
-<!-- was ist der Sinn von OOP -->
-* Moderner Programmieransatz, Mainstream seit 1990ern
-* Intuitive Beschreibung von Systemen und ihren Bestandteilen (Objekten) 
+* Beschreibung von Software durch Objekte (seit den 1990igern)
     * Zustand (z.B. Auto hat Farbe, Marke, aktuelle Geschwindigkeit, Gang)
     * Verhalten (z.B. Gang wechseln, Gas geben, bremsen) 
 * Prinzip **Abstraktion**:
-    * Fokus auf das Wichtige (was tut ein Objekt?), Verbergen des Unwichtigen (wie?) &rarr; [Interfaces](#/3/15)
+    * Fokus auf das Wichtige &rarr; was tut ein Objekt?
+    * Verbergen des Unwichtigen (wie?) &rarr; [Interfaces](#/3/15)
 * Prinzip **Kapselung**:
-    * "Zusammenbinden" von Zustand (Daten) und Verhalten  
+    * "Zusammenbinden" von Zustand (Daten) und Verhalten (Funktionen / [Methoden](/java-grundlagen/#/5/2))
 * Prinzip **Vererbung**
     * Abbilden von Ähnlichkeiten und Unterschieden zwischen Objekten
-* Prinzip **Polymorphismus** 
-    * Kommt später noch ...
-<!-- Polymorphismus würd ich hier weglassen und nur auf Overloading und evtl. overriding beschränken -->
 
 ---
 
 ## Klasse & Objekt
-<!-- was ist eine Klasse, was ist ein Objekt, was ist der Sinn von diesem Konzept -->
 
-* _Objekt_: Konkreter Bestandteil eines Systems, den man mit Software beschreiben will
-    * virtuell (z.B. konkretes Dokument auf dem Rechner) oder physisch (konkretes Fahrrad)
-    * hat Zustand, beschrieben durch Eigenschaften und deren Ausprägungen (z.B. ```farbe=blau```)
-    * hat Verhalten, beschrieben durch Methoden (z.B. ```wechseleGang```)
-* _Klasse_: Abstrakte Beschreibung  einer Menge ähnlicher Objekte (d.h. Objekte vom selben Typ)
-    * z.B. die Klasse aller Autos
-    * definiert Eigenschaften und generelles Verhalten, die allen Fahrrädern gemeinsam sind
-* Softwaretechnisch: Klasse erlaubt uns, konkrete Objekte aus Ihr zu erzeugen 
+* _Klasse_: (abstrakte) Bauplan einer Art von Objekten
+  * definiert alle Eigenschaften / Variablen eines späteren Objektes
+  * definiert die Funktion / [Methoden](/java-grundlagen/#/5/2) des Objektes
+* _Objekt_: aus der Klasse erzeugter Speicherblock im Rechner
+    * mit konkreten Belegungen der Variablen
+    * wir haben in einer Variablen eine Referenz auf ein Objekt und können damit arbeiten
+
+&rArr; Softwaretechnisch: Klasse erlaubt uns, konkrete Objekte aus ihr zu erzeugen um ein 
 
 ===
 
-### Beispiel für Klasse
+### Beispiel für Klasse eines Autos
 
-* Hier seht Ihr eine rudimentäre Definition einer Klasse mit Eigenschaften
-  ```java
-  public class CAuto {
-  // Definiere Eigenschaften
-    private String m_farbe;
-    private String m_marke;
-    private int m_kw;       // Leistung in kW
-    private int m_tempo;    // aktuelle Geschwindigkeit
-    private int m_gang;     // aktueller Gang
+Eigenschaften zusammen beschreiben den Zustand eines Autos beschreiben &rarr; sie können unveränderbar (```final```) oder veränderbar sein
 
-    ...
+```java
+public class CAuto {
+  // definiere Eigenschaften
+  
+  private final String m_farbe;
+  private final String m_marke;
+  // Leistung in kW
+  private final int m_kw;
+  // aktuelle Geschwindigkeit - der Wert bei Java mit 0 automatisch belegt
+  private int m_tempo;
+  // aktueller Gang - hier wird ein Wert vorgegeben
+  private int m_gang = 1;
+
+  // definiere Methode, als erstes den Konstruktor, aber die Reihenfolge im Quellcode ist beliebig möglich
+  public CAuto( final String p_farbe, final String p_marke, final int p_leistung)
+  {
+    m_farbe = p_farbe;
+    m_marke = p_marke;
+    m_kw = p_kw;  
   }
-  ```
-* Wir sehen, dass die Eigenschaften zusammen den Zustand eines Fahrrads beschreiben
-* Manche Eigenschaften sind unveränderbar (z.B. Farbe, Marke), andere dynamisch (aktueller Gang, Geschwindigkeit)
+}
+```
 
 ===
 
-### Von der Klasse zum Objekt: Instanziierung
+### Instanziierung - eines realen Autoobjektes
 
-* Instanziierung = Erzeugung eines konkreten Objekts einer Klasse
+* Instanziierung &rarr; Erzeugung eines konkreten Objekts einer Klasse
 * Das konkrete Objekt nennen wir auch *Instanz* der Klasse
 * Dazu wird der ```new``` Operator verwendet. Er initialisiert das Objekt:
     1. allokiert Speicher für neues Objekt (wieviel, hängt von Klasse (Typ) des Objekts ab)
@@ -76,19 +80,18 @@ __Grundlagen Objekt-Orientierter Programmierung__
 ===
 
 ### Konstruktor
-* Beispiel für unsere Klasse ```Auto```
-  ```java
-  public CAuto(String p_farbe, String p_marke, int p_leistung) {
-      m_farbe = p_farbe;
-      m_marke = p_marke;
-      m_kw = p_kw;  // Leistung in kW
-      m_tempo = 0; // Initialzustand: Auto steht
-      m_gang = 1;  //Initialzustand: 1. Gang 
-  }
-  ```
+
 * Konstruktor ist ein Codeblock innerhalb einer Klassendefinition
 * Ähnelt einer Methode, hat aber Namen der Klasse und keinen Rückgabewert 
 * Für eine Klasse kann es mehrere Konstruktoren mit unterschiedlichen Argumenten geben
+
+```java
+public CAuto(String p_farbe, String p_marke, int p_leistung) {
+    m_farbe = p_farbe;
+    m_marke = p_marke;
+    m_kw = p_kw;
+}
+```
 
 ===
 
