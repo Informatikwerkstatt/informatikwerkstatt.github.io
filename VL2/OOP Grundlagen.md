@@ -174,20 +174,20 @@ public class CAuto {
   // --- Konstruktoren ---
   // --- Methoden / Verhalten ---
 
-  public void schalte(int p_gang)
+  public void schalte( final int p_gang )
   {
       m_gang = p_gang % ( m_anzahlGaenge + 1 );
       m_gang = m_gang < 0 ? 0 : m_gang;
   }
 
-  public void beschleunige(int p_inkrement)
+  public void beschleunige( final int p_inkrement )
   {
       m_aktuelleGeschwindigkeit += p_inkrement;
       m_aktuelleGeschwindigkeit = m_aktuelleGeschwindigkeit > m_maximaleGeschwindigkeit ? m_maximaleGeschwindigkeit : m_aktuelleGeschwindigkeit;
 
   }
   
-  public void bremse(final int p_dekrement)
+  public void bremse( final int p_dekrement )
   {
       m_aktuelleGeschwindigkeit -= p_dekrement;
       m_aktuelleGeschwindigkeit = m_aktuelleGeschwindigkeit < 0 ? 0 : m_aktuelleGeschwindigkeit;
