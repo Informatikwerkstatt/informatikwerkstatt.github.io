@@ -1,5 +1,11 @@
 theme: "jekyll-theme-cayman"
-author: "Philipp Kraus"
+
 lang: "de-DE"
+author: "Philipp Kraus"
 title: "Informatikwerkstatt"
 description: "Mobile App Entwicklung mit Android"
+
+license:
+    text: "Creative Commons Lizenzvertrag"
+    link: "http://creativecommons.org/licenses/by-sa/4.0/"
+    image: "https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
