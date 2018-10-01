@@ -36,7 +36,6 @@ Um zu
 
 #### Werdegang
 
-* Abitur 2000
 * Studium Computervisualistik, Universität Koblenz-Landau
 * Ausbildung Fachinformatiker - Anwendungsentwicklung
 * Studium theoretische Informatik, TU-Clausthal im Bereich Machine Learning, Parallel Computing, Nebenfach Mathematik
@@ -117,11 +116,15 @@ Es dürfen gerne auch eigene Vorschläge (mit Rücksprache) umgesetzt werden
 
 ### Beginner - 2D / 3D Spiel
 
-* [Türme von Hanoi](https://de.wikipedia.org/wiki/T%C3%BCrme_von_Hanoi) mit frei wählbarer Scheibenanzahl und Nutzung des Gyrosensors um die Scheiben zu verschieben<br/>
-    ![Türme von Hanoi](https://upload.wikimedia.org/wikipedia/commons/0/07/Tower_of_Hanoi.jpeg#quarter)
-* [Kugellabyrinth](#/5/1), um eine Kugel durch ein beim Start zufällig generiertes Labyrinth mittels Gyrosensoren zu steuer<br/>
-    ![Kugellabyrinth](https://upload.wikimedia.org/wikipedia/commons/4/47/PuzzleOfDexterity.jpg#quarter)
-* [Touch-Gess](#), erraten von Mustern. Geräte koppeln sich per NFC zusammen, ein Spieler zeichnet in einem 25x25 Gitterfeld ein Muster, alle anderen Spieler sehen nur die Punkte, des Musters und müssen nun das Muster erraten. Der Spieler der am schnellsten das Muster errät, gewinnt
+<div class="flex">
+<div><ul><li>[Türme von Hanoi](https://de.wikipedia.org/wiki/T%C3%BCrme_von_Hanoi) mit frei wählbarer Scheibenanzahl und Nutzung der Sensoren um die Scheiben zu verschieben</li><li>[Kugellabyrinth](#/5/1), um eine Kugel durch ein beim Start zufällig generiertes Labyrinth mittels Sensoren zu steuer</li></ul></div>
+<div>
+<div class="flex">
+<div>![Türme von Hanoi](https://upload.wikimedia.org/wikipedia/commons/0/07/Tower_of_Hanoi.jpeg#quarter)</div>
+<div>![Kugellabyrinth](https://upload.wikimedia.org/wikipedia/commons/4/47/PuzzleOfDexterity.jpg#quarter)</div>
+</div>
+</div>
+</div>
 
 ===
 
@@ -134,8 +137,9 @@ Es dürfen gerne auch eigene Vorschläge (mit Rücksprache) umgesetzt werden
 
 ### Profis - GPS mit Backend
 
-* [Scotland Yard](https://de.wikipedia.org/wiki/Scotland_Yard_(Spiel), zu Beginn wird ein Spieler als Mr. X bestimmt und alle paar Minuten wird dessen GPS Position bei den anderen Spielern in einer Map dargestellt. Wenn ein Spieler näher als ein paar Meter an Mr. X heran kommt, wird dieser als gefangen markiert und ein neuer Mr. X wird bestimmt
-* [Who-I-Am](#5/3), auf einer Karte werden alle Positionen der Spieler angezeigt. In jeder Runde kann ich einen Spieler fragen, wer er ist oder wo er ist, der angesprochene Spieler kann entscheiden, ob die Antwort wahrheitsgemäß oder falsch gegeben wird. Bei einer falschen Antwort wird per Zufall eine Position oder Name eines anderen Spielers gewählt. Das Ziel ist es, dass man alle Spieler richtig anhand des Namens und der Position zuordnet
+* [Scotland Yard](https://de.wikipedia.org/wiki/Scotland_Yard_(Spiel), zu Beginn wird ein Spieler als Mr. X (zufällig) bestimmt. Ziel ist es Mr. X zu fangen indem man sich seiner Position nähert, alle paar Minuten werden die Positionen aller Spieler für alle anderen aktualisiert
+* [Who-I-Am](#5/3), auf einer Karte werden die Positionen aller Spieler angezeigt. Es ist aber nicht erkennbar wer welcher Spieler ist. Man kann nun auf eine Spielerposition tippen und kann den Spieler fragen, wer er ist oder man
+tippt in einer Spielerliste den Namen an und lässt sich die Position anzeigen. Der Spieler der gefragt wird, kann entscheiden, ob die Frage wahrheitsgemäß oder falsch beantwortet wird. Ziel ist es alle Positionen mit allen Namen richtig zuzuordnen
 
 ---
 
