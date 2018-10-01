@@ -138,8 +138,7 @@ Es dürfen gerne auch eigene Vorschläge (mit Rücksprache) umgesetzt werden
 ### Profis - GPS mit Backend
 
 * [Scotland Yard](https://de.wikipedia.org/wiki/Scotland_Yard_(Spiel), zu Beginn wird ein Spieler als Mr. X (zufällig) bestimmt. Ziel ist es Mr. X zu fangen indem man sich seiner Position nähert, alle paar Minuten werden die Positionen aller Spieler für alle anderen aktualisiert
-* [Who-I-Am](#5/3), auf einer Karte werden die Positionen aller Spieler angezeigt. Es ist aber nicht erkennbar wer welcher Spieler ist. Man kann nun auf eine Spielerposition tippen und kann den Spieler fragen, wer er ist oder man
-tippt in einer Spielerliste den Namen an und lässt sich die Position anzeigen. Der Spieler der gefragt wird, kann entscheiden, ob die Frage wahrheitsgemäß oder falsch beantwortet wird. Ziel ist es alle Positionen mit allen Namen richtig zuzuordnen
+* [Who-I-Am](#5/3), es gibt eine Karte mit allen Spielerpositionen und eine Liste mit allen Namen. Jeder Spieler kann nun für einen Namen die Position oder zu einer Position den Namen erfragen. Der zu fragende Spielepartner kann entscheiden, ob die Frage wahrheitsgemäß oder falsch (zufällig) beantwortet wird. Ziel ist es alle Positionen und Namen korrekt zuzuordnen. 
 
 ---
 
@@ -206,11 +205,7 @@ aber man muss angeben woher man sich etwas kopiert hat, sonst ist es ein [Plagia
 ## Wo bekomme ich Hilfe?
 
 * Kommillitonen, bei persönlichen Treffen & Diskussion
-* Im Internet
-    * [Stackoverflow](https://stackoverflow.com/) 
-    * [Java Newsgroup](https://groups.google.com/forum/#!forum/comp.lang.java.programmer)
-    * [Android Developers](https://developer.android.com/support)
-    * [Github](https://github.com/) &rarr; [existierende Applikationen](https://github.com/search?q=android) anschauen
+* Im Internet: [Stackoverflow](https://stackoverflow.com/), [Java Newsgroup](https://groups.google.com/forum/#!forum/comp.lang.java.programmer), [Android Developers](https://developer.android.com/support), [Github](https://github.com/) &rarr; [existierende Applikationen](https://github.com/search?q=android) anschauen
 * Für ausländische Studierende
     * [IZC H.E.L.P.](https://www.izc.tu-clausthal.de/sprachenzentrum/deutsch/help/) 
     * [IZC Sprachtandem](https://www.izc.tu-clausthal.de/sprachenzentrum/deutsch/sprachtandem/)
