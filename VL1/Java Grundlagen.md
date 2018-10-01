@@ -773,14 +773,13 @@ public class Endless
 ---
 
 ## Fehler - Exception
-<!-- Was sind Exception, Beispiel am besten Division durch 0 -->
 
 - Fehler in Programmen, z.B.
 	- Division durch 0
 	- Zugriff auf einen nicht existierenden Array-Index
 	- Zugriff auf ein noch nicht erzeugtes Objekt
 - Diese Fehler werden in Java als _Exception_ (Ausnahme) bezeichnet 
-- Sie treten zur Laufzeit ein (deshalb: RuntimeException)
+- Sie treten zur Laufzeit ein (deshalb: [RuntimeException](https://docs.oracle.com/javase/10/docs/api/index.html?java/lang/RuntimeException.html))
 - Unbehandelt führen sie zu  Abstürzen oder unerwünschten Programmzuständen 
 - In Java werden Ausnahmen von der JVM oder von Java-Programmen "geworfen" (throw) 
 

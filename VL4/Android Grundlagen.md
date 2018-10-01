@@ -248,8 +248,6 @@ Log.e( "berechnung", "hier ist eine Division durch null aufgetreten" );
 
 <iframe class="video" src="https://player.vimeo.com/video/287641440" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
 
-
-
 ---
 
 ## Fehlersuche
@@ -262,13 +260,23 @@ Log.e( "berechnung", "hier ist eine Division durch null aufgetreten" );
 
 ---
 
-## @Let's try
+## @Übung
 
 1. Ergänzt die Hellow-World App um den Logger
 2. Probiert die verschiedenen _Log Level_ aus
 3. Überprüft die Log Nachrichten auf dem PC und den Tablet
 
 &rArr; Wozu könnten die verschiedenen Log Levels sinnvoll sein?
+
+===
+
+### Erweiterungen
+
+1. Implementiere weitere Variablen Zuweisungen und kleine Berechnungen
+3. Setze Breakpoints und überprüfe mit Hilfe des Debuggers die Belegung der Variablen
+4. Implementiere einen Fehler, so dass eine [Exception](/java-grundlagen/#/19) geworfen wird und probiere aus, wie man diesen Fehler mittels Brakpoints finden kann
+
+&rArr; Was ist ein sinnvolles Vorgehen, um mit Breakpoints zu arbeiten?
 
 ---
 
