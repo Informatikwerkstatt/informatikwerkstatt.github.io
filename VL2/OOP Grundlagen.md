@@ -63,9 +63,9 @@ public class CAuto {
 }
 ```
 
-===
+---
 
-### Instanziierung - eines realen Autoobjektes
+## Instanziierung - eines realen Autoobjektes
 
 * Instanziierung &rarr; Erzeugung eines konkreten Objekts einer Klasse
 * Das konkrete Objekt nennen wir auch *Instanz* der Klasse
@@ -73,47 +73,49 @@ public class CAuto {
     1. allokiert Speicher für neues Objekt (wieviel, hängt von Klasse (Typ) des Objekts ab)
     2. gibt eine Referenz auf diesen Speicherbereich zurück, die einer Variable zugewiesen werden kann
        ```java
-       CAuto einAuto = new CAuto("rot", "beetle", 100);
+       final CAuto l_auto = new CAuto("rot", "beetle", 100);
        ```
     3. ruft dabei eine spezielle Methode der Klasse auf: Den *Konstruktor*.
 
-===
+---
 
-### Konstruktor
+## Konstruktor
 
 * Konstruktor ist ein Codeblock innerhalb einer Klassendefinition
 * Ähnelt einer Methode, hat aber Namen der Klasse und keinen Rückgabewert 
 * Für eine Klasse kann es mehrere Konstruktoren mit unterschiedlichen Argumenten geben
 
 ```java
-public CAuto(String p_farbe, String p_marke, int p_leistung) {
-    m_farbe = p_farbe;
-    m_marke = p_marke;
-    m_kw = p_kw;
+public CAuto( final String p_farbe, final String p_marke, final int p_leistung)
+{
+  m_farbe = p_farbe;
+  m_marke = p_marke;
+  m_kw = p_kw;  
 }
 ```
 
-===
+---
 
-### Schlüsselwort ```this```
+## Schlüsselwort ```this```
 
-<!-- was ist this, mit einem Schaubild -->
-* Innerhalb Konstruktor oder einer Instanzenmethode:  ```this``` referenziert das Objekt, dessen Konstruktor oder Methode aufgerufen wird.
+* Innerhalb jeder Methode gib es die Variable ```this```
 * Liefert die Referenz auf den Speicherbereich zurück, in dem das Objekt gespeichert ist
 * Nutzung für (1) Auflösung von Namenskonflikten und (2) beim Aufruf von Methoden und Konstruktoren
 * Beispiel 
   ```java
     public Class CAuto{
     ...
-      public CAuto getMe(){
+      public CAuto get(){
         return this;
       }
     }
   ```
 * ... mit Aufruf:
   ```java
-      CAuto l_auto1 = new CAuto("rot", "lada", 60);
-      CAuto l_auto2 = l_meinAuto.getMe();
+      final CAuto l_auto1 = new CAuto("rot", "lada", 60);
+      final CAuto l_auto2 = l_meinAuto.get();
+
+      // l_auto1 und l_auto2 enthalten nun die gleiche Referenz
   ``` 
 * Was passiert hier? 
 
@@ -137,6 +139,7 @@ public CAuto(String p_farbe, String p_marke, int p_leistung) {
 3. Erzeuge in der ```main()``` drei unterschiedliche Instanzen Deiner Klasse
 4. Nutze ```System.out.println()```, um die Instanzen auszugeben. Was siehst Du? Was bedeutet das? 
 5. Prüfe die Identität der beiden oben definierten Variablen ```l_auto1``` und ```l_auto2``` in der ```main()```-Methode! Verwende den Operator ```==```. 
+
 ---
 
 ## Methoden
@@ -152,14 +155,18 @@ public CAuto(String p_farbe, String p_marke, int p_leistung) {
    //  Eigenschaften ...
    //  Konstruktoren ...
    //  Verhalten
-    public void schalte(int p_gang) {
+    public void schalte(int p_gang)
+    {
         m_gang = p_gang;
     }
-    public void beschleunige(int p_inkrement) {
-        m_tempo += p_inkrement; // Gas geben 
+    public void beschleunige(int p_inkrement)
+    {
+        m_tempo += p_inkrement;
     }
-    public void bremse(int p_dekrement) {
-        m_tempo -= p_dekrement; // abbremsen
+    public void bremse(final int p_dekrement)
+    {
+        m_tempo -= p_dekrement;
+        m_tempo = m_tempo < 0 ? 0 : m_tempo;
     }
   }
   ```
@@ -195,13 +202,15 @@ public CAuto(String p_farbe, String p_marke, int p_leistung) {
     * i.d.R. keine Eingabeparameter
 * Beispiel für Klasse ```CAuto```:
   ```java
-  public String getFarbe() {
+  public String getFarbe()
+  {
     return m_farbe;
   }
  
-  public int getKw(){
+  public int getKw()
+  {
     return m_kw;
-  };
+  }
   ``` 
 * Schlüsselwort ```return``` wird verwendet, um den Rückgabewert einer Methode zu spezifizieren.
 ===
@@ -218,7 +227,8 @@ public CAuto(String p_farbe, String p_marke, int p_leistung) {
     m_farbe = p_farbe;
   }
  
-  public void setKw(int p_kw){
+  public void setKw(int p_kw)
+  {
     m_kw = p_kw;
   }
   ``` 
