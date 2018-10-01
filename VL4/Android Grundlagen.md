@@ -208,9 +208,9 @@ Der Prozess wird mit dem _grünen Button_ in der rechten oberen Fensterecke gest
 
 ### Erzeugen & Installation eines APK 
 
-<iframe class="video" src="https://player.vimeo.com/video/292676865" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
+Nachdem das APK erzeugt wurde, wird es auf das Tablet per USB Dateifreigabe kopiert und kann mit dem Android Dateimanager installiert werden
 
-<small>nachdem das APK erzeugt wurde, wird es auf das Tablet per USB Dateifreigabe kopiert und kann mit dem Android Dateimanager installiert werden</small>
+<iframe class="video" src="https://player.vimeo.com/video/292676865" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
 
 ---
 
