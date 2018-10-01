@@ -200,9 +200,13 @@ Der Prozess wird mit dem _grünen Button_ in der rechten oberen Fensterecke gest
 
 ---
 
-### APK - Android Application Package
+## APK - Android Application Package
 
 > Ein [Android Application Package](https://en.wikipedia.org/wiki/Android_application_package), kurz _APK_, ist eine Datei, die das gesamte Programm in Binärform mit allen abhängigen Resourcen enthält. Zusätzlich ist ein APK noch [digital signiert](https://de.wikipedia.org/wiki/Digitale_Signatur), so dass der Urheber validierbar ist
+
+===
+
+### Erzeugen & Installation eines APK 
 
 <iframe class="video" src="https://player.vimeo.com/video/292676865" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
 
