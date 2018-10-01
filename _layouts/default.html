@@ -32,14 +32,19 @@
         <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
       {% endif %}
-      <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Script Informatikwerkstatt</span> von <a xmlns:cc="http://creativecommons.org/ns#" href="https://informatikwerkstatt.github.io" property="cc:attributionName" rel="cc:attributionURL">Philipp Kraus</a> ist lizenziert unter einer <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz</a>.
+     
     </header>
 
     <main id="content" class="main-content" role="main">
       {{ content }}
 
       <footer class="site-footer">        
-        <span class="site-footer-credits"><a href="{{ site.url }}">{{ site.title }}</a> &mdash; {{ site.author }} &mdash; {{ site.time | date: "%d. %b %Y - %R" }}</span>
+        <span class="site-footer-credits">
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
+            <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">{{ site.title | default: site.github.repository_name }} &mdash; {{ site.description | default: site.github.project_tagline }}</span>
+            &mdash; <a xmlns:cc="http://creativecommons.org/ns#" href="{{ site.url }}" property="cc:attributionName" rel="cc:attributionURL">{{ site.author }}</a> 
+            &mdash; {{ site.time | date: "%d. %b %Y - %R" }}
+        </span>
       </footer>
     </section>
     </main>
