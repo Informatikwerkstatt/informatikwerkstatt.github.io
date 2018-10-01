@@ -277,7 +277,7 @@ Log.e( "berechnung", "hier ist eine Division durch null aufgetreten" );
 <li>Je nach Gerät muss ein anderes SDK installiert werden</li>
 <li>Manche Geräte werden nicht von Android Studio erkannt, hierzu ist es hilfreich ```MTP``` oder ```PTP``` auszuprobieren</li></ul></div>
 <div>
-![USB Verbindung](images/usb.jpg#quarter)
+![USB Verbindung](images/usb.jpg#threequarter)
 </div>
 </div>
 
