@@ -250,7 +250,11 @@ Log.e( "berechnung", "hier ist eine Division durch null aufgetreten" );
 
 ---
 
-## Fehlersuche
+## Fehler & Fehlersuche
+
+> Bei der Entwicklung von Software können mehrere Arten von [Fehlern](https://de.wikipedia.org/wiki/Programmfehler) auftreten. Der häufigste ist der [Syntaxfehler](https://de.wikipedia.org/wiki/Syntaxfehler) der durch den [Compiler](/java-grundlagen/#/1/2) gefunden werden kann.
+
+&rArr; Was könnte es noch für Fehler geben und wie könnte man diese finden?
 
 ===
 
