@@ -49,7 +49,7 @@
         </div>
         <div id="footer">
             <a rel="license" href="{{ site.license.link }}"><img alt="{{ site.license.text }}" style="border-width:0" src="{{ site.license.image }}" /></a>
-            <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">{{ site.title | default: site.github.repository_name }} &mdash; {{ site.description | default: site.github.project_tagline }}</span>
+            <a href="{{ site.url }}"><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">{{ site.title | default: site.github.repository_name }} &mdash; {{ site.description | default: site.github.project_tagline }}</span></a>
             &mdash; <a xmlns:cc="http://creativecommons.org/ns#" href="{{ site.url }}" property="cc:attributionName" rel="cc:attributionURL">{{ site.author }}</a> 
             &mdash; {{ site.time | date: "%d. %b %Y - %R" }}
         </div>
