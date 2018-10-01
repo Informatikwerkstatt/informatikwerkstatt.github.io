@@ -120,8 +120,8 @@ Es dürfen gerne auch eigene Vorschläge (mit Rücksprache) umgesetzt werden
 <div><ul><li>[Türme von Hanoi](https://de.wikipedia.org/wiki/T%C3%BCrme_von_Hanoi) mit frei wählbarer Scheibenanzahl und Nutzung der Sensoren um die Scheiben zu verschieben</li><li>[Kugellabyrinth](#/5/1), um eine Kugel durch ein beim Start zufällig generiertes Labyrinth mittels Sensoren zu steuer</li></ul></div>
 <div>
 <div class="flex">
-<div>![Türme von Hanoi](https://upload.wikimedia.org/wikipedia/commons/0/07/Tower_of_Hanoi.jpeg#quarter)</div>
-<div>![Kugellabyrinth](https://upload.wikimedia.org/wikipedia/commons/4/47/PuzzleOfDexterity.jpg#quarter)</div>
+<div>![Türme von Hanoi](https://upload.wikimedia.org/wikipedia/commons/0/07/Tower_of_Hanoi.jpeg#threequarter)</div>
+<div>![Kugellabyrinth](https://upload.wikimedia.org/wikipedia/commons/4/47/PuzzleOfDexterity.jpg#threequarter)</div>
 </div>
 </div>
 </div>
