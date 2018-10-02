@@ -21,6 +21,7 @@ https://developer.android.com/guide/topics/connectivity/nfc/
 
 ## Darf ich? - Berechtigungen
 
+<!-- https://stackoverflow.com/a/50760622/7038833 -->
 
 ---
 
