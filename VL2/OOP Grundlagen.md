@@ -90,22 +90,23 @@ public class CAuto {
     ```
 3. Beim Aufruf von ```new``` wird eine spezielle Methode _der Konstruktor_ aufgerufen
 
-<mall>1: Wieviel Speicher benötigt wird, ist durch die Struktur der Klasse festgelegt</small>
+<small>1: Wieviel Speicher benötigt wird, ist durch die Struktur der Klasse festgelegt</small>
 
 ---
 
 ## Konstruktor
 
-* Konstruktor ist eine spezielle Struktur innerhalb einer Klassendefinition
+* Konstruktoren sind eine spezielle Struktur innerhalb einer Klassendefinition
 * Ähnelt einer Methode, hat aber Namen der Klasse und keinen Rückgabewert 
-* Für eine Klasse kann es mehrere Konstruktoren mit unterschiedlichen Argumenten geben
 
 ```java
+// Default Konstruktor - ohne Parameter
 public CAuto()
 {
   this( "rot", "VW", 5, 250 );
 }
 
+// überladener Konstruktor - hat mehrere Parameter
 public CAuto( final String p_farbe, final String p_marke, final int p_anzahlGaenge, final int p_maximaleGeschwindigkeit)
 {
   m_farbe = p_farbe;
@@ -126,7 +127,8 @@ public CAuto( final String p_farbe, final String p_marke, final int p_anzahlGaen
   ```java
     public Class CAuto{
     ...
-      public CAuto get(){
+      public CAuto get()
+      {
         return this;
       }
     }
@@ -153,7 +155,7 @@ public CAuto( final String p_farbe, final String p_marke, final int p_anzahlGaen
 
 ## @Let's try
 
-1. Erstelle die Klasse ```CAuto``` mit einer ```main()```-Methode (vollständiges Programm)
+1. Erstelle eine Klasse ```CAuto``` mit einer ```main()```-Methode (vollständiges Programm)
 2. Definiere ein paar Eigenschaften für Deine Klasse
 3. Erzeuge in der ```main()``` drei unterschiedliche Instanzen Deiner Klasse
 4. Nutze ```System.out.println()```, um die Instanzen auszugeben. Was siehst Du? Was bedeutet das? 
@@ -197,50 +199,61 @@ public class CAuto {
 ===
 
 ### Aufruf einer Methode
-* Nach Erzeugen einer Instanz von ```CAuto``` können die Methoden des Objektes aufgerufen werden, z.B.
-  ```java
-  CAuto l_meinAuto = new CAuto("gelb", "opel", 140);
-  l_meinAuto.schalte(2); //schalte in den 2. Gang
-  l_meinAuto.beschleunige(5); //beschleunige um 5 Einheiten
-  ```
+
+<span class="rrd" data-rrd="Diagram(NonTerminal('Variable'),Terminal('.'),NonTerminal('Methodenname'),Terminal('('),Optional('Parameter', 'skip'),Terminal(')'))"></span>
+
+Nach Erzeugen einer Instanz von ```CAuto``` können die Methoden des Objektes aufgerufen werden
+
+```java
+CAuto l_meinAuto = new CAuto("gelb", "opel", 140);
+l_meinAuto.schalte(2); //schalte in den 2. Gang
+l_meinAuto.beschleunige(5); //beschleunige um 5 Einheiten
+```
+
+---
+
+### Getter
+
+> _Getter_ sind Methoden, die Daten aus einem Objekt nach außen liefern. Über den Getter können die Daten intern unverändert bleiben und somit sichert der Getter den Zustand des Objektes ab
+
+```java
+public String getFarbe()
+{
+  return m_farbe;
+}
+
+public CAuto get()
+{
+  return this;
+}
+```
+
+&rArr; Was ist bei den beiden Gettern der Unterschied
 
 ===
 
-### Getter-und Setter-Methoden
+### Absicherung mittels Getter
 
-<!-- was ist ein getter, wozu braucht man es -->
-* Spezielle Methoden, die den wohldefinierten Zugriff auf Eigenschaften einer Methode ermöglichen (siehe [Kapselungsprinzip](#/1))
-* Getter-Methoden: Lesezugriff auf eine Eigenschaft, Auslesen ihres Werts
-* Setter-Methoden: Schreibzugriff auf eine Eigenschaft, Prüfen und Ändern ihres Werts 
-* Beides sind normale Methoden, für die aber spezielle Konventionen gelten
-    * Nach außen sichtbar: i.d.R. Modifikator ```public```
-    * Namensgebung (s. nächste Folie)
+> Bei primitven Typen und bei String wird intern eine Kopie der Daten erzeugt und zurückgeliefert, bei allem anderen eine Referenz, die dann veränderbar ist
 
-===
+```java
+public String getFarbe()
+{
+  return m_farbe;
+}
 
-### Getter: Konventionen und Beispiel
+public CAuto get()
+{
+  return new CAuto( m_farbe, m_marke, m_anzahlGaenge, m_maximaleGeschwindigkeit );
+}
+```
 
-* Getter für Eigenschaft ```m_prop``` heißt ```getProp()```
-    * Ergebnistyp ist Typ von ```m_prop```
-    * i.d.R. keine Eingabeparameter
-* Beispiel für Klasse ```CAuto```:
-  ```java
-  public String getFarbe()
-  {
-    return m_farbe;
-  }
- 
-  public int getKw()
-  {
-    return m_kw;
-  }
-  ``` 
-* Schlüsselwort ```return``` wird verwendet, um den Rückgabewert einer Methode zu spezifizieren.
-===
+&rarr; hier wird innerhalb das Getters das Objekt kopiert, damit das Originalobjekt nicht verändert werden kann
 
-### Setter: Konventionen und Beispiel
+---
 
-<!-- was ist ein setter, wozu braucht man es, ebenso wann überprüft man Daten, in dem Objekt gesetzt werden -->
+## Setter: Konventionen und Beispiel
+
 * Setter für Eigenschaft ```m_prop``` heißt ```setProp(.)```
     * Ergebnistyp ```void``` (kein Rückgabewert)
     * i.d.R. ein Eingabeparameter mit dem Typ von ```m_prop```
