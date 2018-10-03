@@ -206,8 +206,12 @@ Nach Erzeugen einer Instanz von ```CAuto``` können die Methoden des Objektes au
 
 ```java
 CAuto l_meinAuto = new CAuto("gelb", "opel", 140);
-l_meinAuto.schalte(2); //schalte in den 2. Gang
-l_meinAuto.beschleunige(5); //beschleunige um 5 Einheiten
+
+//schalte in den 2. Gang
+l_meinAuto.schalte(2);
+
+//beschleunige um 5 Einheiten
+l_meinAuto.beschleunige(5);
 ```
 
 ---
@@ -228,7 +232,7 @@ public CAuto get()
 }
 ```
 
-&rArr; Was ist bei den beiden Gettern der Unterschied
+&rArr; Was ist bei den beiden Gettern der Unterschied?
 
 ===
 
@@ -248,7 +252,7 @@ public CAuto get()
 }
 ```
 
-&rarr; hier wird innerhalb das Getters das Objekt kopiert, damit das Originalobjekt nicht verändert werden kann
+&rarr; hier wird innerhalb das Getters das Objekt kopiert, damit das Originalobjekt nicht verändert werden kann (vergleiche [this](/#/5))
 
 ---
 

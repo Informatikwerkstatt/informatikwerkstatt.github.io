@@ -6,6 +6,8 @@ permalink: /java-grundlagen/
 # Informatikwerkstatt
 __Java Grundlagen__
 
+Note: Hinweis, dass am nächsten Di Vorlesung ist und keine Übung, da der 31.10 Feiertag ist, somit wäre nächste Woche nur Übung am Fr 2.11
+
 ---
 
 ## Sprichst Du Java?

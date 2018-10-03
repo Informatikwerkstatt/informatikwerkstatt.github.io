@@ -84,7 +84,7 @@ Um zu
 |:--------|:------|
 | 23. Okt | [Organisation](/organisation/) |
 | 24. Okt | [Java Grundlagen](/java-grundlagen/) |
-| 31. Okt | [OOP Grundlagen](/oop-grundlagen/) |
+| 30. Okt | [OOP Grundlagen](/oop-grundlagen/) |
 | 07. Nov | [Git & Github Einführung](/git-github/) |
 | 14. Nov | [Android Grundlagen](/android-grundlagen/) |
 | 21. Nov | [User Interface](/user-interface/) |
