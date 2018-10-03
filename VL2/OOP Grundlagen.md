@@ -350,7 +350,8 @@ Note: Wozu kann man das Konzept von "static" sinnvoll verwenden? Problem: Serien
 
 ===
 
-### Auto mit Seriennummer - Klassenvariablen & -methoden
+### Auto mit Seriennummer
+__Klassenvariablen & -methoden__
 
 ```java
 public class CAuto {
@@ -381,8 +382,10 @@ public class CAuto {
     m_anzahlGaenge = p_anzahlGaenge;
     m_maximaleGeschwindigkeit = p_maximaleGeschwindigkeit;
 
+    // Zuweisung der Objekt Seriennummer aus der statischen Variablen
     m_seriennummer = s_anzahl;
-    s_anzahl = s_anzahl + 1;
+    // inkrementieren der statischen Variablen
+    s_anzahl++;
   }
 
   // --- Methoden für die Seriennummer & Anzahl ---
