@@ -88,7 +88,7 @@ public class CAuto {
     ```java
     final CAuto l_auto = new CAuto("rot", "beetle", 5, 250);
     ```
-3. Beim Aufruf von ```new``` wird eine spezielle Methode der [Konstruktor]() aufgerufen
+3. Beim Aufruf von ```new``` wird eine spezielle Methode der [Konstruktor](/#/5) aufgerufen
 
 <small>1: Wieviel Speicher benötigt wird, ist durch die Struktur der Klasse festgelegt</small>
 
@@ -96,7 +96,7 @@ public class CAuto {
 
 ## Eigenschaften
 
-<span class="rrd" data-rrd="Diagram(Optional( Choice(0, Terminal('public'), Terminal('protected'), Terminal('private')), 'skip'),Optional( Terminal('static'), 'skip'), Optional( Terminal('final'), 'skip'), NonTerminal('Datentyp'),NonTerminal('Eigenschaft- / Variablenname'),Optional(Sequence(Terminal('='),Choice(0,Sequence(Terminal('new'),NonTerminal('Klasse')),NonTerminal( "Wert" ))), 'skip'),Terminal(';'))"></span>
+<span class="rrd" data-rrd="Diagram(Optional( Choice(0, Terminal('public'), Terminal('protected'), Terminal('private')), 'skip'),Optional( Terminal('static'), 'skip'), Optional( Terminal('final'), 'skip'), NonTerminal('Datentyp'),NonTerminal('Eigenschaft- / Variablenname'),Optional(Sequence(Terminal('='),Choice(0,Sequence(Terminal('new'),NonTerminal('Klasse')),NonTerminal('Wert'))), 'skip'),Terminal(';'))"></span>
 
 > Eigenschaften / Properties sind Variablen innerhalb einer Klasse, die für jedes Objekt vorhanden sind und individuell für das Objekt benutzt werden können. Sie beschreiben den Zustand des Objektes
 
