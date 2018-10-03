@@ -309,9 +309,9 @@ Mache die Methoden ```schalte()```, ```beschleunige()```, ```bremse(.)``` realis
 * ```protected``` ist nur in abgeleiteten Klassen Sichtbar
 * ```private``` ist nur in der Klasse selbst sichtbar
 
-&rArr; Mit Hilfe der Sichtbarkeiten können die Zugriffe in der Benutzung durch den Entwickler der Klasse beschränkt werden
+&rArr; Über Sichtbarkeiten können Zugriffe in der Benutzung beschränkt werden
 <br/>
-&rArr; Tipp: Zuerst immer alles ```private``` setzen und wenn man während der Entwicklung feststellt, dass es zu restriktiv ist, dann langsam die Sichtbarkeit erhöhen (außnahme Getter und Setter)
+&rArr; Zuerst immer alles ```private``` setzen und wenn es zu restriktiv ist, Schritt für Schritt die Sichtbarkeit erhöhen (außnahme Getter und Setter, die können direkt ```public``` sein)
 
 Note: Erklärung anhand des Büros von Prof Müller: Sitzt Prof Müller während der Sprechstunde mit einem Studi im Büro und hat die Tür zu, dann ist das Gespräch "privat", ist die Tür zum Sekretariat offen, aber zum Gang zu, dann ist das Gespräch "protected", weil Sekretärin mithören kann, aber sie ist ja auch Mitarbeiterin, wenn beide Türen offen sind, dann kann jeder auf dem Gang auch das Gespräch mithören. 
 
