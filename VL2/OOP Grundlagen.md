@@ -305,8 +305,8 @@ Mache die Methoden ```schalte()```, ```beschleunige()```, ```bremse(.)``` realis
 
 > Bei [Methode](/#/7) wurden die drei Schlüsselwört ```public```, ```protected``` und ```private``` gezeigt, mit Hilfe dieser wird die so genannte _Sichtbarkeit_ festgelegt. Sichtbarkeiten können für Klassen, Eigenschaften und Methoden festgelegt werden
 
-* ```public``` ist von überall Sichtbar
-* ```protected``` ist nur in abgeleiteten Klassen Sichtbar
+* ```public``` ist von überall sichtbar
+* ```protected``` ist nur in abgeleiteten Klassen sichtbar
 * ```private``` ist nur in der Klasse selbst sichtbar
 * über Sichtbarkeiten können Zugriffe in der Benutzung beschränkt werden
 * zuerst immer alles ```private``` setzen und wenn es zu restriktiv ist, Schritt für Schritt die Sichtbarkeit erhöhen
