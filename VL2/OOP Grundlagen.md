@@ -177,7 +177,7 @@ public class CAuto {
 
   public void schalte( final int p_gang )
   {
-      m_gang = p_gang % ( m_anzahlGaenge + 1 );
+      m_gang = p_gang % m_anzahlGaenge;
       m_gang = m_gang < 0 ? 0 : m_gang;
   }
 
@@ -275,26 +275,24 @@ public CAuto get()
 
 ## @Let's try
 
-<!-- Beispiel mit Getter / Setter + eine eigene Methode, die irgendetwas mit den Eigenschaften macht -->
-1. Definiere Getter und Setter-Methoden für die Klasse ```CAuto```
-2. Definiere sinnvolle Regeln für mögliche Werte und prüfe deren Einhaltung in der Setter-Methode
-3. Schreibe eine eigene Methode ```leistungPS()```, die die Leistung des Autos in der Maßeinheit ```PS``` zurückgibt.
+1. Erweitere die ```CAuto``` Klasse um die Eigenschaft _Leistung in KW_
+2. Schreibe dafür einen Getter und einen Setter mit entsprechender Überprüfung
+3. Ergänze eine Methode ```double getPS()```, der die KW Zahl in PS umrechnet, die [Formel](https://de.wikipedia.org/wiki/Pferdest%C3%A4rke) lautet: $KW \cdot 1.36 = PS$
 4. __@Profis__: Wie könnte man sinnvoll die möglichen Gangwechsel definieren?
-<!-- einfach: Folge R-1-2-..-N; komplexer: Zustandsautomat -->
 
 ---
 
-## @Home/Übung
-1. Mache die Methoden ```schalte()```, ```beschleunige()```, ```bremse(.)``` realistischer:
-    * Definiere für ```CAuto``` zusätzliche Eigenschaften für die Höchstgeschwindigkeit und die Anzahl der Gänge
-    * Prüfe beim Versuch, die Methoden auszuführen, die Eingaben und fange Fehler ab
-    * __@Profis__: Ergänze die Gangschaltung um Leerlauf und Rückwärtsgang und passe die Methoden entsprechend an. 
-    * __@Profis__: Realisiere einen einfachen Zusammenhang zwischen eingelegtem Gang und ändern der Geschwindigkeit
+## @Home / Übung
+
+Mache die Methoden ```schalte()```, ```beschleunige()```, ```bremse(.)``` realistischer:
+
+1. Ergänze das Schalten um Leerlauf und Rückwärtsgang
+2. Prüfe beim Versuch, die Methoden auszuführen, die Eingaben und fange Fehler ab
+3. __@Profis__: Realisiere einen einfachen Zusammenhang zwischen eingelegtem Gang und ändern der Geschwindigkeit
+
 ---
 
 ## Ich sehe Dich - Sichtbarkeit
-
-<!-- public / private / protected, private & public im Detail, protected muss nur erwähnt werden -->
 
 * Wesentlich für das Prinzip der Kapselung: Sichtbarkeit
     * Kann ich auf den Wert einer Eigenschaft zugreifen oder eine Methode aufrufen?
