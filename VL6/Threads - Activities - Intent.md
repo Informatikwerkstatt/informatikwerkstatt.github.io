@@ -238,6 +238,7 @@ das Gefühl von Echtzeit bekommt.
 
 <!-- https://developer.android.com/guide/background/ -->
 <!-- https://medium.com/elevate-by-lateral-view/background-processing-in-android-575fd4ecf769 -->
+<!-- https://developer.android.com/training/run-background-service/create-service -->
 
 ===
 

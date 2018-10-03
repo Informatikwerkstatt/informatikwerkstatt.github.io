@@ -315,70 +315,92 @@ Note: Erklärung anhand des Büros von Prof Müller: Sitzt Prof Müller während
 
 ---
 
-## Es geht auch ohne Objekt - Static
+## Es geht auch ohne Objekt &rarr; Static
 
-<!-- Was ist static, wann benutzt man es, wofür ist es gut und wann benutzt man es nicht -->
-* Bisher: Klassen als Blaupausen für Objekte 
-* Jedes Objekt hat eigene Eigenschaften (_Instanzenvariablen_)
-* Jedes Objekt hat individuelles Verhalten durch Methoden (_Instanzenmethoden_)
-* Was machen wir mit "globalen" Eigenschaften oder Verhalten, die für alle Objekte gleich sind?
-    * Z.B. jedes Autoobjekt mit eindeutigen Seriennummer ausstatten
-    * Z.B. eine Übersicht über die Anzahl der bisher erzeugten Instanzen der Klasse verwalten
-* Mit dem Schlüsselwort ```static``` können wir sog. [Klassenvariablen_](#/8/1) sowie [_Klassenmethoden_](#/8/2) definieren
+> Mit dem Schlüsselwort ```static``` ist es möglich Methoden oder Eigenschaften ohne Objekt benutzen zu können. Das bekannsteste Beispiel sind die [mathematische Funktionen](https://docs.oracle.com/javase/10/docs/api/java/lang/Math.html) z.B. ```Math.sin(3)```. Statische Methoden sind nützlich, wenn es sich um eine reine funktionale Struktur ohne Variablen etc.
+
+&rArr; Hinweis: Aus _static_ Methoden kann man nur auf _static_ Eigenschaften & Methoden zugreifen, aber aus _nicht static_ Methoden, kann man auf alle zugreifen
 
 ===
 
-### Klassenvariablen
+### Statische Tools Klasse
 
-* Bezeichnen Eigenschaften einer Klasse; nur einmal definiert.
-* Z.B.: Jedesmal, wenn Auto erzeugt wird &rarr; Wert der Klassenvariable um 1 hochzählen
-  ```java
-  public class CAuto {
-    private String m_farbe;
-    private String m_marke;
-    private int m_serienNr; 
+```java
+// final verhindert das Ableiten, denn statische Methoden werden nicht vererbt - sehen wir später
+public final class CTools
+{
+  // ein privater Konstruktor verhindert, dass man ein Objekt der Klasse erzugen kann
+  private CTools()
+  {}
+
+  // die statische Methode kann ohne Objekt aufgerufen werden
+  public static void tue_irgendwas()
+  {
     ...
-    // Klassenvariable
-    private static int s_anzAutos = 0;
-    ... 
-    // Konstruktor
-    public CAuto(String p_farbe, String p_marke, int p_leistung) {
-      m_farbe = p_farbe;
-      m_marke = p_marke;
-     ...
-      m_serienNr = ++s_anzAutos; // Klassenvariable erhöhen, Seriennr speichern
-    }
   }
-  ```
-* Zugriff auf Wert über Setter und Getter:
-  ```java
-  int anzFahrzeuge = CAuto.getAnzAutos();
-  ```
-* Bei nicht privaten Klassenvariablen und Konstanten Direktzugriff möglich
-  ```java
-  int l_aVariable = CAuto.aPublicClassVar;
-  ```
+}
+````
+
+```java
+// Aufruf der Methode
+CTools.tue_irgendwas();
+```
+
+Note: Wozu kann man das Konzept von "static" sinnvoll verwenden? Problem: Seriennummer für die Autoklasse, wie lösen wir das?
 
 ===
 
-### Klassenmethoden
+### Auto mit Seriennummer - Klassenvariablen & -methoden
 
-* ```static``` Methoden werden mit dem Klassennamen aufgerufen
-  ```java
-  ClassName.methodName(args);
-  ```
-* Dürfen keine Instanzenvariablen ihrer Klasse verwenden
-* Anwendungen: 
-    * Zugriff auf ```static``` Eigenschaften (Klassenvariablen) mit Setter- und Getter-Methoden,  siehe [oben](#/8/1)
-      ```java
-       public static int getAnzahlAutos() {
-         return s_anzAutos;
-       }
-      ```
-    * Libraries für generische Berechnungen, z.B. 
-      ```java 
-      int l_max = Math.max(5, 3); // returns 5
-      ```
+```java
+public class CAuto {
+  // statische Eigenschaft für den Zähler der Autos
+  private static int s_anzahl;
+
+  private final String m_farbe;
+  private final String m_marke;
+  private final int m_maximaleGeschwindigkeit;
+  private final int m_anzahlGaenge;
+  // individuelle Seriennummer des Autos
+  private final int m_seriennummer;
+
+  private int m_aktuelleGeschwindigkeit;
+  private int m_gang = 1;
+  
+
+  public CAuto()
+  {
+    // ruft den Konstruktor mit Parametern auf
+    this( "rot", "VW", 5, 250 );
+  }
+
+  public CAuto( final String p_farbe, final String p_marke, final int p_anzahlGaenge, final int p_maximaleGeschwindigkeit)
+  {
+    m_farbe = p_farbe;
+    m_marke = p_marke;
+    m_anzahlGaenge = p_anzahlGaenge;
+    m_maximaleGeschwindigkeit = p_maximaleGeschwindigkeit;
+
+    m_seriennummer = s_anzahl;
+    s_anzahl = s_anzahl + 1;
+  }
+
+  // --- Methoden für die Seriennummer & Anzahl ---
+
+  // statische Methode, um die Anzahl der Autos zu erhalten
+  public static int getAnzahl()
+  {
+    return s_anzahl;
+  }
+
+  // Methode des Autos, um die individuelle Seriennummer zu erhalten
+  public int getSeriennummer()
+  {
+    return m_seriennummer;
+  }
+}
+```
+
 ---
 
 ## @Let's try
