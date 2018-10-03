@@ -633,13 +633,11 @@ Schreibe ein weiteres Programm, in dem Du
 	- ```for each``` 
 	- ```while```
 	- ```do while``` (erzwingt mindestens einen Durchlauf) 
-- Wir erläutern kurz ```foreach``` und ```while```
 
 ===
 
 ### For each
 
-<!-- was ist for-each, wann ist es sinnvoll -->
 - die ```for each```-Schleife haben wir im obigen ```ArrayList```-Beispiel schon kennengelernt
 - Sie dient zum einfachen Durchlaufen listenartiger Datenstrukturen und Arrays
 - Anm.: Das Wort "each" kommt darin nicht vor. Man nennt sie so, um sie von der ```for```-Schleife zu unterscheiden
@@ -651,7 +649,7 @@ for ( final String item : someList )
     System.out.println(item);
 ```
 
-- Anm.:  Da im Rumpf der `for each` Anweisung nur Kopien der Listenelemente verarbeitet werden, kann man damit keine Elemente der Liste ändern oder löschen!
+<small>Da im Rumpf der `for each` Anweisung nur Kopien der Listenelemente verarbeitet werden, kann man damit keine Elemente der Liste ändern oder löschen!</small>
 
 ===
 
@@ -693,8 +691,8 @@ while ( count < 11 );
 
 ## Infinity Loop
 
-- Frage: Wie kann man ein Programm erzeugen, das nie anhält?
-- Antwort: Whileschleife, die nie abbricht
+Wie kann man ein Programm erzeugen, das nie anhält?
+&rarr; Antwort: Whileschleife, die nie abbricht<sup>1</sup>
 
 ```java
 while ( true )
@@ -706,13 +704,13 @@ while ( true )
 - Es gibt Fälle, in denen Endlosschleifen beabsichtigt sind.
 - Manchmal entstehen sie aber unbeabsichtigt - durch Programmierfehler
 
+<small>Das lernt man noch einmal in der _Informatik 3 - theoretische Informatik bei dem Thema [Halteproblem](https://de.wikipedia.org/wiki/Halteproblem)</small>
+
 ===
 
 ### Oh weh, was macht mein Programm??
-
-- Was passiert hier? 
  
-    ```java
+```java
 public class Endless
 {
     public static void  main( String[] p_args )
@@ -735,14 +733,14 @@ public class Endless
 ===
 
 ### Kill it - Der Task-Manager
-<!-- wie killt man ein hängendes Java Programm -->
-- Wenn ein Programm "hängt", ist es manchmal unvermeidbar, den Prozess zu beenden, in dem das Programm läuft
-- Dazu
-	- Rechtsklick auf Datumsanzeige in Windows-Taskleiste
-	- Im Menu Task-Manager auswählen
-	- "Hängenden" Prozess (hier: Windows-Befehlsprozessor) suchen
-	- Rechtsklick  darauf, "Task beenden" auswählen
-	- Fertig!
+
+Wenn ein Programm "hängt", ist es manchmal unvermeidbar, den Prozess zu beenden, in dem das Programm läuft
+
+1. Rechtsklick auf Datumsanzeige in Windows-Taskleiste
+2. Im Menu Task-Manager auswählen
+3. "Hängenden" Prozess (hier: Windows-Befehlsprozessor) suchen
+4. Rechtsklick  darauf, "Task beenden" auswählen
+5. Fertig!
 
 ===
 
@@ -808,7 +806,6 @@ public class Div0Fehler
 
 ### Fang den Fehler - try-catch
 
-<!-- wie behandelt man Exceptions -->
 - Java verwendet das sogenannte Try-Catch Modell zur Ausnahmebehandlung
 - Code, in dem eine Ausnahme auftreten kann, wird in einen "Catch-Block" eingeschlossen.
 - Dahinter wird ein Try-Block angegeben, der bestimmt, was im Falle des Auftretens von Ausnahmen zu tun ist.
@@ -837,9 +834,34 @@ public class Div0Fehler
 ### @Profis: Diskussion
 
 - Ist es sinnvoll, auf Laufzeitfehler wie z.B. Division durch Null mit try-catch zu reagieren?
-<!-- eher sinnvoll für nutzerdefinierte DomänenExceptions, die mögliche aber inkorrekte Situationen (wie z.B. NutzerId unbekannt bei einer Registrierung) abbilden. -->
 - Wie könnte man sinnvoll den Fall abfangen, wenn der Nenner von einem Benutzer eingegeben wird?
-<!-- Sicherstellen, dass das Programm korrekt aufgerufen wird: vor der Ausführung Eingabetypen prüfen -->
+
+Note: 1. Frage: eher sinnvoll für nutzerdefinierte DomänenExceptions, die mögliche aber inkorrekte Situationen (wie z.B. NutzerId unbekannt bei einer Registrierung) abbilden. -- 2. Frage Sicherstellen, dass das Programm korrekt aufgerufen wird: vor der Ausführung Eingabetypen prüfen
+
+---
+
+## Stil ist alles
+
+- Damit Programme für andere lesbar sind, gibt es eine Reihe von Regeln und Konventionen bezüglich der Namensgebung und Groß-Klein-Schreibung
+- In Java sind die in sogenannten Coding Style Guides zusammengefasst
+- Beispiel: [Google Java Coding Style](https://google.github.io/styleguide/javaguide.html)
+- In der Folge listen wir ein paar ausgewählte dieser Konventionen 
+
+===
+
+### Konventionen zur Namensgebung 
+
+- Bei Variablennamen ist Groß-/Kleinschreibung relevant: 
+	- ```text``` und ```Text``` sind unterschiedliche Variable
+- Variablen dürfen nur Zahlen, Buchstaben, oder \_ enthalten
+- Konstanten i.d.R.  in Großbuchstaben, Teilworte mit \_ getrennt, z.B. ```final String APP_NAME = “Meine App“;```
+- Konventionen
+	- Variablen- und Methodennamen beginnen mit Kleinbuchstaben, z.B. ```liste```, ```main``` <!-- $, \_ bei Variablen hab ich hier weggelassen, zuviel Detail -->
+	- Klassennamen beginnen mit Großbuchstaben
+	- Besteht ein Name aus mehreren Worten, werden die Anfangsbuchstaben der inneren Worte  groß geschrieben (= CamelCase), z.B.
+	- Variable: ```highScoreListe```
+	- Methode: ```onCreate()```
+	- Klasse: ```ArrayIndexOutOfBoundsException``
 
 ---
 
@@ -881,28 +903,3 @@ Schreibt ein Programm, dass zwei ganze Zahlen A und B von der Kommandozeile einl
 
 * Prüft Typen und Anzahl der Eingaben (insbesondere Anforderung:  *ganze* Zahl! )
 * Gebt eine entsprechende Fehlermeldungen aus
-
----
-
-## Stil ist alles
-
-- Damit Programme für andere lesbar sind, gibt es eine Reihe von Regeln und Konventionen bezüglich der Namensgebung und Groß-Klein-Schreibung
-- In Java sind die in sogenannten Coding Style Guides zusammengefasst
-- Beispiel: [Google Java Coding Style](https://google.github.io/styleguide/javaguide.html)
-- In der Folge listen wir ein paar ausgewählte dieser Konventionen 
-
-===
-
-### Konventionen zur Namensgebung 
-
-- Bei Variablennamen ist Groß-/Kleinschreibung relevant: 
-	- ```text``` und ```Text``` sind unterschiedliche Variable
-- Variablen dürfen nur Zahlen, Buchstaben, oder \_ enthalten
-- Konstanten i.d.R.  in Großbuchstaben, Teilworte mit \_ getrennt, z.B. ```final String APP_NAME = “Meine App“;```
-- Konventionen
-	- Variablen- und Methodennamen beginnen mit Kleinbuchstaben, z.B. ```liste```, ```main``` <!-- $, \_ bei Variablen hab ich hier weggelassen, zuviel Detail -->
-	- Klassennamen beginnen mit Großbuchstaben
-	- Besteht ein Name aus mehreren Worten, werden die Anfangsbuchstaben der inneren Worte  groß geschrieben (= CamelCase), z.B.
-	- Variable: ```highScoreListe```
-	- Methode: ```onCreate()```
-	- Klasse: ```ArrayIndexOutOfBoundsException``
