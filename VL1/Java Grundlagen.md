@@ -213,21 +213,18 @@ Man könnte doch für alles `double` verwenden ...
 ---
 
 ## Variablen
- 
-- Benannter Bereich im Speicher, dem in einem Programm ein Wert zugewiesen werden kann 
-- Mithilfe der Datentypen können wir dem Java-Compiler genau beschreiben, welches erlaubte Werte einer Variable sind 
-- Wir erweitern unser [HelloWorld-Programm](#/1/1):
+
+> Variablen sind Kartons im Speicher, in die wir etwas rein tun können. Es gibt spezielle Kartons für Schuhe, große Kartons für den TFT Monitor mit Polsterung... Datentypen bestimmen, welche Art des Wertes in die Variable rein kommt
 
 ```java    
 public class CHelloWorld
 {
-    // Variablendeklaration mit Initialisierung
-    private static final String message = "Hello World";
 
     public static void main( String[] p_args )
     {
         // Variable wird Methode als Parameter übergeben
-        System.out.println( message );
+        final String l_message = "Hello World";
+        System.out.println( l_message );
     }
 }
 ```
@@ -236,11 +233,7 @@ public class CHelloWorld
 
 ### Zuweisung
 
-- Variable muss vor Verwendung deklariert werden
-    
-    ```java
-    private static final String message = "Hello World";
-    ```
+<span class="rrd" data-rrd="Diagram( Optional( Terminal('final'), 'skip'), NonTerminal('Datentyp'),NonTerminal('Variablenname'),Optional(Sequence(Terminal('='),Choice(0,Sequence(Terminal('new'),NonTerminal('Klasse')),NonTerminal('Wert'))), 'skip'),Terminal(';'))"></span>
 
 - ```=``` Zuweisungsoperator &rarr; Wert wird einer Variablen zugewiesen
 - ```=``` kopiert Wert auf der rechten Seite in die Variable auf der linken 
