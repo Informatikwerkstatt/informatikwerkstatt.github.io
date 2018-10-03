@@ -611,9 +611,9 @@ __Ein SUV ist ein Auto ist ein Fahrzeug!__
 
 > Schreiben Sie ein Programm, mit dem man Brüche berechnen kann. 
 
-* Brüche sollen als Klassen mit Interfaces konstruiert werden 
+* Brüche sollen als Klassen mit Interfaces konstruiert werden
 * Berechnungsfunktionen als Methoden
-* Die Eingabe erfolgt über die Kommandozeile in der Form 
+* Die Eingabe erfolgt über die Kommandozeile in der Form (siehe [Parameter von Main](/java-grundlagen/#/8/3))
   
   ```shell
   java Bruch 1 / 2 + 3 / 4

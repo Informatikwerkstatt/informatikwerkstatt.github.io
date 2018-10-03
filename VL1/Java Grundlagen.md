@@ -164,14 +164,14 @@ java HelloWorld
 ### Methoden
 
 - Strukturieren den Code einer Klasse
-- Methode beschrieben durch
+- [Methode](/oop-grundlagen/#/8) beschrieben durch
 	- Rückgabewert (```void``` = Methode gibt keinen Wert zurück)
 	- Name (```main```)
 	- Eingabeparameter (optional), beschrieben durch 
 		- Typ, z.B. ```String[]``` bezeichnet Liste (Array)  von Zeichenketten
 		- Name ```p_args``` 
 	- Rumpf mit Anweisungen, in ```{ ... }``` eingefasst
-- Methoden und Klassen können außerdem sog. Modifikatoren haben (z.B. ```public```, oder ```public static``` (siehe [Objekt-Orientierte Programmierung Grundlagen](/oop-grundlagen/))
+- [Methoden](/oop-grundlagen/#/8) und Klassen können außerdem sog. Modifikatoren haben (z.B. ```public```, oder ```public static``` (siehe [Objekt-Orientierte Programmierung Grundlagen](/oop-grundlagen/))
 
 ---
 
@@ -235,21 +235,24 @@ public class CHelloWorld
 
 <span class="rrd" data-rrd="Diagram( Optional( Terminal('final'), 'skip'), NonTerminal('Datentyp'),NonTerminal('Variablenname'),Optional(Sequence(Terminal('='),Choice(0,Sequence(Terminal('new'),NonTerminal('Klasse')),NonTerminal('Wert'))), 'skip'),Terminal(';'))"></span>
 
-- ```=``` Zuweisungsoperator &rarr; Wert wird einer Variablen zugewiesen
-- ```=``` kopiert Wert auf der rechten Seite in die Variable auf der linken 
+- _Variablendeklaration_ ist der Teil _vor_ dem ```=```
+- _Variablenzuweisung_ ist der Teil _hinter_ dem ```=```
+- ```=``` nennt man Zuweisungsoperator, es wird von rechts nach links gelesen, d.h. das was auf der rechten Seite steht, wird in die links stehende Variable geschrieben
 - Modifikator ```final``` ermöglicht Variablen nicht _schreibbar_ zu mache, d.h. der Wert ist unveränderbar
 
 ===
 
-### Verwendung von Variablen bei Methodenaufrufen
+### Verwendung von Variablen bei Aufrufen
 
-- Die Variable `message` kann nach ihrer Instanziierung als Argument (Parameter) beim Aufruf der Methode  `println()` des Objekts `System.out` (siehe [Objekt-Orientierte Programmierung Grundlagen](/oop-grundlagen/)) verwendet werden
-- Der Wert der Variable wird an die Methode übergeben und dort weiterverarbeitet. 
+- Die Variable `l_message` deklariert und direkt zugewiesen
+- Der Wert der Variable wird dann an die [Methode](/oop-grundlagen/#/8) ```println``` übergeben und dort weiterverarbeitet.
 
 ```java	
 public static void main( String[] p_args )
 {
-    System.out.println( message );
+        // Variable wird Methode als Parameter übergeben
+        final String l_message = "Hello World";
+        System.out.println( l_message );
 }
 ```
 
@@ -257,9 +260,9 @@ public static void main( String[] p_args )
 
 ### main-Methode
  
-- Programme wie unser [HelloWorld-Beispiel](#/1/1) , die eine ```main```-Methode haben, sind *ausführbar*.
-- Ausführung: Aufruf / Abarbeitung der ```main```-Methode
-- Das Argument ```java String[] p_args``` der ```main``` Methode kann genutzt werden, um bei dem Aufruf des Programms über die Kommandozeile Parameter an es zu übergeben.
+- Programme wie unser [HelloWorld-Beispiel](#/1/1) , die eine ```main```-[Methode](/oop-grundlagen/#/8) haben, sind *ausführbar*.
+- Ausführung: Aufruf / Abarbeitung, des Inhaltes von ```main```
+- Das Argument ```String[] p_args``` kann genutzt werden, um bei dem Aufruf des Programms über die Kommandozeile Parameter an es zu übergeben.
 
 ---
 
@@ -377,7 +380,7 @@ System.out.println("l = " + l);
     System.out.println( i == j );
     ```
 
-- bei String und anderen Objekten: Test mit Methode `equals()`
+- bei String und anderen Objekten: Test mit [Methode](/oop-grundlagen/#/8) `equals()`
 
     ```java
     // neues String-Objekt wird erzeugt
