@@ -218,7 +218,7 @@ l_meinAuto.beschleunige(5);
 
 ### Getter
 
-> _Getter_ sind Methoden, die Daten aus einem Objekt nach außen liefern. Über den Getter können die Daten intern unverändert bleiben und somit sichert der Getter den Zustand des Objektes ab
+> _Getter_ sind Methoden, meist mit ```get``` im Namen, die Daten aus einem Objekt nach außen liefern. Über den Getter können die Daten intern unverändert bleiben und somit sichert der Getter den Zustand des Objektes ab
 
 ```java
 public String getFarbe()
@@ -256,24 +256,20 @@ public CAuto get()
 
 ---
 
-## Setter: Konventionen und Beispiel
+## Setter
 
-* Setter für Eigenschaft ```m_prop``` heißt ```setProp(.)```
-    * Ergebnistyp ```void``` (kein Rückgabewert)
-    * i.d.R. ein Eingabeparameter mit dem Typ von ```m_prop```
-* Beispiel: Zwei Setter unserer Klasse ```CAuto```:
-  ```java
-  public void setFarbe(String p_farbe) {
-    m_farbe = p_farbe;
-  }
- 
-  public void setKw(int p_kw)
+> _Setter_ sind ebenfalls Methoden, meist mit ```set``` im Namen, die das gegenteil des Getters sind und Werte setzen. Die Werte, die über einen Setter gesetzt werden können, sollten __immer__ geprüft werden, damit das Objekt in einem konsistenten Zustand bleibt. Wenn ein fehlerhafter Wert übergeben wird kann mittels Werfen einen [Exception](/java-grundlagen/#/19) eine Fehlerbehandlung veranlasst werden
+
+```java
+  public void schalte( final int p_gang )
   {
-    m_kw = p_kw;
+      // Wert setzen
+      m_gang = p_gang % ( m_anzahlGaenge + 1 );
+
+      // falls der Wert falsch ist, wird er strikt richtig gemacht anstatt eine Exception zu werfen
+      m_gang = m_gang < 0 ? 0 : m_gang;
   }
-  ``` 
-* In Settern werden häufig Eingabeparameter geprüft (z.B. ```!= null```, eingeschränkte Wertebereiche)
-* Fehler abfangen z.B. durch  "Werfen" von [Exceptions](https://informatikwerkstatt.github.io/java-grundlagen/#/19)!
+```
 
 ---
 
