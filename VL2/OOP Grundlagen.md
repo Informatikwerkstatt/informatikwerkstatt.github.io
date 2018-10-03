@@ -301,18 +301,6 @@ Mache die Methoden ```schalte()```, ```beschleunige()```, ```bremse(.)``` realis
 
 ---
 
-
-
-
-
-
-
-
-
-
-
-
-
 ## Ich sehe Dich - Sichtbarkeit
 
 > Bei [Methode](/#/7) wurden die drei Schlüsselwört ```public```, ```protected``` und ```private``` gezeigt, mit Hilfe dieser wird die so genannte _Sichtbarkeit_ festgelegt. Sichtbarkeiten können für Klassen, Eigenschaften und Methoden festgelegt werden
@@ -321,13 +309,10 @@ Mache die Methoden ```schalte()```, ```beschleunige()```, ```bremse(.)``` realis
 * ```protected``` ist nur in abgeleiteten Klassen Sichtbar
 * ```private``` ist nur in der Klasse selbst sichtbar
 
-* Wesentlich für das Prinzip der Kapselung: Sichtbarkeit
-    * Kann ich auf den Wert einer Eigenschaft zugreifen oder eine Methode aufrufen?
-* Die Sichtbarkeit von Eigenschaften und Methoden kann vom Programmierer durch einen Modifikator eingestellt werden
-    * ```private```: nur innerhalb der Klasse sichtbar
-    * ```public```: auch für beliebige andere Klassen / Objekte sichtbar
-    * ```protected```: innerhalb der Klasse sowie für von der Klasse abgeleitete Subklassen sichtbar, siehe [Vererbung](#/10)
-* Sichtbarmachen von Eigenschaften nach Außen nur durch Getter-/Setter-Methoden!!
+&rArr; Mit Hilfe der Sichtbarkeiten können die Zugriffe in der Benutzung durch den Entwickler der Klasse beschränkt werden
+&rArr; Tipp: Zuerst immer alles ```private``` setzen und wenn man während der Entwicklung feststellt, dass es zu restriktiv ist, dann langsam die Sichtbarkeit erhöhen (außnahme Getter und Setter)
+
+Note: Erklärung anhand des Büros von Prof Müller: Sitzt Prof Müller während der Sprechstunde mit einem Studi im Büro und hat die Tür zu, dann ist das Gespräch "privat", ist die Tür zum Sekretariat offen, aber zum Gang zu, dann ist das Gespräch "protected", weil Sekretärin mithören kann, aber sie ist ja auch Mitarbeiterin, wenn beide Türen offen sind, dann kann jeder auf dem Gang auch das Gespräch mithören. 
 
 ---
 
@@ -399,7 +384,6 @@ Mache die Methoden ```schalte()```, ```beschleunige()```, ```bremse(.)``` realis
 
 ## @Let's try
 
-<!-- static mit private / public, Methoden mit public / private -->
 1. Ergänze die Definition der Klasse ```CAuto``` um die obigen Klassenvariablen
 2. Füge Setter- und Getter-Methoden hinzu
 3. Testet den Zugriff auf die Methoden aus dem ```main()``` Programm
@@ -411,7 +395,7 @@ Mache die Methoden ```schalte()```, ```beschleunige()```, ```bremse(.)``` realis
 
 ---
 
-## Generalisierung, Spezialisierung, Vererbung:
+## Generalisierung, Spezialisierung, Vererbung
 __Ein SUV ist ein Auto ist ein Fahrzeug!__
 
 <!-- was ist Vererbung allgemein mit Beispiel, wofür verwendet man es, Beispiel mit unterschiedlich großen Boxen, abstrakte Klassen weg lassen -->
@@ -429,6 +413,7 @@ __Ein SUV ist ein Auto ist ein Fahrzeug!__
 ===
 
 ### Vererbungshierarchie
+
 * In Java kann man Unterklassen von Oberklassen _ableiten_ 
 * Unterklassen erbt von der Oberklasse deren Eigenschaften und Methoden
 * Durch Vererbung entsteht eine Vererbungshierarchie
@@ -440,7 +425,7 @@ __Ein SUV ist ein Auto ist ein Fahrzeug!__
 ===
 
 ### Beispiel
-<!-- enum wäre besser für die Antriebsarten, aber hier  zu kompliziert,  deshalb für die PRofis als Aufgabe -->
+
 ![Antriebsmodi](images/2_awd.png)
 * Neue Klasse SUV mit unterschiedlichen Antriebsmodi (Frontantrieb, Allrad, Allrad mit Differentialsperre) 
 * Wir leiten jetzt die Unterklassse ```CSuv``` von ```CAuto``` ab. 
@@ -480,6 +465,7 @@ __Ein SUV ist ein Auto ist ein Fahrzeug!__
 --- 
 
 ## Let's try / @Home
+
 1. Erstelle die Definition der og. Klasse ```CSuv``` und compiliere sie.
 2. Erzeuge eine Instanz von ```CSuv``` und schreibe in der ```main()```-Methode Anweisungen zum Test des Zugriffs auf die Eigenschaften (Getter und Setter) und Methoden  
 3. Worauf muss man bei der Setter-Methode ```setFahrModus(.)``` achten? Erweitere die Implementierung der Methode entsprechend!
@@ -491,7 +477,7 @@ __Ein SUV ist ein Auto ist ein Fahrzeug!__
 ---
 
 ## Interface
-<!-- was sind Interfaces, wozu sind sie gut, wofür braucht man sie -->
+
 * Fasst eine Gruppe von verwandten Methoden zusammen, die ein Objekt seiner Umwelt bereitstellt
 * Beschreibt nur die Signatur (Schnittstelle)
     * Welche Methode? Welche Parameter? Welcher Rückgabewert?
@@ -548,7 +534,8 @@ __Ein SUV ist ein Auto ist ein Fahrzeug!__
 ---
 
 ## Überladen
-<!-- was heisst überladen, wofür braucht man es und welche Einschränkungen gibt es beim Überladen -->
+
+
 * (engl. _Overloading_): Unterschiedliche Methoden oder Konstruktoren einer Klasse mit selbem Namen, aber unterschiedlichen Parametern (Signatur)
 * Beispiel: Überladen der Methode ```abs(.)``` der Klasse ```java.lang.Math```:
   ```java
@@ -563,6 +550,7 @@ __Ein SUV ist ein Auto ist ein Fahrzeug!__
 ===
 
  ### Überladen von Konstruktoren
+
  * Klassen können mehrere Konstruktoren mit unterschiedlichen Eingabeargumenten besitzen
  * Häufig: Default-Konstruktor ohne Argumente
      * Wird automatisch vom Compiler eingefügt, wenn man den Konstruktor vergisst
@@ -583,6 +571,7 @@ __Ein SUV ist ein Auto ist ein Fahrzeug!__
 ===
 
 ### Überschreiben von Methoden
+
 * (engl. Overriding) Zwei Methoden mit gleichem Namen und Parametern, aber unterschiedlichem Verhalten.
 * Entsteht, wenn abgeleitete Klasse ein Verhalten ihrer Oberklasse verändert.
 * z.B. Klasse ```CAuto``` hat eine Unterklasse ```CAutomatikAuto```
