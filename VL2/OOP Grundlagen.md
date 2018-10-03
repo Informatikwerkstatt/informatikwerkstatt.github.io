@@ -79,7 +79,26 @@ public class CAuto {
 
 ---
 
+## Instanziierung - Realen Autoobjektes
+
+> Instanziierung &rarr; Erzeugung eines Objekts (Instanz) im Speicher aus einer Klasse
+
+1. allokieren des Speichers<sup>1</sup> für ein Objekt mit dem ```new```-Operator
+2. ```new``` liefert eine Referenz auf die Speicherstelle, die in einer Variablen abgelegt werden
+    ```java
+    final CAuto l_auto = new CAuto("rot", "beetle", 5, 250);
+    ```
+3. Beim Aufruf von ```new``` wird eine spezielle Methode der [Konstruktor]() aufgerufen
+
+<small>1: Wieviel Speicher benötigt wird, ist durch die Struktur der Klasse festgelegt</small>
+
+---
+
 ## Eigenschaften
+
+<span class="rrd" data-rrd="Diagram(Optional( Choice(0, Terminal('public'), Terminal('protected'), Terminal('private')), 'skip'),Optional( Terminal('static'), 'skip'), Optional( Terminal('final'), 'skip'), NonTerminal('Datentyp'),NonTerminal('Eigenschaft- / Variablenname'),Optional(Sequence(Terminal('='),Choice(0,Sequence(Terminal('new'),NonTerminal('Klasse')),NonTerminal( "Wert" ))), 'skip'),Terminal(';'))"></span>
+
+> Eigenschaften / Properties sind Variablen innerhalb einer Klasse, die für jedes Objekt vorhanden sind und individuell für das Objekt benutzt werden können. Sie beschreiben den Zustand des Objektes
 
 ---
 
@@ -92,6 +111,7 @@ public class CAuto {
 // Default Konstruktor - ohne Parameter
 public CAuto()
 {
+  // ruft den Konstruktor mit mehreren Parametern auf
   this( "rot", "VW", 5, 250 );
 }
 
@@ -104,21 +124,6 @@ public CAuto( final String p_farbe, final String p_marke, final int p_anzahlGaen
   m_maximaleGeschwindigkeit = p_maximaleGeschwindigkeit;
 }
 ```
-
----
-
-## Instanziierung - Realen Autoobjektes
-
-> Instanziierung &rarr; Erzeugung eines Objekts (Instanz) im Speicher aus einer Klasse
-
-1. allokieren des Speichers<sup>1</sup> für ein Objekt mit dem ```new```-Operator
-2. ```new``` liefert eine Referenz auf die Speicherstelle, die in einer Variablen abgelegt werden
-    ```java
-    final CAuto l_auto = new CAuto("rot", "beetle", 5, 250);
-    ```
-3. Beim Aufruf von ```new``` wird eine spezielle Methode _der Konstruktor_ aufgerufen
-
-<small>1: Wieviel Speicher benötigt wird, ist durch die Struktur der Klasse festgelegt</small>
 
 ---
 
