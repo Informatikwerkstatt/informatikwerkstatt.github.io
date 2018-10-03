@@ -79,23 +79,24 @@ public class CAuto {
 
 ---
 
-## Instanziierung - eines realen Autoobjektes
+## Instanziierung - Realen Autoobjektes
 
-* Instanziierung &rarr; Erzeugung eines konkreten Objekts einer Klasse
-* Das konkrete Objekt nennen wir auch *Instanz* der Klasse
-* Dazu wird der ```new``` Operator verwendet. Er initialisiert das Objekt:
-    1. allokiert Speicher für neues Objekt (wieviel, hängt von Klasse (Typ) des Objekts ab)
-    2. gibt eine Referenz auf diesen Speicherbereich zurück, die einer Variable zugewiesen werden kann
-       ```java
-       final CAuto l_auto = new CAuto("rot", "beetle", 5, 250);
-       ```
-    3. ruft dabei eine spezielle Methode der Klasse auf: Den *Konstruktor*.
+> Instanziierung &rarr; Erzeugung eines Objekts (Instanz) im Speicher aus einer Klasse
+
+1. allokieren des Speichers<sup>1</sup> für ein Objekt mit dem ```new```-Operator
+2. ```new``` liefert eine Referenz auf die Speicherstelle, die in einer Variablen abgelegt werden
+    ```java
+    final CAuto l_auto = new CAuto("rot", "beetle", 5, 250);
+    ```
+3. Beim Aufruf von ```new``` wird eine spezielle Methode _der Konstruktor_ aufgerufen
+
+<mall>1: Wieviel Speicher benötigt wird, ist durch die Struktur der Klasse festgelegt</small>
 
 ---
 
 ## Konstruktor
 
-* Konstruktor ist ein Codeblock innerhalb einer Klassendefinition
+* Konstruktor ist eine spezielle Struktur innerhalb einer Klassendefinition
 * Ähnelt einer Methode, hat aber Namen der Klasse und keinen Rückgabewert 
 * Für eine Klasse kann es mehrere Konstruktoren mit unterschiedlichen Argumenten geben
 
@@ -152,9 +153,7 @@ public CAuto( final String p_farbe, final String p_marke, final int p_anzahlGaen
 
 ## @Let's try
 
-<!-- Beispiel Klasse erstellen mit ein paar Eigenschaften und aus der main Instantiieren -->
-
-1. Erstelle die Klasse ```CAuto``` mit einer ```main()```-Methode
+1. Erstelle die Klasse ```CAuto``` mit einer ```main()```-Methode (vollständiges Programm)
 2. Definiere ein paar Eigenschaften für Deine Klasse
 3. Erzeuge in der ```main()``` drei unterschiedliche Instanzen Deiner Klasse
 4. Nutze ```System.out.println()```, um die Instanzen auszugeben. Was siehst Du? Was bedeutet das? 

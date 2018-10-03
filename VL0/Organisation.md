@@ -169,9 +169,6 @@ Es dürfen gerne auch eigene Vorschläge (mit Rücksprache) umgesetzt werden
 ### Resultat
 
 <iframe class="video" src="https://www.youtube.com/embed/Bg21M2zwG9Q" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjEyOTk1MTFdfQ==
--->
 
 ---
 
