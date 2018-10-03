@@ -79,18 +79,7 @@ public class CAuto {
 
 ---
 
-## Instanziierung - Realen Autoobjektes
-
-> Instanziierung &rarr; Erzeugung eines Objekts (Instanz) im Speicher aus einer Klasse
-
-1. allokieren des Speichers<sup>1</sup> für ein Objekt mit dem ```new```-Operator
-2. ```new``` liefert eine Referenz auf die Speicherstelle, die in einer Variablen abgelegt werden
-    ```java
-    final CAuto l_auto = new CAuto("rot", "beetle", 5, 250);
-    ```
-3. Beim Aufruf von ```new``` wird eine spezielle Methode _der Konstruktor_ aufgerufen
-
-<small>1: Wieviel Speicher benötigt wird, ist durch die Struktur der Klasse festgelegt</small>
+## Eigenschaften
 
 ---
 
@@ -115,6 +104,21 @@ public CAuto( final String p_farbe, final String p_marke, final int p_anzahlGaen
   m_maximaleGeschwindigkeit = p_maximaleGeschwindigkeit;
 }
 ```
+
+---
+
+## Instanziierung - Realen Autoobjektes
+
+> Instanziierung &rarr; Erzeugung eines Objekts (Instanz) im Speicher aus einer Klasse
+
+1. allokieren des Speichers<sup>1</sup> für ein Objekt mit dem ```new```-Operator
+2. ```new``` liefert eine Referenz auf die Speicherstelle, die in einer Variablen abgelegt werden
+    ```java
+    final CAuto l_auto = new CAuto("rot", "beetle", 5, 250);
+    ```
+3. Beim Aufruf von ```new``` wird eine spezielle Methode _der Konstruktor_ aufgerufen
+
+<small>1: Wieviel Speicher benötigt wird, ist durch die Struktur der Klasse festgelegt</small>
 
 ---
 
@@ -292,7 +296,25 @@ Mache die Methoden ```schalte()```, ```beschleunige()```, ```bremse(.)``` realis
 
 ---
 
+
+
+
+
+
+
+
+
+
+
+
+
 ## Ich sehe Dich - Sichtbarkeit
+
+> Bei [Methode](/#/7) wurden die drei Schlüsselwört ```public```, ```protected``` und ```private``` gezeigt, mit Hilfe dieser wird die so genannte _Sichtbarkeit_ festgelegt. Sichtbarkeiten können für Klassen, Eigenschaften und Methoden festgelegt werden
+
+* ```public``` &rarr; ist von überall Sichtbar
+* ```protected``` ist nur in abgeleiteten Klassen Sichtbar
+* ```private``` ist nur in der Klasse selbst sichtbar
 
 * Wesentlich für das Prinzip der Kapselung: Sichtbarkeit
     * Kann ich auf den Wert einer Eigenschaft zugreifen oder eine Methode aufrufen?
@@ -313,11 +335,12 @@ Mache die Methoden ```schalte()```, ```beschleunige()```, ```bremse(.)``` realis
 * Was machen wir mit "globalen" Eigenschaften oder Verhalten, die für alle Objekte gleich sind?
     * Z.B. jedes Autoobjekt mit eindeutigen Seriennummer ausstatten
     * Z.B. eine Übersicht über die Anzahl der bisher erzeugten Instanzen der Klasse verwalten
-* Mit dem Schlüsselwort ```static``` können wir sog. [_Klassenvariablen_](#/8/1) sowie [_Klassenmethoden_](#/8/2) definieren
+* Mit dem Schlüsselwort ```static``` können wir sog. [Klassenvariablen_](#/8/1) sowie [_Klassenmethoden_](#/8/2) definieren
 
 ===
 
 ### Klassenvariablen
+
 * Bezeichnen Eigenschaften einer Klasse; nur einmal definiert.
 * Z.B.: Jedesmal, wenn Auto erzeugt wird &rarr; Wert der Klassenvariable um 1 hochzählen
   ```java
