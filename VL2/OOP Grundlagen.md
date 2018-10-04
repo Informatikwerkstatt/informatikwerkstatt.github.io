@@ -134,8 +134,9 @@ public CAuto( final String p_farbe, final String p_marke, final int p_anzahlGaen
 * Nutzung für (1) Auflösung von Namenskonflikten und (2) beim Aufruf von Methoden und Konstruktoren
 * Beispiel 
   ```java
-    public Class CAuto{
-    ...
+    public Class CAuto
+    {
+      ...
       public CAuto get()
       {
         return this;
@@ -179,7 +180,8 @@ public CAuto( final String p_farbe, final String p_marke, final int p_anzahlGaen
 Auto-Klasse um Methoden "Schalten", "Gas geben" und "Bremsen" ergänzen
 
 ```java
-public class CAuto {
+public class CAuto
+{
   // --- Eigenschaften ---
   // --- Konstruktoren ---
   // --- Methoden / Verhalten ---
@@ -194,7 +196,6 @@ public class CAuto {
   {
       m_aktuelleGeschwindigkeit += p_inkrement;
       m_aktuelleGeschwindigkeit = m_aktuelleGeschwindigkeit > m_maximaleGeschwindigkeit ? m_maximaleGeschwindigkeit : m_aktuelleGeschwindigkeit;
-
   }
   
   public void bremse( final int p_dekrement )
@@ -329,7 +330,8 @@ Note: Wozu kann man das Konzept von "static" sinnvoll verwenden? Problem: Serien
 __Klassenvariablen & -methoden__
 
 ```java
-public class CAuto {
+public class CAuto
+{
   // statische Eigenschaft für den Zähler der Autos
   private static int s_anzahl;
 
@@ -486,7 +488,48 @@ public interface IFahrzeug
 }
 ```
 
+===
+
+### Implementierung des Interface der Auto-Klasse
+
+```java
+public class CAuto implements IFahrzeug
+{
+  // --- Eigenschaften ---
+  // --- Konstruktoren ---
+  // --- Methoden / Verhalten ---
+
+  @Override
+  public void schalte( final int p_gang )
+  {
+      m_gang = p_gang % m_anzahlGaenge;
+      m_gang = m_gang < 0 ? 0 : m_gang;
+  }
+
+  @Override
+  public void beschleunige( final int p_inkrement )
+  {
+      m_aktuelleGeschwindigkeit += p_inkrement;
+      m_aktuelleGeschwindigkeit = m_aktuelleGeschwindigkeit > m_maximaleGeschwindigkeit ? m_maximaleGeschwindigkeit : m_aktuelleGeschwindigkeit;
+  }
+  
+  @Override
+  public void bremse( final int p_dekrement )
+  {
+      m_aktuelleGeschwindigkeit -= p_dekrement;
+      m_aktuelleGeschwindigkeit = m_aktuelleGeschwindigkeit < 0 ? 0 : m_aktuelleGeschwindigkeit;
+  }
+}
+
+```
+
 --- 
+
+
+
+
+
+
 
 ## Let's try / @Home
 
