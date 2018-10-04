@@ -551,6 +551,7 @@ public class CAuto implements IFahrzeug
 1. Ergänze nun die Klassen für LKW und Motorrad mit passenden Methoden (Motorrad und LKW müssen je eine individuelle Eigenschaft mit Getter ggf mit Setter erhalten)
 2. Ergänze nun das Hauptprogramm um diese beiden neuen Objekte und führe es aus
 3. __@Profis__ Wie könnte man das [Diagramm](/#/15/2) sinnvoll mit Interfaces ergänzen?
+4. __@Profis__ Ergänze die SUV Klasse um verschiedene Farmodi (Outdoor, Offroad, Urban) mit Hilfe eines [Enums](https://www.baeldung.com/a-guide-to-java-enums)
 
 &rArr; Was stellst Du für diese beiden neuen Objekte fest?
 
