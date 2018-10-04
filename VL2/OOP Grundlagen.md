@@ -466,7 +466,7 @@ public class CSUV extends CAuto
 
 ### Vererbung bei Klassen
 
-<span class="rrd" data-rrd="Diagram(Terminal('public'), Terminal('class'), NonTerminal('Klassenname der abgeleiteten Klasse'), Terminal('extends'), NonTerminal('Oberklasse'))"></span>
+<span class="rrd" data-rrd="Diagram(Terminal('public'), Terminal('class'), NonTerminal('Klassenname der abgeleiteten Klasse'), Optional(Sequence( Terminal('extends'), NonTerminal('Oberklasse')), 'skip'))"></span>
 
 * um von einer Klasse zu erben / abzuleiten, wird das Schlüssewort ```extends``` verwendet
 * ist eine Klasse mit ```public final class``` deklariert, kann diese nicht abgeleitet werden
@@ -475,7 +475,7 @@ public class CSUV extends CAuto
 
 ===
 
-### Vererbung mit Interfaces
+### Interfaces
 
 > Interfaces legen nur die public Methoden-Definition fest, die in einer Klasse enthalten sein müssen. Die konkrete Implementierung liegt dann in der Klasse, Interfaces können nicht instantiiert werden
 
@@ -490,7 +490,7 @@ public interface IFahrzeug
 
 ===
 
-### Implementierung des Interface der Auto-Klasse
+### Implementierung des Fahrzeug-Interface
 
 ```java
 public class CAuto implements IFahrzeug
@@ -520,8 +520,18 @@ public class CAuto implements IFahrzeug
       m_aktuelleGeschwindigkeit = m_aktuelleGeschwindigkeit < 0 ? 0 : m_aktuelleGeschwindigkeit;
   }
 }
-
 ```
+
+===
+
+### Vererbung mit Interfaces
+
+<span class="rrd" data-rrd="Diagram(Terminal('public'), Terminal('class'), NonTerminal('Klassenname der abgeleiteten Klasse'), Optional(Sequence( Terminal('extends'), NonTerminal('Oberklasse')), 'skip'), Optional( Sequence(Terminal('implements'), OneOrMore( NonTerminal('Interface-Klasse'), Terminal(','))), 'skip'))"></span>
+
+* Interface werden mit ```implements``` vererbt
+* eine Klasse kann von mehreren Interfaces erben
+* Interface-Methoden _müssen_ implementiert werden
+* Implementierte Interface Methoden müssen mit der Annotation ```@Override``` versehen werden
 
 --- 
 
