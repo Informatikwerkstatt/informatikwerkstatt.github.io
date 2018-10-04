@@ -423,28 +423,40 @@ public class CAuto {
 * um Struktur in die Software zu bekommen &rarr; um ein möglichst gutes Modell des Problems zu erhalten
 * um saubere Trennung von Elementen anhand ihrer Funktionalität & Eigenschaften zu erhalten
 
+---
+
+## Vererbung
+
+> Vererbung ist die Möglichkeit in OPP Klassen miteinander in Beziehung zu setzen. Man nutzt die _Ähnlichkeit_ zwischen Klassen und gruppiert sie, dass man eben entweder _generalisiert_ oder _spezialisiert_. Man spricht bei der _Spezialisierung_ von _ableiten_, was einer _ist-ein_ Beziehung entspricht
+
 ===
 
-### Beispiel
+### Ein SUV ist ein Auto
 
-![Antriebsmodi](images/2_awd.png)
-* Neue Klasse SUV mit unterschiedlichen Antriebsmodi (Frontantrieb, Allrad, Allrad mit Differentialsperre) 
-* Wir leiten jetzt die Unterklassse ```CSuv``` von ```CAuto``` ab. 
-* Definition der Vererbungsbeziehung: Schlüsselwort ```extends```
-  ```java
-  public class CSuv extends CAuto {
-      // Instanzenvariable von Auto müssen nicht nochmal definiert werden!
-      private int m_fahrModus; //0=2WD, 1=4WD, 2=LOCK 
+```java
+public class CSUV extends CAuto
+{
+  private final m_offroadFahrbar;
 
-      public int getFahrModus(){
-          return m_fahrModus;
-      }
-
-      public void setFahrModus( int p_modus ){
-        m_fahrmodus = p_modus;
-      }
+  public CSUV()
+  {
+    this( "rot", "VW", 5, 250, false );
   }
-  ```
+
+  public CSUV( final boolean p_offroadFahrbar )
+  {
+    this( "rot", "VW", 5, 250, p_offroadFahrbar );
+  }
+
+  public CAuto( final String p_farbe, final String p_marke, final int p_anzahlGaenge, final int p_maximaleGeschwindigkeit, final boolean p_offroadFahrbar )
+  {
+    // Aufruf des Konstruktur von CAuto
+    super( p_farbe, p_marke, p_anzahlGaenge, p_maximaleGeschwindigkeit );
+    m_offroadFahrbar = _p_offroadFahrbar;
+
+  }
+}
+```
 
 ===
 
