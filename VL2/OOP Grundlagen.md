@@ -475,7 +475,7 @@ public class CSUV extends CAuto
 
 ### Vererbung mit Interfaces
 
-> Interfaces sind eine spezielle Art von Klassen, die nur die Methoden-Deklarationen enthalten. Das Interface legt fest, welche public Methoden vorhanden sein müssen, die konkrete Implementierung liegt dann in der Klasse, Interfaces können nicht mit new instantiiert werden
+> Interfaces legen nur die public Methoden-Definition fest, die in einer Klasse enthalten sein müssen. Die konkrete Implementierung liegt dann in der Klasse, Interfaces können nicht instantiiert werden
 
 ```java
 public interface IFahrzeug
