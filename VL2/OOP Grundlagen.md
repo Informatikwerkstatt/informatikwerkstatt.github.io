@@ -535,74 +535,28 @@ public class CAuto implements IFahrzeug
 
 --- 
 
+## Let's try
 
+1. Ergänze in dem Auto-Beispiel die SUV-Klasse und ergänze sie um einen passenden Getter
+2. Ergänze das Interface und die dazu gehörige Benutzung in der Auto-Klasse
+3. Schreibe ein Hauptprogramm, in dem einmal eine Variable vom Typ ```IFahrzeug``` erstellt wird, in der einmal ein Auto- und einmal eine SUV Objekt abgelegt wird
+4. Rufe dann die entsprechenden Methoden der jeweiligen Klassen auf
 
-
-
-
-
-## Let's try / @Home
-
-1. Erstelle die Definition der og. Klasse ```CSuv``` und compiliere sie.
-2. Erzeuge eine Instanz von ```CSuv``` und schreibe in der ```main()```-Methode Anweisungen zum Test des Zugriffs auf die Eigenschaften (Getter und Setter) und Methoden  
-3. Worauf muss man bei der Setter-Methode ```setFahrModus(.)``` achten? Erweitere die Implementierung der Methode entsprechend!
-<!-- ungültige Eingaben abfangen -->
-4. __@Profis__: Ändere die SUV Klasse wie folgt:
-    * Definiere die Fahrmodi durch einen [Enum-Datentyp](https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html)
-    * Nutze Konstanten, um die möglichen Werte für die Fahrmodi zu definieren
- 
----
-
-
-
-===
-
-### Interface definieren
-
-  ```java
-  public interface IFahren {
-    public void schalte(int p_gang);
-    public void beschleunige(int p_inkrement);
-    public void bremse(int p_dekrement); 
-  }
-  ```
-* Interfaces können andere Interfaces erweiten (Schlüsselwort  ```extends```)
-* Alternative Definition des Interfaces ```IFahren```:
-  ```java
-  public interface ITempoWechseln {
-    public void beschleunige(int p_inkrement);
-    public void bremse(int p_dekrement); 
-  }
-  ```
-  ```java
-  public interface IFahren extends ITempoWechseln{
-    public void schalte(int p_gang);
-  }
-  ```
-* Im Gegensatz zu Klassen kann ein  Interface mehrere andere Interfaces erweitern
-
-===
-
-### Klasse implementiert Interface
-* Schlüsselwort ```implements```
-  ```java 
-  public class CSomeClass implements Interface1, Interface2, ...{
-      //Definition der Klasse
-   } 
-  ```
-* Unsere Klasse ```CAuto``` soll das Interface ```IFahren``` implementieren.
-  ```java
-  public class CAuto implements IFahren {
-      // Eigenschaften, Konstruktoren, Klassen
-  } 
-  ```
-* __Merke__: 
-    1. Eine Klasse kann nur von einer (Ober-)Klasse erben (```extends```)
-    2. Eine Klasse kann beliebig viele Interfaces implementieren
+&rArr; Was stellst Du fest?
 
 ---
 
-## Überladen
+## Let's try
+
+1. Ergänze nun die Klassen für LKW und Motorrad mit passenden Methoden (Motorrad und LKW müssen je eine individuelle Eigenschaft mit Getter ggf mit Setter erhalten)
+2. Ergänze nun das Hauptprogramm um diese beiden neuen Objekte und führe es aus
+3. __@Profis__ Wie könnte man das [Diagramm](/#/15/2) sinnvoll mit Interfaces ergänzen?
+
+&rArr; Was stellst Du für diese beiden neuen Objekte fest?
+
+---
+
+## Überladen / Overloading
 
 
 * (engl. _Overloading_): Unterschiedliche Methoden oder Konstruktoren einer Klasse mit selbem Namen, aber unterschiedlichen Parametern (Signatur)
@@ -615,27 +569,6 @@ public class CAuto implements IFahrzeug
  * Methode berechnet Betrag der Eingabezahl
  * Unterschiedliche Ausgabetypen für unterschiedliche Eingabetypen
  * Auch möglich: verschiedene Zahl von Argumenten &rarr; z.B. [Überladen von Konstruktoren](#/13/1)
-
-===
-
- ### Überladen von Konstruktoren
-
- * Klassen können mehrere Konstruktoren mit unterschiedlichen Eingabeargumenten besitzen
- * Häufig: Default-Konstruktor ohne Argumente
-     * Wird automatisch vom Compiler eingefügt, wenn man den Konstruktor vergisst
- * Beispiel: Unterschiedliche Konstruktoren für ```CAuto```
-   ```java
-   public CAuto() { // Default-Konstruktor
-    // setze alle Instanzenvariablen auf null oder Initialwert
-   }
-   public CAuto(String p_farbe, String p_marke, int p_leistung) {
-    // setze Initialwerte für Zustandsvariablen m_tempo, m_gang
-   }
-   public CAuto(String p_farbe, String p_marke, int p_leistung, 
-                int p_tempo, int p_gang){
-    // alle Werte vom Konstruktoraufruf übergeben 
-   }
-   ```
 
 ===
 
