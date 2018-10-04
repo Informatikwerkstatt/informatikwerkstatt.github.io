@@ -409,20 +409,19 @@ public class CAuto {
 
 ### Graphische Notation
 
-Man kann dies auch graphisch darstellen mittels [Unified Modeling Language (UML)](https://de.wikipedia.org/wiki/Unified_Modeling_Language#Klassen)
+[Unified Modeling Language (UML)](https://de.wikipedia.org/wiki/Unified_Modeling_Language#Klassen)
 
-![UML](images/vererbung.png#center)
+![UML](images/vererbung.png#half)
 
 
 ===
 
-### Vererbungshierarchie
+### Warum macht man das
 
-* In Java kann man Unterklassen von Oberklassen _ableiten_ 
-* Unterklassen erbt von der Oberklasse deren Eigenschaften und Methoden
-* Durch Vererbung entsteht eine Vererbungshierarchie
-* In Java ist die allgemeinste Klasse ```Object``` -- alle Klassen erben von ihr (z.B. die Methode ```toString()```!)
-* Klassen (außer ```Object```) haben _genau eine_ Oberklasse 
+* um Code-Redundanz zu vermeiden, man muss Methoden nur einmal implementieren
+* um Eigenschaften bei Ableitung erweitern zu können
+* um Struktur in die Software zu bekommen &rarr; um ein möglichst gutes Modell des Problems zu erhalten
+* um saubere Trennung von Elementen anhand ihrer Funktionalität & Eigenschaften zu erhalten
 
 ===
 
