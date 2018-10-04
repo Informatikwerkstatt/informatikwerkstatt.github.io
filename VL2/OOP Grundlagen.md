@@ -321,31 +321,6 @@ Note: Erklärung anhand des Büros von Prof Müller: Sitzt Prof Müller während
 
 &rArr; Hinweis: Aus _static_ Methoden kann man nur auf _static_ Eigenschaften & Methoden zugreifen, aber aus _nicht static_ Methoden, kann man auf alle zugreifen
 
-===
-
-### Statische Tools Klasse
-
-```java
-// final verhindert das Ableiten, denn statische Methoden werden nicht vererbt - sehen wir später
-public final class CTools
-{
-  // ein privater Konstruktor verhindert, dass man ein Objekt der Klasse erzugen kann
-  private CTools()
-  {}
-
-  // die statische Methode kann ohne Objekt aufgerufen werden
-  public static void tue_irgendwas()
-  {
-    ...
-  }
-}
-````
-
-```java
-// Aufruf der Methode
-CTools.tue_irgendwas();
-```
-
 Note: Wozu kann man das Konzept von "static" sinnvoll verwenden? Problem: Seriennummer für die Autoklasse, wie lösen wir das?
 
 ===
@@ -404,18 +379,13 @@ public class CAuto {
 }
 ```
 
----
+===
 
 ## @Let's try
 
 1. Ergänze die Definition der Klasse ```CAuto``` um die obigen Klassenvariablen
-2. Füge Setter- und Getter-Methoden hinzu
-3. Testet den Zugriff auf die Methoden aus dem ```main()``` Programm
-4. Denkt Euch eine andere ```private``` Klassenvariable aus und fügt sie hinzu. Testet den Zugriff darauf
-    * aus der Klasse heraus
-    * von außerhalb der Klasse
-
-   Was stellt Ihr fest?    
+2. Testet die Methoden zur Anzahl Autos und zu Seriennummer
+3. Implementiert eine Seriennummer nach dem Schema: ```0-0, 0-1, 0-2, 0-3, 0-4, 0-5, 0-6, 0-7, 0-8, 0-9, 1-0...``` immer wenn die hintere Stelle 10 erreicht wird die vordere Stelle inkrementiert, die Seriennummer soll dann als String ausgegeben werden
 
 ---
 
