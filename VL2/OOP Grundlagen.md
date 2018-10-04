@@ -440,11 +440,13 @@ public class CSUV extends CAuto
 
   public CSUV()
   {
+    // ruft den SUV Konstruktor auf
     this( "rot", "VW", 5, 250, false );
   }
 
   public CSUV( final boolean p_offroadFahrbar )
   {
+    // ruft den SUV Konstruktor auf
     this( "rot", "VW", 5, 250, p_offroadFahrbar );
   }
 
@@ -460,20 +462,33 @@ public class CSUV extends CAuto
 
 ===
 
-### Konstruktoren von Unterklassen
+### Vererbung bei Klassen
 
-* In dem Codefragement für unsere Klasse ```CSuv``` fehlt noch der Konstruktor
-* Konstruktor einer Unterklasse:
-    1. ruft zunächst den Konstruktor der Oberklasse (Schlüsselwort ```super```) auf
-    2. fügt zusätzliche Initialisierungen (hier: Initial gewählter Fahrmodus) hinzu
-* Hier das Codebeispiel:
-  ```java
-    public CSuv(String p_farbe, String p_marke, int p_leistung) {
-      super(p_farbe, p_marke, p_kw);  // Konstruktor von CAuto
-      m_fahrmodus = 0;                // Initialer Modus: 2WD
-  }
-  ```
-* Aufruf des Konstruktors der Oberklasse muss erste Anweisung sein.
+<span class="rrd" data-rrd="Diagram(Terminal('public'), Terminal('class'), NonTerminal('Klassenname der abgeleiteten Klasse'), Terminal('extends'), NonTerminal('Oberklasse'))"></span>
+
+* um von einer Klasse zu erben / abzuleiten, wird das Schlüssewort ```extends``` verwendet
+* ist eine Klasse mit ```public final class``` deklariert, kann diese nicht abgeleitet werden
+* mit ```super``` wird der Konstruktor der Oberklasse aufgerufen, dies muss die erste Zeile in dem abgeleiteten Konstruktor sein
+* eine Klasse kann mittels ```extends``` nur von _genau einer_ anderen Klass erben
+
+===
+
+### Vererbung mit Interfaces
+
+> Interfaces sind eine spezielle Art von Klassen, die nur die Methoden-Deklarationen enthalten. Das Interface legt nur fest, welche Methoden vorhanden sein müssen, die konkrete Implementierung liegt dann in der Klasse. Interfaces und Methoden sind immer public, Eigenschaften besitzen Interfaces nicht. Interfaces können nicht mit new instantiiert werden
+
+===
+
+### Interface Deklaration
+
+```java
+public interface IFahrzeug
+{
+  void schalte( final int p_gang );
+  void beschleunige( final int p_inkrement );
+  void bremse( final int p_dekrement );
+}
+```
 
 --- 
 
@@ -489,15 +504,7 @@ public class CSUV extends CAuto
  
 ---
 
-## Interface
 
-* Fasst eine Gruppe von verwandten Methoden zusammen, die ein Objekt seiner Umwelt bereitstellt
-* Beschreibt nur die Signatur (Schnittstelle)
-    * Welche Methode? Welche Parameter? Welcher Rückgabewert?
-    * Rumpf der Methoden ist leer
-* Eine Klasse _implementiert_ ein Interface, wenn sie alle Methoden mit der im Interface definierten Signatur bereitstellt
-* "_Vertrag_" zwischen der Klasse und der Außenwelt, vom Compiler überwacht
-* In Interfaces werden auch Exceptions definiert; darauf gehen wir hier nicht näher ein.
 
 ===
 
