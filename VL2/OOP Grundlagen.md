@@ -384,25 +384,35 @@ public class CAuto {
 ## @Let's try
 
 1. Ergänze die Definition der Klasse ```CAuto``` um die obigen Klassenvariablen
-2. Testet die Methoden zur Anzahl Autos und zu Seriennummer
+2. Testet die Methoden zur Anzahl Autos und zur Seriennummer mit Hilfe eines Main-Programms
 3. Implementiert eine Seriennummer nach dem Schema: ```0-0, 0-1, 0-2, 0-3, 0-4, 0-5, 0-6, 0-7, 0-8, 0-9, 1-0...``` immer wenn die hintere Stelle 10 erreicht wird die vordere Stelle inkrementiert, die Seriennummer soll dann als String ausgegeben werden
 
 ---
 
-## Generalisierung, Spezialisierung, Vererbung
-__Ein SUV ist ein Auto ist ein Fahrzeug!__
+## Everything is Object - Vererbung
 
-<!-- was ist Vererbung allgemein mit Beispiel, wofür verwendet man es, Beispiel mit unterschiedlich großen Boxen, abstrakte Klassen weg lassen -->
-* Zentrales Konzept der Objektorientierung
-* Zwei komplementäre Sichtweisen _Generalisierung_ und _Spezialisierung_
-* Generalisierung
-    * Auto &rarr; Fahrzeug: Konzept Auto wird zu allgemeinerem Konzept Fahrzeug verallgemeinert
-* Spezialisierung 
-    * SUV &larr; Auto: Konzept SUV ist Spezialisierung von Auto
-* Wir sagen: 
-    * "Fahrzeug ist die _Oberklasse_ von Auto"
-    * "SUV ist eine _Unterklasse_ von Auto"
-* Transitive _Vererbungsbeziehung_ zwischen Ober- und Unterklasse
+&rArr; Wie bauen wir nun einen LKW, ein Motorrad und einen SUV dazu, so dass alle eine Seriennummer haben, schalten können etc. zusätzlich soll der LKW noch eine Ladung bekommen und das Motorrad einen Sozius?
+
+===
+
+### Kochrezept
+
+* Wir _verallgemeinern_ unsere ```CAuto``` Klasse zu _Fahrzeug_ &rarr; Generalisierung
+* _Fahrzeug_ ist eine _Oberklasse_ von ```CAuto```
+* ```CAuto``` wird eine _Unterklasse_ von Fahrzeug &rarr; Spezialisierung
+* ebenfalls wird Motorrad & LKW eine _Spezialisierung_ von Fahrzeug
+* SUV wird eine Spezialisierung von ```CAuto```
+
+&rArr; Motorrad, LKW, Auto und SUV sind Fahrzeuge und SUV ist ein Auto
+
+===
+
+### Graphische Notation
+
+Man kann dies auch graphisch darstellen mittels (Unified Modeling Language (UML)](https://de.wikipedia.org/wiki/Unified_Modeling_Language#Klassen)
+
+![UML](images/vererbung.png#center)
+
 
 ===
 
@@ -413,8 +423,6 @@ __Ein SUV ist ein Auto ist ein Fahrzeug!__
 * Durch Vererbung entsteht eine Vererbungshierarchie
 * In Java ist die allgemeinste Klasse ```Object``` -- alle Klassen erben von ihr (z.B. die Methode ```toString()```!)
 * Klassen (außer ```Object```) haben _genau eine_ Oberklasse 
-
-![Beispiel Vererbungshierarchie](images/2_vererbung.png#center)
 
 ===
 
