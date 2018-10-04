@@ -409,7 +409,7 @@ public class CAuto {
 
 ### Graphische Notation
 
-Man kann dies auch graphisch darstellen mittels (Unified Modeling Language (UML)](https://de.wikipedia.org/wiki/Unified_Modeling_Language#Klassen)
+Man kann dies auch graphisch darstellen mittels [Unified Modeling Language (UML)](https://de.wikipedia.org/wiki/Unified_Modeling_Language#Klassen)
 
 ![UML](images/vererbung.png#center)
 
