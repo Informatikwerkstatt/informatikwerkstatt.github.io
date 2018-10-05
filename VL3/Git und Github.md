@@ -108,6 +108,8 @@ git config --global user.email johndoe.example.com
 - Dort werden alle relevanten Daten gespeichert
 - Sollten bereits Dateien dort vorhanden sein, werden diese zunächst nicht versioniert
 
+---
+
 ## Änderungen vormerken - Git Add
 
 <!-- git add, commit und Commit Nachrichten erklären -->
@@ -155,7 +157,7 @@ git config --global user.email johndoe.example.com
 - **Ziel**: Änderungen möglichst kurz aber trotzdem präzise zu beschreiben um anderen Leuten einen Überblick über gemachte Änderungen zu geben
 - [Tipps für eine gute Commit-Nachricht](https://wp-typ.de/entwicklung/gute-git-commits-schreiben/)
 
-===
+---
 
 ### Änderungen überprüfen
 - `git diff` ermöglicht eine exakte Auflistung aller Änderungen
