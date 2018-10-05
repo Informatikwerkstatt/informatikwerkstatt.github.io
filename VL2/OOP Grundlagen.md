@@ -559,32 +559,43 @@ public class CAuto implements IFahrzeug
 
 ## Überladen / Overloading
 
+> Überladen bedeuetet, dass man eine Methode (gleicher Name) mehrfach innerhalb einer Klasse hat, wobei sie sich nur anhand ihrer Parameter unterscheiden. Ein Überladen anhand des Rückgabewertes ist nicht möglich
 
-* (engl. _Overloading_): Unterschiedliche Methoden oder Konstruktoren einer Klasse mit selbem Namen, aber unterschiedlichen Parametern (Signatur)
-* Beispiel: Überladen der Methode ```abs(.)``` der Klasse ```java.lang.Math```:
-  ```java
-  static int abs(int val);
-  static long abs(long val);
-  static double abs(double val);
-  ```
- * Methode berechnet Betrag der Eingabezahl
- * Unterschiedliche Ausgabetypen für unterschiedliche Eingabetypen
- * Auch möglich: verschiedene Zahl von Argumenten &rarr; z.B. [Überladen von Konstruktoren](#/13/1)
+```java
+public class CUeberladen
+{
+// --- korrektes Überladen anhand unterschiedlicher Parameter ---
+
+  public void halloWelt()
+  {
+    System.out.println( "Hallo Welt" );
+  }
+
+  public void halloWelt( final String p_text )
+  {
+    System.out.println( "Hallo Welt: " + p_text );
+  }
+
+
+  // --- fehlerhaftes Überladen mit Compilerfehler ---
+
+  public int getValue()
+  {
+    return 5;
+  }
+
+  public String getValue()
+  {
+    return "fünf";
+  }
+}
+```
 
 ===
 
-### Überschreiben von Methoden
+### Überladen bei Vererbung
 
-* (engl. Overriding) Zwei Methoden mit gleichem Namen und Parametern, aber unterschiedlichem Verhalten.
-* Entsteht, wenn abgeleitete Klasse ein Verhalten ihrer Oberklasse verändert.
-* z.B. Klasse ```CAuto``` hat eine Unterklasse ```CAutomatikAuto```
-   * Beide implementieren eine Methode
-   ```java
-    public void schalte(int p_gang);
-   ```
-    * Die Implementierung des Schaltens in der Unterklasse ```CAutomatikAuto``` wird aber eine andere sein als die in der Oberklasse
-    ```CAuto```
-* Überschreiben erfolgt einfach, indem die betreffende Methode in der Unterklasse entsprechend implementiert wird.
+
 
 ---
 
