@@ -108,7 +108,7 @@ git config --global user.email johndoe.example.com
 - Dort werden alle relevanten Daten gespeichert
 - Sollten bereits Dateien dort vorhanden sein, werden diese zunächst nicht versioniert
 
-## Änderungen merken - Git Add & Commit
+## Änderungen vormerken - Git Add
 
 <!-- git add, commit und Commit Nachrichten erklären -->
 - `git add {Dateiname}` um Dateien für den nächsten Commit vorzumerken
@@ -120,9 +120,12 @@ git config --global user.email johndoe.example.com
 
 ===
 
+## Änderung festschreiben - Git Commit
+
 - `git commit` um die Dateien dauerhaft zu versionieren
   - Änderungen die nicht mit `git add` vorgemerkt wurden, werden nicht nicht committed
   - Nach Eingabe des Befehls öffnet sich ein Text-Editor:
+
   ```
   # Please enter the commit message for your changes. Lines starting
   # with '#' will be ignored, and an empty message aborts the commit.
@@ -134,6 +137,7 @@ git config --global user.email johndoe.example.com
   # Changes to be committed:
   #       new file:   helloworld.java
   ```
+  
   - In dieses Fenster schreibt man seine Commit-Nachricht
 - Mit `git commit -m "faster commit"` kann man sich diesen Schritt sparen
 - Git liefert nach Abschluss einige Details über den Commit:
