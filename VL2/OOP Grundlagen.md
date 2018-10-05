@@ -389,6 +389,8 @@ public class CAuto
 2. Testet die Methoden zur Anzahl Autos und zur Seriennummer mit Hilfe eines Main-Programms
 3. Implementiert eine Seriennummer nach dem Schema: ```0-0, 0-1, 0-2, 0-3, 0-4, 0-5, 0-6, 0-7, 0-8, 0-9, 1-0...``` immer wenn die hintere Stelle 10 erreicht wird die vordere Stelle inkrementiert, die Seriennummer soll dann als String ausgegeben werden
 
+Note: Karton-Drone vorführen, um das Thema "Vererbung" einzuleiten und einen kleinen Break zu haben
+
 ---
 
 ## Everything is Object - Vererbung
@@ -595,7 +597,31 @@ public class CUeberladen
 
 ### Überladen bei Vererbung
 
+> Jede nicht _final_ deklarierte Methode in einer Klasse, die nicht _final_ deklariert ist, oder bei einem Enum kann in jeder beliebigen Unterklasse überladen werden
 
+```java
+public class CUeberladenOberklasse
+{
+  public void halloWelt()
+  {
+    System.out.println( "Hallo Welt" );
+  }
+
+  // -- final verhindert das weitere Überladen
+  public final void foobar()
+  {
+    System.out.println( " );
+  }
+```
+
+
+=== 
+
+### toString()
+
+===
+
+### equals() und hashCode()
 
 ---
 
