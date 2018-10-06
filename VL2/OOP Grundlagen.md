@@ -638,10 +638,7 @@ public class CUnterklasse extends COberklasse
 
 <div class="flex">
 <div>
-<pre><code class="lang-java">public class COhneToString
-{
-}
-
+<pre><code class="lang-java">import java.text.MessageFormat;
 public class CMitToString
 {
   private final String m_message;
@@ -658,11 +655,14 @@ public class CMitToString
   }
 }
 </code></pre>
+
+<pre><code class="lang-java">public class COhneToString
+{
+}
+</code></pre>
 </div>
 <div>
-<pre><code class="lang-java">import java.text.MessageFormat;
-
-public final class CAusgabe
+<pre><code class="lang-java">public final class CAusgabe
 {
     private CAusgabe()
     {
