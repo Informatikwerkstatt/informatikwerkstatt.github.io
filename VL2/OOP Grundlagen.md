@@ -692,13 +692,76 @@ CMitToString@61064425: Hallo World
 
 Wird die ```toString()``` Methode nicht überladen erscheint ```COhneToString@e73f9ac``` (Klassenname und Hash-Wert). 
 
-> Die [hexadezimale Zahl](https://de.wikipedia.org/wiki/Hexadezimalsystem) ist ein _eindeutiger_ [Hash-Wert](https://de.wikipedia.org/wiki/Hashfunktion), der durch die durch die Methode ```hashCode()``` erzeugt wird und das Objekt in der Java Runtime identifiziert. 
-
-__Wichtige Regel:__ Wenn ```hashCode()``` überladen wird, muss auch die ```equals()``` Methode überladen werden musss und umgekehrt. Die ```equals()``` Methode wird bei einem Vergleich mittels ```==``` oder ```!=``` ausgeführt.
+> Die [hexadezimale Zahl](https://de.wikipedia.org/wiki/Hexadezimalsystem) ist ein _eindeutiger_ [Hash-Wert](https://de.wikipedia.org/wiki/Hashfunktion), der durch die durch die Methode ```hashCode()``` erzeugt wird und das Objekt in der Java Runtime identifiziert. __Wichtige Regel:__ Wenn ```hashCode()``` oder ```equals()``` überladen wird, muss auch die jeweils andere Methode überladen werden. 
 
 ===
 
 ### equals() und hashCode() Beispiel
+
+<div class="flex">
+<div>
+<pre><code class="lang-java">public class COhneEquals
+{
+  private final String m_message;
+
+  public COhneEquals( final String p_message )
+  {
+    m_message = p_message;  
+  }
+}
+</code></pre>
+
+<pre><code class="lang-java">public class CMitEquals
+{
+  private final String m_message;
+
+  public CMitEquals( final String p_message )
+  {
+    m_message = p_message;  
+  }
+
+  // Hash-Code wird überladen und liefert den Hash-Code des internen Strings
+  @Override
+  public int hashCode()
+  {
+    return m_message.hashCode();
+  }
+
+  @Override
+  public boolean equals( final Object p_object )
+  {
+    return p_object instanceof CMitEquals && this.hashCode() == p_object.hashCode();
+  }
+}
+</code></pre>
+</div>
+<div>
+<pre><code class="lang-java">public final class CAusgabe
+{
+    private CAusgabe()
+    {
+    }
+
+    public static void main( final String[] p_args )
+    {
+      final COhneEquals l_ohne1 = new COhneEquals( "test );
+      final COhneEquals l_ohne2 = new COhneEquals( "test );
+
+      final CMitEquals l_mit1 = new CMitEquals( "test );
+      final CMitEquals l_mit2 = new CMitEquals( "test );
+
+      System.out.println( "Ohne-1 & Ohne-2 sind " + ( l_ohne1.equals( l_ohne2 ) ? "gleich" : "nicht gleich" ) );
+      System.out.println( "Mit-1 & Mit-2 sind " + ( l_mit1.equals( l_mit2 ) ? "gleich" : "nicht gleich" ) );
+    }
+}
+</code></pre>
+
+<pre><code class="lang-shell">Ohne-1 & Ohne-2 sind nicht gleich
+Mit-1 & Mit-2 sind gleich
+Mit-1 & Ohne-1 sind nicht gleich
+</code></pre>
+</div>
+</div>
 
 ---
 
