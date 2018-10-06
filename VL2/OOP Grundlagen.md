@@ -698,6 +698,8 @@ Wird die ```toString()``` Methode nicht überladen erscheint ```COhneToString@e7
 
 ### equals() und hashCode() Beispiel
 
+> Objekte, die _inhaltlich identisch_ sind, sollen auch nach außen gleich sein
+
 <div class="flex">
 <div>
 <pre><code class="lang-java">public class COhneEquals
@@ -767,7 +769,6 @@ Wird die ```toString()``` Methode nicht überladen erscheint ```COhneToString@e7
 
 <pre><code class="lang-shell">Ohne-1 & Ohne-2 sind nicht gleich
 Mit-1 & Mit-2 sind gleich
-Mit-1 & Ohne-1 sind nicht gleich
 </code></pre>
 </div>
 </div>
