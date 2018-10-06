@@ -636,7 +636,9 @@ public class CUnterklasse extends COberklasse
 
 > Überladen der Methode ```toString()``` ermöglicht es die Ausgabe eines Objektes anzupassen. Mit Hilfe von [MessageFormat](https://docs.oracle.com/javase/10/docs/api/java/text/MessageFormat.html) können schnell die Ausgaben formatiert werden
 
-```java
+<div class="flex">
+<div>
+<pre><code class="lang-java">
 public class COhneToString
 {
 }
@@ -656,7 +658,10 @@ public class CMitToString
     return MessageFormat.format( "{0}: {1}", super.toString(), m_message );
   }
 }
-
+</code></pre>
+</div>
+<div>
+<pre><code class="lang-java">
 import java.text.MessageFormat;
 
 public final class CAusgabe
@@ -674,12 +679,14 @@ public final class CAusgabe
         System.out.println( l_mit );
     }
 }
-```
+</code></pre>
 
-```shell
+<pre><code class="lang-shell">
 COhneToString@e73f9ac
 CMitToString@61064425: Hallo World
-```
+</code></pre>
+</div>
+</div>
 
 ===
 
