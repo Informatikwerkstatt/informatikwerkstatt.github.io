@@ -598,6 +598,7 @@ public class CUeberladen
 ### Überladen bei Vererbung
 
 > Jede nicht _final_ deklarierte Methode in einer Klasse, die nicht _final_ deklariert ist oder ein Enum ist, kann in jeder beliebigen Unterklasse überladen werden
+
 ```java
 public class COberklasse
 {
