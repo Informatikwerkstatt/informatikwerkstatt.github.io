@@ -598,9 +598,6 @@ public class CUeberladen
 ### Überladen bei Vererbung
 
 > Jede nicht _final_ deklarierte Methode in einer Klasse, die nicht _final_ deklariert ist oder ein Enum ist, kann in jeder beliebigen Unterklasse überladen werden
-
-<div class="flex">
-<div>
 ```java
 public class COberklasse
 {
@@ -615,10 +612,7 @@ public class COberklasse
     System.out.println( "Foobar Oberklasse" );
   }
 }
-```
-</div>
-<div>
-```java
+
 public class CUnterklasse extends COberklasse
 {
   @Override
@@ -627,21 +621,65 @@ public class CUnterklasse extends COberklasse
     System.out.println( "Hallo Welt Unterklasseklasse" );
   }
 
-  // -- hier entsteht nun ein Compilerfehler !!
+  // -- hier entsteht nun ein Compilerfehler!
+  @Override
   public final void foobar()
   {
     System.out.println( "Foobar Unterklasse" );
   }
 }
 ```
-</div>
-</div>
 
 === 
 
 ### toString()
 
-> die Methode ```toString()``` 
+> Überladen der Methode ```toString()``` ermöglicht es die Ausgabe eines Objektes anzupassen. Mit Hilfe von [MessageFormat](https://docs.oracle.com/javase/10/docs/api/java/text/MessageFormat.html) können schnell die Ausgaben formatiert werden
+
+```java
+public class COhneToString
+{
+}
+
+public class CMitToString
+{
+  private final String m_message;
+
+  public CMitToString( final String p_message )
+  {
+    m_message = p_message;  
+  }
+
+  @Override
+  public String toString()
+  {
+    return MessageFormat.format( "{0}: {1}", super.toString(), m_message );
+  }
+}
+
+import java.text.MessageFormat;
+
+public final class CAusgabe
+{
+    private CAusgabe()
+    {
+    }
+
+    public static void main( final String[] p_args )
+    {
+        final COhneToString l_ohne = new COhneToString();
+        final CMitToString l_mit = new CMitToString( "Hallo World" );
+
+        System.out.println( l_ohne );
+        System.out.println( l_mit );
+    }
+}
+```
+
+```shell
+COhneToString@e73f9ac
+CMitToString@61064425: Hallo World
+```
 
 ===
 
