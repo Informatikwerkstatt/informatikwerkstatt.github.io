@@ -25,20 +25,20 @@ __Grundlagen Objekt-Orientierter Programmierung__
 
 ## Klasse & Objekt
 
-* _Klasse_: (abstrakte) Bauplan einer Art von Objekten
+* _Klasse_: (abstrakter) Bauplan einer Art von Objekten
   * definiert alle Eigenschaften / Variablen eines späteren Objektes
   * definiert die Funktion / [Methoden](/java-grundlagen/#/5/2) des Objektes
 * _Objekt_: aus der Klasse erzeugter Speicherblock im Rechner
     * mit konkreten Belegungen der Variablen
     * wir haben in einer Variablen eine Referenz auf ein Objekt und können damit arbeiten
 
-&rArr; Softwaretechnisch: Klasse erlaubt uns, konkrete Objekte aus ihr zu erzeugen um ein 
+&rArr; Softwaretechnisch: Klasse erlaubt uns, konkrete Objekte aus ihr zu erzeugen
 
 ===
 
 ### Beispiel für Klasse eines Autos
 
-Eigenschaften zusammen beschreiben den Zustand eines Autos beschreiben &rarr; sie können unveränderbar (```final```) oder veränderbar sein
+Eigenschaften beschreiben gemeinsam den Zustand eines Autos &rarr; sie können unveränderbar (```final```) oder veränderbar sein
 
 ```java
 public class CAuto {
@@ -79,11 +79,11 @@ public class CAuto {
 
 ---
 
-## Instanziierung - Realen Autoobjektes
+## Instanziierung - Erzeugen eines realen Autoobjektes
 
 > Instanziierung &rarr; Erzeugung eines Objekts (Instanz) im Speicher aus einer Klasse
 
-1. allokieren des Speichers<sup>1</sup> für ein Objekt mit dem ```new```-Operator
+1. Allokation des Speichers<sup>1</sup> für ein Objekt mit dem ```new```-Operator
 2. ```new``` liefert eine Referenz auf die Speicherstelle, die in einer Variablen abgelegt werden
     ```java
     final CAuto l_auto = new CAuto("rot", "beetle", 5, 250);
@@ -105,7 +105,7 @@ public class CAuto {
 ## Konstruktor
 
 * Konstruktoren sind eine spezielle Struktur innerhalb einer Klassendefinition
-* Ähnelt einer Methode, hat aber Namen der Klasse und keinen Rückgabewert 
+* Ähneln einer Methode, haben aber den Namen der Klasse und keinen Rückgabewert 
 
 ```java
 // Default Konstruktor - ohne Parameter
@@ -130,9 +130,9 @@ public CAuto( final String p_farbe, final String p_marke, final int p_anzahlGaen
 ## Schlüsselwort ```this```
 
 * Innerhalb jeder Methode gib es die Variable ```this```
-* Liefert die Referenz auf den Speicherbereich zurück, in dem das Objekt gespeichert ist
+* Gibt die Referenz auf den Speicherbereich zurück, in dem das Objekt gespeichert ist
 * Nutzung für (1) Auflösung von Namenskonflikten und (2) beim Aufruf von Methoden und Konstruktoren
-* Beispiel 
+* Beispiel: 
   ```java
     public Class CAuto
     {
@@ -146,7 +146,7 @@ public CAuto( final String p_farbe, final String p_marke, final int p_anzahlGaen
 * ... mit Aufruf:
   ```java
       final CAuto l_auto1 = new CAuto("rot", "lada", 5, 200);
-      final CAuto l_auto2 = l_meinAuto.get();
+      final CAuto l_auto2 = l_auto1.get();
 
       // l_auto1 und l_auto2 enthalten nun die gleiche Referenz
   ``` 
