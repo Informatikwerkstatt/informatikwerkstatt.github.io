@@ -774,17 +774,6 @@ Mit-1 & Mit-2 sind gleich
 
 ---
 
-## @Let's try
-
-<!-- ein Beispiel mit Interface und 2 abgeleiteten Klassen vom Interface und dann noch einer dritten Klasse, die von einer Klasse abgeleitet wurde -->
-<!-- @Phil: Bin mir nicht sicher, ob Du so was gemeint hast - bitte checken. -->
-
-1. Ändere die Definition von ```CAuto``` und ```CSuv```, so dass sie das Interface ```IFahren``` implementieren.
-2. Denke Dir eine neue Klasse aus, die das Interface ```IFahren``` implementiert. Programmiere sie und teste sie in der ```main()```-Methode!
-3. Leite eine weitere Unterklasse aus ```CAuto``` ab. Überschreibe in der neuen Klasse mindestens eine Methode von ```CAuto``` und teste sie! 
-
----
-
 ## @Home / Übung
 
 > Schreiben Sie ein Programm, mit dem man Brüche berechnen kann. 
@@ -797,7 +786,8 @@ Mit-1 & Mit-2 sind gleich
   java Bruch 1 / 2 + 3 / 4
   ```
    
-* Alle 4 [Operationen](https://de.wikipedia.org/wiki/Bruchrechnung#Rechnen_mit_Bruchtermen) (Addition, Subtraktion, Multiplikation, Division) müssen implementiert werden. 
+* Alle 4 [Operationen](https://de.wikipedia.org/wiki/Bruchrechnung#Rechnen_mit_Bruchtermen) (Addition, Subtraktion, Multiplikation, Division) müssen implementiert werden
+* Implementiere ```toString()```, ```equals()``` und ```hashCode()``` und ein Interface ```IBruch```
 * __Freiwillig:__ Implementation eines Algorithmus zum Kürzen des berechneten Bruchs, also aus $\frac{2}{4} \Rightarrow \frac{1}{2}$ und aus $\frac{2}{1} \Rightarrow 2$
 
 ---
