@@ -692,7 +692,7 @@ CMitToString@61064425: Hallo World
 
 Wird die ```toString()``` Methode nicht überladen erscheint ```COhneToString@e73f9ac``` (Klassenname und Hash-Wert). 
 
-> Die [hexadezimale Zahl](https://de.wikipedia.org/wiki/Hexadezimalsystem) ist ein _eindeutiger_ [Hash-Wert](https://de.wikipedia.org/wiki/Hashfunktion), der durch die durch die Methode ```hashCode()``` erzeugt wird und das Objekt in der Java Runtime identifiziert. __Wichtige Regel:__ Wenn ```hashCode()``` oder ```equals()``` überladen wird, muss auch die jeweils andere Methode überladen werden. 
+> Die [hexadezimale Zahl](https://de.wikipedia.org/wiki/Hexadezimalsystem) ist ein _eindeutiger_ [Hash-Wert](https://de.wikipedia.org/wiki/Hashfunktion), der durch die durch die Methode ```hashCode()``` erzeugt wird und das Objekt in der Java Runtime identifiziert. __Wichtige Regel:__ Wenn ```hashCode()``` oder ```equals()``` überladen wird, muss auch die jeweils andere Methode überladen werden. Der Hash-Wert muss nur innherhalb einer Klassen-Art eindeutig sein, um zu überprüfen, ob ein Objekt zu einer Klasse gehört, gibt es den [instanceof](https://en.wikibooks.org/wiki/Java_Programming/Keywords/instanceof)-Operator
 
 ===
 
@@ -722,16 +722,14 @@ Wird die ```toString()``` Methode nicht überladen erscheint ```COhneToString@e7
     m_message = p_message;  
   }
 
-  // Hash-Code wird überladen und liefert den Hash-Code des internen Strings
+  // HashCode wird überladen und liefert den Hash-Code des internen Strings
   @Override
   public int hashCode()
   {
     return m_message.hashCode();
   }
 
-  // Equals wird überladen, so dass zuerst auf die Klasse geprüft wird
-  // und dann wird der HashCode verglichen. Der HashCode muss nur innerhalb
-  // gleicher Klassen eindeutig sein
+  // Equals wird überladen, so dass HashCode aufgerufen wurde
   @Override
   public boolean equals( final Object p_object )
   {
