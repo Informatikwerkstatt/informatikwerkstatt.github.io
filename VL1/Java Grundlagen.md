@@ -12,9 +12,9 @@ Note: Hinweis, dass am nächsten Di Vorlesung ist und keine Übung, da der 31.10
 
 ## Sprichst Du Java?
 
-* Objektorientierte Programmiersprache seit 1995
+* Objektorientierte Programmiersprache, 1995 veröffentlicht
 * Plattformunabhängig &rarr; Java Programme laufen auf verschiedenen Betriebssystemen (Windows, Mac, Unix, Android)
-* Java Software enthalten in Oracle's Standard Edition Java Development Kit [(Java SE JDK)](https://www.oracle.com/technetwork/java/javase/overview/index.html)
+* Java Software ist in Oracle's Standard Edition Java Development Kit enthalten [(Java SE JDK)](https://www.oracle.com/technetwork/java/javase/overview/index.html)
 * Aktuelle Version: [Java 11](http://jdk.java.net/11/)
 * Die Java Software ist auf den Pool-Rechnern installiert
 
@@ -30,7 +30,7 @@ public class CHelloWorld
 {
 	public static void main( String[] p_args )
 	{
-		System.out.println( "Hello, World" );
+		System.out.println( "Hello World" );
 	}
 }
 ```
@@ -40,7 +40,7 @@ public class CHelloWorld
 ## Java Standalone am Rechner
  
 - Java Compiler: ```javac```
-- Übersetzt Java Programm in binäres bytecode-Format (Endung ```.class```)
+- Übersetzt (kompiliert) Java Programme in binäres bytecode-Format (Endung ```.class```)
 - Java Virtual Machine (JVM): ```java```
     - Laufzeitumgebung für Java
     - JVM für jedes Betriebssystem vorhanden
@@ -60,12 +60,12 @@ Wir nutzen später in dieser Vorlesung [Java auf Ant](/android-grundlagen/)
 ## Quellcode, Binärcode, Apps ...??
 
 - **Quellcode**: Textbasierte Darstellung eines Programms
-    - ```java```-Textdatei, erstellt z.B. [Visual Studio Code](https://code.visualstudio.com/)
-   	- Zeichen werd in einer [Kodierung](https://de.wikipedia.org/wiki/Zeichenkodierung) gespeichert (deutsche Umlaute)
+    - ```java```-Textdatei, erstellt z.B. in [Visual Studio Code](https://code.visualstudio.com/)
+   	- Zeichen werden in einer [Kodierung](https://de.wikipedia.org/wiki/Zeichenkodierung) gespeichert (deutsche Umlaute)
     - heute wird meist [UTF-8](https://de.wikipedia.org/wiki/UTF-8) verwendet
 
-- **Binärcode**: Ausführbares Programm als Bytefolge gespeichert, 
-    - ```class```-Binärdateien sind nicht für den Menschen lesbar
+- **Binärcode**: Ausführbares Programm, als Bytefolge gespeichert
+    - ```class```-Binärdateien sind  für den Menschen nicht lesbar
     - werden von Programmen wie dem Java Compiler ```javac``` erzeugt
 
 - **App**: Ein Programm, das vom Nutzer aufgerufen und verwendet werden kann (z.B. Google Maps)
@@ -74,18 +74,18 @@ Wir nutzen später in dieser Vorlesung [Java auf Ant](/android-grundlagen/)
 
 ## Kommandozeile - tippen statt clicken!
 
-> Die [Kommandozeile / Windows Eingabeaufforderung](https://de.wikipedia.org/wiki/Kommandozeile) ist eine Anwendung, um mittels Tastatureingabe Befehle/Programme auszuführen. 
+> Die [Kommandozeile / Windows Eingabeaufforderung](https://de.wikipedia.org/wiki/Kommandozeile) ermöglicht mittels Tastatureingabe Befehle/Programme auszuführen. 
 
-- Manuelles  Compilieren einfacher Programmbeispiele
+- Manuelles  Kompilieren einfacher Programmbeispiele
 - Starten einfacher Beispiele
-- Verstehen des Prozesses des Compilierens und der Ausführung von Javaprogrammen
+- Verstehen des Prozesses des Kompilierens und der Ausführung von Javaprogrammen
 
 ===
 
 ### Kommandozeilentool unter Windows: Eingabeaufforderung
 
 <div class="flex">
-<div><ol><li>Linksclick auf Windows-Symbol</li><li>In Windows-Suche ```cmd``` eingeben <kbd>Return</kbd></li><li>Linksclick auf angezeigtes ```cmd```-Symbol</li></ol></div>
+<div><ol><li>Linksklick auf Windows-Symbol</li><li>In Windows-Suche ```cmd``` eingeben <kbd>Return</kbd></li><li>Linksklick auf angezeigtes ```cmd```-Symbol</li></ol></div>
 <div>
 ![Windows Commandline](images/cmd.png)
 </div>
@@ -106,16 +106,16 @@ Wir nutzen später in dieser Vorlesung [Java auf Ant](/android-grundlagen/)
 
 ===
  
-### Compilieren des Quellcodes
+### Kompilieren des Quellcodes
 
 - Übersetzen des geschriebenen Java-Quellcodes in _Maschinensprache_ (meistens Binärcode)
-- Eingabe in Commandline:
+- Eingabe in Kommandozeile:
 
 ```shell
 javac HelloWorld.java
 ```
 
-<small>Damit der Befehl ```javac``` gefunden wird, müssen zwei Umgebungsvariablen ```JAVA_HOME``` und ```PATH``` gesetzt sein. Im Pool wurden dies schon vollständig [konfiguriert](https://docs.oracle.com/javase/10/install/installation-jdk-and-jre-microsoft-windows-platforms.htm). </small>
+<small>Damit der Befehl ```javac``` gefunden wird, müssen zwei Umgebungsvariablen ```JAVA_HOME``` und ```PATH``` gesetzt sein. Im Pool wurden diese schon vollständig [konfiguriert](https://docs.oracle.com/javase/10/install/installation-jdk-and-jre-microsoft-windows-platforms.htm). </small>
 
 ===
 
@@ -138,7 +138,7 @@ java HelloWorld
 5. Öffne die _Eingabeaufforderung_
 6. Schau mittels ```dir``` wo der Desktop ist
 7. Wechsel mit ```cd``` auf den Desktop
-8. Compiliere das Programm
+8. Kompiliere das Programm
 9. Führe das Programm aus
 
 ---
@@ -156,7 +156,7 @@ java HelloWorld
 	
 - Zentrale Einheit der [objektorientierten Programmierung](/oop-grundlagen/). 
 - Programmcode ist in Klassen organisiert
-- Klasse hat Namen (z.B. ```CHelloWorld```)
+- Jede Klasse hat einen Namen (z.B. ```CHelloWorld```)
 - Konvention: Name der Klasse = Name der Quelldatei, die die Klasse enthält und Prefix ```C``` für Klasse / Class
 
 ===
@@ -168,7 +168,7 @@ java HelloWorld
 	- Rückgabewert (```void``` = Methode gibt keinen Wert zurück)
 	- Name (```main```)
 	- Eingabeparameter (optional), beschrieben durch 
-		- Typ, z.B. ```String[]``` bezeichnet Liste (Array)  von Zeichenketten
+		- Typ, z.B. ```String[]``` bezeichnet Liste (Array) von Zeichenketten
 		- Name ```p_args``` 
 	- Rumpf mit Anweisungen, in ```{ ... }``` eingefasst
 - [Methoden](/oop-grundlagen/#/8) und Klassen können außerdem sog. Modifikatoren haben (z.B. ```public```, oder ```public static``` (siehe [Objekt-Orientierte Programmierung Grundlagen](/oop-grundlagen/))
@@ -238,13 +238,13 @@ public class CHelloWorld
 - _Variablendeklaration_ ist der Teil _vor_ dem ```=```
 - _Variablenzuweisung_ ist der Teil _hinter_ dem ```=```
 - ```=``` nennt man Zuweisungsoperator, es wird von rechts nach links gelesen, d.h. das was auf der rechten Seite steht, wird in die links stehende Variable geschrieben
-- Modifikator ```final``` ermöglicht Variablen nicht _schreibbar_ zu mache, d.h. der Wert ist unveränderbar
+- Modifikator ```final``` ermöglicht Variablen nicht _schreibbar_ zu machen, d.h. der Wert ist unveränderbar
 
 ===
 
 ### Verwendung von Variablen bei Aufrufen
 
-- Die Variable `l_message` deklariert und direkt zugewiesen
+- Die Variable `l_message` wird deklariert und ihr Wert direkt zugewiesen
 - Der Wert der Variable wird dann an die [Methode](/oop-grundlagen/#/8) ```println``` übergeben und dort weiterverarbeitet.
 
 ```java	
@@ -291,7 +291,7 @@ public class CTypeUmwandlung
 ### @Let's try
 
 1. Erstelle ein Programm aus dem [gezeigtem Code](#/9)
-2. Übersetze das Programm und führe es aus 
+2. Kompiliere das Programm und führe es aus 
 
 &rArr; Was beobachtest Du?
 
@@ -306,11 +306,11 @@ public class CTypeUmwandlung
     System.out.println( "Textausgabe: " + l_text );
     ```
 
-2. Übersetze das Programm und führe es aus 
+2. Kompiliere das Programm und führe es aus 
 
-&rArr; Was beobachtest Du und wie kannst Du das erklären?
+&rArr; Was beobachtest Du und wie kannst Du es erklären?
 
-&rArr; Kannst Du das Programm so umformulieren, dass es mit der Variable ```l_todouble``` funktioniert?
+&rArr; Kannst Du das Programm so umschreiben, dass es mit der Variable ```l_todouble``` funktioniert?
 
 ---
 
@@ -326,21 +326,22 @@ public class CTypeUmwandlung
     final int l_pi_int = (int) l_pi;
     ```
 
-- *Schlechter Code-Stil*, da ein _expliziter Cast_ immer ein Hinweis auf einen nicht richtig definierten Typ ist, besser ein generischer Typ
+- *Schlechter Code-Stil*, da ein _expliziter Cast_ immer ein Hinweis auf einen nicht richtig definierten Typ ist, besser ist 
+ein generischer Typ
 
     ```java
     final Number l_pi = 3.14159;
     final int l_pi_int = l_pi.intValue();
-    final double l_pi_double = doubleValue();
+    final double l_pi_double = l_pi.doubleValue();
     ```
     
 ===
     
 ### @Let's try
 
-Führe den [Code](#/10/2) aus und gib die Werte von `myInt` und `pi` aus! Was beobachtest Du?
+Führe den [Code](#/10/2) aus und gib die Werte von `l_pi_int` und `l_pi` aus! Was beobachtest Du?
 
-Note: kein Compile-Fehler, aber nur ganzzahliger Anteil!
+Note: kein Compiler-Fehler, aber nur ganzzahliger Anteil!
 
 ---
 
@@ -412,7 +413,7 @@ Note: In ```s1.equals(s2)``` muss ```s1``` initialisiert sein &rarr; prüfen mit
         System.out.println( a + " ist positiv" );
 
     if ( a <= 0 ) 
-        System.out.println(a + ist "nichtpositiv");
+        System.out.println(a + "ist nichtpositiv");
     ```
 
 - Entweder-Oder
@@ -421,7 +422,7 @@ Note: In ```s1.equals(s2)``` muss ```s1``` initialisiert sein &rarr; prüfen mit
     if ( a > 0 ) 
         System.out.println(a + " ist positiv");
     else 
-        System.out.println(a + ist "nichtpositiv");
+        System.out.println(a + "ist nichtpositiv");
     ```
 
 ===
@@ -433,7 +434,7 @@ Note: In ```s1.equals(s2)``` muss ```s1``` initialisiert sein &rarr; prüfen mit
 - als Zuweisung 
 
     ```java
-    String l_result = (a > 0) ? "Wert ist positiv") : "Wert ist nicht positiv";
+    String l_result = (a > 0) ? "Wert ist positiv" : "Wert ist nicht positiv";
     ```
 
 - Oder etwas eleganter als Parameter
@@ -447,7 +448,7 @@ Note: In ```s1.equals(s2)``` muss ```s1``` initialisiert sein &rarr; prüfen mit
 ## @Let's try
 
 1. Erstellt eine Klasse ```Example1``` (Datei ```Example1.java```) mit einer ```main```-Methode.
-2. Probier die obigen Beispiele für ```if-else``` und den ternären Operator aus!
+2. Probiert die obigen Beispiele für ```if-else``` und den ternären Operator aus!
 
 ===
 
@@ -506,7 +507,7 @@ Note: Anweisung 1: 5<6, also wird a=b ausgeführt (if-Zweig) Anweisung 2: a <= b
 - Container mit fester Anzahl von Werten ([Details](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html))
 - alle Elemente sind vom [gleichen Typ](#/7)
 - Arrays können in Arrays verschachtelt werden
-- Elemente über eine Index-Variable beginnent bei 0 bis _Anzahl Element - 1_
+- Elemente über eine Index-Variable beginnend bei 0 bis _Anzahl Element - 1_
 - Beispiel aus [HelloWorld](#/1/1):  ```String[] p_args```
 
 ![Array Aufbau](images//array.png)
@@ -515,19 +516,19 @@ Note: Anweisung 1: 5<6, also wird a=b ausgeführt (if-Zweig) Anweisung 2: a <= b
 
 ### Array anlegen / initialisieren
 
-- Eindimensionaler Array &rarr; Aufzählung in geschweiften Klammern
+- Eindimensionales Array &rarr; Aufzählung in geschweiften Klammern
 
     ```java
 int[] l_highscores = {1000, 850, 600};
     ```
 
-- Eindimensionaler Array &rarr; leeres Arrayerzeugen und einzeln mit Werten füllen r
+- Eindimensionales Array &rarr; leeres Array erzeugen und einzeln mit Werten füllen r
 
     ```java
 int[] l_highscores = new int[10];
 l_highscores[0] = 471    ```
 
-- Mehrdimensionale Arrays &rarr; leeres Array mit ```new``` und zwei Größen erzeug
+- Mehrdimensionale Arrays &rarr; leeres Array mit ```new``` und zwei Größen erzeugt
 
      ```java
 // Namenstabelle mit 10 Zeilen, 15 Spalten
@@ -551,14 +552,14 @@ final int l_erstes = l_highscores[0];
 - Arrayelemente durchlaufen (iterieren) mit `for`-Schleife
 
 ```java
-for ( int i = =0; i < <highscores.length; i++ )
-    System.out.println(highscores[i]); 
+for ( int i = 0; i < l_highscores.length; i++ )
+    System.out.println(l_highscores[i]); 
 ```
 
 - Häufiger Fehler: Ungültiger Wert für Index &rarr; führt zu Laufzeitfehler
 
 ```java
-final    int[] highscores = {1000, 850, 600};
+final int[] highscores = {1000, 850, 600};
 //Zugriff auf viertes Element was nicht existiert
 final int l_wert = highscores[3]; 
 ``` 
@@ -585,12 +586,12 @@ public class CMeineListe
         final ArrayList<String> l_betreuer  =  new  ArrayList<>();
 
         // füge Elemente ein
-        betreuer.add( "Phil" );
-        betreuer.add( "Steffi");
-        betreuer.add( "Jörg" );
+        l_betreuer.add( "Phil" );
+        l_betreuer.add( "Steffi");
+        l_betreuer.add( "Jörg" );
 
         // gib alle Elemente aus (for-Schleife s.u.)
-        for ( final String l_name : betreuer)
+        for ( final String l_name : l_betreuer)
             System.out.println( l_name );
     }
 }
@@ -601,8 +602,8 @@ public class CMeineListe
 ### @Let's try
  Schreibe zunächst ein kleines Programm, in dem Du 
 
-1. einen ```Array``` Deiner Wahl deklarierst
-2. ihn initialisierst
+1. ein ```Array``` deiner Wahl deklarierst
+2. es initialisierst
 3. seine Werte ausliest und ausgibst 
 
 ===
@@ -611,7 +612,7 @@ public class CMeineListe
 
 Schreibe ein weiteres Programm, in dem Du 
 
-1. eine ```ArrayList``` Deiner Wahl deklarierst
+1. eine ```ArrayList``` deiner Wahl deklarierst
 2. sie mit Werten füllst
 3. und danach die Werte ausliest und ausgibst 
 
@@ -639,7 +640,7 @@ Schreibe ein weiteres Programm, in dem Du
 - Anm.: Das Wort "each" kommt darin nicht vor. Man nennt sie so, um sie von der ```for```-Schleife zu unterscheiden
 
 ```java
-final List<String> someList = new ArrayList<>();
+final ArrayList<String> someList = new ArrayList<>();
 // füge "Äpfel", "Birnen", "Pflaumen" zu someList hinzu
 for ( final String item : someList )
     System.out.println(item);
@@ -830,7 +831,7 @@ public class Div0Fehler
 ### @Profis: Diskussion
 
 - Ist es sinnvoll, auf Laufzeitfehler wie z.B. Division durch Null mit try-catch zu reagieren?
-- Wie könnte man sinnvoll den Fall abfangen, wenn der Nenner von einem Benutzer eingegeben wird?
+- Wie könnte man den Fall sinnvoll abfangen, in dem der Nenner von einem Benutzer eingegeben wird?
 
 Note: 1. Frage: eher sinnvoll für nutzerdefinierte DomänenExceptions, die mögliche aber inkorrekte Situationen (wie z.B. NutzerId unbekannt bei einer Registrierung) abbilden. -- 2. Frage Sicherstellen, dass das Programm korrekt aufgerufen wird: vor der Ausführung Eingabetypen prüfen
 
@@ -839,18 +840,18 @@ Note: 1. Frage: eher sinnvoll für nutzerdefinierte DomänenExceptions, die mög
 ## Stil ist alles
 
 - Damit Programme für andere lesbar sind, gibt es eine Reihe von Regeln und Konventionen bezüglich der Namensgebung und Groß-Klein-Schreibung
-- In Java sind die in sogenannten Coding Style Guides zusammengefasst
+- In Java sind sie in sogenannten Coding Style Guides zusammengefasst
 - Beispiel: [Google Java Coding Style](https://google.github.io/styleguide/javaguide.html)
-- In der Folge listen wir ein paar ausgewählte dieser Konventionen 
+- Nachfolgend listen wir ein paar ausgewählte Konventionen auf
 
 ===
 
 ### Konventionen zur Namensgebung 
 
 - Bei Variablennamen ist Groß-/Kleinschreibung relevant: 
-	- ```text``` und ```Text``` sind unterschiedliche Variable
+	- ```text``` und ```Text``` sind unterschiedliche Variablen
 - Variablen dürfen nur Zahlen, Buchstaben, oder \_ enthalten
-- Konstanten i.d.R.  in Großbuchstaben, Teilworte mit \_ getrennt, z.B. ```final String APP_NAME = “Meine App“;```
+- Konstanten i.d.R. in Großbuchstaben, Teilworte mit \_ getrennt, z.B. ```final String APP_NAME = “Meine App“;```
 - Konventionen
 	- Variablen- und Methodennamen beginnen mit Kleinbuchstaben, z.B. ```liste```, ```main``` <!-- $, \_ bei Variablen hab ich hier weggelassen, zuviel Detail -->
 	- Klassennamen beginnen mit Großbuchstaben
@@ -876,14 +877,14 @@ Im Abschnitt über Arrays haben wir das Problem kennengelernt, dass mit ungülti
 1. Schreibt ein Programm, in dem eine solche Situation auftritt
 2. Wie heisst die Exception, die hier "geworfen" wird?
 3. Überlegt, wie die Situation behandelt werden kann
-4. Erstellen einen entsprechenden Try-Catch-Block
-5. Compiliert das Programm und lassen es laufen
+4. Erstellt einen entsprechenden Try-Catch-Block
+5. Kompiliert das Programm und lasst es laufen
 
 ---
 
 ## @Home / Übung
 
-Schreiben ein Programm, das zwei Argumente von der Kommandozeile einliest, einen String und eine Zahl, und das den String so oft auf der Kommandozeile ausgibt, wie die Zahl angibt.
+Schreibt ein Programm, das zwei Argumente von der Kommandozeile einliest, einen String und eine Zahl, und das den String so oft auf der Kommandozeile ausgibt, wie die Zahl angibt.
 
 - Prüft die Typen der Eingaben
 - Bei einem leeren String sollte eine Fehlermeldung ausgegeben werden, dass der String leer ist
