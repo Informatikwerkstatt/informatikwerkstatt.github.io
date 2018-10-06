@@ -431,7 +431,7 @@ Note: Karton-Drone vorführen, um das Thema "Vererbung" einzuleiten und einen kl
 
 ## Vererbung
 
-> Vererbung ist die Möglichkeit in OOP Klassen miteinander in Beziehung zu setzen. Man nutzt die _Ähnlichkeit_ zwischen Klassen und gruppiert sie, dass man eben entweder _generalisiert_ oder _spezialisiert_. Man spricht bei der _Spezialisierung_ von _ableiten_, was einer _ist-ein_ Beziehung entspricht
+> Vererbung ist die Möglichkeit in OOP Klassen miteinander in Beziehung zu setzen. Man nutzt die _Ähnlichkeit_ zwischen Klassen und gruppiert sie, wobei man eben entweder _generalisiert_ oder _spezialisiert_. Man spricht bei der _Spezialisierung_ von _ableiten_, was einer _ist-ein_ Beziehung entspricht
 
 ===
 
@@ -440,7 +440,7 @@ Note: Karton-Drone vorführen, um das Thema "Vererbung" einzuleiten und einen kl
 ```java
 public class CSUV extends CAuto
 {
-  private final m_offroadFahrbar;
+  private final boolean m_offroadFahrbar;
 
   public CSUV()
   {
@@ -454,11 +454,11 @@ public class CSUV extends CAuto
     this( "rot", "VW", 5, 250, p_offroadFahrbar );
   }
 
-  public CAuto( final String p_farbe, final String p_marke, final int p_anzahlGaenge, final int p_maximaleGeschwindigkeit, final boolean p_offroadFahrbar )
+  public CSUV( final String p_farbe, final String p_marke, final int p_anzahlGaenge, final int p_maximaleGeschwindigkeit, final boolean p_offroadFahrbar )
   {
     // Aufruf des Konstruktur von CAuto
     super( p_farbe, p_marke, p_anzahlGaenge, p_maximaleGeschwindigkeit );
-    m_offroadFahrbar = _p_offroadFahrbar;
+    m_offroadFahrbar = p_offroadFahrbar;
 
   }
 }
@@ -471,9 +471,9 @@ public class CSUV extends CAuto
 <span class="rrd" data-rrd="Diagram(Terminal('public'), Terminal('class'), NonTerminal('Klassenname der abgeleiteten Klasse'), Optional(Sequence( Terminal('extends'), NonTerminal('Oberklasse')), 'skip'))"></span>
 
 * um von einer Klasse zu erben / abzuleiten, wird das Schlüssewort ```extends``` verwendet
-* ist eine Klasse mit ```public final class``` deklariert, kann diese nicht abgeleitet werden
-* mit ```super``` wird der Konstruktor der Oberklasse aufgerufen, dies muss die erste Zeile in dem abgeleiteten Konstruktor sein
-* eine Klasse kann mittels ```extends``` nur von _genau einer_ anderen Klass erben
+* ist eine Klasse mit ```public final class``` deklariert, kann von dieser nicht abgeleitet werden
+* mit ```super``` wird der Konstruktor der Oberklasse aufgerufen, dies muss in der ersten Zeile des abgeleiteten Konstruktor geschehen
+* eine Klasse kann mittels ```extends``` nur von _genau einer_ anderen Klasse erben
 
 ===
 
@@ -530,16 +530,16 @@ public class CAuto implements IFahrzeug
 
 <span class="rrd" data-rrd="Diagram(Terminal('public'), Terminal('class'), NonTerminal('Klassenname der abgeleiteten Klasse'), Optional(Sequence( Terminal('extends'), NonTerminal('Oberklasse')), 'skip'), Optional( Sequence(Terminal('implements'), OneOrMore( NonTerminal('Interface-Klasse'), Terminal(','))), 'skip'))"></span>
 
-* Interface werden mit ```implements``` vererbt
+* Klassen erben mittels ```implements``` von Interfaces
 * eine Klasse kann von mehreren Interfaces erben
-* Interface-Methoden _müssen_ implementiert werden
+* Alle geerbten Interface-Methoden _müssen_ implementiert werden
 * Implementierte Interface Methoden müssen mit der Annotation ```@Override``` versehen werden
 
 --- 
 
 ## Let's try
 
-1. Ergänze in dem Auto-Beispiel die SUV-Klasse und ergänze sie um einen passenden Getter
+1. Ergänze in dem Auto-Beispiel die SUV-Klasse und ergänze sie um eine passende Getter Methode
 2. Ergänze das Interface und die dazu gehörige Benutzung in der Auto-Klasse
 3. Schreibe ein Hauptprogramm, in dem einmal eine Variable vom Typ ```IFahrzeug``` erstellt wird, in der einmal ein Auto- und einmal eine SUV Objekt abgelegt wird
 4. Rufe dann die entsprechenden Methoden der jeweiligen Klassen auf
@@ -553,7 +553,7 @@ public class CAuto implements IFahrzeug
 1. Ergänze nun die Klassen für LKW und Motorrad mit passenden Methoden (Motorrad und LKW müssen je eine individuelle Eigenschaft mit Getter ggf mit Setter erhalten)
 2. Ergänze nun das Hauptprogramm um diese beiden neuen Objekte und führe es aus
 3. __@Profis__ Wie könnte man das [Diagramm](/#/15/2) sinnvoll mit Interfaces ergänzen?
-4. __@Profis__ Ergänze die SUV Klasse um verschiedene Farmodi (Outdoor, Offroad, Urban) mit Hilfe eines [Enums](https://www.baeldung.com/a-guide-to-java-enums)
+4. __@Profis__ Ergänze die SUV Klasse um verschiedene Fahrmodi (Outdoor, Offroad, Urban) mit Hilfe eines [Enums](https://www.baeldung.com/a-guide-to-java-enums)
 
 &rArr; Was stellst Du für diese beiden neuen Objekte fest?
 
@@ -821,7 +821,7 @@ Mit-1 & Mit-2 sind gleich
 * Wiederverwendung von Code
     * Ihr könnt Klassen, die Ihr oder andere Programmierer erstellt und getestet haben, in Euren Programmen verwenden
 * Leichte Austauschbarkeit und Fehlersuche: 
-    * Fehler können leicht auf einzelne Klassen zurückverfolgt werden 
+    * Fehler können leicht auf einzelne Klassen zurückgeführt werden 
     * Wenn eine bestimmte Klasse fehlerhaft oder sonst problematisch ist, kann sie einfach durch eine andere Klasse ersetzt werden
 
 ---
