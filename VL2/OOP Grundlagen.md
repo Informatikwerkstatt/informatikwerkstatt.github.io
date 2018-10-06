@@ -166,8 +166,8 @@ public CAuto( final String p_farbe, final String p_marke, final int p_anzahlGaen
 ## @Let's try
 
 1. Erstelle eine Klasse ```CAuto``` mit einer ```main()```-Methode (vollständiges Programm)
-2. Definiere ein paar Eigenschaften für Deine Klasse
-3. Erzeuge in der ```main()``` drei unterschiedliche Instanzen Deiner Klasse
+2. Definiere ein paar Eigenschaften für deine Klasse
+3. Erzeuge in der ```main()``` drei unterschiedliche Instanzen deiner Klasse
 4. Nutze ```System.out.println()```, um die Instanzen auszugeben. Was siehst Du? Was bedeutet das? 
 5. Prüfe die Identität der beiden oben definierten Variablen ```l_auto1``` und ```l_auto2``` in der ```main()```-Methode! Verwende den Operator ```==```. 
 
@@ -215,7 +215,7 @@ public class CAuto
 Nach Erzeugen einer Instanz von ```CAuto``` können die Methoden des Objektes aufgerufen werden
 
 ```java
-CAuto l_meinAuto = new CAuto("gelb", "opel", 140);
+CAuto l_meinAuto = new CAuto("gelb", "opel",5, 140);
 
 //schalte in den 2. Gang
 l_meinAuto.schalte(2);
@@ -268,7 +268,7 @@ public CAuto get()
 
 ## Setter
 
-> _Setter_ sind ebenfalls Methoden, meist mit ```set``` im Namen, die das gegenteil des Getters sind und Werte setzen. Die Werte, die über einen Setter gesetzt werden können, sollten __immer__ geprüft werden, damit das Objekt in einem konsistenten Zustand bleibt. Wenn ein fehlerhafter Wert übergeben wird kann mittels Werfen einen [Exception](/java-grundlagen/#/19) eine Fehlerbehandlung veranlasst werden
+> _Setter_ sind ebenfalls Methoden, meist mit ```set``` im Namen, die das gegenteil des Getters sind und Werte setzen. Die Werte, die über einen Setter gesetzt werden können, sollten __immer__ geprüft werden, damit das Objekt in einem konsistenten Zustand bleibt. Wenn ein fehlerhafter Wert übergeben wird kann mittels Werfen einer [Exception](/java-grundlagen/#/19) eine Fehlerbehandlung veranlasst werden
 
 ```java
   public void schalte( final int p_gang )
@@ -286,8 +286,8 @@ public CAuto get()
 ## @Let's try
 
 1. Erweitere die ```CAuto``` Klasse um die Eigenschaft _Leistung in KW_
-2. Schreibe dafür einen Getter und einen Setter mit entsprechender Überprüfung
-3. Ergänze eine Methode ```double getPS()```, der die KW Zahl in PS umrechnet, die [Formel](https://de.wikipedia.org/wiki/Pferdest%C3%A4rke) lautet: $KW \cdot 1.36 = PS$
+2. Schreibe dafür eine Getter und eine Setter Methode mit entsprechender Überprüfung
+3. Ergänze eine Methode ```double getPS()```, die die KW Zahl in PS umrechnet, die [Formel](https://de.wikipedia.org/wiki/Pferdest%C3%A4rke) lautet: $KW \cdot 1.36 = PS$
 4. __@Profis__: Wie könnte man sinnvoll die möglichen Gangwechsel definieren?
 
 ---
@@ -304,7 +304,7 @@ Mache die Methoden ```schalte()```, ```beschleunige()```, ```bremse(.)``` realis
 
 ## Ich sehe Dich - Sichtbarkeit
 
-> Bei [Methode](/#/7) wurden die drei Schlüsselwört ```public```, ```protected``` und ```private``` gezeigt, mit Hilfe dieser wird die so genannte _Sichtbarkeit_ festgelegt. Sichtbarkeiten können für Klassen, Eigenschaften und Methoden festgelegt werden
+> Bei [Methode](/#/7) wurden die drei Schlüsselwörter ```public```, ```protected``` und ```private``` gezeigt, mit dessen Hilfe die so genannte _Sichtbarkeit_ festgelegt wird. Sichtbarkeiten können für Klassen, Eigenschaften und Methoden festgelegt werden
 
 * ```public``` ist von überall sichtbar
 * ```protected``` ist nur in abgeleiteten Klassen sichtbar
@@ -318,9 +318,9 @@ Note: Erklärung anhand des Büros von Prof Müller: Sitzt Prof Müller während
 
 ## Es geht auch ohne Objekt &rarr; Static
 
-> Mit dem Schlüsselwort ```static``` ist es möglich Methoden oder Eigenschaften ohne Objekt benutzen zu können. Das bekannsteste Beispiel sind die [mathematische Funktionen](https://docs.oracle.com/javase/10/docs/api/java/lang/Math.html) z.B. ```Math.sin(3)```. Statische Methoden sind nützlich, wenn es sich um eine reine funktionale Struktur ohne Variablen etc.
+> Mit dem Schlüsselwort ```static``` ist es möglich Methoden oder Eigenschaften ohne Objekt zu benutzen. Das bekannsteste Beispiel sind die [mathematische Funktionen](https://docs.oracle.com/javase/10/docs/api/java/lang/Math.html) z.B. ```Math.sin(3)```. Statische Methoden sind nützlich, wenn es sich um eine rein funktionale Struktur ohne Variablen etc. handelt.
 
-&rArr; Hinweis: Aus _static_ Methoden kann man nur auf _static_ Eigenschaften & Methoden zugreifen, aber aus _nicht static_ Methoden, kann man auf alle zugreifen
+&rArr; Hinweis: Aus _static_ Methoden kann man nur auf _static_ Eigenschaften & Methoden zugreifen, aber aus _nicht static_ Methoden kann man auf alle zugreifen
 
 Note: Wozu kann man das Konzept von "static" sinnvoll verwenden? Problem: Seriennummer für die Autoklasse, wie lösen wir das?
 
@@ -386,8 +386,8 @@ public class CAuto
 ## @Let's try
 
 1. Ergänze die Definition der Klasse ```CAuto``` um die obigen Klassenvariablen
-2. Testet die Methoden zur Anzahl Autos und zur Seriennummer mit Hilfe eines Main-Programms
-3. Implementiert eine Seriennummer nach dem Schema: ```0-0, 0-1, 0-2, 0-3, 0-4, 0-5, 0-6, 0-7, 0-8, 0-9, 1-0...``` immer wenn die hintere Stelle 10 erreicht wird die vordere Stelle inkrementiert, die Seriennummer soll dann als String ausgegeben werden
+2. Teste die Methoden zur Anzahl Autos und zur Seriennummer mit Hilfe eines Main-Programms
+3. Implementiere eine Seriennummer nach dem Schema: ```0-0, 0-1, 0-2, 0-3, 0-4, 0-5, 0-6, 0-7, 0-8, 0-9, 1-0...``` immer wenn die hintere Stelle 10 erreicht wird die vordere Stelle inkrementiert, die Seriennummer soll dann als String ausgegeben werden
 
 Note: Karton-Drone vorführen, um das Thema "Vererbung" einzuleiten und einen kleinen Break zu haben
 
@@ -431,7 +431,7 @@ Note: Karton-Drone vorführen, um das Thema "Vererbung" einzuleiten und einen kl
 
 ## Vererbung
 
-> Vererbung ist die Möglichkeit in OPP Klassen miteinander in Beziehung zu setzen. Man nutzt die _Ähnlichkeit_ zwischen Klassen und gruppiert sie, dass man eben entweder _generalisiert_ oder _spezialisiert_. Man spricht bei der _Spezialisierung_ von _ableiten_, was einer _ist-ein_ Beziehung entspricht
+> Vererbung ist die Möglichkeit in OOP Klassen miteinander in Beziehung zu setzen. Man nutzt die _Ähnlichkeit_ zwischen Klassen und gruppiert sie, dass man eben entweder _generalisiert_ oder _spezialisiert_. Man spricht bei der _Spezialisierung_ von _ableiten_, was einer _ist-ein_ Beziehung entspricht
 
 ===
 
