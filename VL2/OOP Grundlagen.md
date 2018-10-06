@@ -704,7 +704,7 @@ Wird die ```toString()``` Methode nicht überladen erscheint ```COhneToString@e7
 <div>
 <pre><code class="lang-java">public class COhneEquals
 {
-  private final String m_message;
+  protected final String m_message;
 
   public COhneEquals( final String p_message )
   {
@@ -713,27 +713,25 @@ Wird die ```toString()``` Methode nicht überladen erscheint ```COhneToString@e7
 }
 </code></pre>
 
-<pre><code class="lang-java">public class CMitEquals
+<pre><code class="lang-java">public class CMitEquals extends COhneEquals
 {
-  private final String m_message;
-
   public CMitEquals( final String p_message )
   {
-    m_message = p_message;  
+      super( p_message );
   }
 
   // HashCode wird überladen und liefert den Hash-Code des internen Strings
   @Override
   public int hashCode()
   {
-    return m_message.hashCode();
+      return m_message.hashCode();
   }
 
   // Equals wird überladen, so dass HashCode aufgerufen wurde
   @Override
   public boolean equals( final Object p_object )
   {
-    return p_object instanceof CMitEquals && this.hashCode() == p_object.hashCode();
+      return p_object instanceof CMitEquals && this.hashCode() == p_object.hashCode();
   }
 }
 </code></pre>
