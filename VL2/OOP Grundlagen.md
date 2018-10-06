@@ -794,6 +794,7 @@ Mit-1 & Mit-2 sind gleich
 ---
 
 ## Packages
+
 * Hierarchische Organisation von Java-Klassen und Interfaces
 * Ähnlich zu Dateiordnern in Windows, ```.``` als Trennzeichen
 * Übersicht über alle Java SE Klassen [hier](https://download.java.net/java/early_access/jdk11/docs/api/java.base/module-summary.html)
@@ -811,28 +812,14 @@ Mit-1 & Mit-2 sind gleich
 
 ---
 
-## Zusammenfassung: Vorteile Objektorientierter Programmierung
+## Code Namenskonventionen
 
-* Modularität
-    * Quellcode einzelner Klassen kann unabhängig von dem anderer Klassen entwickelt und gepflegt werden
-    * An mehreren Stellen benötigte Funktionen müssen nur einmal definiert werden  
-* Information-hiding
-    * Da Interaktion mit einem Objekt nur über seine Methoden möglich ist, bleibt die interne Implementierung nach außen verborgen
-* Wiederverwendung von Code
-    * Ihr könnt Klassen, die Ihr oder andere Programmierer erstellt und getestet haben, in Euren Programmen verwenden
-* Leichte Austauschbarkeit und Fehlersuche: 
-    * Fehler können leicht auf einzelne Klassen zurückgeführt werden 
-    * Wenn eine bestimmte Klasse fehlerhaft oder sonst problematisch ist, kann sie einfach durch eine andere Klasse ersetzt werden
+* lokale Variablen (im Rumpf einer Methode verwendet) beginnen mit ```l_``` (außer Zählvariablen wie i, j, ...)
+* Instanzenvariablen beginnen mit ```m_``` (für engl. ```member```)
+* Klassenvariablen beginnen mit ```s_``` (für ```static```)
+* Parameter in Methodendefinitionen beginnen mit ```p_```
+* Namen von Interfaces beginnen mit ```I```, Namen von Klassen mit ```C```
 
----
-
-## Zusammenfassung: Konventionen bei Benennung von Variablen
-* In diesem Kapitel haben wir weitere Namenskonventionen eingeführt:
-    * lokale Variablen (im Rumpf einer Methode verwendet) beginnen mit ```l_``` (außer Zählvariablen wie i, j, $\ldots$)
-    * Instanzenvariablen beginnen mit ```m_``` (für engl. ```member```)
-    * Klassenvariablen beginnen mit ```s_``` (für ```static```)
-    * Parameter in Methodendefinitionen beginnen mit ```p_```
-    * Namen von Interfaces beginnen mit ```I```, Namen von Klassen mit ```C```
 ---
 
 ## Links
