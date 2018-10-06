@@ -698,7 +698,7 @@ Wird die ```toString()``` Methode nicht überladen erscheint ```COhneToString@e7
 
 ### equals() und hashCode() Beispiel
 
-> Objekte, die _inhaltlich identisch_ sind, sollen auch nach außen gleich sein
+> Objekte sollen nach außen gleich erscheinen, wenn sie _inhaltlich identisch_ sind
 
 <div class="flex">
 <div>
