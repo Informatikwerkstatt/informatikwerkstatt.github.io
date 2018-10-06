@@ -781,7 +781,7 @@ Mit-1 & Mit-2 sind gleich
 
 1. Ändere die Definition von ```CAuto``` und ```CSuv```, so dass sie das Interface ```IFahren``` implementieren.
 2. Denke Dir eine neue Klasse aus, die das Interface ```IFahren``` implementiert. Programmiere sie und teste sie in der ```main()```-Methode!
-3. Leite eine weitere Unterklasse aus ```CAuto``` ab. Überschreibe in der neuen Klasse mindestens eine Methode von ```CAuto``` und teste sie! 
+3. Leite eine weitere Unterklasse aus ```CAuto``` ab. Überlade in der neuen Klasse mindestens eine Methode von ```CAuto``` und teste sie! 
 
 ---
 
@@ -830,7 +830,7 @@ Mit-1 & Mit-2 sind gleich
 * Wiederverwendung von Code
     * Ihr könnt Klassen, die Ihr oder andere Programmierer erstellt und getestet haben, in Euren Programmen verwenden
 * Leichte Austauschbarkeit und Fehlersuche: 
-    * Fehler können leicht auf einzelne Klassen zurückverfolgt werden 
+    * Fehler können leicht auf einzelne Klassen zurückgeführt werden 
     * Wenn eine bestimmte Klasse fehlerhaft oder sonst problematisch ist, kann sie einfach durch eine andere Klasse ersetzt werden
 
 ---
