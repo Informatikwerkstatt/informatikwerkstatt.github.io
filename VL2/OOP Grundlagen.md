@@ -729,6 +729,9 @@ Wird die ```toString()``` Methode nicht überladen erscheint ```COhneToString@e7
     return m_message.hashCode();
   }
 
+  // Equals wird überladen, so dass zuerst auf die Klasse geprüft wird
+  // und dann wird der HashCode verglichen. Der HashCode muss nur innerhalb
+  // gleicher Klassen eindeutig sein
   @Override
   public boolean equals( final Object p_object )
   {
