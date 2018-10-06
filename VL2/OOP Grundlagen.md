@@ -600,20 +600,35 @@ public class CUeberladen
 > Jede nicht _final_ deklarierte Methode in einer Klasse, die nicht _final_ deklariert ist, oder bei einem Enum kann in jeder beliebigen Unterklasse überladen werden
 
 ```java
-public class CUeberladenOberklasse
+public class COberklasse
 {
   public void halloWelt()
   {
-    System.out.println( "Hallo Welt" );
+    System.out.println( "Hallo Welt Oberklasse" );
   }
 
   // -- final verhindert das weitere Überladen
   public final void foobar()
   {
-    System.out.println( " );
+    System.out.println( "Foobar Oberklasse" );
   }
-```
+}
 
+public class CUnterklasse extends COberklasse
+{
+  @Override
+  public void halloWelt()
+  {
+    System.out.println( "Hallo Welt Unterklasseklasse" );
+  }
+
+  // -- hier entsteht nun ein Compilerfehler !!
+  public final void foobar()
+  {
+    System.out.println( "Foobar Unterklasse" );
+  }
+}
+```
 
 === 
 
