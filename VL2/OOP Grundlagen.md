@@ -690,7 +690,8 @@ CMitToString@61064425: Hallo World
 
 ### equals() und hashCode()
 
-> Wird die ```toString()``` Methode nicht überladen erscheint ```COhneToString@e73f9ac``` (Klassenname und [Objekt-Hash](https://de.wikipedia.org/wiki/Hashfunktion)). Die [hexadezimale Zahl](https://de.wikipedia.org/wiki/Hexadezimalsystem) ist ein _eindeutiger Wert_, der durch die durch die Methode ```hashCode()``` erzeugt wird und das Objekt in der Java Runtime identifiziert. 
+Wird die ```toString()``` Methode nicht überladen erscheint ```COhneToString@e73f9ac``` (Klassenname und Hash-Wert). 
+> Die [hexadezimale Zahl](https://de.wikipedia.org/wiki/Hexadezimalsystem) ist ein _eindeutiger_ [Hash-Wert](https://de.wikipedia.org/wiki/Hashfunktion), der durch die durch die Methode ```hashCode()``` erzeugt wird und das Objekt in der Java Runtime identifiziert. 
 __Wichtige Regel:__ Wenn ```hashCode()``` überladen wird, muss auch die ```equals()``` Methode überladen werden musss und umgekehrt. Die ```equals()``` Methode wird bei einem Vergleich mittels ```==``` oder ```!=``` ausgeführt.
 
 ===
