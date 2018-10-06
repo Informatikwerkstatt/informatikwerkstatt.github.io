@@ -746,11 +746,11 @@ Wird die ```toString()``` Methode nicht überladen erscheint ```COhneToString@e7
 
     public static void main( final String[] p_args )
     {
-      final COhneEquals l_ohne1 = new COhneEquals( "test );
-      final COhneEquals l_ohne2 = new COhneEquals( "test );
+      final COhneEquals l_ohne1 = new COhneEquals( "test" );
+      final COhneEquals l_ohne2 = new COhneEquals( "test" );
 
-      final CMitEquals l_mit1 = new CMitEquals( "test );
-      final CMitEquals l_mit2 = new CMitEquals( "test );
+      final CMitEquals l_mit1 = new CMitEquals( "test" );
+      final CMitEquals l_mit2 = new CMitEquals( "test" );
 
 
       System.out.println( "Ohne-1 & Ohne-2 sind " + ( 
