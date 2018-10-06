@@ -597,8 +597,10 @@ public class CUeberladen
 
 ### Überladen bei Vererbung
 
-> Jede nicht _final_ deklarierte Methode in einer Klasse, die nicht _final_ deklariert ist, oder bei einem Enum kann in jeder beliebigen Unterklasse überladen werden
+> Jede nicht _final_ deklarierte Methode in einer Klasse, die nicht _final_ deklariert ist oder ein Enum ist, kann in jeder beliebigen Unterklasse überladen werden
 
+<div class="flex">
+<div>
 ```java
 public class COberklasse
 {
@@ -613,7 +615,10 @@ public class COberklasse
     System.out.println( "Foobar Oberklasse" );
   }
 }
-
+```
+</div>
+<div>
+```java
 public class CUnterklasse extends COberklasse
 {
   @Override
@@ -629,10 +634,14 @@ public class CUnterklasse extends COberklasse
   }
 }
 ```
+</div>
+</div>
 
 === 
 
 ### toString()
+
+> die Methode ```toString()``` 
 
 ===
 
