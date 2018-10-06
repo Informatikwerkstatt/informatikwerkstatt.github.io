@@ -750,8 +750,17 @@ Wird die ```toString()``` Methode nicht überladen erscheint ```COhneToString@e7
       final CMitEquals l_mit1 = new CMitEquals( "test );
       final CMitEquals l_mit2 = new CMitEquals( "test );
 
-      System.out.println( "Ohne-1 & Ohne-2 sind " + ( l_ohne1.equals( l_ohne2 ) ? "gleich" : "nicht gleich" ) );
-      System.out.println( "Mit-1 & Mit-2 sind " + ( l_mit1.equals( l_mit2 ) ? "gleich" : "nicht gleich" ) );
+
+      System.out.println( "Ohne-1 & Ohne-2 sind " + ( 
+        l_ohne1.equals( l_ohne2 ) 
+        ? "gleich" 
+        : "nicht gleich" ) 
+      );
+      System.out.println( "Mit-1 & Mit-2 sind " + ( 
+        l_mit1.equals( l_mit2 ) 
+        ? "gleich" 
+        : "nicht gleich" ) 
+      );
     }
 }
 </code></pre>
