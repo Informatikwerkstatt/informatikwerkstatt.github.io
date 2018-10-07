@@ -777,7 +777,7 @@ Mit-1 & Mit-2 sind gleich
 <div>
 </div>
 <div>
-![Package Baum](images/packagetree.png)
+![Package Baum](images/packagetree.png#half)
 </div>
 </div>
 
