@@ -129,6 +129,13 @@ public CAuto( final String p_farbe, final String p_marke, final int p_anzahlGaen
 
 ## Schlüsselwort ```this```
 
+> ```this``` ist innerhalb einer Klasse die Referenz (Zeiger) auf _sich selbst_ Nachdem ein Objekt im Speicher erzeugt wurde, ist ```this``` die Referenz auf diesen Speicherbereich.
+
+![this Illustration](images/this.png#center)
+
+
+===
+
 * Innerhalb jeder Methode gib es die Variable ```this```
 * Gibt die Referenz auf den Speicherbereich zurück, in dem das Objekt gespeichert ist
 * Nutzung für (1) Auflösung von Namenskonflikten und (2) beim Aufruf von Methoden und Konstruktoren
@@ -152,14 +159,6 @@ public CAuto( final String p_farbe, final String p_marke, final int p_anzahlGaen
   ``` 
 * Was passiert hier? 
 
-===
-
-### ```this```: Illustration des Beispiels
-
-* Das folgende Bild verdeutlicht noch einmal die Auswirkungen von ```new()``` und die Anwendung von ```this```
-* Variablen ```l_auto1``` und ```l_auto2``` zeigen auf dasselbe Objekt!
-
-![Beispiel this](images/2_new_this.png#center)
 
 ---
 
