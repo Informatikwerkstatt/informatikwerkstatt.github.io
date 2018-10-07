@@ -747,24 +747,6 @@ Mit-1 & Mit-2 sind gleich
 
 ---
 
-## @Home / Übung
-
-> Schreiben Sie ein Programm, mit dem man Brüche berechnen kann. 
-
-* Brüche sollen als Klassen mit Interfaces konstruiert werden
-* Berechnungsfunktionen als Methoden
-* Die Eingabe erfolgt über die Kommandozeile in der Form (siehe [Parameter von Main](/java-grundlagen/#/8/3))
-  
-  ```shell
-  java Bruch 1 / 2 + 3 / 4
-  ```
-   
-* Alle 4 [Operationen](https://de.wikipedia.org/wiki/Bruchrechnung#Rechnen_mit_Bruchtermen) (Addition, Subtraktion, Multiplikation, Division) müssen implementiert werden
-* Implementiere ```toString()```, ```equals()``` und ```hashCode()``` und ein Interface ```IBruch```
-* __Freiwillig:__ Implementation eines Algorithmus zum Kürzen des berechneten Bruchs, also aus $\frac{2}{4} \Rightarrow \frac{1}{2}$ und aus $\frac{2}{1} \Rightarrow 2$
-
----
-
 ## Packages
 
 <div class="flex">
@@ -793,11 +775,28 @@ Mit-1 & Mit-2 sind gleich
 
 ---
 
+## @Home / Übung
+
+> Schreiben Sie ein Programm, mit dem man Brüche berechnen kann. 
+
+* Brüche sollen als Klassen mit Interfaces konstruiert werden
+* Berechnungsfunktionen als Methoden
+* Die Eingabe erfolgt über die Kommandozeile in der Form (siehe [Parameter von Main](/java-grundlagen/#/8/3))
+  
+  ```shell
+  java Bruch 1 / 2 + 3 / 4
+  ```
+   
+* Alle 4 [Operationen](https://de.wikipedia.org/wiki/Bruchrechnung#Rechnen_mit_Bruchtermen) (Addition, Subtraktion, Multiplikation, Division) müssen implementiert werden
+* Implementiere ```toString()```, ```equals()``` und ```hashCode()``` und ein Interface ```IBruch```
+* __Freiwillig:__ Implementation eines Algorithmus zum Kürzen des berechneten Bruchs, also aus $\frac{2}{4} \Rightarrow \frac{1}{2}$ und aus $\frac{2}{1} \Rightarrow 2$
+
+---
+
 ## Links
 
 * [OOP Introduction on Oracle Java pages](https://docs.oracle.com/javase/tutorial/java/concepts/)
-* [OOP Tutorial Prof. Chua Hock Chuan, NTH Singapore](programming/java/J3a_OOPBasics.html) Ziemlich detaillierte akademische Einführung.
-* [dev.to page OOP introduction](https://dev.to/charanrajgolla/beginners-guide---object-oriented-programming) Informelle Einfühurung, nette Beispiele
-* [Java OOPS Concepts @beginnersbook.com](https://beginnersbook.com/2013/04/oops-concepts/) Unklar, wer dahinter steckt, sieht aber auf den ersten Blick ok aus. 
-* [Objektorientierung @java-tutorial.org](https://www.java-tutorial.org/objektorientierung.html) Sehr knappe Übersicht auf Deutsch.
-* [Objektorientierung @jaxenter.de](https://jaxenter.de/java-kurs-teil-3-49623) Ausführlichere Einführung auf Deutsch.
+* [dev.to page OOP introduction](https://dev.to/charanrajgolla/beginners-guide---object-oriented-programming)
+* [Java OOPS Concepts @beginnersbook.com](https://beginnersbook.com/2013/04/oops-concepts/)
+* [Objektorientierung @jaxenter.de](https://jaxenter.de/java-kurs-teil-3-49623)
+* [Java ist auch eine Insel](http://openbook.rheinwerk-verlag.de/javainsel/)
