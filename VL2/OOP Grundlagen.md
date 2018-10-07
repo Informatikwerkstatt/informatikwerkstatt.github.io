@@ -133,33 +133,6 @@ public CAuto( final String p_farbe, final String p_marke, final int p_anzahlGaen
 
 ![this Illustration](images/this.png#threequarter)
 
-
-===
-
-* Innerhalb jeder Methode gib es die Variable ```this```
-* Gibt die Referenz auf den Speicherbereich zurück, in dem das Objekt gespeichert ist
-* Nutzung für (1) Auflösung von Namenskonflikten und (2) beim Aufruf von Methoden und Konstruktoren
-* Beispiel: 
-  ```java
-    public Class CAuto
-    {
-      ...
-      public CAuto get()
-      {
-        return this;
-      }
-    }
-  ```
-* ... mit Aufruf:
-  ```java
-      final CAuto l_auto1 = new CAuto("rot", "lada", 5, 200);
-      final CAuto l_auto2 = l_auto1.get();
-
-      // l_auto1 und l_auto2 enthalten nun die gleiche Referenz
-  ``` 
-* Was passiert hier? 
-
-
 ---
 
 ## @Let's try
