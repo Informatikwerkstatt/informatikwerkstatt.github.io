@@ -80,17 +80,17 @@ Um zu
 
 ### Vorlesung (bis Dez)
 
-| Datum   | Thema |
-|:--------|:------|
-| 23. Okt | [Organisation](/organisation/) |
-| 24. Okt | [Java Grundlagen](/java-grundlagen/) |
-| 30. Okt | [OOP Grundlagen](/oop-grundlagen/) |
-| 07. Nov | [Git & Github Einführung](/git-github/) |
-| 14. Nov | [Android Grundlagen](/android-grundlagen/) |
-| 21. Nov | [User Interface](/user-interface/) |
-| 28. Nov | [Threads - Activities - Intent](/threads-activities-intent/) |
-| 05. Dez | [Fragmente & Persistenz](/fragment-persistenz/) |
-| 12. Dez | [Sensoren & Events](/sensoren-resourcen/) |
+| Datum   | Thema | Erläuterung |
+|:--------|:------|:------------|
+| 23. Okt | [Organisation](/organisation/) ||
+| 24. Okt | [Java Grundlagen](/java-grundlagen/) | Basiskonzepte von Programmiersprachen |
+| 30. Okt | [OOP Grundlagen](/oop-grundlagen/) | Strukturkonzepte von Programmiersprachen |
+| 07. Nov | [Git & Github Einführung](/git-github/) | Organisation von Software-Entwicklung |
+| 14. Nov | [Android Grundlagen](/android-grundlagen/) | Umgang mit Frameworks und Tools |
+| 21. Nov | [User Interface](/user-interface/) | Frontend-Entwicklung |
+| 28. Nov | [Threads - Activities - Intent](/threads-activities-intent/) | Backend-Entwicklung |
+| 05. Dez | [Fragmente & Persistenz](/fragment-persistenz/) | Wiederverwertbarkeit & Datenhaltung |
+| 12. Dez | [Sensoren & Events](/sensoren-resourcen/) | Interaktion zwischen Komponenten |
 
 ===
 
