@@ -85,8 +85,8 @@ Um zu
 | 23. Okt | [Organisation](/organisation/) |
 | 24. Okt | [Java Grundlagen](/java-grundlagen/) - Programmiersprachen Basiskonzepte|
 | 30. Okt | [OOP Grundlagen](/oop-grundlagen/) - Programmiersprachen Strukturkonzepte |
-| 07. Nov | [Git & Github Einführung](/git-github/) - Software-Entwicklung Organisation |
-| 14. Nov | [Android Grundlagen](/android-grundlagen/) - Frameworks und Tools |
+| 07. Nov | [Git & Github Einführung](/git-github/) - Software Entwicklungsorganisation |
+| 14. Nov | [Android Grundlagen](/android-grundlagen/) - Verwendung Frameworks und Tools |
 | 21. Nov | [User Interface](/user-interface/) - Frontend-Entwicklung |
 | 28. Nov | [Threads - Activities - Intent](/threads-activities-intent/) - Backend-Entwicklung |
 | 05. Dez | [Fragmente & Persistenz](/fragment-persistenz/) - Wiederverwertbarkeit & Datenhaltung |
