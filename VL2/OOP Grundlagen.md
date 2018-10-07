@@ -131,7 +131,7 @@ public CAuto( final String p_farbe, final String p_marke, final int p_anzahlGaen
 
 > ```this``` ist innerhalb einer Klasse die Referenz (Zeiger) auf _sich selbst_ Nachdem ein Objekt im Speicher erzeugt wurde, ist ```this``` die Referenz auf diesen Speicherbereich.
 
-![this Illustration](images/this.png#center)
+![this Illustration](images/this.png#threequarter)
 
 
 ===
