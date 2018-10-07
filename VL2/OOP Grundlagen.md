@@ -403,7 +403,7 @@ Note: Karton-Drone vorführen, um das Thema "Vererbung" einzuleiten und einen kl
 
 ## Vererbung
 
-> Vererbung ist die Möglichkeit in OOP Klassen miteinander in Beziehung zu setzen. Man nutzt die _Ähnlichkeit_ zwischen Klassen und gruppiert sie, wobei man eben entweder _generalisiert_ oder _spezialisiert_. Man spricht bei der _Spezialisierung_ von _ableiten_, was einer _ist-ein_ Beziehung entspricht
+> Vererbung ist die Möglichkeit Klassen miteinander in Beziehung zu setzen. Man nutzt die _Ähnlichkeit_ zwischen Klassen und gruppiert sie, wobei man eben entweder _generalisiert_ oder _spezialisiert_. Man spricht bei der _Spezialisierung_ von _ableiten_, was einer _ist-ein_ Beziehung entspricht
 
 ===
 
@@ -767,20 +767,19 @@ Mit-1 & Mit-2 sind gleich
 
 ## Packages
 
-* Hierarchische Organisation von Java-Klassen und Interfaces
-* Ähnlich zu Dateiordnern in Windows, ```.``` als Trennzeichen
-* Übersicht über alle Java SE Klassen [hier](https://download.java.net/java/early_access/jdk11/docs/api/java.base/module-summary.html)
-* Basisklassen wie ```String```, ```Math``` in Package ```java.lang```
-* Oft verwendet: Package ```java.util``` für Listen etc.
-* Package einer Klasse definieren: erste Anweisung in Java-Programm
-  ```java
-  package graphics;
-  ```
-* Organisationen verwenden umgekehrte Internet-Domain, z.B.
-  ```java
-  // Package mypackage der Org. sales.guugl.com
-  package com.guugl.sales.mypackage
-  ```
+<div class="flex">
+<ul>
+<li>Hierarchische Organisation von Java-Klassen und Interfaces</li>
+<li>Ähnlich zu Dateiordnern, Packagename in der Klasse muss identisch zum Speicherort der Java-Datei sein</li>
+<li>Werden Packages verwendet, dann muss als erste Zeile in der Klasse der Packagename mit dem Schlüsselwort ```package``` angegeben werden</li>
+<li>Übersicht über alle [Java Klassen](https://download.java.net/java/early_access/jdk11/docs/api/java.base/module-summary.html)</li>
+</ul>
+<div>
+</div>
+<div>
+![Package Baum](images/packagetree.png)
+</div>
+</div>
 
 ---
 
