@@ -262,6 +262,10 @@ Log.e( "berechnung", "hier ist eine Division durch null aufgetreten" );
 
 > Ein [Debugger](https://de.wikipedia.org/wiki/Debugger) ist ein Programm mit dessen Hilfe man ein Programm bei der Ausführung überwachen kann, um den realen Programmablauf zu analysieren. Ein [Breakpoint](https://de.wikipedia.org/wiki/Haltepunkt_%28Programmierung%29) ist eine markierte Stelle im Programm, an der der Debugger das Programm anhält, so dass man den aktuellen Zustand des Speichers / Variablenbelegung anschauen kann
 
+===
+
+### Debugger Anwendung
+
 <iframe class="video" src="https://player.vimeo.com/video/293911867" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
 
 ---
