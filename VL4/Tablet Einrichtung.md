@@ -101,7 +101,7 @@ __Tablet Einrichtung__
 <li>Es erscheint eine Liste von erreichbaren Wlan-Netzen, wählen Sie dort <i>TUC-Guest</i> aus</li>
 <li>Sie gelangen jetzt die zentrale EDUROAM-Anmeldeseite der TU Clausthal. Drücken Sie dort den Button <i>An eduroam anmelden</i></li></ol></div>
 <div>
-![Bei Eduroam anmelden](images/3-eduroam-anmelden.png#threequarter)
+![Bei Eduroam anmelden](images/einrichtung/3-eduroam-anmelden.png#threequarter)
 </div>
 </div>
 
@@ -117,7 +117,7 @@ __Tablet Einrichtung__
 <li>Sie gelangen auf die zentrale EDUROAM-ANmeldeseite der TU Clausthal. Drücken Sie dort den Button <i>An eduroam anmelden</i></li>
 <li>Auf der Doku-Wiki Webseite klicken Sie unter <i>Betriebssysteme</i> auf den Eintrag <i>android</i> </li></ol></div>
 <div>
-![USB Verbindung](images/2-dokuwiki-android#threequarter)
+![USB Verbindung](images/einrichtung/4-dokuwiki-android#threequarter)
 </div>
 </div>
 
@@ -148,7 +148,7 @@ oben rehct
   <li> Drücken Sie auf <i>Verbinden</i>, um sich mit eduroam zu verbinden. </li>
 </ol></div>
 <div>
-![USB Verbindung](images/2-dokuwiki-eduroam#threequarter)
+![USB Verbindung](images/einrichtung/5-dokuwiki-eduroam#threequarter)
 </div>
 </div>
 
