@@ -123,15 +123,26 @@ __Tablet Einrichtung__
 
 ## Tablet WLAN Einrichtung - Installation
 
-<-- TODO: auf mehrere Schritte verteilen -->
-oben rehct
 <div class="flex">
-<div><ol>
-<li>Schalten Sie Ihr Tablet ein </li>
-<li>Beim ersten Mal müssen Sie sich als neuen Nutzer einrichten. Berühren Sie dafür das Benutzersymbol oben rechts, wählen Sie dann <i>Nutzer hinzufügen</i> </li>
-<li> Entsperren Sie durch nach oben Wischen den Bildschirm (Muster wird in der Übung bekanntgegeben.</li>
-<li> Es erscheint eine Liste von erreichbaren Wlan-Netzen, wählen Sie dort <i>TUC-Guest</i> aus</li>
-<li>Sie gelangen auf die zentrale EDUROAM-ANmeldeseite der TU Clausthal. Drücken Sie dort den Button <i>An eduroam anmelden</i></li>
+<div><ol start="5">
+<li>Es erscheint eine Liste von erreichbaren Wlan-Netzen, wählen Sie dort <i>TUC-Guest</i> aus</li>
+<li>Sie gelangen jetzt zur zentralen eduroam-Anmeldeseite der TU Clausthal. Wählen Sie dort <i>An eduroam anmelden</i></li>
+<li>Auf der Doku-Wiki Webseite klicken Sie unter <i>Betriebssysteme</i> auf den Eintrag <i>android</i> </li>
+<li>Auf der nachfolgenden Seite arbeiten Sie die Punkte 1 bis 3 wie im Weiteren beschrieben ab, um die Installation abzuschließen.</li>
+<li>Nehmen Sie zunächst die Betriebsregelung für Ihre RZ-Kennung an. Klicken Sie auf den Link unter 1. </br>Lesen Sie die Betriebsregelung, scrollen Sie nach untern und drücken auf <i>Speichern</i></li></ol></div>
+<div>
+![Betriebsregelung](images/einrichtung/5-dokuwiki-eduroam.png#threequarter)
+</div>
+</div>
+
+---
+
+## Tablet WLAN Einrichtung - Installation
+
+<div class="flex">
+<div><ol start="5">
+<li>Es erscheint eine Liste von erreichbaren Wlan-Netzen, wählen Sie dort <i>TUC-Guest</i> aus</li>
+<li>Sie gelangen jetzt zur zentralen eduroam-Anmeldeseite der TU Clausthal. Wählen Sie dort <i>An eduroam anmelden</i></li>
 <li>Auf der Doku-Wiki Webseite klicken Sie unter <i>Betriebssysteme</i> auf den Eintrag <i>android</i> </li>
 <li>Auf der nachfolgenden Seite arbeiten Sie die Punkte 1 bis 3 wie im Weiteren beschrieben ab, um die Installation abzuschließen.</li>
 <li>Nehmen Sie zunächst die Betriebsregelung für Ihre RZ-Kennung an. Klicken Sie auf den Link unter 1. Lesen Sie die Betriebsregelung, scrollen Sie nach untern und drücken auf <i>Speichern</i></li>
@@ -146,12 +157,11 @@ oben rehct
   <li> Drücken Sie auf <i>Verbinden</i>, um sich mit eduroam zu verbinden. </li>
 </ol></div>
 <div>
-![USB Verbindung](images/einrichtung/5-dokuwiki-eduroam.png#threequarter)
+![EAP-PWD](images/einrichtung/6-dokuwiki-eappwd.png#threequarter)
 </div>
 </div>
 
 ---
-
 ## Anmelden mit Google Konto
 
 <!-- Anlegen eines Google Accounts und Eintrag ins Tablet -->
