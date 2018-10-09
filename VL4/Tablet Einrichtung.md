@@ -74,14 +74,30 @@ __Tablet Einrichtung__
 <div><ol>
 <li>Schalten Sie Ihr Tablet ein </li>
 <li>Beim ersten Mal müssen Sie sich als neuen Nutzer einrichten. Berühren Sie dafür das Benutzersymbol oben rechts, wählen Sie dann <i>Nutzer hinzufügen</i> </li>
-<li> Entsperren Sie durch <i>nach oben Wischen</i> den Bildschirm</li>
-<li> Es erscheint eine Liste von erreichbaren Wlan-Netzen, wählen Sie dort <i>TUC-Guest</i> aus</li></ol></div>
+<li> Entsperren Sie ggf. durch <i>nach oben Wischen</i> den Bildschirm</li>
+<li> Wählen Sie auf dem nächsten Sscreen <i>Weiter</i></li></ol></div>
 <div>
 ![Verbindung wählen](images/einrichtung/1-newuser.png#threequarter)
 </div>
 </div>
 ---
 
+## Tablet WLAN Einrichtung - Installation
+
+<div class="flex">
+<div><ol>
+<li>Schalten Sie Ihr Tablet ein </li>
+<li>Beim ersten Mal müssen Sie sich als neuen Nutzer einrichten. Berühren Sie dafür das Benutzersymbol oben rechts, wählen Sie dann <i>Nutzer hinzufügen</i> </li>
+<li> Entsperren Sie ggf. durch <i>nach oben Wischen</i> den Bildschirm</li>
+<li> Wählen Sie auf dem nächsten Sscreen <i>Weiter</i></li>
+<li> Es erscheint eine Liste von erreichbaren Wlan-Netzen, wählen Sie dort <i>TUC-Guest</i> aus</li>
+</ol></div>
+<div>
+![WLAN wählen](images/2-wlan#threequarter)
+</div>
+</div>
+
+---
 ## Tablet WLAN Einrichtung - Installation
 
 <div class="flex">
@@ -97,7 +113,6 @@ __Tablet Einrichtung__
 </div>
 
 ---
-
 ## Tablet WLAN Einrichtung - Installation
 
 <div class="flex">
