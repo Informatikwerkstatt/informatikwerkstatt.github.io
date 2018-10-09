@@ -90,7 +90,7 @@ __Tablet Einrichtung__
 <li>Es erscheint eine Liste von erreichbaren Wlan-Netzen, wählen Sie dort <i>TUC-Guest</i> aus</li>
 </ol></div>
 <div>
-![WLAN wählen](images/einrichtung/2-wlan#threequarter)
+![WLAN wählen](images/einrichtung/2-wlan.png#threequarter)
 </div>
 </div>
 
@@ -118,7 +118,7 @@ __Tablet Einrichtung__
 <li>Sie gelangen auf die zentrale EDUROAM-ANmeldeseite der TU Clausthal. Drücken Sie dort den Button <i>An eduroam anmelden</i></li>
 <li>Auf der Doku-Wiki Webseite klicken Sie unter <i>Betriebssysteme</i> auf den Eintrag <i>android</i> </li></ol></div>
 <div>
-![USB Verbindung](images/einrichtung/4-dokuwiki-android#threequarter)
+![USB Verbindung](images/einrichtung/4-dokuwiki-android.png#threequarter)
 </div>
 </div>
 
@@ -149,7 +149,7 @@ oben rehct
   <li> Drücken Sie auf <i>Verbinden</i>, um sich mit eduroam zu verbinden. </li>
 </ol></div>
 <div>
-![USB Verbindung](images/einrichtung/5-dokuwiki-eduroam#threequarter)
+![USB Verbindung](images/einrichtung/5-dokuwiki-eduroam.png#threequarter)
 </div>
 </div>
 
@@ -267,7 +267,7 @@ Bei Fehlern oder Problemen können Sie das Tablet auf Werkseinstellungen setzen.
 <li>Um das Tablet auf \textit{Werkseinstellungen} zu setzen, öffnen Sie im <i>Einstellungsmenu</i> die Optionen <i>Sichern &amp; Zurücksetzen</i></li>
 </ol></div>
 <div>
-![USB Verbindung](images/12-dev-factory#threequarter)
+![USB Verbindung](images/12-dev-factory.png#threequarter)
 </div>
 </div>
 
@@ -296,6 +296,6 @@ Bei Fehlern oder Problemen können Sie das Tablet auf Werkseinstellungen setzen.
 <li>Je nach Gerät muss ein anderes SDK installiert werden</li>
 <li>Manche Geräte werden nicht von Android Studio erkannt, hierzu ist es hilfreich ```MTP``` oder ```PTP``` auszuprobieren</li></ul></div>
 <div>
-![USB Verbindung](images/usb.jpg#threequarter)
+![Ein Bild](images/usb.jpg#threequarter)
 </div>
 </div>
