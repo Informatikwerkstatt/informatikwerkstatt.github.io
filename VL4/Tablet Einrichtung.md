@@ -124,10 +124,7 @@ __Tablet Einrichtung__
 ## Tablet WLAN Einrichtung - Installation
 
 <div class="flex">
-<div><ol start="5">
-<li>Es erscheint eine Liste von erreichbaren Wlan-Netzen, wählen Sie dort <i>TUC-Guest</i> aus</li>
-<li>Sie gelangen jetzt zur zentralen eduroam-Anmeldeseite der TU Clausthal. Wählen Sie dort <i>An eduroam anmelden</i></li>
-<li>Auf der Doku-Wiki Webseite klicken Sie unter <i>Betriebssysteme</i> auf den Eintrag <i>android</i> </li>
+<div><ol start="8">
 <li>Auf der nachfolgenden Seite arbeiten Sie die Punkte 1 bis 3 wie im Weiteren beschrieben ab, um die Installation abzuschließen.</li>
 <li>Nehmen Sie zunächst die Betriebsregelung für Ihre RZ-Kennung an. Klicken Sie auf den Link unter 1. </br>Lesen Sie die Betriebsregelung, scrollen Sie nach untern und drücken auf <i>Speichern</i></li></ol></div>
 <div>
@@ -156,7 +153,7 @@ __Tablet Einrichtung__
 <div><ol start="12">
 <li>Führen Sie jetzt Punkt 3 der Dokuwiki-Anleitung durch, um eduroam für Ihre Kennung zu konfigurieren. </br>Beachten Sie bei der Einstellung:
   <ul> 
-  <li>Stellen Sie unter <i>EAP-Methode</> den Wert <tt>PDW</tt> ein.</li>
+  <li>Stellen Sie unter <i>EAP-Methode</i> den Wert <tt>PDW</tt> ein.</li>
   <li>Geben Sie unter <i>Identität</i> ihre komplette RZ-Emailadresse ein, nicht nur den Namen</li>
   <li>Verwenden Sie ihr zuvor generiertes EAP-PWD-Passwort, <strong>NICHT</strong> das Passwort Ihrer RZ-Kennung</li>
   </ul>
