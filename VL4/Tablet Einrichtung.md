@@ -74,8 +74,8 @@ __Tablet Einrichtung__
 <div><ol>
 <li>Schalten Sie Ihr Tablet ein </li>
 <li>Beim ersten Mal müssen Sie sich als neuen Nutzer einrichten. Berühren Sie dafür das Benutzersymbol oben rechts, wählen Sie dann <i>Nutzer hinzufügen</i> </li>
-<li> Entsperren Sie ggf. durch <i>nach oben Wischen</i> den Bildschirm</li>
-<li> Wählen Sie auf dem nächsten Sscreen <i>Weiter</i></li></ol></div>
+<li>Entsperren Sie ggf. durch <i>nach oben Wischen</i> den Bildschirm</li>
+<li>Wählen Sie auf dem nächsten Sscreen <i>Weiter</i></li></ol></div>
 <div>
 ![Verbindung wählen](images/einrichtung/1-newuser.png#threequarter)
 </div>
@@ -88,9 +88,9 @@ __Tablet Einrichtung__
 <div><ol>
 <li>Schalten Sie Ihr Tablet ein </li>
 <li>Beim ersten Mal müssen Sie sich als neuen Nutzer einrichten. Berühren Sie dafür das Benutzersymbol oben rechts, wählen Sie dann <i>Nutzer hinzufügen</i> </li>
-<li> Entsperren Sie ggf. durch <i>nach oben Wischen</i> den Bildschirm</li>
-<li> Wählen Sie auf dem nächsten Sscreen <i>Weiter</i></li>
-<li> Es erscheint eine Liste von erreichbaren Wlan-Netzen, wählen Sie dort <i>TUC-Guest</i> aus</li>
+<li>Entsperren Sie ggf. durch <i>nach oben Wischen</i> den Bildschirm</li>
+<li>Wählen Sie auf dem nächsten Screen <i>Weiter</i></li>
+<li>Es erscheint eine Liste von erreichbaren Wlan-Netzen, wählen Sie dort <i>TUC-Guest</i> aus</li>
 </ol></div>
 <div>
 ![WLAN wählen](images/2-wlan#threequarter)
@@ -104,11 +104,12 @@ __Tablet Einrichtung__
 <div><ol>
 <li>Schalten Sie Ihr Tablet ein </li>
 <li>Beim ersten Mal müssen Sie sich als neuen Nutzer einrichten. Berühren Sie dafür das Benutzersymbol oben rechts, wählen Sie dann <i>Nutzer hinzufügen</i> </li>
-<li> Entsperren Sie durch nach oben Wischen den Bildschirm (Muster wird in der Übung bekanntgegeben.</li>
-<li> Es erscheint eine Liste von erreichbaren Wlan-Netzen, wählen Sie dort <i>TUC-Guest</i> aus</li>
-<li>Sie gelangen auf die zentrale EDUROAM-ANmeldeseite der TU Clausthal. Drücken Sie dort den Button <i>An eduroam anmelden</i></li></ol></div>
+<li>Entsperren Sie ggf. durch <i>nach oben Wischen</i> den Bildschirm</li>
+<li>Wählen Sie auf dem nächsten Screen <i>Weiter</i></li>
+<li>Es erscheint eine Liste von erreichbaren Wlan-Netzen, wählen Sie dort <i>TUC-Guest</i> aus</li>
+<li>Sie gelangen jetzt die zentrale EDUROAM-Anmeldeseite der TU Clausthal. Drücken Sie dort den Button <i>An eduroam anmelden</i></li></ol></div>
 <div>
-![USB Verbindung](images/2-eduroam-anmelden#threequarter)
+![USB Verbindung](images/3-eduroam-anmelden#threequarter)
 </div>
 </div>
 
