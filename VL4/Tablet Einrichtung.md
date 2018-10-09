@@ -17,7 +17,7 @@ __Tablet Einrichtung__
  <li> Das Tablet wurde auf Werkseinstellungen gesetzt; dies kann jederzeit wieder erfolgen, wenn nötig.</li>
  <li> Passwörter und persönliche Daten sollten mit Vorsicht gespeichert werden</li>
  <li> Am Ende der Veranstaltung werden die Daten auf dem Tablet <strong>gelöscht</strong>  </li>
- <li> In den folgenden Beispielen verwenden wir das <i>Android Acer Iconia One 10</i> Tablet mit <i>Android 7.1 Nougat</i></li>
+ <li> In dieser Anleitung verwenden wir das <i>Acer Iconia One 10</i> Tablet mit <i>Android 7.1 Nougat</i></li>
  <li> Die nachfolgenden Schritte lassen sich  (z.T. mit kleinen Abweichungen) auch für andere Android Geräte durchführen</li>
  <!-- Prüfen, ggf. bei größeren Abweichungen Anmerkungen -->
  </ul>
@@ -75,7 +75,7 @@ __Tablet Einrichtung__
 <li>Schalten Sie Ihr Tablet ein </li>
 <li>Beim ersten Mal müssen Sie sich als neuen Nutzer einrichten. Berühren Sie dafür das Benutzersymbol oben rechts, wählen Sie dann <i>Nutzer hinzufügen</i> </li>
 <li>Entsperren Sie ggf. durch <i>nach oben Wischen</i> den Bildschirm</li>
-<li>Wählen Sie auf dem nächsten Sscreen <i>Weiter</i></li></ol></div>
+<li>Wählen Sie auf dem nächsten Screen <i>Weiter</i></li></ol></div>
 <div>
 ![Verbindung wählen](images/einrichtung/1-newuser.png#threequarter)
 </div>
@@ -85,15 +85,11 @@ __Tablet Einrichtung__
 ## Tablet WLAN Einrichtung - Installation
 
 <div class="flex">
-<div><ol>
-<li>Schalten Sie Ihr Tablet ein </li>
-<li>Beim ersten Mal müssen Sie sich als neuen Nutzer einrichten. Berühren Sie dafür das Benutzersymbol oben rechts, wählen Sie dann <i>Nutzer hinzufügen</i> </li>
-<li>Entsperren Sie ggf. durch <i>nach oben Wischen</i> den Bildschirm</li>
-<li>Wählen Sie auf dem nächsten Screen <i>Weiter</i></li>
+<div><ol start="5">
 <li>Es erscheint eine Liste von erreichbaren Wlan-Netzen, wählen Sie dort <i>TUC-Guest</i> aus</li>
 </ol></div>
 <div>
-![WLAN wählen](images/2-wlan#threequarter)
+![WLAN wählen](images/einrichtung/2-wlan#threequarter)
 </div>
 </div>
 
@@ -101,15 +97,11 @@ __Tablet Einrichtung__
 ## Tablet WLAN Einrichtung - Installation
 
 <div class="flex">
-<div><ol>
-<li>Schalten Sie Ihr Tablet ein </li>
-<li>Beim ersten Mal müssen Sie sich als neuen Nutzer einrichten. Berühren Sie dafür das Benutzersymbol oben rechts, wählen Sie dann <i>Nutzer hinzufügen</i> </li>
-<li>Entsperren Sie ggf. durch <i>nach oben Wischen</i> den Bildschirm</li>
-<li>Wählen Sie auf dem nächsten Screen <i>Weiter</i></li>
+<div><ol start="5">
 <li>Es erscheint eine Liste von erreichbaren Wlan-Netzen, wählen Sie dort <i>TUC-Guest</i> aus</li>
 <li>Sie gelangen jetzt die zentrale EDUROAM-Anmeldeseite der TU Clausthal. Drücken Sie dort den Button <i>An eduroam anmelden</i></li></ol></div>
 <div>
-![USB Verbindung](images/3-eduroam-anmelden#threequarter)
+![Bei Eduroam anmelden](images/3-eduroam-anmelden.png#threequarter)
 </div>
 </div>
 
