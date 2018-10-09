@@ -19,7 +19,7 @@ __Tablet Einrichtung__
  <li> Das Gerät kann jederzeit auf Werkseinstellungen zurückgesetzt werden</li>
  <li> Am Ende der Veranstaltung werden die Daten auf dem Tablet gelöscht  </li>
  <li> In den Beispielen im Folgenden verwenden wir das Android Tablet Acer Iconia One 10 mit <i>Android 7.1 Nougat</i></li>
- <li>Die nachfolgenden Schritte lassen sich auch mit anderen Android Geräten durchführen</li>
+ <li> Die nachfolgenden Schritte lassen sich auch (z.T. mit kleinen Abweichungen) mit anderen Android Geräten durchführen</li>
  <!-- Prüfen, ggf. bei größeren Abweichungen Anmerkungen -->
  </ul>
  </div>
@@ -60,10 +60,10 @@ __Tablet Einrichtung__
 <div><ol>
 <li>Schalten Sie Ihr Tablet ein </li>
 <li>Beim ersten Mal müssen Sie sich als neuen Nutzer einrichten. Berühren Sie dafür das Benutzersymbol oben rechts, wählen Sie dann <i>Nutzer hinzufügen</i> </li>
-<li> Entsperren Sie durch nach oben Wischen den Bildschirm (Muster wird in der Übung bekanntgegeben.</li>
+<li> Entsperren Sie durch <i>nach oben Wischen</i> den Bildschirm</li>
 <li> </ol></div>
 <div>
-![USB Verbindung](images/0-welcome.png#threequarter)
+![Nutzer hinzufügen](images/0-welcome.png#threequarter)
 </div>
 </div>
 
@@ -75,10 +75,10 @@ __Tablet Einrichtung__
 <div><ol>
 <li>Schalten Sie Ihr Tablet ein </li>
 <li>Beim ersten Mal müssen Sie sich als neuen Nutzer einrichten. Berühren Sie dafür das Benutzersymbol oben rechts, wählen Sie dann <i>Nutzer hinzufügen</i> </li>
-<li> Entsperren Sie durch nach oben Wischen den Bildschirm (Muster wird in der Übung bekanntgegeben.</li>
+<li> Entsperren Sie durch <i>nach oben Wischen</i> den Bildschirm</li>. 
 <li> Es erscheint eine Liste von erreichbaren Wlan-Netzen, wählen Sie dort <i>TUC-Guest</i> aus</li></ol></div>
 <div>
-![USB Verbindung](images/???#threequarter)
+![Verbindung wählen](images/???#threequarter)
 </div>
 </div>
 ---
@@ -155,7 +155,7 @@ oben rehct
 <li>Wenn Sie noch kein Google-Konto besitzen, wählen Sie <i>Konto erstellen</i>. Sie können einen Nutzernamen für Ihr Konto wählen und erhalten ihre Google Emailadresse <tt>Nutzername@gmail.com</tt></li>
 <li>Melden Sie sich nun mit ihrer Google-Emailadresse und Google-Passwort an.</li>
 <li>Stimmen Sie der Datenschutzerklärung zu</li>
-<li>Akzeptieren Sie die Einstellungen für die Google-Dienste>7li>
+<li>Akzeptieren Sie die Einstellungen für die Google-Dienste</li>
 <li> Damit ist die WLAN-Einrichtung Ihres Tablets beendet.</li></ul></div>
 <div>
 ![USB Verbindung](images/7-google-anm.png#threequarter)
