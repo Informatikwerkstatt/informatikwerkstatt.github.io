@@ -32,7 +32,7 @@ __Tablet Einrichtung__
 <div class="flex">
 <div><ol>
 <li> Über die Tablet WLAN Einrichtung muss zunächst der Zugang zum Internet mit Ihrer RZ Kennung eingerichtet werden </li>
-<li> Mit Hilfe der Table Developer Einrichtung muss das Tablet in den <it>Entwickler-Modus</it> gesetzt werden, damit Daten und Apps mit dem PC  ausgetauscht werden können  </li>
+<li> Mit Hilfe der Table Developer Einrichtung muss das Tablet in den <i>Entwickler-Modus</i> gesetzt werden, damit Daten und Apps mit dem PC  ausgetauscht werden können  </li>
 <li> Zum Abschluss muss die Entwicklungsumgebung eingerichtet und an dem Tablet authorisiert werden, damit die entwickelten Programme auf dem Tablet ausgeführt werden können  </li>
  </ol>
  </div>
@@ -60,7 +60,7 @@ __Tablet Einrichtung__
 <li>Schalten Sie Ihr Tablet ein </li>
 <li>Beim ersten Mal müssen Sie sich als neuen Nutzer einrichten. Berühren Sie dafür das Benutzersymbol oben rechts, wählen Sie dann <i>Nutzer hinzufügen</i> </li>
 <li> Entsperren Sie durch <i>nach oben Wischen</i> den Bildschirm</li>
-<li> </ol></div>
+</ol></div>
 <div>
 ![Nutzer hinzufügen](images/0-welcome.png#threequarter)
 </div>
@@ -74,7 +74,7 @@ __Tablet Einrichtung__
 <div><ol>
 <li>Schalten Sie Ihr Tablet ein </li>
 <li>Beim ersten Mal müssen Sie sich als neuen Nutzer einrichten. Berühren Sie dafür das Benutzersymbol oben rechts, wählen Sie dann <i>Nutzer hinzufügen</i> </li>
-<li> Entsperren Sie durch <i>nach oben Wischen</i> den Bildschirm</li>. 
+<li> Entsperren Sie durch <i>nach oben Wischen</i> den Bildschirm</li>
 <li> Es erscheint eine Liste von erreichbaren Wlan-Netzen, wählen Sie dort <i>TUC-Guest</i> aus</li></ol></div>
 <div>
 ![Verbindung wählen](images/1-newuser.png#threequarter)
