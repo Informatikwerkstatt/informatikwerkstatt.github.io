@@ -14,12 +14,11 @@ __Tablet Einrichtung__
 <!-- Benutzerorganisation -->
 <div class="flex">
 <div><ul>
- <li> Das Tablet wurde auf Werkseinstellungen gesetzt</li>
+ <li> Das Tablet wurde auf Werkseinstellungen gesetzt; dies kann jederzeit wieder erfolgen, wenn nötig.</li>
  <li> Passwörter und persönliche Daten sollten mit Vorsicht gespeichert werden</li>
- <li> Das Gerät kann jederzeit auf Werkseinstellungen zurückgesetzt werden</li>
- <li> Am Ende der Veranstaltung werden die Daten auf dem Tablet gelöscht  </li>
- <li> In den Beispielen im Folgenden verwenden wir das Android Tablet Acer Iconia One 10 mit <i>Android 7.1 Nougat</i></li>
- <li> Die nachfolgenden Schritte lassen sich auch (z.T. mit kleinen Abweichungen) mit anderen Android Geräten durchführen</li>
+ <li> Am Ende der Veranstaltung werden die Daten auf dem Tablet <strong>gelöscht</strong>  </li>
+ <li> In den folgenden Beispielen verwenden wir das <i>Android Acer Iconia One 10</i> Tablet mit <i>Android 7.1 Nougat</i></li>
+ <li> Die nachfolgenden Schritte lassen sich  (z.T. mit kleinen Abweichungen) auch für andere Android Geräte durchführen</li>
  <!-- Prüfen, ggf. bei größeren Abweichungen Anmerkungen -->
  </ul>
  </div>
@@ -32,7 +31,7 @@ __Tablet Einrichtung__
 
 <div class="flex">
 <div><ol>
-<li> Über die Tablet WLAN Einrichtung muss der Zugang zum Internet eingerichtet werden. Dieser Schritt kann nicht übersprungen werden. Hierzu wird der Zugang über das Eduroam-Netz anhand Ihrer RZ Kennung hergestellt </li>
+<li> Über die Tablet WLAN Einrichtung muss zunächst der Zugang zum Internet mit Ihrer RZ Kennung eingerichtet werden </li>
 <li> Mit Hilfe der Table Developer Einrichtung muss das Tablet in den <it>Entwickler-Modus</it> gesetzt werden, damit Daten und Apps mit dem PC  ausgetauscht werden können  </li>
 <li> Zum Abschluss muss die Entwicklungsumgebung eingerichtet und an dem Tablet authorisiert werden, damit die entwickelten Programme auf dem Tablet ausgeführt werden können  </li>
  </ol>
@@ -41,10 +40,10 @@ __Tablet Einrichtung__
 
 ---
 
-## Table WLAN Einrichtung - Hinweise 
+## Tablet WLAN Einrichtung - Hinweise 
 
 <div class="flex">
-<div<ul>
+<div><ul>
 <li>Sie benötigen Ihre RZ-Kennung mit zugehörigem Passwort</li>
 <li>Allgemeine Informationen zur Einrichtung von IT-Diensten finden Sie [hier](https://doku.tu-clausthal.de)</li>
 <li>Infos zur Android-Einrichtung finden Sie [hier](https://doku.tu-clausthal.de/doku.php?id=campus-wlan_wituc_eduroam:wituc-zugangsanleitung_fuer_smartphones_mit_android)</li>
@@ -78,7 +77,7 @@ __Tablet Einrichtung__
 <li> Entsperren Sie durch <i>nach oben Wischen</i> den Bildschirm</li>. 
 <li> Es erscheint eine Liste von erreichbaren Wlan-Netzen, wählen Sie dort <i>TUC-Guest</i> aus</li></ol></div>
 <div>
-![Verbindung wählen](images/???#threequarter)
+![Verbindung wählen](images/1-newuser.png#threequarter)
 </div>
 </div>
 ---
