@@ -142,7 +142,7 @@ __Tablet Einrichtung__
 <li>Notieren Sie sich das generierte EAP-PWD-Passwort und nutzen Sie es für die folgenden Schritte! </li>
 </ol></div>
 <div>
-![EAP-PWD](images/einrichtung/6-dokuwiki-eappwd.png)
+![EAP-PWD](images/einrichtung/6-dokuwiki-eappwd.png#threequarter)
 </div>
 </div>
 
