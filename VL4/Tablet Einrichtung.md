@@ -62,7 +62,7 @@ __Tablet Einrichtung__
 <li> Entsperren Sie durch <i>nach oben Wischen</i> den Bildschirm</li>
 </ol></div>
 <div>
-![Nutzer hinzufügen](images/0-welcome.png#threequarter)
+![Nutzer hinzufügen](images/einrichtung/0-welcome.png#threequarter)
 </div>
 </div>
 
@@ -77,7 +77,7 @@ __Tablet Einrichtung__
 <li> Entsperren Sie durch <i>nach oben Wischen</i> den Bildschirm</li>
 <li> Es erscheint eine Liste von erreichbaren Wlan-Netzen, wählen Sie dort <i>TUC-Guest</i> aus</li></ol></div>
 <div>
-![Verbindung wählen](images/1-newuser.png#threequarter)
+![Verbindung wählen](images/einrichtung/1-newuser.png#threequarter)
 </div>
 </div>
 ---
