@@ -80,6 +80,7 @@ __Tablet Einrichtung__
 ![Verbindung wählen](images/einrichtung/1-newuser.png#threequarter)
 </div>
 </div>
+
 ---
 
 ## Tablet WLAN Einrichtung - Installation
@@ -213,6 +214,8 @@ https://developer.android.com/studio/debug/dev-options
 </div>
 </div>
 
+---
+
 ## Entwicklermodus einrichten - Einstellungen
 
 <div class="flex">
@@ -239,6 +242,7 @@ https://developer.android.com/studio/debug/dev-options
 </div>
 
 ---
+
 ## Entwicklermodus einrichten - Einstellungen
 
 <div class="flex">
@@ -254,6 +258,7 @@ https://developer.android.com/studio/debug/dev-options
 </div>
 
 ---
+
 ## Werkseinstellungen
 Bei Fehlern oder Problemen können Sie das Tablet auf Werkseinstellungen setzen. **Alle auf dem Tablet enthaltenen Daten werden damit gelöscht**</strong>** und Sie müssen die Einrichtung erneut durchführen
 <!-- resetten des Tablets, ggf Rücksprache mit Technikern -->
@@ -265,6 +270,7 @@ Bei Fehlern oder Problemen können Sie das Tablet auf Werkseinstellungen setzen.
 ![USB Verbindung](images/12-dev-factory#threequarter)
 </div>
 </div>
+
 ---
 
 ## Werkseinstellungen
@@ -279,6 +285,7 @@ Bei Fehlern oder Problemen können Sie das Tablet auf Werkseinstellungen setzen.
 ![USB Verbindung](images/13-dev-reset.png#threequarter)
 </div>
 </div>
+
 ---
 
 ## Entwicklungsumgebung
