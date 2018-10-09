@@ -140,24 +140,31 @@ __Tablet Einrichtung__
 ## Tablet WLAN Einrichtung - Installation
 
 <div class="flex">
-<div><ol start="5">
-<li>Es erscheint eine Liste von erreichbaren Wlan-Netzen, wählen Sie dort <i>TUC-Guest</i> aus</li>
-<li>Sie gelangen jetzt zur zentralen eduroam-Anmeldeseite der TU Clausthal. Wählen Sie dort <i>An eduroam anmelden</i></li>
-<li>Auf der Doku-Wiki Webseite klicken Sie unter <i>Betriebssysteme</i> auf den Eintrag <i>android</i> </li>
-<li>Auf der nachfolgenden Seite arbeiten Sie die Punkte 1 bis 3 wie im Weiteren beschrieben ab, um die Installation abzuschließen.</li>
-<li>Nehmen Sie zunächst die Betriebsregelung für Ihre RZ-Kennung an. Klicken Sie auf den Link unter 1. Lesen Sie die Betriebsregelung, scrollen Sie nach untern und drücken auf <i>Speichern</i></li>
+<div><ol start="10">
 <li>Generieren Sie als nächstes ihr EAP-PWD-Passwort wie unter Punkt 2 auf der Doku-Wiki-Seite beschrieben.</li>
-<li> Merken Sie sich das generierte EAP-PWD-Passwort und nutzen Sie es für die folgenden Schritte! </li>
-<li> Fuhren Sie jetzt Punkt 3 der Dokuwiki-Anleitung durch, um eduroam für Ihre Kennung zu konfigurieren. Beachten Sie bei der Einstellung, dass
+<li>Notieren Sie sich das generierte EAP-PWD-Passwort und nutzen Sie es für die folgenden Schritte! </li>
+</ol></div>
+<div>
+![EAP-PWD](images/einrichtung/6-dokuwiki-eappwd.png)
+</div>
+</div>
+
+---
+## Tablet WLAN Einrichtung - Installation
+
+<div class="flex">
+<div><ol start="12">
+<li>Führen Sie jetzt Punkt 3 der Dokuwiki-Anleitung durch, um eduroam für Ihre Kennung zu konfigurieren. </br>Beachten Sie bei der Einstellung:
   <ul> 
-  <li>Sie unter <i>Identität</i> ihre komplette RZ-Emailadresse eingeben, nicht nur den Namen</li>
-  <li>Sie ihr zuvor generiertes EAP-PWD-Passwort verwenden, NICHT das Passwort Ihrer RZ-Kennung</li>
+  <li>Stellen Sie unter <i>EAP-Methode</> den Wert <tt>PDW</tt> ein.</li>
+  <li>Geben Sie unter <i>Identität</i> ihre komplette RZ-Emailadresse ein, nicht nur den Namen</li>
+  <li>Verwenden Sie ihr zuvor generiertes EAP-PWD-Passwort, <strong>NICHT</strong> das Passwort Ihrer RZ-Kennung</li>
   </ul>
   </li>
   <li> Drücken Sie auf <i>Verbinden</i>, um sich mit eduroam zu verbinden. </li>
 </ol></div>
 <div>
-![EAP-PWD](images/einrichtung/6-dokuwiki-eappwd.png#threequarter)
+![eduroam Konfiguration](images/einrichtung/7-eduroam-konf.png#threequarter)
 </div>
 </div>
 
