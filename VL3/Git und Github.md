@@ -99,14 +99,26 @@ git config --global user.email johndoe.example.com
 
 ---
 
-## Wie initialisiere ich Repository?
+<!-- ## Wie initialisiere ich Repository? -->
 
 <!-- git init erklären -->
-
----
-- `git init` erzeugt im aktuellen Verzeichnis ein *.git* Unterverzeichnis
+<!-- - `git init` erzeugt im aktuellen Verzeichnis ein *.git* Unterverzeichnis
 - Dort werden alle relevanten Daten gespeichert
-- Sollten bereits Dateien dort vorhanden sein, werden diese zunächst nicht versioniert
+- Sollten bereits Dateien dort vorhanden sein, werden diese zunächst nicht versioniert -->
+
+## Clone
+
+<!-- wie holt man sich ein Repository -->
+
+- Ermöglicht eine lokale Kopie eines existierenden Remote-Repositorys
+- `git clone [url]` lädt jede einzelne Version jeder Datei in der Historie des Repositorys herunter
+- Lokale Kopie befindet sich dann im aktuell ausgewählten Verzeichnis
+- Vorgänge während des clone-Vorgangs:
+  - Anlegung eines Verzeichnises
+  - Initialisierung eines *.git* Verzeichnises (`git init`)
+  - Download aller Dateien
+  - Checkout einer Arbeitskopie der aktuellen Version
+- **Tipp**: Die benötigte URL findet man auf Github im jeweiligen Repository unter dem Punkt *Clone & Download*
 
 ---
 
@@ -139,7 +151,7 @@ git config --global user.email johndoe.example.com
   # Changes to be committed:
   #       new file:   helloworld.java
   ```
-  
+
   - In dieses Fenster schreibt man seine Commit-Nachricht
 - Mit `git commit -m "faster commit"` kann man sich diesen Schritt sparen
 - Git liefert nach Abschluss einige Details über den Commit:
@@ -156,6 +168,26 @@ git config --global user.email johndoe.example.com
   - Commit Nachrichten stellen also eine Art "Kommunikationsmittel" dar.
 - **Ziel**: Änderungen möglichst kurz aber trotzdem präzise zu beschreiben um anderen Leuten einen Überblick über gemachte Änderungen zu geben
 - [Tipps für eine gute Commit-Nachricht](https://wp-typ.de/entwicklung/gute-git-commits-schreiben/)
+
+===
+
+## Push & Pull
+
+<!-- wie wird ein locales mit einem remote Repository synchronisiert -->
+
+### Push
+- `git push {remote}{branch}` Verschiebt Commits vom lokalen Repository zum remote Repository
+  - z.B. `git push origin master` Verschiebt alle austehenden Commits vom lokalen master-Branch in den remote master-Branch (origin)
+  - es werden alle notwendigen Commits und internen Objekte (Dateien) übertragen
+
+===
+
+### Pull
+- `git pull` bringt dein lokales Repository auf den Stand des remote Repositorys
+- Verbindet zwei Funktionen:
+  - **fetch** : Lädt Änderungen herunter
+  - **merge** : Fügt remote Änderungen mit lokalen Änderungen zusammen
+- Da bei pull immer ein **merge** Prozess stattfindet, kann es hierbei zu Konflikten kommen
 
 ---
 
@@ -206,11 +238,7 @@ bin/**
 
 <!-- einmal ein komplettes Repository erstellen lassen und initial etwas committen -->
 
-1. Initialisiere in einem leeren Ordner ein neues Git-Repository
-2. Erstelle ebenfalls in diesem Ordner eine neue Java-Datei (z.B. eine Hello-World Datei) mit einem einfachen funktionsfähigen Programm
-3. Füge diese Datei dann zur Staging Area hinzu
-4. Vergewissere dich durch `git status`, dass die Datei wirklich hinzugefügt wurde
-5. Committe die Datei mit einer geeigneten Commit-Nachricht
+<!-- Philipps Beispiel einfügen -->
 
 ---
 
@@ -233,24 +261,61 @@ Note: Verweisen auf die zwei Protokollanten
 
 <!-- Branch lokal erstellen, zwischen Branches wechseln -->
 
-
 ---
 
 ## Was ist Github?
 
 <!-- was ist Github (Social Coding) -->
+- Bekannteste Open Source Plattform
+- Größte Code-Hosting Plattform
+  - Bereitstellung von Remote Repositorys
+- **Social Coding**
+  - Zusammen Software entwickeln (Open Source)
+  - Pull-Requests
+  - Einfaches Projektmanagement (Issues, Project-Boards)
 
 ---
 
 ## Github Account
 
 <!-- Account anlegen -->
+[Registrieren](https://github.com/)
+
+@Profi: [Github Student Pack](https://github.com/) Für alle die wirklich private Repositorys und noch andere Tools kostenlos möchten.
 
 ===
 
 ### SSH - Was hä?
 
 <!-- ssh-keygen einmal erläutern -->
+SSH-Keys ermöglichen eine Verbindung zu GitHub, ohne Eingabe von username und password.
+
+SSH-Key generieren:
+- `ls -al ~/.ssh` prüft, ob SSH-Keys existieren
+- `ssh-keygen -t rsa -b 4096 -C "Your E-Mail"` generiert einen neuen Key
+  - Default location: `/c/Users/**Nutzer**/.ssh/id_rsa`
+- `eval $(ssh-agent -s)` überprüft, ob der SSH-Agent-Prozess aktiv ist
+- `ssh-add ~/.ssh/id_rsa` fügt den Key zum SSH-Agent hinzu
+
+===
+
+SSH-Key mit Github verknüpfen:
+- `clip < ~/.ssh/id_rsa.pub` Kopiert den Key in die Zwischenablage
+- Auf Github unter **Settings**, **SSH and GPG keys** befindet sich **New SSH Key**
+    - Unter Key den kopierten Key einfügen
+    - Anschließend einen Titel geben der zum Gerät passt
+
+===
+
+SSH Verbindung testen:
+- `ssh -T git@github.com` Versucht eine SSH-Verbindung zu Github aufzubauen
+  - Warnungen mit einem **yes** bestätigen
+- Befehl sollte folgende Ausgabe liefern:
+```
+Hi **username**! You've successfully authenticated, but GitHub does not provide shell access.
+```
+
+[Probleme?](https://help.github.com/articles/connecting-to-github-with-ssh/)
 
 ---
 
@@ -263,48 +328,6 @@ Note: Verweisen auf die zwei Protokollanten
 ### Local & Remote
 
 <!-- was bedeutet local / remote Repository -->
-
----
-
-## Clone
-
-<!-- wie holt man sich ein Repository -->
-
-- Ermöglicht eine lokale Kopie eines existierenden Remote-Repositorys
-- `git clone [url]` lädt jede einzelne Version jeder Datei in der Historie des Repositorys herunter
-- Lokale Kopie befindet sich dann im aktuell ausgewählten Verzeichnis
-- Vorgänge während des clone-Vorgangs:
-  - Anlegung eines Verzeichnises
-  - Initialisierung eines *.git* Verzeichnises (`git init`)
-  - Download aller Dateien
-  - Checkout einer Arbeitskopie der aktuellen Version
-- **Tipp**: Die benötigte URL findet man auf Github im jeweiligen Repository unter dem Punkt *Clone & Download*
-
----
-
-## @Profi - Clone Recursive
-
-<!-- Submodule kurz anreißen und dazu rekursives Clonen erläutern und einmal den Befehlssyntax zeigen -->
-
----
-
-## Push & Pull
-
-<!-- wie wird ein locales mit einem remote Repository synchronisiert -->
-
-### Push
-- `git push {remote}{branch}` Verschiebt Commits vom lokalen Repository zum remote Repository
-  - z.B. `git push origin master` Verschiebt alle austehenden Commits vom lokalen master-Branch in den remote master-Branch (origin)
-  - es werden alle notwendigen Commits und internen Objekte (Dateien) übertragen
-
-===
-
-### Pull
-- `git pull` bringt dein lokales Repository auf den Stand des remote Repositorys
-- Verbindet zwei Funktionen:
-  - **fetch** : Lädt Änderungen herunter
-  - **merge** : Fügt remote Änderungen mit lokalen Änderungen zusammen
-- Da bei pull immer ein **merge** Prozess stattfindet, kann es hierbei zu Konflikten kommen
 
 ---
 
@@ -347,16 +370,23 @@ Note: Fragen, wie beide Protokolle gemergt werden sollen
 
 ---
 
-## Milestones
-
-<!-- was sind Milestones, wozu dienen sie -->
-
----
-
 ## Issue
 
 <!-- was sind Issues, wozu dienen sie -->
+- Issues sind eine Möglichkeit um Aufgaben, Verbesserungen oder Bugs zu erfassen
+- Issues können bestimmten Personen zugeordnet werden (Aufgabenverteilung)
+- Mithilfe von Labels werdeb Issues kategorisiert / organisiertes
 
+[Github Doku: Issues](https://guides.github.com/features/issues/)
+
+---
+
+## @Profi - Milestones
+
+<!-- was sind Milestones, wozu dienen sie -->
+- Sammlung von Issues
+- Zuordnung von mehreren Issues zu einem spezifischen Feature oder Projekt-Phase
+  - Bsp. Beta-Launch, May-Sprint oder UI-Design
 ---
 
 ## @Let's try
@@ -389,6 +419,7 @@ Note: Fragen, wie beide Protokolle gemergt werden sollen
 ## @Home
 
 * [Git Bash](https://git-scm.com/downloads)
+* [Github Desktop](https://desktop.github.com/)
 * [Git Kraken](https://www.gitkraken.com/)
 
 ---
