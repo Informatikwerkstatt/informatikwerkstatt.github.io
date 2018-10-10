@@ -104,7 +104,7 @@ Um zu
 | 01. Feb | 3. Milestone |
 | 08. Feb | 4. Milestone / Abschlusspräsentation |
 
-&rArr; zwei Industrievorträge - Termine werden noch bekannt gegeben
+&rArr; Industrievorträge - Termin(e) werden noch bekannt gegeben
 
 ---
 
