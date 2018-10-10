@@ -158,7 +158,7 @@ __Tablet Einrichtung__
   <li>Verwenden Sie ihr zuvor generiertes EAP-PWD-Passwort, <strong>NICHT</strong> das Passwort Ihrer RZ-Kennung</li>
   </ol>
   </li>
-  <li> Drücken Sie auf <i>Verbinden</i>, um sich mit eduroam zu verbinden. </li>
+  <li> <i>Verbinden</i> Sie sich dann mit eduroam. </li>
 </ol></div>
 <div>
 ![eduroam Konfiguration](images/einrichtung/7-eduroam-konf.png#threequarter)
