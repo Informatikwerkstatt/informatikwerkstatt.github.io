@@ -151,12 +151,12 @@ __Tablet Einrichtung__
 
 <div class="flex">
 <div><ol start="12">
-<li>Führen Sie jetzt Punkt 3 der Dokuwiki-Anleitung durch, um eduroam für Ihre Kennung zu konfigurieren. </br>Beachten Sie bei der Einstellung:
-  <ul> 
-  <li>Stellen Sie unter <i>EAP-Methode</i> den Wert <tt>PDW</tt> ein.</li>
+<li>Führen Sie jetzt Punkt 3 der Dokuwiki-Anleitung durch, um eduroam für Ihre Kennung zu konfigurieren. </br>Bitte b:
+  <ol> 
+  <li>Wählen Sie unter <i>EAP-Methode</i> den Wert <tt>PDW</tt></li>
   <li>Geben Sie bei <i>Identität</i> ihre RZ-Emailadresse ein, nicht nur den Namen</li>
   <li>Verwenden Sie ihr zuvor generiertes EAP-PWD-Passwort, <strong>NICHT</strong> das Passwort Ihrer RZ-Kennung</li>
-  </ul>
+  </ol>
   </li>
   <li> Drücken Sie auf <i>Verbinden</i>, um sich mit eduroam zu verbinden. </li>
 </ol></div>
