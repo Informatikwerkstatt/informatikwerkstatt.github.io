@@ -128,6 +128,11 @@
     display: flex;
     align-items: center;
   }
+
+  .reveal .flextop {
+    align-self: flex-start; 
+    padding-top: 1em;
+  }
   
   .reveal img[src$='#half'] {
     max-width: 50%;
