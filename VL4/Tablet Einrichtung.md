@@ -151,8 +151,8 @@ __Tablet Einrichtung__
 
 <div class="flex">
 <div><ol start="12">
-<li>Führen Sie jetzt Punkt 3 der Dokuwiki-Anleitung durch, um eduroam für Ihre Kennung zu konfigurieren. </br>Bitte b:
-  <ol> 
+<li>Führen Sie jetzt Punkt 3 der Dokuwiki-Anleitung durch, um eduroam für Ihre Kennung zu konfigurieren. </br>Bitte beachten:
+  <ol type="i"> 
   <li>Wählen Sie unter <i>EAP-Methode</i> den Wert <tt>PDW</tt></li>
   <li>Geben Sie bei <i>Identität</i> ihre RZ-Emailadresse ein, nicht nur den Namen</li>
   <li>Verwenden Sie ihr zuvor generiertes EAP-PWD-Passwort, <strong>NICHT</strong> das Passwort Ihrer RZ-Kennung</li>
@@ -171,9 +171,22 @@ __Tablet Einrichtung__
 <!-- Anlegen eines Google Accounts und Eintrag ins Tablet -->
 <div class="flex">
 <div><ol><li>Im nun erscheinenden Bildschirm (siehe Abb.) werden Sie aufgefordert, sich mit Ihrem Google-Konto anzumelden.</li>
-<li>Wenn Sie noch kein Google-Konto besitzen, wählen Sie <i>Konto erstellen</i>. </br>
-Sie können einen Nutzernamen für Ihr Konto wählen und erhalten ihre Google Emailadresse <tt>&lt;Nutzername&gt;@gmail.com</tt></li>
-<li>Melden Sie sich mit ihrer Google-Emailadresse und Google-Passwort an.</li>
+<li>Wenn Sie schon ein Google-Konto besitzen, gehen Sie weiter zur nächsten Folie</li>
+<li>Wählen Sie <i>Konto erstellen</i> </li>
+<li>Sie können einen Nutzernamen für Ihr Konto wählen und erhalten ihre Google Emailadresse <tt>&lt;Nutzername&gt;@gmail.com</tt></li>
+</ul></div>
+<div>
+![Google-Konto](images/einrichtung/8-google-anm.png#threequarter)
+</div>
+</div>
+
+---
+
+## Anmelden mit Google Konto
+
+<!-- Anlegen eines Google Accounts und Eintrag ins Tablet -->
+<div class="flex">
+<div><ol start="5"><li>Melden Sie sich mit ihrer Google-Emailadresse und Google-Passwort an</li>
 <li>Stimmen Sie der Datenschutzerklärung zu</li>
 <li>Akzeptieren Sie die Einstellungen für die Google-Dienste</li>
 <li>Damit ist die WLAN-Einrichtung Ihres Tablets beendet.</li></ul></div>
@@ -183,7 +196,6 @@ Sie können einen Nutzernamen für Ihr Konto wählen und erhalten ihre Google Em
 </div>
 
 ---
-
 ## Entwicklermodus
 
 <!-- Tablet in den Entwicklermodus setzen, je nach Androidversion ggf unterschiedlich 
