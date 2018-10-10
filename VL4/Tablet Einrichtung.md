@@ -56,7 +56,7 @@ __Tablet Einrichtung__
 ## Tablet WLAN Einrichtung - Installation
 
 <div class="flex">
-<div><ol>
+<div align="top"><ol>
 <li>Schalten Sie Ihr Tablet ein </li>
 <li>Beim ersten Mal müssen Sie sich als neuen Nutzer einrichten. Berühren Sie dafür das Benutzersymbol oben rechts, wählen Sie dann <i>Nutzer hinzufügen</i> </li>
 <li> Entsperren Sie durch <i>nach oben Wischen</i> den Bildschirm</li>
