@@ -173,7 +173,7 @@ __Tablet Einrichtung__
 <div><ol><li>Im nun erscheinenden Bildschirm (siehe Abb.) werden Sie aufgefordert, sich mit Ihrem Google-Konto anzumelden.</li>
 <li>Wenn Sie schon ein Google-Konto besitzen, gehen Sie weiter zur nächsten Folie</li>
 <li>Wählen Sie <i>Konto erstellen</i> </li>
-<li>Sie können einen Nutzernamen für Ihr Konto wählen und erhalten ihre Google Emailadresse <tt>&lt;Nutzername&gt;@gmail.com</tt></li>
+<li>Führen Sie den Dialog zur Erstellung des Kontos aus. Sie bekommen ihre <tt>@gmail.com</tt> Adresse und Passwort</li>
 </ul></div>
 <div>
 ![Google-Konto](images/einrichtung/8-1-google-anm.png#threequarter)
