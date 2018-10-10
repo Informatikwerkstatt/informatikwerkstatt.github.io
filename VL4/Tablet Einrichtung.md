@@ -176,7 +176,7 @@ __Tablet Einrichtung__
 <li>Sie können einen Nutzernamen für Ihr Konto wählen und erhalten ihre Google Emailadresse <tt>&lt;Nutzername&gt;@gmail.com</tt></li>
 </ul></div>
 <div>
-![Google-Konto](images/einrichtung/8-google-anm.png#threequarter)
+![Google-Konto](images/einrichtung/8-1-google-anm.png#threequarter)
 </div>
 </div>
 
@@ -191,7 +191,7 @@ __Tablet Einrichtung__
 <li>Akzeptieren Sie die Einstellungen für die Google-Dienste</li>
 <li>Damit ist die WLAN-Einrichtung Ihres Tablets beendet.</li></ul></div>
 <div>
-![Google-Konto](images/einrichtung/8-google-anm.png#threequarter)
+![Google-Konto](images/einrichtung/8-2-google-anm.png#threequarter)
 </div>
 </div>
 
