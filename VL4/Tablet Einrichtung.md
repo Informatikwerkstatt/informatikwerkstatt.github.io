@@ -272,12 +272,12 @@ Das Freischalten des Entwicklermodus ist etwas versteckt:
 
 ---
 
-## Werkseinstellungen
-Bei Fehlern oder Problemen können Sie das Tablet auf Werkseinstellungen setzen. **Alle auf dem Tablet enthaltenen Daten werden damit gelöscht**</strong>** und Sie müssen die Einrichtung erneut durchführen
+## Auf Werkszustand zurücksetzen
+Bei größeren Problemen können Sie das Tablet auf den \textit{Werkszustand} zurücksetzen. **Alle auf dem Tablet enthaltenen Daten werden damit gelöscht**</strong>** und Sie müssen die Einrichtung erneut durchführen
 <!-- resetten des Tablets, ggf Rücksprache mit Technikern -->
 <div class="flex">
 <div><ol>
-<li>Um das Tablet auf \textit{Werkseinstellungen} zu setzen, öffnen Sie im <i>Einstellungsmenu</i> die Optionen <i>Sichern &amp; Zurücksetzen</i></li>
+<li>Um das Tablet zurückzusetzen, öffnen Sie im <i>Einstellungsmenu</i> die Optionen <i>Sichern &amp; Zurücksetzen</i></li>
 </ol></div>
 <div>
 ![Save and Reset](images/einrichtung/14-dev-factory.png#threequarter)
@@ -286,16 +286,16 @@ Bei Fehlern oder Problemen können Sie das Tablet auf Werkseinstellungen setzen.
 
 ---
 
-## Werkseinstellungen
-Bei Fehlern oder Problemen können Sie das Tablet auf Werkseinstellungen setzen. **Alle auf dem Tablet enthaltenen Daten werden damit gelöscht**</strong>** und Sie müssen die Einrichtung erneut durchführen
+## Auf Werkszustand zurücksetzen
+Bei größeren Problemen können Sie das Tablet auf den \textit{Werkszustand} zurücksetzen. **Alle auf dem Tablet enthaltenen Daten werden damit gelöscht**</strong>** und Sie müssen die Einrichtung erneut durchführen
 <!-- resetten des Tablets, ggf Rücksprache mit Technikern -->
 <div class="flex">
 <div><ol>
-<li>Um das Tablet auf \textit{Werkseinstellungen} zu setzen, öffnen Sie im <i>Einstellungsmenu</i> die Optionen <i>Sichern &amp; Zurücksetzen</i></li>
-<li>Wählen Sie danach den Eintrag <i>Auf Werkszustand zurücksetzen</i> aus und bestätigen den Vorgang</li>
-<li>Der Vorgang dauert einige Zeit und das Gerät startet mit dem Startbildschirm</li></ol></div>
+<li>Um das Tablet zurückzusetzen, öffnen Sie im <i>Einstellungsmenu</i> die Optionen <i>Sichern &amp; Zurücksetzen</i></li>
+<li>Wählen Sie danach <i>Auf Werkszustand zurücksetzen</i> aus und bestätigen den Vorgang</li>
+<li>Der Vorgang dauert einige Zeit; das zurückgesetzte Gerät startet wieder mit dem Startbildschirm</li></ol></div>
 <div>
-![USB Verbindung](images/13-dev-reset.png#threequarter)
+![USB Verbindung](images/einrichtung/15-dev-reset.png#threequarter)
 </div>
 </div>
 
