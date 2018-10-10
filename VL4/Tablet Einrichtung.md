@@ -56,7 +56,7 @@ __Tablet Einrichtung__
 ## Tablet WLAN Einrichtung - Installation
 
 <div class="flex">
-<div><ol>
+<div class="flextop"><ol>
 <li>Schalten Sie Ihr Tablet ein </li>
 <li>Beim ersten Mal müssen Sie sich als neuen Nutzer einrichten. Berühren Sie dafür das Benutzersymbol oben rechts, wählen Sie dann <i>Nutzer hinzufügen</i> </li>
 <li> Entsperren Sie durch <i>nach oben Wischen</i> den Bildschirm</li>
@@ -71,7 +71,7 @@ __Tablet Einrichtung__
 ## Tablet WLAN Einrichtung - Installation
 
 <div class="flex">
-<div><ol>
+<div class="flextop"><ol>
 <li>Schalten Sie Ihr Tablet ein </li>
 <li>Beim ersten Mal müssen Sie sich als neuen Nutzer einrichten. Berühren Sie dafür das Benutzersymbol oben rechts, wählen Sie dann <i>Nutzer hinzufügen</i> </li>
 <li>Entsperren Sie ggf. durch <i>nach oben Wischen</i> den Bildschirm</li>
@@ -98,7 +98,7 @@ __Tablet Einrichtung__
 ## Tablet WLAN Einrichtung - Installation
 
 <div class="flex">
-<div><ol start="5">
+<div class="flextop"><ol start="5">
 <li>Es erscheint eine Liste von erreichbaren Wlan-Netzen, wählen Sie dort <i>TUC-Guest</i> aus</li>
 <li>Sie gelangen jetzt zur zentralen eduroam-Anmeldeseite der TU Clausthal. Wählen Sie dort <i>An eduroam anmelden</i></li></ol></div>
 <div>
@@ -110,12 +110,12 @@ __Tablet Einrichtung__
 ## Tablet WLAN Einrichtung - Installation
 
 <div class="flex">
-<div><ol start="5">
+<div class="flextop"><ol start="5">
 <li>Es erscheint eine Liste von erreichbaren Wlan-Netzen, wählen Sie dort <i>TUC-Guest</i> aus</li>
 <li>Sie gelangen jetzt zur zentralen eduroam-Anmeldeseite der TU Clausthal. Wählen Sie dort <i>An eduroam anmelden</i></li>
 <li>Auf der Doku-Wiki Webseite klicken Sie unter <i>Betriebssysteme</i> auf den Eintrag <i>android</i> </li></ol></div>
 <div>
-![USB Verbindung](images/einrichtung/4-dokuwiki-android.png#threequarter)
+![TUC-eduroam Seite](images/einrichtung/4-dokuwiki-android.png#threequarter)
 </div>
 </div>
 
@@ -124,7 +124,7 @@ __Tablet Einrichtung__
 ## Tablet WLAN Einrichtung - Installation
 
 <div class="flex">
-<div><ol start="8">
+<div class="flextop"><ol start="8">
 <li>Auf der nachfolgenden Seite arbeiten Sie die Punkte 1 bis 3 wie im Weiteren beschrieben ab, um die Installation abzuschließen.</li>
 <li>Nehmen Sie zunächst die Betriebsregelung für Ihre RZ-Kennung an. Klicken Sie auf den Link unter 1. </br>Lesen Sie die Betriebsregelung, scrollen Sie nach untern und drücken auf <i>Speichern</i></li></ol></div>
 <div>
@@ -137,7 +137,7 @@ __Tablet Einrichtung__
 ## Tablet WLAN Einrichtung - Installation
 
 <div class="flex">
-<div><ol start="10">
+<div class="flextop"><ol start="10">
 <li>Generieren Sie als nächstes ihr EAP-PWD-Passwort wie unter Punkt 2 auf der Doku-Wiki-Seite beschrieben.</li>
 <li>Notieren Sie sich das generierte EAP-PWD-Passwort und nutzen Sie es für die folgenden Schritte! </li>
 </ol></div>
@@ -150,7 +150,7 @@ __Tablet Einrichtung__
 ## Tablet WLAN Einrichtung - Installation
 
 <div class="flex">
-<div><ol start="12">
+<div class="flextop"><ol start="12">
 <li>Führen Sie jetzt Punkt 3 der Dokuwiki-Anleitung durch, um eduroam für Ihre Kennung zu konfigurieren. </br>Bitte beachten:
   <ol type="i"> 
   <li>Wählen Sie als <i>EAP-Methode</i> "PWD"</li>
@@ -170,7 +170,7 @@ __Tablet Einrichtung__
 
 <!-- Anlegen eines Google Accounts und Eintrag ins Tablet -->
 <div class="flex">
-<div><ol><li>Im nun erscheinenden Bildschirm (siehe Abb.) werden Sie aufgefordert, sich mit Ihrem Google-Konto anzumelden.</li>
+<div class="flextop"><ol><li>Im nun erscheinenden Bildschirm (siehe Abb.) werden Sie aufgefordert, sich mit Ihrem Google-Konto anzumelden.</li>
 <li>Wenn Sie schon ein Google-Konto besitzen, gehen Sie weiter zur nächsten Folie</li>
 <li>Wählen Sie <i>Konto erstellen</i> </li>
 <li>Führen Sie den Dialog zur Erstellung des Kontos aus. Sie bekommen ihre <tt>@gmail.com</tt> Adresse und Passwort</li>
@@ -186,7 +186,7 @@ __Tablet Einrichtung__
 
 <!-- Anlegen eines Google Accounts und Eintrag ins Tablet -->
 <div class="flex">
-<div><ol start="5"><li>Melden Sie sich mit ihrer Google-Emailadresse und Google-Passwort an</li>
+<div class="flextop"><ol start="5"><li>Melden Sie sich mit ihrer Google-Emailadresse und Google-Passwort an</li>
 <li>Stimmen Sie der Datenschutzerklärung zu</li>
 <li>Akzeptieren Sie die Einstellungen für die Google-Dienste</li>
 <li>Damit ist die WLAN-Einrichtung Ihres Tablets beendet.</li></ul></div>
@@ -214,7 +214,7 @@ https://developer.android.com/studio/debug/dev-options
 
 Das Freischalten des Entwicklermodus ist etwas versteckt:  
 <div class="flex">
-<div><ol>
+<div class="flextop"><ol>
 <li>Öffnen Sie die Einstellungen Ihres Android-Geräts und scrollen Sie zum Ende der Seite</li>
 <li>Öffnen Sie die Einstellung <i>Über das Tablet</i></li>
 </ul></div>
@@ -228,7 +228,7 @@ Das Freischalten des Entwicklermodus ist etwas versteckt:
 ## Entwicklermodus einrichten - Freischaltung
 
 <div class="flex">
-<div><ol>
+<div class="flextop"><ol>
 <li>Öffnen Sie die Einstellungen Ihres Android-Geräts und scrollen bis zum Ende</li>
 <li>Öffnen Sie die Einstellung <i>Über das Tablet</i></li>
 <li> Klicken Sie so oft auf den Eintrag <i>Build-Nummer</i>, bis Ihnen  die <i>verbleibenden Schritte zum Entwickler</i> angezeigt werden</li>
@@ -244,7 +244,7 @@ Das Freischalten des Entwicklermodus ist etwas versteckt:
 ## Entwicklermodus einrichten - Einstellungen
 
 <div class="flex">
-<div><ol start="5">
+<div class="flextop"><ol start="5">
 <li>Wechseln Sie zurück in das Menu <i>Einstellungen</i>; dort sollten Sie nun der Menu-Eintrag <i>Entwickleroptionen</i> sehen</li>
 </div>
 <div>
@@ -257,7 +257,7 @@ Das Freischalten des Entwicklermodus ist etwas versteckt:
 ## Entwicklermodus einrichten - Einstellungen
 
 <div class="flex">
-<div><ol start="5">
+<div class="flextop"><ol start="5">
 <li>Wechseln Sie zurück in das Menu Einstellungen; dort befindet sich nun der Menu-Eintrag <i>Entwickleroptionen</i></li>
 <li>Öffnen Sie die <i>Entwickleroptionen</i> und aktivieren Sie die Optionen <i>Aktiv lassen</i> und <i>USB-Debugging</i></li>
 </div>
@@ -271,7 +271,7 @@ Das Freischalten des Entwicklermodus ist etwas versteckt:
 ## Entwicklermodus einrichten - Einstellungen
 
 <div class="flex">
-<div><ol start="6">
+<div class="flextop"><ol start="6">
 <li>Wechseln Sie zurück in das Menu Einstellungen; dort befindet sich nun der Menu-Eintrag <i>Entwickleroptionen</i></li>
 <li>Öffnen Sie die <i>Entwickleroptionen</i> und aktivieren Sie die Optionen <i>Aktiv lassen</i> und <i>USB-Debugging</i></li>
 <li>Bestätigen Sie, dass das Debugging per USB-Anschluss erlaubt ist.</li>
@@ -288,7 +288,7 @@ Das Freischalten des Entwicklermodus ist etwas versteckt:
 Bei größeren Problemen können Sie das Tablet auf den \textit{Werkszustand} zurücksetzen. **Alle auf dem Tablet enthaltenen Daten werden damit gelöscht**</strong>** und Sie müssen die Einrichtung erneut durchführen
 <!-- resetten des Tablets, ggf Rücksprache mit Technikern -->
 <div class="flex">
-<div><ol>
+<div class="flextop"><ol>
 <li>Um das Tablet zurückzusetzen, öffnen Sie im <i>Einstellungsmenu</i> die Optionen <i>Sichern &amp; Zurücksetzen</i></li>
 </ol></div>
 <div>
@@ -302,7 +302,7 @@ Bei größeren Problemen können Sie das Tablet auf den \textit{Werkszustand} zu
 Bei größeren Problemen können Sie das Tablet auf den \textit{Werkszustand} zurücksetzen. **Alle auf dem Tablet enthaltenen Daten werden damit gelöscht**</strong>** und Sie müssen die Einrichtung erneut durchführen
 <!-- resetten des Tablets, ggf Rücksprache mit Technikern -->
 <div class="flex">
-<div><ol>
+<div class="flextop"><ol>
 <li>Um das Tablet zurückzusetzen, öffnen Sie im <i>Einstellungsmenu</i> die Optionen <i>Sichern &amp; Zurücksetzen</i></li>
 <li>Wählen Sie danach <i>Auf Werkszustand zurücksetzen</i> aus und bestätigen den Vorgang</li>
 <li>Der Vorgang dauert einige Zeit; das zurückgesetzte Gerät startet wieder mit dem Startbildschirm</li></ol></div>
