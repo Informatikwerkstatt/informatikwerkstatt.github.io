@@ -170,14 +170,15 @@ __Tablet Einrichtung__
 
 <!-- Anlegen eines Google Accounts und Eintrag ins Tablet -->
 <div class="flex">
-<div><ul><li>Im nun erscheinenden Bildschirm werden Sie aufgefordert, sich mit Ihrem Google-Konto anzumelden.</li>
-<li>Wenn Sie noch kein Google-Konto besitzen, wählen Sie <i>Konto erstellen</i>. Sie können einen Nutzernamen für Ihr Konto wählen und erhalten ihre Google Emailadresse <tt>Nutzername@gmail.com</tt></li>
-<li>Melden Sie sich nun mit ihrer Google-Emailadresse und Google-Passwort an.</li>
+<div><ol><li>Im nun erscheinenden Bildschirm (siehe Abb.) werden Sie aufgefordert, sich mit Ihrem Google-Konto anzumelden.</li>
+<li>Wenn Sie noch kein Google-Konto besitzen, wählen Sie <i>Konto erstellen</i>. </br>
+Sie können einen Nutzernamen für Ihr Konto wählen und erhalten ihre Google Emailadresse <tt>&lt;Nutzername&gt;@gmail.com</tt></li>
+<li>Melden Sie sich mit ihrer Google-Emailadresse und Google-Passwort an.</li>
 <li>Stimmen Sie der Datenschutzerklärung zu</li>
 <li>Akzeptieren Sie die Einstellungen für die Google-Dienste</li>
-<li> Damit ist die WLAN-Einrichtung Ihres Tablets beendet.</li></ul></div>
+<li>Damit ist die WLAN-Einrichtung Ihres Tablets beendet.</li></ul></div>
 <div>
-![USB Verbindung](images/7-google-anm.png#threequarter)
+![Google-Konto](images/einrichtung/8-google-anm.png#threequarter)
 </div>
 </div>
 
@@ -193,19 +194,20 @@ https://developer.android.com/studio/debug/dev-options
   * Das ist ein Betriebsmodus, in dem es möglich ist,
     * unsignierte Apps direkt auf das Tablet zu laden und auszuführen
     * direkt vom PC auf die Daten des Tablets zuzugreifen    
-  * Weiterhin kann im Entwicklermodus die Integrierte Entwicklungsumgebung (IDE) eine App direkt auf dem Tablet debuggen, um Fehler zu finden   
+  * Im Entwicklermodus kann die Integrierte Entwicklungsumgebung (IDE) eine App direkt auf dem Tablet debuggen, um Fehler zu finden 
 
 ---
 
 ## Entwicklermodus einrichten - Freischaltung
 
+Das Freischalten des Entwicklermodus ist etwas versteckt:  
 <div class="flex">
 <div><ol>
-<li>Öffnen Sie die Einstellungen Ihres Android-Geräts und scrollen bis zum Ende</li>
+<li>Öffnen Sie die Einstellungen Ihres Android-Geräts und scrollen Sie zum Ende der Seite</li>
 <li>Öffnen Sie die Einstellung <i>Über das Tablet</i></li>
 </ul></div>
 <div>
-![USB Verbindung](images/8-dev-about.png#threequarter)
+![Über das Tablet](images/einrichtung/9-dev-about.png#threequarter)
 </div>
 </div>
 
@@ -217,11 +219,24 @@ https://developer.android.com/studio/debug/dev-options
 <div><ol>
 <li>Öffnen Sie die Einstellungen Ihres Android-Geräts und scrollen bis zum Ende</li>
 <li>Öffnen Sie die Einstellung <i>Über das Tablet</i></li>
-<li> Klicken Sie so lange auf den Eintrag <i>Build-Nummer</i>, bis Ihnen die <i>verbleibenden Schritte zum Entwickler</i> angezeigt werden</li>
-<li> Klicken Sie solange weiter, bis Ihnen bestätigt wird, dass Sie jetzt Entwickler sind</li>
+<li> Klicken Sie so oft auf den Eintrag <i>Build-Nummer</i>, bis Ihnen  die <i>verbleibenden Schritte zum Entwickler</i> angezeigt werden</li>
+<li> Klicken Sie dann weiter, bis Ihnen bestätigt wird, dass Sie jetzt Entwickler sind</li>
 </ul></div>
 <div>
-![USB Verbindung](images/8-dev-buildnr.png#threequarter)
+![USB Verbindung](images/einrichtung/10-dev-buildnr.png#threequarter)
+</div>
+</div>
+
+---
+
+## Entwicklermodus einrichten - Einstellungen
+
+<div class="flex">
+<div><ol start="5">
+<li>Wechseln Sie zurück in das Menu <i>Einstellungen</i>; dort sollten Sie nun der Menu-Eintrag <i>Entwickleroptionen</i> sehen</li>
+</div>
+<div>
+![Entwickleroptionen](images/einrichtung/11-dev-options.png#threequarter)
 </div>
 </div>
 
@@ -232,9 +247,10 @@ https://developer.android.com/studio/debug/dev-options
 <div class="flex">
 <div><ol start="5">
 <li>Wechseln Sie zurück in das Menu Einstellungen; dort befindet sich nun der Menu-Eintrag <i>Entwickleroptionen</i></li>
+<li>Öffnen Sie die <i>Entwickleroptionen</i> und aktivieren Sie die Optionen <i>Aktiv lassen</i> und <i>USB-Debugging</i></li>
 </div>
 <div>
-![USB Verbindung](images/9-dev-options.png#threequarter)
+![Optionen aktivieren](images/einrichtung/12-dev-config.png#threequarter)
 </div>
 </div>
 
@@ -245,26 +261,12 @@ https://developer.android.com/studio/debug/dev-options
 <div class="flex">
 <div><ol start="6">
 <li>Wechseln Sie zurück in das Menu Einstellungen; dort befindet sich nun der Menu-Eintrag <i>Entwickleroptionen</i></li>
-<li> Öffnen Sie die <i>Entwickleroptionen</i> und aktivieren Sie die Optionen <i>Aktiv lassen</i> und <i>USB-Debugging</i></li>
-</div>
-<div>
-![USB Verbindung](images/10-dev-config.png#threequarter)
-</div>
-</div>
-
----
-
-## Entwicklermodus einrichten - Einstellungen
-
-<div class="flex">
-<div><ol start="6">
-<li>Wechseln Sie zurück in das Menu Einstellungen; dort befindet sich nun der Menu-Eintrag <i>Entwickleroptionen</i></li>
-<li> Öffnen Sie die <i>Entwickleroptionen</i> und aktivieren Sie die Optionen <i>Aktiv lassen</i> und <i>USB-Debugging</i></li>
-<li> Es ist jetzt eine Bestätigung erforderlich, dass das Debugging per USB-Anschluss erlaubt ist.</li>
+<li>Öffnen Sie die <i>Entwickleroptionen</i> und aktivieren Sie die Optionen <i>Aktiv lassen</i> und <i>USB-Debugging</i></li>
+<li>Bestätigen Sie, dass das Debugging per USB-Anschluss erlaubt ist.</li>
 <li> Die Einrichtung zum Entwickeln ist damit abgeschlossen</li>
 </div>
 <div>
-![USB Verbindung](images/11-dev-usbdebug.png#threequarter)
+![USB-Debugging erlauben](images/einrichtung/13-dev-usbdebug.png#threequarter)
 </div>
 </div>
 
@@ -278,7 +280,7 @@ Bei Fehlern oder Problemen können Sie das Tablet auf Werkseinstellungen setzen.
 <li>Um das Tablet auf \textit{Werkseinstellungen} zu setzen, öffnen Sie im <i>Einstellungsmenu</i> die Optionen <i>Sichern &amp; Zurücksetzen</i></li>
 </ol></div>
 <div>
-![USB Verbindung](images/12-dev-factory.png#threequarter)
+![Save and Reset](images/einrichtung/14-dev-factory.png#threequarter)
 </div>
 </div>
 
