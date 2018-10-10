@@ -101,9 +101,17 @@ Das [Linear Layout](https://developer.android.com/guide/topics/ui/layout/linear)
 
 Das [Grid View Layout](https://developer.android.com/guide/topics/ui/layout/gridview) ist aufgebaut wie ein Schachbrett. Die Anzahl der Zeilen und Spalten kann zur Laufzeit gesetzt werden. Es eignet sich gut für Darstellung von mehreren Thumbnails
 
-__Anmerkung der Dokumentation:__ For better performance and tooling support, you should instead build your layout with [ConstraintLayout](https://developer.android.com/training/constraint-layout/).
+__Anmerkung aus der Dokumentation:__ For better performance and tooling support, you should instead build your layout with [ConstraintLayout](https://developer.android.com/training/constraint-layout/).
 
 ![Grid View Layout - Quelle https://developer.android.com/guide/topics/ui/layout/gridview](https://developer.android.com/images/ui/gridview.png)
+
+===
+
+### Relative Layout
+
+> Relative Layouts sind _zurzeit_ die einfachste Möglichkeit um sehr gut strukturierte und flexible Layouts zu erzeugen. Der Kniff besteht dadurch, dass man die einzelnen Layout Elemente (Hierarchien) immer in Relation zu dem Parent-Element setzt. Somit richtet sich ein Kindelement immer nach dem Vaterelement aus
+
+<iframe class="video src="https://www.youtube.com/embed/CW7M_akbp64?rel=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
 
 ---
 

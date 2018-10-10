@@ -743,7 +743,7 @@ Wenn ein Programm "hängt", ist es manchmal unvermeidbar, den Prozess zu beenden
 
 ### Just Kill-it now
 
-<iframe src="https://player.vimeo.com/video/288322168" width="320" height="180" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe class="video" src="https://player.vimeo.com/video/288322168" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
 
 ---
 
