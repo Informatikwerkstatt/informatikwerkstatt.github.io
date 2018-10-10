@@ -86,7 +86,7 @@ __Tablet Einrichtung__
 ## Tablet WLAN Einrichtung - Installation
 
 <div class="flex">
-<div style="vertical-align: top;"><ol start="5">
+<div><ol start="5">
 <li>Es erscheint eine Liste von erreichbaren Wlan-Netzen, wählen Sie dort <i>TUC-Guest</i> aus</li>
 </ol></div>
 <div>
