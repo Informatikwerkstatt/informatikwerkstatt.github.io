@@ -10,9 +10,7 @@
     * [Tablet Einrichtung](/tablet-einrichtung/)
 * [VL5 - User Interface](/user-interface/)
 * [VL6 - Threads - Activities - Intent](/threads-activities-intent/)
-* [VL7 - Fragmente & Persistenz](/fragment-persistenz/)
-* [VL8 - Sensoren & Resourcen](/sensoren-resourcen/)
-* [VL9 - Addons](/addons/)
+* [VL7 - Sensoren & Persistenz](/sensoren-persistenz/)
 
 ### Tastatursteuerung der Folien
 

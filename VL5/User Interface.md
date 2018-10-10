@@ -49,16 +49,26 @@ Eine [ViewGroup](https://developer.android.com/reference/android/view/ViewGroup)
 
 ===
 
-### Edittext
+### Übersicht
+
+* Edittext
+* Textview
+* Button
 
 
 ===
 
-### Textview
+### Toast
+
+<!-- https://developer.android.com/guide/topics/ui/notifiers/toasts -->
 
 ===
 
-### Button
+### Dialog
+
+<!-- 
+https://developer.android.com/guide/topics/ui/dialogs
+https://developer.android.com/reference/android/content/DialogInterface -->
 
 ---
 
@@ -112,29 +122,42 @@ https://code.tutsplus.com/tutorials/android-from-scratch-understanding-adapters-
 
 ---
 
-## Struktur verleihen - Gestaltung
-
----
-
-## @Let's try
-
----
-
 ## Layout-Eigenschaften
 
 ---
 
-## @Let's try
+## Struktur verleihen - Trick & Kniffe
+
+<!-- 
+https://developer.android.com/design/
+
+https://android-developers.googleblog.com/2011/09/thinking-like-web-designer.html
+
+https://android-developers.googleblog.com/2009/02/android-layout-tricks-1.html 
+https://android-developers.googleblog.com/2009/03/android-layout-tricks-3-optimize-by.html
+https://android-developers.googleblog.com/2009/03/android-layout-tricks-3-optimize-with.html
+https://developer.android.com/training/improving-layouts/optimizing-layout
+-->
 
 ---
 
-## Layout Inflater - Pump it up
+## @Let's try
 
-<!-- https://developer.android.com/reference/android/view/LayoutInflater -->
+<!-- Ein paar Buttons, bei denen ein Dialog, Toast erscheint und ein Text aus einem Editorfeld eingelesen und in etwas anderes eingesetzt wird -->
 
 ---
 
-## @Let's try
+## Recycling von Layout - Fragments
+
+<!-- https://android-developers.googleblog.com/2009/02/android-layout-tricks-2-reusing-layouts.html -->
+
+---
+
+## Fragmente Lifetime
+
+---
+
+## Dynamische Oberflächen
 
 ---
 

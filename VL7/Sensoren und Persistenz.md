@@ -1,10 +1,10 @@
 ---
 layout: slide
-permalink: /sensoren-resourcen/
+permalink: /sensoren-persistenz/
 ---
 
 # Informatikwerkstatt
-__Sensoren & Events__
+__Sensoren & Persistenz__
 
 ---
 
@@ -41,4 +41,24 @@ https://developer.android.com/guide/topics/connectivity/nfc/
 
 ---
 
-## Alternativen
+## Wie heißt Du? - JSON
+
+===
+
+### Aufbau & Datentypen
+
+---
+
+## Persistenz
+
+---
+
+## Rein und Raus des Status Quo
+
+---
+
+## @Let's try
+
+---
+
+## @Profi - Serialisierung

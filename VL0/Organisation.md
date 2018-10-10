@@ -89,8 +89,7 @@ Um zu
 | 14. Nov | [Android Grundlagen](/android-grundlagen/) - Verwendung Frameworks und Tools |
 | 21. Nov | [User Interface](/user-interface/) - Frontend-Entwicklung |
 | 28. Nov | [Threads - Activities - Intent](/threads-activities-intent/) - Backend-Entwicklung |
-| 05. Dez | [Fragmente & Persistenz](/fragment-persistenz/) - Wiederverwertbarkeit & Datenhaltung |
-| 12. Dez | [Sensoren & Events](/sensoren-resourcen/) - Interaktion zwischen Komponenten |
+| 05. Dez | [Sensoren & Persistenz](/sensoren-persistenz/) - Interaktion zwischen Komponenten |
 
 ===
 
