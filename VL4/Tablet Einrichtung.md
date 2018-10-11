@@ -18,7 +18,7 @@ __Tablet Einrichtung__
  <li> Passwörter und persönliche Daten sollten mit Vorsicht gespeichert werden</li>
  <li> Am Ende der Veranstaltung werden die Daten auf dem Tablet <strong>gelöscht</strong>  </li>
  <li> In dieser Anleitung verwenden wir das <i>Acer Iconia One 10</i> Tablet mit <i>Android 7.1 Nougat</i></li>
- <li> Die nachfolgenden Schritte lassen sich  (z.T. mit kleinen Abweichungen) auch für andere Android Geräte durchführen</li>
+ <li> Die nachfolgenden Schritte lassen sich  (z.T. mit kleinen Abweichungen) auch für andere Android Geräte (z.B. Nexus, HTC) durchführen</li>
  <!-- Prüfen, ggf. bei größeren Abweichungen Anmerkungen -->
  </ul>
  </div>
@@ -75,7 +75,7 @@ __Tablet Einrichtung__
 <li>Schalten Sie Ihr Tablet ein </li>
 <li>Beim ersten Mal müssen Sie sich als neuen Nutzer einrichten. Berühren Sie dafür das Benutzersymbol oben rechts, wählen Sie dann <i>Nutzer hinzufügen</i> </li>
 <li>Entsperren Sie ggf. durch <i>nach oben Wischen</i> den Bildschirm</li>
-<li>Wählen Sie auf dem nächsten Screen <i>Weiter</i></li></ol></div>
+<li>Wählen Sie auf dem nächsten Screen "Neuen Nutzer eintragen" die Option <i>Weiter</i></li></ol></div>
 <div>
 ![Verbindung wählen](images/einrichtung/1-newuser.png#threequarter)
 </div>
@@ -113,7 +113,7 @@ __Tablet Einrichtung__
 <div class="flextop"><ol start="5">
 <li>Es erscheint eine Liste von erreichbaren Wlan-Netzen, wählen Sie dort <i>TUC-Guest</i> aus</li>
 <li>Sie gelangen jetzt zur zentralen eduroam-Anmeldeseite der TU Clausthal. Wählen Sie dort <i>An eduroam anmelden</i></li>
-<li>Auf der Doku-Wiki Webseite klicken Sie unter <i>Betriebssysteme</i> auf den Eintrag <i>android</i> </li></ol></div>
+<li>Dort klicken Sie unter <i>Betriebssysteme</i> auf den Eintrag <i>android</i> </li></ol></div>
 <div>
 ![TUC-eduroam Seite](images/einrichtung/4-dokuwiki-android.png#threequarter)
 </div>
@@ -126,7 +126,8 @@ __Tablet Einrichtung__
 <div class="flex">
 <div class="flextop"><ol start="8">
 <li>Auf der nachfolgenden Seite arbeiten Sie die Punkte 1 bis 3 wie im Weiteren beschrieben ab, um die Installation abzuschließen.</li>
-<li>Nehmen Sie zunächst die Betriebsregelung für Ihre RZ-Kennung an. Klicken Sie auf den Link unter 1. </br>Lesen Sie die Betriebsregelung, scrollen Sie nach untern und drücken auf <i>Speichern</i></li></ol></div>
+<li>Nehmen Sie zunächst die Betriebsregelung für Ihre RZ-Kennung an. Klicken Sie auf den Link unter 1. Lesen Sie die Betriebsregelung, scrollen Sie nach untern und drücken auf <i>Speichern</i></li>
+<li>Kehren Sie wieder zur eduroam-Anmeldeseite der TU Clausthal zurück, um Punkt 2 zu bearbeiten!</li> </ol></div>
 <div>
 ![Betriebsregelung](images/einrichtung/5-dokuwiki-eduroam.png#threequarter)
 </div>
@@ -137,9 +138,10 @@ __Tablet Einrichtung__
 ## Tablet WLAN Einrichtung - Installation
 
 <div class="flex">
-<div class="flextop"><ol start="10">
+<div class="flextop"><ol start="11">
 <li>Generieren Sie als nächstes ihr EAP-PWD-Passwort wie unter Punkt 2 auf der Doku-Wiki-Seite beschrieben.</li>
 <li>Notieren Sie sich das generierte EAP-PWD-Passwort und nutzen Sie es für die folgenden Schritte! </li>
+<li>Kehren Sie wieder zur eduroam-Anmeldeseite der TU Clausthal zurück, um Punkt 3 zu bearbeiten!</li>
 </ol></div>
 <div>
 ![EAP-PWD](images/einrichtung/6-dokuwiki-eappwd.png#threequarter)
@@ -150,7 +152,7 @@ __Tablet Einrichtung__
 ## Tablet WLAN Einrichtung - Installation
 
 <div class="flex">
-<div class="flextop"><ol start="12">
+<div class="flextop"><ol start="14">
 <li>Führen Sie jetzt Punkt 3 der Dokuwiki-Anleitung durch, um eduroam für Ihre Kennung zu konfigurieren. </br>Bitte beachten:
   <ol type="i"> 
   <li>Wählen Sie als <i>EAP-Methode</i> "PWD"</li>
@@ -189,6 +191,7 @@ __Tablet Einrichtung__
 <div class="flextop"><ol start="5"><li>Melden Sie sich mit ihrer Google-Emailadresse und Google-Passwort an</li>
 <li>Stimmen Sie der Datenschutzerklärung zu</li>
 <li>Akzeptieren Sie die Einstellungen für die Google-Dienste</li>
+<li> U.U. werden Sie von Google noch um Angabe von Zahlungsinfos  oder um Einrichtung ihrer Email  gebeten. Überspringen Sie das durch  Auswahl <i>Nein danke! bzw. <i>Später!</i>
 <li>Damit ist die WLAN-Einrichtung Ihres Tablets beendet.</li></ul></div>
 <div>
 ![Google-Konto](images/einrichtung/8-2-google-anm.png#threequarter)
