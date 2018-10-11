@@ -285,7 +285,8 @@ Das Freischalten des Entwicklermodus ist etwas versteckt:
 ---
 
 ## Auf Werkszustand zurücksetzen
-Bei größeren Problemen können Sie das Tablet auf den \textit{Werkszustand} zurücksetzen. **Alle auf dem Tablet enthaltenen Daten werden damit gelöscht**</strong>** und Sie müssen die Einrichtung erneut durchführen
+
+Bei größeren Problemen können Sie das Tablet auf den *Werkszustand* zurücksetzen. **Alle auf dem Tablet enthaltenen Daten werden damit gelöscht** und Sie müssen die Einrichtung erneut durchführen
 <!-- resetten des Tablets, ggf Rücksprache mit Technikern -->
 <div class="flex">
 <div class="flextop"><ol>
