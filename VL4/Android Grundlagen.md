@@ -272,11 +272,13 @@ Log.e( "berechnung", "hier ist eine Division durch null aufgetreten" );
 
 ## Die Alternative
 
-> Als Alternative zu _Java_ mit _Android Studio_ gibt es das Framework [React Native](https://facebook.github.io/react-native/) für die App Entwicklung. Der Vorteil ist, dass die Code-Basis für die Webseite (inkl. mobile Version) und Mobile-App identisch ist und somit eine höhere Wiederverwertbarkeit mit kürzerer Entwicklungszeit des Codes ermöglicht wird
+> Als Alternative zu _Java_ mit _Android Studio_ gibt es das Framework [React Native](https://facebook.github.io/react-native/) für die App Entwicklung.
 
 * [React](https://reactjs.org/) ist 2013 erschienen  (2015 publiziert von Facebook unter aktueller OpenSource Lizenz)
 * [JavaScript](https://de.wikipedia.org/wiki/JavaScript) ist die verwendete Programmiersprache<sup>1</sup>
 * [Instagramm](https://instagram-engineering.com/react-native-at-instagram-dd828a9a90c7), [Facebook](https://code.fb.com/android/dive-into-react-native-performance/) und [Pinterest](https://medium.com/@Pinterest_Engineering/supporting-react-native-at-pinterest-f8c2233f90e6) nutzen das Framework
+* die Code-Basis ist durch das Framework für die Webseite (inkl. mobile Version) und Mobile-App identisch
+* somit ist die Wiederverwertbarkeit mit kürzerer Entwicklungszeit möglich
 
 <small>1: Java & JavaScript sind zwei völlig unterschiedliche Programmiersprachen</small>
 
