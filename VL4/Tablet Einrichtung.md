@@ -191,7 +191,7 @@ __Tablet Einrichtung__
 <div class="flextop"><ol start="5"><li>Melden Sie sich mit ihrer Google-Emailadresse und Google-Passwort an</li>
 <li>Stimmen Sie der Datenschutzerklärung zu</li>
 <li>Akzeptieren Sie die Einstellungen für die Google-Dienste</li>
-<li> U.U. werden Sie von Google noch um Angabe von Zahlungsinfos  oder um Einrichtung ihrer Email  gebeten. Überspringen Sie das durch  Auswahl <i>Nein danke! bzw. <i>Später!</i>
+<li> U.U. werden Sie von Google um Angabe von Zahlungsinfos  oder Einrichtung ihrer Email  gebeten. Überspringen Sie das durch  Auswahl <i>Nein danke!</i> bzw. <i>Später!</i>
 <li>Damit ist die WLAN-Einrichtung Ihres Tablets beendet.</li></ul></div>
 <div>
 ![Google-Konto](images/einrichtung/8-2-google-anm.png#threequarter)
@@ -303,7 +303,7 @@ Bei größeren Problemen können Sie das Tablet auf den *Werkszustand* zurückse
 ---
 
 ## Auf Werkszustand zurücksetzen
-Bei größeren Problemen können Sie das Tablet auf den \textit{Werkszustand} zurücksetzen. **Alle auf dem Tablet enthaltenen Daten werden damit gelöscht**</strong>** und Sie müssen die Einrichtung erneut durchführen
+Bei größeren Problemen können Sie das Tablet auf den \Werkszustand zurücksetzen. **Alle auf dem Tablet enthaltenen Daten werden damit gelöscht**</strong>** und Sie müssen die Einrichtung erneut durchführen
 <!-- resetten des Tablets, ggf Rücksprache mit Technikern -->
 <div class="flex">
 <div class="flextop"><ol>
