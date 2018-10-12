@@ -270,6 +270,21 @@ Log.e( "berechnung", "hier ist eine Division durch null aufgetreten" );
 
 ---
 
+## Die Alternative
+
+Als Alternative zu _Java_ mit _Android Studio_ gibt es das Framework [React Native](https://facebook.github.io/react-native/) für die App Entwicklung
+
+* [React](https://reactjs.org/) ist 2013 erschienen  (2015 publiziert von Facebook unter aktueller OpenSource Lizenz)
+* [JavaScript](https://de.wikipedia.org/wiki/JavaScript) ist die eingesetzte Programmiersprache<sup>1</sup> entwickelt
+* Facebook ist der Enntwickler von React / React Native
+* Plattformen wie [Instagramm](https://instagram-engineering.com/react-native-at-instagram-dd828a9a90c7), [Facebook](https://code.fb.com/android/dive-into-react-native-performance/) und [Pinterest](https://medium.com/@Pinterest_Engineering/supporting-react-native-at-pinterest-f8c2233f90e6) setzen auf diese Frameworks
+
+&rArr; Vorteil dieses Frameworks ist, dass der Code für Webseite (inkl. mobile Version) und Mobile-App auf die gleiche Code-Basis aufsetzen und somit eine höhere Wiederverwertbarkeit des Codes möglich ist
+<br/>
+<small>1: Java & JavaScript sind zwei völlig unterschiedliche Programmiersprachen</small>
+
+---
+
 ## @Übung
 
 1. Ergänzt die Hellow-World App um den Logger
