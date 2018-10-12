@@ -118,11 +118,16 @@ git config --global user.email johndoe.example.com
   - Initialisierung eines *.git* Verzeichnises (`git init`)
   - Download aller Dateien
   - Checkout einer Arbeitskopie der aktuellen Version
-- **Tipp**: Die benötigte URL findet man auf Github im jeweiligen Repository unter dem Punkt *Clone & Download*
 
+[Dokumentation](https://services.github.com/on-demand/github-cli/clone-repo-cli)
 ---
+## Änderungen nachverfolgen
 
-## Änderungen vormerken - Git Add
+[Git Dokumentation](https://git-scm.com/book/de/v1/Git-Grundlagen-%C3%84nderungen-am-Repository-nachverfolgen)
+
+===
+
+### Änderungen vormerken - Git Add
 
 <!-- git add, commit und Commit Nachrichten erklären -->
 - `git add {Dateiname}` um Dateien für den nächsten Commit vorzumerken
@@ -134,7 +139,7 @@ git config --global user.email johndoe.example.com
 
 ===
 
-## Änderung festschreiben - Git Commit
+### Änderung festschreiben - Git Commit
 
 - `git commit` um die Dateien dauerhaft zu versionieren
   - Änderungen die nicht mit `git add` vorgemerkt wurden, werden nicht nicht committed
@@ -180,6 +185,8 @@ git config --global user.email johndoe.example.com
   - z.B. `git push origin master` Verschiebt alle austehenden Commits vom lokalen master-Branch in den remote master-Branch (origin)
   - es werden alle notwendigen Commits und internen Objekte (Dateien) übertragen
 
+[Dokumentation](https://help.github.com/articles/pushing-to-a-remote/)
+
 ===
 
 ### Pull
@@ -188,6 +195,8 @@ git config --global user.email johndoe.example.com
   - **fetch** : Lädt Änderungen herunter
   - **merge** : Fügt remote Änderungen mit lokalen Änderungen zusammen
 - Da bei pull immer ein **merge** Prozess stattfindet, kann es hierbei zu Konflikten kommen
+
+[Dokumentation](https://help.github.com/articles/fetching-a-remote/)
 
 ---
 
@@ -215,6 +224,8 @@ git config --global user.email johndoe.example.com
 *.log (ignoriert alle Dateien mit der Endung *.log*)
 test.txt (ignoriert die test.txt-Datei)
 ```
+- [Dokumentation](https://help.github.com/articles/ignoring-files/)
+- [Vorlagen](https://github.com/github/gitignore)
 
 ===
 
@@ -255,6 +266,8 @@ Note: Verweisen auf die zwei Protokollanten
 - `git checkout -b featureX` erstellt einen neuen lokalen Branch mit dem Namen *featureX*
 - `git checkout {branch}` wechselt in den angegebenen Branch
 
+[Git Dokumentation](https://git-scm.com/book/de/v1/Git-Branching-Einfaches-Branching-und-Merging)
+[Github Flow](https://guides.github.com/introduction/flow/)
 ---
 
 ## @Let's try
@@ -281,7 +294,9 @@ Note: Verweisen auf die zwei Protokollanten
 <!-- Account anlegen -->
 [Registrieren](https://github.com/)
 
-@Profi: [Github Student Pack](https://github.com/) Für alle die wirklich private Repositorys und noch andere Tools kostenlos möchten.
+[Probleme?](https://services.github.com/on-demand/intro-to-github/create-github-account)
+
+@Profi: [Github Student Pack](https://github.com/) Unendlich private Repositorys und andere Developer Tools kostenlos.
 
 ===
 
@@ -322,6 +337,11 @@ Hi **username**! You've successfully authenticated, but GitHub does not provide 
 ## Projekt & Repository
 
 <!-- wie legt man bei Github ein eigenes Projekt / Repository an -->
+- **Public** Repos sind einsehbar für alle Github Nutzer (Open Source)
+- **Private** Repos sind nur für dich bzw. den Leuten denen du Zugriff erteilst einsehbar
+- In jedem Repo sollten ein *README* und eine *.gitignore* Datei vorhanden sein
+- [Dokumentation](https://help.github.com/articles/creating-a-new-repository/)
+- [Lokales Repository auf Github importieren](https://help.github.com/articles/importing-a-repository-with-github-importer/)
 
 ===
 
@@ -334,12 +354,6 @@ Hi **username**! You've successfully authenticated, but GitHub does not provide 
 ## @Let's try
 
 <!-- einmal erzeugt jeder in seinem eigenen Account ein Repo und pusht das vorhin erstellte Repo dorthin-->
-
----
-
-## Branches
-
-<!-- Branches bei Github, lokal / remote Verbindung -->
 
 ---
 
@@ -362,6 +376,7 @@ Note: Fragen, wie beide Protokolle gemergt werden sollen
   - Nach manueller Beseitigung müssen alle betroffenen Dateien wieder per `git add` markiert werden
   - `git commit` ausführen, um den Merge-Commit endgültig abzuschließen
 
+[Dokumentation](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/)
 ---
 
 ## @Let's try
@@ -377,7 +392,7 @@ Note: Fragen, wie beide Protokolle gemergt werden sollen
 - Issues können bestimmten Personen zugeordnet werden (Aufgabenverteilung)
 - Mithilfe von Labels werdeb Issues kategorisiert / organisiertes
 
-[Github Doku: Issues](https://guides.github.com/features/issues/)
+[Dokumentation](https://guides.github.com/features/issues/)
 
 ---
 
@@ -387,6 +402,7 @@ Note: Fragen, wie beide Protokolle gemergt werden sollen
 - Sammlung von Issues
 - Zuordnung von mehreren Issues zu einem spezifischen Feature oder Projekt-Phase
   - Bsp. Beta-Launch, May-Sprint oder UI-Design
+  
 ---
 
 ## @Let's try
