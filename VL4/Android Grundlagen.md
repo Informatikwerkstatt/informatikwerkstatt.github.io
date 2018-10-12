@@ -270,7 +270,7 @@ Log.e( "berechnung", "hier ist eine Division durch null aufgetreten" );
 
 ---
 
-## Die Alternative
+## Eine Alternative
 
 > Als Alternative zu _Java_ mit _Android Studio_ gibt es das Framework [React Native](https://facebook.github.io/react-native/) für die App Entwicklung.
 
