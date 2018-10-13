@@ -12,41 +12,32 @@ Note:  Zwei Studierende auffordern,  Protokoll zu der Veranstaltung heute zu fü
 
 ---
 
-## Versionskontrolle - Was ist das und wofür?
+## Versionskontrolle - Was ist das?
 
 * Software-Entwicklung ist heute _Teamwork_
 * Software-Projekte laufen je nach Produkt über mehr als 10 Jahre
 * Hohe Komplexität mit der Entwicklungszeit
-* nicht-lineare Entwicklung (Patches, Releases, Subreleases, Hotfixes)
+* nicht-lineare Entwicklung (Patches, Releases, Hotfixes)
 
 &rarr; Wie behält man da die Übersicht?<br/>
 &rarr; Wie verwaltet man diese verschiedenen Entwicklungsstände?<br/>
 &rarr; Wie vermeidet man, dass Entwickler sich gegenseitig stören?
 
-<p>
-&rarr; __Versionskontrollsystem__: Protokolliert zeitliche Änderungen, so dass man zu jedem Zeitpunkt auf die verscheidenen Stände zugreifen kann
-</p>
+> &rArr; Protokolliert zeitliche Änderungen um Veränderung nachvollziehen zu können
 
 ---
 
 ## Repositories
 
-<!-- Was ist ein Repository, wofür braucht man es, was ist der Sinn davon -->
-* Systeme zur Versionskontrolle nutzen __Repositories__
-* = Verwaltetes Verzeichnis zur Speicherung und Beschreibung digitaler Objekte (z.B. Source Code, Dokumentation, ...)
-* = Eine Art Datenbank, auf der mehrere Nutzer parallel arbeiten können
-* Realisiert Softwarefunktionen zur Versionskontrolle und Zusammenarbeit
-* Für jedes digitale Objekt wird die Versionshistorie gespeichert
+> Verzeichnisorientierte Struktur, die zur Verwaltung der Quellcodes mit zusätzlichen zeitlichen und Benutzerinformationen versieht. Zusätzlich werden verschiedene Tools zur Verwaltung berwendet
 
 ---
 
 ## Was ist Git?
 
-<!-- einmal allgemeines zu Git -->
-* Dezentral organisiertes System zur Versionskontrolle
-* Entstanden aus der Linux Entwickler-Community
-* Schnell, einfaches Design
-* Speziell geeignet für große Projekte mit nichtlinearer Entwicklung
+* Dezentral organisiertes System zur [Versionsverwaltung](https://de.wikipedia.org/wiki/Versionsverwaltung)
+* Entstanden 2005 aus der Linux Entwickler-Community
+* Gut geeignet für große Projekte mit nicht-linearer Entwicklung
 
 ===
 
