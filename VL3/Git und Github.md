@@ -49,7 +49,7 @@ Note:  Zwei Studierende auffordern,  Protokoll zu der Veranstaltung heute zu fü
     * Speichert eine Referenz auf diesen Snapshot
 * Beispiel: Projekt mit drei initialen Dateien A, B und C
 
-![Git Versionshistorie](images/3-git-snapshots.png)
+![Git Versionshistorie - https://git-scm.com/figures/18333fig0105-tn.png](https://git-scm.com/figures/18333fig0105-tn.png)
 
 ===
 
@@ -59,9 +59,9 @@ Note:  Zwei Studierende auffordern,  Protokoll zu der Veranstaltung heute zu fü
     * Arbeitsverzeichnis: Hier werden die Dateien bearbeitet
     * Staging-Bereich: Hier werden Änderungen vorgemerkt, die in die nächste Version übernommen werden sollen
     * Git Repository: Enthält komplettes Abbild eines Projekts
+* Drei Zustände einer Datei in Git: geändert, vorgemerkt, committed! 
 
-![Git Lokaler Workflow](images/3-git-lokal-wf.png)
-* Drei Zustände einer Datei in Git: geändert, vorgemerkt, committed!
+![Git Lokaler Workflow](images/git-lokal-wf.png)
 
 ===
 
@@ -69,40 +69,30 @@ Note:  Zwei Studierende auffordern,  Protokoll zu der Veranstaltung heute zu fü
 
 * I.d.R.: zusätzliches "remote" Repository, von dem verschiedene Nutzer Ihre Daten kopieren ("klonen") und miteinander synchronisieren  
 * Folgende Abbildung zeigt einen Beispiel-Workflow
-
-![Git Remote Workflow](images/3-git-remote.png)
-
 * In der Folge schauen wir uns die bisher im Überblick gezeigten Abläufe im Detail an
+
+![Git Remote Workflow](images/git-remote.png)
 
 ---
 
 ## Gitconfig
 
-<!-- wie konfiguriert man git -->
-
 - Nach der Installation von Git, sollte Name und E-Mail Adresse hinterlegt werden
-```
-git config --global user.name "John Doe"
-git config --global user.email johndoe.example.com
-```
   - Git baut diese Informationen in jeden Commit ein
   - Besonders wichtig beim Einsatz von Plattformen wie Github
   - Durch die `--global` Option werden die Eingaben für alle Repositorys übernommen
+      
+    ```
+    git config --global user.name "John Doe"
+    git config --global user.email johndoe.example.com
+    ```
+
 - `git config color.ui true` ermöglicht eine farbige Konsolenausgabe
 - `git config --list` oder `git config {key}` zum Überpüfen der Einstellungen
 
 ---
 
-<!-- ## Wie initialisiere ich Repository? -->
-
-<!-- git init erklären -->
-<!-- - `git init` erzeugt im aktuellen Verzeichnis ein *.git* Unterverzeichnis
-- Dort werden alle relevanten Daten gespeichert
-- Sollten bereits Dateien dort vorhanden sein, werden diese zunächst nicht versioniert -->
-
 ## Clone
-
-<!-- wie holt man sich ein Repository -->
 
 - Ermöglicht eine lokale Kopie eines existierenden Remote-Repositorys
 - `git clone [url]` lädt jede einzelne Version jeder Datei in der Historie des Repositorys herunter
@@ -114,7 +104,9 @@ git config --global user.email johndoe.example.com
   - Checkout einer Arbeitskopie der aktuellen Version
 
 [Dokumentation](https://services.github.com/on-demand/github-cli/clone-repo-cli)
+
 ---
+
 ## Änderungen nachverfolgen
 
 [Git Dokumentation](https://git-scm.com/book/de/v1/Git-Grundlagen-%C3%84nderungen-am-Repository-nachverfolgen)
@@ -151,7 +143,8 @@ git config --global user.email johndoe.example.com
   #       new file:   helloworld.java
   ```
 
-  - In dieses Fenster schreibt man seine Commit-Nachricht
+    - In dieses Fenster schreibt man seine Commit-Nachricht
+
 - Mit `git commit -m "faster commit"` kann man sich diesen Schritt sparen
 - Git liefert nach Abschluss einige Details über den Commit:
 ```
@@ -172,8 +165,6 @@ git config --global user.email johndoe.example.com
 
 ## Push & Pull
 
-<!-- wie wird ein locales mit einem remote Repository synchronisiert -->
-
 ### Push
 - `git push {remote}{branch}` Verschiebt Commits vom lokalen Repository zum remote Repository
   - z.B. `git push origin master` Verschiebt alle austehenden Commits vom lokalen master-Branch in den remote master-Branch (origin)
@@ -184,6 +175,7 @@ git config --global user.email johndoe.example.com
 ===
 
 ### Pull
+
 - `git pull` bringt dein lokales Repository auf den Stand des remote Repositorys
 - Verbindet zwei Funktionen:
   - **fetch** : Lädt Änderungen herunter
@@ -210,21 +202,23 @@ git config --global user.email johndoe.example.com
 
 ### Gitignore
 
-<!-- Dateien ignorieren -->
-
 - Viele Dateien (Cache Dateien, Logs, etc.) sind unnötig zu versionieren
 - In der *.gitignore* Datei kann man festlegen welche Dateien oder Dateimuster von Git ignoriert werden sollen
-```
-*.log (ignoriert alle Dateien mit der Endung *.log*)
-test.txt (ignoriert die test.txt-Datei)
-```
+
+    ```
+    *.log (ignoriert alle Dateien mit der Endung *.log*)
+    test.txt (ignoriert die test.txt-Datei)
+    ```
+
 - [Dokumentation](https://help.github.com/articles/ignoring-files/)
 - [Vorlagen](https://github.com/github/gitignore)
 
 ===
 
 ### @Profi
+
 **Tipp**: ignoriere zunächst einmal alle Dateien ` *.*` und füge dann konkret die benötigten Dateien und Dateimuster hinzu:
+
 ```
 *.* (ignoriert alle Dateien)
 !*.md
@@ -241,17 +235,11 @@ bin/**
 
 ## @Let's try
 
-<!-- einmal ein komplettes Repository erstellen lassen und initial etwas committen -->
-
 <!-- Philipps Beispiel einfügen -->
 
 ---
 
 ## Branches
-
-<!-- was sind Branches, wofür sind sie gut, wie werden sie erstellt -->
-
-Note: Verweisen auf die zwei Protokollanten
 
 - Ein Branch ist eine abgetrennte / isolierte Umgebung, deren Änderungen keine Auswirkungen auf den Master Code haben
   - Ermöglicht parallele Entwicklung an verschiedenen Features während der "Master"-Code unberührt bleibt
@@ -262,6 +250,9 @@ Note: Verweisen auf die zwei Protokollanten
 
 [Git Dokumentation](https://git-scm.com/book/de/v1/Git-Branching-Einfaches-Branching-und-Merging)
 [Github Flow](https://guides.github.com/introduction/flow/)
+
+Note: Verweisen auf die zwei Protokollanten
+
 ---
 
 ## @Let's try
@@ -272,7 +263,6 @@ Note: Verweisen auf die zwei Protokollanten
 
 ## Was ist Github?
 
-<!-- was ist Github (Social Coding) -->
 - Bekannteste Open Source Plattform
 - Größte Code-Hosting Plattform
   - Bereitstellung von Remote Repositorys
@@ -285,18 +275,14 @@ Note: Verweisen auf die zwei Protokollanten
 
 ## Github Account
 
-<!-- Account anlegen -->
-[Registrieren](https://github.com/)
-
-[Probleme?](https://services.github.com/on-demand/intro-to-github/create-github-account)
-
-@Profi: [Github Student Pack](https://github.com/) Unendlich private Repositorys und andere Developer Tools kostenlos.
+1. [Registrieren](https://github.com/)
+2. [Probleme?](https://services.github.com/on-demand/intro-to-github/create-github-account)
+3. @Profi: [Github Student Pack](https://github.com/) Unendlich private Repositorys und andere Developer Tools kostenlos.
 
 ===
 
 ### SSH - Was hä?
 
-<!-- ssh-keygen einmal erläutern -->
 SSH-Keys ermöglichen eine Verbindung zu GitHub, ohne Eingabe von username und password.
 
 SSH-Key generieren:
@@ -308,7 +294,8 @@ SSH-Key generieren:
 
 ===
 
-SSH-Key mit Github verknüpfen:
+### SSH-Key & Github
+
 - `clip < ~/.ssh/id_rsa.pub` Kopiert den Key in die Zwischenablage
 - Auf Github unter **Settings**, **SSH and GPG keys** befindet sich **New SSH Key**
     - Unter Key den kopierten Key einfügen
@@ -316,21 +303,21 @@ SSH-Key mit Github verknüpfen:
 
 ===
 
-SSH Verbindung testen:
+### SSH Verbindung testen
+
 - `ssh -T git@github.com` Versucht eine SSH-Verbindung zu Github aufzubauen
   - Warnungen mit einem **yes** bestätigen
 - Befehl sollte folgende Ausgabe liefern:
+- [Probleme?](https://help.github.com/articles/connecting-to-github-with-ssh/)
+
 ```
 Hi **username**! You've successfully authenticated, but GitHub does not provide shell access.
 ```
-
-[Probleme?](https://help.github.com/articles/connecting-to-github-with-ssh/)
 
 ---
 
 ## Projekt & Repository
 
-<!-- wie legt man bei Github ein eigenes Projekt / Repository an -->
 - **Public** Repos sind einsehbar für alle Github Nutzer (Open Source)
 - **Private** Repos sind nur für dich bzw. den Leuten denen du Zugriff erteilst einsehbar
 - In jedem Repo sollten ein *README* und eine *.gitignore* Datei vorhanden sein
@@ -359,8 +346,6 @@ Hi **username**! You've successfully authenticated, but GitHub does not provide 
 
 ## Merge Conflict
 
-<!-- was ist ein Merge Conflict -->
-
 Note: Fragen, wie beide Protokolle gemergt werden sollen
 
 - Beim Ändern von Code an denselben Stellen in den selben Dateien unterschiedlicher Branches, tritt bei einem Merge ein Fehler auf (Git kann Änderungen nicht mehr sauber zusammen führen)
@@ -371,6 +356,7 @@ Note: Fragen, wie beide Protokolle gemergt werden sollen
   - `git commit` ausführen, um den Merge-Commit endgültig abzuschließen
 
 [Dokumentation](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/)
+
 ---
 
 ## @Let's try
@@ -392,7 +378,6 @@ Note: Fragen, wie beide Protokolle gemergt werden sollen
 
 ## @Profi - Milestones
 
-<!-- was sind Milestones, wozu dienen sie -->
 - Sammlung von Issues
 - Zuordnung von mehreren Issues zu einem spezifischen Feature oder Projekt-Phase
   - Bsp. Beta-Launch, May-Sprint oder UI-Design
@@ -408,21 +393,6 @@ Note: Fragen, wie beide Protokolle gemergt werden sollen
 ## Die Handschrift - Styleguide
 
 <!-- was ist ein Styleguide und ein Beispiel von einem unorganisierten Code, siehe Matsim, Jason o.ä.-->
-
-===
-
-### Notationen / Styleguides
-
-<!-- fertige Styleguides / Notationen kurz erläutern -->
-
-* [Ungarische Notation](https://de.wikipedia.org/wiki/Ungarische_Notation)
-* [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
-
-===
-
-### How-to write
-
-<!-- Beispiel aus dem Bachelorprojekt / LightJason wie mein Code aufgebaut ist, Mixtur aus ungarischer Notation mit Google Styleguide -->
 
 ---
 

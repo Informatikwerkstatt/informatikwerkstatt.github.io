@@ -772,6 +772,7 @@ Mit-1 & Mit-2 sind gleich
 * Klassenvariablen beginnen mit ```s_``` (für ```static```)
 * Parameter in Methodendefinitionen beginnen mit ```p_```
 * Namen von Interfaces beginnen mit ```I```, Namen von Klassen mit ```C```
+* Konventionen [Ungarische Notation](https://de.wikipedia.org/wiki/Ungarische_Notation), [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
 
 ---
 
