@@ -14,15 +14,18 @@ Note:  Zwei Studierende auffordern,  Protokoll zu der Veranstaltung heute zu fü
 
 ## Versionskontrolle - Was ist das und wofür?
 
-* Komplexe Projekte, z.B. Softwareentwicklung, erfordern Zusammenarbeit zwischen vielen Beteiligten
-  * Lange Entwicklungszeiten, viele Code-Module und Dokumente
-  * Mehrere Entwickler und Teams arbeiten gleichzeitig
-  * Nicht-lineare Entwicklung: Viele Unterversionen und Verzweigungen
-* Wie behält man da die Übersicht?
-* Wie verwaltet man unterschiedliche Versionen und Entwicklungsstände?
-* Wie vermeidet man, dass Entwickler sich gegenseitig stören?
+* Software-Entwicklung ist heute _Teamwork_
+* Software-Projekte laufen je nach Produkt über mehr als 10 Jahre
+* Hohe Komplexität mit der Entwicklungszeit
+* nicht-lineare Entwicklung (Patches, Releases, Subreleases, Hotfixes)
 
-&rarr; __Versionskontrollsystem__: Protokolliert Änderungen an Dateien über die Zeit hinweg, so dass man zu jedem Zeitpunkt auf Versionen und Änderungen zugreifen kann
+&rarr; Wie behält man da die Übersicht?<br/>
+&rarr; Wie verwaltet man diese verschiedenen Entwicklungsstände?<br/>
+&rarr; Wie vermeidet man, dass Entwickler sich gegenseitig stören?
+
+<p>
+&rarr; __Versionskontrollsystem__: Protokolliert zeitliche Änderungen, so dass man zu jedem Zeitpunkt auf die verscheidenen Stände zugreifen kann
+</p>
 
 ---
 
