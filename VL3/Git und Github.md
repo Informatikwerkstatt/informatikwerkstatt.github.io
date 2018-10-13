@@ -43,11 +43,10 @@ Note:  Zwei Studierende auffordern,  Protokoll zu der Veranstaltung heute zu fü
 
 ### Git Funktionsweise
 
-* Versionshistorie: Reihe von "Snapshots" über Dateien eines Projekts
+* Versionshistorie: Reihe von _Snapshots_ über Dateien eines Projekts
 * Bei jedem Speichern legt Git eine Version des Projekts an
     * Sichert Zustand sämtlicher Dateien in diesem Moment (= Snapshot)
     * Speichert eine Referenz auf diesen Snapshot
-* Beispiel: Projekt mit drei initialen Dateien A, B und C
 
 ![Git Versionshistorie - https://git-scm.com/figures/18333fig0105-tn.png](https://git-scm.com/figures/18333fig0105-tn.png)
 
@@ -55,13 +54,13 @@ Note:  Zwei Studierende auffordern,  Protokoll zu der Veranstaltung heute zu fü
 
 ### Git lokaler Workflow
 
+* Drei Zustände einer Datei: geändert &rarr; vorgemerkt &rarr; committed! 
 * Jeder Nutzer hat lokal
     * Arbeitsverzeichnis: Hier werden die Dateien bearbeitet
     * Staging-Bereich: Hier werden Änderungen vorgemerkt, die in die nächste Version übernommen werden sollen
     * Git Repository: Enthält komplettes Abbild eines Projekts
-* Drei Zustände einer Datei in Git: geändert, vorgemerkt, committed! 
 
-![Git Lokaler Workflow](images/git-lokal-wf.png)
+![Git Lokaler Workflow](images/git-lokal-wf.png#half)
 
 ===
 
