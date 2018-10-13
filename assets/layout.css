@@ -154,6 +154,11 @@
     max-height: 10%;
   } 
 
+  .reveal img[src$='ninety'] {
+    max-width: 90%;
+    max-height: 90%;
+  }  
+
  .reveal video,
  .reveal iframe {
   max-height: calc(40vh);
