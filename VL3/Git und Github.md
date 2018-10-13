@@ -55,7 +55,7 @@ Note:  Zwei Studierende auffordern,  Protokoll zu der Veranstaltung heute zu fü
 ### Workflow
 
 * Drei Zustände einer Datei: geändert &rarr; vorgemerkt &rarr; committed! 
-* Im _ArbeitsverzeichnisA  werden die Dateien bearbeitet
+* Im _Arbeitsverzeichnis_  werden die Dateien bearbeitet
 * Im _Staging-Bereich_ werden Änderungen vorgemerkt, die in die nächste Version übernommen werden sollen
 * Das _Repository_ enthält ein komplettes Abbild des Projekts
 
