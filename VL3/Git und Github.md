@@ -41,36 +41,25 @@ Note:  Zwei Studierende auffordern,  Protokoll zu der Veranstaltung heute zu fü
 
 ===
 
-### Git Funktionsweise
+### Funktionsweise
 
 * Versionshistorie: Reihe von _Snapshots_ über Dateien eines Projekts
 * Bei jedem Speichern legt Git eine Version des Projekts an
-    * Sichert Zustand sämtlicher Dateien in diesem Moment (= Snapshot)
+    * Sichert Zustand sämtlicher Dateien (= Snapshot)
     * Speichert eine Referenz auf diesen Snapshot
 
 ![Git Versionshistorie - https://git-scm.com/figures/18333fig0105-tn.png](https://git-scm.com/figures/18333fig0105-tn.png)
 
 ===
 
-### Git lokaler Workflow
+### Workflow
 
 * Drei Zustände einer Datei: geändert &rarr; vorgemerkt &rarr; committed! 
-* Jeder Nutzer hat lokal
-    * Arbeitsverzeichnis: Hier werden die Dateien bearbeitet
-    * Staging-Bereich: Hier werden Änderungen vorgemerkt, die in die nächste Version übernommen werden sollen
-    * Git Repository: Enthält komplettes Abbild eines Projekts
+* Im _ArbeitsverzeichnisA  werden die Dateien bearbeitet
+* Im _Staging-Bereich_ werden Änderungen vorgemerkt, die in die nächste Version übernommen werden sollen
+* Das _Repository_ enthält ein komplettes Abbild des Projekts
 
 ![Git Lokaler Workflow](images/git-lokal-wf.png#half)
-
-===
-
-### Git verteilte Architektur
-
-* I.d.R.: zusätzliches "remote" Repository, von dem verschiedene Nutzer Ihre Daten kopieren ("klonen") und miteinander synchronisieren  
-* Folgende Abbildung zeigt einen Beispiel-Workflow
-* In der Folge schauen wir uns die bisher im Überblick gezeigten Abläufe im Detail an
-
-![Git Remote Workflow](images/git-remote.png)
 
 ---
 
@@ -154,6 +143,7 @@ Note:  Zwei Studierende auffordern,  Protokoll zu der Veranstaltung heute zu fü
 ===
 
 ### Commit Nachrichten
+
 - Sie soll möglichst genau beschreiben, welche Änderungen der Entwickler durchgeführt hat
   - Besonders wichtig wenn mehrere Entwickler gleichzeitig an etwas arbeiten
   - Commit Nachrichten stellen also eine Art "Kommunikationsmittel" dar.
@@ -162,9 +152,20 @@ Note:  Zwei Studierende auffordern,  Protokoll zu der Veranstaltung heute zu fü
 
 ===
 
+### Git verteilte Architektur
+
+* I.d.R.: zusätzliches "remote" Repository, von dem verschiedene Nutzer Ihre Daten kopieren ("klonen") und miteinander synchronisieren  
+* Folgende Abbildung zeigt einen Beispiel-Workflow
+* In der Folge schauen wir uns die bisher im Überblick gezeigten Abläufe im Detail an
+
+![Git Remote Workflow](images/git-remote.png)
+
+===
+
 ## Push & Pull
 
 ### Push
+
 - `git push {remote}{branch}` Verschiebt Commits vom lokalen Repository zum remote Repository
   - z.B. `git push origin master` Verschiebt alle austehenden Commits vom lokalen master-Branch in den remote master-Branch (origin)
   - es werden alle notwendigen Commits und internen Objekte (Dateien) übertragen
@@ -186,6 +187,7 @@ Note:  Zwei Studierende auffordern,  Protokoll zu der Veranstaltung heute zu fü
 ---
 
 ### Änderungen überprüfen
+
 - `git diff` ermöglicht eine exakte Auflistung aller Änderungen
   - Zeigt exakt an, welche Zeilen hinzugefügt, geändert oder entfernt wurden
   - Zeigt an, welche Änderungen noch nicht gestaged wurden
