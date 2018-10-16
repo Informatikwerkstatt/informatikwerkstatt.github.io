@@ -97,6 +97,7 @@ Um zu
 
 | Datum   | Thema |
 |:--------|:------|
+| 27. Nov | Projekt & -gruppenfindung |
 | 11. Dez | Vorstellung der Projektideen als Kurzvortrag |
 | 19. Dez | 1. Milestone |
 | 23. Jan | 2. Milestone |
