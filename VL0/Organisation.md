@@ -97,11 +97,10 @@ Um zu
 
 | Datum   | Thema |
 |:--------|:------|
-| 04. Dez | Vorstellung der Projektideen als Kurzvortrag |
+| 11. Dez | Vorstellung der Projektideen als Kurzvortrag |
 | 19. Dez | 1. Milestone |
-| 16. Jan | 2. Milestone |
-| 01. Feb | 3. Milestone |
-| 08. Feb | 4. Milestone / Abschlusspräsentation |
+| 23. Jan | 2. Milestone |
+| 08. Feb | 3. Milestone / Abschlusspräsentation |
 
 &rArr; Industrievorträge - Termin(e) werden noch bekannt gegeben
 
