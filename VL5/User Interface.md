@@ -68,7 +68,11 @@ Eine [ViewGroup](https://developer.android.com/reference/android/view/ViewGroup)
 > [Toast Notifiers](https://developer.android.com/guide/topics/ui/notifiers/toasts) sind kleine Textboxen, die über der App eingeblendet werden und nach ein paar Sekunden wieder automatisch verschwinden. Der Aufruf um eine solche Box zu erzeugen benötigt, den Applikation-Context (diesen erhält man aus der Activity), damit die Box über allen anderen Fenstern angezeigt wird, die Nachricht und dann die Zeit, wie lange sie angezeigt werden soll
 
 ```java
-Toast.makeText( activity.getApplicationContext(), "eine Hallo-Nachricht", Toast.LENGTH_LONG | Toast.LENGTH_SHORT ).show();
+Toast.makeText( 
+    activity.getApplicationContext(), 
+    "eine Hallo-Nachricht", 
+    Toast.LENGTH_LONG | Toast.LENGTH_SHORT 
+).show();
 ``` 
 
 ===
