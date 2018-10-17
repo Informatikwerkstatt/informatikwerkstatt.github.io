@@ -32,7 +32,7 @@ Note: Studis fragen, was man dafür wohl alles braucht: UI Layout, Events, Algor
 
 ### View
 
-> Ein [View](https://developer.android.com/reference/android/view/View) ist die oberste Ebene für graphische Layouts. Die _Activity_ ist ein Container der ein Layout enthält. Ein guter Vergleich ist eine Festplatte unter Windows, der _Laufwerksbuchstabe_ ist die _Activity_, das _Verzeichnis_ die _[Viewgroup](#/2/2)_, die _Datei_ der _View_ und der _Dateiinhalt_ das _konkrete Layout_ des Elements. 
+> Ein [View](https://developer.android.com/reference/android/view/View) ist die oberste Ebene für graphische Layouts. Die _Activity_ ist ein Container der ein Layout enthält. Ein guter Vergleich ist eine Festplatte unter Windows, der _Laufwerksbuchstabe_ ist die _Activity_, das _Verzeichnis_ die [Viewgroup](#/2/2), die _Datei_ der _View_ und der _Dateiinhalt_ das _konkrete Layout_ des Elements. 
 
 ===
 
@@ -44,21 +44,11 @@ Note: Studis fragen, was man dafür wohl alles braucht: UI Layout, Events, Algor
 
 ---
 
-## Sprich mit mir - Darstellungselemente
+## Was bin ich?
 
+UI's werden mit hilfe einzelner Layoutelemente, eine kurze Übersicht über die verschiedenen Elemente
 
-
-<!-- https://developer.android.com/training/keyboard-input/style 
--->
-
-===
-
-### Übersicht
-
-* Edittext
-* Textview
-* Button
-
+<!-- https://developer.android.com/training/keyboard-input/style -->
 
 ===
 
@@ -92,7 +82,7 @@ https://developer.android.com/reference/android/content/DialogInterface -->
     * horizontales / vertikales Layout erzeugt werden
 * Wir behandeln hier nur die Grundfunktionalität
 
-&rarr; ein gutes Design erhält man mit Kreativität und viel Feedback von Nutzern der App
+&rarr; ein gutes Design erhält man mit Kreativität und viel Feedback von Nutzern der App, darum geben Firmen häufig _[Design Styleguides](https://material.io/)_ heraus, die helfen gute Layouts zu entwickeln
 
 ===
 
