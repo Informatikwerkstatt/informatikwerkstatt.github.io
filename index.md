@@ -7,7 +7,6 @@
 * [VL2 - OOP Grundlagen](/oop-grundlagen/)
 * [VL3 - Git & Github](/git-github/)
 * [VL4 - Android Grundlagen](/android-grundlagen/)
-    * [Tablet Einrichtung](/tablet-einrichtung/)
 * [VL5 - User Interface](/user-interface/)
 * [VL6 - Threads - Activities - Intent](/threads-activities-intent/)
 * [VL7 - Sensoren & Persistenz](/sensoren-persistenz/)
