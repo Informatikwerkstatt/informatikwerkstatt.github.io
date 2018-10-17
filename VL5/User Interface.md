@@ -24,7 +24,10 @@ Note: Studis fragen, was man dafür wohl alles braucht: UI Layout, Events, Algor
 
 ## Interface Aufbau
 
-<!-- https://developer.android.com/training/basics/firstapp/building-ui -->
+> Ein [einfaches User-Interface](https://developer.android.com/training/basics/firstapp/building-ui) (UI) wird im besten Fall mit Containern erstellt und man ordnet diese Container einmal immer relativ zu dem übergeordneten Container an. Die Main-Activity ist der oberste Container einer App. Je nach Design kann somit direkt ein Hoch- oder Querlayout erzeugt werden.
+
+
+<small>Wer Erfahrung mit Webseitengestelltung mittels Div-Container hat, kann diese Prinzip auch auf das App-Design anwenden</small>
 
 ===
 
@@ -44,6 +47,8 @@ Eine [ViewGroup](https://developer.android.com/reference/android/view/ViewGroup)
 
 ## Sprich mit mir - Darstellungselemente
 
+
+
 <!-- https://developer.android.com/training/keyboard-input/style 
 -->
 
@@ -60,7 +65,11 @@ Eine [ViewGroup](https://developer.android.com/reference/android/view/ViewGroup)
 
 ### Toast
 
-<!-- https://developer.android.com/guide/topics/ui/notifiers/toasts -->
+> [Toast Notifiers](https://developer.android.com/guide/topics/ui/notifiers/toasts) sind kleine Textboxen, die über der App eingeblendet werden und nach ein paar Sekunden wieder automatisch verschwinden. Der Aufruf um eine solche Box zu erzeugen benötigt, den Applikation-Context (diesen erhält man aus der Activity), damit die Box über allen anderen Fenstern angezeigt wird, die Nachricht und dann die Zeit, wie lange sie angezeigt werden soll
+
+```java
+Toast.makeText( activity.getApplicationContext(), "eine Hallo-Nachricht", Toast.LENGTH_LONG | Toast.LENGTH_SHORT ).show();
+``` 
 
 ===
 
