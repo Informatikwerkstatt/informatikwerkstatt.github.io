@@ -24,7 +24,7 @@ Note: Studis fragen, was man dafür wohl alles braucht: UI Layout, Events, Algor
 
 ## Interface Aufbau
 
-> Ein [einfaches User-Interface](https://developer.android.com/training/basics/firstapp/building-ui) (UI) wird im besten Fall mit Containern erstellt und man ordnet diese Container einmal immer relativ zu dem übergeordneten Container an. Die Main-Activity ist der oberste Container einer App. Je nach Design kann somit direkt ein Hoch- oder Querlayout erzeugt werden.
+> Ein [einfaches User-Interface](https://developer.android.com/training/basics/firstapp/building-ui) (UI) wird im besten Fall mit Containern erstellt und man ordnet diese Container einmal immer relativ zu dem übergeordneten Container an. Je nach Design kann somit direkt ein Hoch- oder Querlayout erzeugt werden.
 
 <small>Wer Erfahrung mit Webseitengestelltung kennt vielleicht den Begriff [Responsive Webdesign](https://de.wikipedia.org/wiki/Responsive_Webdesign), um das Layout der Webseite an die Auflösung des Endgerätes anzupassen. Das Design einer App kann in ähnliche organisiert werden</small>
 
@@ -32,15 +32,15 @@ Note: Studis fragen, was man dafür wohl alles braucht: UI Layout, Events, Algor
 
 ### View
 
-Ein [View](https://developer.android.com/reference/android/view/View) ist die oberste Ebene für graphische Layouts und dies entspricht einer Activity.
+> Ein [View](https://developer.android.com/reference/android/view/View) ist die oberste Ebene für graphische Layouts. Die _Activity_ ist ein Container der ein Layout enthält. Ein guter Vergleich ist eine Festplatte unter Windows, der _Laufwerksbuchstabe_ ist die _Activity_, das _Verzeichnis_ die _[Viewgroup](#/2/2)_, die _Datei_ der _View_ und der _Dateiinhalt_ das _konkrete Layout_ des Elements. 
 
 ===
 
-### ViewGroud
+### ViewGroup
 
-Eine [ViewGroup](https://developer.android.com/reference/android/view/ViewGroup) ist eine Sammlung von View-Containern eines Layouts, sowohl View wie auch ViewGroup können miteinander verbunden werden
+> Eine [ViewGroup](https://developer.android.com/reference/android/view/ViewGroup) ist eine Sammlung von View-Containern eines Layouts, sowohl View wie auch weitere ViewGroup können miteinander verbunden werden
 
-![View und ViewGroup - Quelle https://developer.android.com/training/basics/firstapp/building-ui ](https://developer.android.com/images/viewgroup_2x.png)
+![View und ViewGroup - Quelle https://developer.android.com/training/basics/firstapp/building-ui](https://developer.android.com/images/viewgroup_2x.png)
 
 ---
 
