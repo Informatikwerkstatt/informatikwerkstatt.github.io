@@ -105,13 +105,14 @@ Nach der Installation von Git müssen die persönlichen Einstellungen konfigurie
     * für allen Dateien reicht ein Punkt
     * es kann ein  [Wildcard](https://de.wikipedia.org/wiki/Wildcard_(Informatik) benutzt werden 
 * ```git status``` listet alle vorgemerkten Dateien
-* **Wichtig:** Vorgemerkte Dateien sind noch nicht versioniert
 
 ```shell
 git add mein_java_programm.java
 git add *.java
 git add .
 ```
+
+&rarr; _Vorgemerkte Dateien sind noch nicht versioniert!_
 
 ===
 
