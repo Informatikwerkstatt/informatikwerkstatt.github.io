@@ -99,7 +99,13 @@ Nach der Installation von Git müssen die persönlichen Einstellungen konfigurie
 
 ### Änderungen vormerken - Git Add
 
-> Neue, veränderte oder gelöschte Dateien müssen _immer_ vorgemerkt werden, damit sie in den nächste [Commit](#/6/2) festgeschrieben werden. Dies geschieht mit dem Befehlt ```git add``` der entweder der Dateiname (ggf. mit Pfad) übergeben bekommt. Wenn alle Dateien berücksichtig werden sollen, dann reicht ein Punkt oder [Wildcard](https://de.wikipedia.org/wiki/Wildcard_(Informatik)). Mit ```git status``` können die vorgemerkten Dateien aufgelistet werden. **Wichtig:** Vorgemerkte Dateien sind noch nicht versioniert
+* Neue, veränderte oder gelöschte Dateien müssen _immer_ vorgemerkt werden
+* Befehl ```git add``` führt dies durch, aber es müssen die Dateien übergeben werden
+    * entweder der Dateiname mit Endung und ggf Verzeichnispfad
+    * bei allen Dateien reicht ein Punkt
+    * es kann ein  [Wildcard](https://de.wikipedia.org/wiki/Wildcard_(Informatik)). 
+* ````git status``` listet alle vorgemerkten Dateien
+* **Wichtig:** Vorgemerkte Dateien sind noch nicht versioniert
 
 ```shell
 git add mein_java_programm.java
