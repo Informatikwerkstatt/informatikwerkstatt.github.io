@@ -65,33 +65,21 @@ Note:  Zwei Studierende auffordern,  Protokoll zu der Veranstaltung heute zu fü
 
 ## Gitconfig
 
-- Nach der Installation von Git, sollte Name und E-Mail Adresse hinterlegt werden
-  - Git baut diese Informationen in jeden Commit ein
-  - Besonders wichtig beim Einsatz von Plattformen wie Github
-  - Durch die `--global` Option werden die Eingaben für alle Repositorys übernommen
+Nach der Installation von Git müssen die persönlichen Einstellungen konfiguriert werden
+  - Git fügt diese Informationen in jeden Commit ein, um immer eine vollständige Historie zu erzeugen
+  - Mit folgenden Befehlen wird der Benutzername und EMail-Adresse gesetzt<sup>1</sup>
       
-    ```
-    git config --global user.name "John Doe"
-    git config --global user.email johndoe.example.com
+    ```shell
+    git config --global user.name "Dein Vor- und Nachname"
+    git config --global user.email EMail-Adresse
     ```
 
-- `git config color.ui true` ermöglicht eine farbige Konsolenausgabe
-- `git config --list` oder `git config {key}` zum Überpüfen der Einstellungen
+- ```git config --global color.ui true``` ermöglicht eine farbige Konsolenausgabe
+- ```git config --list``` oder ```git config {key}``` zum Überpüfen der Einstellungen
 
 ---
 
-## Clone
-
-- Ermöglicht eine lokale Kopie eines existierenden Remote-Repositorys
-- `git clone [url]` lädt jede einzelne Version jeder Datei in der Historie des Repositorys herunter
-- Lokale Kopie befindet sich dann im aktuell ausgewählten Verzeichnis
-- Vorgänge während des clone-Vorgangs:
-  - Anlegung eines Verzeichnises
-  - Initialisierung eines *.git* Verzeichnises (`git init`)
-  - Download aller Dateien
-  - Checkout einer Arbeitskopie der aktuellen Version
-
-[Dokumentation](https://services.github.com/on-demand/github-cli/clone-repo-cli)
+## Projekt erstellen
 
 ---
 
@@ -106,7 +94,7 @@ Note:  Zwei Studierende auffordern,  Protokoll zu der Veranstaltung heute zu fü
 <!-- git add, commit und Commit Nachrichten erklären -->
 - `git add {Dateiname}` um Dateien für den nächsten Commit vorzumerken
   - Verschiebt die Dateien vom Arbeitsverzeichnis in den Staging-Bereich
-  - `git add README` um eine bestimmte Datei vorzumerken
+  - `git add meine_datei.doc` um eine bestimmte Datei vorzumerken
   - `git add *.java` um mehrere Dateien eines Typs vorzumerken
   - **Achtung**: Die Dateien sind noch nicht versioniert
 - `git status` listet alle Dateien auf, die sich im Staging-Bereich befinden
@@ -149,40 +137,6 @@ Note:  Zwei Studierende auffordern,  Protokoll zu der Veranstaltung heute zu fü
   - Commit Nachrichten stellen also eine Art "Kommunikationsmittel" dar.
 - **Ziel**: Änderungen möglichst kurz aber trotzdem präzise zu beschreiben um anderen Leuten einen Überblick über gemachte Änderungen zu geben
 - [Tipps für eine gute Commit-Nachricht](https://wp-typ.de/entwicklung/gute-git-commits-schreiben/)
-
-===
-
-### Git verteilte Architektur
-
-* I.d.R.: zusätzliches "remote" Repository, von dem verschiedene Nutzer Ihre Daten kopieren ("klonen") und miteinander synchronisieren  
-* Folgende Abbildung zeigt einen Beispiel-Workflow
-* In der Folge schauen wir uns die bisher im Überblick gezeigten Abläufe im Detail an
-
-![Git Remote Workflow](images/git-remote.png)
-
-===
-
-## Push & Pull
-
-### Push
-
-- `git push {remote}{branch}` Verschiebt Commits vom lokalen Repository zum remote Repository
-  - z.B. `git push origin master` Verschiebt alle austehenden Commits vom lokalen master-Branch in den remote master-Branch (origin)
-  - es werden alle notwendigen Commits und internen Objekte (Dateien) übertragen
-
-[Dokumentation](https://help.github.com/articles/pushing-to-a-remote/)
-
-===
-
-### Pull
-
-- `git pull` bringt dein lokales Repository auf den Stand des remote Repositorys
-- Verbindet zwei Funktionen:
-  - **fetch** : Lädt Änderungen herunter
-  - **merge** : Fügt remote Änderungen mit lokalen Änderungen zusammen
-- Da bei pull immer ein **merge** Prozess stattfindet, kann es hierbei zu Konflikten kommen
-
-[Dokumentation](https://help.github.com/articles/fetching-a-remote/)
 
 ---
 
@@ -234,34 +188,6 @@ bin/**
 
 ---
 
-## @Let's try
-
-<!-- Philipps Beispiel einfügen -->
-
----
-
-## Branches
-
-- Ein Branch ist eine abgetrennte / isolierte Umgebung, deren Änderungen keine Auswirkungen auf den Master Code haben
-  - Ermöglicht parallele Entwicklung an verschiedenen Features während der "Master"-Code unberührt bleibt
-  - Raum zum experimentieren
-  - **master**-Branch ist der lokale Standard Branch
-- `git checkout -b featureX` erstellt einen neuen lokalen Branch mit dem Namen *featureX*
-- `git checkout {branch}` wechselt in den angegebenen Branch
-
-[Git Dokumentation](https://git-scm.com/book/de/v1/Git-Branching-Einfaches-Branching-und-Merging)
-[Github Flow](https://guides.github.com/introduction/flow/)
-
-Note: Verweisen auf die zwei Protokollanten
-
----
-
-## @Let's try
-
-<!-- Branch lokal erstellen, zwischen Branches wechseln -->
-
----
-
 ## Was ist Github?
 
 - Bekannteste Open Source Plattform
@@ -271,6 +197,17 @@ Note: Verweisen auf die zwei Protokollanten
   - Zusammen Software entwickeln (Open Source)
   - Pull-Requests
   - Einfaches Projektmanagement (Issues, Project-Boards)
+- I.d.R.: zusätzliches "remote" Repository, von dem verschiedene Nutzer Ihre Daten kopieren ("klonen") und miteinander synchronisieren  
+- Folgende Abbildung zeigt einen Beispiel-Workflow
+- In der Folge schauen wir uns die bisher im Überblick gezeigten Abläufe im Detail an
+
+![Git Remote Workflow](images/git-remote.png)
+
+===
+
+### Local & Remote
+
+<!-- was bedeutet local / remote Repository -->
 
 ---
 
@@ -325,23 +262,56 @@ Hi **username**! You've successfully authenticated, but GitHub does not provide 
 - [Dokumentation](https://help.github.com/articles/creating-a-new-repository/)
 - [Lokales Repository auf Github importieren](https://help.github.com/articles/importing-a-repository-with-github-importer/)
 
-===
-
-### Local & Remote
-
-<!-- was bedeutet local / remote Repository -->
-
 ---
 
-## @Let's try
+## @Let's try - Mein eigenes Repository
 
 <!-- einmal erzeugt jeder in seinem eigenen Account ein Repo und pusht das vorhin erstellte Repo dorthin-->
 
 ---
 
+### Clone
+
+> Mit dem _Clonen_ des Repositories werden alle Daten in einem Verzeichnis auf dem Rechner abgelegt (gesamte Historie mit Daten).
+> 
+
+- Ermöglicht eine lokale Kopie eines existierenden Remote-Repositorys
+- `git clone [url]` lädt jede einzelne Version jeder Datei in der Historie des Repositorys herunter
+- Vorgänge während des clone-Vorgangs:
+  - Anlegung eines Verzeichnises
+  - Initialisierung eines *.git* Verzeichnises (`git init`)
+  - Download aller Dateien
+  - Checkout einer Arbeitskopie der aktuellen Version
+
+[Dokumentation](https://services.github.com/on-demand/github-cli/clone-repo-cli)
+
+---
+
+### Push
+
+- `git push {remote}{branch}` Verschiebt Commits vom lokalen Repository zum remote Repository
+  - z.B. `git push origin master` Verschiebt alle austehenden Commits vom lokalen master-Branch in den remote master-Branch (origin)
+  - es werden alle notwendigen Commits und internen Objekte (Dateien) übertragen
+
+[Dokumentation](https://help.github.com/articles/pushing-to-a-remote/)
+
+---
+
+### Pull
+
+- `git pull` bringt dein lokales Repository auf den Stand des remote Repositorys
+- Verbindet zwei Funktionen:
+  - **fetch** : Lädt Änderungen herunter
+  - **merge** : Fügt remote Änderungen mit lokalen Änderungen zusammen
+- Da bei pull immer ein **merge** Prozess stattfindet, kann es hierbei zu Konflikten kommen
+
+[Dokumentation](https://help.github.com/articles/fetching-a-remote/)
+
+---
+
 ## @Let's try
 
-<!-- lokalen Branch erstellen, remote pushen, lokal pullen -->
+<!-- wir stellen ein Repository in der Infowerkstatt zur Verfügung, in dem Repo ist eine Textdatei mit Namen, jeder clont es sich und trägt seinen Namen ein und pusht es wieder und behebt ggf den Merge Conflict -->
 
 ---
 
@@ -360,12 +330,6 @@ Note: Fragen, wie beide Protokolle gemergt werden sollen
 
 ---
 
-## @Let's try
-
-<!-- wir stellen ein Repository in der Infowerkstatt zur Verfügung, in dem Repo ist eine Textdatei mit Namen, jeder clont es sich und trägt seinen Namen ein und pusht es wieder und behebt ggf den Merge Conflict -->
-
----
-
 ## Issue
 
 <!-- was sind Issues, wozu dienen sie -->
@@ -374,14 +338,6 @@ Note: Fragen, wie beide Protokolle gemergt werden sollen
 - Mithilfe von Labels werdeb Issues kategorisiert / organisiertes
 
 [Dokumentation](https://guides.github.com/features/issues/)
-
----
-
-## @Profi - Milestones
-
-- Sammlung von Issues
-- Zuordnung von mehreren Issues zu einem spezifischen Feature oder Projekt-Phase
-  - Bsp. Beta-Launch, May-Sprint oder UI-Design
   
 ---
 
@@ -391,20 +347,31 @@ Note: Fragen, wie beide Protokolle gemergt werden sollen
 
 ---
 
-## Die Handschrift - Styleguide
+## @Profi - Milestones
 
-<!-- was ist ein Styleguide und ein Beispiel von einem unorganisierten Code, siehe Matsim, Jason o.ä.-->
+- Sammlung von Issues
+- Zuordnung von mehreren Issues zu einem spezifischen Feature oder Projekt-Phase
+  - Bsp. Beta-Launch, May-Sprint oder UI-Design
 
 ---
 
-## @Home
+## @Profi - Branches
+
+- Ein Branch ist eine abgetrennte / isolierte Umgebung, deren Änderungen keine Auswirkungen auf den Master Code haben
+  - Ermöglicht parallele Entwicklung an verschiedenen Features während der "Master"-Code unberührt bleibt
+  - Raum zum experimentieren
+  - **master**-Branch ist der lokale Standard Branch
+- `git checkout -b featureX` erstellt einen neuen lokalen Branch mit dem Namen *featureX*
+- `git checkout {branch}` wechselt in den angegebenen Branch
+
+[Git Dokumentation](https://git-scm.com/book/de/v1/Git-Branching-Einfaches-Branching-und-Merging)
+[Github Flow](https://guides.github.com/introduction/flow/)
+
+---
+
+## @Links
 
 * [Git Bash](https://git-scm.com/downloads)
 * [Github Desktop](https://desktop.github.com/)
 * [Git Kraken](https://www.gitkraken.com/)
-
----
-
-## Links
-
 * Online Buch: [Pro Git](https://git-scm.com/book/de/v1) von Scott Chacon and Ben Straub
