@@ -91,7 +91,7 @@ Nach der Installation von Git müssen die persönlichen Einstellungen konfigurie
 
 ## Genereller Workflow
 
-> Nachdem nun ein Repository vorhanden ist, können Dateien und Verzeichnisse in dem Projektverzeichnis erzeugt, verändert werden. Der generelle Workdlow sollte möglichst nur kleine Veränderungen enthalten, die dann [committet](#/6/2) werden (siehe Deatils [Git Dokumentation](https://git-scm.com/book/de/v1/Git-Grundlagen-%C3%84nderungen-am-Repository-nachverfolgen))
+> In einem Repositry können Dateien und Verzeichnisse erzeugt, verändert und gelöscht werden. Der generelle Workflow sollte möglichst nur kleine Veränderungen enthalten, die dann [committet](#/6/2) werden (siehe Deatils [Git Dokumentation](https://git-scm.com/book/de/v1/Git-Grundlagen-%C3%84nderungen-am-Repository-nachverfolgen))
 
 ![Git Qorkflow - https://git-scm.com/figures/18333fig0201-tn.png](https://git-scm.com/figures/18333fig0201-tn.png)
 
@@ -99,13 +99,13 @@ Nach der Installation von Git müssen die persönlichen Einstellungen konfigurie
 
 ### Änderungen vormerken - Git Add
 
-<!-- git add, commit und Commit Nachrichten erklären -->
-- `git add {Dateiname}` um Dateien für den nächsten Commit vorzumerken
-  - Verschiebt die Dateien vom Arbeitsverzeichnis in den Staging-Bereich
-  - `git add meine_datei.java` um eine bestimmte Datei vorzumerken
-  - `git add *.java` um mehrere Dateien eines Typs vorzumerken
-  - **Achtung**: Die Dateien sind noch nicht versioniert
-- `git status` listet alle Dateien auf, die sich im Staging-Bereich befinden
+> Neue, veränderte oder gelöschte Dateien müssen _immer_ vorgemerkt werden, damit sie in den nächste [Commit](#/6/2) festgeschrieben werden. Dies geschieht mit dem Befehlt ```git add``` der entweder der Dateiname (ggf. mit Pfad) übergeben bekommt. Wenn alle Dateien berücksichtig werden sollen, dann reicht ein Punkt oder [Wildcard](https://de.wikipedia.org/wiki/Wildcard_(Informatik)). Mit ```git status``` können die vorgemerkten Dateien aufgelistet werden. **Wichtig:** Vorgemerkte Dateien sind noch nicht versioniert
+
+```shell
+git add mein_java_programm.java
+git add *.java
+git add .
+```
 
 ===
 
