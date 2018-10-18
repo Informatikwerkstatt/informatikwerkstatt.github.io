@@ -80,18 +80,20 @@ Nach der Installation von Git müssen die persönlichen Einstellungen konfigurie
 
 * ein Projekt entspricht einem Verzeichnis &rarr; somit legt man ein leeres Verzeichnis an
 * in dem Verzeichnis werden zwei Dateien angelegt
-    * [.gitignore](#/8)<sup>1</sup> 
+    * [.gitignore](#/8)<sup>2</sup> 
     * ```readme.md``` in der eine Kurzbeschreibung des Projektes als [Markdown](https://de.wikipedia.org/wiki/Markdown) enthalten ist
-* über die [Git Bash](https://gitforwindows.org/)<sup>2</sup> wechselt man in das erstelle Verzeichnis
+* über die [Git Bash](https://gitforwindows.org/)<sup>1</sup> wechselt man in das erstelle Verzeichnis
 * dort führt man ```git init``` aus
 
-<small>1: die Datei muss mit einem Punkt beginnen und darf keine Endung haben, hierzu empfiehlt es sich diese Datei in der Git Bash mit dem Befehl [touch](https://de.wikipedia.org/wiki/Touch_%28Unix%29) anzulegen<br/>2: die Git Bash ist auf den Pool Rechner installiert</small>
+<small>1: die Git Bash ist auf den Pool Rechner installiert<br/>2: die Datei muss mit einem Punkt beginnen und darf keine Endung haben, hierzu empfiehlt es sich diese Datei in der Git Bash mit dem Befehl [touch](https://de.wikipedia.org/wiki/Touch_%28Unix%29) anzulegen</small>
 
 ---
 
-## Änderungen nachverfolgen
+## Genereller Workflow
 
-[Git Dokumentation](https://git-scm.com/book/de/v1/Git-Grundlagen-%C3%84nderungen-am-Repository-nachverfolgen)
+> Nachdem nun ein Repository vorhanden ist, können Dateien und Verzeichnisse in dem Projektverzeichnis erzeugt, verändert werden. Der generelle Workdlow sollte möglichst nur kleine Veränderungen enthalten, die dann [committet](#/6/2) werden (siehe Deatils [Git Dokumentation](https://git-scm.com/book/de/v1/Git-Grundlagen-%C3%84nderungen-am-Repository-nachverfolgen))
+
+![Git Qorkflow - https://git-scm.com/figures/18333fig0201-tn.png](https://git-scm.com/figures/18333fig0201-tn.png)
 
 ===
 
@@ -381,3 +383,4 @@ Note: Fragen, wie beide Protokolle gemergt werden sollen
 * [Github Desktop](https://desktop.github.com/)
 * [Git Kraken](https://www.gitkraken.com/)
 * Online Buch: [Pro Git](https://git-scm.com/book/de/v1) von Scott Chacon and Ben Straub
+* [Git-Flow](https://nvie.com/posts/a-successful-git-branching-model/) für komplexere Entwicklungen
