@@ -101,10 +101,10 @@ Nach der Installation von Git müssen die persönlichen Einstellungen konfigurie
 
 * Neue, veränderte oder gelöschte Dateien müssen _immer_ vorgemerkt werden
 * Befehl ```git add``` führt dies durch, aber es müssen die Dateien übergeben werden
-    * entweder der Dateiname mit Endung und ggf Verzeichnispfad
-    * bei allen Dateien reicht ein Punkt
-    * es kann ein  [Wildcard](https://de.wikipedia.org/wiki/Wildcard_(Informatik)). 
-* ````git status``` listet alle vorgemerkten Dateien
+    * Dateiname mit Endung und ggf Verzeichnispfad
+    * für allen Dateien reicht ein Punkt
+    * es kann ein  [Wildcard](https://de.wikipedia.org/wiki/Wildcard_(Informatik) benutzt werden 
+* ```git status``` listet alle vorgemerkten Dateien
 * **Wichtig:** Vorgemerkte Dateien sind noch nicht versioniert
 
 ```shell
