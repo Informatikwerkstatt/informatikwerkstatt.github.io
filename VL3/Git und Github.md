@@ -4,9 +4,6 @@ permalink: /git-github/
 ---
 
 # Informatikwerkstatt
-__Git & Github__
-
-<!-- ggf Social Cars Git Folien nutzen -->
 
 Note:  Zwei Studierende auffordern,  Protokoll zu der Veranstaltung heute zu führen; Headlines und 1-2 Stichworte für die Folie mitschreiben. (Wichtig ist, dass die Protokolle nicht identisch sind)
 
@@ -81,6 +78,15 @@ Nach der Installation von Git müssen die persönlichen Einstellungen konfigurie
 
 ## Projekt erstellen
 
+* ein Projekt entspricht einem Verzeichnis &rarr; somit legt man ein leeres Verzeichnis an
+* in dem Verzeichnis werden zwei Dateien angelegt
+    * [.gitignore](#/8)<sup>1</sup> 
+    * ```readme.md``` in der eine Kurzbeschreibung des Projektes als [Markdown](https://de.wikipedia.org/wiki/Markdown) enthalten ist
+* über die [Git Bash](https://gitforwindows.org/)<sup>2</sup> wechselt man in das erstelle Verzeichnis
+* dort führt man ```git init``` aus
+
+<small>1: die Datei muss mit einem Punkt beginnen und darf keine Endung haben, hierzu empfiehlt es sich diese Datei in der Git Bash mit dem Befehl [touch](https://de.wikipedia.org/wiki/Touch_%28Unix%29) anzulegen<br/>2: die Git Bash ist auf den Pool Rechner installiert</small>
+
 ---
 
 ## Änderungen nachverfolgen
@@ -94,7 +100,7 @@ Nach der Installation von Git müssen die persönlichen Einstellungen konfigurie
 <!-- git add, commit und Commit Nachrichten erklären -->
 - `git add {Dateiname}` um Dateien für den nächsten Commit vorzumerken
   - Verschiebt die Dateien vom Arbeitsverzeichnis in den Staging-Bereich
-  - `git add meine_datei.doc` um eine bestimmte Datei vorzumerken
+  - `git add meine_datei.java` um eine bestimmte Datei vorzumerken
   - `git add *.java` um mehrere Dateien eines Typs vorzumerken
   - **Achtung**: Die Dateien sind noch nicht versioniert
 - `git status` listet alle Dateien auf, die sich im Staging-Bereich befinden
