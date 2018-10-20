@@ -169,18 +169,17 @@ git add src/mein_java_programm.java
 
 ---  
 
-### Gitignore
+## Gitignore
 
-- Viele Dateien (Cache Dateien, Logs, etc.) sind unnötig zu versionieren
-- In der *.gitignore* Datei kann man festlegen welche Dateien oder Dateimuster von Git ignoriert werden sollen
+- Viele Dateien (Cache Dateien, Logs, etc.) müssen nicht versioniert werden
+- In der ```.gitignore``` Datei kann man festlegen welche Dateien oder Dateimuster von Git ignoriert werden sollen
 
-    ```
+    ```shell
     *.log (ignoriert alle Dateien mit der Endung *.log*)
     test.txt (ignoriert die test.txt-Datei)
     ```
 
-- [Dokumentation](https://help.github.com/articles/ignoring-files/)
-- [Vorlagen](https://github.com/github/gitignore)
+<small>diverse [Vorlagen](https://github.com/github/gitignore)für Gitignore</small>
 
 ===
 
