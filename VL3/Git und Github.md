@@ -305,17 +305,7 @@ bin/
 
 ### Clone
 
-> Mit dem _Clonen_ des Repositories werden alle Daten in einem Verzeichnis auf dem Rechner abgelegt (gesamte Historie mit Daten).
-
-- Ermöglicht eine lokale Kopie eines existierenden Remote-Repositorys
-- `git clone [url]` lädt jede einzelne Version jeder Datei in der Historie des Repositorys herunter
-- Vorgänge während des clone-Vorgangs:
-  - Anlegung eines Verzeichnises
-  - Initialisierung eines *.git* Verzeichnises (`git init`)
-  - Download aller Dateien
-  - Checkout einer Arbeitskopie der aktuellen Version
-
-[Dokumentation](https://services.github.com/on-demand/github-cli/clone-repo-cli)
+> Mit ```git clone **Repository URL**``` bzw ```git clone **Repository URL** ***Verzeichnisname**``` kann ein Repository initial geladen werden. Das [Clonen](https://services.github.com/on-demand/github-cli/clone-repo-cli) kopiert das gesamte Repository auf die lokale Festplatte. Jeder Benutzer, der sich ein Repository clont, hat somit eine vollständige Kopie der History. Das Verzeichnis mit allen notwendigen Daten wird automatisch erzeugt
 
 ---
 
