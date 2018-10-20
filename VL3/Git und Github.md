@@ -294,6 +294,8 @@ bin/
 
 <small>1: Wir geben eine Liste herum, auf die bitte Euer Name mit den zugehörigen Accountnamen eingetragen wird, damit jeder von Euch Zugang zu den Projekten erhält</small>
 
+Note: Tutoren sollen Studierende direkt via Laptop / PC in das Team "Studierende" eintragen
+
 ---
 
 ### Push
@@ -339,12 +341,12 @@ git clone **Repository URL** **Verzeichnisname**
 ## @Let's try - Für Alle
 
 1. Clont das [Namen Repository](https://github.com/Informatikwerkstatt/Namen) der Informatikwerkstatt
-2. Ergänzt in der ```readme.md``` Eure(n) Namen 
+2. Ergänzt in der ```readme.md``` Eure(n) Vornamen 
 3. Pusht nun die Änderung
 
 &rArr; Was stellt Ihr fest?
 
-Note: Fragen, wie beide Protokolle gemergt werden sollen
+Note: Fragen, wie beide Protokolle gemergt werden sollen und Studis hinweisen keine persönlichen Daten einzutragen
 
 ---
 
@@ -356,14 +358,11 @@ Note: Fragen, wie beide Protokolle gemergt werden sollen
 
 ---
 
-## Issue
+## Issue-Tracker
 
-<!-- was sind Issues, wozu dienen sie -->
-- Issues sind eine Möglichkeit um Aufgaben, Verbesserungen oder Bugs zu erfassen
-- Issues können bestimmten Personen zugeordnet werden (Aufgabenverteilung)
-- Mithilfe von Labels werdeb Issues kategorisiert / organisiertes
+> In jedem Projekt treten [Fehler (Issues)](https://guides.github.com/features/issues/) auf. Mit Hilfe eines können diese organisiert werden. Man kann Issues vereinfacht als _Arbeitsaufgaben / Todos_ sehen.<br/>Innerhalb der Fehlerbeschreibung kann eine Diskussion statt finden. Weiterhin können die Issues einzelnen Personen zugeteilt werden, die sich um die Lösung kümmern.<br/> Schreibt man in einer Commit-Nachricht ```fix #Issuenummer```, wird der Issue [automatisch geschlossen](https://help.github.com/articles/closing-issues-using-keywords/) und man weiss mit welchem Commit der Fehler behoben wurde
 
-[Dokumentation](https://guides.github.com/features/issues/)
+&rArr; Jede(r) erfasst bitte einen Issue mit einem einfachen Kommentar in dem [Namens Repository](https://github.com/Informatikwerkstatt/Namen/issues)
 
 ---
 
