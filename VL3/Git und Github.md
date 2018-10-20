@@ -344,20 +344,15 @@ git clone **Repository URL** **Verzeichnisname**
 
 &rArr; Was stellt Ihr fest?
 
+Note: Fragen, wie beide Protokolle gemergt werden sollen
+
 ---
 
 ## Merge Conflict
 
-Note: Fragen, wie beide Protokolle gemergt werden sollen
+> Ein [Merge Conflict](https://git-scm.com/book/de/v1/Git-Branching-Einfaches-Branching-und-Merging#Grundlegende-Merge-Konflikte) ist der Fall, dass zwischen Eurem letzten _Pull_ und dem durchgeführten _Push_ jemand anderes seine Änderungen gepusht hat. Ihr müsst somit zuerst einen _Pull_ machen, den [Konflikt ggf. manuell beheben](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/), dann _committen_ und _pushen_
 
-- Beim Ändern von Code an denselben Stellen in den selben Dateien unterschiedlicher Branches, tritt bei einem Merge ein Fehler auf (Git kann Änderungen nicht mehr sauber zusammen führen)
-- Beim Auftreten eines solchen Fehlers wird der Merge sofort gestoppt
-- Fehler muss **manuell** behoben werden
-  - Git fügt den betroffenen Dateien Konfliktlösungsmarker hinzu
-  - Nach manueller Beseitigung müssen alle betroffenen Dateien wieder per `git add` markiert werden
-  - `git commit` ausführen, um den Merge-Commit endgültig abzuschließen
-
-[Dokumentation](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/)
+&rArr; Bitte alle die Konflikte beseitigen und die Namensliste pushen, so dass wir am Ende alle Namen in diesem Repository haben
 
 ---
 
@@ -369,12 +364,6 @@ Note: Fragen, wie beide Protokolle gemergt werden sollen
 - Mithilfe von Labels werdeb Issues kategorisiert / organisiertes
 
 [Dokumentation](https://guides.github.com/features/issues/)
-  
----
-
-## @Let's try
-
-<!-- jeder erstellt in unserem Testrepo einen Issue und wenn alle Issue da sind, dann bündeln wir diese zu Milestones -->
 
 ---
 
