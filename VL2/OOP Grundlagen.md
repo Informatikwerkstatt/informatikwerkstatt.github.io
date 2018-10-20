@@ -535,7 +535,7 @@ public class CAuto implements IFahrzeug
 
 ## Überladen / Overloading
 
-> Das bedeutet, dass man innerhalb einer Klasse eine Methode mit gleichem Namen, aber mit unterschiedlichen Paramtern hat. Ein Überladen anhand des Rückgabewertes ist nicht möglich
+> Das bedeutet, dass man innerhalb einer Klasse eine Methode mit gleichem Namen, aber mit unterschiedlichen Parametern hat. Ein Überladen anhand des Rückgabewertes ist nicht möglich
 
 ```java
 public class CUeberladen
