@@ -300,9 +300,7 @@ Note: Tutoren sollen Studierende direkt via Laptop / PC in das Team "Studierende
 
 ### Push
 
-> Mit ```git push``` bzw. beim ersten Mal mit ```git push origin master``` werden die Daten aus dem lokalen Repository in das [Remote-Repository](https://help.github.com/articles/pushing-to-a-remote/) hier in den Master-Branch zu GitHub übertragen
-
-**@todo Link zur Branching Slide**
+> Mit ```git push``` bzw. beim ersten Mal mit ```git push origin master``` werden die Daten aus dem lokalen Repository in das [Remote-Repository](https://help.github.com/articles/pushing-to-a-remote/) hier in den Master-[Branch](#/21) zu GitHub übertragen
 
 ---
 
@@ -376,15 +374,13 @@ Note: Fragen, wie beide Protokolle gemergt werden sollen und Studis hinweisen ke
 
 ## @Profi - Branches
 
-- Ein Branch ist eine abgetrennte / isolierte Umgebung, deren Änderungen keine Auswirkungen auf den Master Code haben
-  - Ermöglicht parallele Entwicklung an verschiedenen Features während der "Master"-Code unberührt bleibt
-  - Raum zum experimentieren
-  - **master**-Branch ist der lokale Standard Branch
-- `git checkout -b featureX` erstellt einen neuen lokalen Branch mit dem Namen *featureX*
-- `git checkout {branch}` wechselt in den angegebenen Branch
+> Ein [Branch](https://git-scm.com/book/de/v1/Git-Branching-Branching-Workflows) ist eine abgetrennte / isolierte Umgebung, deren Änderungen keine Auswirkungen auf den Master-Code haben
 
-[Git Dokumentation](https://git-scm.com/book/de/v1/Git-Branching-Einfaches-Branching-und-Merging)
-[Github Flow](https://guides.github.com/introduction/flow/)
+- Ermöglicht parallele Entwicklung an verschiedenen Features während der Master-Code unberührt bleibt
+- Raum zum experimentieren
+- Um zwischen Branches zu wechseln / sie anzulegen benutzt man das Kommando ```git checkout```
+- Branches können ineinandern [gemergt](https://git-scm.com/book/de/v1/Git-Branching-Einfaches-Branching-und-Merging) werden ähnlich wie bei der Konfliktbeseitigung
+- Wenn so genannte [Forks](https://guides.github.com/activities/forking/) eines Repositories existieren können mit Hilfe von [Pull Requests](https://help.github.com/articles/about-pull-requests/) und dem [GitHub Flow](https://guides.github.com/introduction/flow/) die verschiedenen Stände konsistent zusammen geführt werden
 
 ---
 
