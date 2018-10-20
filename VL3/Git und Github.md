@@ -219,20 +219,16 @@ bin/
 
 ---
 
-## Was ist Github?
+## GitHub - Social Coding
 
-> [Github](http://github.com) ist die bekannteste und größte Code-Hosting Plattform und stellt Repositorys für Projekte bereit
+> [GitHub](http://github.com) ist die bekannteste und größte Code-Hosting Plattform und stellt Repositorys für Projekte bereit
 
-
-*
-  - Bereitstellung von Remote Repositorys
-- **Social Coding**
-  - Zusammen Software entwickeln (Open Source)
-  - Pull-Requests
-  - Einfaches Projektmanagement (Issues, Project-Boards)
-- I.d.R.: zusätzliches "remote" Repository, von dem verschiedene Nutzer Ihre Daten kopieren ("klonen") und miteinander synchronisieren  
-- Folgende Abbildung zeigt einen Beispiel-Workflow
-- In der Folge schauen wir uns die bisher im Überblick gezeigten Abläufe im Detail an
+- Zusammen Software entwickeln (viele OpenSource Projekte wie [MySQL](https://github.com/mysql), [Tensorflow](https://github.com/tensorflow), [Android](https://github.com/topics/android))
+- Einfaches Projektmanagement (Issues, Project-Boards)
+- Organisation für Gruppenprojekte ([Google](https://github.com/google), [Microsoft](https://github.com/Microsoft), [Facebook](https://github.com/facebook))
+- Webseiten mittels [GitHub Pages](https://pages.github.com/)
+    - Meine Dissertation [LightJason](https://lightjason.org/)
+    - Forschungprojekt [SocialCars](https://socialcars.github.io/)
 
 ===
 
@@ -244,9 +240,9 @@ bin/
 
 ## Github Account
 
-1. [Registrieren](https://github.com/)
-2. [Probleme?](https://services.github.com/on-demand/intro-to-github/create-github-account)
-3. @Profi: [Github Student Pack](https://github.com/) Unendlich private Repositorys und andere Developer Tools kostenlos.
+* [Registrieren](https://github.com/)
+* [Probleme?](https://services.github.com/on-demand/intro-to-github/create-github-account)
+* **@Profi:** [Github Student Pack](https://github.com/) Unendlich private Repositorys und andere Developer Tools kostenlos
 
 ===
 
