@@ -204,7 +204,7 @@ bin/
 2. Erstelle ein leeres Repository auf dem Desktop in einem Verzeichnis
 3. Erzeuge in diesem Verzeichnis die zwei Dateien ```readme.md``` und eine ```readme.txt``` und füge beiden die gleiche Überschrift z.B. einen beliebigen Projektnamen hinzu
 4. Passe die ```.gitignore``` so an, dass alle ```*.txt``` Dateien ignoriert werden
-5. erzuege einen Commit mit den Daten
+5. erzeuge einen Commit mit den Daten
 
 &rarr; und die Tutoren überprüfen, ob es richtig gemacht wurde
 
@@ -221,8 +221,10 @@ bin/
 
 ## Was ist Github?
 
-- Bekannteste Open Source Plattform
-- Größte Code-Hosting Plattform
+> [Github](http://github.com) ist die bekannteste und größte Code-Hosting Plattform und stellt Repositorys für Projekte bereit
+
+
+*
   - Bereitstellung von Remote Repositorys
 - **Social Coding**
   - Zusammen Software entwickeln (Open Source)
@@ -232,13 +234,11 @@ bin/
 - Folgende Abbildung zeigt einen Beispiel-Workflow
 - In der Folge schauen wir uns die bisher im Überblick gezeigten Abläufe im Detail an
 
-![Git Remote Workflow](images/git-remote.png)
-
 ===
 
-### Local & Remote
+### Github - Local & Remote
 
-<!-- was bedeutet local / remote Repository -->
+![Git Remote Workflow](images/git-remote.png)
 
 ---
 
