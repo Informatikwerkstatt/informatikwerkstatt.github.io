@@ -10,7 +10,7 @@ __Grundlagen Objekt-Orientierter Programmierung__
 
 ## Objekt-Orientierte Programmierung (OOP) - was ist das?
 
-* Beschreibung von Software durch Objekte (seit den 1990igern)
+* Beschreibung von Software durch Objekte (seit den 1990ern)
     * Zustand (z.B. Auto hat Farbe, Marke, aktuelle Geschwindigkeit, Gang)
     * Verhalten (z.B. Gang wechseln, Gas geben, bremsen) 
 * Prinzip **Abstraktion**:
@@ -36,9 +36,9 @@ __Grundlagen Objekt-Orientierter Programmierung__
 
 ===
 
-### Beispiel für Klasse eines Autos
+### Beispiel: Klasse, die ein Auto beschreibt
 
-Eigenschaften beschreiben gemeinsam den Zustand eines Autos &rarr; sie können unveränderbar (```final```) oder veränderbar sein
+Eigenschaften beschreibenzusammen den Zustand eines Autos &rarr; sie können unveränderbar (```final```) oder veränderbar sein
 
 ```java
 public class CAuto {
@@ -47,16 +47,15 @@ public class CAuto {
   // unveränderbare Eigenschaft durch final  
   private final String m_farbe;
   private final String m_marke;
-  private final int m_maximaleGeschwindigkeit;
+  private final int m_maxGeschwindigkeit;
   private final int m_anzahlGaenge;
 
   // veränderbare Eigenschaften
   // aktuelle Geschwindigkeit - der Wert bei Java mit 0 automatisch belegt
-  private int m_aktuelleGeschwindigkeit;
+  private int m_aktGeschwindigkeit;
   // aktueller Gang - hier wird ein Wert vorgegeben
   private int m_gang = 1;
   
-
   // --- definiere Methoden ---
 
   // Default-Konstruktor ohne Parameter
@@ -67,28 +66,28 @@ public class CAuto {
   }
 
   // Konstruktor mit Parametern
-  public CAuto( final String p_farbe, final String p_marke, final int p_anzahlGaenge, final int p_maximaleGeschwindigkeit)
+  public CAuto( final String p_farbe, final String p_marke, final int p_anzahlGaenge, final int p_maxGeschwindigkeit)
   {
     m_farbe = p_farbe;
     m_marke = p_marke;
     m_anzahlGaenge = p_anzahlGaenge;
-    m_maximaleGeschwindigkeit = p_maximaleGeschwindigkeit;
+    m_maxGeschwindigkeit = p_maxGeschwindigkeit;
   }
 }
 ```
 
 ---
 
-## Instanziierung - Erzeugen eines realen Autoobjektes
+## Instanziierung - Erzeugen eines konkreten Autoobjektes
 
 > Instanziierung &rarr; Erzeugung eines Objekts (Instanz) im Speicher aus einer Klasse
 
 1. Allokation des Speichers<sup>1</sup> für ein Objekt mit dem ```new```-Operator
-2. ```new``` liefert eine Referenz auf die Speicherstelle, die in einer Variablen abgelegt werden
+2. ```new``` liefert eine Referenz auf die Speicherstelle, die in einer Variablen abgelegt wird
     ```java
     final CAuto l_auto = new CAuto("rot", "beetle", 5, 250);
     ```
-3. Beim Aufruf von ```new``` wird eine spezielle Methode der [Konstruktor](/#/5) aufgerufen
+3. Beim Aufruf von ```new``` wird eine spezielle Methode aufgerufen: der [Konstruktor](/#/5) 
 
 <small>1: Wieviel Speicher benötigt wird, ist durch die Struktur der Klasse festgelegt</small>
 
@@ -98,7 +97,7 @@ public class CAuto {
 
 <span class="rrd" data-rrd="Diagram(Optional( Choice(0, Terminal('public'), Terminal('protected'), Terminal('private')), 'skip'),Optional( Terminal('static'), 'skip'), Optional( Terminal('final'), 'skip'), NonTerminal('Datentyp'),NonTerminal('Eigenschaft- / Variablenname'),Optional(Sequence(Terminal('='),Choice(0,Sequence(Terminal('new'),NonTerminal('Klasse')),NonTerminal('Wert'))), 'skip'),Terminal(';'))"></span>
 
-> Eigenschaften / Properties sind Variablen innerhalb einer Klasse, die für jedes Objekt vorhanden sind und individuell für das Objekt benutzt werden können. Sie beschreiben den Zustand des Objektes
+> Eigenschaften / Properties sind Variablen innerhalb einer Klasse, die für jedes Objekt vorhanden sind und für das Objekt gesetzt werden können. Sie beschreiben den Zustand des Objektes
 
 ---
 
@@ -116,12 +115,12 @@ public CAuto()
 }
 
 // überladener Konstruktor - hat mehrere Parameter
-public CAuto( final String p_farbe, final String p_marke, final int p_anzahlGaenge, final int p_maximaleGeschwindigkeit)
+public CAuto( final String p_farbe, final String p_marke, final int p_anzahlGaenge, final int p_maxGeschwindigkeit)
 {
   m_farbe = p_farbe;
   m_marke = p_marke;
   m_anzahlGaenge = p_anzahlGaenge;
-  m_maximaleGeschwindigkeit = p_maximaleGeschwindigkeit;
+  m_maxGeschwindigkeit = p_maxGeschwindigkeit;
 }
 ```
 
@@ -129,7 +128,7 @@ public CAuto( final String p_farbe, final String p_marke, final int p_anzahlGaen
 
 ## Schlüsselwort ```this```
 
-> ```this``` ist innerhalb einer Klasse die Referenz (Zeiger) auf _sich selbst_ Nachdem ein Objekt im Speicher erzeugt wurde, ist ```this``` die Referenz auf diesen Speicherbereich.
+> ```this``` ist innerhalb einer Klasse die Referenz (Zeiger) auf _sich selbst_. Nachdem ein Objekt im Speicher erzeugt wurde, ist ```this``` die Referenz auf diesen Speicherbereich.
 
 ![this Illustration](images/this.png#threequarter)
 
@@ -138,7 +137,7 @@ public CAuto( final String p_farbe, final String p_marke, final int p_anzahlGaen
 ## @Let's try
 
 1. Erstelle eine Klasse ```CAuto``` mit einer ```main()```-Methode (vollständiges Programm)
-2. Definiere ein paar Eigenschaften für deine Klasse
+2. Definiere ein paar Eigenschaften für Deine Klasse
 3. Erzeuge in der ```main()``` drei unterschiedliche Instanzen deiner Klasse
 4. Nutze ```System.out.println()```, um die Instanzen auszugeben. Was siehst Du? Was bedeutet das? 
 5. Prüfe die Identität der beiden oben definierten Variablen ```l_auto1``` und ```l_auto2``` in der ```main()```-Methode! Verwende den Operator ```==```. 
@@ -149,7 +148,7 @@ public CAuto( final String p_farbe, final String p_marke, final int p_anzahlGaen
 
 <span class="rrd" data-rrd="Diagram( Optional( Choice(0, Terminal('public'), Terminal('protected'), Terminal('private')), 'skip'),Choice(0,Terminal('void'), Terminal('int'), Terminal('String'), NonTerminal('...')), Terminal('Methodenname'), Terminal('('), Optional(Choice(0, NonTerminal('Parameter')), 'skip'), Terminal(')') )"></span>
 
-Auto-Klasse um Methoden "Schalten", "Gas geben" und "Bremsen" ergänzen
+Wir ergänzen die Auto-Klasse um Methoden "Schalten", "Gas geben" und "Bremsen"
 
 ```java
 public class CAuto
@@ -166,14 +165,14 @@ public class CAuto
 
   public void beschleunige( final int p_inkrement )
   {
-      m_aktuelleGeschwindigkeit += p_inkrement;
-      m_aktuelleGeschwindigkeit = m_aktuelleGeschwindigkeit > m_maximaleGeschwindigkeit ? m_maximaleGeschwindigkeit : m_aktuelleGeschwindigkeit;
+      m_aktGeschwindigkeit += p_inkrement;
+      m_aktGeschwindigkeit = m_aktGeschwindigkeit > m_maxGeschwindigkeit ? m_maxGeschwindigkeit : m_aktGeschwindigkeit;
   }
   
   public void bremse( final int p_dekrement )
   {
-      m_aktuelleGeschwindigkeit -= p_dekrement;
-      m_aktuelleGeschwindigkeit = m_aktuelleGeschwindigkeit < 0 ? 0 : m_aktuelleGeschwindigkeit;
+      m_aktGeschwindigkeit -= p_dekrement;
+      m_aktGeschwindigkeit = m_aktGeschwindigkeit < 0 ? 0 : m_aktGeschwindigkeit;
   }
 }
 ```
@@ -200,7 +199,7 @@ l_meinAuto.beschleunige(5);
 
 ### Getter
 
-> _Getter_ sind Methoden, meist mit ```get``` im Namen, die Daten aus einem Objekt nach außen liefern. Über den Getter können die Daten intern unverändert bleiben und somit sichert der Getter den Zustand des Objektes ab
+> _Getter_ sind Methoden, meist mit ```get``` im Namen, die Daten aus einem Objekt nach außen liefern. Dabei bleiben die Daten intern unverändert;  der  Zustand des Objektes wird abgesichert
 
 ```java
 public String getFarbe()
@@ -220,7 +219,7 @@ public CAuto get()
 
 ### Absicherung mittels Getter
 
-> Bei primitven Typen und bei String wird intern eine Kopie der Daten erzeugt und zurückgeliefert, bei allem anderen eine Referenz, die dann veränderbar ist
+> Bei primitiven Typen und bei String wird intern eine Kopie der Daten erzeugt und zurückgeliefert, bei allem anderen eine Referenz, die dann veränderbar ist
 
 ```java
 public String getFarbe()
@@ -230,7 +229,7 @@ public String getFarbe()
 
 public CAuto get()
 {
-  return new CAuto( m_farbe, m_marke, m_anzahlGaenge, m_maximaleGeschwindigkeit );
+  return new CAuto( m_farbe, m_marke, m_anzahlGaenge, m_maxGeschwindigkeit );
 }
 ```
 
@@ -240,7 +239,7 @@ public CAuto get()
 
 ## Setter
 
-> _Setter_ sind ebenfalls Methoden, meist mit ```set``` im Namen, die das gegenteil des Getters sind und Werte setzen. Die Werte, die über einen Setter gesetzt werden können, sollten __immer__ geprüft werden, damit das Objekt in einem konsistenten Zustand bleibt. Wenn ein fehlerhafter Wert übergeben wird kann mittels Werfen einer [Exception](/java-grundlagen/#/19) eine Fehlerbehandlung veranlasst werden
+> _Setter_ sind ebenfalls Methoden, meist mit ```set``` im Namen; sie setzen / verändern Werte. Werte, die über einen Setter gesetzt werden, sollten __immer__ geprüft werden, damit das Objekt in einem konsistenten Zustand bleibt. Wenn ein fehlerhafter Wert übergeben wird, kann mittels Werfen einer [Exception](/java-grundlagen/#/19) eine Fehlerbehandlung veranlasst werden
 
 ```java
   public void schalte( final int p_gang )
@@ -248,7 +247,7 @@ public CAuto get()
       // Wert setzen
       m_gang = p_gang % ( m_anzahlGaenge + 1 );
 
-      // falls der Wert falsch ist, wird er strikt richtig gemacht anstatt eine Exception zu werfen
+      // hier: falls der Wert falsch ist, wird er berichtigt, anstatt eine Exception zu werfen
       m_gang = m_gang < 0 ? 0 : m_gang;
   }
 ```
@@ -266,23 +265,23 @@ public CAuto get()
 
 ## @Home / Übung
 
-Mache die Methoden ```schalte()```, ```beschleunige()```, ```bremse(.)``` realistischer:
+Mache die Methoden ```schalte()```, ```beschleunige()```, ```bremse()``` realistischer:
 
 1. Ergänze das Schalten um Leerlauf und Rückwärtsgang
 2. Prüfe beim Versuch, die Methoden auszuführen, die Eingaben und fange Fehler ab
-3. __@Profis__: Realisiere einen einfachen Zusammenhang zwischen eingelegtem Gang und ändern der Geschwindigkeit
+3. __@Profis__: Realisiere einen einfachen Zusammenhang zwischen eingelegtem Gang und Ändern der Geschwindigkeit
 
 ---
 
 ## Ich sehe Dich - Sichtbarkeit
 
-> Bei [Methode](/#/7) wurden die drei Schlüsselwörter ```public```, ```protected``` und ```private``` gezeigt, mit dessen Hilfe die so genannte _Sichtbarkeit_ festgelegt wird. Sichtbarkeiten können für Klassen, Eigenschaften und Methoden festgelegt werden
+> Bei [Methoden](/#/7) wurden die drei Schlüsselwörter ```public```, ```protected``` und ```private``` gezeigt, mit dessen Hilfe die so genannte _Sichtbarkeit_ festgelegt wird. Sichtbarkeiten können für Klassen, Eigenschaften und Methoden festgelegt werden
 
 * ```public``` ist von überall sichtbar
 * ```protected``` ist nur in abgeleiteten Klassen sichtbar
 * ```private``` ist nur in der Klasse selbst sichtbar
 * über Sichtbarkeiten können Zugriffe in der Benutzung beschränkt werden
-* zuerst immer alles ```private``` setzen und wenn es zu restriktiv ist, Schritt für Schritt die Sichtbarkeit erhöhen
+* zuerst immer alles ```private``` setzen; wenn es zu restriktiv ist, Schritt für Schritt die Sichtbarkeit erhöhen
 
 Note: Erklärung anhand des Büros von Prof Müller: Sitzt Prof Müller während der Sprechstunde mit einem Studi im Büro und hat die Tür zu, dann ist das Gespräch "privat", ist die Tür zum Sekretariat offen, aber zum Gang zu, dann ist das Gespräch "protected", weil Sekretärin mithören kann, aber sie ist ja auch Mitarbeiterin, wenn beide Türen offen sind, dann kann jeder auf dem Gang auch das Gespräch mithören. 
 
@@ -290,9 +289,9 @@ Note: Erklärung anhand des Büros von Prof Müller: Sitzt Prof Müller während
 
 ## Es geht auch ohne Objekt &rarr; Static
 
-> Mit dem Schlüsselwort ```static``` ist es möglich Methoden oder Eigenschaften ohne Objekt zu benutzen. Das bekannsteste Beispiel sind die [mathematische Funktionen](https://docs.oracle.com/javase/10/docs/api/java/lang/Math.html) z.B. ```Math.sin(3)```. Statische Methoden sind nützlich, wenn es sich um eine rein funktionale Struktur ohne Variablen etc. handelt.
+> Mit dem Schlüsselwort ```static``` kann man Methoden oder Eigenschaften ohne Objekt zu benutzen. Bekanntestes Beispiel sind die [mathematischen Funktionen](https://docs.oracle.com/javase/10/docs/api/java/lang/Math.html) z.B. ```Math.sin(3)```. Statische Methoden sind nützlich, wenn es sich um eine rein funktionale Struktur ohne Variablen etc. handelt.
 
-&rArr; Hinweis: Aus _static_ Methoden kann man nur auf _static_ Eigenschaften & Methoden zugreifen, aber aus _nicht static_ Methoden kann man auf alle zugreifen
+&rArr; Hinweis: Aus _static_ Methoden kann man nur auf _static_ Eigenschaften & Methoden zugreifen; aus _nicht static_ Methoden kann man auf alle zugreifen
 
 Note: Wozu kann man das Konzept von "static" sinnvoll verwenden? Problem: Seriennummer für die Autoklasse, wie lösen wir das?
 
@@ -309,12 +308,12 @@ public class CAuto
 
   private final String m_farbe;
   private final String m_marke;
-  private final int m_maximaleGeschwindigkeit;
+  private final int m_maxGeschwindigkeit;
   private final int m_anzahlGaenge;
   // individuelle Seriennummer des Autos
   private final int m_seriennummer;
 
-  private int m_aktuelleGeschwindigkeit;
+  private int m_aktGeschwindigkeit;
   private int m_gang = 1;
   
 
@@ -324,12 +323,12 @@ public class CAuto
     this( "rot", "VW", 5, 250 );
   }
 
-  public CAuto( final String p_farbe, final String p_marke, final int p_anzahlGaenge, final int p_maximaleGeschwindigkeit)
+  public CAuto( final String p_farbe, final String p_marke, final int p_anzahlGaenge, final int p_maxGeschwindigkeit)
   {
     m_farbe = p_farbe;
     m_marke = p_marke;
     m_anzahlGaenge = p_anzahlGaenge;
-    m_maximaleGeschwindigkeit = p_maximaleGeschwindigkeit;
+    m_maxGeschwindigkeit = p_maxGeschwindigkeit;
 
     // Zuweisung der Objekt Seriennummer aus der statischen Variablen
     m_seriennummer = s_anzahl;
@@ -358,7 +357,7 @@ public class CAuto
 ## @Let's try
 
 1. Ergänze die Definition der Klasse ```CAuto``` um die obigen Klassenvariablen
-2. Teste die Methoden zur Anzahl Autos und zur Seriennummer mit Hilfe eines Main-Programms
+2. Teste die Methoden zur Anzahl Autos und zur Seriennummer mit Hilfe eines ````main()```-Programms
 3. Implementiere eine Seriennummer nach dem Schema: ```0-0, 0-1, 0-2, 0-3, 0-4, 0-5, 0-6, 0-7, 0-8, 0-9, 1-0...``` immer wenn die hintere Stelle 10 erreicht wird die vordere Stelle inkrementiert, die Seriennummer soll dann als String ausgegeben werden
 
 Note: Karton-Drone vorführen, um das Thema "Vererbung" einzuleiten und einen kleinen Break zu haben
@@ -367,7 +366,9 @@ Note: Karton-Drone vorführen, um das Thema "Vererbung" einzuleiten und einen kl
 
 ## Everything is Object - Vererbung
 
-&rArr; Wie bauen wir nun einen LKW, ein Motorrad und einen SUV dazu, so dass alle eine Seriennummer haben, schalten können etc. zusätzlich soll der LKW noch eine Ladung bekommen und das Motorrad einen Sozius?
+&rArr; Als nächstes wollen wir einen LKW, ein Motorrad und einen SUV dazu bauen, so dass alle eine Seriennummer haben, schalten können etc. 
+Zusätzlich soll der LKW noch eine Ladung bekommen und das Motorrad einen Sozius?
+Wie machen wir das?
 
 ===
 
@@ -376,10 +377,10 @@ Note: Karton-Drone vorführen, um das Thema "Vererbung" einzuleiten und einen kl
 * Wir _verallgemeinern_ unsere ```CAuto``` Klasse zu _Fahrzeug_ &rarr; Generalisierung
 * _Fahrzeug_ ist eine _Oberklasse_ von ```CAuto```
 * ```CAuto``` wird eine _Unterklasse_ von Fahrzeug &rarr; Spezialisierung
-* ebenfalls wird Motorrad & LKW eine _Spezialisierung_ von Fahrzeug
+* Auch _Motorrad_ und _LKW_ werden _Spezialisierungen_ von Fahrzeug
 * SUV wird eine Spezialisierung von ```CAuto```
 
-&rArr; Motorrad, LKW, Auto und SUV sind Fahrzeuge und SUV ist ein Auto
+&rArr; Motorrad, LKW, Auto und SUV sind Fahrzeuge; SUV ist ein Auto
 
 ===
 
@@ -392,18 +393,18 @@ Note: Karton-Drone vorführen, um das Thema "Vererbung" einzuleiten und einen kl
 
 ===
 
-### Warum macht man das
+### Warum macht man das?
 
-* um Code-Redundanz zu vermeiden, man muss Methoden nur einmal implementieren
+* um Code-Redundanz zu vermeiden: man muss Methoden nur einmal implementieren
 * um Eigenschaften bei Ableitung erweitern zu können
-* um Struktur in die Software zu bekommen &rarr; um ein möglichst gutes Modell des Problems zu erhalten
+* um die Software zu strukturieren &rarr; um ein möglichst gutes Modell des Problems zu erhalten
 * um saubere Trennung von Elementen anhand ihrer Funktionalität & Eigenschaften zu erhalten
 
 ---
 
 ## Vererbung
 
-> Vererbung ist die Möglichkeit Klassen miteinander in Beziehung zu setzen. Man nutzt die _Ähnlichkeit_ zwischen Klassen und gruppiert sie, wobei man eben entweder _generalisiert_ oder _spezialisiert_. Man spricht bei der _Spezialisierung_ von _ableiten_, was einer _ist-ein_ Beziehung entspricht
+> Vererbung ist die Möglichkeit, Klassen miteinander in Beziehung zu setzen. Man nutzt die _Ähnlichkeit_ zwischen Klassen und gruppiert diese durch _Generalisierung_ oder _Spezialisierung_. Man spricht bei der Spezialisierung von _ableiten_, was einer _ist-ein_ Beziehung entspricht
 
 ===
 
@@ -426,10 +427,10 @@ public class CSUV extends CAuto
     this( "rot", "VW", 5, 250, p_offroadFahrbar );
   }
 
-  public CSUV( final String p_farbe, final String p_marke, final int p_anzahlGaenge, final int p_maximaleGeschwindigkeit, final boolean p_offroadFahrbar )
+  public CSUV( final String p_farbe, final String p_marke, final int p_anzahlGaenge, final int p_maxGeschwindigkeit, final boolean p_offroadFahrbar )
   {
     // Aufruf des Konstruktur von CAuto
-    super( p_farbe, p_marke, p_anzahlGaenge, p_maximaleGeschwindigkeit );
+    super( p_farbe, p_marke, p_anzahlGaenge, p_maxGeschwindigkeit );
     m_offroadFahrbar = p_offroadFahrbar;
 
   }
@@ -444,14 +445,14 @@ public class CSUV extends CAuto
 
 * um von einer Klasse zu erben / abzuleiten, wird das Schlüssewort ```extends``` verwendet
 * ist eine Klasse mit ```public final class``` deklariert, kann von dieser nicht abgeleitet werden
-* mit ```super``` wird der Konstruktor der Oberklasse aufgerufen, dies muss in der ersten Zeile des abgeleiteten Konstruktor geschehen
+* mit ```super``` wird der Konstruktor der Oberklasse aufgerufen, dies muss in der ersten Zeile des abgeleiteten Konstruktors geschehen
 * eine Klasse kann mittels ```extends``` nur von _genau einer_ anderen Klasse erben
 
 ===
 
 ### Interfaces
 
-> Interfaces legen nur die public Methoden-Definition fest, die in einer Klasse enthalten sein müssen. Die konkrete Implementierung liegt dann in der Klasse, Interfaces können nicht instantiiert werden
+> Interfaces legen nur die ```public``` Methoden-Definition fest, die in einer Klasse enthalten sein müssen. Die konkrete Implementierung liegt dann in der Klasse. Interfaces können __nicht__ instantiiert werden
 
 ```java
 public interface IFahrzeug
@@ -483,15 +484,15 @@ public class CAuto implements IFahrzeug
   @Override
   public void beschleunige( final int p_inkrement )
   {
-      m_aktuelleGeschwindigkeit += p_inkrement;
-      m_aktuelleGeschwindigkeit = m_aktuelleGeschwindigkeit > m_maximaleGeschwindigkeit ? m_maximaleGeschwindigkeit : m_aktuelleGeschwindigkeit;
+      m_aktGeschwindigkeit += p_inkrement;
+      m_aktGeschwindigkeit = m_aktGeschwindigkeit > m_maxGeschwindigkeit ? m_maxGeschwindigkeit : m_aktGeschwindigkeit;
   }
   
   @Override
   public void bremse( final int p_dekrement )
   {
-      m_aktuelleGeschwindigkeit -= p_dekrement;
-      m_aktuelleGeschwindigkeit = m_aktuelleGeschwindigkeit < 0 ? 0 : m_aktuelleGeschwindigkeit;
+      m_aktGeschwindigkeit -= p_dekrement;
+      m_aktGeschwindigkeit = m_aktGeschwindigkeit < 0 ? 0 : m_aktGeschwindigkeit;
   }
 }
 ```
@@ -505,15 +506,15 @@ public class CAuto implements IFahrzeug
 * Klassen erben mittels ```implements``` von Interfaces
 * eine Klasse kann von mehreren Interfaces erben
 * Alle geerbten Interface-Methoden _müssen_ implementiert werden
-* Implementierte Interface Methoden müssen mit der Annotation ```@Override``` versehen werden
+* Implementierte Interface-Methoden müssen mit der Annotation ```@Override``` versehen werden
 
 --- 
 
 ## Let's try
 
-1. Ergänze in dem Auto-Beispiel die SUV-Klasse und ergänze sie um eine passende Getter Methode
+1. Erweitere das Auto-Beispiel um die SUV-Klasse; ergänze diese um eine passende Getter Methode
 2. Ergänze das Interface und die dazu gehörige Benutzung in der Auto-Klasse
-3. Schreibe ein Hauptprogramm, in dem einmal eine Variable vom Typ ```IFahrzeug``` erstellt wird, in der einmal ein Auto- und einmal eine SUV Objekt abgelegt wird
+3. Schreibe ein Hauptprogramm, in dem eine Variable vom Typ ```IFahrzeug``` erstellt wird, in der einmal ein Auto- und einmal eine SUV Objekt abgelegt wird
 4. Rufe dann die entsprechenden Methoden der jeweiligen Klassen auf
 
 &rArr; Was stellst Du fest?
@@ -522,18 +523,19 @@ public class CAuto implements IFahrzeug
 
 ## Let's try
 
-1. Ergänze nun die Klassen für LKW und Motorrad mit passenden Methoden (Motorrad und LKW müssen je eine individuelle Eigenschaft mit Getter ggf mit Setter erhalten)
+1. Ergänze nun die Klassen für LKW und Motorrad mit passenden Methoden (Motorrad und LKW müssen je eine individuelle Eigenschaft mit Getter und ggf. Setter erhalten)
 2. Ergänze nun das Hauptprogramm um diese beiden neuen Objekte und führe es aus
+&rArr; Was stellst Du für diese beiden neuen Objekte fest?
+
 3. __@Profis__ Wie könnte man das [Diagramm](/#/15/2) sinnvoll mit Interfaces ergänzen?
 4. __@Profis__ Ergänze die SUV Klasse um verschiedene Fahrmodi (Outdoor, Offroad, Urban) mit Hilfe eines [Enums](https://www.baeldung.com/a-guide-to-java-enums)
 
-&rArr; Was stellst Du für diese beiden neuen Objekte fest?
 
 ---
 
 ## Überladen / Overloading
 
-> Überladen bedeuetet, dass man eine Methode (gleicher Name) mehrfach innerhalb einer Klasse hat, wobei sie sich nur anhand ihrer Parameter unterscheiden. Ein Überladen anhand des Rückgabewertes ist nicht möglich
+> Das bedeutet, dass man innerhalb einer Klasse eine Methode mit gleichem Namen, aber mit unterschiedlichen Paramtern hat. Ein Überladen anhand des Rückgabewertes ist nicht möglich
 
 ```java
 public class CUeberladen
@@ -605,9 +607,9 @@ public class CUnterklasse extends COberklasse
 
 === 
 
-### toString()
+### Beispiel für Überladen: ```toString()```
 
-> Überladen der Methode ```toString()``` ermöglicht es die Ausgabe eines Objektes anzupassen. Mit Hilfe von [MessageFormat](https://docs.oracle.com/javase/10/docs/api/java/text/MessageFormat.html) können schnell die Ausgaben formatiert werden
+> Überladen der Methode ```toString()``` ermöglicht es, anzupassen, wie ein Objekt ausgegeben wird. Mit Hilfe von [MessageFormat](https://docs.oracle.com/javase/10/docs/api/java/text/MessageFormat.html) kann die Ausgabe leicht formatiert werden
 
 <div class="flex">
 <div>
@@ -663,9 +665,12 @@ CMitToString@61064425: Hallo World
 
 ### equals() und hashCode()
 
-Wird die ```toString()``` Methode nicht überladen erscheint ```COhneToString@e73f9ac``` (Klassenname und Hash-Wert). 
+Wird die ```toString()``` Methode nicht überladen, erscheint ```COhneToString@e73f9ac``` (Klassenname und Hexadezimalzahl). 
 
-> Die [hexadezimale Zahl](https://de.wikipedia.org/wiki/Hexadezimalsystem) ist ein _eindeutiger_ [Hash-Wert](https://de.wikipedia.org/wiki/Hashfunktion), der durch die durch die Methode ```hashCode()``` erzeugt wird und das Objekt in der Java Runtime identifiziert. __Wichtige Regel:__ Wenn ```hashCode()``` oder ```equals()``` überladen wird, muss auch die jeweils andere Methode überladen werden. Der Hash-Wert muss nur innherhalb einer Klassen-Art eindeutig sein, um zu überprüfen, ob ein Objekt zu einer Klasse gehört, gibt es den [instanceof](https://en.wikibooks.org/wiki/Java_Programming/Keywords/instanceof)-Operator
+*  Die [Hexadezimalzahl](https://de.wikipedia.org/wiki/Hexadezimalsystem) ist ein _eindeutiger_ [Hash-Wert](https://de.wikipedia.org/wiki/Hashfunktion), der durch die Methode ```hashCode()``` erzeugt wird und das Objekt in der Java Runtime identifiziert. 
+*  __Wichtige Regel:__ Wenn ```hashCode()``` oder ```equals()``` überladen wird, muss auch die jeweils andere Methode überladen werden. 
+*  Der Hash-Wert muss nur innerhalb einer Klassen-Art eindeutig sein. 
+*  Um zu überprüfen, ob ein Objekt zu einer Klasse gehört, gibt es den [instanceof](https://en.wikibooks.org/wiki/Java_Programming/Keywords/instanceof)-Operator
 
 ===
 
@@ -778,7 +783,7 @@ Mit-1 & Mit-2 sind gleich
 
 ## @Home / Übung
 
-> Schreiben Sie ein Programm, mit dem man Brüche berechnen kann. 
+> Schreiben Sie ein Programm, mit dem man Brüche berechnen kann! 
 
 * Brüche sollen als Klassen mit Interfaces konstruiert werden
 * Berechnungsfunktionen als Methoden
@@ -788,9 +793,9 @@ Mit-1 & Mit-2 sind gleich
   java Bruch 1 / 2 + 3 / 4
   ```
    
-* Alle 4 [Operationen](https://de.wikipedia.org/wiki/Bruchrechnung#Rechnen_mit_Bruchtermen) (Addition, Subtraktion, Multiplikation, Division) müssen implementiert werden
+* Implementiere alle vier [Operationen](https://de.wikipedia.org/wiki/Bruchrechnung#Rechnen_mit_Bruchtermen) (Addition, Subtraktion, Multiplikation, Division)
 * Implementiere ```toString()```, ```equals()``` und ```hashCode()``` und ein Interface ```IBruch```
-* __Freiwillig:__ Implementation eines Algorithmus zum Kürzen des berechneten Bruchs, also aus $\frac{2}{4} \Rightarrow \frac{1}{2}$ und aus $\frac{2}{1} \Rightarrow 2$
+* __Freiwillig:__ Implementier einen Algorithmus zum Kürzen des berechneten Bruchs, also aus $\frac{2}{4} \Rightarrow \frac{1}{2}$ und aus $\frac{2}{1} \Rightarrow 2$
 
 ---
 
