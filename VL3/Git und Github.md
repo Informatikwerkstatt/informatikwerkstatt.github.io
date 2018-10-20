@@ -17,12 +17,14 @@ Note:  Zwei Studierende auffordern,  Protokoll zu der Veranstaltung heute zu fü
 * Hohe Komplexität mit der Entwicklungszeit
 * nicht-lineare Entwicklung (Patches, Releases, Hotfixes)
 
+<div class="fragment">
 &rarr; Wie behält man da die Übersicht?<br/>
 &rarr; Wie verwaltet man diese verschiedenen Entwicklungsstände?<br/>
 &rarr; Wie vermeidet man, dass Entwickler sich gegenseitig stören?
-
-> &rArr; Protokolliert zeitliche Änderungen um Veränderung nachvollziehen zu können
-
+</div>
+<div class="fragment">
+&rArr; Protokolliert zeitliche Änderungen um Veränderung nachvollziehen zu können
+</div>
 ---
 
 ## Repositories
