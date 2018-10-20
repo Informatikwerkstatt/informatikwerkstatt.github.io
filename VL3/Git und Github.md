@@ -285,11 +285,11 @@ bin/
 ## @Let's try - Mein eigenes Repository
 
 1. bei GitHub [registriert](https://github.com/) _jeder_ bitte einen eigenen Account<sup>1</sup>
-    * bei [Probleme?](https://services.github.com/on-demand/intro-to-github/create-github-account)
+    * bei [Problemen](https://services.github.com/on-demand/intro-to-github/create-github-account) die Anleitung anschauen
     * **@Profi:** [Github Student Pack](https://github.com/) Unendlich private Repositorys und andere Developer Tools kostenlos
-2. am PC muss ein SSH-Schlüssel erstellt und im Github-Account eingtragen werden
-3. ein [neues Projekt / Repository](https://help.github.com/articles/creating-a-new-repository/) bei Github erstellen
-4. das lokal erstellte Repository auf dem Desktop anhand der gezeigten Anleitung zu Github übertragen
+2. SSH-Schlüssel erstellt und im Github-Account eintragen
+3. ein [neues Projekt / Repository](https://help.github.com/articles/creating-a-new-repository/) bei Github anlegen
+4. das lokal erstellte Repository vom Desktop anhand der gezeigten Anleitung zu Github übertragen
 
 <small>1: Wir geben eine Liste herum, auf die bitte Euer Name mit den zugehörigen Accountnamen eingetragen wird, damit jeder von Euch Zugang zu den Projekten erhält</small>
 
@@ -306,7 +306,6 @@ bin/
 ### Clone
 
 > Mit dem _Clonen_ des Repositories werden alle Daten in einem Verzeichnis auf dem Rechner abgelegt (gesamte Historie mit Daten).
-> 
 
 - Ermöglicht eine lokale Kopie eines existierenden Remote-Repositorys
 - `git clone [url]` lädt jede einzelne Version jeder Datei in der Historie des Repositorys herunter
