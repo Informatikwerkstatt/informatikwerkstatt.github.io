@@ -156,16 +156,10 @@ git add src/mein_java_programm.java
 
 ### @Profi
 
-- `git diff` ermöglicht eine exakte Auflistung aller Änderungen
-  - Zeigt exakt an, welche Zeilen hinzugefügt, geändert oder entfernt wurden
-  - Zeigt an, welche Änderungen noch nicht gestaged wurden
-- `git diff --staged` zeigt alle Änderungen in der Staging Area an
+Um die Historie des Repositories einzusehen und die einzelnen Änderungen der Dateien einzusehen gibt es zwei Kommandos
 
-- `git log` zeigt die bisherige Commit-Historie an
-  - `git log -p -2` liefert eine Übersicht über alle Änderungen eines Commits (ähnlich `git diff`)
-- `git log --stat` liefert eine Statistik
-  - welche Dateien wurden geändert
-  - wieviele Zeilen wurden hinzugefügt oder entfernt
+* [Git Log](https://git-scm.com/docs/git-log) zeigt die gesamte [Commit Historie](https://git-scm.com/book/de/v1/Git-Grundlagen-Die-Commit-Historie-anzeigen) mit den Informationen wie Commit-Nachricht und Benutzer an
+* [Git Diff](https://git-scm.com/docs/git-diff) zeigt die [Änderungen zwischen Commits](https://git-scm.com/book/de/v1/Git-Grundlagen-%C3%84nderungen-am-Repository-nachverfolgen#Die-%C3%84nderungen-in-der-Staging-Area-durchsehen) zeilengenau an, normalerweise dem aktuellen noch nicht committeten Stand und dem letzten Commit (Head)
 
 ---  
 
@@ -179,7 +173,7 @@ git add src/mein_java_programm.java
     test.txt (ignoriert die test.txt-Datei)
     ```
 
-<small>diverse [Vorlagen](https://github.com/github/gitignore)für Gitignore</small>
+<small>diverse [Gitignore Vorlagen](https://github.com/github/gitignore)</small>
 
 ===
 
@@ -204,6 +198,8 @@ bin/
 
 ## Let's try
 
+[Git - The simple guide](http://rogerdudler.github.io/git-guide/) durcharbeiten mit folgender Aufgabe
+
 1. Konfiguriere Git mit Deinem vollständigen Namen und EMail Adresse
 2. Erstelle ein leeres Repository auf dem Desktop in einem Verzeichnis
 3. Erzeuge in diesem Verzeichnis die zwei Dateien ```readme.md``` und eine ```readme.txt``` und füge beiden die gleiche Überschrift z.B. einen beliebigen Projektnamen hinzu
@@ -211,6 +207,15 @@ bin/
 5. erzuege einen Commit mit den Daten
 
 &rarr; und die Tutoren überprüfen, ob es richtig gemacht wurde
+
+---
+
+## Git Trick & Tips
+
+* [Git Interactive Visualization](http://git-school.github.io/visualizing-git)
+* [Git Cheat Sheet](https://services.github.com/on-demand/downloads/de/github-git-cheat-sheet/)
+* [Learn Git in 30 Minutes](https://tutorialzine.com/2016/06/learn-git-in-30-minutes)
+* **@Profis** [Learning Git Branching](https://learngitbranching.js.org/)
 
 ---
 
