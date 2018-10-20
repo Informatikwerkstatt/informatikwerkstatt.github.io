@@ -268,17 +268,15 @@ bin/
 
     ```Hi **GitHub Benutzername**! You've successfully authenticated, but GitHub does not provide shell access.```
 
-<small>Bei [Probleme?](https://help.github.com/articles/connecting-to-github-with-ssh/) findet sich eine Hilfe bei GitHub</small>
+<small>Bei [Probleme](https://help.github.com/articles/connecting-to-github-with-ssh/) findet sich eine Hilfe bei GitHub</small>
 
 ---
 
 ## Projekt & Repository
 
-- **Public** Repos sind einsehbar für alle Github Nutzer (Open Source)
-- **Private** Repos sind nur für dich bzw. den Leuten denen du Zugriff erteilst einsehbar
-- In jedem Repo sollten ein *README* und eine *.gitignore* Datei vorhanden sein
-- [Dokumentation](https://help.github.com/articles/creating-a-new-repository/)
-- [Lokales Repository auf Github importieren](https://help.github.com/articles/importing-a-repository-with-github-importer/)
+- **Public** Repos sind einsehbar für alle Github Nutzer
+- **Private** Repos sind nur für Dich bzw. den Leuten denen du Zugriff erteilst einsehbar
+- _Zur Erinnerung:_ In jedem Repo sollten ein [readme.md](#/5) und eine [.gitignore](#/7) Datei vorhanden sein
 
 ---
 
@@ -288,11 +286,18 @@ bin/
     * bei [Probleme?](https://services.github.com/on-demand/intro-to-github/create-github-account)
     * **@Profi:** [Github Student Pack](https://github.com/) Unendlich private Repositorys und andere Developer Tools kostenlos
 2. am PC muss ein SSH-Schlüssel erstellt und im Github-Account eingtragen werden
-3. ein neues Projekt / Repository bei Github erstellen
+3. ein [neues Projekt / Repository](https://help.github.com/articles/creating-a-new-repository/) bei Github erstellen
 4. das lokal erstellte Repository auf dem Desktop anhand der gezeigten Anleitung zu Github übertragen
 
 <small>1: Wir geben eine Liste herum, auf die bitte Euer Name mit den zugehörigen Accountnamen eingetragen wird, damit jeder von Euch Zugang zu den Projekten erhält</small>
 
+---
+
+### Push
+
+> Mit ```git push``` bzw. beim ersten Mal mit ```git push origin master``` werden die Daten aus dem lokalen Repository in das [Remote-Repository](https://help.github.com/articles/pushing-to-a-remote/) hier in den Master-Branch zu GitHub übertragen
+
+**@todo Link zur Branching Slide**
 
 ---
 
@@ -310,16 +315,6 @@ bin/
   - Checkout einer Arbeitskopie der aktuellen Version
 
 [Dokumentation](https://services.github.com/on-demand/github-cli/clone-repo-cli)
-
----
-
-### Push
-
-- `git push {remote}{branch}` Verschiebt Commits vom lokalen Repository zum remote Repository
-  - z.B. `git push origin master` Verschiebt alle austehenden Commits vom lokalen master-Branch in den remote master-Branch (origin)
-  - es werden alle notwendigen Commits und internen Objekte (Dateien) übertragen
-
-[Dokumentation](https://help.github.com/articles/pushing-to-a-remote/)
 
 ---
 
