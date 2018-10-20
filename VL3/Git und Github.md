@@ -239,33 +239,24 @@ bin/
 
 ---
 
-## Github Account
-
-* [Registrieren](https://github.com/)
-* [Probleme?](https://services.github.com/on-demand/intro-to-github/create-github-account)
-* **@Profi:** [Github Student Pack](https://github.com/) Unendlich private Repositorys und andere Developer Tools kostenlos
-
-===
-
 ### SSH - Was hä?
 
-SSH-Keys ermöglichen eine Verbindung zu GitHub, ohne Eingabe von username und password.
+> Die Datenübertragung zwischen GitHub und dem PC erfoglt mittels [SSH-Protokoll](https://de.wikipedia.org/wiki/Secure_Shell). SSH ist eine verschlüsselte Kommunikation anhand eines [Schlüsselpaares](https://de.wikipedia.org/wiki/Asymmetrisches_Kryptosystem). Es werden zwei Schüssel erzeugt, ein _öffentlicher_ und ein _privater_, der __öffentlich Schlüssel__ wird bei GitHub hinterlegt, der private bleibt auf dem Rechner, aber nur mit beiden zusammen kann man Daten austauschen
 
-SSH-Key generieren:
-- `ls -al ~/.ssh` prüft, ob SSH-Keys existieren
-- `ssh-keygen -t rsa -b 4096 -C "Your E-Mail"` generiert einen neuen Key
-  - Default location: `/c/Users/**Nutzer**/.ssh/id_rsa`
-- `eval $(ssh-agent -s)` überprüft, ob der SSH-Agent-Prozess aktiv ist
-- `ssh-add ~/.ssh/id_rsa` fügt den Key zum SSH-Agent hinzu
+* ```ssh-keygen -t rsa -b 4096 -C "Your E-Mail"``` generiert einen neues Schlüsselpaar
+* die zwei Dateien, die den Schlüssel zusammen ergeben findet man unter ```/c/Users/**Nutzer**/.ssh/```
+    * ```id_rsa``` ist der _private Schlüssel_
+    * ```id_rsa.pub``` ist der _öffentliche Schlüssel_    
 
 ===
 
 ### SSH-Key & Github
 
-- `clip < ~/.ssh/id_rsa.pub` Kopiert den Key in die Zwischenablage
-- Auf Github unter **Settings**, **SSH and GPG keys** befindet sich **New SSH Key**
-    - Unter Key den kopierten Key einfügen
-    - Anschließend einen Titel geben der zum Gerät passt
+> Nun muss der Inhalt der Datei ```id_rsa.pub``` (öffentliche Schlüssel) zu Github übertragen werden
+
+1. Mit `clip < ~/.ssh/id_rsa.pub` wird der Schlüssel in die Zwischenablage kopiert
+2. Dann ruft man in einen GitHub Benutzereinstellung das Menü [SSH and GPG keys](https://github.com/settings/keys) auf
+3. Man erzeugt einen [neuen Schlüssel](https://github.com/settings/ssh/new) und fügt den Inhalt aus der Zwischenablage in das Feld _Key_ ein
 
 ===
 
@@ -294,7 +285,15 @@ Hi **username**! You've successfully authenticated, but GitHub does not provide 
 
 ## @Let's try - Mein eigenes Repository
 
-<!-- einmal erzeugt jeder in seinem eigenen Account ein Repo und pusht das vorhin erstellte Repo dorthin-->
+1. bei GitHub [registriert](https://github.com/) _jeder_ bitte einen eigenen Account<sup>1</sup>
+    * bei [Probleme?](https://services.github.com/on-demand/intro-to-github/create-github-account)
+    * **@Profi:** [Github Student Pack](https://github.com/) Unendlich private Repositorys und andere Developer Tools kostenlos
+2. am PC muss ein SSH-Schlüssel erstellt und im Github-Account eingtragen werden
+3. ein neues Projekt / Repository bei Github erstellen
+4. das lokal erstellte Repository auf dem Desktop anhand der gezeigten Anleitung zu Github übertragen
+
+<small>1: Wir geben eine Liste herum, auf die bitte Euer Name mit den zugehörigen Accountnamen eingetragen wird, damit jeder von Euch Zugang zu den Projekten erhält</small>
+
 
 ---
 
