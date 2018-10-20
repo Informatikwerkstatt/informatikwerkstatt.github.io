@@ -241,10 +241,10 @@ bin/
 
 ### SSH - Was hä?
 
-> Die Datenübertragung zwischen GitHub und dem PC erfoglt mittels [SSH-Protokoll](https://de.wikipedia.org/wiki/Secure_Shell). SSH ist eine verschlüsselte Kommunikation anhand eines [Schlüsselpaares](https://de.wikipedia.org/wiki/Asymmetrisches_Kryptosystem). Es werden zwei Schüssel erzeugt, ein _öffentlicher_ und ein _privater_, der __öffentlich Schlüssel__ wird bei GitHub hinterlegt, der private bleibt auf dem Rechner, aber nur mit beiden zusammen kann man Daten austauschen
+> Die Datenübertragung zwischen GitHub und dem PC erfoglt mittels verschlüsseltem [SSH-Protokoll](https://de.wikipedia.org/wiki/Secure_Shell) mit Hilfe eines [Schlüsselpaares](https://de.wikipedia.org/wiki/Asymmetrisches_Kryptosystem). Der Schlüssel besteht aus einem _öffentlichen_ und einem _privaten_ Teil und __nur__ der __öffentlich Schlüssel__ wird bei GitHub hinterlegt.
 
-* ```ssh-keygen -t rsa -b 4096 -C "Your E-Mail"``` generiert einen neues Schlüsselpaar
-* die zwei Dateien, die den Schlüssel zusammen ergeben findet man unter ```/c/Users/**Nutzer**/.ssh/```
+1. ```ssh-keygen -t rsa -b 4096 -C "EMail-Adresse"``` generiert einen neues Schlüsselpaar
+2. die zwei Dateien, die den Schlüssel ergeben findet man unter ```/c/Users/**Benutzername**/.ssh/```
     * ```id_rsa``` ist der _private Schlüssel_
     * ```id_rsa.pub``` ist der _öffentliche Schlüssel_    
 
@@ -254,7 +254,7 @@ bin/
 
 > Nun muss der Inhalt der Datei ```id_rsa.pub``` (öffentliche Schlüssel) zu Github übertragen werden
 
-1. Mit `clip < ~/.ssh/id_rsa.pub` wird der Schlüssel in die Zwischenablage kopiert
+1. Mit ```clip < ~/.ssh/id_rsa.pub``` wird der Schlüssel in die Zwischenablage kopiert
 2. Dann ruft man in einen GitHub Benutzereinstellung das Menü [SSH and GPG keys](https://github.com/settings/keys) auf
 3. Man erzeugt einen [neuen Schlüssel](https://github.com/settings/ssh/new) und fügt den Inhalt aus der Zwischenablage in das Feld _Key_ ein
 
@@ -262,14 +262,13 @@ bin/
 
 ### SSH Verbindung testen
 
-- `ssh -T git@github.com` Versucht eine SSH-Verbindung zu Github aufzubauen
-  - Warnungen mit einem **yes** bestätigen
-- Befehl sollte folgende Ausgabe liefern:
-- [Probleme?](https://help.github.com/articles/connecting-to-github-with-ssh/)
+1. ```ssh -T git@github.com``` Versucht eine SSH-Verbindung zu Github aufzubauen
+2. Beim ersten Verbindungsaufbau erscheint eine Warnung, die mit **yes** bestätigt werden muss
+2. Der Befehl sollte folgende Ausgabe liefern: 
 
-```
-Hi **username**! You've successfully authenticated, but GitHub does not provide shell access.
-```
+    ```Hi **GitHub Benutzername**! You've successfully authenticated, but GitHub does not provide shell access.```
+
+<small>Bei [Probleme?](https://help.github.com/articles/connecting-to-github-with-ssh/) findet sich eine Hilfe bei GitHub</small>
 
 ---
 
