@@ -133,7 +133,7 @@ java HelloWorld
 
 1. Starte _Visual Studio Code_
 2. Erstelle leere Datei mit dem Namen ```CHelloWorld.java```
-3. Kopiere oder schreibe den Beispielcode des [Hello-World-Programms](#/1/1) __exakt wie angegeben,__ in die Datei
+3. Kopiere oder schreibe den Beispielcode des [Hello-World-Programms](#/1/1) __exakt wie angegeben__ in die Datei
 4. Speichere die Datei auf dem Desktop
 5. Öffne die _Eingabeaufforderung_
 6. Schau mittels ```dir``` wo der Desktop ist
@@ -168,7 +168,7 @@ java HelloWorld
 	- Rückgabewert (```void``` = Methode gibt keinen Wert zurück)
 	- Name (```main```)
 	- Eingabeparameter (optional), beschrieben durch 
-		- Typ, z.B. ```String[]``` bezeichnet Liste (Array) von Zeichenketten
+		- Typ, z.B. ```String[]``` bezeichnet Liste ([Array](#/14)) von Zeichenketten
 		- Name ```p_args``` 
 	- Rumpf mit Anweisungen, in ```{ ... }``` eingefasst
 - [Methoden](/oop-grundlagen/#/8) und Klassen können außerdem sog. Modifikatoren haben (z.B. ```public```, oder ```public static``` (siehe [Objekt-Orientierte Programmierung Grundlagen](/oop-grundlagen/))
@@ -187,7 +187,7 @@ java HelloWorld
 ## Datentypen
 
 - Alle Daten, die in Java-Programmen verarbeitet werden, müssen einen wohldefinierten Datentyp haben
-- jeder Datentyp hat einen Namen und definiert einen Wertebereich
+- Jeder Datentyp hat einen Namen und definiert einen Wertebereich
 - Java enthält vordefinierte (primitive) Basisdatentypen 
 
 ===
@@ -308,9 +308,9 @@ public class CTypeUmwandlung
 
 2. Kompiliere das Programm und führe es aus 
 
-&rArr; Was beobachtest Du und wie kannst Du es erklären?
+&rArr; Was beobachtest Du? Wie kannst Du es erklären?
 
-&rArr; Kannst Du das Programm so umschreiben, dass es mit der Variable ```l_todouble``` funktioniert?
+&rArr; Versuche, das Programm so umzuschreiben, dass es mit der Variable ```l_todouble``` funktioniert?
 
 ---
 
@@ -394,7 +394,7 @@ System.out.println("l = " + l);
     System.out.println( s1.equals( s2 ) ); 
     ```
 
-&rArr; Könnt Ihr dieses Ergebnis erklären?
+&rArr; Kannst Du dieses Ergebnis erklären?
 
 Note: In ```s1.equals(s2)``` muss ```s1``` initialisiert sein &rarr; prüfen mit ```Objects.nonNull(s1)```
 
@@ -405,7 +405,7 @@ Note: In ```s1.equals(s2)``` muss ```s1``` initialisiert sein &rarr; prüfen mit
 <span class="rrd" data-rrd="Diagram( Sequence( Terminal('if'), NonTerminal('( Bedingung )'), NonTerminal('{ ... }'), Optional( Sequence( Terminal('else'), NonTerminal('{ ... }') ) ) ) )"</span>
 
 - Blöcke mit mehreren Anweisungen in geschweifte Klammern einfassen!
-- Wenn Bedingung erfüllt ist , wird Anweisungsblock ausgeführt; sonst übersprungen.
+- Wenn Bedingung erfüllt ist, wird Anweisungsblock ausgeführt; sonst übersprungen.
 
     ```java
     int a = 2;
@@ -431,7 +431,7 @@ Note: In ```s1.equals(s2)``` muss ```s1``` initialisiert sein &rarr; prüfen mit
 
 <span class="rrd" data-rrd="Diagram( Sequence( NonTerminal('Bedingung'), Terminal('?'), NonTerminal('Wert bei True'), Terminal(':'), NonTerminal('Wert bei False') ) )"></span>
 
-- als Zuweisung 
+- Als Zuweisung 
 
     ```java
     String l_result = (a > 0) ? "Wert ist positiv" : "Wert ist nicht positiv";
@@ -452,7 +452,7 @@ Note: In ```s1.equals(s2)``` muss ```s1``` initialisiert sein &rarr; prüfen mit
 
 ===
 
-### @Profi
+### @Profis
 
 1. Macht Euch mit der ```switch-case``` Anweisung vertraut, siehe [Link](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/switch.html)!
 2. Schreibt ein selbstgewähltes Beispielprogramm, das ```switch-case``` nutzt!
@@ -463,7 +463,7 @@ Note: In ```s1.equals(s2)``` muss ```s1``` initialisiert sein &rarr; prüfen mit
 
 Betrachte die beiden folgenden ```if-else``` Anweisungen
 
-1. Überlege, welcher Teil der Anweisungen jeweils ausgeführt wird und warum. 
+1. Überlege, welcher Teil der Anweisungen ausgeführt wird u. warum 
 2. Schreibe für jede Anweisung ein Java-Programm; wähle geeignete Ausgaben, um die Ausführung nachvollziehen zu können.
 
 ```java
@@ -504,10 +504,10 @@ Note: Anweisung 1: 5<6, also wird a=b ausgeführt (if-Zweig) Anweisung 2: a <= b
 
 ## Arrays
 
-- Container mit fester Anzahl von Werten ([Details](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html))
+- Container mit fester Anzahl von Werten (Details [hier](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html))
 - alle Elemente sind vom [gleichen Typ](#/7)
-- Arrays können in Arrays verschachtelt werden
-- Elemente über eine Index-Variable beginnend bei 0 bis _Anzahl Element - 1_
+- Arrays können in andere Arrays verschachtelt werden
+- Elemente über eine Index-Variable beginnend bei 0 bis _Anzahl Elemente - 1_
 - Beispiel aus [HelloWorld](#/1/1):  ```String[] p_args```
 
 ![Array Aufbau](images//array.png)
@@ -516,19 +516,19 @@ Note: Anweisung 1: 5<6, also wird a=b ausgeführt (if-Zweig) Anweisung 2: a <= b
 
 ### Array anlegen / initialisieren
 
-- Eindimensionales Array &rarr; Aufzählung in geschweiften Klammern
+- Eindimensionaler Array &rarr; Aufzählung in geschweiften Klammern
 
     ```java
 int[] l_highscores = {1000, 850, 600};
     ```
 
-- Eindimensionales Array &rarr; leeres Array erzeugen und einzeln mit Werten füllen r
+- Eindimensionaler Array &rarr; leeren Array erzeugen und einzeln mit Werten füllen
 
     ```java
 int[] l_highscores = new int[10];
-l_highscores[0] = 471    ```
+l_highscores[0] = 471;   ```
 
-- Mehrdimensionale Arrays &rarr; leeres Array mit ```new``` und zwei Größen erzeugt
+- Mehrdimensionaler Array &rarr; leerer Array mit ```new``` und zwei Größen erzeugt
 
      ```java
 // Namenstabelle mit 10 Zeilen, 15 Spalten
@@ -540,12 +540,12 @@ l_tabelle[7][8] = "Steffi";
 
 ### Zugriff auf Array mit ```new```
 
-- Adressieren des gesuchten Feldes mit Indexvariable:
+- Adressieren des gesuchten Feldes mit Indexvariable
 
 ```java
 int[] l_highscores = {1000, 850, 600};
 
-// Variable erhält den Wert aus dem ersten ELement 1000
+// Variable erhält den Wert aus dem ersten Element 1000
 final int l_erstes = l_highscores[0];
 ```
 
@@ -560,7 +560,7 @@ for ( int i = 0; i < l_highscores.length; i++ )
 
 ```java
 final int[] highscores = {1000, 850, 600};
-//Zugriff auf viertes Element was nicht existiert
+//Zugriff auf viertes Element, das nicht existiert
 final int l_wert = highscores[3]; 
 ``` 
 
@@ -602,8 +602,8 @@ public class CMeineListe
 ### @Let's try
  Schreibe zunächst ein kleines Programm, in dem Du 
 
-1. ein ```Array``` deiner Wahl deklarierst
-2. es initialisierst
+1. einen ```Array``` deiner Wahl deklarierst,
+2. ihn initialisierst,
 3. seine Werte ausliest und ausgibst 
 
 ===
@@ -614,7 +614,7 @@ Schreibe ein weiteres Programm, in dem Du
 
 1. eine ```ArrayList``` deiner Wahl deklarierst
 2. sie mit Werten füllst
-3. und danach die Werte ausliest und ausgibst 
+3. und  ihre Werte ausliest und ausgibst 
 
 ---
 
@@ -652,8 +652,8 @@ for ( final String item : someList )
 
 ### While / Do-While
 
-- Wenn die Anzahl der Wiederholungen eines Codeblocks nicht bekannt ist, sondern nach jedem Durchlauf eine Bedingung überprüft werden muss, nutzen wir die `while-`Schleife
-- z.B. wir schauen alle 5 Sekunden so lange in den Briefkasten, bis ein Brief drinnen liegt
+- Wenn die Anzahl der Wiederholungen eines Codeblocks nicht vorab bekannt ist, sondern nach jedem Durchlauf eine Bedingung überprüft werden muss, nutzen wir die `while-`Schleife
+- z.B. wir schauen so lange alle 5 Sekunden in den Briefkasten, bis ein Brief drinnen liegt
 
 ```
 // Pseudocode - dient nur zum Erklären des Prinzips
@@ -701,7 +701,7 @@ while ( true )
 - Es gibt Fälle, in denen Endlosschleifen beabsichtigt sind.
 - Manchmal entstehen sie aber unbeabsichtigt - durch Programmierfehler
 
-<small>Das lernt man noch einmal in der _Informatik 3 - theoretische Informatik bei dem Thema [Halteproblem](https://de.wikipedia.org/wiki/Halteproblem)</small>
+<small>Das lernt man noch einmal in der _Informatik 3 - theoretische Informatik_ bei dem Thema [Halteproblem](https://de.wikipedia.org/wiki/Halteproblem)</small>
 
 ===
 
@@ -791,8 +791,8 @@ public class Div0Fehler
 {
     public  static  void  main( String[] p_args )
     {
-        int  zaehler=5;
-        int  nenner=0;
+        int  zaehler = 5;
+        int  nenner = 0;
         int  ergebnis  = zaehler / nenner;
         System.out.println("Ergebnis: "  + ergebnis);
     }
@@ -803,9 +803,9 @@ public class Div0Fehler
 
 ### Fang den Fehler - try-catch
 
-- Java verwendet das sogenannte Try-Catch Modell zur Ausnahmebehandlung
-- Code, in dem eine Ausnahme auftreten kann, wird in einen "Catch-Block" eingeschlossen.
-- Dahinter wird ein Try-Block angegeben, der bestimmt, was im Falle des Auftretens von Ausnahmen zu tun ist.
+- Java verwendet das sogenannte _Try-Catch Modell_ zur Ausnahmebehandlung
+- Code, in dem eine Ausnahme auftreten kann, wird in einen _Catch_-Block eingeschlossen.
+- Dahinter wird ein _Try_-Block angegeben, der bestimmt, was im Falle des Auftretens von Ausnahmen zu tun ist.
 - Wir erweitern den Rumpf der ```main```-Methode unserer `Div0Fehler`-Klasse
     
     ```java
@@ -858,7 +858,7 @@ Note: 1. Frage: eher sinnvoll für nutzerdefinierte DomänenExceptions, die mög
 	- Besteht ein Name aus mehreren Worten, werden die Anfangsbuchstaben der inneren Worte  groß geschrieben (= CamelCase), z.B.
 	- Variable: ```highScoreListe```
 	- Methode: ```onCreate()```
-	- Klasse: ```ArrayIndexOutOfBoundsException``
+	- Klasse: ```ArrayIndexOutOfBoundsException```
 
 ---
 
@@ -898,5 +898,5 @@ Schreibt ein Programm, das zwei Argumente von der Kommandozeile einliest, einen 
 
 Schreibt ein Programm, dass zwei ganze Zahlen A und B von der Kommandozeile einliest und (1) das Ergebnis der ganzzahligen Division der beiden Zahlen sowie (2) den Rest der ganzzahligen Division ausgibt.
 
-* Prüft Typen und Anzahl der Eingaben (insbesondere Anforderung:  *ganze* Zahl! )
+* Prüft Typen und Anzahl der Eingaben (insbesondere Anforderung:  *ganze* Zahl!)
 * Gebt eine entsprechende Fehlermeldungen aus
