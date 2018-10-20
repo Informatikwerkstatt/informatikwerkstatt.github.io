@@ -4,6 +4,7 @@ permalink: /git-github/
 ---
 
 # Informatikwerkstatt
+__Git & Github__
 
 Note:  Zwei Studierende auffordern,  Protokoll zu der Veranstaltung heute zu führen; Headlines und 1-2 Stichworte für die Folie mitschreiben. (Wichtig ist, dass die Protokolle nicht identisch sind)
 
@@ -101,15 +102,15 @@ Nach der Installation von Git müssen die persönlichen Einstellungen konfigurie
 
 * Neue, veränderte oder gelöschte Dateien müssen _immer_ vorgemerkt werden
 * Befehl ```git add``` führt dies durch, aber es müssen die Dateien übergeben werden
-    * Dateiname mit Endung und ggf Verzeichnispfad
     * für allen Dateien reicht ein Punkt
     * es kann ein  [Wildcard](https://de.wikipedia.org/wiki/Wildcard_(Informatik) benutzt werden 
+    * Dateiname mit Endung und ggf. Verzeichnispfad
 * ```git status``` listet alle vorgemerkten Dateien
 
 ```shell
-git add mein_java_programm.java
-git add *.java
 git add .
+git add *.java
+git add src/mein_java_programm.java
 ```
 
 &rarr; _Vorgemerkte Dateien sind noch nicht versioniert!_
@@ -118,11 +119,10 @@ git add .
 
 ### Änderung festschreiben - Git Commit
 
-- `git commit` um die Dateien dauerhaft zu versionieren
-  - Änderungen die nicht mit `git add` vorgemerkt wurden, werden nicht nicht committed
-  - Nach Eingabe des Befehls öffnet sich ein Text-Editor:
+* mit dem Befehl ```git commit``` werden die Änderungen festgeschrieben
+* dazu öffnet sich ein Editor, in den man eine _Commit-Nachricht_ eingeben muss
 
-  ```
+  ```shell
   # Please enter the commit message for your changes. Lines starting
   # with '#' will be ignored, and an empty message aborts the commit.
   #
@@ -134,24 +134,18 @@ git add .
   #       new file:   helloworld.java
   ```
 
-    - In dieses Fenster schreibt man seine Commit-Nachricht
-
-- Mit `git commit -m "faster commit"` kann man sich diesen Schritt sparen
-- Git liefert nach Abschluss einige Details über den Commit:
-```
-[master 7d1739e] faster commit
-1 file changed, 1 insertion(+)
-```
+* mit <kbd>Strg</kbd>+<kbd>X</kbd> gefolgt von einem <kbd>Y</kbd> speichert man den Commit
+* mit ```git commit -m "faster commit"``` kann man den Schritt zusammen ausführen
 
 ===
 
-### Commit Nachrichten
+### Gute Commit Nachrichten
 
-- Sie soll möglichst genau beschreiben, welche Änderungen der Entwickler durchgeführt hat
-  - Besonders wichtig wenn mehrere Entwickler gleichzeitig an etwas arbeiten
-  - Commit Nachrichten stellen also eine Art "Kommunikationsmittel" dar.
-- **Ziel**: Änderungen möglichst kurz aber trotzdem präzise zu beschreiben um anderen Leuten einen Überblick über gemachte Änderungen zu geben
-- [Tipps für eine gute Commit-Nachricht](https://wp-typ.de/entwicklung/gute-git-commits-schreiben/)
+* sie soll möglichst genau beschreiben, welche Änderungen durchgeführt wurden
+* besonders wichtig wenn mehrere Entwickler gleichzeitig an etwas arbeiten
+* Commit Nachrichten stellen also eine Art "Kommunikationsmittel" dar.
+* **Ziel**: Änderungen möglichst kurz aber trotzdem präzise zu beschreiben um anderen Leuten einen Überblick über gemachte Änderungen zu geben
+* [Tipps für eine gute Commit-Nachricht](https://wp-typ.de/entwicklung/gute-git-commits-schreiben/)
 
 ---
 
