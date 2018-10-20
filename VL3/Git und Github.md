@@ -169,8 +169,10 @@ Um die Historie des Repositories einzusehen und die einzelnen Änderungen der Da
 - In der ```.gitignore``` Datei kann man festlegen welche Dateien oder Dateimuster von Git ignoriert werden sollen
 
     ```shell
-    *.log (ignoriert alle Dateien mit der Endung *.log*)
-    test.txt (ignoriert die test.txt-Datei)
+    # ignoriert alle Dateien mit der Endung *.log
+    *.log
+    # ignoriert alle test.txt Dateien in jedem Verzeichnis
+    test.txt
     ```
 
 <small>diverse [Gitignore Vorlagen](https://github.com/github/gitignore)</small>
