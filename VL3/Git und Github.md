@@ -305,7 +305,15 @@ bin/
 
 ### Clone
 
-> Mit ```git clone **Repository URL**``` bzw ```git clone **Repository URL** ***Verzeichnisname**``` kann ein Repository initial geladen werden. Das [Clonen](https://services.github.com/on-demand/github-cli/clone-repo-cli) kopiert das gesamte Repository auf die lokale Festplatte. Jeder Benutzer, der sich ein Repository clont, hat somit eine vollständige Kopie der History. Das Verzeichnis mit allen notwendigen Daten wird automatisch erzeugt
+> Das [Clonen](https://services.github.com/on-demand/github-cli/clone-repo-cli) kopiert das gesamte Repository auf die lokale Festplatte. Jeder Benutzer, der sich ein Repository clont, hat somit eine vollständige Kopie der History. Das Verzeichnis mit allen notwendigen Daten wird automatisch erzeugt
+
+```shell
+# Clonen mit automatischem Erzeugen des Verzeichnis
+git clone **Repository URL**
+
+# Clonen in ein definiertes Verzeichnis
+git clone **Repository URL** **Verzeichnisname**
+```
 
 ---
 
