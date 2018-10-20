@@ -701,7 +701,7 @@ while ( true )
 - Es gibt Fälle, in denen Endlosschleifen beabsichtigt sind.
 - Manchmal entstehen sie aber unbeabsichtigt - durch Programmierfehler
 
-<small>Das lernt man noch einmal in der _Informatik 3 - theoretische Informatik_ bei dem Thema [Halteproblem](https://de.wikipedia.org/wiki/Halteproblem)</small>
+<small>1: Das lernt man noch einmal in der _Informatik 3 - theoretische Informatik_ bei dem Thema [Halteproblem](https://de.wikipedia.org/wiki/Halteproblem)</small>
 
 ===
 

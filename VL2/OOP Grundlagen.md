@@ -663,7 +663,7 @@ CMitToString@61064425: Hallo World
 
 ===
 
-### equals() und hashCode()
+### @Profis - equals() und hashCode()
 
 Wird die ```toString()``` Methode nicht überladen, erscheint ```COhneToString@e73f9ac``` (Klassenname und Hexadezimalzahl). 
 
@@ -674,7 +674,7 @@ Wird die ```toString()``` Methode nicht überladen, erscheint ```COhneToString@e
 
 ===
 
-### equals() und hashCode() Beispiel
+### @Profis - equals() und hashCode() Beispiel
 
 > Objekte sollen nach außen gleich erscheinen, wenn sie _inhaltlich identisch_ sind
 

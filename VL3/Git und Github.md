@@ -221,14 +221,15 @@ bin/
 
 ## GitHub - Social Coding
 
-> [GitHub](http://github.com) ist die bekannteste und größte Code-Hosting Plattform und stellt Repositorys für Projekte bereit
+> [GitHub](http://github.com) ist die bekannteste und größte Code-Hosting Plattform und stellt Repositorys für Projekte bereit, um zusammen Software zu entwickeln 
 
-- Zusammen Software entwickeln (viele OpenSource Projekte wie [MySQL](https://github.com/mysql), [Tensorflow](https://github.com/tensorflow), [Android](https://github.com/topics/android))
 - Einfaches Projektmanagement (Issues, Project-Boards)
+- viele OpenSource Projekte wie [MySQL](https://github.com/mysql), [Tensorflow](https://github.com/tensorflow), [Android](https://github.com/topics/android)
 - Organisation für Gruppenprojekte ([Google](https://github.com/google), [Microsoft](https://github.com/Microsoft), [Facebook](https://github.com/facebook))
 - Webseiten mittels [GitHub Pages](https://pages.github.com/)
     - Meine Dissertation [LightJason](https://lightjason.org/)
     - Forschungprojekt [SocialCars](https://socialcars.github.io/)
+- um GitHub hat sich ein ganzes System an weiteren Plattformen entwickelt [Gitter](https://gitter.im/), [CircleCI](https://circleci.com/), [Zenodo](https://zenodo.org/)
 
 ===
 
