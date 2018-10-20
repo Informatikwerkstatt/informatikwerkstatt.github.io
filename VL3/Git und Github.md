@@ -26,7 +26,7 @@ Note:  Zwei Studierende auffordern,  Protokoll zu der Veranstaltung heute zu fü
 
 <br/>
 <div class="fragment">
-&rArr; Protokolliert zeitliche Änderungen um Veränderung nachvollziehen zu können
+&rArr; Protokolliert zeitliche Veränderung aller Daten
 </div>
 ---
 
