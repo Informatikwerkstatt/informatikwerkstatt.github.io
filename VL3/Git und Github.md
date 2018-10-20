@@ -364,7 +364,7 @@ Note: Fragen, wie beide Protokolle gemergt werden sollen und Studis hinweisen ke
 
 &rArr; Jede(r) erfasst bitte einen Issue mit einem einfachen Kommentar in dem [Namens Repository](https://github.com/Informatikwerkstatt/Namen/issues)
 
-<small>**@Profis:** Schreibt man in einer Commit-Nachricht ```fix #Issuenummer```, wird der Issue [automatisch geschlossen](https://help.github.com/articles/closing-issues-using-keywords/) und man weiss mit welchem Commit der Fehler behoben wurde</small>
+<small>**@Profis:** Man kann durch eine Commit-Nachricht einen Issue [automatisch schließen](https://help.github.com/articles/closing-issues-using-keywords/) und man weiss mit welchem Commit der Fehler behoben wurde</small>
 
 ---
 
