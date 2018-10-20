@@ -358,21 +358,19 @@ Note: Fragen, wie beide Protokolle gemergt werden sollen und Studis hinweisen ke
 
 ---
 
-## Issue-Tracker
+## Issues
 
 > In jedem Projekt treten [Fehler (Issues)](https://guides.github.com/features/issues/) auf. Mit Hilfe eines können diese organisiert werden. Man kann Issues vereinfacht als _Arbeitsaufgaben / Todos_ sehen. Innerhalb der Fehlerbeschreibung kann eine Diskussion statt finden. Weiterhin können die Issues einzelnen Personen zugeteilt werden, die sich um die Lösung kümmern.
 
 &rArr; Jede(r) erfasst bitte einen Issue mit einem einfachen Kommentar in dem [Namens Repository](https://github.com/Informatikwerkstatt/Namen/issues)
 
-<small>**@Profis:** Man kann durch eine Commit-Nachricht einen Issue [automatisch schließen](https://help.github.com/articles/closing-issues-using-keywords/) und man weiss mit welchem Commit der Fehler behoben wurde</small>
+<small>**@Profis:** Man kann durch eine Commit-Nachricht einen Issue [automatisch schließen](https://help.github.com/articles/closing-issues-using-keywords/) und weiss damit welche Änderungen den Fehler behoben haben</small>
 
----
+===
 
 ## @Profi - Milestones
 
-- Sammlung von Issues
-- Zuordnung von mehreren Issues zu einem spezifischen Feature oder Projekt-Phase
-  - Bsp. Beta-Launch, May-Sprint oder UI-Design
+> In einem komplexen Software-Projekt müssen meist zu gewissen Zeiten bestimmte Features fertig realisiert sein. Diese Features bestehen meist aus mehreren Issues. Um diese zu bündeln gibt es das Konzept von [milestones](https://help.github.com/articles/about-milestones/). Milestones sind eine Liste von Issues, die bis zu einem festen Datum abgearbeitet sein müssen. Diese Organisation wird in der _agilen Software-Entwicklung_ nach [Scrum](https://de.wikipedia.org/wiki/Scrum) verwendet
 
 ---
 
@@ -395,5 +393,6 @@ Note: Fragen, wie beide Protokolle gemergt werden sollen und Studis hinweisen ke
 * [Git Bash](https://git-scm.com/downloads)
 * [Github Desktop](https://desktop.github.com/)
 * [Git Kraken](https://www.gitkraken.com/)
-* Online Buch: [Pro Git](https://git-scm.com/book/de/v1) von Scott Chacon and Ben Straub
+* [Git Reeferenz](https://git-scm.com/docs)
+* [Pro Git](https://git-scm.com/book/de/v2) Online-Buch
 * [Git-Flow](https://nvie.com/posts/a-successful-git-branching-model/) für komplexere Entwicklungen
