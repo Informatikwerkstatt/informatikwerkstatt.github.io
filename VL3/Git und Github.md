@@ -360,9 +360,11 @@ Note: Fragen, wie beide Protokolle gemergt werden sollen und Studis hinweisen ke
 
 ## Issue-Tracker
 
-> In jedem Projekt treten [Fehler (Issues)](https://guides.github.com/features/issues/) auf. Mit Hilfe eines können diese organisiert werden. Man kann Issues vereinfacht als _Arbeitsaufgaben / Todos_ sehen.<br/>Innerhalb der Fehlerbeschreibung kann eine Diskussion statt finden. Weiterhin können die Issues einzelnen Personen zugeteilt werden, die sich um die Lösung kümmern.<br/> Schreibt man in einer Commit-Nachricht ```fix #Issuenummer```, wird der Issue [automatisch geschlossen](https://help.github.com/articles/closing-issues-using-keywords/) und man weiss mit welchem Commit der Fehler behoben wurde
+> In jedem Projekt treten [Fehler (Issues)](https://guides.github.com/features/issues/) auf. Mit Hilfe eines können diese organisiert werden. Man kann Issues vereinfacht als _Arbeitsaufgaben / Todos_ sehen. Innerhalb der Fehlerbeschreibung kann eine Diskussion statt finden. Weiterhin können die Issues einzelnen Personen zugeteilt werden, die sich um die Lösung kümmern.
 
 &rArr; Jede(r) erfasst bitte einen Issue mit einem einfachen Kommentar in dem [Namens Repository](https://github.com/Informatikwerkstatt/Namen/issues)
+
+<small>**@Profis:** Schreibt man in einer Commit-Nachricht ```fix #Issuenummer```, wird der Issue [automatisch geschlossen](https://help.github.com/articles/closing-issues-using-keywords/) und man weiss mit welchem Commit der Fehler behoben wurde</small>
 
 ---
 
