@@ -290,6 +290,7 @@ bin/
 2. SSH-Schlüssel erstellt und im Github-Account eintragen
 3. ein [neues Projekt / Repository](https://help.github.com/articles/creating-a-new-repository/) bei Github anlegen
 4. das lokal erstellte Repository vom Desktop anhand der gezeigten Anleitung zu Github übertragen
+5. Im GitHub Webinterface überprüfen, ob alle Daten korrekt übertragen wurden
 
 <small>1: Wir geben eine Liste herum, auf die bitte Euer Name mit den zugehörigen Accountnamen eingetragen wird, damit jeder von Euch Zugang zu den Projekten erhält</small>
 
@@ -317,21 +318,31 @@ git clone **Repository URL** **Verzeichnisname**
 
 ---
 
-### Pull
+### Pull - Fetch & Merge
 
-- `git pull` bringt dein lokales Repository auf den Stand des remote Repositorys
-- Verbindet zwei Funktionen:
-  - **fetch** : Lädt Änderungen herunter
-  - **merge** : Fügt remote Änderungen mit lokalen Änderungen zusammen
-- Da bei pull immer ein **merge** Prozess stattfindet, kann es hierbei zu Konflikten kommen
-
-[Dokumentation](https://help.github.com/articles/fetching-a-remote/)
+> Um Änderungen (von anderen Nutzern) aus dem Remote-Repository in das lokale Repository zu übertragen wird ```git pull``` verwendet, was eine [Kurzform](https://help.github.com/articles/fetching-a-remote/) von ```git fetch``` und ```git merge``` ist. [Fetch](https://git-scm.com/docs/git-fetch) holt die Änderungen, ohne sie einzufügen und [Merge](https://git-scm.com/docs/git-merge) fügt dann die Änderungen ein, dabei können Konflikte auftreten
 
 ---
 
 ## @Let's try
 
-<!-- wir stellen ein Repository in der Infowerkstatt zur Verfügung, in dem Repo ist eine Textdatei mit Namen, jeder clont es sich und trägt seinen Namen ein und pusht es wieder und behebt ggf den Merge Conflict -->
+1. Im letzten [Let's try](#/13) wurde das Repository zu GitHub gepusht
+2. Nun das lokale Verzeichnis auf dem Desktop löschen
+3. Das Repository ohne Angabe eines Verzeichnis clonen
+4. Das Repository ein zweites Mal mit der Angabe clonen, so dass dann zwei Verzeichnisse auf dem Desktop liegen
+5. In einem Verzeichnis eine Änderung machen z.B. eine neue Datei einfügen oder eine Date verändern 
+6. Diese Änderung zu GitHub pushen und überprüfen, ob die Änderung vorhanden ist
+7. Nun in dem anderen Repository einen Pull machen und überprüfen ob nun beide Repositories den gleichen Stand haben
+
+---
+
+## @Let's try - Für Alle
+
+1. Clont das [Namen Repository](https://github.com/Informatikwerkstatt/Namen) der Informatikwerkstatt
+2. Ergänzt in der ```readme.md``` Eure(n) Namen 
+3. Pusht nun die Änderung
+
+&rArr; Was stellt Ihr fest?
 
 ---
 
