@@ -68,9 +68,9 @@ Note:  Zwei Studierende auffordern,  Protokoll zu der Veranstaltung heute zu fü
 
 ## Gitconfig
 
-Nach der Installation von Git müssen die persönlichen Einstellungen konfiguriert werden
-  - Git fügt diese Informationen in jeden Commit ein, um immer eine vollständige Historie zu erzeugen
-  - Mit folgenden Befehlen wird der Benutzername und EMail-Adresse gesetzt<sup>1</sup>
+- Git muss mit einigen persönlichen Daten konfiguriert werden
+- Git fügt diese Informationen in jeden Commit ein, um immer eine vollständige Historie zu erzeugen
+- Mit folgenden Befehlen wird der Benutzername und EMail-Adresse gesetzt
       
     ```shell
     git config --global user.name "Dein Vor- und Nachname"
@@ -140,7 +140,7 @@ git add src/mein_java_programm.java
   ```
 
 * mit <kbd>Strg</kbd>+<kbd>X</kbd> gefolgt von einem <kbd>Y</kbd> speichert man den Commit
-* mit ```git commit -m "faster commit"``` kann man den Schritt zusammen ausführen
+* mit ```git commit -m "meine Tolle Commit-Nachricht"``` kann man alle Schritte zusammen ausführen
 
 ===
 
@@ -152,9 +152,9 @@ git add src/mein_java_programm.java
 * **Ziel**: Änderungen möglichst kurz aber trotzdem präzise zu beschreiben um anderen Leuten einen Überblick über gemachte Änderungen zu geben
 * [Tipps für eine gute Commit-Nachricht](https://wp-typ.de/entwicklung/gute-git-commits-schreiben/)
 
----
+===
 
-### Änderungen überprüfen
+### @Profi
 
 - `git diff` ermöglicht eine exakte Auflistung aller Änderungen
   - Zeigt exakt an, welche Zeilen hinzugefügt, geändert oder entfernt wurden
@@ -186,19 +186,32 @@ git add src/mein_java_programm.java
 
 ### @Profi
 
-**Tipp**: ignoriere zunächst einmal alle Dateien ` *.*` und füge dann konkret die benötigten Dateien und Dateimuster hinzu:
+Mit hilfe einer [Whitelist](https://de.wikipedia.org/wiki/Wei%C3%9Fe_Liste) kann man in der ```.gitignore``` Dateien nur die Dateien auflisten, die für einen Commit erlaubt sind
 
-```
-*.* (ignoriert alle Dateien)
+```shell
+# ignoriert alle Dateien
+*.*
+# erlaube andere Dateien mit Wildcard
 !*.md
 !.gitignore
 !pom.xml
 !*.java
-
-# ignoring everything in java build
-target/**
-bin/**
+# ignoriere alles Erlaubte in gewissen Verzeichnissen
+target/
+bin/
 ```
+
+---
+
+## Let's try
+
+1. Konfiguriere Git mit Deinem vollständigen Namen und EMail Adresse
+2. Erstelle ein leeres Repository auf dem Desktop in einem Verzeichnis
+3. Erzeuge in diesem Verzeichnis die zwei Dateien ```readme.md``` und eine ```readme.txt``` und füge beiden die gleiche Überschrift z.B. einen beliebigen Projektnamen hinzu
+4. Passe die ```.gitignore``` so an, dass alle ```*.txt``` Dateien ignoriert werden
+5. erzuege einen Commit mit den Daten
+
+&rarr; und die Tutoren überprüfen, ob es richtig gemacht wurde
 
 ---
 
