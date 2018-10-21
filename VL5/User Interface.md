@@ -91,7 +91,7 @@ https://developer.android.com/reference/android/content/DialogInterface -->
 Zum Design des Layouts findet sich auf der linken Seite die _Palette_, die die verschiedenen Elemente enthält und der _Component Tree_ die die aktuelle Struktur (Hierarchie) des Layouts anzeigt.
 </div>
 <div>
-![Layout Designer](images/palettetree.png#threequarter)
+![Layout Designer](images/palettetree.png)
 </div>
 </div>
 
