@@ -54,7 +54,7 @@ UI's werden mit Hilfe einzelner Layoutelemente, eine kurze Übersicht über die 
 </ul>
 </div>
 <div>
-![Layout Designer](images/layoutdesigner.png#threequarter)
+![Layout Designer](images/layoutdesigner.png#ninety)
 </div>
 </div>
 
@@ -87,7 +87,7 @@ https://developer.android.com/reference/android/content/DialogInterface -->
 ## Palette & Component Tree
 
 <div class="flex">
-<div>
+<div class="flextop">
 Zum Design des Layouts findet sich auf der linken Seite die _Palette_, die die verschiedenen Elemente enthält und der _Component Tree_ die die aktuelle Struktur (Hierarchie) des Layouts anzeigt.
 </div>
 <div>
