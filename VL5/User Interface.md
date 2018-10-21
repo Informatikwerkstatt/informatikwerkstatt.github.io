@@ -158,9 +158,14 @@ an die Stelle im Layout, wo sie erscheinen sollen.
 
 ### Margin & Padding
 
-> Eine der häufigsten Eigenschaften, die man zum layouten benötigt, ist das _Padding_ und _Margin_. Man hat ein Element (Inhalt), darum eine Box, die den Innenabstand (Padding) definiert, dann eine optionalen Rahmen (Border) und dann einen Außenabstand (Margin). Über die Eigenschaften kann man verhinden, dass Elemente _zusammen kleben_
-
+<div class="flex">
+<div>
+Eine der häufigsten Eigenschaften, die man zum layouten benötigt, ist das _Padding_ und _Margin_. Man hat ein Element (Inhalt), darum eine Box, die den Innenabstand (Padding) definiert, dann eine optionalen Rahmen (Border) und dann einen Außenabstand (Margin). Über die Eigenschaften kann man verhinden, dass Elemente _zusammen kleben_
+</div>
+<div>
 ![Marging & Padding - https://wiki.selfhtml.org/images/thumb/f/f3/Box-Modell.svg/600px-Box-Modell.svg.png](https://wiki.selfhtml.org/images/thumb/f/f3/Box-Modell.svg/600px-Box-Modell.svg.png)
+</div>
+</div>
 
 ===
 
