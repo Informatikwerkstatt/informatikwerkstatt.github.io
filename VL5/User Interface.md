@@ -78,7 +78,7 @@ Toast.makeText(
 
 ### Dialog
 
-> [Dialoge](https://developer.android.com/guide/topics/ui/dialogs) sind _kleine Fenster_ um mit dem Nutzer zu interagieren. Wichtig bei Dialogen ist die Eigenschaft [modal / nicht-modal](https://de.wikipedia.org/wiki/Dialog_(Benutzeroberfl%C3%A4che)#Modale_und_nichtmodale_Dialoge). Modal bedeutet blockierend, d.h. so lange der Dialog offen ist, wartet die Anwendung auf die Eingabe. Ein gutes [Design](https://material.io/design/components/dialogs.html#behavior) hilft dem Nutzer
+> [Dialoge](https://developer.android.com/guide/topics/ui/dialogs) sind _kleine Fenster_ um mit dem Nutzer zu interagieren. Wichtig bei Dialogen ist die Eigenschaft [modal / nicht-modal](https://de.wikipedia.org/wiki/Dialog_%28Benutzeroberfl%C3%A4che%29#Modale_und_nichtmodale_Dialoge). Modal bedeutet blockierend, d.h. so lange der Dialog offen ist, wartet die Anwendung auf die Eingabe. Ein gutes [Design](https://material.io/design/components/dialogs.html#behavior) hilft dem Nutzer
 
 ![Android Dialog - https://developer.android.com/images/ui/dialogs.png](https://developer.android.com/images/ui/dialogs.png)
 
