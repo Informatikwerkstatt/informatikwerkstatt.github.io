@@ -359,7 +359,7 @@ Note: Fragen, wie beide Protokolle gemergt werden sollen und Studis hinweisen ke
 
 ## Issues
 
-> In jedem Projekt treten [Fehler (Issues)](https://guides.github.com/features/issues/) auf. Mit Hilfe des Issue-Trackers können diese organisiert werden. Man kann Issues vereinfacht als _Arbeitsaufgaben / Todos_ sehen. Innerhalb der Fehlerbeschreibung kann eine Diskussion statt finden. Weiterhin können Issues einzelnen Personen zugeteilt werden, die sich dann um die Lösung kümmern.
+> In jedem Projekt treten [Fehler (Issues)](https://guides.github.com/features/issues/) auf. Mit Hilfe des Issue-Trackers können die Arbeiten zu Behebung organisiert werden. Man kann Issues vereinfacht als _Arbeitsaufgaben / Todos_ sehen. Innerhalb der Fehlerbeschreibung kann eine Diskussion statt finden. Weiterhin können Issues einzelnen Personen zugeteilt werden, die sich dann um die Lösung kümmern.
 
 __@Let's try:__ &rArr; Jede(r) erfasst bitte einen Issue mit einem einfachen Kommentar in dem [Namen-Repository](https://github.com/Informatikwerkstatt/Namen/issues)
 
