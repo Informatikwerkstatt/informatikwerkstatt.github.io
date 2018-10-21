@@ -106,7 +106,7 @@ Note:  Zwei Studierende auffordern,  Protokoll zu der Veranstaltung heute zu fü
 ### Änderungen vormerken - Git Add
 
 * Neue, veränderte oder gelöschte Dateien müssen _immer_ vorgemerkt werden
-* Dies tut der Befehl ```git add```; die vorzumerkenden Datein müssen als Argumente übergeben werden
+* Dies tut der Befehl ```git add```; vorzumerkende Dateien müssen als Argumente übergeben werden
     * alle Dateien vormerken mit Punkt, z.B. ```git add .```
     * [Wildcard](https://de.wikipedia.org/wiki/Wildcard_(Informatik) kann benutzt werden 
     * Dateiname mit Endung und ggf. Verzeichnispfad
@@ -144,29 +144,29 @@ git add src/mein_java_programm.java
 
 ===
 
-### Gute Commit Nachrichten
+### Gute Commit Nachrichten schreiben
 
-* sie soll möglichst genau beschreiben, welche Änderungen durchgeführt wurden
-* besonders wichtig wenn mehrere Entwickler gleichzeitig an etwas arbeiten
-* Commit Nachrichten stellen also eine Art "Kommunikationsmittel" dar.
-* **Ziel**: Änderungen möglichst kurz aber trotzdem präzise zu beschreiben um anderen Leuten einen Überblick über gemachte Änderungen zu geben
+* Commit Nachrichten dienen der Kommunikation zwischen Entwicklern
+* Besonders wichtig, wenn mehrere Entwickler gleichzeitig an etwas arbeiten
+
+* **Ziel**: Änderungen möglichst _kurz_, aber trotzdem _präzise_ beschreiben, um anderen Entwicklern einen Überblick über gemachte Änderungen zu geben
 * [Tipps für eine gute Commit-Nachricht](https://wp-typ.de/entwicklung/gute-git-commits-schreiben/)
 
 ===
 
 ### @Profi
 
-Um die Historie des Repositories einzusehen und die einzelnen Änderungen der Dateien einzusehen gibt es zwei Kommandos
+Um die Historie des Repositories einzusehen und die einzelnen Änderungen der Dateien einzusehen, gibt es zwei Kommandos
 
-* [Git Log](https://git-scm.com/docs/git-log) zeigt die gesamte [Commit Historie](https://git-scm.com/book/de/v1/Git-Grundlagen-Die-Commit-Historie-anzeigen) mit den Informationen wie Commit-Nachricht und Benutzer an
-* [Git Diff](https://git-scm.com/docs/git-diff) zeigt die [Änderungen zwischen Commits](https://git-scm.com/book/de/v1/Git-Grundlagen-%C3%84nderungen-am-Repository-nachverfolgen#Die-%C3%84nderungen-in-der-Staging-Area-durchsehen) zeilengenau an, normalerweise dem aktuellen noch nicht committeten Stand und dem letzten Commit (Head)
+* [git log](https://git-scm.com/docs/git-log) zeigt die gesamte [Commit-Historie](https://git-scm.com/book/de/v1/Git-Grundlagen-Die-Commit-Historie-anzeigen) mit den Informationen wie Commit-Nachricht und Benutzer an
+* [git diff](https://git-scm.com/docs/git-diff) zeigt die [Änderungen zwischen Commits](https://git-scm.com/book/de/v1/Git-Grundlagen-%C3%84nderungen-am-Repository-nachverfolgen#Die-%C3%84nderungen-in-der-Staging-Area-durchsehen) zeilengenau an, normalerweise zwischen dem aktuellen, noch nicht committeten Stand und dem letzten Commit (Head)
 
 ---  
 
 ## Gitignore
 
 - Viele Dateien (Cache Dateien, Logs, etc.) müssen nicht versioniert werden
-- In der ```.gitignore``` Datei kann man festlegen welche Dateien oder Dateimuster von Git ignoriert werden sollen
+- In der ```.gitignore``` Datei kann man festlegen, welche Dateien oder Dateimuster von Git ignoriert werden sollen
 
     ```shell
     # ignoriert alle Dateien mit der Endung *.log
