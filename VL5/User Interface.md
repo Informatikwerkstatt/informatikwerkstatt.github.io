@@ -88,7 +88,7 @@ Das [Grid View Layout](https://developer.android.com/guide/topics/ui/layout/grid
 
 <div class="flex">
 <div>
-UI's werden mit Hilfe einzelner Layoutelemente, eine kurze Übersicht über die verschiedenen Elemente. Alle Elemente sind in einer dreigliedigen Ansicht angeordet ([Palette & Component Tree](#/4), aktuelles Layout, Elementattribute)<br/>
+UI's werden mit Hilfe einzelner Layoutelemente, eine kurze Übersicht über die verschiedenen Elemente. Alle Elemente sind in einer dreigliedigen Ansicht angeordet ([Palette & Component Tree](#/4), aktuelles Layout, [Elementattribute](#/6))<br/>
 <ul>
 <li>Button</li>
 <li>Textfield</li>
@@ -157,6 +157,10 @@ an die Stelle im Layout, wo sie erscheinen sollen.
 ===
 
 ### Margin & Padding
+
+> Eine der häufigsten Eigenschaften, die man zum layouten benötigt, ist das _Padding_ und _Margin_. Man hat ein Element (Inhalt), darum eine Box, die den Innenabstand (Padding) definiert, dann eine optionalen Rahmen (Border) und dann einen Außenabstand (Margin). Über die Eigenschaften kann man verhinden, dass Elemente _zusammen kleben_
+
+![Marging & Padding - https://wiki.selfhtml.org/images/thumb/f/f3/Box-Modell.svg/600px-Box-Modell.svg.png](https://wiki.selfhtml.org/images/thumb/f/f3/Box-Modell.svg/600px-Box-Modell.svg.png)
 
 ===
 
