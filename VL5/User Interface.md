@@ -147,7 +147,7 @@ an die Stelle im Layout, wo sie erscheinen sollen.
 
 <div class="flex">
 <div>
-Über den Text __View all attributes &rlarr;__  kann die Deatilsicht zu einem Attribut aufgerufen werden. Insbesondere Eigenschaften zum Layout, wie Abstände, Schrift, Farben etc. werden darüber eingestellt
+Über den Text ```View all attributes &rlarr;```  kann die Deatilsicht zu einem Attribut aufgerufen werden. Insbesondere Eigenschaften zum Layout, wie Abstände, Schrift, Farben etc. werden darüber eingestellt
 </div>
 <div>
 ![Layout Designer](images/elementattribute.png)
@@ -157,6 +157,19 @@ an die Stelle im Layout, wo sie erscheinen sollen.
 ===
 
 ### Margin & Padding
+
+===
+
+### Inerten Darstellung
+
+<div class="flex">
+<div>
+Die interne Darstellung der Oberfläche geschieht bei Android als [XML](https://de.wikipedia.org/wiki/Extensible_Markup_Language) Struktur. Um ziwschen der Designdarstellung und der XML Darstellung zu wechseln befinden sich am unteren Rand zwei Tabs mit der Beschriftung ```Design``` und ```Text```. Es ist hilfreich sich mit der [XML Struktur](https://developer.android.com/guide/topics/resources/layout-resource) für die Desigbeschreibung auseinander zu setzen
+</div>
+<div>
+![XML UI](images/uixml.png)
+</div>
+</div>
 
 ---
 
