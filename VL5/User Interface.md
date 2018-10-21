@@ -164,7 +164,11 @@ an die Stelle im Layout, wo sie erscheinen sollen.
 
 <div class="flex">
 <div>
-Die UI wird intern als [XML](https://de.wikipedia.org/wiki/Extensible_Markup_Language) Struktur beschrieben. Man schaltet zwischen XML und Design Darstellung mit den beiden Tabs ```Design``` und ```Text``` am unteren Rand um. Es ist hilfreich sich mit der [XML Struktur](https://developer.android.com/guide/topics/resources/layout-resource) für die Desigbeschreibung auseinander zu setzen, da manche Einstellungen nur so zugänglich sind
+<ul>
+<li>Intern wird [XML](https://de.wikipedia.org/wiki/Extensible_Markup_Language) für das Layout verwendet</li>
+<li>Über die Tabs ```Design``` und ```Text``` am unteren Rand wechselt man die Ansicht</li>
+<li>Über die [XML Struktur](https://developer.android.com/guide/topics/resources/layout-resource) können Eigenschaften verändert werden, die nicht über den Designer zugänglich sind</li>
+</ul>
 </div>
 <div>
 ![XML UI](images/uixml.png#ninety)
