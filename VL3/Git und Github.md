@@ -4,7 +4,7 @@ permalink: /git-github/
 ---
 
 # Informatikwerkstatt
-__Git & Github__
+__Git & GitHub__
 
 Note:  Zwei Studierende auffordern,  Protokoll zu der Veranstaltung heute zu führen; Headlines und 1-2 Stichworte für die Folie mitschreiben. (Wichtig ist, dass die Protokolle nicht identisch sind)
 
@@ -14,25 +14,25 @@ Note:  Zwei Studierende auffordern,  Protokoll zu der Veranstaltung heute zu fü
 
 * Software-Entwicklung ist heute _Teamwork_
 * Software-Projekte laufen je nach Produkt über mehr als 10 Jahre
-* Hohe Komplexität mit der Entwicklungszeit
-* nicht-lineare Entwicklung (Patches, Releases, Hotfixes)
+* Mit der Zeit führt die zu hoher Komplexität
+* Nicht-lineare Entwicklung (Patches, Releases, Hotfixes)
 
 <br/>
 <div class="fragment">
 &rarr; Wie behält man da die Übersicht?<br/>
-&rarr; Wie verwaltet man diese verschiedenen Entwicklungsstände?<br/>
+&rarr; Wie verwaltet man verschiedene Entwicklungsstände?<br/>
 &rarr; Wie vermeidet man, dass Entwickler sich gegenseitig stören?
 </div>
 
 <br/>
 <div class="fragment">
-&rArr; Protokolliert zeitliche Veränderung aller Daten
+&rArr; Protokollieren der zeitlichen Veränderung aller Daten
 </div>
 ---
 
 ## Repositories
 
-> Verzeichnisorientierte Struktur, die zur Verwaltung der Quellcodes mit zusätzlichen zeitlichen und Benutzerinformationen versieht. Zusätzlich werden verschiedene Tools zur Verwaltung berwendet
+> Verzeichnisorientierte Struktur, die zur Verwaltung der Quellcodes zusätzliche zeit- und benutzerbezogeneInformationen enthält. Zusätzlich werden verschiedene Tools zur Verwaltung verwendet
 
 ---
 
@@ -66,7 +66,7 @@ Note:  Zwei Studierende auffordern,  Protokoll zu der Veranstaltung heute zu fü
 
 ---
 
-## Gitconfig
+## Git config
 
 - Git muss mit einigen persönlichen Daten konfiguriert werden
 - Git fügt diese Informationen in jeden Commit ein, um immer eine vollständige Historie zu erzeugen
@@ -84,31 +84,31 @@ Note:  Zwei Studierende auffordern,  Protokoll zu der Veranstaltung heute zu fü
 
 ## Projekt erstellen
 
-* ein Projekt entspricht einem Verzeichnis &rarr; somit legt man ein leeres Verzeichnis an
-* in dem Verzeichnis werden zwei Dateien angelegt
-    * [.gitignore](#/8)<sup>2</sup> 
+* Ein Projekt entspricht einem Verzeichnis &rarr; zunächst legt man ein leeres Verzeichnis an
+* In dem Verzeichnis werden zwei Dateien angelegt
+    * [.gitignore](#/8)<sup>1</sup> 
     * ```readme.md``` in der eine Kurzbeschreibung des Projektes als [Markdown](https://de.wikipedia.org/wiki/Markdown) enthalten ist
-* über die [Git Bash](https://gitforwindows.org/)<sup>1</sup> wechselt man in das erstelle Verzeichnis
-* dort führt man ```git init``` aus
+* Über die [Git Bash Shell](https://gitforwindows.org/)<sup>2</sup> wechselt man in das erstellte Verzeichnis
+* Dort führt man ```git init``` aus
 
-<small>1: die Git Bash ist auf den Pool Rechner installiert<br/>2: die Datei muss mit einem Punkt beginnen und darf keine Endung haben, hierzu empfiehlt es sich diese Datei in der Git Bash mit dem Befehl [touch](https://de.wikipedia.org/wiki/Touch_%28Unix%29) anzulegen</small>
+<small>1: die Datei muss mit einem Punkt beginnen und darf keine Endung (kein ```.xxx```) haben; Tipp: diese Datei in der Git Bash mit dem Befehl [touch](https://de.wikipedia.org/wiki/Touch_%28Unix%29) anzulegen<br/>2: Git Bash ist auf den Pool Rechnern installiert</small>
 
 ---
 
 ## Genereller Workflow
 
-> In einem Repositry können Dateien und Verzeichnisse erzeugt, verändert und gelöscht werden. Der generelle Workflow sollte möglichst nur kleine Veränderungen enthalten, die dann [committet](#/6/2) werden (siehe Deatils [Git Dokumentation](https://git-scm.com/book/de/v1/Git-Grundlagen-%C3%84nderungen-am-Repository-nachverfolgen))
+> In einem Repository können Dateien und Verzeichnisse erzeugt, verändert und gelöscht werden. Der generelle Workflow sollte möglichst nur kleine Veränderungen enthalten, die dann [committed](#/6/2) werden (Details in [Git Dokumentation](https://git-scm.com/book/de/v1/Git-Grundlagen-%C3%84nderungen-am-Repository-nachverfolgen))
 
-![Git Qorkflow - https://git-scm.com/figures/18333fig0201-tn.png](https://git-scm.com/figures/18333fig0201-tn.png)
+![Git Workflow - https://git-scm.com/figures/18333fig0201-tn.png](https://git-scm.com/figures/18333fig0201-tn.png)
 
 ===
 
 ### Änderungen vormerken - Git Add
 
 * Neue, veränderte oder gelöschte Dateien müssen _immer_ vorgemerkt werden
-* Befehl ```git add``` führt dies durch, aber es müssen die Dateien übergeben werden
-    * für allen Dateien reicht ein Punkt
-    * es kann ein  [Wildcard](https://de.wikipedia.org/wiki/Wildcard_(Informatik) benutzt werden 
+* Dies tut der Befehl ```git add```; vorzumerkende Dateien müssen als Argumente übergeben werden
+    * alle Dateien vormerken mit Punkt, z.B. ```git add .```
+    * [Wildcard](https://de.wikipedia.org/wiki/Wildcard_(Informatik) kann benutzt werden 
     * Dateiname mit Endung und ggf. Verzeichnispfad
 * ```git status``` listet alle vorgemerkten Dateien
 
@@ -144,29 +144,29 @@ git add src/mein_java_programm.java
 
 ===
 
-### Gute Commit Nachrichten
+### Gute Commit Nachrichten schreiben
 
-* sie soll möglichst genau beschreiben, welche Änderungen durchgeführt wurden
-* besonders wichtig wenn mehrere Entwickler gleichzeitig an etwas arbeiten
-* Commit Nachrichten stellen also eine Art "Kommunikationsmittel" dar.
-* **Ziel**: Änderungen möglichst kurz aber trotzdem präzise zu beschreiben um anderen Leuten einen Überblick über gemachte Änderungen zu geben
+* Commit Nachrichten dienen der Kommunikation zwischen Entwicklern
+* Besonders wichtig, wenn mehrere Entwickler gleichzeitig an etwas arbeiten
+
+* **Ziel**: Änderungen möglichst _kurz_, aber trotzdem _präzise_ beschreiben, um anderen Entwicklern einen Überblick über gemachte Änderungen zu geben
 * [Tipps für eine gute Commit-Nachricht](https://wp-typ.de/entwicklung/gute-git-commits-schreiben/)
 
 ===
 
 ### @Profi
 
-Um die Historie des Repositories einzusehen und die einzelnen Änderungen der Dateien einzusehen gibt es zwei Kommandos
+Um die Historie des Repositories einzusehen und die einzelnen Änderungen der Dateien einzusehen, gibt es zwei Kommandos
 
-* [Git Log](https://git-scm.com/docs/git-log) zeigt die gesamte [Commit Historie](https://git-scm.com/book/de/v1/Git-Grundlagen-Die-Commit-Historie-anzeigen) mit den Informationen wie Commit-Nachricht und Benutzer an
-* [Git Diff](https://git-scm.com/docs/git-diff) zeigt die [Änderungen zwischen Commits](https://git-scm.com/book/de/v1/Git-Grundlagen-%C3%84nderungen-am-Repository-nachverfolgen#Die-%C3%84nderungen-in-der-Staging-Area-durchsehen) zeilengenau an, normalerweise dem aktuellen noch nicht committeten Stand und dem letzten Commit (Head)
+* [git log](https://git-scm.com/docs/git-log) zeigt die gesamte [Commit-Historie](https://git-scm.com/book/de/v1/Git-Grundlagen-Die-Commit-Historie-anzeigen) mit den Informationen wie Commit-Nachricht und Benutzer an
+* [git diff](https://git-scm.com/docs/git-diff) zeigt die [Änderungen zwischen Commits](https://git-scm.com/book/de/v1/Git-Grundlagen-%C3%84nderungen-am-Repository-nachverfolgen#Die-%C3%84nderungen-in-der-Staging-Area-durchsehen) zeilengenau an, normalerweise zwischen dem aktuellen, noch nicht committeten Stand und dem letzten Commit (Head)
 
 ---  
 
 ## Gitignore
 
 - Viele Dateien (Cache Dateien, Logs, etc.) müssen nicht versioniert werden
-- In der ```.gitignore``` Datei kann man festlegen welche Dateien oder Dateimuster von Git ignoriert werden sollen
+- In der ```.gitignore``` Datei kann man festlegen, welche Dateien oder Dateimuster von Git ignoriert werden sollen
 
     ```shell
     # ignoriert alle Dateien mit der Endung *.log
