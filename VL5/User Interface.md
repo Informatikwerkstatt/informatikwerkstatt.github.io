@@ -167,7 +167,7 @@ an die Stelle im Layout, wo sie erscheinen sollen.
 Die UI wird intern als [XML](https://de.wikipedia.org/wiki/Extensible_Markup_Language) Struktur beschrieben. Man schaltet zwischen XML und Design Darstellung mit den beiden Tabs ```Design``` und ```Text``` am unteren Rand um. Es ist hilfreich sich mit der [XML Struktur](https://developer.android.com/guide/topics/resources/layout-resource) für die Desigbeschreibung auseinander zu setzen, da manche Einstellungen nur so zugänglich sind
 </div>
 <div>
-![XML UI](images/uixml.png#threequarter)
+![XML UI](images/uixml.png#ninety)
 </div>
 </div>
 
