@@ -42,9 +42,21 @@ Note: Studis fragen, was man dafür wohl alles braucht: UI Layout, Events, Algor
 
 ---
 
-## Was bin ich?
+## Was bin ich? - Layoutelemente
 
-UI's werden mit hilfe einzelner Layoutelemente, eine kurze Übersicht über die verschiedenen Elemente
+<div class="flex">
+UI's werden mit Hilfe einzelner Layoutelemente, eine kurze Übersicht über die verschiedenen Elemente
+<ul>
+<li>Button</li>
+<li>Textfield</li>
+<li>Layouts</li>
+</ul>
+<div>
+</div>
+<div>
+![Layout Designer](images/layoutdesigner.png#half)
+</div>
+</div>
 
 <!-- https://developer.android.com/training/keyboard-input/style -->
 
