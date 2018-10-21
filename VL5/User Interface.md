@@ -163,7 +163,7 @@ an die Stelle im Layout, wo sie erscheinen sollen.
 Ein Element (Inhalt) besitzt ein Box für das Layout, die Box hat einen Innenabstand (_Padding_), eine optionalen Rahmen (_Border_) und einen Außenabstand (_Margin_). Mit diesen Eigenschaften kann man verhinden, dass Elemente _zusammen kleben_
 </div>
 <div>
-![Marging & Padding - https://wiki.selfhtml.org/images/thumb/f/f3/Box-Modell.svg/600px-Box-Modell.svg.png](https://wiki.selfhtml.org/images/thumb/f/f3/Box-Modell.svg/600px-Box-Modell.svg.png#ninety)
+![Marging & Padding - https://wiki.selfhtml.org/images/thumb/f/f3/Box-Modell.svg/600px-Box-Modell.svg.png](https://wiki.selfhtml.org/images/thumb/f/f3/Box-Modell.svg/600px-Box-Modell.svg.png)
 </div>
 </div>
 
