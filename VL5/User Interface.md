@@ -46,7 +46,7 @@ Note: Studis fragen, was man dafür wohl alles braucht: UI Layout, Events, Algor
 
 <div class="flex">
 <div>
-UI's werden mit Hilfe einzelner Layoutelemente, eine kurze Übersicht über die verschiedenen Elemente. Alle Elemente sind in einer dreigliedigen Ansicht angeordet (Palette & Component Tree, aktuelles Layout, Elementattribute)<br/>
+UI's werden mit Hilfe einzelner Layoutelemente, eine kurze Übersicht über die verschiedenen Elemente. Alle Elemente sind in einer dreigliedigen Ansicht angeordet ([Palette & Component Tree](#/4), aktuelles Layout, Elementattribute)<br/>
 <ul>
 <li>Button</li>
 <li>Textfield</li>
@@ -87,8 +87,12 @@ https://developer.android.com/reference/android/content/DialogInterface -->
 ## Palette & Component Tree
 
 <div class="flex">
-<div class="flextop">
-Zum Design des Layouts findet sich auf der linken Seite die _Palette_, die die verschiedenen Elemente enthält und der _Component Tree_ die die aktuelle Struktur (Hierarchie) des Layouts anzeigt.
+<div>
+<p>
+Zum Design des Layouts findet sich auf der linken Seite die _Palette_, die die verschiedenen Elemente enthält. Man zieht die einzelnen Elemente aus der Palette
+an die Stelle im Layout, wo sie erscheinen sollen.
+</p>
+<p>Der _Component Tree_ die die aktuelle Struktur des Layouts, hiermit sieht die [Hierarchie](#/2/2) des Layoutes, also welches Element _hängt unter_ welchem Container.</p>
 </div>
 <div>
 ![Layout Designer](images/palettetree.png)
@@ -110,7 +114,7 @@ Zum Design des Layouts findet sich auf der linken Seite die _Palette_, die die v
 
 ### Constraint Layout
 
-[Constraint Layouts](https://developer.android.com/training/constraint-layout/) sind aktuell die Wahl für ein Layout, der Vorteil besteht darin, dass sie sich recht flexibel an verschiedene Displaygröße, sowie horizontale / vertikale Darstellung anpassen lassen.
+[Constraint Layouts](https://developer.android.com/training/constraint-layout/) sind aktuell die Wahl für ein Layout, der Vorteil besteht darin, dass sie sich recht flexibel an verschiedene Displaygröße, sowie horizontale / vertikale Darstellung anpassen lassen. Man baut gedanklich eine große Box, in die man viele kleinere Boxen stellt auf. Damit ergibt sich die Layouthierarchie des [Component Trees](#/4)
 
 <small>Wer Erfahrung mit Webseitengestelltung kennt vielleicht den Begriff [Responsive Webdesign](https://de.wikipedia.org/wiki/Responsive_Webdesign), um das Layout der Webseite an die Auflösung des Endgerätes anzupassen. Das Design einer App kann in ähnliche organisiert werden</small>
 
