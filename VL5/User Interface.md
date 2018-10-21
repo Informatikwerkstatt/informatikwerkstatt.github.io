@@ -44,13 +44,13 @@ Note: Studis fragen, was man dafür wohl alles braucht: UI Layout, Events, Algor
 
 ## Alles im Lot - Layouts
 
-> Wir behandeln hier nur die Grundfunktionalität wie ein Layout erstellt, die Details für komplexere Layouts müssen je nach Aufgabe dann selbst entwickelt werden. Ein gutes Design erhält man durch Kreativität und Feedback, als Hilfestellung gibt es häufig _[Design Styleguides](https://material.io/).
+> Wir behandeln hier nur die Grundfunktionalität wie ein Layout erstellt, die Details für komplexere Layouts müssen je nach Aufgabe dann selbst entwickelt werden. Ein gutes Design erhält man durch Kreativität und Feedback, als Hilfestellung gibt es häufig [Design Styleguides](https://material.io/).
 
 ===
 
 ### Constraint Layout
 
-[Constraint Layouts](https://developer.android.com/training/constraint-layout/) sind aktuell die Wahl für ein Layout, der Vorteil besteht darin, dass sie sich recht flexibel an verschiedene Displaygröße, sowie horizontale / vertikale Darstellung anpassen lassen. Man baut gedanklich eine große Box, in die man viele kleinere Boxen stellt auf. Damit ergibt sich die Layouthierarchie des [Component Trees](#/4)
+[Constraint Layouts](https://developer.android.com/training/constraint-layout/) sind aktuell die Wahl für ein Layout, der Vorteil besteht darin, dass sie sich recht flexibel an verschiedene Displaygröße, sowie horizontale / vertikale Darstellung anpassen lassen. Man baut gedanklich eine große Box, in die man viele kleinere Boxen stellt auf. Damit ergibt sich die Layouthierarchie des [Component Trees](#/5)
 
 <small>Wer Erfahrung mit Webseitengestelltung kennt vielleicht den Begriff [Responsive Webdesign](https://de.wikipedia.org/wiki/Responsive_Webdesign), um das Layout der Webseite an die Auflösung des Endgerätes anzupassen. Das Design einer App kann in ähnliche organisiert werden</small>
 
@@ -66,7 +66,7 @@ Das [Linear Layout](https://developer.android.com/guide/topics/ui/layout/linear)
 
 ### Grid View
 
-Das [Grid View Layout](https://developer.android.com/guide/topics/ui/layout/gridview) ist aufgebaut wie ein Schachbrett, sollen aber nicht mehr verwendet werden. __Anmerkung aus der Dokumentation:__ For better performance and tooling support, you should instead build your layout with Constraint Layout.
+Das [Grid View Layout](https://developer.android.com/guide/topics/ui/layout/gridview) ist aufgebaut wie ein Schachbrett, sollen aber nicht mehr verwendet werden. __Anmerkung aus der Dokumentation:__ _For better performance and tooling support, you should instead build your layout with Constraint Layout._
 
 ![Grid View Layout - Quelle https://developer.android.com/guide/topics/ui/layout/gridview](https://developer.android.com/images/ui/gridview.png)
 
@@ -144,6 +144,15 @@ an die Stelle im Layout, wo sie erscheinen sollen.
 ---
 
 ## Elementattribute
+
+<div class="flex">
+<div>
+Über den Text __View all attributes &rlarr;__  kann die Deatilsicht zu einem Attribut aufgerufen werden. Insbesondere Eigenschaften zum Layout, wie Abstände, Schrift, Farben etc. werden darüber eingestellt
+</div>
+<div>
+![Layout Designer](images/elementattribute.png)
+</div>
+</div>
 
 ===
 
