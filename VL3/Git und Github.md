@@ -339,7 +339,7 @@ git clone **Repository URL** **Verzeichnisname**
 
 ## @Let's try - Für Alle
 
-1. Clont das [Namen Repository](https://github.com/Informatikwerkstatt/Namen) der Informatikwerkstatt
+1. Clont das [Namen-Repository](https://github.com/Informatikwerkstatt/Namen) der Informatikwerkstatt
 2. Ergänzt in der ```readme.md``` Eure(n) Vornamen 
 3. Pusht nun die Änderung
 
@@ -349,27 +349,27 @@ Note: Fragen, wie beide Protokolle gemergt werden sollen und Studis hinweisen ke
 
 ---
 
-## Merge Conflict
+## Merge-Konflikt
 
-> Ein [Merge Conflict](https://git-scm.com/book/de/v1/Git-Branching-Einfaches-Branching-und-Merging#Grundlegende-Merge-Konflikte) ist der Fall, dass zwischen Eurem letzten _Pull_ und dem durchgeführten _Push_ jemand anderes seine Änderungen gepusht hat. Ihr müsst somit zuerst einen _Pull_ machen, den [Konflikt ggf. manuell beheben](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/), dann _committen_ und _pushen_
+> Ein [Merge-Konflikt](https://git-scm.com/book/de/v1/Git-Branching-Einfaches-Branching-und-Merging#Grundlegende-Merge-Konflikte) tritt auf, wenn zwischen Eurem letzten _Pull_ und dem durchgeführten _Push_ jemand anderes seine Änderungen gepusht hat. Ihr müsst somit zuerst einen _Pull_ machen, den [Konflikt ggf. manuell beheben](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/), dann _committen_ und _pushen_
 
-&rArr; Bitte alle die Konflikte beseitigen und die Namensliste pushen, so dass wir am Ende alle Namen in diesem Repository haben
+&rArr; Bitte beseitigt alle die auftretenden Konflikte und pusht die Namensliste, so dass wir am Ende alle Namen im Repository haben
 
 ---
 
 ## Issues
 
-> In jedem Projekt treten [Fehler (Issues)](https://guides.github.com/features/issues/) auf. Mit Hilfe  des Issue-Trackers können diese organisiert werden. Man kann Issues vereinfacht als _Arbeitsaufgaben / Todos_ sehen. Innerhalb der Fehlerbeschreibung kann eine Diskussion statt finden. Weiterhin können die Issues einzelnen Personen zugeteilt werden, die sich um die Lösung kümmern.
+> In jedem Projekt treten [Fehler (Issues)](https://guides.github.com/features/issues/) auf. Mit Hilfe des Issue-Trackers können diese organisiert werden. Man kann Issues vereinfacht als _Arbeitsaufgaben / Todos_ sehen. Innerhalb der Fehlerbeschreibung kann eine Diskussion statt finden. Weiterhin können Issues einzelnen Personen zugeteilt werden, die sich dann um die Lösung kümmern.
 
-&rArr; Jede(r) erfasst bitte einen Issue mit einem einfachen Kommentar in dem [Namens Repository](https://github.com/Informatikwerkstatt/Namen/issues)
+__@Let's try:__ &rArr; Jede(r) erfasst bitte einen Issue mit einem einfachen Kommentar in dem [Namen-Repository](https://github.com/Informatikwerkstatt/Namen/issues)
 
-<small>**@Profis:** Man kann durch eine Commit-Nachricht einen Issue [automatisch schließen](https://help.github.com/articles/closing-issues-using-keywords/) und weiss damit welche Änderungen den Fehler behoben haben</small>
+<small>**@Profis:** Man kann durch eine Commit-Nachricht einen Issue [automatisch schließen](https://help.github.com/articles/closing-issues-using-keywords/) und weiss damit, welche Änderungen den Fehler behoben haben</small>
 
 ===
 
 ## @Profi - Milestones
 
-> In einem komplexen Software-Projekt müssen meist zu gewissen Zeiten bestimmte Features fertig realisiert sein. Diese Features bestehen meist aus mehreren Issues. Um diese zu bündeln gibt es das Konzept von [milestones](https://help.github.com/articles/about-milestones/). Milestones sind eine Liste von Issues, die bis zu einem festen Datum abgearbeitet sein müssen. Diese Organisation wird in der _agilen Software-Entwicklung_ nach [Scrum](https://de.wikipedia.org/wiki/Scrum) verwendet
+> In einem komplexen Software-Projekt müssen meist zu gewissen Zeiten bestimmte Features fertig realisiert sein. Diese Features sind meist mit Issues verbunden. Um diesen Zusammenhang darzustellen, gibt es das Konzept von [Milestones](https://help.github.com/articles/about-milestones/). Ein Milestone ist eine Liste von Issues, die bis zu einem festen Datum abgearbeitet sein müssen. Diese Organisation wird in der _agilen Software-Entwicklung_ nach [Scrum](https://de.wikipedia.org/wiki/Scrum) verwendet
 
 ---
 
@@ -377,11 +377,11 @@ Note: Fragen, wie beide Protokolle gemergt werden sollen und Studis hinweisen ke
 
 > Ein [Branch](https://git-scm.com/book/de/v1/Git-Branching-Branching-Workflows) ist eine abgetrennte / isolierte Umgebung, deren Änderungen keine Auswirkungen auf den Master-Code haben
 
-- Ermöglicht parallele Entwicklung an verschiedenen Features während der Master-Code unberührt bleibt
-- Raum zum experimentieren
-- Um zwischen Branches zu wechseln / sie anzulegen benutzt man das Kommando ```git checkout```
-- Branches können ineinandern [gemergt](https://git-scm.com/book/de/v1/Git-Branching-Einfaches-Branching-und-Merging) werden ähnlich wie bei der Konfliktbeseitigung
-- Wenn so genannte [Forks](https://guides.github.com/activities/forking/) eines Repositories existieren können mit Hilfe von [Pull Requests](https://help.github.com/articles/about-pull-requests/) und dem [GitHub Flow](https://guides.github.com/introduction/flow/) die verschiedenen Stände konsistent zusammen geführt werden
+- Ermöglicht parallele Entwicklung an verschiedenen Features, während der Master-Code unberührt bleibt
+- Raum zum Experimentieren für die Entwickler
+- Um Branches anzulegen und zwischen ihnen zu wechseln, benutzt man das Kommando ```git checkout```
+- Unterschiedliche Branches können ineinander [gemergt](https://git-scm.com/book/de/v1/Git-Branching-Einfaches-Branching-und-Merging) werden ähnlich wie bei der Konfliktbeseitigung
+- Wenn so genannte [Forks](https://guides.github.com/activities/forking/) eines Repositories existieren, können mit Hilfe von [Pull Requests](https://help.github.com/articles/about-pull-requests/) und dem [GitHub Flow](https://guides.github.com/introduction/flow/) die verschiedenen Stände konsistent zusammengeführt werden
 
 ---
 
@@ -390,6 +390,6 @@ Note: Fragen, wie beide Protokolle gemergt werden sollen und Studis hinweisen ke
 * [Git Bash](https://git-scm.com/downloads)
 * [Github Desktop](https://desktop.github.com/)
 * [Git Kraken](https://www.gitkraken.com/)
-* [Git Reeferenz](https://git-scm.com/docs)
+* [Git Referenz](https://git-scm.com/docs)
 * [Pro Git](https://git-scm.com/book/de/v2) Online-Buch
 * [Git-Flow](https://nvie.com/posts/a-successful-git-branching-model/) für komplexere Entwicklungen
