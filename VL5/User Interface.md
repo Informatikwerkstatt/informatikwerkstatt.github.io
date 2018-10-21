@@ -25,9 +25,7 @@ Note: Studis fragen, was man dafür wohl alles braucht: UI Layout, Events, Algor
 ## Interface Aufbau
 
 > Ein [einfaches User-Interface](https://developer.android.com/training/basics/firstapp/building-ui) (UI) wird im besten Fall mit Containern erstellt und man ordnet diese Container einmal immer relativ zu dem übergeordneten Container an. Je nach Design kann somit direkt ein Hoch- oder Querlayout erzeugt werden.
-
-<small>Wer Erfahrung mit Webseitengestelltung kennt vielleicht den Begriff [Responsive Webdesign](https://de.wikipedia.org/wiki/Responsive_Webdesign), um das Layout der Webseite an die Auflösung des Endgerätes anzupassen. Das Design einer App kann in ähnliche organisiert werden</small>
-
+> 
 ===
 
 ### View
@@ -76,18 +74,20 @@ https://developer.android.com/reference/android/content/DialogInterface -->
 
 ## Alles im Lot - Layouts
 
-* Layouts sind _sehr_ komplexe Strukturen, um eine App darzustellen
+* Wir behandeln hier nur die Grundfunktionalität
 * Mit Hilfe von Layouts kann die Darstellung für
     * unterschiedliche Displaygrößen entworfen werden
     * horizontales / vertikales Layout erzeugt werden
-* Wir behandeln hier nur die Grundfunktionalität
 
-&rarr; ein gutes Design erhält man mit Kreativität und viel Feedback von Nutzern der App, darum geben Firmen häufig _[Design Styleguides](https://material.io/)_ heraus, die helfen gute Layouts zu entwickeln
+&rarr; ein gutes Design erhält man durch Kreativität und Feedback, als Hilfestellung gibt es häufig _[Design Styleguides](https://material.io/)_
 
 ===
 
 ### Constraint Layout
 
+[Constraint Layouts](https://developer.android.com/training/constraint-layout/) sind aktuell die Wahl für ein Layout, der Vorteil besteht darin, dass sie sich recht flexibel an verschiedene Displaygröße, sowie horizontale / vertikale Darstellung anpassen lassen.
+
+<small>Wer Erfahrung mit Webseitengestelltung kennt vielleicht den Begriff [Responsive Webdesign](https://de.wikipedia.org/wiki/Responsive_Webdesign), um das Layout der Webseite an die Auflösung des Endgerätes anzupassen. Das Design einer App kann in ähnliche organisiert werden</small>
 
 ===
 
@@ -101,9 +101,7 @@ Das [Linear Layout](https://developer.android.com/guide/topics/ui/layout/linear)
 
 ### Grid View
 
-Das [Grid View Layout](https://developer.android.com/guide/topics/ui/layout/gridview) ist aufgebaut wie ein Schachbrett. Die Anzahl der Zeilen und Spalten kann zur Laufzeit gesetzt werden. Es eignet sich gut für Darstellung von mehreren Thumbnails
-
-__Anmerkung aus der Dokumentation:__ For better performance and tooling support, you should instead build your layout with [ConstraintLayout](https://developer.android.com/training/constraint-layout/).
+Das [Grid View Layout](https://developer.android.com/guide/topics/ui/layout/gridview) ist aufgebaut wie ein Schachbrett, sollen aber nicht mehr verwendet werden. __Anmerkung aus der Dokumentation:__ For better performance and tooling support, you should instead build your layout with Constraint Layout.
 
 ![Grid View Layout - Quelle https://developer.android.com/guide/topics/ui/layout/gridview](https://developer.android.com/images/ui/gridview.png)
 
