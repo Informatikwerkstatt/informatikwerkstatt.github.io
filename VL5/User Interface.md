@@ -45,7 +45,7 @@ Note: Studis fragen, was man dafür wohl alles braucht: UI Layout, Events, Algor
 ## Was bin ich? - Layoutelemente
 
 <div class="flex">
-UI's werden mit Hilfe einzelner Layoutelemente, eine kurze Übersicht über die verschiedenen Elemente
+UI's werden mit Hilfe einzelner Layoutelemente, eine kurze Übersicht über die verschiedenen Elemente<br/>
 <ul>
 <li>Button</li>
 <li>Textfield</li>
@@ -54,7 +54,7 @@ UI's werden mit Hilfe einzelner Layoutelemente, eine kurze Übersicht über die 
 <div>
 </div>
 <div>
-![Layout Designer](images/layoutdesigner.png#half)
+![Layout Designer](images/layoutdesigner.png)
 </div>
 </div>
 
