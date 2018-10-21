@@ -300,7 +300,7 @@ Note: Tutoren sollen Studierende direkt via Laptop / PC in das Team "Studierende
 
 ### Git Push
 
-> Mit ```git push``` bzw. beim ersten Mal mit ```git push origin master``` werden die Daten aus dem lokalen Repository in das GitHub [Remote Repository](https://help.github.com/articles/pushing-to-a-remote/) (#/21) übertragen.
+> Mit ```git push``` bzw. beim ersten Mal mit ```git push origin master``` werden die Daten aus dem lokalen Repository in das GitHub [Remote Repository](https://help.github.com/articles/pushing-to-a-remote/) (siehe [Darstellung](#/10/1)) übertragen.
 ```master``` bedeutet, dass die Daten im Master-[Branch] gespeichert werden
 
 ---
@@ -359,7 +359,7 @@ Note: Fragen, wie beide Protokolle gemergt werden sollen und Studis hinweisen ke
 
 ## Issues
 
-> In jedem Projekt treten [Fehler (Issues)](https://guides.github.com/features/issues/) auf. Mit Hilfe eines können diese organisiert werden. Man kann Issues vereinfacht als _Arbeitsaufgaben / Todos_ sehen. Innerhalb der Fehlerbeschreibung kann eine Diskussion statt finden. Weiterhin können die Issues einzelnen Personen zugeteilt werden, die sich um die Lösung kümmern.
+> In jedem Projekt treten [Fehler (Issues)](https://guides.github.com/features/issues/) auf. Mit Hilfe  des Issue-Trackers können diese organisiert werden. Man kann Issues vereinfacht als _Arbeitsaufgaben / Todos_ sehen. Innerhalb der Fehlerbeschreibung kann eine Diskussion statt finden. Weiterhin können die Issues einzelnen Personen zugeteilt werden, die sich um die Lösung kümmern.
 
 &rArr; Jede(r) erfasst bitte einen Issue mit einem einfachen Kommentar in dem [Namens Repository](https://github.com/Informatikwerkstatt/Namen/issues)
 

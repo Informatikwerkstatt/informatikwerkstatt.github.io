@@ -196,6 +196,20 @@ https://code.tutsplus.com/tutorials/android-from-scratch-understanding-adapters-
 
 ---
 
+## Recycling von Layout - Fragments
+
+<!-- https://android-developers.googleblog.com/2009/02/android-layout-tricks-2-reusing-layouts.html -->
+
+---
+
+## Fragmente Lifetime
+
+---
+
+## Dynamische Oberflächen
+
+---
+
 ## Struktur verleihen - Trick & Kniffe
 
 <!-- 
@@ -211,23 +225,11 @@ https://developer.android.com/training/improving-layouts/optimizing-layout
 
 ---
 
-## @Let's try
+## @Home / Übung
 
-<!-- Ein paar Buttons, bei denen ein Dialog, Toast erscheint und ein Text aus einem Editorfeld eingelesen und in etwas anderes eingesetzt wird -->
+Es soll ein [Taschenrechner](#/1) entwickelt werden, über den die Grundrechenarten (Addition, Subtraktion, Multiplikation, Division) mit Kommazahlen durchgeführt werden kann. Zusätzlich sollen beliebig weitere Berechnungen angeschlossen werden, d.h. nicht nur zwei Zahlen sollen verrechnet werden. 
 
----
-
-## Recycling von Layout - Fragments
-
-<!-- https://android-developers.googleblog.com/2009/02/android-layout-tricks-2-reusing-layouts.html -->
-
----
-
-## Fragmente Lifetime
-
----
-
-## Dynamische Oberflächen
+**@Profis:** Erweitert den Taschenrechner um die Rest-Division ([Modulo Operator](https://de.wikipedia.org/wiki/Division_mit_Rest)
 
 ---
 
