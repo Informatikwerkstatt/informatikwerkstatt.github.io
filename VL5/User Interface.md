@@ -38,7 +38,7 @@ Note: Studis fragen, was man dafür wohl alles braucht: UI Layout, Events, Algor
 
 > Eine [ViewGroup](https://developer.android.com/reference/android/view/ViewGroup) ist eine Sammlung von View-Containern eines Layouts, sowohl View wie auch weitere ViewGroup können miteinander verbunden werden
 
-![View und ViewGroup - Quelle https://developer.android.com/training/basics/firstapp/building-ui](https://developer.android.com/images/viewgroup_2x.png)
+![View und ViewGroup - Quelle https://developer.android.com/training/basics/firstapp/building-ui](https://developer.android.com/images/viewgroup_2x.png#ninety)
 
 ---
 
@@ -46,7 +46,7 @@ Note: Studis fragen, was man dafür wohl alles braucht: UI Layout, Events, Algor
 
 <div class="flex">
 <div>
-UI's werden mit Hilfe einzelner Layoutelemente, eine kurze Übersicht über die verschiedenen Elemente
+UI's werden mit Hilfe einzelner Layoutelemente, eine kurze Übersicht über die verschiedenen Elemente. Alle Elemente sind in einer dreigliedigen Ansicht angeordet (Palette & Component Tree, aktuelles Layout, Elementattribute)<br/>
 <ul>
 <li>Button</li>
 <li>Textfield</li>
@@ -81,6 +81,19 @@ Toast.makeText(
 <!-- 
 https://developer.android.com/guide/topics/ui/dialogs
 https://developer.android.com/reference/android/content/DialogInterface -->
+
+---
+
+## Palette & Component Tree
+
+<div class="flex">
+<div>
+Zum Design des Layouts findet sich auf der linken Seite die _Palette_, die die verschiedenen Elemente enthält und der _Component Tree_ die die aktuelle Struktur (Hierarchie) des Layouts anzeigt.
+</div>
+<div>
+![Layout Designer](images/palettetree.png#threequarter)
+</div>
+</div>
 
 ---
 
