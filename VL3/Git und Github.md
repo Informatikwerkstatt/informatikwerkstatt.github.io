@@ -277,34 +277,35 @@ bin/
 ## Projekt & Repository
 
 - **Public** Repos sind einsehbar für alle Github Nutzer
-- **Private** Repos sind nur für Dich bzw. den Leuten denen du Zugriff erteilst einsehbar
+- **Private** Repos sind nur für Dich und für die Leute einsehbar, denen du Zugriff erteilst
 - _Zur Erinnerung:_ In jedem Repo sollten ein [readme.md](#/5) und eine [.gitignore](#/7) Datei vorhanden sein
 
 ---
 
 ## @Let's try - Mein eigenes Repository
 
-1. bei GitHub [registriert](https://github.com/) _jeder_ bitte einen eigenen Account<sup>1</sup>
+1. Bei GitHub [registriert](https://github.com/) _jeder_ bitte einen eigenen Account<sup>1</sup>
     * bei [Problemen](https://services.github.com/on-demand/intro-to-github/create-github-account) die Anleitung anschauen
-    * **@Profi:** [Github Student Pack](https://github.com/) Unendlich private Repositorys und andere Developer Tools kostenlos
-2. SSH-Schlüssel erstellt und im Github-Account eintragen
-3. ein [neues Projekt / Repository](https://help.github.com/articles/creating-a-new-repository/) bei Github anlegen
-4. das lokal erstellte Repository vom Desktop anhand der gezeigten Anleitung zu Github übertragen
-5. Im GitHub Webinterface überprüfen, ob alle Daten korrekt übertragen wurden
+    * **@Profi:** [Github Student Pack](https://github.com/): Beliebig viele private Repositories und andere Developer Tools kostenlos
+2. Erstelle einen SSH-Schlüssel und trage ihn im GitHub-Account ein
+3. Lege ein [neues Projekt / Repository](https://help.github.com/articles/creating-a-new-repository/) bei GitHub an
+4. Übertrage das lokal erstellte Repository vom Desktop anhand der obigen Anleitung zu GitHub
+5. Prüfe im GitHub Web Interface, ob alle Daten korrekt übertragen wurden
 
-<small>1: Wir geben eine Liste herum, auf die bitte Euer Name mit den zugehörigen Accountnamen eingetragen wird, damit jeder von Euch Zugang zu den Projekten erhält</small>
+<small>1: Wir geben eine Liste herum, auf die jeder von Euch bitte Euren Namen mit den zugehörigen GitHub-Accountnamen einträgt; damit erhaltet ihr Zugang zu den Projekten</small>
 
 Note: Tutoren sollen Studierende direkt via Laptop / PC in das Team "Studierende" eintragen
 
 ---
 
-### Push
+### Git Push
 
-> Mit ```git push``` bzw. beim ersten Mal mit ```git push origin master``` werden die Daten aus dem lokalen Repository in das [Remote-Repository](https://help.github.com/articles/pushing-to-a-remote/) hier in den Master-[Branch](#/21) zu GitHub übertragen
+> Mit ```git push``` bzw. beim ersten Mal mit ```git push origin master``` werden die Daten aus dem lokalen Repository in das GitHub [Remote-Repository](https://help.github.com/articles/pushing-to-a-remote/) (#/21) übertragen.
+```master``` bedeutet, dass die Daten im Master-[Branch] gespeichert werden.
 
 ---
 
-### Clone
+### Git Clone
 
 > Das [Clonen](https://services.github.com/on-demand/github-cli/clone-repo-cli) kopiert das gesamte Repository auf die lokale Festplatte. Jeder Benutzer, der sich ein Repository clont, hat somit eine vollständige Kopie der History. Das Verzeichnis mit allen notwendigen Daten wird automatisch erzeugt
 
