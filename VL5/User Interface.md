@@ -42,6 +42,48 @@ Note: Studis fragen, was man dafür wohl alles braucht: UI Layout, Events, Algor
 
 ---
 
+## Alles im Lot - Layouts
+
+> Wir behandeln hier nur die Grundfunktionalität wie ein Layout erstellt, die Details für komplexere Layouts müssen je nach Aufgabe dann selbst entwickelt werden. Ein gutes Design erhält man durch Kreativität und Feedback, als Hilfestellung gibt es häufig _[Design Styleguides](https://material.io/).
+
+===
+
+### Constraint Layout
+
+[Constraint Layouts](https://developer.android.com/training/constraint-layout/) sind aktuell die Wahl für ein Layout, der Vorteil besteht darin, dass sie sich recht flexibel an verschiedene Displaygröße, sowie horizontale / vertikale Darstellung anpassen lassen. Man baut gedanklich eine große Box, in die man viele kleinere Boxen stellt auf. Damit ergibt sich die Layouthierarchie des [Component Trees](#/4)
+
+<small>Wer Erfahrung mit Webseitengestelltung kennt vielleicht den Begriff [Responsive Webdesign](https://de.wikipedia.org/wiki/Responsive_Webdesign), um das Layout der Webseite an die Auflösung des Endgerätes anzupassen. Das Design einer App kann in ähnliche organisiert werden</small>
+
+===
+
+### Linear Layout
+
+Das [Linear Layout](https://developer.android.com/guide/topics/ui/layout/linear) ermöglicht es geradlinige Strukturen wie z.B. Listen darzustellen. Die Breite ist flexible, aber auf eine Spalte begrenzt, und die Höhe orientiert sich der Länge des Inhaltes
+
+![Linear Layout - Quelle https://developer.android.com/guide/topics/ui/layout/linear](https://developer.android.com/images/ui/linearlayout.png)
+
+===
+
+### Grid View
+
+Das [Grid View Layout](https://developer.android.com/guide/topics/ui/layout/gridview) ist aufgebaut wie ein Schachbrett, sollen aber nicht mehr verwendet werden. __Anmerkung aus der Dokumentation:__ For better performance and tooling support, you should instead build your layout with Constraint Layout.
+
+![Grid View Layout - Quelle https://developer.android.com/guide/topics/ui/layout/gridview](https://developer.android.com/images/ui/gridview.png)
+
+===
+
+### Relative Layout
+
+> Relative Layouts sind _zurzeit_ die einfachste Möglichkeit um sehr gut strukturierte und flexible Layouts zu erzeugen. Der Kniff besteht dadurch, dass man die einzelnen Layout Elemente (Hierarchien) immer in Relation zu dem Parent-Element setzt. Somit richtet sich ein Kindelement immer nach dem Vaterelement aus
+
+===
+
+### Tutorial Relative Layout
+
+<iframe class="video" src="https://www.youtube.com/embed/CW7M_akbp64?rel=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
+
+---
+
 ## Was bin ich? - Layoutelemente
 
 <div class="flex">
@@ -101,52 +143,9 @@ an die Stelle im Layout, wo sie erscheinen sollen.
 
 ---
 
-## Alles im Lot - Layouts
-
-* Wir behandeln hier nur die Grundfunktionalität
-* Mit Hilfe von Layouts kann die Darstellung für
-    * unterschiedliche Displaygrößen entworfen werden
-    * horizontales / vertikales Layout erzeugt werden
-
-&rarr; ein gutes Design erhält man durch Kreativität und Feedback, als Hilfestellung gibt es häufig _[Design Styleguides](https://material.io/)_
+## Elementattribute
 
 ===
-
-### Constraint Layout
-
-[Constraint Layouts](https://developer.android.com/training/constraint-layout/) sind aktuell die Wahl für ein Layout, der Vorteil besteht darin, dass sie sich recht flexibel an verschiedene Displaygröße, sowie horizontale / vertikale Darstellung anpassen lassen. Man baut gedanklich eine große Box, in die man viele kleinere Boxen stellt auf. Damit ergibt sich die Layouthierarchie des [Component Trees](#/4)
-
-<small>Wer Erfahrung mit Webseitengestelltung kennt vielleicht den Begriff [Responsive Webdesign](https://de.wikipedia.org/wiki/Responsive_Webdesign), um das Layout der Webseite an die Auflösung des Endgerätes anzupassen. Das Design einer App kann in ähnliche organisiert werden</small>
-
-===
-
-### Linear Layout
-
-Das [Linear Layout](https://developer.android.com/guide/topics/ui/layout/linear) ermöglicht es geradlinige Strukturen wie z.B. Listen darzustellen. Die Breite ist flexible, aber auf eine Spalte begrenzt, und die Höhe orientiert sich der Länge des Inhaltes
-
-![Linear Layout - Quelle https://developer.android.com/guide/topics/ui/layout/linear](https://developer.android.com/images/ui/linearlayout.png)
-
-===
-
-### Grid View
-
-Das [Grid View Layout](https://developer.android.com/guide/topics/ui/layout/gridview) ist aufgebaut wie ein Schachbrett, sollen aber nicht mehr verwendet werden. __Anmerkung aus der Dokumentation:__ For better performance and tooling support, you should instead build your layout with Constraint Layout.
-
-![Grid View Layout - Quelle https://developer.android.com/guide/topics/ui/layout/gridview](https://developer.android.com/images/ui/gridview.png)
-
-===
-
-### Relative Layout
-
-> Relative Layouts sind _zurzeit_ die einfachste Möglichkeit um sehr gut strukturierte und flexible Layouts zu erzeugen. Der Kniff besteht dadurch, dass man die einzelnen Layout Elemente (Hierarchien) immer in Relation zu dem Parent-Element setzt. Somit richtet sich ein Kindelement immer nach dem Vaterelement aus
-
-===
-
-### Tutorial Relative Layout
-
-<iframe class="video" src="https://www.youtube.com/embed/CW7M_akbp64?rel=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen />
-
----
 
 ### Margin & Padding
 
@@ -159,10 +158,6 @@ https://developer.android.com/reference/android/widget/Adapter
 https://www.edureka.co/blog/what-are-adapters-in-android/
 https://code.tutsplus.com/tutorials/android-from-scratch-understanding-adapters-and-adapter-views--cms-26646
 -->
-
----
-
-## Layout-Eigenschaften
 
 ---
 
