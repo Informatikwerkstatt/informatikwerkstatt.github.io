@@ -300,14 +300,14 @@ Note: Tutoren sollen Studierende direkt via Laptop / PC in das Team "Studierende
 
 ### Git Push
 
-> Mit ```git push``` bzw. beim ersten Mal mit ```git push origin master``` werden die Daten aus dem lokalen Repository in das GitHub [Remote-Repository](https://help.github.com/articles/pushing-to-a-remote/) (#/21) übertragen.
-```master``` bedeutet, dass die Daten im Master-[Branch] gespeichert werden.
+> Mit ```git push``` bzw. beim ersten Mal mit ```git push origin master``` werden die Daten aus dem lokalen Repository in das GitHub [Remote Repository](https://help.github.com/articles/pushing-to-a-remote/) (#/21) übertragen.
+```master``` bedeutet, dass die Daten im Master-[Branch] gespeichert werden
 
 ---
 
 ### Git Clone
 
-> Das [Clonen](https://services.github.com/on-demand/github-cli/clone-repo-cli) kopiert das gesamte Repository auf die lokale Festplatte. Jeder Benutzer, der sich ein Repository clont, hat somit eine vollständige Kopie der History. Das Verzeichnis mit allen notwendigen Daten wird automatisch erzeugt
+> Das [Clonen](https://services.github.com/on-demand/github-cli/clone-repo-cli) kopiert das gesamte (Remote) Repository auf die lokale Festplatte. Jeder Benutzer, der sich ein Repository clont, hat somit eine vollständige Kopie der Historie. Das Verzeichnis mit allen notwendigen Daten wird automatisch erzeugt
 
 ```shell
 # Clonen mit automatischem Erzeugen des Verzeichnis
@@ -319,21 +319,21 @@ git clone **Repository URL** **Verzeichnisname**
 
 ---
 
-### Pull - Fetch & Merge
+### Git Pull, Fetch & Merge
 
-> Um Änderungen (von anderen Nutzern) aus dem Remote-Repository in das lokale Repository zu übertragen wird ```git pull``` verwendet, was eine [Kurzform](https://help.github.com/articles/fetching-a-remote/) von ```git fetch``` und ```git merge``` ist. [Fetch](https://git-scm.com/docs/git-fetch) holt die Änderungen, ohne sie einzufügen und [Merge](https://git-scm.com/docs/git-merge) fügt dann die Änderungen ein, dabei können Konflikte auftreten
+> Um Änderungen (von anderen Nutzern) aus dem Remote Repository in das lokale Repository zu übertragen, wird ```git pull``` verwendet,  eine [Kurzform](https://help.github.com/articles/fetching-a-remote/) von ```git fetch``` und ```git merge```. [Fetch](https://git-scm.com/docs/git-fetch) holt die Änderungen, ohne sie einzufügen; [Merge](https://git-scm.com/docs/git-merge) fügt dann die Änderungen ein, dabei können Konflikte auftreten
 
 ---
 
 ## @Let's try
 
 1. Im letzten [Let's try](#/13) wurde das Repository zu GitHub gepusht
-2. Nun das lokale Verzeichnis auf dem Desktop löschen
-3. Das Repository ohne Angabe eines Verzeichnis clonen
-4. Das Repository ein zweites Mal mit der Angabe clonen, so dass dann zwei Verzeichnisse auf dem Desktop liegen
-5. In einem Verzeichnis eine Änderung machen z.B. eine neue Datei einfügen oder eine Date verändern 
-6. Diese Änderung zu GitHub pushen und überprüfen, ob die Änderung vorhanden ist
-7. Nun in dem anderen Repository einen Pull machen und überprüfen ob nun beide Repositories den gleichen Stand haben
+2. Lösche nun das lokale Verzeichnis auf dem Desktop
+3. Clone das Repository ohne Angabe eines Verzeichnisses
+4. Clone das Repository ein zweites Mal mit Angabe eines beliebigen Verzeichnisnamens, so dass  zwei Verzeichnisse auf dem Desktop liegen
+5. Mache in einem Verzeichnis eine Änderung, z.B. neue Datei einfügen oder Datei verändern 
+6. Pushe diese Änderung zu GitHub; prüfe, ob die Änderung gemacht wurde
+7. Nun mache in dem zweiten Repository einen Pull; prüfe, ob beide Repositories wieder den gleichen Stand haben
 
 ---
 
