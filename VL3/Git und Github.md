@@ -166,7 +166,7 @@ Um die Historie des Repositories einzusehen und die einzelnen Änderungen der Da
 ## Gitignore
 
 - Viele Dateien (Cache Dateien, Logs, etc.) müssen nicht versioniert werden
-- In der ```.gitignore``` Datei kann man festlegen, welche Dateien oder Dateimuster von Git ignoriert werden sollen
+- In der ```.gitignore``` Datei kann man Regeln festlegen, welche Dateien oder Dateimuster von Git ignoriert werden sollen
 
     ```shell
     # ignoriert alle Dateien mit der Endung *.log
@@ -181,7 +181,7 @@ Um die Historie des Repositories einzusehen und die einzelnen Änderungen der Da
 
 ### @Profi
 
-Mit hilfe einer [Whitelist](https://de.wikipedia.org/wiki/Wei%C3%9Fe_Liste) kann man in der ```.gitignore``` Dateien nur die Dateien auflisten, die für einen Commit erlaubt sind
+Mit Hilfe einer [Whitelist](https://de.wikipedia.org/wiki/Wei%C3%9Fe_Liste) kann man in der ```.gitignore``` Datei nur die Dateitypen auflisten, die für einen Commit erlaubt sind
 
 ```shell
 # ignoriert alle Dateien
@@ -202,13 +202,13 @@ bin/
 
 [Git - The simple guide](http://rogerdudler.github.io/git-guide/) durcharbeiten mit folgender Aufgabe
 
-1. Konfiguriere Git mit Deinem vollständigen Namen und EMail Adresse
+1. Konfiguriere Git mit Deinem vollständigen Namen und E-Mail Adresse
 2. Erstelle ein leeres Repository auf dem Desktop in einem Verzeichnis
-3. Erzeuge in diesem Verzeichnis die zwei Dateien ```readme.md``` und eine ```readme.txt``` und füge beiden die gleiche Überschrift z.B. einen beliebigen Projektnamen hinzu
-4. Passe die ```.gitignore``` so an, dass alle ```*.txt``` Dateien ignoriert werden
+3. Erzeuge in diesem Verzeichnis die zwei Dateien ```readme.md``` und eine ```readme.txt``` und füge in beiden die gleiche Überschrift hinzu, z.B. einen beliebigen Projektnamen
+4. Passe die ```.gitignore``` so an, dass alle  Dateien mit der Endung ```.txt``` ignoriert werden
 5. erzeuge einen Commit mit den Daten
 
-&rarr; und die Tutoren überprüfen, ob es richtig gemacht wurde
+&rarr; ... und die Tutoren überprüfen, ob es richtig gemacht wurde
 
 ---
 
@@ -223,15 +223,15 @@ bin/
 
 ## GitHub - Social Coding
 
-> [GitHub](http://github.com) ist die bekannteste und größte Code-Hosting Plattform und stellt Repositorys für Projekte bereit, um zusammen Software zu entwickeln 
+> [GitHub](http://github.com) ist die bekannteste und größte Code-Hosting Plattform und stellt Repositories für Projekte bereit, um gemeinsam Software zu entwickeln 
 
 - Einfaches Projektmanagement (Issues, Project-Boards)
-- viele OpenSource Projekte wie [MySQL](https://github.com/mysql), [Tensorflow](https://github.com/tensorflow), [Android](https://github.com/topics/android)
+- Genutzt von vielen Open Source Projekten, wie [MySQL](https://github.com/mysql), [Tensorflow](https://github.com/tensorflow), [Android](https://github.com/topics/android)
 - Organisation für Gruppenprojekte ([Google](https://github.com/google), [Microsoft](https://github.com/Microsoft), [Facebook](https://github.com/facebook))
 - Webseiten mittels [GitHub Pages](https://pages.github.com/)
     - Meine Dissertation [LightJason](https://lightjason.org/)
     - Forschungprojekt [SocialCars](https://socialcars.github.io/)
-- um GitHub hat sich ein ganzes System an weiteren Plattformen entwickelt [Gitter](https://gitter.im/), [CircleCI](https://circleci.com/), [Zenodo](https://zenodo.org/)
+- Um GitHub hat sich ein ganzes System weiterer Plattformen entwickelt [Gitter](https://gitter.im/), [CircleCI](https://circleci.com/), [Zenodo](https://zenodo.org/)
 
 ===
 
@@ -241,12 +241,12 @@ bin/
 
 ---
 
-### SSH - Was hä?
+### SSH ???
 
-> Die Datenübertragung zwischen GitHub und dem PC erfoglt mittels verschlüsseltem [SSH-Protokoll](https://de.wikipedia.org/wiki/Secure_Shell) mit Hilfe eines [Schlüsselpaares](https://de.wikipedia.org/wiki/Asymmetrisches_Kryptosystem). Der Schlüssel besteht aus einem _öffentlichen_ und einem _privaten_ Teil und __nur__ der __öffentlich Schlüssel__ wird bei GitHub hinterlegt.
+> Die Datenübertragung zwischen GitHub und dem PC erfolgt mittels verschlüsseltem [SSH-Protokoll](https://de.wikipedia.org/wiki/Secure_Shell) mit Hilfe eines [Schlüsselpaares](https://de.wikipedia.org/wiki/Asymmetrisches_Kryptosystem). Der Schlüssel besteht aus einem _öffentlichen_ und einem _privaten_ Teil; __nur__ der __öffentliche Schlüssel__ wird bei GitHub hinterlegt.
 
-1. ```ssh-keygen -t rsa -b 4096 -C "EMail-Adresse"``` generiert einen neues Schlüsselpaar
-2. die zwei Dateien, die den Schlüssel ergeben findet man unter ```/c/Users/**Benutzername**/.ssh/```
+1. ```ssh-keygen -t rsa -b 4096 -C "EMail-Adresse"``` generiert ein neues Schlüsselpaar
+2. die zwei Dateien, die den Schlüssel ergeben, findet man unter ```/c/Users/**Benutzername**/.ssh/```
     * ```id_rsa``` ist der _private Schlüssel_
     * ```id_rsa.pub``` ist der _öffentliche Schlüssel_    
 
@@ -254,57 +254,58 @@ bin/
 
 ### SSH-Key & Github
 
-> Nun muss der Inhalt der Datei ```id_rsa.pub``` (öffentliche Schlüssel) zu Github übertragen werden
+> Nun muss der Inhalt der Datei ```id_rsa.pub``` (öffentliche Schlüssel) zu GitHub übertragen werden
 
 1. Mit ```clip < ~/.ssh/id_rsa.pub``` wird der Schlüssel in die Zwischenablage kopiert
-2. Dann ruft man in einen GitHub Benutzereinstellung das Menü [SSH and GPG keys](https://github.com/settings/keys) auf
+2. Dann ruft man in der GitHub Benutzereinstellung das Menü [SSH and GPG keys](https://github.com/settings/keys) auf
 3. Man erzeugt einen [neuen Schlüssel](https://github.com/settings/ssh/new) und fügt den Inhalt aus der Zwischenablage in das Feld _Key_ ein
 
 ===
 
 ### SSH Verbindung testen
 
-1. ```ssh -T git@github.com``` Versucht eine SSH-Verbindung zu Github aufzubauen
+1. ```ssh -T git@github.com``` versucht, eine SSH-Verbindung zu Github aufzubauen
 2. Beim ersten Verbindungsaufbau erscheint eine Warnung, die mit **yes** bestätigt werden muss
 2. Der Befehl sollte folgende Ausgabe liefern: 
 
     ```Hi **GitHub Benutzername**! You've successfully authenticated, but GitHub does not provide shell access.```
 
-<small>Bei [Probleme](https://help.github.com/articles/connecting-to-github-with-ssh/) findet sich eine Hilfe bei GitHub</small>
+<small>Bei [Problemen](https://help.github.com/articles/connecting-to-github-with-ssh/) findet sich eine Hilfe bei GitHub</small>
 
 ---
 
 ## Projekt & Repository
 
 - **Public** Repos sind einsehbar für alle Github Nutzer
-- **Private** Repos sind nur für Dich bzw. den Leuten denen du Zugriff erteilst einsehbar
+- **Private** Repos sind nur für Dich und für die Leute einsehbar, denen du Zugriff erteilst
 - _Zur Erinnerung:_ In jedem Repo sollten ein [readme.md](#/5) und eine [.gitignore](#/7) Datei vorhanden sein
 
 ---
 
 ## @Let's try - Mein eigenes Repository
 
-1. bei GitHub [registriert](https://github.com/) _jeder_ bitte einen eigenen Account<sup>1</sup>
+1. Bei GitHub [registriert](https://github.com/) _jeder_ bitte einen eigenen Account<sup>1</sup>
     * bei [Problemen](https://services.github.com/on-demand/intro-to-github/create-github-account) die Anleitung anschauen
-    * **@Profi:** [Github Student Pack](https://github.com/) Unendlich private Repositorys und andere Developer Tools kostenlos
-2. SSH-Schlüssel erstellt und im Github-Account eintragen
-3. ein [neues Projekt / Repository](https://help.github.com/articles/creating-a-new-repository/) bei Github anlegen
-4. das lokal erstellte Repository vom Desktop anhand der gezeigten Anleitung zu Github übertragen
-5. Im GitHub Webinterface überprüfen, ob alle Daten korrekt übertragen wurden
+    * **@Profi:** [Github Student Pack](https://github.com/): Beliebig viele private Repositories und andere Developer Tools kostenlos
+2. Erstelle einen SSH-Schlüssel und trage ihn im GitHub-Account ein
+3. Lege ein [neues Projekt / Repository](https://help.github.com/articles/creating-a-new-repository/) bei GitHub an
+4. Übertrage das lokal erstellte Repository vom Desktop anhand der obigen Anleitung zu GitHub
+5. Prüfe im GitHub Web Interface, ob alle Daten korrekt übertragen wurden
 
-<small>1: Wir geben eine Liste herum, auf die bitte Euer Name mit den zugehörigen Accountnamen eingetragen wird, damit jeder von Euch Zugang zu den Projekten erhält</small>
+<small>1: Wir geben eine Liste herum, auf die jeder von Euch bitte Euren Namen mit den zugehörigen GitHub-Accountnamen einträgt; damit erhaltet ihr Zugang zu den Projekten</small>
 
 Note: Tutoren sollen Studierende direkt via Laptop / PC in das Team "Studierende" eintragen
 
 ---
 
-### Push
+### Git Push
 
-> Mit ```git push``` bzw. beim ersten Mal mit ```git push origin master``` werden die Daten aus dem lokalen Repository in das [Remote-Repository](https://help.github.com/articles/pushing-to-a-remote/) hier in den Master-[Branch](#/21) zu GitHub übertragen
+> Mit ```git push``` bzw. beim ersten Mal mit ```git push origin master``` werden die Daten aus dem lokalen Repository in das GitHub [Remote-Repository](https://help.github.com/articles/pushing-to-a-remote/) (#/21) übertragen.
+```master``` bedeutet, dass die Daten im Master-[Branch] gespeichert werden.
 
 ---
 
-### Clone
+### Git Clone
 
 > Das [Clonen](https://services.github.com/on-demand/github-cli/clone-repo-cli) kopiert das gesamte Repository auf die lokale Festplatte. Jeder Benutzer, der sich ein Repository clont, hat somit eine vollständige Kopie der History. Das Verzeichnis mit allen notwendigen Daten wird automatisch erzeugt
 
