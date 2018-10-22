@@ -188,6 +188,8 @@ Ein Element (Inhalt) besitzt ein Box für das Layout, die Box hat einen Innenabs
 
 ## Die Verbindung - Adapter
 
+Bei komplexen Darstellungselement wie z.B. ein _ListView_ oder _ScrollView_ benötigen wir einen Adapter. Das Konzept des [Model-View-Controllers](https://de.wikipedia.org/wiki/Model_View_Controller) wird hier benutzt. Der Grund dafür ist, dass es sehr teuer von der Laufzeit ist in der Oberfläche ein Element dynamisch zu entfernen, die Daten zu aktualisieren und dann wieder in die Oberfläche einzuhängen
+
 <!-- 
 https://developer.android.com/reference/android/widget/Adapter
 https://www.edureka.co/blog/what-are-adapters-in-android/
