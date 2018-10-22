@@ -141,7 +141,7 @@ Es dürfen gerne auch eigene Vorschläge (nach Rücksprache) umgesetzt werden
 
 ---
 
-## Wobei glaubst Du könnten im laufe der Veranstalung Schwierigkeiten auftreten?
+## Wobei glaubst Du könnten für Dich Schwierigkeiten auftreten?
 
 > Mit den Sitznachbarn in der Reihe diese Frage in 10min diskutieren
 
