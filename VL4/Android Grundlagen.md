@@ -284,7 +284,7 @@ Log.e( "berechnung", "hier ist eine Division durch null aufgetreten" );
 
 ---
 
-## @Übung
+## @Home / Übung
 
 1. Ergänzt die Hellow-World App um den Logger
 2. Probiert die verschiedenen _Log Level_ aus

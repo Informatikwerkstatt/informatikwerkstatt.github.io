@@ -459,7 +459,7 @@ Note: In ```s1.equals(s2)``` muss ```s1``` initialisiert sein &rarr; prüfen mit
 
 ---
 
-## @Home
+## @Home / Übung
 
 Betrachte die beiden folgenden ```if-else``` Anweisungen
 
@@ -862,7 +862,7 @@ Note: 1. Frage: eher sinnvoll für nutzerdefinierte DomänenExceptions, die mög
 
 ---
 
-## @Home
+## @Home / Übung
 
 1. Installation [Java Development Kit](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
