@@ -51,7 +51,7 @@ public class CHelloWorld
 
 ## Java überall
 
-Wir nutzen später in dieser Vorlesung [Java auf Ant](/android-grundlagen/)
+Wir nutzen später in dieser Vorlesung [Java auf Android](/android-grundlagen/)
 
 ![Deployment](images/java-cross-pf.png#center)
 
