@@ -141,9 +141,9 @@ Es dürfen gerne auch eigene Vorschläge (nach Rücksprache) umgesetzt werden
 
 ---
 
-## Wobei glaubst Du hast Du Schwierigkeiten?
+## Wobei glaubst Du könnten im laufe der Veranstalung Schwierigkeiten auftreten?
 
-> Mit dem Sitznachbarn diese Frage in 10min diskutieren und eine kurze Vorstellungsrunde in Reihe
+> Mit den Sitznachbarn in der Reihe diese Frage in 10min diskutieren
 
 ===
 
@@ -180,7 +180,7 @@ Es dürfen gerne auch eigene Vorschläge (nach Rücksprache) umgesetzt werden
 
 ---
 
-## Welche Ziele sollt ihr erreichen?
+## Welche Ziele sollt Ihr erreichen?
 
 * Umgang mit Programmierwerkzeugen (Java, Android, IDE)
 * Grundlagen der Projektorganisation (Teamarbeit, Organisation, Zeitmanagement)
