@@ -141,9 +141,9 @@ Es dürfen gerne auch eigene Vorschläge (nach Rücksprache) umgesetzt werden
 
 ---
 
-## Hilfe, ich bin überfordert!
+## Wo & warum machst Du Dir Sorgen, die Veranstaltung zu schaffen?
 
-> Ich habe doch gerade erst angefangen zu studieren!? Was wollt ihr von mir, das kann doch nicht wahr sein!? Ich hab' doch noch andere Vorlesungen und wie soll ich das alles schaffen!?
+> Mit dem Sitznachbarn diese Frage in 10min diskutieren und eine Kurzvorstellung von allen
 
 ===
 
