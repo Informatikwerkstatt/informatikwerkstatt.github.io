@@ -141,9 +141,9 @@ Es dürfen gerne auch eigene Vorschläge (nach Rücksprache) umgesetzt werden
 
 ---
 
-## Wo & warum machst Du Dir Sorgen, die Veranstaltung zu schaffen?
+## Machst Du Dir Sorgen, die Veranstaltung nicht zu schaffen?
 
-> Mit dem Sitznachbarn diese Frage in 10min diskutieren und eine Kurzvorstellung von allen
+> Mit dem Sitznachbarn diese Frage in 8min diskutieren und in der Gruppe vorstellen
 
 ===
 
@@ -171,7 +171,7 @@ Es dürfen gerne auch eigene Vorschläge (nach Rücksprache) umgesetzt werden
 
 ---
 
-## Wie soll das hier laufen?
+## Was soll ich hier genau machen?
 
 * in der Vorlesung am Rechner mitarbeiten
 * in den Übungen das Gelernte ausprobieren und erweitern
@@ -206,7 +206,7 @@ Sonst ist es ein [Plagiat](https://de.wikipedia.org/wiki/Plagiat), das zum Aussc
 * Für ausländische Studierende
     * [IZC H.E.L.P.](https://www.izc.tu-clausthal.de/sprachenzentrum/deutsch/help/) 
     * [IZC Sprachtandem](https://www.izc.tu-clausthal.de/sprachenzentrum/deutsch/sprachtandem/)
-* Tutoren & Mitarbeiter - Beachtet aber unsere Arbeits- und Wochenendzeiten, wir arbeiten nicht 24 Stunden 7 Tage die Woche
+* Tutoren & Mitarbeiter - Beachtet bitte unsere Arbeits- und Wochenendzeiten, wir arbeiten nicht 24 Stunden 7 Tage die Woche
 
 ---
 
