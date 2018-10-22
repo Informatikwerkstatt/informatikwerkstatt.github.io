@@ -143,7 +143,7 @@ Es dürfen gerne auch eigene Vorschläge (nach Rücksprache) umgesetzt werden
 
 ## Wobei glaubst Du könnten Schwierigkeiten auftreten?
 
-> Mit den Sitznachbarn und je einem / einer von uns diese Frage in 10min diskutieren in der Sitzreihe
+> Mit den Sitznachbarn und einem / einer von uns diese Frage in 10min diskutieren in der Sitzreihe
 
 ===
 
