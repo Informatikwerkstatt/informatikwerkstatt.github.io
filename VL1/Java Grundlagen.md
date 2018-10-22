@@ -624,7 +624,7 @@ Schreibe ein weiteres Programm, in dem Du
 - Mit Schleifen könnt Ihr eine Codesequenz mehrfach ausführen
 - Z.B. alle Elemente einer Liste ausgeben
 - Schleifen haben eine Abbruchbedingung (z.B. Ende der Liste erreicht)
-- Es gibt auch Endlosschleifen (s.u.).
+- Es gibt auch [Endlosschleifen](#/16).
 - Java bietet unterschiedliche Kontrollstrukturen für Schleifen, z.B.
 	- ```for``` (etwas veraltet)
 	- ```for each``` 
