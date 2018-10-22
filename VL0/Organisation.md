@@ -141,9 +141,9 @@ Es dürfen gerne auch eigene Vorschläge (nach Rücksprache) umgesetzt werden
 
 ---
 
-## Machst Du Dir Sorgen, die Veranstaltung nicht zu schaffen?
+## Wobei glaubst Du hast Du Schwierigkeiten?
 
-> Mit dem Sitznachbarn diese Frage in 8min diskutieren und in der Gruppe vorstellen
+> Mit dem Sitznachbarn diese Frage in 10min diskutieren und eine kurze Vorstellungsrunde in Reihe
 
 ===
 
