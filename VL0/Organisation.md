@@ -68,7 +68,7 @@ Um zu
     * betreute Übung Di 17:15-19:00 Uhr (Anwesenheitspflicht)
     * Vorlesung Mi 08:30-10:00 Uhr (Anwesenheitspflicht)
     * unbetreute Übungen Mi 10:00-12:00 Uhr & Fr 13:00-15:00
-* pünktliches Erscheinen um 17:00 bzw. 08:30 Uhr (st / sine tempore)
+* pünktliches Erscheinen um 17:15 bzw. 08:30 Uhr (st / sine tempore)
 * einmaliges Zuspätkommen / Fehlen an den Pflichtterminen erlaubt
 * bei weiteren Fehlzeiten Vorlage eines ärztlichen Attests erforderlich!
 * wir erwarten kontinuierliche Mitarbeit; sehen wir diese nicht, behalten wir uns  Sanktionen vor
