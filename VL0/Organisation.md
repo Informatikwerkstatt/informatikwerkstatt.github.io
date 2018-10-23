@@ -65,7 +65,7 @@ Um zu
 ## Die Spielregeln
 
 * Termine im IFI PC Pool
-    * betreute Übung Di 17:00-19:00 Uhr (Anwesenheitspflicht)
+    * betreute Übung Di 17:15-19:00 Uhr (Anwesenheitspflicht)
     * Vorlesung Mi 08:30-10:00 Uhr (Anwesenheitspflicht)
     * unbetreute Übungen Mi 10:00-12:00 Uhr & Fr 13:00-15:00
 * pünktliches Erscheinen um 17:00 bzw. 08:30 Uhr (st / sine tempore)
