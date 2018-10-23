@@ -71,6 +71,7 @@ Um zu
 * pünktliches Erscheinen um 17:00 bzw. 08:30 Uhr (st / sine tempore)
 * einmaliges Zuspätkommen / Fehlen an den Pflichtterminen erlaubt
 * bei weiteren Fehlzeiten Vorlage eines ärztlichen Attests erforderlich!
+* wir erwarten kontinuierliche Mitarbeit, behalten uns aber Sanktionen vor
 
 ---
 
