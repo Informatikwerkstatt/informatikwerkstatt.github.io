@@ -71,7 +71,7 @@ Um zu
 * pünktliches Erscheinen um 17:00 bzw. 08:30 Uhr (st / sine tempore)
 * einmaliges Zuspätkommen / Fehlen an den Pflichtterminen erlaubt
 * bei weiteren Fehlzeiten Vorlage eines ärztlichen Attests erforderlich!
-* wir erwarten kontinuierliche Mitarbeit, behalten uns aber Sanktionen vor
+* wir erwarten kontinuierliche Mitarbeit; sehen wir diese nicht, behalten wir uns  Sanktionen vor
 
 ---
 
@@ -142,9 +142,11 @@ Es dürfen gerne auch eigene Vorschläge (nach Rücksprache) umgesetzt werden
 
 ---
 
-## Wobei glaubst Du könnten Schwierigkeiten auftreten?
+## Machst Du Dir Sorgen, das zu schaffen?
 
-> Mit den Sitznachbarn und einem / einer von uns diese Frage in 10min diskutieren in der Sitzreihe
+Wo glaubst Du, dass Schwierigkeiten für Dich auftreten können?
+
+> Diskutieren mit den Nachbarn in Deiner sitzreihe und einem / einer von uns diese Frage (10 Minuten)!
 
 ===
 
