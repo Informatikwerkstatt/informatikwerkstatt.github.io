@@ -146,7 +146,7 @@ Es dürfen gerne auch eigene Vorschläge (nach Rücksprache) umgesetzt werden
 
 Wo glaubst Du, dass Schwierigkeiten für Dich auftreten können?
 
-> Diskutieren mit den Nachbarn in Deiner sitzreihe und einem / einer von uns diese Frage (10 Minuten)!
+> Diskutieren mit den Nachbarn in Deiner Sitzreihe und einem / einer von uns diese Frage (10 Minuten)!
 
 ===
 
