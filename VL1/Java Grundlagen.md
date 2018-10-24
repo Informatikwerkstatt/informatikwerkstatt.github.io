@@ -96,13 +96,20 @@ Wir nutzen später in dieser Vorlesung [Java auf Android](/android-grundlagen/)
 ### Befehle der Eingabeaufforderung
 
 - ```dir``` &rarr; Inhalt des aktuellen Verzeichnisses
-- ```cd [Laufwerk:][Pfad]``` &rarr; wechselt Laufwerk / Verzeichnis
-	- ```cd c:\Programme```
+- ```[Laufwerk:]``` wechselt auf den entsprechenden Laufwerksbuchstaben z.B. ```C:```
+- ```cd [Pfad]``` &rarr; wechselt Laufwerk / Verzeichnis
 	- ```cd Development``` &rarr; wechselt in das existiertende Unterverzeichnis ```Development```
-    - ```cd \``` &rarr; wechselt ins Wurzelverzeichnis
+    - ```cd \``` &rarr; wechselt ins Wurzelverzeichnis (Laufwerk)
     - ```cd ..``` &rarr; wechselt in das übergeordnete Verzeichnis
 - Befehl mit der Option ```/?``` aufrufen, um eine kurze Hilfe zu erhalten
 - [Liste weiterer Befehle](https://de.wikibooks.org/wiki/Batch-Programmierung:_Wichtige_DOS-Kommandos)
+
+#### Wo ist der Desktop?
+
+* unter Windows unter ```C:\Users\[Windows Benutzername]\Desktop```
+* unter Mac OS X unter ```/Users/[OSX Benutzername]/Desktop``` oder in Kurzform ```~/Desktop```
+
+<small>Für Mac OS X Benutzer gibt es keine Laufwerksbuchstaben und der ```\``` wird durch einen ```/``` ersetzt</small>
 
 ===
  
@@ -861,14 +868,6 @@ Note: 1. Frage: eher sinnvoll für nutzerdefinierte DomänenExceptions, die mög
 
 ## @Home / Übung
 
-1. Installation [Java Development Kit](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
-2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
-3. Installation [Visual Studio Code](https://code.visualstudio.com/)
-
----
-
-## @Home / Übung
-
 Im Abschnitt über Arrays haben wir das Problem kennengelernt, dass mit ungültigen (zu großen oder negativen) Array-Indizes auf Elemente eines Arrays zugegriffen wird
 
 1. Schreibt ein Programm, in dem eine solche Situation auftritt
@@ -897,3 +896,13 @@ Schreibt ein Programm, dass zwei ganze Zahlen A und B von der Kommandozeile einl
 
 * Prüft Typen und Anzahl der Eingaben (insbesondere Anforderung:  *ganze* Zahl!)
 * Gebt eine entsprechende Fehlermeldungen aus
+
+---
+
+## @Home
+
+Installation der Java Entwicklungstools
+
+1. Installation [Java Development Kit](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
+2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
+3. Installation [Visual Studio Code](https://code.visualstudio.com/)
