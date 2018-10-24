@@ -233,11 +233,13 @@ bin/
     - Forschungprojekt [SocialCars](https://socialcars.github.io/)
 - Um GitHub hat sich ein ganzes System weiterer Plattformen entwickelt [Gitter](https://gitter.im/), [CircleCI](https://circleci.com/), [Zenodo](https://zenodo.org/)
 
+
 ===
 
-### Github - Local & Remote
-
-![Git Remote Workflow](images/git-remote.png)
+1. Bei GitHub [registriert](https://github.com/) _jeder_ bitte einen eigenen Account<sup>1</sup>
+    * bei [Problemen](https://services.github.com/on-demand/intro-to-github/create-github-account) die Anleitung anschauen
+    * **@Profi:** [Github Student Pack](https://github.com/): Beliebig viele private Repositories und andere Developer Tools kostenlos
+2. Erstelle einen SSH-Schlüssel und trage ihn im GitHub-Account ein
 
 ---
 
@@ -282,15 +284,17 @@ bin/
 
 ---
 
+### Github - Local & Remote
+
+![Git Remote Workflow](images/git-remote.png)
+
+---
+
 ## @Let's try - Mein eigenes Repository
 
-1. Bei GitHub [registriert](https://github.com/) _jeder_ bitte einen eigenen Account<sup>1</sup>
-    * bei [Problemen](https://services.github.com/on-demand/intro-to-github/create-github-account) die Anleitung anschauen
-    * **@Profi:** [Github Student Pack](https://github.com/): Beliebig viele private Repositories und andere Developer Tools kostenlos
-2. Erstelle einen SSH-Schlüssel und trage ihn im GitHub-Account ein
-3. Lege ein [neues Projekt / Repository](https://help.github.com/articles/creating-a-new-repository/) bei GitHub an
-4. Übertrage das lokal erstellte Repository vom Desktop anhand der obigen Anleitung zu GitHub
-5. Prüfe im GitHub Web Interface, ob alle Daten korrekt übertragen wurden
+1. Lege ein [neues Projekt / Repository](https://help.github.com/articles/creating-a-new-repository/) bei GitHub an
+2. Übertrage das lokal erstellte Repository vom Desktop anhand der obigen Anleitung zu GitHub
+3. Prüfe im GitHub Web Interface, ob alle Daten korrekt übertragen wurden
 
 <small>1: Wir geben eine Liste herum, auf die jeder von Euch bitte Euren Namen mit den zugehörigen GitHub-Accountnamen einträgt; damit erhaltet ihr Zugang zu den Projekten</small>
 
