@@ -568,9 +568,6 @@ final int l_wert = highscores[3];
 
 ### Collections
 
-<!-- Packages haben wir noch nicht eingeführt ... -->
-<!-- was ist es, kurz fassen und auf Listen & Sets beschränken -->
-
 - Datenstrukturen (hier [Collections](https://docs.oracle.com/javase/tutorial/collections/index.html)), als Java Bibliothek, werden zur Speicherung von Daten verwendet
 - Beispiel Liste: Klasse ```java.util.ArrayList``` &rarr; dynamischer Array (keine feste Länge)
 
