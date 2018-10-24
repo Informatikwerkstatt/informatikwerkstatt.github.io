@@ -109,7 +109,7 @@ Wir nutzen später in dieser Vorlesung [Java auf Android](/android-grundlagen/)
 * unter Windows unter ```C:\Users\[Windows Benutzername]\Desktop```
 * unter Mac OS X unter ```/Users/[OSX Benutzername]/Desktop``` oder in Kurzform ```~/Desktop```
 
-<small>Für Mac OS X Benutzer gibt es keine Laufwerksbuchstaben und der ```\``` wird durch einen ```/``` ersetzt</small>
+<small>Für Mac OS X Benutzer gibt es keine Laufwerksbuchstaben und der ```\``` wird durch einen ```/``` ersetzt und man verwendet anstatt ```dir``` den befehl ```ls -l```</small>
 
 ===
  
