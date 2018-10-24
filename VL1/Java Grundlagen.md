@@ -339,9 +339,9 @@ ein generischer Typ
     
 ### @Let's try
 
-Führe den [Code](#/10/2) aus und gib die Werte von `l_pi_int` und `l_pi` aus! Was beobachtest Du?
+Führe den [Code](#/10/2) aus und gib die Werte von `l_pi`, `l_pi_int` und `l_pi_double` aus! Was beobachtest Du?
 
-Note: kein Compiler-Fehler, aber nur ganzzahliger Anteil!
+Note: für "l_pi_int" kein Compiler-Fehler, aber nur ganzzahliger Anteil!
 
 ---
 
