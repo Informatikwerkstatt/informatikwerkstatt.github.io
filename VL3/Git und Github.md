@@ -236,10 +236,12 @@ bin/
 
 ===
 
+### Github Einrichtung
+
 1. Bei GitHub [registriert](https://github.com/) _jeder_ bitte einen eigenen Account<sup>1</sup>
     * bei [Problemen](https://services.github.com/on-demand/intro-to-github/create-github-account) die Anleitung anschauen
     * **@Profi:** [Github Student Pack](https://github.com/): Beliebig viele private Repositories und andere Developer Tools kostenlos
-2. Erstelle einen SSH-Schlüssel und trage ihn im GitHub-Account ein
+2. Erstelle einen [SSH-Schlüssel](#/11) und trage ihn im GitHub-Account ein
 
 ---
 
@@ -331,7 +333,7 @@ git clone **Repository URL** **Verzeichnisname**
 
 ## @Let's try
 
-1. Im letzten [Let's try](#/13) wurde das Repository zu GitHub gepusht
+1. Im letzten [Let's try](#/14) wurde das Repository zu GitHub gepusht
 2. Lösche nun das lokale Verzeichnis auf dem Desktop
 3. Clone das Repository ohne Angabe eines Verzeichnisses
 4. Clone das Repository ein zweites Mal mit Angabe eines beliebigen Verzeichnisnamens, so dass  zwei Verzeichnisse auf dem Desktop liegen
