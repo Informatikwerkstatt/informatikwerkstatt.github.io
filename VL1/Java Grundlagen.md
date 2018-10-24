@@ -104,12 +104,14 @@ Wir nutzen später in dieser Vorlesung [Java auf Android](/android-grundlagen/)
 - Befehl mit der Option ```/?``` aufrufen, um eine kurze Hilfe zu erhalten
 - [Liste weiterer Befehle](https://de.wikibooks.org/wiki/Batch-Programmierung:_Wichtige_DOS-Kommandos)
 
+<small>Für Mac OS X Benutzer gibt es keine Laufwerksbuchstaben und der ```\``` wird durch einen ```/``` ersetzt und man verwendet anstatt ```dir``` den befehl ```ls -l```</small>
+
+===
+
 #### Wo ist der Desktop?
 
 * unter Windows unter ```C:\Users\[Windows Benutzername]\Desktop```
 * unter Mac OS X unter ```/Users/[OSX Benutzername]/Desktop``` oder in Kurzform ```~/Desktop```
-
-<small>Für Mac OS X Benutzer gibt es keine Laufwerksbuchstaben und der ```\``` wird durch einen ```/``` ersetzt und man verwendet anstatt ```dir``` den befehl ```ls -l```</small>
 
 ===
  
