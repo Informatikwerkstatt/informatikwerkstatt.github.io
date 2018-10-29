@@ -191,11 +191,9 @@ Ein Element (Inhalt) besitzt ein Box für das Layout, die Box hat einen Innenabs
 <div class="flex">
 <div>
 Jedes UI Element hat einen _eindeutigen_ Namen, den man selbst festlegen kann. Die ID des Elements befindet sich rechts bei den Attributen, im Quellcode greift man wie folgt darauf zu
-
-```java
+<pre><code class="lang-java hljs">
 final <Element Klasse> l_element = findViewById(R.id.<Elementname>)
-```
-
+</code></pre>
 </div>
 <div>
 ![UI Identifier](images/uiid.png)
