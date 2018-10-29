@@ -223,7 +223,7 @@ https://code.tutsplus.com/tutorials/android-from-scratch-understanding-adapters-
 
 ### Adapter für einen ListView
 
-Ein [ListView](https://developer.android.com/guide/topics/ui/layout/listview) ist eine _dynamische_ Liste, bei der einzelne Elemente ausgewählt werden können. 
+Ein [ListView](https://developer.android.com/guide/topics/ui/layout/listview) ist eine _dynamische_ Liste zur Anzeige & Auswahl von Daten. 
 
 ```java
 // eine Liste auch dynamisch veränderbar
@@ -284,7 +284,7 @@ https://developer.android.com/training/improving-layouts/optimizing-layout
 
 ## @Home / Übung
 
-Es soll ein [Taschenrechner](#/1) entwickelt werden, über den die Grundrechenarten (Addition, Subtraktion, Multiplikation, Division) mit Kommazahlen durchgeführt werden kann. Zusätzlich sollen beliebig weitere Berechnungen angeschlossen werden, d.h. nicht nur zwei Zahlen sollen verrechnet werden. 
+Es soll ein [Taschenrechner](#/1) entwickelt werden, über den die Grundrechenarten (Addition, Subtraktion, Multiplikation, Division) mit Kommazahlen durchgeführt werden kann. Zusätzlich sollen beliebig weitere Berechnungen angeschlossen werden, d.h. nicht nur zwei Zahlen sollen verrechnet werden. Punkt-vor-Strichrechnung muss nicht beachtet werden.
 
 **@Profis:** Erweitert den Taschenrechner um die Rest-Division ([Modulo Operator](https://de.wikipedia.org/wiki/Division_mit_Rest)
 
