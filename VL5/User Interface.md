@@ -241,13 +241,15 @@ l_sensors.setAdapter(
     new ArrayAdapter<>(
         // Referenz auf die Activity
         this, 
-        // Referenz auf das Layout des Listview (dies muss separat angelegt werden)
+        // Referenz auf das Layout des Listview
         R.layout.sensorlist, 
         // Liste
         l_list
     ) 
 );
 ```
+
+<small>```R.layout.sensorlist``` verweist auf die Datei ```res/layout/sensorlist.xml``` in der das Layout für ein ListView Element abgelegt ist</small>
 
 ---
 
