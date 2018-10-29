@@ -188,8 +188,8 @@ Ein Element (Inhalt) besitzt ein Box für das Layout, die Box hat einen Innenabs
 
 ## Die Verbindung - Adapter
 
-Bei komplexen Darstellungselement wie z.B. ein _ListView_ oder _ScrollView_ benötigen wir einen Adapter<sup>1</sup>. Es ist sehr inperformant in einem UI Element Daten manuell einzuhängen und
-das Element zu aktualisieren. Würde man es so machen, erzeugt dies oft ein Flimmern auf dem Bildschirm. Um das Problem zu lösen benötigen wir drei Dinge:
+Bei komplexen Darstellungselement wie z.B. ein _ListView_ oder _ScrollView_ benötigen wir einen Adapter<sup>1</sup>. Es ist inperformant Daten in einem UI Element manuell einzugeben und
+zu aktualisieren. Häufig entsteht dabei ein Flimmern auf dem Bildschirm. Um das Problem zu lösen benötigen wir drei Dinge:
 
 * **Datasource** das kann eine Liste oder eine beliebige Datenstruktur sein, die Daten entsprechend liefert
 * **Adapter** ist die Verbindung und bestimmt darüber welche Daten aus der Datasource geholt werden bzw. strukturiert die Daten für die Oberfläche um
@@ -202,6 +202,37 @@ https://code.tutsplus.com/tutorials/android-from-scratch-understanding-adapters-
 -->
 
 <small>1: Prinzip des [Model-View-Controllers](https://de.wikipedia.org/wiki/Model_View_Controller)</small>
+
+===
+
+### Adapter für einen ListView
+
+Ein [ListView](https://developer.android.com/guide/topics/ui/layout/listview) ist eine _dynamische_ Liste, bei der einzelne Elemente ausgewählt werden können. 
+
+```java
+
+// eine Liste auch dynamisch veränderbar
+final ArrayList<String> l_list = new ArrayList<>();
+
+l_list.add("GPS Sensor");
+l_list.add("Gyrosensor");
+l_list.add("Beschleunigungsensor");
+
+// Zugriff auf den ListView
+final ListView l_sensors = findViewById(R.id.sensors);
+// setzen des Adapters
+l_sensors.setAdapter(
+    // Adapter
+    new ArrayAdapter<>(
+        // Referenz auf die Activity
+        this, 
+        // Referenz auf das Layout des Listview (dies muss separat angelegt werden)
+        R.layout.sensorlist, 
+        // Liste
+        l_list
+    ) 
+);
+```
 
 ---
 
