@@ -191,14 +191,14 @@ Ein Element (Inhalt) besitzt ein Box für das Layout, die Box hat einen Innenabs
 <div class="flex">
 <div>
 Jedes UI Element hat einen _eindeutigen_ Namen, den man selbst festlegen kann. Die ID des Elements befindet sich rechts bei den Attributen, im Quellcode greift man wie folgt darauf zu
-<pre><code class="lang-java hljs">final 'Element Klasse' l_element = findViewById(R.id.'Elementname')</code></pre>
+<pre><code class="lang-java hljs">final #Element Klasse# l_element = findViewById(R.id.#Element-ID#)</code></pre>
 </div>
 <div>
 ![UI Identifier](images/uiid.png)
 </div>
 </div>
 
-<small>Die Anführungszeichen '' müssen passend mit der richtigen Klasse und der richtigen ID ersetzt werden</small>
+<small>Die Kreuzelemente müssen passend mit der richtigen Klasse und der richtigen ID ersetzt werden</small>
 
 ---
 
@@ -226,7 +226,6 @@ https://code.tutsplus.com/tutorials/android-from-scratch-understanding-adapters-
 Ein [ListView](https://developer.android.com/guide/topics/ui/layout/listview) ist eine _dynamische_ Liste, bei der einzelne Elemente ausgewählt werden können. 
 
 ```java
-
 // eine Liste auch dynamisch veränderbar
 final ArrayList<String> l_list = new ArrayList<>();
 
