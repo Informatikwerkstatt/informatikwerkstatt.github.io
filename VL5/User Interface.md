@@ -188,17 +188,20 @@ Ein Element (Inhalt) besitzt ein Box für das Layout, die Box hat einen Innenabs
 
 ## Die Verbindung - Adapter
 
-Bei komplexen Darstellungselement wie z.B. ein _ListView_ oder _ScrollView_ benötigen wir einen Adapter. Das Konzept des [Model-View-Controllers](https://de.wikipedia.org/wiki/Model_View_Controller) wird hier benutzt. Der Grund dafür ist, dass es sehr teuer von der Laufzeit ist in der Oberfläche ein Element dynamisch zu entfernen, die Daten zu aktualisieren und dann wieder in die Oberfläche einzuhängen. Wir benötigen hier drei Elemente
+Bei komplexen Darstellungselement wie z.B. ein _ListView_ oder _ScrollView_ benötigen wir einen Adapter<sup>1</sup>. Es ist sehr inperformant in einem UI Element Daten manuell einzuhängen und
+das Element zu aktualisieren. Würde man es so machen, erzeugt dies oft ein Flimmern auf dem Bildschirm. Um das Problem zu lösen benötigen wir drei Dinge:
 
-* _Datasource_ das kann eine Liste oder eine beliebige Datenstruktur sein, die Daten entsprechend liefert
-* _Adapter_ ist die Verbindung und bestimmt darüber welche Daten aus der Datasource geholt werden bzw. strukturiert die Daten für die Oberfläche um
-* _Adapter View_ ist die sichtbare Komponente auf der Oberfläche
+* **Datasource** das kann eine Liste oder eine beliebige Datenstruktur sein, die Daten entsprechend liefert
+* **Adapter** ist die Verbindung und bestimmt darüber welche Daten aus der Datasource geholt werden bzw. strukturiert die Daten für die Oberfläche um
+* **Adapter View** ist die sichtbare Komponente auf der Oberfläche
 
 <!-- 
 https://developer.android.com/reference/android/widget/Adapter
 https://www.edureka.co/blog/what-are-adapters-in-android/
 https://code.tutsplus.com/tutorials/android-from-scratch-understanding-adapters-and-adapter-views--cms-26646
 -->
+
+<small>1: Prinzip des [Model-View-Controllers](https://de.wikipedia.org/wiki/Model_View_Controller)</small>
 
 ---
 
