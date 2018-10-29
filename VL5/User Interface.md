@@ -25,7 +25,7 @@ Note: Studis fragen, was man daf체r wohl alles braucht: UI Layout, Events, Algor
 ## Interface Aufbau
 
 > Ein [einfaches User-Interface](https://developer.android.com/training/basics/firstapp/building-ui) (UI) wird im besten Fall mit Containern erstellt und man ordnet diese Container einmal immer relativ zu dem 체bergeordneten Container an. Je nach Design kann somit direkt ein Hoch- oder Querlayout erzeugt werden.
-> 
+
 ===
 
 ### View
@@ -192,7 +192,7 @@ Bei komplexen Darstellungselement wie z.B. ein _ListView_ oder _ScrollView_ ben�
 
 * _Datasource_ das kann eine Liste oder eine beliebige Datenstruktur sein, die Daten entsprechend liefert
 * _Adapter_ ist die Verbindung und bestimmt dar체ber welche Daten aus der Datasource geholt werden bzw. strukturiert die Daten f체r die Oberfl채che um
-* _Adapter View_ist die sichtbare Komponente auf der Oberfl채che
+* _Adapter View_ ist die sichtbare Komponente auf der Oberfl채che
 
 <!-- 
 https://developer.android.com/reference/android/widget/Adapter
