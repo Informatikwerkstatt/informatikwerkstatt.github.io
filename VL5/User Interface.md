@@ -202,7 +202,7 @@ final <Element Klasse> l_element = findViewById(R.id.<Elementname>)
 </div>
 </div>
 
-<small>Die spitzen Klammern müssen dann passend ersetzt werden</small>
+<small>Die spitzen Klammern müssen passend mit der richtigen Klasse und der richtigen ID ersetzt werden</small>
 
 ---
 
