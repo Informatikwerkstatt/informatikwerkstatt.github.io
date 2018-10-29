@@ -186,6 +186,26 @@ Ein Element (Inhalt) besitzt ein Box für das Layout, die Box hat einen Innenabs
 
 ---
 
+## Zugriff auf UI Elemente
+
+<div class="flex">
+<div>
+Jedes UI Element hat einen _eindeutigen_ Namen, den man selbst festlegen kann. Die ID des Elements befindet sich rechts bei den Attributen, im Quellcode greift man wie folgt darauf zu
+
+```java
+final <Element Klasse> l_element = findViewById(R.id.<Elementname>)
+```
+
+</div>
+<div>
+![UI Identifier](images/uiid.png)
+</div>
+</div>
+
+<small>Die spitzen Klammern müssen dann passend ersetzt werden</small>
+
+---
+
 ## Die Verbindung - Adapter
 
 Bei komplexen Darstellungselement wie z.B. ein _ListView_ oder _ScrollView_ benötigen wir einen Adapter<sup>1</sup>. Es ist inperformant Daten in einem UI Element manuell einzugeben und
@@ -216,7 +236,7 @@ final ArrayList<String> l_list = new ArrayList<>();
 
 l_list.add("GPS Sensor");
 l_list.add("Gyrosensor");
-l_list.add("Beschleunigungsensor");
+l_list.add("Beschleunigungssensor");
 
 // Zugriff auf den ListView
 final ListView l_sensors = findViewById(R.id.sensors);
