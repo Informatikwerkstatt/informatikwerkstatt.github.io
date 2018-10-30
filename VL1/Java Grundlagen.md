@@ -901,10 +901,11 @@ Schreibt ein Programm, dass zwei ganze Zahlen A und B von der Kommandozeile einl
 
 ---
 
-## @Home
+## @Home (optional)
 
-Installation der Java Entwicklungstools
+Installation der Java Entwicklungstools auf Eurem Privatrechner (falls verfügbar)
 
 1. Installation [Java Development Kit](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
 2. [Setzen der Umgebungsvariablen](https://www.java.com/de/download/help/path.xml) ```JAVA_HOME``` und ```PATH```
 3. Installation [Visual Studio Code](https://code.visualstudio.com/)
+4. Versucht, ein Java-Programm mit Visual Studio Code zu kompilieren und auszuführen
