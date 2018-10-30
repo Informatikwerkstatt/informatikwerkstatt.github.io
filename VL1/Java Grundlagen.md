@@ -815,10 +815,10 @@ public class Div0Fehler
 - Wir erweitern den Rumpf der ```main```-Methode unserer `Div0Fehler`-Klasse
     
     ```java
-      int  ergebnis=0;
+      int  ergebnis = 0;
       try{ //
-        int  zaehler=5;
-        int  nenner=0;
+        int  zaehler = 5;
+        int  nenner = 0;
         ergebnis = zaehler / nenner;
       } 
       catch (ArithmeticException  e)
