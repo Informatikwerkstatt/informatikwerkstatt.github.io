@@ -225,6 +225,12 @@ __&rarr; Was passiert und wie erklärt Ihr Euch bei den unterschiedlichen Listen
 
 ---
 
+## Fragment Lifecycle
+
+<!-- https://developer.android.com/guide/components/fragments -->
+
+---
+
 ## Denke parallel - Background Threads
 
 Mobile Apps müssen _schnell_ und _effizient_ reagieren, so dass der Benutzer

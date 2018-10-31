@@ -256,6 +256,8 @@ l_sensors.setAdapter(
 
 ## Recycling von Layout - Fragments
 
+
+<!-- https://developer.android.com/guide/components/fragments -->
 <!-- https://android-developers.googleblog.com/2009/02/android-layout-tricks-2-reusing-layouts.html -->
 
 ---
