@@ -50,7 +50,7 @@ Note: Studis fragen, was man dafür wohl alles braucht: UI Layout, Events, Algor
 
 ### Constraint Layout
 
-[Constraint Layouts](https://developer.android.com/training/constraint-layout/) sind aktuell die Wahl für ein Layout, der Vorteil besteht darin, dass sie sich recht flexibel an verschiedene Displaygröße, sowie horizontale / vertikale Darstellung anpassen lassen. Man baut gedanklich eine große Box, in die man viele kleinere Boxen stellt auf. Damit ergibt sich die Layouthierarchie des [Component Trees](#/5)
+> [Constraint Layouts](https://developer.android.com/training/constraint-layout/) sind aktuell die Wahl für ein Layout, der Vorteil besteht darin, dass sie sich recht flexibel an verschiedene Displaygröße, sowie horizontale / vertikale Darstellung anpassen lassen. Man baut gedanklich eine große Box, in die man viele kleinere Boxen stellt auf. Damit ergibt sich die Layouthierarchie des [Component Trees](#/5)
 
 <small>Wer Erfahrung mit Webseitengestelltung kennt vielleicht den Begriff [Responsive Webdesign](https://de.wikipedia.org/wiki/Responsive_Webdesign), um das Layout der Webseite an die Auflösung des Endgerätes anzupassen. Das Design einer App kann in ähnliche organisiert werden</small>
 
@@ -58,7 +58,7 @@ Note: Studis fragen, was man dafür wohl alles braucht: UI Layout, Events, Algor
 
 ### Linear Layout
 
-Das [Linear Layout](https://developer.android.com/guide/topics/ui/layout/linear) ermöglicht es geradlinige Strukturen wie z.B. Listen darzustellen. Die Breite ist flexible, aber auf eine Spalte begrenzt, und die Höhe orientiert sich der Länge des Inhaltes
+> Das [Linear Layout](https://developer.android.com/guide/topics/ui/layout/linear) ermöglicht es geradlinige Strukturen wie z.B. Listen darzustellen. Die Breite ist flexible, aber auf eine Spalte begrenzt, und die Höhe orientiert sich der Länge des Inhaltes
 
 ![Linear Layout - Quelle https://developer.android.com/guide/topics/ui/layout/linear](https://developer.android.com/images/ui/linearlayout.png)
 
@@ -66,7 +66,7 @@ Das [Linear Layout](https://developer.android.com/guide/topics/ui/layout/linear)
 
 ### Grid View
 
-Das [Grid View Layout](https://developer.android.com/guide/topics/ui/layout/gridview) ist aufgebaut wie ein Schachbrett, sollen aber nicht mehr verwendet werden. __Anmerkung aus der Dokumentation:__ _For better performance and tooling support, you should instead build your layout with Constraint Layout._
+> Das [Grid View Layout](https://developer.android.com/guide/topics/ui/layout/gridview) ist aufgebaut wie ein Schachbrett, sollen aber nicht mehr verwendet werden. __Anmerkung aus der Dokumentation:__ _For better performance and tooling support, you should instead build your layout with Constraint Layout._
 
 ![Grid View Layout - Quelle https://developer.android.com/guide/topics/ui/layout/gridview](https://developer.android.com/images/ui/gridview.png)
 
@@ -134,6 +134,7 @@ Toast.makeText(
 Zum Design des Layouts findet sich auf der linken Seite die _Palette_, die die verschiedenen Elemente enthält. Man zieht die einzelnen Elemente aus der Palette
 an die Stelle im Layout, wo sie erscheinen sollen.
 </p>
+<br/>
 <p>Der _Component Tree_ die die aktuelle Struktur des Layouts, hiermit sieht die [Hierarchie](#/2/2) des Layoutes, also welches Element _hängt unter_ welchem Container.</p>
 </div>
 <div>
@@ -147,7 +148,7 @@ an die Stelle im Layout, wo sie erscheinen sollen.
 
 <div class="flex">
 <div>
-Über den Text ```View all attributes &rlarr;```  kann die Deatilsicht zu einem Attribut aufgerufen werden. Insbesondere Eigenschaften zum Layout, wie Abstände, Schrift, Farben etc. werden darüber eingestellt
+Über den Text ```View all attributes &rlarr;```  kann die Detailsicht zu einem Attribut aufgerufen werden. Insbesondere Eigenschaften zum Layout, wie Abstände, Schrift, Farben etc. werden darüber eingestellt
 </div>
 <div>
 ![Layout Designer](images/elementattribute.png)
@@ -204,20 +205,25 @@ Jedes UI Element hat einen _eindeutigen_ Namen, den man selbst festlegen kann. D
 
 ## Die Verbindung - Adapter
 
-Bei komplexen Darstellungselement wie z.B. ein _ListView_ oder _ScrollView_ benötigen wir einen Adapter<sup>1</sup>. Es ist inperformant Daten in einem UI Element manuell einzugeben und
-zu aktualisieren. Häufig entsteht dabei ein Flimmern auf dem Bildschirm. Um das Problem zu lösen benötigen wir drei Dinge:
+> Bei komplexen Darstellungselement wie z.B. ein _ListView_ oder _ScrollView_ benötigen wir einen Adapter<sup>1</sup>. Es ist inperformant Daten in einem UI Element manuell einzugeben und
+zu aktualisieren. Häufig entsteht dabei ein Flimmern auf dem Bildschirm. 
+
+<small>1: Prinzip des [Model-View-Controllers](https://de.wikipedia.org/wiki/Model_View_Controller)</small>
+
+===
+
+### Adapter-Drei-Einigkeit
 
 * **Datasource** das kann eine Liste oder eine beliebige Datenstruktur sein, die Daten entsprechend liefert
 * **Adapter** ist die Verbindung und bestimmt darüber welche Daten aus der Datasource geholt werden bzw. strukturiert die Daten für die Oberfläche um
 * **Adapter View** ist die sichtbare Komponente auf der Oberfläche
 
+![Adapter - https://www.edureka.co/blog/what-are-adapters-in-android/](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2013/03/adapters-1-528x180.png)
+
 <!-- 
-https://developer.android.com/reference/android/widget/Adapter
 https://www.edureka.co/blog/what-are-adapters-in-android/
 https://code.tutsplus.com/tutorials/android-from-scratch-understanding-adapters-and-adapter-views--cms-26646
 -->
-
-<small>1: Prinzip des [Model-View-Controllers](https://de.wikipedia.org/wiki/Model_View_Controller)</small>
 
 ===
 
