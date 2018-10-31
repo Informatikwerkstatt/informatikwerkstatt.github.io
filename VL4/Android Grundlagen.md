@@ -315,3 +315,12 @@ Log.e( "berechnung", "hier ist eine Division durch null aufgetreten" );
 </div>
 </div>
 
+---
+
+## Links
+
+* [Android Developers Youtube](https://www.youtube.com/user/androiddevelopers)
+* [Codelabs](https://codelabs.developers.google.com/?cat=Android)
+* [Tutorials](https://www.tutorialspoint.com/android/)
+* [Programmierern Lernen - Android Tutorial](http://www.programmierenlernenhq.de/android-app-programmieren-tutorial/)
+* [Programmieren Learnen - Android SQLite Datenbank](http://www.programmierenlernenhq.de/android-sqlite-datenbank-tutorial/)
