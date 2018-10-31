@@ -220,11 +220,6 @@ zu aktualisieren. Häufig entsteht dabei ein Flimmern auf dem Bildschirm.
 
 ![Adapter - https://www.edureka.co/blog/what-are-adapters-in-android/](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2013/03/adapters-1-528x180.png)
 
-<!-- 
-https://www.edureka.co/blog/what-are-adapters-in-android/
-https://code.tutsplus.com/tutorials/android-from-scratch-understanding-adapters-and-adapter-views--cms-26646
--->
-
 ===
 
 ### Adapter für einen ListView
@@ -300,3 +295,4 @@ Es soll ein [Taschenrechner](#/1) entwickelt werden, über den die Grundrechenar
 
 * [App Widget](https://developer.android.com/guide/topics/appwidgets/)
 * [App Bar](https://developer.android.com/training/appbar/)
+* [Adapter](https://code.tutsplus.com/tutorials/android-from-scratch-understanding-adapters-and-adapter-views--cms-26646)
