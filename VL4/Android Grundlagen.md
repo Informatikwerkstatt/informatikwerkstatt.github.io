@@ -22,17 +22,17 @@ __Android Grundlagen__
 
 ### Muss ich das alles verstehen?
 
-__Nein__ die vollständige Architektur behandeln wir hier nicht, wir behandeln nur den kleinen Ausschnitt der _Activity_ und _Sensoren_.
+__Nein__, die vollständige Architektur behandeln wir hier nicht, wir behandeln nur den kleinen Ausschnitt der _Activities_ und _Sensoren_.
 
 ===
 
 ### Wie kann ich dann eine App entwickeln?
 
 * Software wird heute _schichtweise_ aufgebaut
-* jede Schicht stellt so genannte [Schnittstellen (API)](https://de.wikipedia.org/wiki/Programmierschnittstelle) bereit
-* man muss nur immer die APIs verstehen, die man für seine Anwendung benötigt
+* Jede Schicht stellt so genannte [Schnittstellen (API)](https://de.wikipedia.org/wiki/Programmierschnittstelle) bereit
+* Man muss nur die APIs verstehen, die man für seine Anwendung benötigt
 
-&rarr; Als (angehender) Informatiker darf man faul sein und muss lernen, sich auf das _Wesentliche_ zu beschränken. Der Rest kommt mit der Zeit
+&rarr; Wir können uns auf das _Wesentliche_ beschränken. Der Rest kommt mit der Zeit
 
 ---
 
@@ -40,13 +40,13 @@ __Nein__ die vollständige Architektur behandeln wir hier nicht, wir behandeln n
 
 [Android Studio](https://developer.android.com/studio/) ist eine [Entwicklungsumgebung](https://de.wikipedia.org/wiki/Integrierte_Entwicklungsumgebung) zur Software-Entwicklung.
 
-> Ist ein etwas komplizierterer Editor mit vielen Funktionen, wo man meist viele bunte Knöpfe zum klicken hat
+> Das ist ein etwas komplizierterer Editor mit vielen Funktionen und vielen bunten Knöpfen zum klicken
 
 ===
 
 ### Integrierte Entwicklungsumgebung - IDE
 
-* Basis von Android Studio ist [Intellij](https://www.jetbrains.com/idea/) der Firma [Jetbrains](https://www.jetbrains.com/)
+* Basis von Android Studio ist [Intellij](https://www.jetbrains.com/idea/), ein Produkt der Firma [Jetbrains](https://www.jetbrains.com/)
 * Intellij ist für generelle Java Entwicklung gedacht und gibt es auch als kostenlose _Community Edition_ zum Download
 * Alternative [Eclipse](https://www.eclipse.org/)
 
@@ -59,7 +59,7 @@ Es nimmt einem viel Arbeit ab!
 * Organisation des Quellcodes und Resourcen
 * Unterstützung bei Befehlseingabe (Intelli-Sense) und Layout des Codes
 * Unterstützung beim Umbenennen von Codestrukturen
-* Bundeling & Deployment - Erzeugen der fertigen Applikcation
+* Bundling & Deployment - Erzeugen und Installieren der fertigen Applikcation
 * Enthält das [SDK](https://de.wikipedia.org/wiki/Software_Development_Kit), mit dem wir verschiedene Apps in verschiedenen Versionen und für verschiedene Geräte entwickeln können
 
 ---
@@ -72,10 +72,10 @@ Es nimmt einem viel Arbeit ab!
 
 ## Projektstruktur
 
-Ein [Android Projekt](https://developer.android.com/studio/projects/) besteh aus mehreren Verzeichnis mit mehreren Dateien.
+Ein [Android Projekt](https://developer.android.com/studio/projects/) besteht aus mehreren Verzeichnissen mit mehreren Dateien.
 
 <div class="flex">
-<div><ul><li><strong>app</strong> Hauptverzeichnis mit alen Daten</li><li><strong>Gradle Scripts</strong> ein Verzeichnnis um mit dem Build Tools [Gradle](https://gradle.org/) die App zu compilieren und zu bundlen</li><li><strong>manifests</strong> das [Manifest](#/5/1), d.h. die Konfiguration, des Projektes</li><li><strong>java</strong> enthält alle Quellcodedateien, einmal den Quellcode der App und den Code der [Unit-Tests](https://de.wikipedia.org/wiki/Modultest)</li><li><strong>res</strong> ein Verzeichnis mit allen weiteren Komponenten der App wie z.B. Bilder, Icons, Layout der [Activities (Fenster)](/threads-activities-intent/#/3), etc.</li></ul>
+<div><ul><li><strong>app</strong> Hauptverzeichnis mit allen Daten</li><li><strong>Gradle Scripts</strong> ein Verzeichnnis, um mit dem Build Tool [Gradle](https://gradle.org/) die App zu compilieren und zu "bundlen"</li><li><strong>manifests</strong> das [Manifest](#/5/1), d.h. die Konfiguration, des Projektes</li><li><strong>java</strong> enthält alle Quellcodedateien, einmal den Quellcode der App und den Code der [Unit-Tests](https://de.wikipedia.org/wiki/Modultest)</li><li><strong>res</strong> ein Verzeichnis mit allen weiteren Komponenten der App wie z.B. Bilder, Icons, Layout der [Activities (Fenster)](/threads-activities-intent/#/3), etc.</li></ul>
 </div>
 <div>
 ![Android Projekt Struktur - Quelle https://developer.android.com/studio/projects/](https://developer.android.com/images/tools/projectview-p1.png#floatright)
