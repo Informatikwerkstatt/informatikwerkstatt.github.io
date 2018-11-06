@@ -159,7 +159,7 @@ public class CAuto
 
   public void schalte( final int p_gang )
   {
-      m_gang = p_gang % m_anzahlGaenge;
+      m_gang = p_gang % (m_anzahlGaenge + 1);
       m_gang = m_gang < 0 ? 0 : m_gang;
   }
 
