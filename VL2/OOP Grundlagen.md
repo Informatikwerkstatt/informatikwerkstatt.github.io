@@ -26,7 +26,7 @@ __Grundlagen Objekt-Orientierter Programmierung__
 ## Klasse & Objekt
 
 * _Klasse_: (abstrakter) Bauplan einer Art von Objekten
-  * definiert alle Eigenschaften / Variablen eines späteren Objektes
+  * definiert alle Eigenschaften / Variablen möglicher konkreter Objekte
   * definiert die Funktion / [Methoden](/java-grundlagen/#/5/2) des Objektes
 * _Objekt_: aus der Klasse erzeugter Speicherblock im Rechner
     * mit konkreten Belegungen der Variablen
@@ -593,7 +593,7 @@ public class CUnterklasse extends COberklasse
   @Override
   public void halloWelt()
   {
-    System.out.println( "Hallo Welt Unterklasseklasse" );
+    System.out.println( "Hallo Welt Unterklasse" );
   }
 
   // -- hier entsteht nun ein Compilerfehler!
@@ -759,7 +759,7 @@ Mit-1 & Mit-2 sind gleich
 <li>Hierarchische Organisation von Java-Klassen und Interfaces</li>
 <li>Ähnlich zu Dateiordnern, Packagename in der Klasse muss identisch zum Speicherort der Java-Datei sein</li>
 <li>Werden Packages verwendet, dann muss als erste Zeile in der Klasse der Packagename mit dem Schlüsselwort ```package``` angegeben werden</li>
-<li>Übersicht über alle [Java Klassen](https://download.java.net/java/early_access/jdk11/docs/api/java.base/module-summary.html)</li>
+<li>Übersicht über alle [Java Klassen](https://docs.oracle.com/en/java/javase/11/docs/api/index.html)</li>
 </ul>
 <div>
 </div>
