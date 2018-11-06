@@ -59,7 +59,7 @@ Es nimmt einem viel Arbeit ab!
 * Organisation des Quellcodes und Resourcen
 * Unterstützung bei Befehlseingabe (Intelli-Sense) und Layout des Codes
 * Unterstützung beim Umbenennen von Codestrukturen
-* Bundling & Deployment - Erzeugen und Installieren der fertigen Applikcation
+* Bundling & Deployment - Erzeugen und Installieren der fertigen Applikation
 * Enthält das [SDK](https://de.wikipedia.org/wiki/Software_Development_Kit), mit dem wir verschiedene Apps in verschiedenen Versionen und für verschiedene Geräte entwickeln können
 
 ---
@@ -75,7 +75,7 @@ Es nimmt einem viel Arbeit ab!
 Ein [Android Projekt](https://developer.android.com/studio/projects/) besteht aus mehreren Verzeichnissen mit mehreren Dateien.
 
 <div class="flex">
-<div><ul><li><strong>app</strong> Hauptverzeichnis mit allen Daten</li><li><strong>Gradle Scripts</strong> ein Verzeichnnis, um mit dem Build Tool [Gradle](https://gradle.org/) die App zu compilieren und zu "bundlen"</li><li><strong>manifests</strong> das [Manifest](#/5/1), d.h. die Konfiguration, des Projektes</li><li><strong>java</strong> enthält alle Quellcodedateien, einmal den Quellcode der App und den Code der [Unit-Tests](https://de.wikipedia.org/wiki/Modultest)</li><li><strong>res</strong> ein Verzeichnis mit allen weiteren Komponenten der App wie z.B. Bilder, Icons, Layout der [Activities (Fenster)](/threads-activities-intent/#/3), etc.</li></ul>
+<div><ul><li><strong>app</strong> Hauptverzeichnis mit allen Daten</li><li><strong>Gradle Scripts</strong> ein Verzeichnnis, um mit dem Build Tool [Gradle](https://gradle.org/) die App zu compilieren und zu "bundlen"</li><li><strong>manifests</strong> das [Manifest](#/5/1), d.h. die Konfiguration, des Projektes</li><li><strong>java</strong> enthält alle Quellcodedateien, einmal den Quellcode der App und den Code der [Unit-Tests](https://de.wikipedia.org/wiki/Modultest)</li><li><strong>res</strong> ein Verzeichnis mit allen weiteren Komponenten der App wie z.B. Bilder, Icons, und Layout der [Activities (Fenster)](/threads-activities-intent/#/3)</li></ul>
 </div>
 <div>
 ![Android Projekt Struktur - Quelle https://developer.android.com/studio/projects/](https://developer.android.com/images/tools/projectview-p1.png#floatright)
@@ -86,7 +86,7 @@ Ein [Android Projekt](https://developer.android.com/studio/projects/) besteht au
 
 ### Manifest
 
-> Das [Android Manifest](https://developer.android.com/guide/topics/manifest/manifest-intro) ist eine [XML-Datei](https://de.wikipedia.org/wiki/Extensible_Markup_Language) in der die Konfiguration der App, wie Start-[Activity](/threads-activities-intent/#/3) oder auch [Berechtigungen](/sensoren-resourcen/#/2) für Sensoren hinterlegt werden
+> Das [Android Manifest](https://developer.android.com/guide/topics/manifest/manifest-intro) ist eine [XML-Datei](https://de.wikipedia.org/wiki/Extensible_Markup_Language), in der die Konfiguration der App, wie Start-[Activity](/threads-activities-intent/#/3) oder auch [Berechtigungen](/sensoren-resourcen/#/2) für Sensoren hinterlegt werden
  
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -115,7 +115,7 @@ Ein [Android Projekt](https://developer.android.com/studio/projects/) besteht au
 
 ### Unit-Testing
 
-> [Unit-Testing](https://de.wikipedia.org/wiki/Modultest), auch _Modultest_ oder _Komponententest_ ist eine Möglichtkeit einzelne Routinen auf ihre korrekte Funktionsweise zu überprüfen. In Java nutzt man dafür das [JUnit](https://junit.org/)-Framework, für [App-Testing](https://developer.android.com/studio/test/) gibt es weitere Möglichkeiten. Testing erhöht die Qualität der Software.
+> [Unit-Testing](https://de.wikipedia.org/wiki/Modultest) (auch _Modultest_ oder _Komponententest_) ist eine Möglichkeit, einzelne Routinen auf ihre korrekte Funktionsweise zu überprüfen. In Java nutzt man dafür das [JUnit](https://junit.org/)-Framework, für [App-Testing](https://developer.android.com/studio/test/) gibt es weitere Möglichkeiten. Tests erhöhen die Qualität der Software.
 
 ```java
 import org.junit.Test;
@@ -135,18 +135,18 @@ public final class TestCBeispiel
 
 ### Resourcen & Berechtigungen<sup>1</sup>
 
-<small>1: Wir behandeln hier nur kurz die Berechtigungen, im Foliensatz [Sensoren & Resourcen](/sensoren-resourcen/) werden wir genauer darauf eingehen</small>
+<small>1: Wir behandeln hier nur kurz die Berechtigungen; im Foliensatz [Sensoren & Resourcen](/sensoren-resourcen/) werden wir genauer darauf eingehen</small>
 
 ---
 
-## Tastatur Dein Freund
+## Die Tastatur, Dein Freund
 
-Software-Entwicklung besteht aus viel Text schreiben, so dass es hilfreich ist, vieles per Tastatur zu steuern:
+Bei der Software-Entwicklung muss man viel Text schreiben, so dass es hilfreich ist, vieles per Tastatur zu steuern:
 
 * [Shortcuts](https://de.wikipedia.org/wiki/Tastenkombination) sind Tastenkombinationen für bestimmte Funktionen
-* [IntelliSense](https://de.wikipedia.org/wiki/IntelliSense) ist eine Möglichkeit Befehle zu vervollständigen
+* [IntelliSense](https://de.wikipedia.org/wiki/IntelliSense) ist eine Möglichkeit, Befehle zu vervollständigen
 
-&rarr; Software-Entwickler haben die wichtigsten Sachen im Kopf und beim Rest wissen sie, wo es steht / zu finden ist
+&rarr; Software-Entwickler haben die wichtigsten Sachen im Kopf und beim Rest wissen sie, wo man es nachschauen kann ;)
 
 ===
 
@@ -184,7 +184,7 @@ Software-Entwicklung besteht aus viel Text schreiben, so dass es hilfreich ist, 
 
 ## Build-Prozess
 
-Mit Hilfe des [Build-Prozess](https://de.wikipedia.org/wiki/Erstellungsprozess) wird aus allen Elementen (Quellcode, Resourcen) ein fertiges Paket erstellt, dass dann als App benutzt werden kann.
+Mit Hilfe des [Build-Prozesses](https://de.wikipedia.org/wiki/Erstellungsprozess) wird aus allen Elementen (Quellcode, Resourcen) ein fertiges Paket erstellt, das dann als App benutzt werden kann.
 
 ![Android Studio Run](images/as_run.png#floatright)
 Der Prozess wird mit dem _grünen Button_ in der rechten oberen Fensterecke gestartet
@@ -216,7 +216,7 @@ Nachdem das APK erzeugt wurde, wird es auf das Tablet kopiert und mit dem Androi
 
 ## Schreib' es hin - Der Logger
 
-> Ein [Logger](https://developer.android.com/reference/android/util/Log) ist ein ```System.out.println``` mit etwas mehr Funktionalität um Ausgaben besser strukturieren zu können unf ggf. in eine Datei o.ä. schreiben zu können
+> Ein [Logger](https://developer.android.com/reference/android/util/Log) ist ein ```System.out.println``` mit etwas mehr Funktionalität, um Ausgaben besser zu strukturieren und z.B. in eine Datei schreiben zu können
 
 ===
 
@@ -225,7 +225,7 @@ Nachdem das APK erzeugt wurde, wird es auf das Tablet kopiert und mit dem Androi
 Für Lognachrichten gibt es einen _Level_ und einen _Tag_
 
 ```java
-Log.e( "berechnung", "hier ist eine Division durch null aufgetreten" );
+Log.e( "berechnung", "hier ist eine Division durch NULL aufgetreten" );
 ```
 
 ===
@@ -252,7 +252,7 @@ Log.e( "berechnung", "hier ist eine Division durch null aufgetreten" );
 
 ## Fehler & Fehlersuche
 
-> Bei der Entwicklung von Software können mehrere Arten von [Fehlern](https://de.wikipedia.org/wiki/Programmfehler) auftreten. Der häufigste ist der [Syntaxfehler](https://de.wikipedia.org/wiki/Syntaxfehler) der durch den [Compiler](/java-grundlagen/#/1/2) gefunden werden kann.
+> Bei der Entwicklung von Software können mehrere Arten von [Fehlern](https://de.wikipedia.org/wiki/Programmfehler) auftreten. Der häufigste ist der [Syntaxfehler](https://de.wikipedia.org/wiki/Syntaxfehler), der durch den [Compiler](/java-grundlagen/#/1/2) gefunden wird.
 
 &rArr; Was könnte es noch für Fehler geben und wie könnte man diese finden?
 
@@ -260,7 +260,7 @@ Log.e( "berechnung", "hier ist eine Division durch null aufgetreten" );
 
 ### Breakpoints & Debugger
 
-> Ein [Debugger](https://de.wikipedia.org/wiki/Debugger) ist ein Programm mit dessen Hilfe man ein Programm bei der Ausführung überwachen kann, um den realen Programmablauf zu analysieren. Ein [Breakpoint](https://de.wikipedia.org/wiki/Haltepunkt_%28Programmierung%29) ist eine markierte Stelle im Programm, an der der Debugger das Programm anhält, so dass man den aktuellen Zustand des Speichers / Variablenbelegung anschauen kann
+> Ein [Debugger](https://de.wikipedia.org/wiki/Debugger) ist ein Programm, mit dessen Hilfe man ein Programm bei der Ausführung überwachen kann, um den realen Programmablauf zu analysieren. Ein [Breakpoint](https://de.wikipedia.org/wiki/Haltepunkt_%28Programmierung%29) ist eine markierte Stelle im Programm, an der der Debugger das Programm anhält, so dass man den aktuellen Zustand des Speichers / Variablenbelegung anschauen kann
 
 ===
 
@@ -274,21 +274,21 @@ Log.e( "berechnung", "hier ist eine Division durch null aufgetreten" );
 
 > Als Alternative zu _Java_ mit _Android Studio_ gibt es das Framework [React Native](https://facebook.github.io/react-native/) für die App Entwicklung.
 
-* [React](https://reactjs.org/) ist 2013 erschienen  (2015 publiziert von Facebook unter aktueller OpenSource Lizenz)
+* [React](https://reactjs.org/) ist 2013 erschienen  (2015 publiziert von Facebook unter OpenSource Lizenz)
 * [JavaScript](https://de.wikipedia.org/wiki/JavaScript) ist die verwendete Programmiersprache<sup>1</sup>
-* [Instagramm](https://instagram-engineering.com/react-native-at-instagram-dd828a9a90c7), [Facebook](https://code.fb.com/android/dive-into-react-native-performance/) und [Pinterest](https://medium.com/@Pinterest_Engineering/supporting-react-native-at-pinterest-f8c2233f90e6) nutzen das Framework
+* [Instagram](https://instagram-engineering.com/react-native-at-instagram-dd828a9a90c7), [Facebook](https://code.fb.com/android/dive-into-react-native-performance/) und [Pinterest](https://medium.com/@Pinterest_Engineering/supporting-react-native-at-pinterest-f8c2233f90e6) nutzen das Framework
 * die Code-Basis ist durch das Framework für die Webseite (inkl. mobile Version) und Mobile-App identisch
 * somit ist die Wiederverwertbarkeit mit kürzerer Entwicklungszeit möglich
 
-<small>1: Java & JavaScript sind zwei völlig unterschiedliche Programmiersprachen</small>
+<small>1: Java & JavaScript sind völlig unterschiedliche Programmiersprachen!</small>
 
 ---
 
 ## @Home / Übung
 
-1. Ergänzt die Hellow-World App um den Logger
+1. Ergänzt die Hello-World App um den Logger
 2. Probiert die verschiedenen _Log Level_ aus
-3. Überprüft die Log Nachrichten auf dem PC und den Tablet
+3. Überprüft die Log Nachrichten auf dem PC und dem Tablet
 
 &rArr; Wozu könnten die verschiedenen Log Levels sinnvoll sein?
 
@@ -296,9 +296,9 @@ Log.e( "berechnung", "hier ist eine Division durch null aufgetreten" );
 
 ### Erweiterungen
 
-1. Implementiere weitere Variablen Zuweisungen und kleine Berechnungen
+1. Implementiere weitere Variablen-Zuweisungen und kleine Berechnungen
 3. Setze Breakpoints und überprüfe mit Hilfe des Debuggers die Belegung der Variablen
-4. Implementiere einen Fehler, so dass eine [Exception](/java-grundlagen/#/19) geworfen wird und probiere aus, wie man diesen Fehler mittels Brakpoints finden kann
+4. Implementiere einen Fehler, so dass eine [Exception](/java-grundlagen/#/19) geworfen wird und probiere aus, wie man diesen Fehler mittels Breakpoints finden kann
 
 &rArr; Was ist ein sinnvolles Vorgehen, um mit Breakpoints zu arbeiten?
 
@@ -309,7 +309,7 @@ Log.e( "berechnung", "hier ist eine Division durch null aufgetreten" );
 <div class="flex">
 <div><ul><li>[Android Studio Download](https://developer.android.com/studio/)</li>
 <li>Je nach Gerät muss ein anderes SDK installiert werden</li>
-<li>Manche Geräte werden nicht von Android Studio erkannt, hierzu ist es hilfreich ```MTP``` oder ```PTP``` auszuprobieren</li></ul></div>
+<li>Manche Geräte werden nicht von Android Studio erkannt; hierzu ist es hilfreich, ```MTP``` oder ```PTP``` auszuprobieren</li></ul></div>
 <div>
 ![USB Verbindung](images/usb.jpg#threequarter)
 </div>
