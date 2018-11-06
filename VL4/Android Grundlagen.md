@@ -16,7 +16,7 @@ __Android Grundlagen__
 
 ## Architektur
 
-![Plattform Architektur](https://developer.android.com/guide/platform/images/android-stack_2x.png height=800)
+![Plattform Architektur](https://developer.android.com/guide/platform/images/android-stack_2x.png width=600)
 
 ===
 
