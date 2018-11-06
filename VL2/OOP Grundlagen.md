@@ -759,7 +759,7 @@ Mit-1 & Mit-2 sind gleich
 <li>Hierarchische Organisation von Java-Klassen und Interfaces</li>
 <li>Ähnlich zu Dateiordnern, Packagename in der Klasse muss identisch zum Speicherort der Java-Datei sein</li>
 <li>Werden Packages verwendet, dann muss als erste Zeile in der Klasse der Packagename mit dem Schlüsselwort ```package``` angegeben werden</li>
-<li>Übersicht über alle [Java Klassen](https://docs.oracle.com/en/java/javase/11/docs/api/index.html)</li>
+<li>Übersicht über alle [Java Basis-Packages](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/module-summary.html)</li>
 </ul>
 <div>
 </div>
