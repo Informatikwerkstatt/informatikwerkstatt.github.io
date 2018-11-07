@@ -384,7 +384,7 @@ Wie machen wir das?
 
 ===
 
-### Graphische Notation
+### Graphische Notation (*)
 
 [Unified Modeling Language (UML)](https://de.wikipedia.org/wiki/Unified_Modeling_Language#Klassen)
 
@@ -393,7 +393,7 @@ Wie machen wir das?
 
 ===
 
-### Warum macht man das?
+### Warum macht man das? (*)
 
 * um Code-Redundanz zu vermeiden: man muss Methoden nur einmal implementieren
 * um Eigenschaften bei Ableitung erweitern zu können
@@ -450,7 +450,7 @@ public class CSUV extends CAuto
 
 ===
 
-### Interfaces
+### Interfaces (*)
 
 > Interfaces legen nur die ```public``` Methoden-Definition fest, die in einer Klasse enthalten sein müssen. Die konkrete Implementierung liegt dann in der Klasse. Interfaces können __nicht__ instantiiert werden
 
@@ -465,7 +465,7 @@ public interface IFahrzeug
 
 ===
 
-### Implementierung des Fahrzeug-Interface
+### Implementierung des Fahrzeug-Interface (*)
 
 ```java
 public class CAuto implements IFahrzeug
@@ -499,7 +499,7 @@ public class CAuto implements IFahrzeug
 
 ===
 
-### Vererbung mit Interfaces
+### Vererbung mit Interfaces (*)
 
 <span class="rrd" data-rrd="Diagram(Terminal('public'), Terminal('class'), NonTerminal('Klassenname der abgeleiteten Klasse'), Optional(Sequence( Terminal('extends'), NonTerminal('Oberklasse')), 'skip'), Optional( Sequence(Terminal('implements'), OneOrMore( NonTerminal('Interface-Klasse'), Terminal(','))), 'skip'))"></span>
 
@@ -510,7 +510,7 @@ public class CAuto implements IFahrzeug
 
 --- 
 
-## Let's try
+## Let's try (*)
 
 1. Erweitere das Auto-Beispiel um die SUV-Klasse; ergänze diese um eine passende Getter Methode
 2. Ergänze das Interface und die dazu gehörige Benutzung in der Auto-Klasse
@@ -521,7 +521,7 @@ public class CAuto implements IFahrzeug
 
 ---
 
-## Let's try
+## Let's try (*)
 
 1. Ergänze nun die Klassen für LKW und Motorrad mit passenden Methoden (Motorrad und LKW müssen je eine individuelle Eigenschaft mit Getter und ggf. Setter erhalten)
 2. Ergänze nun das Hauptprogramm um diese beiden neuen Objekte und führe es aus
@@ -533,7 +533,7 @@ public class CAuto implements IFahrzeug
 
 ---
 
-## Überladen / Overloading
+## Überladen / Overloading (*)
 
 > Das bedeutet, dass man innerhalb einer Klasse eine Methode mit gleichem Namen, aber mit unterschiedlichen Parametern hat. Ein Überladen anhand des Rückgabewertes ist nicht möglich
 
@@ -569,7 +569,7 @@ public class CUeberladen
 
 ===
 
-### Überladen bei Vererbung
+### Überladen bei Vererbung (*)
 
 > Jede nicht _final_ deklarierte Methode in einer Klasse, die nicht _final_ deklariert ist oder ein Enum ist, kann in jeder beliebigen Unterklasse überladen werden
 
@@ -607,7 +607,7 @@ public class CUnterklasse extends COberklasse
 
 === 
 
-### Beispiel für Überladen: ```toString()```
+### Beispiel für Überladen: ```toString()``` (*)
 
 > Überladen der Methode ```toString()``` ermöglicht es, anzupassen, wie ein Objekt ausgegeben wird. Mit Hilfe von [MessageFormat](https://docs.oracle.com/javase/10/docs/api/java/text/MessageFormat.html) kann die Ausgabe leicht formatiert werden
 
