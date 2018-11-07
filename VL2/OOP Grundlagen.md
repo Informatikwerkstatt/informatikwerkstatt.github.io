@@ -268,7 +268,7 @@ public CAuto get()
 Mache die Methoden ```schalte()```, ```beschleunige()```, ```bremse()``` realistischer:
 
 1. Ergänze das Schalten um Leerlauf und Rückwärtsgang
-2. Prüfe beim Versuch, die Methoden auszuführen, die Eingaben und fange Fehler ab
+2. Prüfe beim Versuch, die Methoden auszuführen, die Eingaben! Fange Fehler ab
 3. __@Profis__: Realisiere einen einfachen Zusammenhang zwischen eingelegtem Gang und Ändern der Geschwindigkeit
 
 ---
@@ -287,7 +287,7 @@ Note: Erklärung anhand des Büros von Prof Müller: Sitzt Prof Müller während
 
 ---
 
-## Es geht auch ohne Objekt &rarr; Static
+## Es geht auch ohne Objekt &rarr; Static (\*)
 
 > Mit dem Schlüsselwort ```static``` kann man Methoden oder Eigenschaften ohne Objekt zu benutzen. Bekanntestes Beispiel sind die [mathematischen Funktionen](https://docs.oracle.com/javase/10/docs/api/java/lang/Math.html) z.B. ```Math.sin(3)```. Statische Methoden sind nützlich, wenn es sich um eine rein funktionale Struktur ohne Variablen etc. handelt.
 
