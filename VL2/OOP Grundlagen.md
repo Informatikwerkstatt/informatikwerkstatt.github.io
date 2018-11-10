@@ -788,10 +788,13 @@ Mit-1 & Mit-2 sind gleich
 3. Versuche, Struktur und Logik des Programms zu verstehen
 4. Ändere das Programm, so dass die Beschleunigung nicht nur vom Fahrertyp, sondern auch vom Auto abhängt
 5. Entwickle eine Unterklasse ```CLkw``` von ```CAuto``` mit einer maximalen und einer tatsächlichen Beladung. Definiere das Fahrverhalten von ```CLkw``` in der Methode ```CFahrer.fahre()``` unter Berücksichtigung der tatsächlichen Beladung (geringere Höchstgeschwindigkeit, langsamere Beschleunigung)
-6. @Profi: Denk Dir eine Erweiterung des Fahrverhaltens (z.B. mit Nutzung von Schalten und Bremsen) aus und erweitere das Programm entsprechend.
-7. @Profi: 
-    * Informiere Dich über den professionellen Aufbau einer [Verzeichnisstruktur für Java-Projekte](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html).
-    * Organisiere den Beispiel-Code so um, dass alle Klassen zu einer [Package](???) ```lastrada``` gehören, der Quellcode in einem Unterverzeichnis ```src``` und die ```.class``` Dateien in einem Unterverzeichnis ```target``` liegen.
+
+===
+
+### Lastrada: @Profi
+6. Denk Dir eine Erweiterung des Fahrverhaltens (z.B. mit Nutzung von Schalten und Bremsen) aus und erweitere das Programm entsprechend.
+7. Informiere Dich über den professionellen Aufbau einer [Verzeichnisstruktur für Java-Projekte](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html).
+8. Organisiere den Beispiel-Code so um, dass alle Klassen zu einer [Package](#/21) ```lastrada``` gehören, der Quellcode in einem Unterverzeichnis ```src``` und die ```.class``` Dateien in einem Unterverzeichnis ```target``` liegen.
 
 ---
 
