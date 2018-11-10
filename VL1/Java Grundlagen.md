@@ -219,13 +219,11 @@ java HelloWorld
 * Manche Datentypen erlauben Werte aus einer vordefinierte Menge von Konstanten, z.B. Wochentage, Monate, Kleidergrößen
 * Dafür gibt es in Java den Aufzählungstyp ```enum```
 * Definition:
-
 ```java
 public enum Schwierigkeit {
     NIEDRIG, MITTEL, HOCH 
 }
 ```
-
 * Werte sind Konstanten und werden mit Großbuchstaben geschrieben
 * Verwendung eines ```enum``` Datentyps:
 
