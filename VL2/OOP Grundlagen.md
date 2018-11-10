@@ -777,7 +777,9 @@ Mit-1 & Mit-2 sind gleich
 *  ```CAuto```: Wie in der Vorlesung gezeigt
 *  ```CFahrer```: Wird einem Auto zugeordnet und implementiert die Fahrstrategie 
 *  ```EFahrerTyp```: [Enum Klasse](https://informatikwerkstatt.github.io/java-grundlagen/#/7/2), definiert unterschiedliche Fahrertypen
-*  ```CMain```: Ausführbare Hauptklasse mit ```main()```-methode, enthält die Simulationslogik
+*  ```CMain```: Ausführbare Hauptklasse mit ```main()```-Methode, enthält die Simulationslogik
+
+===
 
 ### Lastrada: Und was soll ich jetzt tun?
 
