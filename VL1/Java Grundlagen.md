@@ -226,11 +226,11 @@ public enum Schwierigkeit {
 }
 ```
 
-* Die Werte werden mit Großbuchstaben geschrieben, weil sie Konstanten bedeuten
+* Werte sind Konstanten und werden mit Großbuchstaben geschrieben
 * Verwendung eines ```enum``` Datentyps:
 
 ```java
-Schwierigkeit level = Schwierigkeitsgrad.HOCH;
+Schwierigkeit level = Schwierigkeits.HOCH;
 ```
 
 * Die Variable ```level``` kann einen der Werte des ```enum``` Typs annehmen
