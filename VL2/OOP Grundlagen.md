@@ -762,13 +762,15 @@ Mit-1 & Mit-2 sind gleich
 
 ### Lastrada: Worum geht es?
 
-*  Die Anwendung beschreibt ein kleines Simulationssystem mit Textausgabe
-*  Wir modellieren mehrere Autos, die am Anfang eines (gedachten) Straßenabschnitts stehen. 
-*  Autos unterscheiden sich z.B. in der maximalen Geschwindigkeit
-*  Jedes Auto hat einen Fahrer
-*  Jeder Fahrer hat einen Fahrertyp (z.B. normal, entspannt, sportlich) und eine Wunschgeschwindigkeit
-*  Fahrertyp und Wunschgeschwindigkeit bestimmen das Verhalten der Fahrer (in der Basisimplementierung beschleunigen wir nur, aber unterschiedlich stark)
-*  Eine Hauptklasse simuliert das Fahren der Autos über mehrere Zeitschritte und gibt die Geschwindigkeit und Position der Fahrzeuge zu verschiedenen Zeitpunkten aus
+* Die Anwendung beschreibt ein kleines Simulationssystem mit Textausgabe
+* Wir modellieren mehrere Autos mit Fahrern, die am Anfang eines (gedachten) Straßenabschnitts stehen. 
+  * Autos unterscheiden sich z.B. in der maximalen Geschwindigkeit
+  * Jedes Auto hat einen Fahrer
+  * Jeder Fahrer hat einen Fahrertyp (z.B. normal, entspannt, sportlich) und eine Wunschgeschwindigkeit
+  * Fahrertyp und Wunschgeschwindigkeit bestimmen das Verhalten der Fahrer (in der Basisimplementierung beschleunigen wir nur, aber unterschiedlich stark)
+* Eine Hauptklasse simuliert das Fahren der Autos über mehrere Zeitschritte und gibt die Geschwindigkeit und Position der Fahrzeuge zu verschiedenen Zeitpunkten aus
+
+===
 
 ### Lastrada: Die Klassen
 
