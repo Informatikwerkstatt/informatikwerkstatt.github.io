@@ -214,6 +214,29 @@ java HelloWorld
 
 ===
 
+### Aufzählungsdatentyp: enum
+
+* Manche Datentypen erlauben Werte aus einer vordefinierte Menge von Konstanten, z.B. Wochentage, Monate, Kleidergrößen
+* Dafür gibt es in Java den Aufzählungstyp ```enum```
+* Definition:
+
+```java
+public enum Schwierigkeit {
+    NIEDRIG, MITTEL, HOCH 
+}
+```
+
+* Die Werte werden mit Großbuchstaben geschrieben, weil sie Konstanten bedeuten
+* Verwendung eines ```enum``` Datentyps:
+
+```java
+Schwierigkeit level = Schwierigkeitsgrad.HOCH;
+```
+
+* Die Variable ```level``` kann einen der Werte des ```enum``` Typs annehmen
+
+===
+
 ### @Profis
 
 Warum  gibt es verschiedene Datentypen für Zahlenwerte?
