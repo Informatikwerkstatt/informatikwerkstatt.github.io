@@ -752,6 +752,45 @@ Mit-1 & Mit-2 sind gleich
 
 ---
 
+## @Home/Übung: Lastrada - ein Java-Programm mit mehreren Klassen
+
+* Abschließend wollen wir zeigen, wie wir ein Java-Programm schreiben und ausführen können, das aus mehreren Klassen besteht
+* Die kleine Anwendung ```Lastrada``` könnt Ihr Euch [hier]() als _Zip_ Datei herunterladen und entpacken
+* Die beiden folgenden Folien geben eine kurze Beschreibung der Anwendung und Anweisungen für die Übung
+
+===
+
+### Lastrada: Worum geht es?
+
+*  Die Anwendung beschreibt ein kleines Simulationssystem mit Textausgabe
+*  Wir modellieren mehrere Autos, die am Anfang eines (gedachten) Straßenabschnitts stehen. 
+*  Autos unterscheiden sich z.B. in der maximalen Geschwindigkeit
+*  Jedes Auto hat einen Fahrer
+*  Jeder Fahrer hat einen Fahrertyp (z.B. normal, entspannt, sportlich) und eine Wunschgeschwindigkeit
+*  Fahrertyp und Wunschgeschwindigkeit bestimmen das Verhalten der Fahrer (in der Basisimplementierung beschleunigen wir nur, aber unterschiedlich stark)
+*  Eine Hauptklasse simuliert das Fahren der Autos über mehrere Zeitschritte und gibt die Geschwindigkeit und Position der Fahrzeuge zu verschiedenen Zeitpunkten aus
+
+### Lastrada: Die Klassen
+
+*  ```CAuto```: Wie in der Vorlesung gezeigt
+*  ```CFahrer```: Wird einem Auto zugeordnet und implementiert die Fahrstrategie 
+*  ```EFahrerTyp```: [Enum Klasse](https://informatikwerkstatt.github.io/java-grundlagen/#/7/2), definiert unterschiedliche Fahrertypen
+*  ```CMain```: Ausführbare Hauptklasse mit ```main()```-methode, enthält die Simulationslogik
+
+### Lastrada: Und was soll ich jetzt tun?
+
+1. Lade die ZIP-Datei herunter, entpacke sie in ein Verzeichnis
+2. Compiliere die Dateien (mit ```javac *.java```) und führe das Programm aus (mit ```java CMain```)
+3. Versuche, Struktur und Logik des Programms zu verstehen
+4. Ändere das Programm, so dass die Beschleunigung nicht nur vom Fahrertyp, sondern auch vom Auto abhängt
+5. Entwickle eine Unterklasse ```CLkw``` von ```CAuto``` mit einer maximalen und einer tatsächlichen Beladung. Definiere das Fahrverhalten von ```CLkw``` in der Methode ```CFahrer.fahre()``` unter Berücksichtigung der tatsächlichen Beladung (geringere Höchstgeschwindigkeit, langsamere Beschleunigung)
+6. @Profi: Denk Dir eine Erweiterung des Fahrverhaltens (z.B. mit Nutzung von Schalten und Bremsen) aus und erweitere das Programm entsprechend.
+7. @Profi: 
+    * Informiere Dich über den professionellen Aufbau einer [Verzeichnisstruktur für Java-Projekte](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html).
+    * Organisiere den Beispiel-Code so um, dass alle Klassen zu einer [Package](???) ```lastrada``` gehören, der Quellcode in einem Unterverzeichnis ```src``` und die ```.class``` Dateien in einem Unterverzeichnis ```target``` liegen.
+
+---
+
 ## Packages
 
 <div class="flex">
