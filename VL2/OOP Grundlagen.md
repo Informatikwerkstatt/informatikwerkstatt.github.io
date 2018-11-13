@@ -512,8 +512,8 @@ public class CAuto implements IFahrzeug
 
 ## Let's try
 
-1. Erweitere das Auto-Beispiel um die [SUV-Klasse](/#/16/1); ergänze diese um eine passende Getter Methode
-2. Ergänze das [Interface ```IFahrzeug```](/#/16/3) und dessen Verwendung in der Auto-Klasse (\*)
+1. Erweitere das Auto-Beispiel um die [SUV-Klasse](16/1); ergänze diese um eine passende Getter Methode
+2. Ergänze das [Interface ```IFahrzeug```](16/3) und dessen Verwendung in der Auto-Klasse (\*)
 3. Schreibe ein Hauptprogramm, in dem eine Variable vom Typ ```IFahrzeug``` erstellt wird, in der einmal ein Auto- und einmal eine SUV Objekt abgelegt wird (\*)
 4. Rufe dann die entsprechenden Methoden der jeweiligen Klassen auf (\*)
 
@@ -527,7 +527,7 @@ public class CAuto implements IFahrzeug
 2. Ergänze das Hauptprogramm um diese beiden neuen Objekte und führe es aus
 &rArr; Was stellst Du für diese beiden neuen Objekte fest?
 
-3. __@Profis__ Wie könnte man das [Diagramm](/#/15/2) sinnvoll mit Interfaces ergänzen?
+3. __@Profis__ Wie könnte man das [Diagramm](15/2) sinnvoll mit Interfaces ergänzen?
 4. __@Profis__ Ergänze die SUV Klasse um verschiedene Fahrmodi (Outdoor, Offroad, Urban) mit Hilfe eines [Enums](https://www.baeldung.com/a-guide-to-java-enums)
 
 
