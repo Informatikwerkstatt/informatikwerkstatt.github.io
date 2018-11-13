@@ -755,7 +755,7 @@ Mit-1 & Mit-2 sind gleich
 ## @Home/Übung: Lastrada - ein Java-Programm mit mehreren Klassen
 
 * Abschließend wollen wir zeigen, wie wir ein Java-Programm schreiben und ausführen können, das aus mehreren Klassen besteht
-* Die kleine Anwendung ```Lastrada``` könnt Ihr Euch [hier]() als _Zip_ Datei herunterladen und entpacken
+* Die kleine Anwendung ```Lastrada``` könnt Ihr Euch [hier](https://github.com/Informatikwerkstatt/informatikwerkstatt.github.io/blob/master/VL2/tasks/lastrada.zip) als _Zip_ Datei herunterladen und in ein lokales Verzeichnis entpacken
 * Die beiden folgenden Folien geben eine kurze Beschreibung der Anwendung und Anweisungen für die Übung
 
 ===
