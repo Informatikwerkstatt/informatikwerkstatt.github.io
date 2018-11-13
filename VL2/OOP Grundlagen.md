@@ -448,9 +448,14 @@ public class CSuv extends CAuto
 * mit ```super``` wird der Konstruktor der Oberklasse aufgerufen, dies muss in der ersten Zeile des abgeleiteten Konstruktors geschehen
 * eine Klasse kann mittels ```extends``` nur von _genau einer_ anderen Klasse erben
 
-===
+### Übung/@Home: Pflichtabgabe für 20.11.2018!
 
-### Interfaces (\*)
+1. Erweitere deine zuvor erstellte ```CAuto``` Klasse um die [CSuv-Klasse](16/1); ergänze diese um eine passende Getter Methode.
+2. Ergänze die Klasse ```CSuv``` um die Seriennummer in dem [oben beschriebenen Format](14/2)  
+
+---
+
+## Interfaces (\*)
 
 > Interfaces legen nur die ```public``` Methoden-Definition fest, die in einer Klasse enthalten sein müssen. Die konkrete Implementierung liegt dann in der Klasse. Interfaces können __nicht__ instantiiert werden
 
@@ -512,10 +517,9 @@ public class CAuto implements IFahrzeug
 
 ## Let's try
 
-1. Erweitere das Auto-Beispiel um die [CSuv-Klasse](16/1); ergänze diese um eine passende Getter Methode
-2. Ergänze das [Interface ```IFahrzeug```](16/3) und dessen Verwendung in der Auto-Klasse (\*)
-3. Schreibe ein Hauptprogramm, in dem eine Variable vom Typ ```IFahrzeug``` erstellt wird, in der einmal ein Auto- und einmal ein SUV Objekt abgelegt wird (\*)
-4. Rufe dann die entsprechenden Methoden der jeweiligen Klassen auf (\*)
+1. Ergänze das [Interface ```IFahrzeug```](16/3) und dessen Verwendung in der Auto-Klasse (\*)
+2. Schreibe ein Hauptprogramm, in dem eine Variable vom Typ ```IFahrzeug``` erstellt wird, in der einmal ein Auto- und einmal ein SUV Objekt abgelegt wird (\*)
+3. Rufe dann die entsprechenden Methoden der jeweiligen Klassen auf (\*)
 
 &rArr; Was stellst Du fest?
 
