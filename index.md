@@ -24,6 +24,7 @@
     * [Static](/oop-grundlagen/#/14/1)
     * [Vererbung](/oop-grundlagen/#/15)
     * [Überladen](/oop-grundlagen/#/19)
+    * [Übung: Lastrada](/oop-grundlagen/#/20)
 * [VL3 - Git & Github](/git-github/)
     * [Projekt erstellen](/git-github/#/5)
     * [Git Add](/git-github/#/6/1)
