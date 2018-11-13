@@ -452,8 +452,8 @@ public class CSuv extends CAuto
 
 ### Übung/@Home: Pflichtabgabe für 20.11.2018!
 
-1. Erweitere deine zuvor erstellte ```CAuto``` Klasse um die [CSuv-Klasse](16/1); ergänze diese um eine passende Getter Methode.
-2. Ergänze die Klasse ```CSuv``` um die Seriennummer in dem [oben beschriebenen Format](14/2)  
+1. Erweitere deine zuvor erstellte ```CAuto``` Klasse um die [CSuv-Klasse](#/16/1); ergänze diese um eine passende Getter Methode.
+2. Ergänze die Klasse ```CSuv``` um die Seriennummer in dem [oben beschriebenen Format](#/14/2)  
 
 ---
 
