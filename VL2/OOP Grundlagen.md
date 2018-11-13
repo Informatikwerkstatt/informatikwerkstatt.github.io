@@ -448,6 +448,8 @@ public class CSuv extends CAuto
 * mit ```super``` wird der Konstruktor der Oberklasse aufgerufen, dies muss in der ersten Zeile des abgeleiteten Konstruktors geschehen
 * eine Klasse kann mittels ```extends``` nur von _genau einer_ anderen Klasse erben
 
+===
+
 ### Übung/@Home: Pflichtabgabe für 20.11.2018!
 
 1. Erweitere deine zuvor erstellte ```CAuto``` Klasse um die [CSuv-Klasse](16/1); ergänze diese um eine passende Getter Methode.
