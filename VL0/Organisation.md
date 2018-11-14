@@ -86,11 +86,12 @@ Um zu
 | 23. Okt | [Organisation](/organisation/) |
 | 24. Okt | [Java Grundlagen](/java-grundlagen/) - Programmiersprachen Basiskonzepte|
 | 07. Nov | [OOP Grundlagen](/oop-grundlagen/) - Programmiersprachen Strukturkonzepte |
-| 14. Nov | [Git & Github Einführung](/git-github/) - Software Entwicklungsorganisation |
-| 21. Nov | [Android Grundlagen](/android-grundlagen/) - Verwendung Frameworks und Tools |
-| 28. Nov | [User Interface](/user-interface/) - Frontend-Entwicklung |
-| 05. Dez | [Threads - Activities - Intent](/threads-activities-intent/) - Backend-Entwicklung |
-| 12. Dez | [Sensoren & Persistenz](/sensoren-persistenz/) - Interaktion zwischen Komponenten |
+| 14. Nov | [OOP Grundlagen](/oop-grundlagen/) - Programmiersprachen Strukturkonzepte |
+| 21. Nov | [Git & Github Einführung](/git-github/) - Software Entwicklungsorganisation |
+| 28. Nov | [Android Grundlagen](/android-grundlagen/) - Verwendung Frameworks und Tools |
+| 05. Dez | Android-PRogrammierung 1 |
+| 12. Dez | Android-Programmierung 2 |
+
 
 ===
 
@@ -105,6 +106,21 @@ Um zu
 | 06./08. Feb | 3. Milestone / Abschlusspräsentation |
 
 &rArr; Industrievorträge - Termin(e) werden noch bekannt gegeben
+
+===
+
+### Pflichtabgaben
+
+* Ab Kapitel 2 gibt es wöchentliche Pflichtabgaben
+  * Gewisse Übungen in den Folien sind als "Pflichtabgaben" markiert
+  * Sie sind zu den in der Vorlesung genannten Terminen zu bearbeiten
+* Diese Übungen werden in der Dienstagsübung von den Tutoren abgenommen und benotet
+  * nicht bearbeitet: 0 Punkte
+  * ansatzweise bearbeitet: 1 Punkt
+  * teilweise bearbeitet: 2 Punkte
+  * vollständig bearbeitet: 3 Punkte
+* Die Abnahmetermine sind nicht dazu da, Fragen zu stellen. Dies solltet Ihr rechtzeitig vorher tun
+* Ihr müsst insgesamt mindestens 60% der Übungspunkte erreichen, um die Inforamtikwerkstatt zu bestehen
 
 ---
 
