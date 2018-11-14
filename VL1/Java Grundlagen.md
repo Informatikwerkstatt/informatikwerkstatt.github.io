@@ -230,7 +230,7 @@ public enum Schwierigkeit {
 * Verwendung eines ```enum``` Datentyps:
 
 ```java
-Schwierigkeit level = Schwierigkeits.HOCH;
+Schwierigkeit level = Schwierigkeit.HOCH;
 ```
 
 * Die Variable ```level``` kann einen der Werte des ```enum``` Typs annehmen
