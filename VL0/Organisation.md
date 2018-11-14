@@ -120,7 +120,7 @@ Um zu
   * teilweise bearbeitet: 2 Punkte
   * vollständig bearbeitet: 3 Punkte
 * Die Abnahmetermine sind nicht dazu da, Fragen zu stellen. Dies solltet Ihr rechtzeitig vorher tun
-* Ihr müsst insgesamt mindestens 60% der Übungspunkte erreichen, um die Informatikwerkstatt zu bestehen
+* Ihr müsst insgesamt mindestens 50% der Übungspunkte erreichen, um die Informatikwerkstatt zu bestehen
 
 ---
 
