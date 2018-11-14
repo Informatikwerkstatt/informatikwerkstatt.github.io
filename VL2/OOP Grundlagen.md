@@ -793,7 +793,7 @@ Mit-1 & Mit-2 sind gleich
 2. Compiliere die Dateien (mit ```javac *.java```) und führe das Programm aus (mit ```java CMain```)
 3. Versuche, Struktur und Logik des Programms zu verstehen
 4. Ändere das Programm, so dass die Beschleunigung nicht nur vom Fahrertyp, sondern auch vom Auto abhängt
-5. Entwickle eine Unterklasse ```CLkw``` von ```CAuto``` mit einer maximalen und einer tatsächlichen Beladung. Definiere das Fahrverhalten von ```CLkw``` in der Methode ```CFahrer.fahre()``` unter Berücksichtigung der tatsächlichen Beladung (geringere Höchstgeschwindigkeit, langsamere Beschleunigung)
+5. _Bonusaufgabe_: Entwickle eine Unterklasse ```CLkw``` von ```CAuto``` mit einer maximalen und einer tatsächlichen Beladung. Definiere das Fahrverhalten von ```CLkw``` in der Methode ```CFahrer.fahre()``` unter Berücksichtigung der tatsächlichen Beladung (geringere Höchstgeschwindigkeit, langsamere Beschleunigung)
 
 ===
 
