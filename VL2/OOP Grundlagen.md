@@ -450,7 +450,7 @@ public class CSuv extends CAuto
 
 ===
 
-### Übung/@Home: Pflichtabgabe zum 20.11.2018!
+### Übung/@Home: Pflichtabgabe 1 zum 20.11.2018!
 
 1. Erweitere deine zuvor erstellte ```CAuto``` Klasse um die [CSuv-Klasse](#/16/1); ergänze diese um eine passende Getter Methode.
 2. Ergänze die Klasse ```CSuv``` um die Seriennummer in dem [oben beschriebenen Format ```0-0, 0-1, ...```](#/14/2)  
@@ -787,7 +787,7 @@ Mit-1 & Mit-2 sind gleich
 
 ===
 
-### Lastrada: Übung/@Home: Pflichtabgabe zum 20.11.2018
+### Lastrada: Übung/@Home: Pflichtabgabe 2 zum 20.11.2018
 
 1. Lade die ZIP-Datei herunter, entpacke sie in ein Verzeichnis
 2. Compiliere die Dateien (mit ```javac *.java```) und führe das Programm aus (mit ```java CMain```)
