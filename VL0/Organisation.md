@@ -89,7 +89,7 @@ Um zu
 | 14. Nov | [OOP Grundlagen](/oop-grundlagen/) - Programmiersprachen Strukturkonzepte |
 | 21. Nov | [Git & Github Einführung](/git-github/) - Software Entwicklungsorganisation |
 | 28. Nov | [Android Grundlagen](/android-grundlagen/) - Verwendung Frameworks und Tools |
-| 05. Dez | Android-PRogrammierung 1 |
+| 05. Dez | Android-Programmierung 1 |
 | 12. Dez | Android-Programmierung 2 |
 
 
