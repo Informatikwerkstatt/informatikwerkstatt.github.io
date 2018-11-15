@@ -91,7 +91,7 @@ Um zu
 | 28. Nov | [Android Grundlagen](/android-grundlagen/) - Verwendung Frameworks und Tools |
 | 05. Dez | Android-Programmierung 1 |
 | 12. Dez | Android-Programmierung 2 |
-
+| 19. Dez | evtl. Android-Programmierung 3 |
 
 ===
 
@@ -100,8 +100,8 @@ Um zu
 | Datum   | Thema |
 |:--------|:------|
 | 27. Nov | Beginn Projekt- und Gruppenfindung |
-| 11. Dez | Vorstellung der Projektideen als Kurzvortrag |
-| 19. Dez | 1. Milestone |
+| 11. Dez | Vorstellung der Projektideen (1 Kurzvortrag pro Gruppe) |
+| 9. Jan | 1. Milestone (Kurzvortrag pro Gruppe) |
 | 23. Jan | 2. Milestone |
 | 06./08. Feb | 3. Milestone / Abschlusspräsentation |
 
