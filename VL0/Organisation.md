@@ -103,7 +103,7 @@ Um zu
 | 11. Dez | Vorstellung der Projektideen (1 Kurzvortrag pro Gruppe) |
 | 9. Jan | 1. Milestone (Kurzvortrag pro Gruppe) |
 | 23. Jan | 2. Milestone |
-| 06./08. Feb | 3. Milestone / Abschlusspräsentation |
+| 06. Feb | 3. Milestone / Abschlusspräsentation |
 
 &rArr; Industrievorträge - Termin(e) werden noch bekannt gegeben
 
