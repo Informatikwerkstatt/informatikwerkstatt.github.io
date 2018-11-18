@@ -457,76 +457,7 @@ public class CSuv extends CAuto
 
 ---
 
-## Interfaces
-
-> Interfaces legen nur die ```public``` Methoden-Definition fest, die in einer Klasse enthalten sein müssen. Die konkrete Implementierung liegt dann in der Klasse. Interfaces können __nicht__ instantiiert werden
-
-```java
-public interface IFahrzeug
-{
-  void schalte( final int p_gang );
-  void beschleunige( final int p_inkrement );
-  void bremse( final int p_dekrement );
-}
-```
-
-===
-
-### Implementierung des Fahrzeug-Interface
-
-```java
-public class CAuto implements IFahrzeug
-{
-  // --- Eigenschaften ---
-  // --- Konstruktoren ---
-  // --- Methoden / Verhalten ---
-
-  @Override
-  public void schalte( final int p_gang )
-  {
-      m_gang = p_gang % (m_anzahlGaenge + 1);
-      m_gang = m_gang < 0 ? 0 : m_gang;
-  }
-
-  @Override
-  public void beschleunige( final int p_inkrement )
-  {
-      m_aktGeschwindigkeit += p_inkrement;
-      m_aktGeschwindigkeit = m_aktGeschwindigkeit > m_maxGeschwindigkeit ? m_maxGeschwindigkeit : m_aktGeschwindigkeit;
-  }
-  
-  @Override
-  public void bremse( final int p_dekrement )
-  {
-      m_aktGeschwindigkeit -= p_dekrement;
-      m_aktGeschwindigkeit = m_aktGeschwindigkeit < 0 ? 0 : m_aktGeschwindigkeit;
-  }
-}
-```
-
-===
-
-### Vererbung mit Interfaces
-
-<span class="rrd" data-rrd="Diagram(Terminal('public'), Terminal('class'), NonTerminal('Klassenname der abgeleiteten Klasse'), Optional(Sequence( Terminal('extends'), NonTerminal('Oberklasse')), 'skip'), Optional( Sequence(Terminal('implements'), OneOrMore( NonTerminal('Interface-Klasse'), Terminal(','))), 'skip'))"></span>
-
-* Klassen erben mittels ```implements``` von Interfaces
-* Eine Klasse kann von mehreren Interfaces erben
-* Alle geerbten Interface-Methoden _müssen_ implementiert werden
-* Implementierte Interface-Methoden müssen mit der Annotation ```@Override``` versehen werden
-
---- 
-
-## Let's try
-
-1. Ergänze das [Interface ```IFahrzeug```](16/3) und dessen Verwendung in der ```CAuto```-Klasse
-2. Schreibe ein Hauptprogramm, in dem eine Variable vom Typ ```IFahrzeug``` erstellt wird, in der einmal ein ```CAuto```- und einmal ein ```CSuv```-Objekt abgelegt wird
-3. Rufe dann die entsprechenden Methoden der jeweiligen Klassen auf (\*)
-
-&rArr; Was stellst Du fest?
-
----
-## Für Vererbung braucht man starke Typen ...
+### Für Vererbung braucht man starke Typen ...
 
 * Bei Vererbung gibt es einiges Neues in Bezug auf die Kompatibilität:
   * Welche Variablentypen sind miteinander kompatibel (d.h. können einander zugewiesen werden)?
@@ -600,9 +531,77 @@ CAuto auto3 = auto1;
 
 ---
 
+## Interfaces
+
+> Interfaces legen nur die ```public``` Methoden-Definition fest, die in einer Klasse enthalten sein müssen. Die konkrete Implementierung liegt dann in der Klasse. Interfaces können __nicht__ instantiiert werden
+
+```java
+public interface IFahrzeug
+{
+  void schalte( final int p_gang );
+  void beschleunige( final int p_inkrement );
+  void bremse( final int p_dekrement );
+}
+```
+
+===
+
+### Implementierung des Fahrzeug-Interface
+
+```java
+public class CAuto implements IFahrzeug
+{
+  // --- Eigenschaften ---
+  // --- Konstruktoren ---
+  // --- Methoden / Verhalten ---
+
+  @Override
+  public void schalte( final int p_gang )
+  {
+      m_gang = p_gang % (m_anzahlGaenge + 1);
+      m_gang = m_gang < 0 ? 0 : m_gang;
+  }
+
+  @Override
+  public void beschleunige( final int p_inkrement )
+  {
+      m_aktGeschwindigkeit += p_inkrement;
+      m_aktGeschwindigkeit = m_aktGeschwindigkeit > m_maxGeschwindigkeit ? m_maxGeschwindigkeit : m_aktGeschwindigkeit;
+  }
+  
+  @Override
+  public void bremse( final int p_dekrement )
+  {
+      m_aktGeschwindigkeit -= p_dekrement;
+      m_aktGeschwindigkeit = m_aktGeschwindigkeit < 0 ? 0 : m_aktGeschwindigkeit;
+  }
+}
+```
+
+===
+
+### Vererbung mit Interfaces
+
+<span class="rrd" data-rrd="Diagram(Terminal('public'), Terminal('class'), NonTerminal('Klassenname der abgeleiteten Klasse'), Optional(Sequence( Terminal('extends'), NonTerminal('Oberklasse')), 'skip'), Optional( Sequence(Terminal('implements'), OneOrMore( NonTerminal('Interface-Klasse'), Terminal(','))), 'skip'))"></span>
+
+* Klassen erben mittels ```implements``` von Interfaces
+* Eine Klasse kann von mehreren Interfaces erben
+* Alle geerbten Interface-Methoden _müssen_ implementiert werden
+* Implementierte Interface-Methoden müssen mit der Annotation ```@Override``` versehen werden
+
+--- 
+
+## Let's try
+
+1. Ergänze das [Interface ```IFahrzeug```](16/3) und dessen Verwendung in der ```CAuto```-Klasse
+2. Schreibe ein Hauptprogramm, in dem eine Variable vom Typ ```IFahrzeug``` erstellt wird, in der einmal ein ```CAuto```- und einmal ein ```CSuv```-Objekt abgelegt wird
+3. Rufe dann die entsprechenden Methoden der jeweiligen Klassen auf (\*)
+
+&rArr; Was stellst Du fest?
+
 ## Let's try (\*)
 
-1. Ergänze nun die Klassen für LKW und Motorrad mit passenden Methoden (Motorrad und LKW müssen je eine individuelle Eigenschaft mit Getter und ggf. Setter erhalten)
+1. Ergänze nun neue Klassen für LKW und Motorrad mit passenden Methoden (Motorrad und LKW müssen je eine individuelle Eigenschaft mit Getter und ggf. Setter erhalten)
 2. Ergänze das Hauptprogramm um diese beiden neuen Objekte und führe es aus
 &rArr; Was stellst Du für diese beiden neuen Objekte fest?
 
