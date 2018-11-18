@@ -287,7 +287,7 @@ Note: Erklärung anhand des Büros von Prof Müller: Sitzt Prof Müller während
 
 ---
 
-## Es geht auch ohne Objekt &rarr; Static (\*)
+## Es geht auch ohne Objekt &rarr; Static
 
 > Mit dem Schlüsselwort ```static``` kann man Methoden oder Eigenschaften ohne Objekt zu benutzen. Bekanntestes Beispiel sind die [mathematischen Funktionen](https://docs.oracle.com/javase/10/docs/api/java/lang/Math.html) z.B. ```Math.sin(3)```. Statische Methoden sind nützlich, wenn es sich um eine rein funktionale Struktur ohne Variablen etc. handelt.
 
@@ -297,7 +297,7 @@ Note: Wozu kann man das Konzept von "static" sinnvoll verwenden? Problem: Serien
 
 ===
 
-### Auto mit Seriennummer (\*)
+### Auto mit Seriennummer
 __Klassenvariablen & -methoden__  
 
 ```java
@@ -354,7 +354,7 @@ public class CAuto
 
 ===
 
-## @Let's try  (\*)
+## @Let's try
 
 1. Ergänze die Definition der Klasse ```CAuto``` um die obigen Klassenvariablen
 2. Teste die Methoden zur Anzahl Autos und zur Seriennummer mit Hilfe eines ````main()```-Programms
@@ -457,7 +457,7 @@ public class CSuv extends CAuto
 
 ---
 
-## Interfaces (\*)
+## Interfaces
 
 > Interfaces legen nur die ```public``` Methoden-Definition fest, die in einer Klasse enthalten sein müssen. Die konkrete Implementierung liegt dann in der Klasse. Interfaces können __nicht__ instantiiert werden
 
@@ -472,7 +472,7 @@ public interface IFahrzeug
 
 ===
 
-### Implementierung des Fahrzeug-Interface (\*)
+### Implementierung des Fahrzeug-Interface
 
 ```java
 public class CAuto implements IFahrzeug
@@ -506,12 +506,12 @@ public class CAuto implements IFahrzeug
 
 ===
 
-### Vererbung mit Interfaces (\*)
+### Vererbung mit Interfaces
 
 <span class="rrd" data-rrd="Diagram(Terminal('public'), Terminal('class'), NonTerminal('Klassenname der abgeleiteten Klasse'), Optional(Sequence( Terminal('extends'), NonTerminal('Oberklasse')), 'skip'), Optional( Sequence(Terminal('implements'), OneOrMore( NonTerminal('Interface-Klasse'), Terminal(','))), 'skip'))"></span>
 
 * Klassen erben mittels ```implements``` von Interfaces
-* eine Klasse kann von mehreren Interfaces erben
+* Eine Klasse kann von mehreren Interfaces erben
 * Alle geerbten Interface-Methoden _müssen_ implementiert werden
 * Implementierte Interface-Methoden müssen mit der Annotation ```@Override``` versehen werden
 
@@ -519,8 +519,8 @@ public class CAuto implements IFahrzeug
 
 ## Let's try
 
-1. Ergänze das [Interface ```IFahrzeug```](16/3) und dessen Verwendung in der Auto-Klasse (\*)
-2. Schreibe ein Hauptprogramm, in dem eine Variable vom Typ ```IFahrzeug``` erstellt wird, in der einmal ein Auto- und einmal ein SUV Objekt abgelegt wird (\*)
+1. Ergänze das [Interface ```IFahrzeug```](16/3) und dessen Verwendung in der Auto-Klasse
+2. Schreibe ein Hauptprogramm, in dem eine Variable vom Typ ```IFahrzeug``` erstellt wird, in der einmal ein Auto- und einmal ein SUV-Objekt abgelegt wird
 3. Rufe dann die entsprechenden Methoden der jeweiligen Klassen auf (\*)
 
 &rArr; Was stellst Du fest?
