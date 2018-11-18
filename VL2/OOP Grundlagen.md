@@ -459,10 +459,10 @@ public class CSuv extends CAuto
 
 ### Für Vererbung braucht man starke Typen ...
 
-* Bei Vererbung gibt es einiges Neues in Bezug auf die _Kompatibilität_ von Datentypen:
+* Bei Vererbung gibt es einiges Neues bzgl. der _Kompatibilität_ von Datentypen:
   * Welche Variablentypen sind miteinander kompatibel (d.h. können einander zugewiesen werden)?
   * (Wie) kann ich zur Laufzeit den Typ einer Variable testen? 
-* Betrachten wir dazu unsere beiden Klassen ```CAuto``` und ```CSuv```. und folgendes Programmfragment:
+* Betrachten wir unsere beiden Klassen ```CAuto``` und ```CSuv``` und folgendes Programmfragment:
 
 ```java
   CAuto auto1 = new CSuv("gelb", "golf", 5, 160, false);
