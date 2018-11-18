@@ -608,7 +608,7 @@ public class CAuto implements IFahrzeug
 1. Ergänze eine neue Klassen für LKW und Motorrad mit passenden Methoden
   * Motorrad und LKW müssen je eine individuelle Eigenschaft mit Getter und ggf. Setter erhalten
   * Überschreibe die ```toString()``` Methode für LKW und Motorrad in geeigneter Art und Weise
-2. Ergänze das Hauptprogramm um diese beiden neuen Objekte (analog zur vorigen Folie) und führe es aus
+2. Ergänze das Hauptprogramm mit Tests für diese beiden neuen Objekte (analog zur vorigen Folie) und führe es aus
 3. _Bonusaufgabe_: Wie könnte man das [Diagramm](15/2) sinnvoll mit Interfaces ergänzen?
 
 
