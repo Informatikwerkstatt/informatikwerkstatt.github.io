@@ -586,7 +586,7 @@ public class CAuto implements IFahrzeug
 
 <span class="rrd" data-rrd="Diagram(Terminal('public'), Terminal('class'), NonTerminal('Klassenname der abgeleiteten Klasse'), Optional(Sequence( Terminal('extends'), NonTerminal('Oberklasse')), 'skip'), Optional( Sequence(Terminal('implements'), OneOrMore( NonTerminal('Interface-Klasse'), Terminal(','))), 'skip'))"></span>
 
-* Klassen erben mittels ```implements``` von Interfaces
+* Klassen erben mittels ```implements``` von Interfaces (Class ```implements``` Interface)
 * Eine Klasse kann von mehreren Interfaces erben
 * Alle geerbten Interface-Methoden _müssen_ implementiert werden
 * Implementierte Interface-Methoden müssen mit der Annotation ```@Override``` versehen werden
@@ -597,16 +597,18 @@ public class CAuto implements IFahrzeug
 
 1. Ergänze das [Interface ```IFahrzeug```](16/3) und dessen Verwendung in der ```CAuto```-Klasse
 2. Schreibe ein Hauptprogramm, in dem eine Variable vom Typ ```IFahrzeug``` erstellt wird, in der einmal ein ```CAuto```- und einmal ein ```CSuv```-Objekt abgelegt wird
-3. Rufe dann die entsprechenden Methoden der jeweiligen Klassen auf (\*)
+3. Rufe aus dem Hauptprogramm die entsprechenden Methoden der jeweiligen Klassen auf
 
 &rArr; Was stellst Du fest?
 
+---
+
 ## Let's try (\*)
 
-1. Ergänze nun neue Klassen für LKW und Motorrad mit passenden Methoden (Motorrad und LKW müssen je eine individuelle Eigenschaft mit Getter und ggf. Setter erhalten)
+1. Ergänze eine neue Klassen für LKW und Motorrad mit passenden Methoden
+  * Motorrad und LKW müssen je eine individuelle Eigenschaft mit Getter und ggf. Setter erhalten
+  * Überschreibe die ```toString()``` Methode für LKW und Motrrad
 2. Ergänze das Hauptprogramm um diese beiden neuen Objekte und führe es aus
-&rArr; Was stellst Du für diese beiden neuen Objekte fest?
-
 3. __@Profis__ Wie könnte man das [Diagramm](15/2) sinnvoll mit Interfaces ergänzen?
 4. __@Profis__ Ergänze die ```CSuv``` Klasse um verschiedene Fahrmodi (Outdoor, Offroad, Urban) mit Hilfe eines [Enums](https://www.baeldung.com/a-guide-to-java-enums)
 
