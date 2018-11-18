@@ -470,7 +470,7 @@ public class CSuv extends CAuto
 ```
 
 * Die erste Zeile ist korrekt: Ich kann ein ```CSuv``` Objekt einer ```CAuto``` Variable zuweisen: Ein ```CSuv``` ist ein ```CAuto```!
-* Was ist mit der zweiten Zeile? Versuche das Programm zu kompilieren! Verwende dazu als Vorlage die drei Klassen ```CAuto```, ```CSuv``` und ```CMain``` [Zip-Datei hier]()!
+* Was ist mit der zweiten Zeile? Versuche das Programm zu kompilieren! Verwende dazu als Vorlage die drei Klassen ```CAuto```, ```CSuv``` und ```CMain``` [Zip-Datei hier](https://github.com/Informatikwerkstatt/informatikwerkstatt.github.io/blob/master/VL2/tasks/hierarchische-typen.zip)!
 
 === 
 
