@@ -467,7 +467,7 @@ public class CSuv extends CAuto
 ```java
   CAuto auto1 = new CSuv("gelb", "golf", 5, 160, false);
   CSuv suv1 = auto1;
-```java
+```
 
 * Die erste Zeile ist korrekt: Ich kann ein ```CSuv``` Objekt einer CAuto Variable zuweisen: Ein CSuv ist ein CAuto!
 * Was ist mit der zweiten Zeile? Versuche das Programm zu kompilieren! Verwende dazu als Vorlage die drei Klassen ```CAuto```, ```CSuv``` und ```CMain``` [Zip-Datei hier]()!
@@ -486,7 +486,7 @@ public class CSuv extends CAuto
   CSuv suv1 = (CSuv) auto1;
   System.out.println(auto1);
   System.out.println(suv1);
-```java
+```
 
 * Jetzt versteht es auch der Compiler, dass ```auto1``` als Typ ```CSuv``` interpretiert werden soll
 
@@ -500,7 +500,7 @@ public class CSuv extends CAuto
 ```java
   CAuto auto2 = new CAuto("grün", "trabbi", 4, 120);
   CSuv suv2 = (CSuv) auto2;
-```java
+```
 
 * Was passiert hier? Versuche, das Beispiel zu kompilieren und auszuführen!  
   * Der Compiler lässt sich durch das Casting täuschen, das Programm kompiliert 
@@ -527,7 +527,7 @@ CAuto auto3 = auto1;
         }
         System.out.println(auto4);
     }
-```java
+```
 
 ---
 
