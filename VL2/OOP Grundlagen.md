@@ -518,7 +518,7 @@ public class CSuv extends CAuto
     CAuto auto1 = new CSuv("gelb", "golf", 5, 160, false);
     CAuto auto2 = new CAuto("grün", "trabbi", 4, 120);
 
-    CAuto auto3 = auto1; //auto1
+    CAuto auto3 = auto1; 
     if (auto3 instanceof CSuv){
       ((CSuv)auto3).setOffroadFahrbar(true); // Casting nötig, sonst Compiler-Fehler!
     }
@@ -526,7 +526,7 @@ public class CSuv extends CAuto
 
     CAuto auto4 = auto2;
     if (auto4 instanceof CSuv){
-      ((CSuv)auto4).setOffroadFahrbar(true);
+      ((CSuv)auto4).setOffroadFahrbar(true); // Casting nötig, sonst Compiler-Fehler!
     }
     System.out.println(auto4);
 ```
