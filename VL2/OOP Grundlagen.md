@@ -519,11 +519,77 @@ public class CAuto implements IFahrzeug
 
 ## Let's try
 
-1. Ergänze das [Interface ```IFahrzeug```](16/3) und dessen Verwendung in der Auto-Klasse
-2. Schreibe ein Hauptprogramm, in dem eine Variable vom Typ ```IFahrzeug``` erstellt wird, in der einmal ein Auto- und einmal ein SUV-Objekt abgelegt wird
+1. Ergänze das [Interface ```IFahrzeug```](16/3) und dessen Verwendung in der ```CAuto```-Klasse
+2. Schreibe ein Hauptprogramm, in dem eine Variable vom Typ ```IFahrzeug``` erstellt wird, in der einmal ein ```CAuto```- und einmal ein ```CSuv```-Objekt abgelegt wird
 3. Rufe dann die entsprechenden Methoden der jeweiligen Klassen auf (\*)
 
 &rArr; Was stellst Du fest?
+
+---
+## Für Vererbung braucht man starke Typen ...
+
+* Bei Vererbung gibt es einiges Neues in Bezug auf die Kompatibilität:
+  * Welche Variablentypen sind miteinander kompatibel (d.h. können einander zugewiesen werden)?
+  * (Wie) kann ich zur Laufzeit den Typ einer Variable testen? 
+* Betrachten wir dazu unsere beiden Klassen ```CAuto``` und ```CSuv```. und folgendes Programmfragment in einer ```main()``` Methode
+```java
+  CAuto auto1 = new CSuv("gelb", "golf", 5, 160, false);
+  CSuv suv1 = auto1;
+```java
+* Die erste Zeile ist korrekt: Ich kann ein ```CSuv``` Objekt einer CAuto Variable zuweisen: Ein CSuv ist ein CAuto!
+* Was ist mit der zweiten Zeile? Versuche das Programm zu kompilieren! Verwende dazu als Vorlage die drei Klassen ```CAuto```, ```CSuv``` und ```CMain``` [Zip-Datei hier]()!
+
+=== 
+
+### Laufzeitumgebung und Compiler haben unterschiedliche Sicht auf Vererbung
+
+* Beim obigen Programm gibt es einen Fehler beim kompilieren!
+  * Die Laufzeitumgebung weiß, dass in der Variable ```auto1``` ein Objekt vom Typ ```CSuv``` gespeicher ist.
+  * Der Compiler sieht aber nur die Variablendeklaration ```CAuto``` &rarr, Fehler!
+* Was tun? &rarr; Casting!
+  ```java
+  CAuto auto1 = new CSuv("gelb", "golf", 5, 160, false);
+  CSuv suv1 = (CSuv) auto1;
+  System.out.println(auto1);
+  System.out.println(suv1);
+```java
+* Jetzt versteht es auch der Compiler, dass ```auto1``` als Typ ```CSuv``` interpretiert werden soll
+
+===
+
+### Der Compiler ist manchmal leicht zu täuschen ...
+
+* Die Methode auf der letztren Folie funktioniert nur, wenn ```auto1``` wirklich ein ```CSuv``` ist.
+* Betrachte folgendes Beispiel:
+```java
+  CAuto auto2 = new CAuto("grün", "trabbi", 4, 120);
+  CSuv suv2 = (CSuv) auto2;
+```java
+* Was passiert hier? Versuche, das Beispiel zu kompilieren und auszuführen!  
+  * Der Compiler lässt sich durch das Casting täuschen, das Programm kompiliert 
+  * Beim Ausführen tritt jedoch eine ```java.lang.ClassCastException``` auf
+
+=== 
+
+### Der instanceof Befehl
+
+* Was mache ich, wenn ich nicht weiß, ob der Typ einer Variable ```CAuto``` oder eine davon abgeleitete Klasse wie ```CSuv``` ist?
+* Mit dem Operator ```instanceof``` kannst Du es zur Laufzeit herausfinden und reagieren
+* Die Variablen ```auto1``` und ```auto2``` sind wie auf den vorigen Folien definiert:
+```java
+CAuto auto3 = auto1;
+        if (auto3 instanceof CSuv){
+            ((CSuv)auto3).setOffroadFahrbar(true); // Casting nötig, sonst Compiler-Fehler!
+        }
+        System.out.println(auto3);
+
+        CAuto auto4 = auto2;
+        if (auto4 instanceof CSuv){
+            ((CSuv)auto4).setOffroadFahrbar(true);
+        }
+        System.out.println(auto4);
+    }
+```java
 
 ---
 
