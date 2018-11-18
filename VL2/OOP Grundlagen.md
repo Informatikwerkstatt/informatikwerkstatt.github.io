@@ -476,7 +476,7 @@ public class CSuv extends CAuto
 
 ### Laufzeitumgebung und Compiler haben unterschiedliche Sicht auf Vererbung
 
-* Beim obigen Programm gibt es einen Fehler beim kompilieren!
+* Beim obigen Programm gibt es einen Fehler beim Kompilieren!
   * Die Laufzeitumgebung weiß, dass in der Variable ```auto1``` ein Objekt vom Typ ```CSuv``` gespeicher ist.
   * Der Compiler sieht aber nur die Variablendeklaration ```CAuto``` &rarr; Fehler!
 * Was tun? &rarr; Casting!
@@ -494,7 +494,7 @@ public class CSuv extends CAuto
 
 ### Der Compiler ist manchmal leicht zu täuschen ...
 
-* Die Methode auf der letztren Folie funktioniert nur, wenn ```auto1``` wirklich ein ```CSuv``` ist.
+* Die Lösung auf der vorigen Folie funktioniert nur, wenn ```auto1``` wirklich ein ```CSuv``` ist.
 * Betrachte folgendes Beispiel:
 
 ```java
@@ -512,21 +512,23 @@ public class CSuv extends CAuto
 
 * Was mache ich, wenn ich nicht weiß, ob der Typ einer Variable ```CAuto``` oder eine davon abgeleitete Klasse wie ```CSuv``` ist?
 * Mit dem Operator ```instanceof``` kannst Du es zur Laufzeit herausfinden und reagieren
-* Die Variablen ```auto1``` und ```auto2``` sind wie auf den vorigen Folien definiert:
 
 ```java
-CAuto auto3 = auto1;
-        if (auto3 instanceof CSuv){
-            ((CSuv)auto3).setOffroadFahrbar(true); // Casting nötig, sonst Compiler-Fehler!
-        }
-        System.out.println(auto3);
+    // auto1 und auto2 können irgendwo her kommen, wir kennen nur den Typ "CAuto"
+    CAuto auto1 = new CSuv("gelb", "golf", 5, 160, false);
+    CAuto auto2 = new CAuto("grün", "trabbi", 4, 120);
 
-        CAuto auto4 = auto2;
-        if (auto4 instanceof CSuv){
-            ((CSuv)auto4).setOffroadFahrbar(true);
-        }
-        System.out.println(auto4);
+    CAuto auto3 = auto1; //auto1
+    if (auto3 instanceof CSuv){
+      ((CSuv)auto3).setOffroadFahrbar(true); // Casting nötig, sonst Compiler-Fehler!
     }
+    System.out.println(auto3);
+
+    CAuto auto4 = auto2;
+    if (auto4 instanceof CSuv){
+      ((CSuv)auto4).setOffroadFahrbar(true);
+    }
+    System.out.println(auto4);
 ```
 
 ---
