@@ -532,10 +532,12 @@ public class CAuto implements IFahrzeug
   * Welche Variablentypen sind miteinander kompatibel (d.h. können einander zugewiesen werden)?
   * (Wie) kann ich zur Laufzeit den Typ einer Variable testen? 
 * Betrachten wir dazu unsere beiden Klassen ```CAuto``` und ```CSuv```. und folgendes Programmfragment in einer ```main()``` Methode
+
 ```java
   CAuto auto1 = new CSuv("gelb", "golf", 5, 160, false);
   CSuv suv1 = auto1;
 ```java
+
 * Die erste Zeile ist korrekt: Ich kann ein ```CSuv``` Objekt einer CAuto Variable zuweisen: Ein CSuv ist ein CAuto!
 * Was ist mit der zweiten Zeile? Versuche das Programm zu kompilieren! Verwende dazu als Vorlage die drei Klassen ```CAuto```, ```CSuv``` und ```CMain``` [Zip-Datei hier]()!
 
@@ -545,14 +547,16 @@ public class CAuto implements IFahrzeug
 
 * Beim obigen Programm gibt es einen Fehler beim kompilieren!
   * Die Laufzeitumgebung weiß, dass in der Variable ```auto1``` ein Objekt vom Typ ```CSuv``` gespeicher ist.
-  * Der Compiler sieht aber nur die Variablendeklaration ```CAuto``` &rarr, Fehler!
+  * Der Compiler sieht aber nur die Variablendeklaration ```CAuto``` &rarr; Fehler!
 * Was tun? &rarr; Casting!
-  ```java
+
+```java
   CAuto auto1 = new CSuv("gelb", "golf", 5, 160, false);
   CSuv suv1 = (CSuv) auto1;
   System.out.println(auto1);
   System.out.println(suv1);
 ```java
+
 * Jetzt versteht es auch der Compiler, dass ```auto1``` als Typ ```CSuv``` interpretiert werden soll
 
 ===
@@ -561,10 +565,12 @@ public class CAuto implements IFahrzeug
 
 * Die Methode auf der letztren Folie funktioniert nur, wenn ```auto1``` wirklich ein ```CSuv``` ist.
 * Betrachte folgendes Beispiel:
+
 ```java
   CAuto auto2 = new CAuto("grün", "trabbi", 4, 120);
   CSuv suv2 = (CSuv) auto2;
 ```java
+
 * Was passiert hier? Versuche, das Beispiel zu kompilieren und auszuführen!  
   * Der Compiler lässt sich durch das Casting täuschen, das Programm kompiliert 
   * Beim Ausführen tritt jedoch eine ```java.lang.ClassCastException``` auf
@@ -576,6 +582,7 @@ public class CAuto implements IFahrzeug
 * Was mache ich, wenn ich nicht weiß, ob der Typ einer Variable ```CAuto``` oder eine davon abgeleitete Klasse wie ```CSuv``` ist?
 * Mit dem Operator ```instanceof``` kannst Du es zur Laufzeit herausfinden und reagieren
 * Die Variablen ```auto1``` und ```auto2``` sind wie auf den vorigen Folien definiert:
+
 ```java
 CAuto auto3 = auto1;
         if (auto3 instanceof CSuv){
