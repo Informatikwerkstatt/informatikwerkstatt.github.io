@@ -462,14 +462,14 @@ public class CSuv extends CAuto
 * Bei Vererbung gibt es einiges Neues in Bezug auf die Kompatibilität:
   * Welche Variablentypen sind miteinander kompatibel (d.h. können einander zugewiesen werden)?
   * (Wie) kann ich zur Laufzeit den Typ einer Variable testen? 
-* Betrachten wir dazu unsere beiden Klassen ```CAuto``` und ```CSuv```. und folgendes Programmfragment in einer ```main()``` Methode
+* Betrachten wir dazu unsere beiden Klassen ```CAuto``` und ```CSuv```. und folgendes Programmfragment:
 
 ```java
   CAuto auto1 = new CSuv("gelb", "golf", 5, 160, false);
   CSuv suv1 = auto1;
 ```
 
-* Die erste Zeile ist korrekt: Ich kann ein ```CSuv``` Objekt einer CAuto Variable zuweisen: Ein CSuv ist ein CAuto!
+* Die erste Zeile ist korrekt: Ich kann ein ```CSuv``` Objekt einer ```CAuto``` Variable zuweisen: Ein ```CSuv``` ist ein ```CAuto```!
 * Was ist mit der zweiten Zeile? Versuche das Programm zu kompilieren! Verwende dazu als Vorlage die drei Klassen ```CAuto```, ```CSuv``` und ```CMain``` [Zip-Datei hier]()!
 
 === 
