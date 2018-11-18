@@ -492,7 +492,7 @@ public class CSuv extends CAuto
 
 ===
 
-### Der Compiler ist manchmal leicht zu täuschen ...
+### Der Compiler ist manchmal leicht zu täuschen
 
 * Die Lösung auf der vorigen Folie funktioniert nur, wenn ```auto1``` wirklich ein ```CSuv``` ist.
 * Betrachte folgendes Beispiel:
@@ -503,7 +503,7 @@ public class CSuv extends CAuto
 ```
 
 * Was passiert hier? Versuche, das Beispiel zu kompilieren und auszuführen!  
-  * Der Compiler lässt sich durch das Casting täuschen, das Programm kompiliert 
+  * Der Compiler lässt sich durch das Casting "täuschen", das Programm kompiliert 
   * Beim Ausführen tritt jedoch eine ```java.lang.ClassCastException``` auf
 
 === 
