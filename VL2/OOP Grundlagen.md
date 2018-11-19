@@ -595,7 +595,7 @@ public class CAuto implements IFahrzeug
 
 ## Let's try: Pflichtabgabe 3 für 27.11.2018
 
-1. Ergänze das [Interface ```IFahrzeug```](#/16/3) und dessen Verwendung in der ```CAuto```-Klasse
+1. Ergänze das [Interface ```IFahrzeug```](#/18) und dessen Verwendung in der ```CAuto```-Klasse
 2. Schreibe ein Hauptprogramm (Klasse ```CMain```), in dem eine Variable vom Typ ```IFahrzeug``` erstellt wird, in der einmal ein ```CAuto```- und einmal ein ```CSuv```-Objekt abgelegt wird
 3. Rufe aus dem Hauptprogramm die entsprechenden Methoden der jeweiligen Klassen auf
 
