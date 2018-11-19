@@ -593,23 +593,23 @@ public class CAuto implements IFahrzeug
 
 --- 
 
-## Let's try
+## Let's try: Pflichtabgabe 3 für 27.11.2018
 
 1. Ergänze das [Interface ```IFahrzeug```](16/3) und dessen Verwendung in der ```CAuto```-Klasse
-2. Schreibe ein Hauptprogramm, in dem eine Variable vom Typ ```IFahrzeug``` erstellt wird, in der einmal ein ```CAuto```- und einmal ein ```CSuv```-Objekt abgelegt wird
+2. Schreibe ein Hauptprogramm (Klasse ```CMain```), in dem eine Variable vom Typ ```IFahrzeug``` erstellt wird, in der einmal ein ```CAuto```- und einmal ein ```CSuv```-Objekt abgelegt wird
 3. Rufe aus dem Hauptprogramm die entsprechenden Methoden der jeweiligen Klassen auf
 
 &rArr; Was stellst Du fest?
 
 ---
 
-## Übung/@Home: Pflichtabgabe 3 für 27.11.2018
+## Übung/@Home: Pflichtabgabe 4 für 27.11.2018
 
-1. Ergänze eine neue Klassen für LKW und Motorrad mit passenden Methoden
-  * Motorrad und LKW müssen je eine individuelle Eigenschaft mit Getter und ggf. Setter erhalten
+1. Ergänze zwei neue Klassen für ein Motorrad und einen LKW  mit passenden Methoden
+  * Definiere für das Motorrad und LKW je eine individuelle Eigenschaft mit Getter und ggf. Setter
   * Überschreibe die ```toString()``` Methode für LKW und Motorrad in geeigneter Art und Weise
-2. Ergänze das Hauptprogramm mit Tests für diese beiden neuen Objekte (analog zur vorigen Folie) und führe es aus
-3. _Bonusaufgabe_: Wie könnte man das [Diagramm](15/2) sinnvoll mit Interfaces ergänzen?
+2. Ergänze das [Hauptprogramm von der vorigen Folie](#/19)  um entsprechende Konstruktor- und Methodenaufrufe mit diesen beiden neuen Objekten
+3. _Bonusaufgabe_: Wie könnte man das [Diagramm](#/15/2) sinnvoll mit Interfaces ergänzen?
 
 
 ---
