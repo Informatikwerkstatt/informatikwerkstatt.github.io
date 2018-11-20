@@ -359,6 +359,35 @@ Note: Fragen, wie beide Protokolle gemergt werden sollen und Studis hinweisen ke
 
 > Ein [Merge-Konflikt](https://git-scm.com/book/de/v1/Git-Branching-Einfaches-Branching-und-Merging#Grundlegende-Merge-Konflikte) tritt auf, wenn zwischen Eurem letzten _Pull_ und dem durchgeführten _Push_ jemand anderes seine Änderungen gepusht hat. Ihr müsst somit zuerst einen _Pull_ machen, den [Konflikt ggf. manuell beheben](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/), dann _committen_ und _pushen_
 
+===
+
+> Beim Autreten eines Merge Confliktes versieht Git die konfliktbehafteten Stellen mit Markern.
+
+```
+# Informatikwerkstatt Namensverzeichnis
+
+* Philipp
+* Niklas
+<<<<<<< HEAD
+* Nikita
+*
+=======
+* Hendrik
+>>>>>>> 6b3c56095659cfc7d77887a27269ee964d9fe4bf
+```
+
+- **HEAD** ist der aktive Branch
+- Unter den = befindet sich der *remote* (zu mergende) Branch
+
+===
+
+Um den Merge abzuschließen:
+- Müssen die Konflikte behoben werden
+- Die Marker entfernt Werden
+- Die betroffenen Dateien erneut zum Stash hinzugefügt werden
+- Änderungen committet werden
+- Anschließend kann wieder gepusht werden
+
 &rArr; Bitte beseitigt alle die auftretenden Konflikte und pusht die Namensliste, so dass wir am Ende alle Namen im Repository haben
 
 ---
