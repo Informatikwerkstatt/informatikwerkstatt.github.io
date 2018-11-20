@@ -57,7 +57,7 @@ Note:  Zwei Studierende auffordern,  Protokoll zu der Veranstaltung heute zu fü
 
 ### Workflow
 
-* Drei Zustände einer Datei: geändert &rarr; vorgemerkt &rarr; committed! 
+* Drei Zustände einer Datei: geändert &rarr; vorgemerkt &rarr; committed!
 * Im _Arbeitsverzeichnis_  werden die Dateien bearbeitet
 * Im _Staging-Bereich_ werden Änderungen vorgemerkt, die in die nächste Version übernommen werden sollen
 * Das _Repository_ enthält ein komplettes Abbild des Projekts
@@ -71,7 +71,7 @@ Note:  Zwei Studierende auffordern,  Protokoll zu der Veranstaltung heute zu fü
 - Git muss mit einigen persönlichen Daten konfiguriert werden
 - Git fügt diese Informationen in jeden Commit ein, um immer eine vollständige Historie zu erzeugen
 - Mit folgenden Befehlen wird der Benutzername und EMail-Adresse gesetzt
-      
+
     ```shell
     git config --global user.name "Dein Vor- und Nachname"
     git config --global user.email EMail-Adresse
@@ -86,7 +86,7 @@ Note:  Zwei Studierende auffordern,  Protokoll zu der Veranstaltung heute zu fü
 
 * Ein Projekt entspricht einem Verzeichnis &rarr; zunächst legt man ein leeres Verzeichnis an
 * In dem Verzeichnis werden zwei Dateien angelegt
-    * [.gitignore](#/8)<sup>1</sup> 
+    * [.gitignore](#/8)<sup>1</sup>
     * ```readme.md``` in der eine Kurzbeschreibung des Projektes als [Markdown](https://de.wikipedia.org/wiki/Markdown) enthalten ist
 * Über die [Git Bash Shell](https://gitforwindows.org/)<sup>2</sup> wechselt man in das erstellte Verzeichnis
 * Dort führt man ```git init``` aus
@@ -108,7 +108,7 @@ Note:  Zwei Studierende auffordern,  Protokoll zu der Veranstaltung heute zu fü
 * Neue, veränderte oder gelöschte Dateien müssen _immer_ vorgemerkt werden
 * Dies tut der Befehl ```git add```; vorzumerkende Dateien müssen als Argumente übergeben werden
     * alle Dateien vormerken mit Punkt, z.B. ```git add .```
-    * [Wildcard](https://de.wikipedia.org/wiki/Wildcard_(Informatik) kann benutzt werden 
+    * [Wildcard](https://de.wikipedia.org/wiki/Wildcard_(Informatik) kann benutzt werden
     * Dateiname mit Endung und ggf. Verzeichnispfad
 * ```git status``` listet alle vorgemerkten Dateien
 
@@ -223,7 +223,7 @@ bin/
 
 ## GitHub - Social Coding
 
-> [GitHub](http://github.com) ist die bekannteste und größte Code-Hosting Plattform und stellt Repositories für Projekte bereit, um gemeinsam Software zu entwickeln 
+> [GitHub](http://github.com) ist die bekannteste und größte Code-Hosting Plattform und stellt Repositories für Projekte bereit, um gemeinsam Software zu entwickeln
 
 - Einfaches Projektmanagement (Issues, Project-Boards)
 - Genutzt von vielen Open Source Projekten, wie [MySQL](https://github.com/mysql), [Tensorflow](https://github.com/tensorflow), [Android](https://github.com/topics/android)
@@ -270,7 +270,7 @@ bin/
 
 1. ```ssh -T git@github.com``` versucht, eine SSH-Verbindung zu Github aufzubauen
 2. Beim ersten Verbindungsaufbau erscheint eine Warnung, die mit **yes** bestätigt werden muss
-2. Der Befehl sollte folgende Ausgabe liefern: 
+2. Der Befehl sollte folgende Ausgabe liefern:
 
     ```Hi **GitHub Benutzername**! You've successfully authenticated, but GitHub does not provide shell access.```
 
@@ -337,7 +337,7 @@ git clone **Repository URL** **Verzeichnisname**
 2. Lösche nun das lokale Verzeichnis auf dem Desktop
 3. Clone das Repository ohne Angabe eines Verzeichnisses
 4. Clone das Repository ein zweites Mal mit Angabe eines beliebigen Verzeichnisnamens, so dass  zwei Verzeichnisse auf dem Desktop liegen
-5. Mache in einem Verzeichnis eine Änderung, z.B. neue Datei einfügen oder Datei verändern 
+5. Mache in einem Verzeichnis eine Änderung, z.B. neue Datei einfügen oder Datei verändern
 6. Pushe diese Änderung zu GitHub; prüfe, ob die Änderung gemacht wurde
 7. Nun mache in dem zweiten Repository einen Pull; prüfe, ob beide Repositories wieder den gleichen Stand haben
 
@@ -346,7 +346,7 @@ git clone **Repository URL** **Verzeichnisname**
 ## @Let's try - Für Alle
 
 1. Clont das [Namen-Repository](https://github.com/Informatikwerkstatt/Namen) der Informatikwerkstatt
-2. Ergänzt in der ```readme.md``` Eure(n) Vornamen 
+2. Ergänzt in der ```readme.md``` Eure(n) Vornamen
 3. Pusht nun die Änderung
 
 &rArr; Was stellt Ihr fest?
@@ -372,6 +372,13 @@ __@Let's try:__ &rArr; Jede(r) erfasst bitte einen Issue mit einem einfachen Kom
 <small>**@Profis:** Man kann durch eine Commit-Nachricht einen Issue [automatisch schließen](https://help.github.com/articles/closing-issues-using-keywords/) und weiss damit, welche Änderungen den Fehler behoben haben</small>
 
 ===
+
+## Übung/@Home: Pflichtabgabe 5 zum 27.11.2018
+
+1. Schreibe deinen GitHub Username neben deinem Namen in das *README* im [Namen-Repository](https://informatikwerkstatt.github.io/git-github/#/19)
+2. Pusht alle eure bisherigen Pflichtabgaben in euer jeweiliges Pflichtabgaben-Repository
+  * Legt für die einzelnen Pflichtabgaben einzelne Packages an
+  * Jedes Teammitglied sollte mindestens einen Commit haben
 
 ## @Profi - Milestones
 
