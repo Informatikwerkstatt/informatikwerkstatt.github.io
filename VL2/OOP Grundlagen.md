@@ -600,9 +600,7 @@ public class CAuto implements IFahrzeug
 1. Ergänze das [Interface ```IFahrzeug```](#/18) und dessen Verwendung in der ```CAuto```-Klasse
 2. Schreibe ein Hauptprogramm (Klasse ```CMain```), in dem eine Variable vom Typ ```IFahrzeug``` erstellt wird, in der einmal ein ```CAuto```- und einmal ein ```CSuv```-Objekt abgelegt wird
 3. Rufe aus dem Hauptprogramm die entsprechenden Methoden der jeweiligen Klassen auf
-4. Speichern Sie Ihr Programm mit allem Klassen und einer kurzen README Datei in einem Github Repository ```Abgabe3```, das sie dafür anlegen 
-
-&rArr; Was stellst Du fest?
+4. Speichern Sie Ihr Programm mit allem Klassen und einer kurzen README Datei in einem Ordner ```Abgabe3``` in Ihrem github Repository (mehr Infos nachher)
 
 ---
 
@@ -613,7 +611,7 @@ public class CAuto implements IFahrzeug
   * Überschreibe die ```toString()``` Methode für LKW und Motorrad in geeigneter Art und Weise
 2. Ergänze das [Hauptprogramm von der vorigen Folie](#/19)  um entsprechende Konstruktor- und Methodenaufrufe mit diesen beiden neuen Objekten
 3. _Bonusaufgabe_: Wie könnte man das [Diagramm](#/15/2) sinnvoll mit Interfaces ergänzen?
-4. 4. Speichern Sie Ihr Programm mit allem Klassen und einer kurzen README Datei in einem Github Repository ```Abgabe4```, das sie dafür anlegen 
+4. 4. Speichern Sie Ihr Programm mit allem Klassen und einer kurzen README Datei in einem Ordner ```Abgabe4``` in Ihrem github Repository (mehr Infos nachher)
 
 
 
