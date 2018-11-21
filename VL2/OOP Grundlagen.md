@@ -590,6 +590,8 @@ public class CAuto implements IFahrzeug
 * Eine Klasse kann von mehreren Interfaces erben
 * Alle geerbten Interface-Methoden _müssen_ implementiert werden
 * Implementierte Interface-Methoden müssen mit der Annotation ```@Override``` versehen werden
+* Mit Interfaces lässt sich in Java Mehrfach-Vererbung realisieren
+  * Beispiel: [Mehrfachvererbung bei Java-Standardklasse ```java.util.ArrayList```](https://docs.oracle.com/javase/10/docs/api/java/util/ArrayList.html)
 
 --- 
 
@@ -598,6 +600,7 @@ public class CAuto implements IFahrzeug
 1. Ergänze das [Interface ```IFahrzeug```](#/18) und dessen Verwendung in der ```CAuto```-Klasse
 2. Schreibe ein Hauptprogramm (Klasse ```CMain```), in dem eine Variable vom Typ ```IFahrzeug``` erstellt wird, in der einmal ein ```CAuto```- und einmal ein ```CSuv```-Objekt abgelegt wird
 3. Rufe aus dem Hauptprogramm die entsprechenden Methoden der jeweiligen Klassen auf
+4. Speichern Sie Ihr Programm mit allem Klassen und einer kurzen README Datei in einem Github Repository ```Abgabe3```, das sie dafür anlegen 
 
 &rArr; Was stellst Du fest?
 
@@ -610,6 +613,8 @@ public class CAuto implements IFahrzeug
   * Überschreibe die ```toString()``` Methode für LKW und Motorrad in geeigneter Art und Weise
 2. Ergänze das [Hauptprogramm von der vorigen Folie](#/19)  um entsprechende Konstruktor- und Methodenaufrufe mit diesen beiden neuen Objekten
 3. _Bonusaufgabe_: Wie könnte man das [Diagramm](#/15/2) sinnvoll mit Interfaces ergänzen?
+4. 4. Speichern Sie Ihr Programm mit allem Klassen und einer kurzen README Datei in einem Github Repository ```Abgabe4```, das sie dafür anlegen 
+
 
 
 ---
