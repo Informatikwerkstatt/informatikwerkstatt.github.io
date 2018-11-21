@@ -405,9 +405,7 @@ __@Let's try:__ &rArr; Jede(r) erfasst bitte einen Issue mit einem einfachen Kom
 ## Übung/@Home: Pflichtabgabe 5 zum 27.11.2018
 
 1. Schreibe deinen GitHub Username neben deinem Namen in das *README* im [Namen-Repository](https://informatikwerkstatt.github.io/git-github/#/19)
-2. Pusht alle eure bisherigen Pflichtabgaben in euer jeweiliges Pflichtabgaben-Repository
-  * Legt für die einzelnen Pflichtabgaben einzelne Packages an
-  * Jedes Teammitglied sollte mindestens einen Commit haben
+  * Jedes Teammitglied muss mindestens einen Commit haben
 
 ## @Profi - Milestones
 
