@@ -606,7 +606,7 @@ public class CAuto implements IFahrzeug
 
 ## Übung/@Home: Pflichtabgabe 4 für 27.11.2018
 
-1. Ergänze zwei neue Klassen für ein Motorrad und einen LKW  mit passenden Methoden
+1. Ergänze zwei neue Klassen für ein Motorrad und einen LKW  mit passenden Methoden; nutzen Sie dafür ```IFahrzeug```; der LKW kann auch von ```CAuto``` erben
   * Definiere für das Motorrad und LKW je eine individuelle Eigenschaft mit Getter und ggf. Setter
   * Überschreibe die ```toString()``` Methode für LKW und Motorrad in geeigneter Art und Weise
 2. Ergänze das [Hauptprogramm von der vorigen Folie](#/19)  um entsprechende Konstruktor- und Methodenaufrufe mit diesen beiden neuen Objekten
