@@ -611,9 +611,9 @@ public class CAuto implements IFahrzeug
   * Definiere für das Motorrad und LKW je eine individuelle Eigenschaft mit Getter und ggf. Setter
   * Überschreibe die ```toString()``` Methode für LKW und Motorrad in geeigneter Art und Weise
 2. Ergänze das [Hauptprogramm von der vorigen Folie](#/19)  um entsprechende Konstruktor- und Methodenaufrufe mit diesen beiden neuen Objekten
-3. _Bonusaufgabe_: Wie könnte man das [Diagramm](#/15/2) sinnvoll mit Interfaces ergänzen?
-4.  Speichern Sie Ihr Programm mit allem Klassen und einer kurzen README Datei in einem Ordner ```Abgabe4``` in eurem Team-Ordner (PC-X) im [Pflichtabgaben-Repository](https://github.com/Informatikwerkstatt/Pflichtabgaben)
-  * Das *X* steht für die Nummer eures PCs (findet sich auch in eurem Benutzernamen)
+3. _Bonusaufgabe_: Ergänze das [Diagramm](#/15/2) sinnvoll mit Interfaces!
+4.  Speichern Sie Ihr Programm (alle Klassen und kurze README Datei) in einem Ordner ```Abgabe4``` in eurem Team-Ordner (PC-X) im [Pflichtabgaben-Repository](https://github.com/Informatikwerkstatt/Pflichtabgaben)
+  * Das *X* steht für die Nummer eures PCs
 
 ---
 
