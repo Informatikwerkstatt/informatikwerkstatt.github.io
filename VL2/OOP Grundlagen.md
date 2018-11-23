@@ -12,7 +12,7 @@ __Grundlagen Objekt-Orientierter Programmierung__
 
 * Beschreibung von Software durch Objekte (seit den 1990ern)
     * Zustand (z.B. Auto hat Farbe, Marke, aktuelle Geschwindigkeit, Gang)
-    * Verhalten (z.B. Gang wechseln, Gas geben, bremsen) 
+    * Verhalten (z.B. Gang wechseln, Gas geben, bremsen)
 * Prinzip **Abstraktion**:
     * Fokus auf das Wichtige &rarr; was tut ein Objekt?
     * Verbergen des Unwichtigen (wie?) &rarr; [Interfaces](#/3/15)
@@ -55,7 +55,7 @@ public class CAuto {
   private int m_aktGeschwindigkeit;
   // aktueller Gang - hier wird ein Wert vorgegeben
   private int m_gang = 1;
-  
+
   // --- definiere Methoden ---
 
   // Default-Konstruktor ohne Parameter
@@ -87,7 +87,7 @@ public class CAuto {
     ```java
     final CAuto l_auto = new CAuto("rot", "beetle", 5, 250);
     ```
-3. Beim Aufruf von ```new``` wird eine spezielle Methode aufgerufen: der [Konstruktor](/#/5) 
+3. Beim Aufruf von ```new``` wird eine spezielle Methode aufgerufen: der [Konstruktor](/#/5)
 
 <small>1: Wieviel Speicher benötigt wird, ist durch die Struktur der Klasse festgelegt</small>
 
@@ -104,7 +104,7 @@ public class CAuto {
 ## Konstruktor
 
 * Konstruktoren sind eine spezielle Struktur innerhalb einer Klassendefinition
-* Ähneln einer Methode, haben aber den Namen der Klasse und keinen Rückgabewert 
+* Ähneln einer Methode, haben aber den Namen der Klasse und keinen Rückgabewert
 
 ```java
 // Default Konstruktor - ohne Parameter
@@ -139,8 +139,8 @@ public CAuto( final String p_farbe, final String p_marke, final int p_anzahlGaen
 1. Erstelle eine Klasse ```CAuto``` mit einer ```main()```-Methode (vollständiges Programm)
 2. Definiere ein paar Eigenschaften für Deine Klasse
 3. Erzeuge in der ```main()``` drei unterschiedliche Instanzen deiner Klasse
-4. Nutze ```System.out.println()```, um die Instanzen auszugeben. Was siehst Du? Was bedeutet das? 
-5. Prüfe die Identität der beiden oben definierten Variablen ```l_auto1``` und ```l_auto2``` in der ```main()```-Methode! Verwende den Operator ```==```. 
+4. Nutze ```System.out.println()```, um die Instanzen auszugeben. Was siehst Du? Was bedeutet das?
+5. Prüfe die Identität der beiden oben definierten Variablen ```l_auto1``` und ```l_auto2``` in der ```main()```-Methode! Verwende den Operator ```==```.
 
 ---
 
@@ -168,7 +168,7 @@ public class CAuto
       m_aktGeschwindigkeit += p_inkrement;
       m_aktGeschwindigkeit = m_aktGeschwindigkeit > m_maxGeschwindigkeit ? m_maxGeschwindigkeit : m_aktGeschwindigkeit;
   }
-  
+
   public void bremse( final int p_dekrement )
   {
       m_aktGeschwindigkeit -= p_dekrement;
@@ -283,7 +283,7 @@ Mache die Methoden ```schalte()```, ```beschleunige()```, ```bremse()``` realist
 * über Sichtbarkeiten können Zugriffe in der Benutzung beschränkt werden
 * zuerst immer alles ```private``` setzen; wenn es zu restriktiv ist, Schritt für Schritt die Sichtbarkeit erhöhen
 
-Note: Erklärung anhand des Büros von Prof Müller: Sitzt Prof Müller während der Sprechstunde mit einem Studi im Büro und hat die Tür zu, dann ist das Gespräch "privat", ist die Tür zum Sekretariat offen, aber zum Gang zu, dann ist das Gespräch "protected", weil Sekretärin mithören kann, aber sie ist ja auch Mitarbeiterin, wenn beide Türen offen sind, dann kann jeder auf dem Gang auch das Gespräch mithören. 
+Note: Erklärung anhand des Büros von Prof Müller: Sitzt Prof Müller während der Sprechstunde mit einem Studi im Büro und hat die Tür zu, dann ist das Gespräch "privat", ist die Tür zum Sekretariat offen, aber zum Gang zu, dann ist das Gespräch "protected", weil Sekretärin mithören kann, aber sie ist ja auch Mitarbeiterin, wenn beide Türen offen sind, dann kann jeder auf dem Gang auch das Gespräch mithören.
 
 ---
 
@@ -315,7 +315,7 @@ public class CAuto
 
   private int m_aktGeschwindigkeit;
   private int m_gang = 1;
-  
+
 
   public CAuto()
   {
@@ -366,7 +366,7 @@ Note: Karton-Drone vorführen, um das Thema "Vererbung" einzuleiten und einen kl
 
 ## Everything is Object - Vererbung
 
-&rArr; Als nächstes wollen wir einen LKW, ein Motorrad und einen SUV dazu bauen, so dass alle eine Seriennummer haben, schalten können etc. 
+&rArr; Als nächstes wollen wir einen LKW, ein Motorrad und einen SUV dazu bauen, so dass alle eine Seriennummer haben, schalten können etc.
 Zusätzlich soll der LKW noch eine Ladung bekommen und das Motorrad einen Sozius?
 Wie machen wir das?
 
@@ -461,7 +461,7 @@ public class CSuv extends CAuto
 
 * Bei Vererbung gibt es einiges Neues bzgl. der _Kompatibilität_ von Datentypen:
   * Welche Variablentypen sind miteinander kompatibel (d.h. können einander zugewiesen werden)?
-  * (Wie) kann ich zur Laufzeit den Typ einer Variable testen? 
+  * (Wie) kann ich zur Laufzeit den Typ einer Variable testen?
 * Betrachten wir unsere beiden Klassen ```CAuto``` und ```CSuv``` und folgendes Programmfragment:
 
 ```java
@@ -472,7 +472,7 @@ public class CSuv extends CAuto
 * Die erste Zeile ist korrekt: Ich kann ein ```CSuv``` Objekt einer ```CAuto``` Variable zuweisen: Ein ```CSuv``` ist ein ```CAuto```!
 * Was ist mit der zweiten Zeile? Versuche das Programm zu kompilieren! Verwende dazu als Vorlage die drei Klassen ```CAuto```, ```CSuv``` und ```CMain``` [Zip-Datei hier](https://github.com/Informatikwerkstatt/informatikwerkstatt.github.io/blob/master/VL2/tasks/hierarchische-typen.zip)!
 
-=== 
+===
 
 ### Laufzeitumgebung und Compiler haben unterschiedliche Sicht auf Vererbung
 
@@ -503,10 +503,10 @@ public class CSuv extends CAuto
 ```
 
 * Was passiert hier? Versuche, das Beispiel zu kompilieren und auszuführen!  
-  * Der Compiler lässt sich durch das Casting "täuschen", das Programm kompiliert 
+  * Der Compiler lässt sich durch das Casting "täuschen", das Programm kompiliert
   * Beim Ausführen tritt jedoch eine ```java.lang.ClassCastException``` auf
 
-=== 
+===
 
 ### Der instanceof Befehl
 
@@ -518,7 +518,7 @@ public class CSuv extends CAuto
     CAuto auto1 = new CSuv("gelb", "golf", 5, 160, false);
     CAuto auto2 = new CAuto("grün", "trabbi", 4, 120);
 
-    CAuto auto3 = auto1; 
+    CAuto auto3 = auto1;
     if (auto3 instanceof CSuv){
       ((CSuv)auto3).setOffroadFahrbar(true); // Casting nötig, sonst Compiler-Fehler!
     }
@@ -570,7 +570,7 @@ public class CAuto implements IFahrzeug
       m_aktGeschwindigkeit += p_inkrement;
       m_aktGeschwindigkeit = m_aktGeschwindigkeit > m_maxGeschwindigkeit ? m_maxGeschwindigkeit : m_aktGeschwindigkeit;
   }
-  
+
   @Override
   public void bremse( final int p_dekrement )
   {
@@ -593,14 +593,15 @@ public class CAuto implements IFahrzeug
 * Mit Interfaces lässt sich in Java Mehrfach-Vererbung realisieren
   * Beispiel: [Mehrfachvererbung bei Java-Standardklasse ```java.util.ArrayList```](https://docs.oracle.com/javase/10/docs/api/java/util/ArrayList.html)
 
---- 
+---
 
 ## Let's try: Pflichtabgabe 3 für 27.11.2018
 
 1. Ergänze das [Interface ```IFahrzeug```](#/18) und dessen Verwendung in der ```CAuto```-Klasse
 2. Schreibe ein Hauptprogramm (Klasse ```CMain```), in dem eine Variable vom Typ ```IFahrzeug``` erstellt wird, in der einmal ein ```CAuto```- und einmal ein ```CSuv```-Objekt abgelegt wird
 3. Rufe aus dem Hauptprogramm die entsprechenden Methoden der jeweiligen Klassen auf
-4. Speichern Sie Ihr Programm mit allem Klassen und einer kurzen README Datei in einem Ordner ```Abgabe3``` in Ihrem github Repository (mehr Infos nachher)
+4. Speichern Sie Ihr Programm mit allem Klassen und einer kurzen README Datei in einem Ordner ```Abgabe3``` in eurem Team-Ordner (PC-X) im [Pflichtabgaben-Repository](https://github.com/Informatikwerkstatt/Pflichtabgaben)
+  * Das *X* steht für die Nummer eures PCs (findet sich auch in eurem Benutzernamen)
 
 ---
 
@@ -611,9 +612,8 @@ public class CAuto implements IFahrzeug
   * Überschreibe die ```toString()``` Methode für LKW und Motorrad in geeigneter Art und Weise
 2. Ergänze das [Hauptprogramm von der vorigen Folie](#/19)  um entsprechende Konstruktor- und Methodenaufrufe mit diesen beiden neuen Objekten
 3. _Bonusaufgabe_: Wie könnte man das [Diagramm](#/15/2) sinnvoll mit Interfaces ergänzen?
-4. 4. Speichern Sie Ihr Programm mit allem Klassen und einer kurzen README Datei in einem Ordner ```Abgabe4``` in Ihrem github Repository (mehr Infos nachher)
-
-
+4.  Speichern Sie Ihr Programm mit allem Klassen und einer kurzen README Datei in einem Ordner ```Abgabe4``` in eurem Team-Ordner (PC-X) im [Pflichtabgaben-Repository](https://github.com/Informatikwerkstatt/Pflichtabgaben)
+  * Das *X* steht für die Nummer eures PCs (findet sich auch in eurem Benutzernamen)
 
 ---
 
@@ -689,7 +689,7 @@ public class CUnterklasse extends COberklasse
 }
 ```
 
-=== 
+===
 
 ### Beispiel für Überladen: ```toString()``` (\*)
 
@@ -749,11 +749,11 @@ CMitToString@61064425: Hallo World
 
 ### @Profis - equals() und hashCode()
 
-Wird die ```toString()``` Methode nicht überladen, erscheint ```COhneToString@e73f9ac``` (Klassenname und Hexadezimalzahl). 
+Wird die ```toString()``` Methode nicht überladen, erscheint ```COhneToString@e73f9ac``` (Klassenname und Hexadezimalzahl).
 
-*  Die [Hexadezimalzahl](https://de.wikipedia.org/wiki/Hexadezimalsystem) ist ein _eindeutiger_ [Hash-Wert](https://de.wikipedia.org/wiki/Hashfunktion), der durch die Methode ```hashCode()``` erzeugt wird und das Objekt in der Java Runtime identifiziert. 
-*  __Wichtige Regel:__ Wenn ```hashCode()``` oder ```equals()``` überladen wird, muss auch die jeweils andere Methode überladen werden. 
-*  Der Hash-Wert muss nur innerhalb einer Klassen-Art eindeutig sein. 
+*  Die [Hexadezimalzahl](https://de.wikipedia.org/wiki/Hexadezimalsystem) ist ein _eindeutiger_ [Hash-Wert](https://de.wikipedia.org/wiki/Hashfunktion), der durch die Methode ```hashCode()``` erzeugt wird und das Objekt in der Java Runtime identifiziert.
+*  __Wichtige Regel:__ Wenn ```hashCode()``` oder ```equals()``` überladen wird, muss auch die jeweils andere Methode überladen werden.
+*  Der Hash-Wert muss nur innerhalb einer Klassen-Art eindeutig sein.
 *  Um zu überprüfen, ob ein Objekt zu einer Klasse gehört, gibt es den [instanceof](https://en.wikibooks.org/wiki/Java_Programming/Keywords/instanceof)-Operator
 
 ===
@@ -814,15 +814,15 @@ Wird die ```toString()``` Methode nicht überladen, erscheint ```COhneToString@e
       final CMitEquals l_mit2 = new CMitEquals( "test" );
 
 
-      System.out.println( "Ohne-1 & Ohne-2 sind " + ( 
-        l_ohne1.equals( l_ohne2 ) 
-        ? "gleich" 
-        : "nicht gleich" ) 
+      System.out.println( "Ohne-1 & Ohne-2 sind " + (
+        l_ohne1.equals( l_ohne2 )
+        ? "gleich"
+        : "nicht gleich" )
       );
-      System.out.println( "Mit-1 & Mit-2 sind " + ( 
-        l_mit1.equals( l_mit2 ) 
-        ? "gleich" 
-        : "nicht gleich" ) 
+      System.out.println( "Mit-1 & Mit-2 sind " + (
+        l_mit1.equals( l_mit2 )
+        ? "gleich"
+        : "nicht gleich" )
       );
     }
 }
@@ -847,7 +847,7 @@ Mit-1 & Mit-2 sind gleich
 ### Lastrada: Worum geht es?
 
 * Die Anwendung beschreibt ein kleines Simulationssystem mit Textausgabe
-* Wir modellieren mehrere Autos mit Fahrern, die am Anfang eines (gedachten) Straßenabschnitts stehen. 
+* Wir modellieren mehrere Autos mit Fahrern, die am Anfang eines (gedachten) Straßenabschnitts stehen.
   * Autos unterscheiden sich z.B. in der maximalen Geschwindigkeit
   * Jedes Auto hat einen Fahrer
   * Jeder Fahrer hat einen Fahrertyp (z.B. normal, entspannt, sportlich) und eine Wunschgeschwindigkeit
@@ -859,7 +859,7 @@ Mit-1 & Mit-2 sind gleich
 ### Lastrada: Die Klassen
 
 *  ```CAuto```: Wie in der Vorlesung gezeigt
-*  ```CFahrer```: Wird einem Auto zugeordnet und implementiert die Fahrstrategie 
+*  ```CFahrer```: Wird einem Auto zugeordnet und implementiert die Fahrstrategie
 *  ```EFahrerTyp```: [Enum Klasse](https://informatikwerkstatt.github.io/java-grundlagen/#/7/2), definiert unterschiedliche Fahrertypen
 *  ```CMain```: Ausführbare Hauptklasse mit ```main()```-Methode, enthält die Simulationslogik
 
@@ -913,16 +913,16 @@ Mit-1 & Mit-2 sind gleich
 
 ## @Home / Übung
 
-> Schreiben Sie ein Programm, mit dem man Brüche berechnen kann! 
+> Schreiben Sie ein Programm, mit dem man Brüche berechnen kann!
 
 * Brüche sollen als Klassen mit Interfaces konstruiert werden
 * Berechnungsfunktionen als Methoden
 * Die Eingabe erfolgt über die Kommandozeile in der Form (siehe [Parameter von Main](/java-grundlagen/#/8/3))
-  
+
   ```shell
   java Bruch 1 / 2 + 3 / 4
   ```
-   
+
 * Implementiere alle vier [Operationen](https://de.wikipedia.org/wiki/Bruchrechnung#Rechnen_mit_Bruchtermen) (Addition, Subtraktion, Multiplikation, Division)
 * Implementiere ```toString()```, ```equals()``` und ```hashCode()``` und ein Interface ```IBruch```
 * __Freiwillig:__ Implementiere einen Algorithmus zum Kürzen des berechneten Bruchs, also aus $\frac{2}{4} \Rightarrow \frac{1}{2}$ und aus $\frac{2}{1} \Rightarrow 2$

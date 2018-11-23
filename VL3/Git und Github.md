@@ -78,6 +78,7 @@ Note:  Zwei Studierende auffordern,  Protokoll zu der Veranstaltung heute zu fü
     ```
 
 - ```git config --global color.ui true``` ermöglicht eine farbige Konsolenausgabe
+- `git config --global core.editor "nano"` ändert den default Text-Editor zu Nano
 - ```git config --list``` oder ```git config {key}``` zum Überpüfen der Einstellungen
 
 ---
@@ -363,7 +364,7 @@ Note: Fragen, wie beide Protokolle gemergt werden sollen und Studis hinweisen ke
 
 > Beim Autreten eines Merge Confliktes versieht Git die konfliktbehafteten Stellen mit Markern.
 
-```
+```Shell
 # Informatikwerkstatt Namensverzeichnis
 
 * Philipp
