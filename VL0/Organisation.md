@@ -99,13 +99,13 @@ Um zu
 
 | Datum   | Thema |
 |:--------|:------|
-| 27. Nov | Beginn Projekt- und Gruppenfindung |
-| 11. Dez | Vorstellung der Projektideen (1 Kurzvortrag pro Gruppe) |
-| 9. Jan | 1. Milestone (Kurzvortrag pro Gruppe) |
-| 23. Jan | 2. Milestone |
-| 06. Feb | 3. Milestone / Abschlusspräsentation |
+| Di 4. Dez | Beginn Projekt- und Gruppenfindung |
+| Di 18. Dez | Vorstellung der Projektthemen (1 Kurzvortrag pro Gruppe: 5 Minuten) |
+| Mi 23. Jan | 1. Milestone (Kurzvortrag pro Gruppe: 7 Minuten ) |
+| Di 29. Jan | Besprechung der Poster |
+| Mi 06. Feb | 2. Milestone : Teaser-Vortrag: 1 Minute; danach Posterpräsentation |
 
-&rArr; Industrievorträge - Termin(e) werden noch bekannt gegeben
+&rArr; Praxisvorträge - Mi 6. Februar
 
 ===
 
