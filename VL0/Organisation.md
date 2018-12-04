@@ -126,9 +126,8 @@ Um zu
 
 ### Projektthemen: Beispiele zur Inspiration
 
-Ihr werde ermutigt, Euch für das Projekt eigene App-Ideen auszudenken (bitte Rücksprache mit uns halten)
-In der Folge findet Ihr ein paar Beispielideen.
-
+* Ihr werde ermutigt, Euch eigene App-Ideen auszudenken (bitte Rücksprache mit uns halten)!
+* In der Folge findet Ihr ein paar Beispielideen
 __Einfachere Themen (beispielhaft)__
 * Ideenmanager
 * Rezepte sammeln und nachschauen
