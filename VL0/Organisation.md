@@ -128,7 +128,9 @@ Um zu
 
 * Ihr werdet ermutigt, Euch _eigene_ App-Ideen auszudenken (bitte Rücksprache mit uns halten)!
 * In der Folge findet Ihr ein paar Beispielideen
+
 __Einfachere Themen (beispielhaft)__
+
 * Ideenmanager
 * Rezepte sammeln und nachschauen
 * (Persönlicher) Zeitplaner
