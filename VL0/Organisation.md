@@ -91,7 +91,7 @@ Um zu
 | 28. Nov | [Android Grundlagen](/android-grundlagen/) - Verwendung Frameworks und Tools |
 | 05. Dez | Android-Programmierung 1 |
 | 12. Dez | Android-Programmierung 2 |
-| 19. Dez | evtl. Android-Programmierung 3 |
+| 19. Dez | Android-Programmierung 3 |
 
 ===
 
@@ -111,7 +111,7 @@ Um zu
 
 ### Pflichtabgaben
 
-* Ab Kapitel 2 gibt es wöchentliche Pflichtabgaben
+* Ab Kapitel 2 bis zum 5.12.2018 gibt es wöchentliche Pflichtabgaben
   * Gewisse Übungen in den Folien sind als "Pflichtabgaben" markiert
   * Sie sind zu den in der Vorlesung genannten Terminen zu bearbeiten
 * Diese Übungen werden in der Dienstagsübung von den Tutoren abgenommen und benotet
@@ -124,13 +124,31 @@ Um zu
 
 ---
 
-### Projektthemen
+### Projektthemen: Beispiele zur Inspiration
 
-Es dürfen gerne auch eigene Vorschläge (nach Rücksprache) umgesetzt werden
+Gerne können (nach Rücksprache mit uns) auch eigene Vorschläge umgesetzt werden!
+
+__Einfachere Themen (beispielhaft)__
+* Ideenmanager
+* Rezepte sammeln und nachschauen
+* (Persönlicher) Zeitplaner
+* Persönlicher Wecker (berechnet Weckzeit aus persönlichen Infos)
+* Lieferapp (Virtuelle Pizza in virtueller Pizzeria bestellen)
+* Boost Your Grades (Nachhilfeangebote finden und inserieren)
+* $...$
+
+__Mittelschwere Themen (beispielhaft)__
+* Weihnachtslieferung
+* Sudoku
+* Uni Map
+* Schach
+* Ballspiele
+* Passwort Manager mit Funktion zum Generieren von Passwörtern unterschiedlicher Schwierigkeit
+* $...$
 
 ===
 
-### Beginner - 2D / 3D Spiel
+### Fortgeschrittene - 2D / 3D Spiel
 
 <div class="flex">
 <div><ul><li>[Türme von Hanoi](https://de.wikipedia.org/wiki/T%C3%BCrme_von_Hanoi) mit frei wählbarer Scheibenanzahl und Nutzung der Sensoren, um die Scheiben zu verschieben</li><li>[Kugellabyrinth](#/5/1), um eine Kugel mittels Sensoren durch ein beim Start zufällig generiertes Labyrinth zu steuern</li></ul></div>
@@ -144,7 +162,7 @@ Es dürfen gerne auch eigene Vorschläge (nach Rücksprache) umgesetzt werden
 
 ===
 
-### Fortgeschrittene - GPS mit Routing
+### Fortgeschrittene / Profis - GPS mit Routing
 
 * [Schleichwegdatenbank](#/5/2), um alle geheimen Abkürzungen in Clausthal auf dem Handy zu haben
 * [Party-Route](#/5/2), um alle Partys in Clausthal zu verwalten und den kürzesten Weg zwischen den einzelnen Locations zu berechnen (die Aufnahme von Points-of-Interest, um z.B. etwas zu Essen auf dem Weg zu finden, wäre auch hilfreich)
