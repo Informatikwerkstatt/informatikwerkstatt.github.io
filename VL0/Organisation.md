@@ -126,7 +126,8 @@ Um zu
 
 ### Projektthemen: Beispiele zur Inspiration
 
-Gerne können (nach Rücksprache mit uns) auch eigene Vorschläge umgesetzt werden!
+Ihr werde ermutigt, Euch für das Projekt eigene App-Ideen auszudenken (bitte Rücksprache mit uns halten)
+In der Folge findet Ihr ein paar Beispielideen.
 
 __Einfachere Themen (beispielhaft)__
 * Ideenmanager
@@ -137,6 +138,9 @@ __Einfachere Themen (beispielhaft)__
 * Boost Your Grades (Nachhilfeangebote finden und inserieren)
 * $...$
 
+===
+
+### Projektthemen: Beispiele zur Inspiration (2)
 __Mittelschwere Themen (beispielhaft)__
 * Weihnachtslieferung
 * Sudoku
@@ -148,7 +152,9 @@ __Mittelschwere Themen (beispielhaft)__
 
 ===
 
-### Fortgeschrittene - 2D / 3D Spiel
+### Projektthemen: Beispiele zur Inspiration (3)
+
+__Themen für Fortgeschrittene - 2D / 3D Spiel__
 
 <div class="flex">
 <div><ul><li>[Türme von Hanoi](https://de.wikipedia.org/wiki/T%C3%BCrme_von_Hanoi) mit frei wählbarer Scheibenanzahl und Nutzung der Sensoren, um die Scheiben zu verschieben</li><li>[Kugellabyrinth](#/5/1), um eine Kugel mittels Sensoren durch ein beim Start zufällig generiertes Labyrinth zu steuern</li></ul></div>
@@ -162,14 +168,18 @@ __Mittelschwere Themen (beispielhaft)__
 
 ===
 
-### Fortgeschrittene / Profis - GPS mit Routing
+### Projektthemen: Beispiele zur Inspiration (4)
+
+__Fortgeschrittene / Profis - GPS mit Routing__
 
 * [Schleichwegdatenbank](#/5/2), um alle geheimen Abkürzungen in Clausthal auf dem Handy zu haben
 * [Party-Route](#/5/2), um alle Partys in Clausthal zu verwalten und den kürzesten Weg zwischen den einzelnen Locations zu berechnen (die Aufnahme von Points-of-Interest, um z.B. etwas zu Essen auf dem Weg zu finden, wäre auch hilfreich)
 
 ===
 
-### Profis - GPS mit Backend
+### Projektthemen: Beispiele zur Inspiration (5)
+
+__Profis - GPS mit Backend__
 
 * [Scotland Yard](https://de.wikipedia.org/wiki/Scotland_Yard_(Spiel): Zu Beginn wird ein Spieler als Mr. X (zufällig) bestimmt. Ziel ist es, Mr. X zu fangen, indem man sich seiner Position nähert, alle paar Minuten werden die Positionen aller Spieler für alle anderen aktualisiert.
 * [Who-I-Am](#5/3): Es gibt eine Karte mit allen Spielerpositionen und eine Liste mit allen Namen. Jeder Spieler kann für einen Namen die Position oder zu einer Position den Namen erfragen. Der gefragte Spielpartner kann entscheiden, ob die Frage wahrheitsgemäß oder falsch (zufällig) beantwortet wird. Ziel ist es, alle Positionen und Namen korrekt zuzuordnen. 
