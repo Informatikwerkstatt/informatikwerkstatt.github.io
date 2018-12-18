@@ -142,21 +142,21 @@ Um zu
   * Wer macht was?
   * Plant regelmäßige Treffen in der Gruppe!
 * Beachtet dabei die Planung die Meilensteintermine:
-  * 23. Januar: Erster Prototyp 
-  * 29. Januar: Abgabe / Besprechung der Poster
-  * 6. Februar: Vorführfertiges System
+  * 23.01.2019: Erster Prototyp 
+  * 29.01.2019: Abgabe / Besprechung der Poster
+  * 06.02.2019: Vorführfertiges System
 
 ===
 
 ### Hinweise: Typische Aufgaben
 
-* Typische Aufgabenbereiche („Arbeitspakete“) für ein Projekt, z.B.   
-  * Anforderungen (Funktionalität) beschreiben
-  * Systemarchitektur beschreiben (s.u.)
-  * Klassen mit Attributen und Methoden, Interfaces mit Methoden festlegen und dokumentieren
-  * Funktionalität implementieren
-  * Implementierung testen
-  * Dokumentation: Meilensteinvorträge, Poster!
+z.B.   
+* Anforderungen (Funktionalität, "Storyboard") beschreiben
+* Systemarchitektur beschreiben (s.u.)
+* Klassen mit Attributen und Methoden, Interfaces mit Methoden festlegen und dokumentieren
+* Funktionalität implementieren
+* Implementierung testen
+* Dokumentation: Meilensteinvorträge, Poster!
 
 ===
 
@@ -169,20 +169,20 @@ Um zu
     * Anwendungslogik
     * Backend, 
     * Serverkommunikation
-    * $\ldots$ weitere / andere
-  * Die Verbindungen zwischen den Komponenten (am besten: grafisch illustrieren, mit Papier, Powerpoint, UML, etc.).  Welche Informationsflüsse gibt es z.B. zwischen GUI, Anwendungslogik, und Backend?
+    * $\ldots$ evtl. weitere / andere
+  * die Verbindungen zwischen den Komponenten (am besten: grafisch illustrieren, mit Papier, Powerpoint, UML, etc.).  Welche Informationsflüsse gibt es z.B. zwischen GUI, Anwendungslogik, und Backend?
 
 ===
 
 ### Hinweise: Zusammenarbeit
 
-* Nutzt GITHUB für die Zusammenarbeit, NICHT Whatsapp
+* Nutzt GITHUB für die Zusammenarbeit, __NICHT Whatsapp__
   * Repository zur gemeinsamen Erstellung des Codes
   * Issues zur Dokumentation von
     * Aufgaben
     * Probleme / auftretende Fehler
     * und deren Bearbeitungsstand
-* Trefft Euch regelmäßig __redet miteinander__
+* Trefft Euch regelmäßig! __redet miteinander!!__
 * Bei Problemen im Team
   * früh ansprechen
   * wenn nicht selbst lösbar --> Betreuer einschalten
@@ -193,12 +193,13 @@ Um zu
 
 * Dokumentiert Euren Code, damit Eure Teammitglieder ihn verstehen können
   * Kurzer Kommentar zu jeder Klasse: Was tut die?
-  * Kurzer Kommentar zu jeder Methode: 
+  * Kurzer Kommentar zu jeder nicht-trivialen Methode: 
     * Was tut die? 
     * Was liefert sie zurück? 
     * Welche Eingaben werden erwartet?
   * Bei „schwierigen“ Code-Teilen kurzer Kommentar: was tut dieser Teil? Was habt Ihr Euch dabei gedacht?
-  * Wer möchte, kann Javadoc ausprobieren, siehe [Dokumentation des Codes im Lastrada-Beispiel](https://github.com/Informatikwerkstatt/informatikwerkstatt.github.io/raw/master/VL2/tasks/lastrada.zip)
+  * Wer möchte, kann [Javadoc](https://www.oracle.com/technetwork/java/javase/index-137868.html) ausprobieren
+    * siehe [Dokumentation des Codes im Lastrada-Beispiel](https://github.com/Informatikwerkstatt/informatikwerkstatt.github.io/raw/master/VL2/tasks/lastrada.zip)
 
 ===
 
