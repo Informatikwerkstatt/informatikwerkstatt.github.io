@@ -124,6 +124,93 @@ Um zu
 
 ---
 
+## Hinweise zur Projektorganisation
+
+* Auf den folgenden Folien geben wir Euch einige Hinweise, wie ihr bei der Organisation Eures Projektes vorgehen sollt.
+* In der Softwareentwicklung nennt man das "Vorgehensmodell"
+* Beispiele: [Scrum](http://scrummethodology.com/), [V-Modell XT](https://www.cio.bund.de/Web/DE/Architekturen-und-Standards/V-Modell-XT/vmodell_xt_node.html)
+* Vorgehensmodelle in der Softwareentwicklung sind sehr detailliert und umfangreich
+* Ihr werdet sie während des Studiums noch kennen lernen
+* Für Euer Projekt in der Informatikwerkstatt geben wir nur ein paar elementare Tipps
+
+===
+
+### Hinweise: Zeitplanung
+
+* Macht Euch einen groben Zeit-/Projektplan!  
+  * Was soll bis wann da sein?
+  * Wer macht was?
+  * Plant regelmäßige Treffen in der Gruppe!
+* Beachtet dabei die Planung die Meilensteintermine:
+  * 23. Januar: Erster Prototyp 
+  * 29. Januar: Abgabe / Besprechung der Poster
+  * 6. Februar: Vorführfertiges System
+
+===
+
+### Hinweise: Typische Aufgaben
+
+* Typische Aufgabenbereiche („Arbeitspakete“) für ein Projekt, z.B.   
+  * Anforderungen (Funktionalität) beschreiben
+  * Systemarchitektur beschreiben (s.u.)
+  * Klassen mit Attributen und Methoden, Interfaces mit Methoden festlegen und dokumentieren
+  * Funktionalität implementieren
+  * Implementierung testen
+  * Dokumentation: Meilensteinvorträge, Poster!
+
+===
+
+### Hinweise: Anforderungen und Architektur
+
+* Setzt Euch zunächst zusammen und definiert die geplante Funktionalität Eures Projektsystems 
+* Entwickelt dann die Grobarchitektur Eures Systems, d.h..
+  * die wesentlichen Komponenten 
+    * Benutzeroberfläche (GUI)
+    * Anwendungslogik
+    * Backend, 
+    * Serverkommunikation
+    * $\ldots$ weitere / andere
+  * Die Verbindungen zwischen den Komponenten (am besten: grafisch illustrieren, mit Papier, Powerpoint, UML, etc.).  Welche Informationsflüsse gibt es z.B. zwischen GUI, Anwendungslogik, und Backend?
+
+===
+
+### Hinweise: Zusammenarbeit
+
+* Nutzt GITHUB für die Zusammenarbeit, NICHT Whatsapp
+  * Repository zur gemeinsamen Erstellung des Codes
+  * Issues zur Dokumentation von
+    * Aufgaben
+    * Probleme / auftretende Fehler
+    * und deren Bearbeitungsstand
+* Trefft Euch regelmäßig __redet miteinander__
+* Bei Problemen im Team
+  * früh ansprechen
+  * wenn nicht selbst lösbar --> Betreuer einschalten
+
+===
+
+### Hinweise: Dokumentation
+
+* Dokumentiert Euren Code, damit Eure Teammitglieder ihn verstehen können
+  * Kurzer Kommentar zu jeder Klasse: Was tut die?
+  * Kurzer Kommentar zu jeder Methode: 
+    * Was tut die? 
+    * Was liefert sie zurück? 
+    * Welche Eingaben werden erwartet?
+  * Bei „schwierigen“ Code-Teilen kurzer Kommentar: was tut dieser Teil? Was habt Ihr Euch dabei gedacht?
+  * Wer möchte, kann Javadoc ausprobieren, siehe [Dokumentation des Codes im Lastrada-Beispiel](https://github.com/Informatikwerkstatt/informatikwerkstatt.github.io/raw/master/VL2/tasks/lastrada.zip)
+
+===
+
+# Hinweise: Betreuung
+
+* Nutzt die wöchentlichen betreuten Zeiten (Di 17-19 Uhr und Mi 8:30-10 Uhr), um 
+  * Fragen zu stellen, 
+  * mit den Tutoren Probleme zu besprechen und 
+  * Hilfestellung zu bekommen 
+
+---
+
 ### Projektthemen: Beispiele zur Inspiration
 
 * Ihr werdet ermutigt, Euch _eigene_ App-Ideen auszudenken (bitte Rücksprache mit uns halten)!
