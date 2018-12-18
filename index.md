@@ -6,6 +6,7 @@
     * [Regeln](/organisation/#/3)
     * [Termine](/organisation/#/4/1)
     * [Projektthemen](/organisation/#/5)
+    * [Hinweise zur Projektorganisation](https://informatikwerkstatt.github.io/organisation/#/5)
 * [VL1 - Java Grundlagen](/java-grundlagen/)
     * [Kommandozeile](/java-grundlagen/#/3)
     * [Datentypen](/java-grundlagen/#/7/1)
