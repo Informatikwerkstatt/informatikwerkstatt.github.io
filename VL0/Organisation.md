@@ -170,7 +170,8 @@ z.B.
     * Backend, 
     * Serverkommunikation
     * $\ldots$ evtl. weitere / andere
-  * die Verbindungen zwischen den Komponenten (am besten: grafisch illustrieren, mit Papier, Powerpoint, UML, etc.).  Welche Informationsflüsse gibt es z.B. zwischen GUI, Anwendungslogik, und Backend?
+  * die Verbindungen zwischen den Komponenten (am besten: grafisch illustrieren, mit Papier, Powerpoint, UML, etc.).  
+    * Welche Informationsflüsse gibt es z.B. zwischen GUI, Anwendungslogik, und/oder Backend?
 
 ===
 
