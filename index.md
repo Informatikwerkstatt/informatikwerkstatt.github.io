@@ -36,6 +36,7 @@
     * [Git Push](/git-github/#/15)
     * [Git Clone](/git-github/#/16)
     * [Git Pull](/git-github/#/17)
+    * [Anleitung Projekt Initialisierung](/git-github/#/23)
 * [VL4 - Android Grundlagen (PDF Folien)](https://github.com/Informatikwerkstatt/informatikwerkstatt.github.io/blob/master/VL4/pdf-slides/VL4-Android%20Grundlagen.pdf)
 * [VL5 - User Interface (PDF Folien)](https://github.com/Informatikwerkstatt/informatikwerkstatt.github.io/blob/master/VL5/pdf-slides/VL5-UserInterface.pdf)
 * [VL6 - Intents, Threads, NFC (PDF Folien)](https://github.com/Informatikwerkstatt/informatikwerkstatt.github.io/blob/master/VL6/pdf-slides/VL6_Intents_Threads_NFC.pdf)
