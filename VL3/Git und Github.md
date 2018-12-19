@@ -426,6 +426,35 @@ __@Let's try:__ &rArr; Jede(r) erfasst bitte einen Issue mit einem einfachen Kom
 
 ---
 
+## @Anleitung - Change Remote Repository
+> Android Studio bietet keine Möglichkeit ein neues Projekt in einem Ordner zu instanziieren, in dem bereits Dateien vorhanden sind. Um trotzdem ein Android Studio Projekt im bereits angelegten Projekt-Repo zu instanziieren ist einmalig ein Workaround nötig!
+
+**Git** muss für die nächsten Schritte zwingend installiert sein.
+
+1. Öffnet euer bestehendes Projekt in Android Studio oder falls noch keins vorhanden ist erstellt euch ein neues
+2. Kopiert den Inhalt der **.gitignore**-Datei vom Github-Repository in die bereits existierende **.gitignore** in euerem Projektordner (Explorer). Der vorhandene Inhalt kann überschrieben werden
+3. Erstellt im Projektordner (Explorer) eine leere **readme.md**-Datei
+
+===
+
+1. Per *ALT + F12* öffnet sich ein Terminal-Fenster in Android Studio
+2. `git init` erstellt ein lokales Repository
+3. `git add * ` staged alle benötigten Projektdateien
+4. `git commit -m "initial commit" ` macht einen initialen commit
+5. Kopiert euch die *Repository URL* (Grüner Button auf GitHub)
+6. `git remote add origin` *Repository URL* Ändert das Remote Repository auf euer jeweiliges Projekt Repository
+7. `git remote -v` zeigt die aktuelle Repository URL an (Überprüfung)
+
+===
+
+8. `git push origin master` pusht den Commit in das Remote Repository
+
+> Bei Fehlern nochmal überprüfen ob die Repository URL richtig geändert wurde, oder ob die **.gitignore** mit der Datei auf GitHub übereinstimmt und eine leere **.readme** Datei erstellt wurde.
+
+9. Überprüft auf Github ob euer Commit vorhanden ist
+
+---
+
 ## @Links
 
 * [Git Bash](https://git-scm.com/downloads)
